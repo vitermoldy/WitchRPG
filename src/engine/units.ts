@@ -929,7 +929,7 @@ export class UnitSystem {
     }
     if (u.state === 'spawn') {
       const k = Math.min(1, u.t / 0.7)
-      m.root.scale.setScalar(0.3 + 0.7 * k)
+      m.root.scale.setScalar((0.3 + 0.7 * k) * u.scale)
       return
     }
     if (u.state === 'rising') {
