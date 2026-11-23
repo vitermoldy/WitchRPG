@@ -216,3 +216,4 @@ export class Hands {
   private readonly tmp = new THREE.Vector3()
 
   constructor() {
+    const tex = glowTexture()
