@@ -36,3 +36,4 @@ export class Umbra {
   }
 
   get riteOpen() {
+    return isUnlocked(this.g.profile, 'rite')
