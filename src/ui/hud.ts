@@ -108,3 +108,4 @@ export class Hud {
     this.set('xp-fill', 'transform', `scaleX(${Math.min(1, pr.xp / xpToNext(pr.level)).toFixed(3)})`)
 
     const chaos = g.spells.overloaded ? (g.spells.overloadT / CHAOS.overloadTime) * 100 : g.spells.chaos
+    this.set('chaos-ring', 'dash', `${chaos.toFixed(1)} 100`)
