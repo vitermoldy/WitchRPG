@@ -1018,3 +1018,4 @@ dialog::backdrop {
 }
 
 .ledger-level {
+  display: grid;
