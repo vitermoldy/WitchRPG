@@ -94,3 +94,4 @@ export class Unit implements Target {
     return this.state !== 'dead'
   }
 
+  get height() {
