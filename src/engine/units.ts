@@ -39,3 +39,4 @@ export class Unit implements Target {
   readonly team: Team
   readonly spec: UnitSpec
   level: number
+  hp: number
