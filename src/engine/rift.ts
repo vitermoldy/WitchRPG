@@ -36,3 +36,4 @@ export class RiftDirector {
   constructor(g: Game) {
     this.g = g
     g.world.portals.forEach((p, i) => {
+      const mat = makeTearMaterial(i * 1.7 + 0.4)
