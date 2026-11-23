@@ -13,3 +13,4 @@ export interface Prop {
   pos: THREE.Vector3
   vel: THREE.Vector3
   spin: THREE.Vector3
+  radius: number
