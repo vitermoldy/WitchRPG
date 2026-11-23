@@ -47,3 +47,4 @@ function pivot(parent: THREE.Object3D, x: number, y: number, z: number) {
   return g
 }
 
+/** A hunched, long-armed ash body with an amber crack down the chest. */
