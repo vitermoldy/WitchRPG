@@ -281,3 +281,4 @@ export class PropSystem {
       if (dx * dx + dz * dz > r * r) continue
       if (p.pos.y - p.halfH > u.pos.y + u.height || p.pos.y + p.halfH < u.pos.y) continue
       p.hitUnits.add(u.id)
+      const dmg = impactDamage(p.mass, speed, c.coefficient, c.exponent)
