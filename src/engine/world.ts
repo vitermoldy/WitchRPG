@@ -90,3 +90,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
     g.fillStyle = v < 0.5 ? 'rgba(0,0,0,0.18)' : 'rgba(255,240,230,0.035)'
     g.fillRect(R() * size, R() * size, 1 + R() * 2, 1 + R() * 2)
   }
+  // Ordinary cracks.
