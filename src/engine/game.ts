@@ -159,6 +159,7 @@ export class Game {
       fire: (from, to, u) => {
         const shot = u.spec.shot!
         if (shot.blast) {
+          // A Bombard aims at the ground under its target and marks where the charge will land.
         this.sfx.spit()
       },
       slamFx: (at, radius, team) => this.slamFx(at, radius, team),
