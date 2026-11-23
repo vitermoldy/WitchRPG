@@ -40,3 +40,4 @@ export interface Profile {
   xp: number
   statPoints: number
   skillPoints: number
+  stats: Stats
