@@ -312,3 +312,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const amb = new THREE.AmbientLight(0x3a2a48, 0.75)
   scene.add(amb)
   const key = new THREE.DirectionalLight(0xff8268, 1.7)
+  key.position.copy(riftDir.clone().multiplyScalar(60))
