@@ -310,3 +310,4 @@ export class UnitSystem {
       }
       return
     }
+    if (u.state === 'strike') {
