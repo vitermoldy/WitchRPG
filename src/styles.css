@@ -1689,3 +1689,5 @@ dialog::backdrop {
 }
 
 @keyframes umbra-breath {
+  0% {
+    opacity: 0;
