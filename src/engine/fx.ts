@@ -359,6 +359,7 @@ export class Warnings {
     w.edge.scale.setScalar(radius)
     w.t = 0
     w.dur = seconds
+    w.fill.userData.r = radius
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
