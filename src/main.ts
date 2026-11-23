@@ -117,6 +117,7 @@ async function boot() {
     const ep = $('result-epilogue')
     ep.hidden = !r.bossDefeated
     ep.textContent =
+      game.profile.bossKills <= 1
     const rows: [string, string, string?][] = [
       ['Waktu', fmtTime(r.elapsed)],
       ['Musuh dikalahkan', String(r.kills)],
