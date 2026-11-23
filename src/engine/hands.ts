@@ -47,3 +47,4 @@ interface Hand {
   pose: Pose
   target: PoseName
   hold: number
+  kick: number
