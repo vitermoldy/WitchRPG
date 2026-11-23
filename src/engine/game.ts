@@ -165,6 +165,7 @@ export class Game {
       units: this.units,
       player: {
         get pos() {
+          return game.player.pos
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
