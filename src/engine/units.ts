@@ -761,6 +761,7 @@ export class UnitSystem {
       armX = Math.sin(t * 18 + u.id) * 1.2 - 1
       lean = 0.1
       shieldUp = false
+    } else if (u.state === 'recover') {
     }
   }
 }
