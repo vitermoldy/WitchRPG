@@ -313,6 +313,7 @@ function riftlord(team: Team): UnitModel {
       p.spine.add(core)
       meshes.push(core)
       p.core = core
+      for (const [x, tilt, h] of [[-0.16, -0.5, 0.5], [0.16, 0.5, 0.5], [-0.05, -0.15, 0.36], [0.05, 0.15, 0.36]] as const) {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
