@@ -149,7 +149,8 @@ export interface Derived {
   damageMult: number
   speedMult: number
   floatTime: number
-  slots: number
+  /** Multiplier on every shadow's HP and damage. */
+  shadowPower: number
 }
 
 /** Stat effects count the points above the starting 5, so a new witch plays at the GDD's base values. */
