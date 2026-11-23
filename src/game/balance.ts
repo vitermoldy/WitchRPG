@@ -131,6 +131,7 @@ export interface UnitSpec {
   slam?: number
   /** Calls husks out of the Rift every few seconds. */
   summon?: { every: number; count: number; max: number }
+  /** Too big to be lifted or flipped by Reality Warp. */
 }
 
 export const UNITS: Record<UnitKind, UnitSpec> = {
