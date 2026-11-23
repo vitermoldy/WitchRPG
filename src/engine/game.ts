@@ -140,6 +140,7 @@ export class Game {
       fire: (from, to, u) => {
         this.projectiles.fire(from, to, u.team === 'rift' ? 'rift' : 'witch', u.damage, u.spec.shot!, u)
         this.sfx.spit()
+      },
     }
     this.unitHost = host
     this.units = new UnitSystem(host)
