@@ -130,3 +130,4 @@ export class Ledger {
       ['Damage Chaos', `${fmt(d.damageMult * 100)}%`],
       ['Waktu melayang', `${fmt(d.floatTime, 1)} detik`],
       ['Slot bayangan', fmt(d.slots)],
+    ]
