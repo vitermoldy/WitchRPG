@@ -112,3 +112,4 @@ export class Game {
       impactFx: (at, s) => this.impactFx(at, s),
       growl: () => this.sfx.growl(),
     }
+    this.unitHost = host
