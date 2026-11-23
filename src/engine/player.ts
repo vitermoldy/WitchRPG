@@ -197,6 +197,9 @@ export class Player {
       }
     }
     // Holding C on the ground lands her.
+    if (canAct && input.held('KeyC') && this.pos.y <= ground + 0.05) this.flying = false
+  }
+
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
