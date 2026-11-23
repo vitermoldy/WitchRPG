@@ -116,3 +116,4 @@ export class Game {
     this.units = new UnitSystem(host)
     this.scene.add(this.units.group)
     this.props = new PropSystem({
+      colliders: this.colliders,
