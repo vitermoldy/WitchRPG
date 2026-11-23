@@ -174,6 +174,8 @@ async function boot() {
     } else if (s === 'dead') {
       const world = game.mode === 'world'
       $('dead-text').textContent = world
+        ? `XP dan bayangan yang sudah didapat tetap tersimpan (Lv ${game.profile.level}). Kamp yang sudah ditaklukkan tetap padam.`
+        : `XP dan bayangan yang sudah didapat tetap tersimpan (Lv ${game.profile.level}). Rift harus diulang dari gelombang pertama.`
       showScreen('dead')
       $('btn-retry').focus()
     }
