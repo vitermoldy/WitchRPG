@@ -462,6 +462,7 @@ function harrier(team: Team): UnitModel {
     parts[side < 0 ? 'wingL' : 'wingR'] = sh
     parts[side < 0 ? 'tipL' : 'tipR'] = tip
     const leg = box(0.05, 0.3, 0.05, s.bone, meshes, -0.22)
+    leg.position.set(side * 0.08, -0.22, 0.18)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
