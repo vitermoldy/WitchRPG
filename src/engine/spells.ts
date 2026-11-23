@@ -88,3 +88,4 @@ const boltMat = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos
 
 export class Spells {
   private readonly g: Game
+  readonly bolts: Bolt[] = []
