@@ -24,3 +24,5 @@ import { Umbra } from './umbra'
 import { Unit, UnitSystem, type DamageSource, type UnitHost } from './units'
 import { buildWorld, type WorldBuild } from './world'
 
+export type GameState = 'loading' | 'title' | 'playing' | 'paused' | 'ledger' | 'result' | 'dead'
+
