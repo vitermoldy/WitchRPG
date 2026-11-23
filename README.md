@@ -24,3 +24,5 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | Q | Chaos Burst (Lv 3) |
 | E | Hex Snare (Lv 5) |
 | X | Hex Barrier (Lv 7) |
+| G | Crimson Overload saat meter Chaos penuh |
+
