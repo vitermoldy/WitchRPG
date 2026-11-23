@@ -103,6 +103,7 @@ async function boot() {
       el.tabIndex = t === game.tier ? 0 : -1
       el.setAttribute('aria-label', open ? `Rift Tier ${TIERS[t].roman}` : `Rift Tier ${TIERS[t].roman}, terbuka di Lv ${TIERS[t].unlock}`)
       const lock = el.querySelector('.tier-lock') as HTMLElement
+      lock.textContent = open ? (p.tierClears[t] ? `${p.tierClears[t]} kali ditutup` : 'Terbuka') : `Lv ${TIERS[t].unlock}`
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
