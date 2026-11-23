@@ -164,3 +164,5 @@ export class BossFight {
     this.landT = 0
     this.g.sfx.roar()
     this.u.setState('recover')
+  }
+
