@@ -72,6 +72,7 @@ const TABLES = [
     level_after TINYINT UNSIGNED NOT NULL,
     shadows_raised TINYINT UNSIGNED NOT NULL,
     seconds INT UNSIGNED NOT NULL,
+    boss TINYINT UNSIGNED NOT NULL DEFAULT 0,
     finished_at DATETIME NOT NULL,
     INDEX runs_by_client (client_id, finished_at),
     CONSTRAINT runs_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
