@@ -80,3 +80,4 @@ export class ShadowCrowd {
   }
 
   /** Builds every kind now, so the first big call does not stall on it. */
+  prepare(kinds: UnitKind[]) {
