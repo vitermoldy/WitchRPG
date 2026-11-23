@@ -128,3 +128,5 @@ const CURTAIN_FRAG = /* glsl */ `
   varying vec2 vUv;
   uniform float uTime;
   void main() {
+    float band = 0.5 + 0.5 * sin(vUv.x * 60.0 + uTime * 0.7 + sin(vUv.y * 9.0 + uTime) * 1.5);
+    float fade = smoothstep(1.0, 0.0, vUv.y) * smoothstep(0.0, 0.06, vUv.y);
