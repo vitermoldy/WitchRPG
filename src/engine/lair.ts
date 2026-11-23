@@ -108,3 +108,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   group.add(abyss)
 
   // Pillars: a wide one in the middle, a ring of eight, four at the edge.
+  const platforms: Platform[] = []
