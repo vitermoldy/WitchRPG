@@ -422,3 +422,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   colliders.add(0, 0, 7, 7, 1.1)
   const obelisk = solid(new THREE.Mesh(new THREE.CylinderGeometry(0.6, 1.1, 8, 4, 1), concrete))
   obelisk.position.set(0.3, 4.6, -0.4)
+  obelisk.rotation.set(0.12, 0.6, -0.09)
