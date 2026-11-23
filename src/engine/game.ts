@@ -428,7 +428,7 @@ export class Game {
   }
 
   private afterLedger() {
-    saveProfile(this.profile)
+    this.persist()
     if (this.ledgerReturn === 'playing' || this.ledgerReturn === 'paused') {
       this.setState('paused')
       this.onState?.('paused')
