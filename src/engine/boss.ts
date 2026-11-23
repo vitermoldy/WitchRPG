@@ -70,3 +70,4 @@ export class BossFight {
     const u = this.u
     this.immuneNote -= dt
     if (!u.alive) return
+    const share = u.hp / u.maxHp
