@@ -81,6 +81,7 @@ export class Unit implements Target {
   /** Seconds left floating in a Reality Warp field. */
   lifted = 0
   liftFrom = 0
+  /** Seconds until a summon or a shadow skill is ready again. */
   // Corpse.
   deadT = 0
   riteTried = false
