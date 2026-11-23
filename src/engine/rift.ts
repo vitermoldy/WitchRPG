@@ -201,6 +201,7 @@ export class RiftDirector {
     this.exitMat.uniforms.uTime.value = t
     this.gateMat.uniforms.uTime.value = t
     // With two Rift Lords, the bar moves to the one still standing.
+    if (this.bossUnit && !this.bossUnit.alive) this.bossUnit = this.boss ? null : (g.units.enemies().find((u) => u.kind === 'riftlord') ?? null)
 
     if (this.phase === 'intro') {
       this.timer -= dt
