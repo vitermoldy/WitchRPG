@@ -214,3 +214,4 @@ export function createApi(getPool, database) {
     res.json({ ok: true, id: r.insertId })
   })
 
+  api.get('/runs', async (req, res) => {
