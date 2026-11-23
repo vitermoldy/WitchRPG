@@ -476,3 +476,4 @@ export class Spells {
     })
     // Tendril from the left palm to the first body.
     const from = g.hands.palmWorld('left', cam)
+    const first = this.grabbed[0]
