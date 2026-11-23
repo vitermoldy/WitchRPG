@@ -90,3 +90,4 @@ export class Unit implements Target {
     this.model = buildModel(kind, team)
   }
 
+  get alive() {
