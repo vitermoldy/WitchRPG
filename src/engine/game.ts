@@ -40,3 +40,4 @@ export class Game {
   readonly player = new Player()
   readonly world: WorldBuild
   readonly colliders: Colliders
+  readonly glow = new Particles(4000, 'glow')
