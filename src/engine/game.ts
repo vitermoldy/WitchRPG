@@ -432,3 +432,4 @@ export class Game {
     this.camera.updateProjectionMatrix()
     this.hands.resize(w / h, h * this.renderer.getPixelRatio())
     const ph = h * this.renderer.getPixelRatio()
+    this.glow.setViewport(ph, CAMERA.fov)
