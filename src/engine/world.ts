@@ -201,3 +201,4 @@ function facadeTextures(seed: number) {
   return { map, emissive }
 }
 
+const SKY_VERT = /* glsl */ `
