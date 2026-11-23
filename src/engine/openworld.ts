@@ -153,3 +153,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const altar = new THREE.Vector3(0, 0, 0)
   const gateSpots: [TierId, number, number][] = [
     [1, 52, 52],
+    [2, -150, 118],
+    [3, 158, -150],
