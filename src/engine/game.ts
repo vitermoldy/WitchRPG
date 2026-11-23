@@ -278,3 +278,4 @@ export class Game {
     if (u.hp <= 0) this.kill(u, from, by)
   }
 
+  private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
