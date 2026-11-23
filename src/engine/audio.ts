@@ -296,6 +296,8 @@ export class Sfx {
   }
 
   /** The army sinking back: the chord falls and the darkness is drawn in. */
+  dismiss() {
+    if (!this.ok()) return
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
