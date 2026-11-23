@@ -312,3 +312,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   scene.add(group)
   return {
     group,
+    colliders,
+    // Inside the altar's healing ring (10 m), just off its steps.
