@@ -74,3 +74,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   function render(state: AuthState = authState()): void {
     const offline = state.status === 'unavailable'
     const wanted = onTitle() && (state.status === 'signed-out' || (offline && !skipped) || (state.status === 'checking' && gate.open))
+    $('gate-checking').hidden = state.status !== 'checking'
