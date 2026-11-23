@@ -397,6 +397,7 @@ export class Game {
         if (Math.random() < 0.5) this.sfx.clank()
       }
     }
+    if (u.team === 'rift') {
     if (this.rift.boss && u === this.rift.boss.u) raw = this.rift.boss.filter(raw, by, from)
     if (raw <= 0) return
     // Chaos and feedback count only the damage that landed, not overkill.
