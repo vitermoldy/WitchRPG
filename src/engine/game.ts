@@ -765,6 +765,7 @@ export class Game {
       return
     }
     if (input.pressed('KeyF') && this.rift.nearGate()) {
+      this.enterLair()
 
     this.spells.update(dt, !wheel)
     this.umbra.update(dt, true)
