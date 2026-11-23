@@ -258,3 +258,4 @@ export class BossFight {
     if (!goal) return
     const from = u.center.add(new THREE.Vector3(0, u.height * 0.25, 0))
     for (let i = 0; i < shots; i++) {
+      const spread = (i - (shots - 1) / 2) * BOSS.volleySpread
