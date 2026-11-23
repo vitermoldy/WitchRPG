@@ -8,3 +8,4 @@ export type ShotTeam = 'rift' | 'witch'
 
 interface Shot {
   pos: THREE.Vector3
+  prev: THREE.Vector3
