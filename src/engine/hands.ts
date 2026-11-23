@@ -344,3 +344,4 @@ export class Hands {
     h.orb.getWorldPosition(this.tmp)
     const col = this.overload ? h.overloadColor : h.color
     for (let i = 0; i < 2; i++) {
+      const a = Math.random() * Math.PI * 2
