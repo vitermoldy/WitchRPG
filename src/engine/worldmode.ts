@@ -67,6 +67,7 @@ export class WorldDirector {
       }
     }
     // Corner camps: some of the pack wake up elite.
+    const plain = c.units.filter((u) => u.kind !== 'riftlord')
   }
 
   update(dt: number) {
