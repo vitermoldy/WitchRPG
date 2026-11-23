@@ -313,6 +313,7 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       c.band === 0
         ? { husk: 4, hound: 2 }
         : c.band === 1
+          ? { husk: 4, hound: 2, spitter: 2 }
   })
 
   // A few wrecks near the square to lift and throw.
