@@ -53,3 +53,4 @@ export class Colliders {
         const d = Math.sqrt(d2)
         dx /= d
         dz /= d
+        pos.x = cx + dx * r
