@@ -37,3 +37,4 @@ function webglOk() {
   }
 }
 
+function fmtTime(s: number) {
