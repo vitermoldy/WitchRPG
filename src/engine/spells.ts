@@ -648,6 +648,7 @@ export class Spells {
     g.hands.pose('right', 'push', 0.5)
     g.hands.kick('left', 1.4)
     g.hands.kick('right', 1.4)
+    g.rings.spawn(at, COLOR.umbra, 0.5, s.radius, 0.6)
   private burst() {
     const g = this.g
     const s = SPELL.burst
