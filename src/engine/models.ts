@@ -333,6 +333,7 @@ function riftlord(team: Team): UnitModel {
           claw.position.set(c * 0.07, -0.98, -0.04)
           claw.rotation.x = Math.PI
           fore.add(claw)
+          meshes.push(claw)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
