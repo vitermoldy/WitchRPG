@@ -29,6 +29,7 @@ const TABLES = [
     umb SMALLINT UNSIGNED NOT NULL,
     next_shadow_id INT UNSIGNED NOT NULL,
     clears INT UNSIGNED NOT NULL,
+    boss_kills INT UNSIGNED NOT NULL DEFAULT 0,
     settings JSON NOT NULL,
     updated_at DATETIME(3) NOT NULL,
     CONSTRAINT witches_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
