@@ -484,3 +484,4 @@ export class Game {
         this.camera.rotation.z += (0.5 - this.camera.rotation.z) * Math.min(1, dt * 2)
       }
     }
+    if (s === 'playing') this.hud.update(dt)
