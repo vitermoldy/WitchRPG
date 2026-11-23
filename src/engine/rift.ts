@@ -30,3 +30,4 @@ export class RiftDirector {
   elapsed = 0
   kills = 0
   xpGained = 0
+  levelsGained = 0
