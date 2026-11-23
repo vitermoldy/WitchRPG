@@ -425,6 +425,7 @@ export class Game {
   private warded(u: Unit) {
     const r = ELITE.ward.radius
     for (const o of this.units.units) {
+      if (o !== u && o.elite === 'penjaga' && o.alive && o.team === 'rift' && o.pos.distanceToSquared(u.pos) < r * r) return true
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
