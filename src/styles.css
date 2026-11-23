@@ -366,3 +366,4 @@ button:disabled {
 
 .result-list {
   display: grid;
+  grid-template-columns: auto auto;
