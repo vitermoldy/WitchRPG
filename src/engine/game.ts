@@ -70,6 +70,7 @@ export class Game {
   /** When a Rift ends: cleared, fallen, or left from the pause menu. */
   onRiftEnd: ((run: RiftRecord) => void) | null = null
   /** Set by the account layer: the Rift history for the Ledger. */
+  historySource: (() => Promise<SavedRift[] | null>) | null = null
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
