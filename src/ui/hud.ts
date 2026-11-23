@@ -139,6 +139,7 @@ export class Hud {
           : r.phase === 'cleared'
             ? g.inLair
               ? 'Keluar lewat retakan di pilar tengah'
+              : 'Keluar lewat retakan di monumen'
 
     // Skills.
     const cds = g.spells.cooldowns()
