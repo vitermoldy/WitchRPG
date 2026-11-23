@@ -1789,3 +1789,5 @@ dialog::backdrop {
 
 /* The army panel is a summary now: counts, then the strongest few on the field. */
 .army-row {
+  display: flex;
+  justify-content: space-between;
