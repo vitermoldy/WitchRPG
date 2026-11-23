@@ -271,6 +271,7 @@ export class Game {
   async warmUp() {
     const samples: Unit[] = []
     for (const kind of Object.keys(UNITS) as UnitKind[]) for (const team of ['rift', 'shadow'] as const) samples.push(this.units.spawn(kind, team, 1, new THREE.Vector3(0, -20, 0)))
+    for (const u of samples) this.units.setDetailed(u, true)
     this.camera.position.set(0, 8, 24)
     this.camera.lookAt(0, 2, 0)
     // The lair is hidden until Tier III; show it for a moment so its shaders build now too.
