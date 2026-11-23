@@ -113,3 +113,5 @@ function groundMaterial() {
         float grain = n2(vWp.xz * 0.6) * 0.5 + n2(vWp.xz * 3.1) * 0.5;
         vec3 block = vec3(0.17, 0.155, 0.16) * (0.8 + 0.35 * grain);
         vec3 asphalt = vec3(0.09, 0.08, 0.085) * (0.85 + 0.3 * grain);
+        vec3 col = mix(block, asphalt, road);
+        col = mix(col, vec3(0.24, 0.22, 0.21), curb * 0.8);
