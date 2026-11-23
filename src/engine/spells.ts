@@ -676,3 +676,4 @@ export class Spells {
   }
 
   private raiseBarrier() {
+    const g = this.g
