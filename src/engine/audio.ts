@@ -119,3 +119,4 @@ export class Sfx {
   barrier(up: boolean) {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    if (up) {
