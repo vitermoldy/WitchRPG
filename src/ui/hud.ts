@@ -138,3 +138,4 @@ export class Hud {
 
     // Prompt under the crosshair.
     let promptHtml = ''
+    const c = g.umbra.candidate
