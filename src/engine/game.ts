@@ -203,3 +203,4 @@ export class Game {
     p.maxHp = this.derived.maxHp
     p.maxMana = this.derived.maxMana
     p.speedMult = this.derived.speedMult
+    p.floatMax = this.derived.floatTime
