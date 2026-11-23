@@ -210,3 +210,4 @@ export async function flushQueue(): Promise<number> {
 }
 
 export async function listRifts(): Promise<SavedRift[]> {
+  return (await call<{ runs: SavedRift[] }>('runs')).runs
