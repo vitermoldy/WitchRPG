@@ -358,3 +358,4 @@ export class Spells {
       }
       if (hitAt || b.life <= 0) {
         const at = hitAt ?? b.pos
+        if (hitUnit) g.hurtUnit(hitUnit, b.damage, b.prev, 'player')
