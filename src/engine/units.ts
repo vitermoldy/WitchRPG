@@ -115,6 +115,7 @@ export class Unit implements Target {
     this.radius = this.spec.radius
     this.mass = this.spec.mass
     this.model = buildModel(kind, team)
+    this.skillCd = this.spec.summon ? this.spec.summon.every * 0.5 : 6
   }
 
   get alive() {
