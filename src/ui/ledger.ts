@@ -49,6 +49,8 @@ export interface LedgerHost {
   history(): Promise<SavedRift[] | null>
 }
 
+const RESULT: Record<SavedRift['result'], string> = { cleared: 'Ditutup', fallen: 'Tumbang', left: 'Ditinggalkan' }
+
 }
 
 /** Status, stats, skill tree and the Shadow Room. */
