@@ -251,3 +251,4 @@ export class Umbra {
       g.saveSoon()
     } else {
       this.turnToAsh(u)
+      g.sfx.riteResult(false)
