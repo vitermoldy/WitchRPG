@@ -540,6 +540,7 @@ export class UnitSystem {
         if (u.lifted > 0) {
           // Floating in a Reality Warp field: drift up to the ceiling of the field and hang there.
           u.lifted -= dt
+          const goal = u.liftFrom + SPELL.warp.liftHeight
         u.pos.addScaledVector(u.vel, dt)
         const n = new THREE.Vector3()
         const wall = host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3, n)
