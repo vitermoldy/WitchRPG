@@ -27,3 +27,4 @@ export interface LairBuild {
   update(t: number): void
 }
 
+function crackTexture(size: number) {
