@@ -1482,6 +1482,8 @@ dialog::backdrop {
   color: var(--umbra-ink);
   font-size: 1.02rem;
   line-height: 1.6;
+}
+
 /* Account */
 .account-row {
   display: flex;
