@@ -28,6 +28,7 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
     ...base,
     ...data,
     stats: { ...base.stats, ...data.stats },
+    tierClears: { ...base.tierClears, ...data.tierClears },
     settings: { ...DEFAULT_SETTINGS, ...data.settings },
     upgrades: { ...data.upgrades },
     shadows: Array.isArray(data.shadows) ? data.shadows : [],
