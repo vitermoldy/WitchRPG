@@ -4,3 +4,4 @@ import {
   buyUpgrade,
   derive,
   gainXp,
+  impactDamage,
