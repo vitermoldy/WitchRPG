@@ -548,6 +548,7 @@ button:disabled {
   animation: fade-through 1.4s ease-out;
 }
 
+@keyframes fade-through {
 .banner {
   position: absolute;
   top: 24%;
