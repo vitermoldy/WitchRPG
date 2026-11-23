@@ -93,3 +93,4 @@ describe('upgrades and shadows', () => {
   it('needs the skill unlocked, built and a point', () => {
     const p = newProfile()
     p.skillPoints = 2
+    expect(buyUpgrade(p, 'burst')).toBe(false)
