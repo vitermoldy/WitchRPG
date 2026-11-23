@@ -70,3 +70,4 @@ export class Ledger {
         const rec = p.shadows.find((s) => s.id === id)
         if (!rec) return
         void confirmDialog(`Lepas ${rec.name}?`, `${rec.name} kembali menjadi debu dan slotnya kosong. Bayangan yang dilepas tidak bisa dipanggil lagi.`, 'Lepas bayangan').then((ok) => {
+          if (ok && releaseShadow(p, id)) this.after()
