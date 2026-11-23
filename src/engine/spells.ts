@@ -323,3 +323,4 @@ export class Spells {
       // Sweep the segment so fast bolts never tunnel through a thin body.
       const seg = this.tmp.copy(b.pos).sub(b.prev)
       const len = seg.length()
+      const dir = seg.clone().divideScalar(len || 1)
