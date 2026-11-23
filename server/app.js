@@ -83,3 +83,4 @@ function cleanProfile(p) {
     seen.add(id)
     shadows.push({ id, name: s.name, kind: s.kind, rank: s.rank, level: lv, xp: sxp })
   }
+  const st = p.settings ?? {}
