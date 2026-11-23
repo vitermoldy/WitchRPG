@@ -106,3 +106,4 @@ export class Projectiles {
         // The witch: a capsule from her feet to her eyes.
         const p = h.player
         if (p.alive) {
+          const y = Math.min(Math.max(s.pos.y, p.pos.y + 0.3), p.pos.y + 1.6)
