@@ -265,3 +265,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   halo.position.y = 3.6
   group.add(halo)
 
+  // Rift gates: tall crimson tears that lead into the arena Rifts.
+  const gates: Gate[] = gateSpots.map(([tier, x, z], i) => {
