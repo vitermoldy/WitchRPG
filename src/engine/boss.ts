@@ -210,3 +210,4 @@ export class BossFight {
     // Phase 3: on the middle pillar, slams when the witch comes close, volleys when she keeps away.
     u.pos.y = this.home.y
     // Inside Reality Warp it reels and does nothing until the field lets go.
+    if (g.spells.inWarp(u.center)) {
