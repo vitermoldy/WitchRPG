@@ -127,3 +127,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     if (!p) return
     for (const k of Object.keys(game.profile) as (keyof Profile)[]) if (!(k in p)) delete game.profile[k]
     Object.assign(game.profile, p)
+    saveProfile(game.profile, false)
