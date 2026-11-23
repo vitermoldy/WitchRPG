@@ -158,3 +158,4 @@ function facadeTextures(seed: number) {
   g.fillStyle = base
   g.fillRect(0, 0, 256, 512)
   eg.fillStyle = '#000'
+  eg.fillRect(0, 0, 256, 512)
