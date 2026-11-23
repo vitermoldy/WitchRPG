@@ -221,6 +221,7 @@ export class RiftDirector {
       }
       // The last few come to her after a while, so a wave never waits on a Spitter left on a far scaffold.
       const left = g.units.enemies()
+      if (!this.queue.length && left.length && left.length <= 3) {
       if (!this.queue.length && g.units.enemies().length === 0) {
         if (this.wave < this.totalWaves) {
           this.phase = 'breather'
