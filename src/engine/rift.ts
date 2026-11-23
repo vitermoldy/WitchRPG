@@ -103,3 +103,4 @@ export class RiftDirector {
     this.elapsed += dt
     const t = this.elapsed
     for (const p of this.portals) {
+      const want = this.phase === 'wave' || this.phase === 'intro' ? 1 : this.phase === 'breather' ? 0.45 : 0
