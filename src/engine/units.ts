@@ -296,6 +296,7 @@ export class UnitSystem {
       const mine = this.units.filter((o) => o.owner === u && o.alive).length
       if (mine < s.max && u.target) {
         for (let i = 0; i < s.count; i++) {
+          const a = u.yaw + (i - (s.count - 1) / 2) * 0.9 + Math.PI
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
