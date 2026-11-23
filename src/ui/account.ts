@@ -19,3 +19,5 @@ import {
 } from '../data/api'
 import type { Game } from '../engine/game'
 import { isFresh, type Profile } from '../game/progression'
+import { clearProfile, normalizeProfile, saveProfile } from '../game/save'
+
