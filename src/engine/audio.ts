@@ -322,6 +322,8 @@ export class Sfx {
       gain.gain.value = 0.0001
       src.connect(filter).connect(gain).connect(this.master!)
       src.start()
+      this.windNodes = { gain, filter }
+    }
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
