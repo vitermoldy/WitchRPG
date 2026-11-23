@@ -253,3 +253,4 @@ export const TEAR_FRAG = /* glsl */ `
     float d = abs(p.x + edge * 0.6) - width;
     float rim = smoothstep(0.09, 0.0, abs(d)) ;
     float inside = smoothstep(0.02, -0.04, d);
+    float swirl = fbm(vec2(p.x * 3.0 + uTime * 0.2, p.y * 5.0 - uTime * 0.5));
