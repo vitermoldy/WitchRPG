@@ -127,3 +127,4 @@ export class Hud {
       const v = `scaleY(${locked ? 0 : cd.toFixed(3)})`
       if (el.style.transform !== v) el.style.transform = v
     }
+    skill('sk-burst', 3, cds.burst)
