@@ -47,3 +47,4 @@ export interface LedgerHost {
   liveShadows(): Set<number>
 }
 
+/** Status, stats, skill tree and the Shadow Room. */
