@@ -119,3 +119,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
       for (const pass of [0, 1]) {
         eg.strokeStyle = pass === 0 ? 'rgba(255,40,60,0.22)' : 'rgba(255,110,100,0.85)'
         g.strokeStyle = 'rgba(0,0,0,0.8)'
+        eg.lineWidth = pass === 0 ? 5 : 1.5
