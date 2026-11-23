@@ -41,3 +41,4 @@ describe('XP curve from the GDD', () => {
     expect(r.unlocked).toContain('rite')
     expect(p.statPoints).toBe(3)
     expect(p.skillPoints).toBe(1)
+  })
