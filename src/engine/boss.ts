@@ -244,3 +244,4 @@ export class BossFight {
   private callHusk(at: THREE.Vector3): Unit | null {
     const g = this.g
     at.y = g.colliders.groundAt(at.x, at.z, 0.5, 5, 6)
+    if (at.y < -50) return null
