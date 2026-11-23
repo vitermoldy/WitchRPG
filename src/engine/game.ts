@@ -426,3 +426,4 @@ export class Game {
   resize() {
     const w = window.innerWidth
     const h = window.innerHeight
+    this.renderer.setSize(w, h, false)
