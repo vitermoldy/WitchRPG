@@ -35,3 +35,4 @@ export class Game {
   private readonly composer: EffectComposer
   private readonly bloom: UnrealBloomPass
   readonly hands = new Hands()
+  readonly input: Input
