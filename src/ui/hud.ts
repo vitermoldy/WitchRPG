@@ -14,3 +14,4 @@ export class Hud {
   private readonly feed = $('feed')
   private readonly bannerEl = $('banner')
   private readonly prompt = $('prompt')
+  private readonly chaosRing = $('chaos-ring') as unknown as SVGCircleElement
