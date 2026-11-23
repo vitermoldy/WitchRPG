@@ -693,7 +693,7 @@ export class Game {
     this.returnToWorld = null
     this.setState('playing')
     if (!keep) {
-      this.hud.banner('Dunia terbuka', 'Kamp makhluk Rift tersebar di kota. Gerbang Rift membawa ke Tier I sampai III.')
+      this.hud.banner('Dunia terbuka', 'Kamp makhluk Rift tersebar di kota. Gerbang Rift membawa ke Tier I sampai V; kamp elite menunggu di keempat sudut.')
       window.setTimeout(() => this.hud.message('Ketuk Spasi dua kali untuk terbang. Spasi naik, C turun, Shift lebih cepat.', 'info'), 1600)
     }
     if (this.profile.shadows.length) window.setTimeout(() => this.hintArmy(), keep ? 900 : 4200)
