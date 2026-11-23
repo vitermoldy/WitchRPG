@@ -91,3 +91,4 @@ export class ShadowCrowd {
       b.used = 0
       if (!counts.has(kind)) b.mesh.count = 0
     }
+    for (const [kind, n] of counts) this.batch(kind, n).used = 0
