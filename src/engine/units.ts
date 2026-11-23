@@ -797,6 +797,7 @@ export class UnitSystem {
     } else if (u.kind === 'warden') P.foreL.rotation.x = 0
     if (u.kind === 'spitter' && P.sac) P.sac.scale.setScalar(u.state === 'windup' ? 1 + Math.min(1, u.t / u.spec.windup) * 0.5 : 1)
     P.jaw.rotation.x = u.state === 'windup' ? 0.5 : Math.sin(t * 2 + u.id) * 0.08 + 0.1
+    P.head.rotation.x = u.kind === 'husk' ? -0.25 : -baseLean * 0.6
     }
   }
 }
