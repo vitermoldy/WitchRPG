@@ -187,6 +187,7 @@ export class Hud {
     this.updateBars()
   }
 
+  private updateBossBar() {
   private updateArmy() {
     const g = this.g
     const slots = g.derived.slots
