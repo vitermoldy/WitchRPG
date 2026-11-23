@@ -236,6 +236,7 @@ export class Game {
     this.onSaved?.()
   }
 
+  private endRift(result: RiftRecord['result']) {
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
