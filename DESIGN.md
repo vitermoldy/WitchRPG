@@ -67,6 +67,8 @@ Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama
 | Upgrade Hex Bolt | 3 peluru × 6 damage (sebelumnya × 9) | Versi lama hampir melipattigakan DPS dan menghabisi fase 1 boss dalam 8 detik. |
 | Kebangkitan Jenderal dan Marsekal | Rift Lord bayangan memanggil dua husk bayangan sementara; Hollow Warden bayangan menarik dan membekukan musuh. Satu Marsekal per boss, tanpa upgrade | GDD: Jenderal punya 1 skill unik, Marsekal hanya satu per boss. GDD tidak memberi upgrade untuk keduanya. |
 
+Hasil bot uji (`?debug`, waktu game): Tier II dari Lv 4 berakhir di Lv 8 sebelum jumlah musuhnya dikurangi sekitar 25%, supaya level tengah butuh lebih dari satu Rift seperti di GDD. Tier III dari Lv 7 sampai Lv 10 dalam satu Rift, dan gerbang Jantung Rift terbuka. Bot boss yang hanya membidik, menghindari lingkaran hantaman, dan bergeser di atas pilar menang dalam sekitar 2,5 menit dengan 80 HP tersisa.
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
