@@ -288,6 +288,7 @@ export const TIERS: Record<TierId, TierSpec> = {
       { husk: 9, hound: 3, spitter: 3, levels: [5, 5] },
       { husk: 10, hound: 4, spitter: 3, levels: [5, 6] },
       { husk: 11, hound: 5, spitter: 4, levels: [6, 6] },
+    ],
   spawnInterval: 0.8,
   breather: 6,
   /** Share of max HP restored when a wave ends; the GDD has no other healing yet. */
