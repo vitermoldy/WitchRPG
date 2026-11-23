@@ -1158,3 +1158,4 @@ dialog::backdrop {
   display: grid;
   align-content: start;
   gap: 0.5rem;
+  margin: 0;
