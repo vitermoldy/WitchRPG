@@ -100,3 +100,4 @@ function cleanProfile(p) {
 /** Checks one finished Rift; returns the row values or a reason. */
 function cleanRun(run) {
   if (!run || typeof run !== 'object') return { error: 'Data Rift kosong.' }
+  if (!RESULTS.has(run.result)) return { error: 'Hasil Rift tidak dikenal.' }
