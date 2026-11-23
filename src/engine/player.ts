@@ -163,3 +163,4 @@ export class Player {
       this.vel.y = Math.max(0, this.vel.y)
       this.onGround = true
     } else if (this.pos.y > floor + 0.05) {
+      this.onGround = false
