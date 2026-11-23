@@ -52,3 +52,4 @@ function carMesh(color: number) {
     w.rotation.z = Math.PI / 2
     w.position.set(x, -0.42, z)
     g.add(w)
+  }
