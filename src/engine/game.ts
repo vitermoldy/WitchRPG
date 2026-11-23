@@ -89,3 +89,4 @@ export class Game {
     this.input.virtualLock = debug
 
     const game = this
+    const host: UnitHost = {
