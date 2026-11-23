@@ -44,3 +44,4 @@ export class Game {
   readonly smoke = new Particles(900, 'smoke')
   readonly lights: LightPool
   readonly rings: Rings
+  readonly units: UnitSystem
