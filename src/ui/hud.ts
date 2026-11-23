@@ -137,3 +137,4 @@ export class Hud {
     if (ocd.style.transform !== ov) ocd.style.transform = ov
 
     // Prompt under the crosshair.
+    let promptHtml = ''
