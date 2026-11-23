@@ -158,3 +158,4 @@ export class Hud {
   }
 
   private updateArmy() {
+    const g = this.g
