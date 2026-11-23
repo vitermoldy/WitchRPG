@@ -318,6 +318,7 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
             ? { husk: 3, hound: 2, warden: 1, harrier: 2 }
             : c.elite
               ? { riftlord: 1, husk: 3, warden: 1 }
+              : { husk: 3, hound: 2, spitter: 1, warden: 2 }
   })
 
   // A few wrecks near the square to lift and throw.
