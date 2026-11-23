@@ -27,3 +27,4 @@ interface Snare {
 
 type Grabbed = { unit: Unit; prop?: undefined } | { prop: Prop; unit?: undefined }
 
+export interface AimHit {
