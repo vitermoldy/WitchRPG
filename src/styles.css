@@ -1443,6 +1443,7 @@ dialog::backdrop {
   background: var(--surface-2);
 }
 
+.tier[aria-checked='true'] {
 /* Account */
 .account-row {
   display: flex;
