@@ -148,3 +148,4 @@ async function boot() {
     if (!ok) return
     const settings = game.profile.settings
     clearProfile()
+    const fresh = newProfile()
