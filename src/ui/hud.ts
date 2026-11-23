@@ -8,6 +8,7 @@ const TRAIT_HINT: Record<EliteTrait, string> = {
   berlapis: 'Berlapis: bolt dan ledakan nyaris tidak melukai. Lempar benda atau makhluk ke arahnya.',
   gesit: 'Gesit: bergerak dan menyerang lebih cepat.',
   meledak: 'Meledak: saat tumbang, ia meledak di dalam lingkaran amber. Menjauh.',
+  penjaga: 'Penjaga: makhluk di dekatnya menerima damage lebih kecil. Jatuhkan dia lebih dulu.',
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
 type Tone = 'info' | 'chaos' | 'umbra' | 'level'
