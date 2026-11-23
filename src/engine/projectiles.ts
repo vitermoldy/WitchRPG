@@ -88,3 +88,4 @@ export class Projectiles {
       // Reality Warp turns a rift glob back on whoever threw it.
       if (s.team === 'rift' && h.inWarp(s.pos)) {
         s.team = 'witch'
+        s.reflected = true
