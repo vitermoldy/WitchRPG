@@ -192,3 +192,5 @@ async function boot() {
   $('btn-dead-title').addEventListener('click', () => {
     game.leaveRift()
   })
+  $('btn-click-resume').addEventListener('click', () => void game.resume())
+
