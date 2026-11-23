@@ -8,3 +8,4 @@ export interface Box {
   top: number
   /** Thin cover that Chaos Burst knocks down. */
   breakable?: boolean
+  mesh?: THREE.Object3D
