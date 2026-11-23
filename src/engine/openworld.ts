@@ -70,3 +70,5 @@ function facadeMaterial() {
       .replace(
         '#include <emissivemap_fragment>',
         `#include <emissivemap_fragment>
+        if (abs(vWn.y) < 0.5) {
+          float u = abs(vWn.x) > 0.5 ? vWp.z : vWp.x;
