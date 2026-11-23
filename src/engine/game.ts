@@ -528,3 +528,4 @@ export class Game {
       input.dx = 0
       input.dy = 0
     }
+    const blockers = this.props.blockers()
