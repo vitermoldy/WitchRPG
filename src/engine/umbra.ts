@@ -167,6 +167,7 @@ export class Umbra {
       const at = this.time + 0.35 + i * stagger
       this.calls.push({ at, rec: pick[i], pos, slot: base + i })
       // Each of the inner ranks gets its own pool; the rest rise out of the wide spill.
+      if (i < POOLS_PER_CALL) g.pools.open(pos, 0.9 + UNITS[pick[i].kind].radius * 1.6, 1.4, 0.3 + i * stagger)
     }
     for (let i = 0; i < 40; i++) {
       const a = Math.random() * Math.PI * 2
