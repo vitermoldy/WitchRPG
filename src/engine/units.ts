@@ -175,3 +175,4 @@ export class UnitSystem {
       }
       for (const o of this.units) {
         if (o.team !== 'shadow' || !o.alive || o.state === 'rising') continue
+        const d = u.pos.distanceTo(o.pos)
