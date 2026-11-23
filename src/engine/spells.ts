@@ -71,6 +71,7 @@ const WARP_FRAG = /* glsl */ `
   uniform float uTime;
   uniform float uFade;
   void main() {
+    float bands = 0.5 + 0.5 * sin(vUv.y * 22.0 - uTime * 7.0 + sin(vUv.x * 40.0) * 0.6);
 const RUNE_VERT = /* glsl */ `
   varying vec2 vUv;
   void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }
