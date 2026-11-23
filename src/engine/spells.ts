@@ -675,6 +675,7 @@ export class Spells {
         if (u.team !== 'rift' || !u.alive || u.state === 'spawn') continue
         if (Math.hypot(u.pos.x - w.pos.x, u.pos.z - w.pos.z) < w.radius) g.units.lift(u, left)
       }
+      if (Math.random() < dt * 40) {
   private burst() {
     const g = this.g
     const s = SPELL.burst
