@@ -59,3 +59,4 @@ async function boot() {
   if (debug) (window as unknown as { __game: Game }).__game = game
   game.start()
   try {
+    await game.warmUp()
