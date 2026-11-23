@@ -110,3 +110,4 @@ export class Projectiles {
           if (Math.hypot(s.pos.x - p.pos.x, s.pos.y - y, s.pos.z - p.pos.z) < s.radius + 0.42) {
             h.hurtPlayer(s.damage, s.prev)
             hit = true
+          }
