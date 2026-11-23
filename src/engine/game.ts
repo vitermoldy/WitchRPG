@@ -567,6 +567,7 @@ export class Game {
     const fight = new BossFight(this, boss, home)
     this.rift.beginLair(fight)
     this.hud.fade()
+    this.hud.banner('The Hollow Warden', 'Penjaga Jantung Rift. Tiga fase: hindari hantaman, bertahan di pilar, lalu buka cangkangnya dengan Reality Warp.')
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
