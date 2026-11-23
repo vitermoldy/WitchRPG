@@ -326,3 +326,4 @@ export class Game {
       return
     }
     p.hp -= left
+    p.hurtTimer = 0.3
