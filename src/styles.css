@@ -181,3 +181,4 @@ button:disabled {
 }
 
 .screen-center {
+  display: flex;
