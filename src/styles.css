@@ -1776,3 +1776,6 @@ dialog::backdrop {
 }
 
 .compass .cm-camp.easy {
+  background: var(--ink-3);
+}
+
