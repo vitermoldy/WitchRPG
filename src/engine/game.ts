@@ -138,3 +138,4 @@ export class Game {
     this.ledger.onClose = () => this.afterLedger()
 
     this.composer = new EffectComposer(this.renderer)
+    this.composer.addPass(new RenderPass(this.scene, this.camera))
