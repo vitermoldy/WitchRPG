@@ -201,3 +201,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       busy = false
       submit.disabled = false
       submit.textContent = label()
+    }
