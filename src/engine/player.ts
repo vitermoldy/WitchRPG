@@ -105,3 +105,4 @@ export class Player {
       if (!this.onGround) this.sliding = 0
     } else {
       const accel = this.onGround ? MOVE.groundAccel : MOVE.airAccel
+      const desiredX = wish.x * target
