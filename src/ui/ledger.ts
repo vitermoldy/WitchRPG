@@ -125,3 +125,4 @@ export class Ledger {
 
     $('derived-list').innerHTML = [
       ['HP maksimum', fmt(d.maxHp)],
+      ['Mana maksimum', fmt(d.maxMana)],
