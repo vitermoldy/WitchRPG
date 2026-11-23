@@ -555,6 +555,7 @@ export class Game {
     this.units.clear()
     this.projectiles.clear()
     this.warnings.clear()
+    this.fuses.length = 0
     this.pools.clear()
     this.respawnProps()
     this.glow.clear()
