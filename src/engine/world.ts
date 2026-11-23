@@ -476,3 +476,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   }
 
   // Reality is bent here: chunks of street float above the plaza.
+  const floaters: { m: THREE.Mesh; base: number; spin: THREE.Vector3; phase: number }[] = []
