@@ -793,5 +793,6 @@ export class Game {
     if (p.pos.y < -6 && p.alive) {
       const loss = Math.round(p.maxHp * BOSS.fallDamage)
       const back = this.lair.nearestTop(p.pos)
+      p.reset(back, p.yaw)
   }
 }
