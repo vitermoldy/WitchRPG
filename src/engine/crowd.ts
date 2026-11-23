@@ -116,3 +116,5 @@ export class ShadowCrowd {
       b.mesh.count = b.used
       if (b.used) b.mesh.instanceMatrix.needsUpdate = true
     }
+  }
+
