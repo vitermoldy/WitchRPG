@@ -26,3 +26,4 @@ export interface Prop {
 
 export interface PropHost {
   colliders: Colliders
+  units: UnitSystem
