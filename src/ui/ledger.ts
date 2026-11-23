@@ -103,6 +103,7 @@ export class Ledger {
     let runs: SavedRift[] | null
     try {
       runs = await this.host.history()
+    } catch {
   close() {
     if (this.dlg.open) this.dlg.close()
   }
