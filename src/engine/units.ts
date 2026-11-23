@@ -283,3 +283,4 @@ export class UnitSystem {
           u.setState('lunge')
         } else {
           u.setState('strike')
+          if (tgt && tgt.alive) {
