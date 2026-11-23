@@ -65,6 +65,7 @@ export class Game {
   private readonly brokenCover: Box[] = []
   private readonly unitHost: UnitHost
   onState: ((s: GameState) => void) | null = null
+  /** After every save of the witch; the account layer sends it to the server. */
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
