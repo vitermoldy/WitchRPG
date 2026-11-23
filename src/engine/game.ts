@@ -150,7 +150,7 @@ export class Game {
     this.units = new UnitSystem(host)
     this.scene.add(this.units.group)
     this.props = new PropSystem({
-      colliders: this.colliders,
+      get colliders() {
       units: this.units,
       hurtUnit: (u, dmg, from, by) => this.hurtUnit(u, dmg, from, by),
       impactFx: (at, s) => this.impactFx(at, s),
