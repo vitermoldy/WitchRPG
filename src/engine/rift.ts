@@ -63,6 +63,7 @@ export class RiftDirector {
     })
     const tear = (seed: number, w: number, h: number, halo: number) => {
       const group = new THREE.Group()
+      const mat = makeTearMaterial(seed)
   }
 
   start() {
