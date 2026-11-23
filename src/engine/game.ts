@@ -110,3 +110,4 @@ export class Game {
       hurtPlayer: (dmg, from) => this.hurtPlayer(dmg, from),
       hurtUnit: (u, dmg, from, by) => this.hurtUnit(u, dmg, from, by),
       impactFx: (at, s) => this.impactFx(at, s),
+      growl: () => this.sfx.growl(),
