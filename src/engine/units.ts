@@ -226,6 +226,7 @@ export class UnitSystem {
   }
 
   /** Gives a unit its own model in the scene, or takes it out so the crowd draws it. */
+  setDetailed(u: Unit, on: boolean) {
   }
 
   clear() {
