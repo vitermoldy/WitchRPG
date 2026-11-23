@@ -130,3 +130,5 @@ export class UnitSystem {
     this.group.add(u.model.root)
     this.units.push(u)
     return u
+  }
+
