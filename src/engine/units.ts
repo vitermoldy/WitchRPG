@@ -111,6 +111,7 @@ export class Unit implements Target {
   /** Seconds a flier has not seen its target; it drops into the street to find it. */
   blind = 0
   /** One of the last of a wave: it goes for the witch and leaves its perch. */
+  hunt = false
 
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
