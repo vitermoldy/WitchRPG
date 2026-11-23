@@ -236,3 +236,4 @@ export const TEAR_VERT = /* glsl */ `
 /** A torn lens of space: black core, violet sparks, crimson rim that the bloom picks up. */
 export const TEAR_FRAG = /* glsl */ `
   varying vec2 vUv;
+  uniform float uTime;
