@@ -171,6 +171,7 @@ export class Unit implements Target {
     this.hp = this.maxHp
     this.damage = Math.round(this.damage * ELITE.damage * 10) / 10
     this.scale = ELITE.scale
+    if (trait === 'gesit') {
 }
 
 const tmp = new THREE.Vector3()
