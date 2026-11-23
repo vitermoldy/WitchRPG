@@ -29,3 +29,4 @@ export interface LairBuild {
 
 function crackTexture(size: number) {
   const c = document.createElement('canvas')
+  c.width = c.height = size
