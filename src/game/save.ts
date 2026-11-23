@@ -23,3 +23,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
       upgrades: { ...data.upgrades },
       shadows: Array.isArray(data.shadows) ? data.shadows : [],
     } as Profile
+    for (const k of STAT_KEYS) if (typeof profile.stats[k] !== 'number') profile.stats[k] = base.stats[k]
