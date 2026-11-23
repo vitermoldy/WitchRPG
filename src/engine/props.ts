@@ -207,3 +207,4 @@ export class PropSystem {
         p.mesh.rotation.z += p.spin.z * dt
         continue
       }
+      if (!p.awake) continue
