@@ -138,6 +138,7 @@ export const SKILLS: SkillDef[] = [
     effect: 'Bisa membangkitkan The Hollow Warden, satu kali. Sebagai bayangan, ia menarik dan membekukan musuh di sekitarnya.',
     upgrade: '',
     built: true,
+    noUpgrade: true,
   },
 ]
 
