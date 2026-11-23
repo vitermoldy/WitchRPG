@@ -57,3 +57,4 @@ export class Unit implements Target {
   readonly model: UnitModel
   flash = 0
   slow = 1
+  vulnerable = 0
