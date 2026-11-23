@@ -82,3 +82,4 @@ function husk(team: Team): UnitModel {
     eye.castShadow = false
     head.add(eye)
   }
+  for (const side of [-1, 1]) {
