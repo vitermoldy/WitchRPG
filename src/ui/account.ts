@@ -114,3 +114,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       button.textContent = 'Masuk'
       button.hidden = false
     }
+  }
+
