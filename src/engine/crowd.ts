@@ -84,3 +84,4 @@ export class ShadowCrowd {
     for (const k of kinds) this.batch(k, 1)
   }
 
+  update(units: Unit[], t: number) {
