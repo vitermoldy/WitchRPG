@@ -490,3 +490,4 @@ export class UnitSystem {
     const flashCol = u.team === 'rift' ? 0xffffff : COLOR.umbraHot
     // A corpse's glow belongs to the rite system, which sets it every frame.
     if (u.flash > 0) {
+      m.bodyMat.emissive.set(flashCol)
