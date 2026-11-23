@@ -163,6 +163,7 @@ export class Game {
           to.y = this.colliders.groundAt(to.x, to.z, 0.3, to.y, 0.5)
           const t = this.projectiles.fire(from, to, u.team === 'rift' ? 'rift' : 'witch', u.damage, shot, u)
           if (u.team === 'rift') this.warnings.show(to, shot.blast, t)
+          this.sfx.impact(0.5)
         this.sfx.spit()
       },
       slamFx: (at, radius, team) => this.slamFx(at, radius, team),
