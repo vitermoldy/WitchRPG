@@ -148,3 +148,4 @@ export class Hud {
       else promptHtml = `<kbd>Tahan R</kbd> Bangkitkan ${name} <span class="chance">${Math.round(g.umbra.chance(c) * 100)}%</span>`
     }
     if (this.cache.get('prompt') !== promptHtml) {
+      this.cache.set('prompt', promptHtml)
