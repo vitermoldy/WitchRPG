@@ -34,3 +34,4 @@ describe('XP curve from the GDD', () => {
   })
   it('8 level-1 kills reach Lv 2', () => {
     const p = newProfile()
+    for (let i = 0; i < 7; i++) gainXp(p, xpForKill(1), ALL)
