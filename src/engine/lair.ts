@@ -131,3 +131,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     }
     const box = colliders.add(x, z, size, size, top)
     platforms.push({ box, center: new THREE.Vector3(x, top, z), size })
+  }
