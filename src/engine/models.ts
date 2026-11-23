@@ -448,6 +448,7 @@ function harrier(team: Team): UnitModel {
     const inner = box(0.78, 0.04, 0.42, bodyMat, meshes)
     inner.position.x = side * 0.39
     sh.add(inner)
+    const bone = box(0.8, 0.06, 0.06, s.bone, meshes)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
