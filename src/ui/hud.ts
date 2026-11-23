@@ -104,6 +104,8 @@ export class Hud {
 
   private updateCompass() {
     const g = this.g
+    const box = $('compass')
+    const p = g.player
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
