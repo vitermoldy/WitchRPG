@@ -159,3 +159,4 @@ async function boot() {
   // Pause.
   $('btn-resume').addEventListener('click', () => void game.resume())
   $('btn-ledger-pause').addEventListener('click', () => game.openLedger('paused'))
+  $('btn-leave').addEventListener('click', async () => {
