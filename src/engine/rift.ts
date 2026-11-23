@@ -79,6 +79,7 @@ export class RiftDirector {
     this.exit = e.group
     this.exitMat = e.mat
     const l = tear(4.1, 3.6, 6.2, COLOR.chaos)
+    this.gate = l.group
   }
 
   start() {
