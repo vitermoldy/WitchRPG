@@ -524,3 +524,4 @@ export class UnitSystem {
       const legL = P.legL, legR = P.legR, armL = P.armL, armR = P.armR
       let armX = 0
       let lean = 0.42
+      if (u.state === 'windup') {
