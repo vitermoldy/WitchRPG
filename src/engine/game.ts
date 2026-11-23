@@ -305,6 +305,7 @@ export class Game {
       levelAfter: this.profile.level,
       shadowsRaised: r.raised.length,
       seconds: Math.round(r.elapsed),
+      boss: r.bossDefeated,
       finishedAt: new Date().toISOString(),
     })
   }
