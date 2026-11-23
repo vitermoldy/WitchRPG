@@ -13,3 +13,4 @@ export class Umbra {
   candidate: Unit | null = null
   casting: Unit | null = null
   progress = 0
+  swapCd = 0
