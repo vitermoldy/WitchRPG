@@ -305,3 +305,4 @@ export class Hands {
       const col = this.overload ? h.overloadColor : h.color
       const pulse = 0.85 + Math.sin(this.t * (this.overload ? 9 : 2.4)) * 0.15
       const glow = (this.overload ? Math.max(1.4, p.glow) : p.glow) + h.flash * 1.5 + (h.side === 'left' ? charge.left : charge.right)
+      const orbMat = h.orb.material as THREE.SpriteMaterial
