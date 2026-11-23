@@ -171,3 +171,4 @@ function writeQueue(list: RiftRecord[]): void {
     localStorage.setItem(QUEUE_KEY, JSON.stringify(list.slice(-50)))
   } catch {
     /* the record is lost if storage is blocked; the history is a convenience */
+  }
