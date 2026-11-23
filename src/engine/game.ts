@@ -611,6 +611,7 @@ export class Game {
     const p = this.player.pos
     const a = Math.random() * Math.PI * 2
     const at = new THREE.Vector3(p.x + Math.cos(a) * 2, p.y, p.z + Math.sin(a) * 2)
+    at.y = this.colliders.groundAt(at.x, at.z, u.radius, p.y + 1, 1.5)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
