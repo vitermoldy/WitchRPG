@@ -163,6 +163,8 @@ export class Unit implements Target {
     this.state = s
     this.t = t
   }
+
+  /** Tougher, bigger, worth more, and one trait on top. */
 }
 
 const tmp = new THREE.Vector3()
