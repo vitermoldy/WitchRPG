@@ -404,3 +404,4 @@ export class Spells {
     if (!first) return
     this.grabbed = [first]
     if (this.upgraded('grip')) {
+      const at = first.unit ? first.unit.pos : first.prop!.pos
