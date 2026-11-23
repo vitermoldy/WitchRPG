@@ -94,3 +94,4 @@ export class Hud {
     if (this.bannerTimer <= 0) this.bannerEl.classList.remove('show')
     this.hitTimer -= dt
     if (this.hitTimer <= 0) this.hitmark.setAttribute('class', 'hitmark')
+    this.hurt = Math.max(0, this.hurt - dt * 1.4)
