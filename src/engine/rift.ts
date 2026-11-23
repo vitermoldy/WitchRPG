@@ -74,6 +74,7 @@ export class RiftDirector {
       group.visible = false
       g.scene.add(group)
       return { group, mat }
+    }
   }
 
   start() {
