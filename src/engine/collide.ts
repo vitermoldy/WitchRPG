@@ -31,3 +31,4 @@ export class Colliders {
 
   remove(b: Box) {
     b.alive = false
+    this.boxes = this.boxes.filter((x) => x !== b)
