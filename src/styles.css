@@ -1808,3 +1808,6 @@ dialog::backdrop {
 
 .army-row.key {
   margin-top: 0.2rem;
+  color: var(--umbra-ink);
+}
+
