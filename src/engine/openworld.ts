@@ -286,3 +286,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     return { tier, pos: new THREE.Vector3(x, 0, z), mat }
   })
 
+  // Camps: a small tear each, seen from far away.
+  const camps: CampSpot[] = campSpots.map((c, i) => {
