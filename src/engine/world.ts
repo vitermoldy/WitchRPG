@@ -109,3 +109,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   }
   // Rift fractures: emissive map only, so they glow without lighting.
   eg.fillStyle = '#000'
+  eg.fillRect(0, 0, size, size)
