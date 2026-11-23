@@ -248,3 +248,4 @@ export class Umbra {
       g.player.addTrauma(0.2)
       g.hud.message(`Bayangan baru: ${rec.name}, ${RANKS[rec.rank].label} dari ${UNITS[rec.kind].name} Lv ${rec.level}.`, 'umbra')
       g.hud.riteResult(true, rec.name)
+      g.saveSoon()
