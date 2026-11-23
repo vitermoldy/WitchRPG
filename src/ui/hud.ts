@@ -239,6 +239,8 @@ export class Hud {
     else if (g.mode === 'rift' && g.rift.nearGate()) promptHtml = '<kbd>F</kbd> Masuk ke Jantung Rift'
     else if (gate) {
       const gp = g.worldDir.gatePrompt(gate)
+      promptHtml = gp.ok ? `<kbd>F</kbd> ${gp.text}` : `<span class="blocked">${gp.text}</span>`
+    } else if (c && many >= 2) {
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
