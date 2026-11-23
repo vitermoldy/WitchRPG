@@ -801,5 +801,6 @@ export class Game {
       p.hp -= loss
       if (p.hp <= 0) this.die()
     }
+    // Phase 2 needs something to throw: keep three rocks within reach of the witch. Rocks that
   }
 }
