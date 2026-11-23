@@ -404,3 +404,4 @@ export class UnitSystem {
       if (!u.alive) continue
       u.pos.x += u.vel.x * dt
       u.pos.z += u.vel.z * dt
+      u.vel.y = 0
