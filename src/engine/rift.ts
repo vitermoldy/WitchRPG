@@ -199,6 +199,7 @@ export class RiftDirector {
         if (this.wave < this.totalWaves) {
           this.phase = 'breather'
           this.timer = RIFT.breather
+          const heal = Math.round(g.player.maxHp * RIFT.breatherHeal)
           g.player.hp = Math.min(g.player.maxHp, g.player.hp + heal)
           g.hud.message(`Gelombang ${this.wave} habis. Jeda ${RIFT_TIER_1.breather} detik, HP pulih ${heal}.`, 'info')
         }
