@@ -58,6 +58,7 @@ Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama
 | Warden | Perisai menahan 85% damage dari depan; lemparan Telekinesis menembus dan membuatnya limbung 2 detik | GDD: dijawab dengan Telekinesis lempar dan Reality Warp. |
 | Rift Lord | Menghantam tanah dengan lingkaran peringatan amber, memanggil 3 husk setiap 14 detik, terlalu berat untuk diangkat | GDD: skill area dan memanggil Husk. |
 | Boss fase 1 | Hantaman (lingkaran 5 m, ancang-ancang 1,3 detik) dan gelombang 6 husk | Lingkaran harus muat di atas pilar supaya bisa dihindari. |
+| Boss fase 2 | Peringatan 3 detik, lantai jatuh, boss melayang dengan cangkang: bolt hanya 10%, benda yang dilempar 150%. Tiga batu selalu tersedia di pilar terdekat | GDD: wajib Crimson Float dan Telekinesis. Batu yang meleset ke sisi jauh tidak dihitung, supaya fase ini tidak macet. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
