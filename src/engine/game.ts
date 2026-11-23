@@ -447,3 +447,4 @@ export class Game {
 
   private tick() {
     // Timer.reset() (on tab switches) measures with performance.now() while update() gets the
+    // frame timestamp, which can be a few ms earlier: the next delta comes out negative. Never
