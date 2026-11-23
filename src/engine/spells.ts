@@ -563,3 +563,4 @@ export class Spells {
     if (!hit.unit && hit.dist >= s.range - 0.01) at.y = g.colliders.groundAt(at.x, at.z, 0.2, at.y, 0.3)
     at.y = Math.max(0, at.y)
     const r = s.radius + (this.upgraded('burst') ? s.radiusUpgrade : 0)
+    this.explode(at, r, s.damage * this.damageMult, s.push, s.lift, true)
