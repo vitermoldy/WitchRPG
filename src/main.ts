@@ -94,3 +94,4 @@ async function boot() {
     const r = game.rift
     const rows: [string, string, string?][] = [
       ['Waktu', fmtTime(r.elapsed)],
+      ['Musuh dikalahkan', String(r.kills)],
