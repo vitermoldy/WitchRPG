@@ -590,3 +590,4 @@ export class Spells {
         u.vel.copy(dir)
       }
     }
+    for (const p of g.props.props) {
