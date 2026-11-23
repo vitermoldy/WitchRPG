@@ -304,6 +304,7 @@ export class UnitSystem {
       u.skillCd = s.every
       return
     }
+    if (u.team !== 'shadow') return
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
