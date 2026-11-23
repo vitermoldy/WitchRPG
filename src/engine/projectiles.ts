@@ -120,3 +120,4 @@ export class Projectiles {
         const len = this.seg.copy(s.pos).sub(s.prev).length()
         const wall = len > 1e-5 ? h.colliders.raycast(s.prev, this.seg.divideScalar(len), len) : null
         const floor = h.colliders.groundAt(s.pos.x, s.pos.z, 0.1, s.pos.y, 0.05)
+        if (wall || s.pos.y <= floor || s.life <= 0) hit = true
