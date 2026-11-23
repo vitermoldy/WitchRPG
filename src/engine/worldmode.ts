@@ -73,3 +73,5 @@ export class WorldDirector {
     const p = g.player
     this.time += dt
     for (const c of this.camps) {
+      const d = Math.hypot(p.pos.x - c.spot.pos.x, p.pos.z - c.spot.pos.z)
+      const want = c.state === 'cleared' ? 0.12 : 1
