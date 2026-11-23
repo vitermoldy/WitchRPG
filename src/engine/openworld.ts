@@ -271,3 +271,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     const tear = new THREE.Mesh(new THREE.PlaneGeometry(5 + tier, 9 + tier * 2), mat)
     tear.position.set(x, (9 + tier * 2) / 2, z)
     tear.lookAt(0, tear.position.y, 0)
+    group.add(tear)
+    const ring = new THREE.Mesh(new THREE.TorusGeometry(4 + tier, 0.25, 6, 32), new THREE.MeshStandardMaterial({ color: 0x140806, emissive: COLOR.chaos, emissiveIntensity: 1.6 }))
