@@ -19,3 +19,4 @@ export const MOVE = {
   floatSink: 0.6,
   staminaMax: 100,
   floatDrain: 20,
+  staminaRegen: 35,
