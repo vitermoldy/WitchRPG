@@ -825,3 +825,4 @@ button:disabled {
 }
 
 .army-slot {
+  display: grid;
