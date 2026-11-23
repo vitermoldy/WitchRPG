@@ -258,3 +258,4 @@ export const TEAR_FRAG = /* glsl */ `
     vec3 rimCol = mix(vec3(1.6, 0.12, 0.2), vec3(2.4, 0.9, 0.7), rim * rim);
     vec3 col = core * inside + rimCol * rim;
     float a = max(inside, rim) * smoothstep(1.0, 0.85, abs(p.y));
+    if (a < 0.01) discard;
