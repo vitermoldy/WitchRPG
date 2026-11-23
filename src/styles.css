@@ -1875,3 +1875,4 @@ dialog::backdrop {
   position: absolute;
   left: 50%;
   bottom: 7px;
+  transform: translateX(-50%);
