@@ -32,3 +32,4 @@ export class Umbra {
     this.progress = 0
     this.swapCd = 0
     this.wheelOpen = false
+    this.down.clear()
