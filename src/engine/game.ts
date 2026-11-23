@@ -127,6 +127,7 @@ export class Game {
     this.rings = new Rings(this.scene)
     this.pools = new ShadowPools(this.scene)
     // Bombards, Rift Lord slams and meledak elites can all be marked on the floor at once in Tier V.
+    this.warnings = new Warnings(this.scene, 12)
     this.input = new Input(canvas)
     this.input.virtualLock = debug
 
