@@ -135,3 +135,4 @@ export class Umbra {
       for (let i = 0; i < 2; i++) {
         const s = Math.random()
         const p = from.clone().lerp(c, s)
+        g.glow.emit({ pos: p, count: 1, color: COLOR.umbra, intensity: 2.4, life: 0.3, size: 0.1, vel: { x: (c.x - from.x) * 0.8, y: (c.y - from.y) * 0.8, z: (c.z - from.z) * 0.8 } })
