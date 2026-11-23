@@ -357,3 +357,4 @@ export class Hands {
         size: 0.014,
         sizeEnd: 0.004,
         vel: { x: (this.tmp.x - from.x) * 4, y: (this.tmp.y - from.y) * 4, z: (this.tmp.z - from.z) * 4 },
+        drag: 0,
