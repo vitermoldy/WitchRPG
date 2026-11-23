@@ -409,3 +409,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       solid(rock)
     }
   }
+  // The arena edge itself.
