@@ -296,6 +296,7 @@ export const TIERS: Record<TierId, TierSpec> = {
     roman: 'III',
     unlock: 7,
     maxAlive: 18,
+    waves: [
   spawnInterval: 0.8,
   breather: 6,
   /** Share of max HP restored when a wave ends; the GDD has no other healing yet. */
