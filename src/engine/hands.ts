@@ -259,3 +259,4 @@ export class Hands {
     return out
   }
 
+  resize(aspect: number, heightPx: number) {
