@@ -323,3 +323,4 @@ export class Hands {
         this.particles.emit({
           pos: this.tmp,
           count: 1,
+          color: col,
