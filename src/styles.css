@@ -1531,6 +1531,7 @@ dialog::backdrop {
   .history-when {
     justify-items: start;
     text-align: left;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
