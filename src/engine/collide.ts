@@ -19,6 +19,7 @@ export interface RayHit {
   box: Box | null
 }
 
+/** Cell size of the box index. A circle query looks at the cells it overlaps, not every box. */
 /** Static world: axis-aligned boxes standing on the ground at y = 0. */
 export class Colliders {
   boxes: Box[] = []
