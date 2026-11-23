@@ -79,3 +79,5 @@ function sigilShape(): THREE.BufferGeometry {
   geo.setIndex(idx)
   geo.computeVertexNormals()
   return geo
+}
+
