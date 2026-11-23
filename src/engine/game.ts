@@ -245,3 +245,4 @@ export class Game {
     const wide = b.maxX - b.minX > b.maxZ - b.minZ
     for (let i = 0; i < 4; i++) {
       const off = (i - 1.5) * 0.7
+      const at = new THREE.Vector3(cx + (wide ? off : 0), 0.5 + Math.random() * 1, cz + (wide ? 0 : off))
