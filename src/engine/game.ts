@@ -820,5 +820,6 @@ export class Game {
           }
         }
         if (rocks.length > 10) {
+          const far = rocks.filter((r) => !r.thrown).sort((a, b) => b.pos.distanceTo(p.pos) - a.pos.distanceTo(p.pos))[0]
   }
 }
