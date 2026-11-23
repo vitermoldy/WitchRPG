@@ -209,6 +209,7 @@ export class Hud {
               : '',
     )
     this.updateBossBar()
+    this.set('stamina-label', 'text', p.flying ? 'Terbang' : 'Stamina')
 
     // Skills.
     const cds = g.spells.cooldowns()
