@@ -77,3 +77,4 @@ function husk(team: Team): UnitModel {
   jaw.add(box(0.2, 0.06, 0.2, s.bone, meshes, -0.03))
   parts.jaw = jaw
   for (const x of [-0.06, 0.06]) {
+    const eye = box(0.06, 0.03, 0.02, s.eye, meshes, 0.13)
