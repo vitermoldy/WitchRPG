@@ -337,4 +337,5 @@ export const BOSS = {
   swallowHeal: 0.015,
   feedEvery: 22,
   /** Falling into the void costs this share of max HP. */
+  fallDamage: 0.15,
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
