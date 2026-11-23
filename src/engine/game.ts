@@ -370,3 +370,4 @@ export class Game {
     this.setState('playing')
     this.umbra.summonAll()
     this.hud.banner('Rift Tier I', 'Bertahan lima gelombang, lalu keluar lewat retakan di monumen.')
+    if (this.profile.level === 1 && this.profile.clears === 0) {
