@@ -542,3 +542,4 @@ export class Game {
     if (this.spells.overloaded) p.mana = Math.min(p.maxMana, p.mana + this.derived.manaRegen * dt)
 
     if (input.pressed('KeyF') && this.rift.nearExit()) {
+      this.finishRift()
