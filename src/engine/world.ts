@@ -192,3 +192,4 @@ function facadeTextures(seed: number) {
       }
     }
   }
+  const map = new THREE.CanvasTexture(c)
