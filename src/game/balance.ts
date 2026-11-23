@@ -9,3 +9,4 @@ export const MOVE = {
   gravity: 22,
   groundAccel: 60,
   airAccel: 16,
+  groundFriction: 12,
