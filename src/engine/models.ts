@@ -193,6 +193,7 @@ type Mats = (typeof shared)['rift'] & { body: THREE.MeshStandardMaterial }
  * so one walk and strike animation fits every humanoid creature. `dress` adds what makes each one.
  */
 function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3D>, m: Mats, meshes: THREE.Mesh[]) => void): UnitModel {
+  const meshes: THREE.Mesh[] = []
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
