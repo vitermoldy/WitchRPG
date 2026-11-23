@@ -521,3 +521,4 @@ export class Spells {
         p.held = false
         p.awake = true
         p.vel.copy(v)
+        p.thrown = throwIt
