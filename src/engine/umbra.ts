@@ -121,3 +121,5 @@ export class Umbra {
         if (k >= 1) g.units.remove(u)
       }
     }
+    this.candidate = this.casting && this.casting.state === 'dead' && !this.casting.riteTried && !this.casting.ash ? this.casting : best
+
