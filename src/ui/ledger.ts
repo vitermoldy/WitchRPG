@@ -124,6 +124,8 @@ export class Ledger {
         </li>`,
       )
       .join('')}</ol>`
+  }
+
   close() {
     if (this.dlg.open) this.dlg.close()
   }
