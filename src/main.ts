@@ -25,3 +25,4 @@ function showScreen(name: keyof typeof screens | null) {
 
 function fail(message: string) {
   showScreen('error')
+  $('error-text').textContent = message
