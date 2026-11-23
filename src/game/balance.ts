@@ -180,3 +180,4 @@ export const RIFT_TIER_1 = {
   breatherHeal: 0.2,
 } as const
 
+export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
