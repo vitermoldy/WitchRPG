@@ -298,6 +298,7 @@ function warden(team: Team): UnitModel {
       const mace = box(0.26, 0.3, 0.26, m.bone, meshes, -0.55)
       p.foreR.add(mace)
     },
+  )
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
