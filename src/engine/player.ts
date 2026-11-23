@@ -121,3 +121,4 @@ export class Player {
     }
 
     // Jump and Crimson Float.
+    const space = canAct && input.held('Space')
