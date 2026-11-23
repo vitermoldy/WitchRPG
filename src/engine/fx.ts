@@ -470,6 +470,8 @@ export class ShadowPools {
       if (p.state === 'opening') {
         // Spills out fast, eases at the edge.
         p.open = Math.min(1, p.t / 0.35)
+        if (p.open >= 1) {
+          p.state = 'holding'
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
