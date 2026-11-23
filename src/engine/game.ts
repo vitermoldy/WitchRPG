@@ -391,3 +391,4 @@ export class Game {
     this.umbra.cancel()
     this.setState('ledger')
     this.input.unlock()
+    this.ledger.open()
