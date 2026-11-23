@@ -122,3 +122,4 @@ export class UnitSystem {
 
   spawn(kind: UnitKind, team: Team, level: number, at: THREE.Vector3, rising = false): Unit {
     const u = new Unit(kind, team, level)
+    u.pos.copy(at)
