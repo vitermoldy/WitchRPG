@@ -1479,6 +1479,7 @@ dialog::backdrop {
 .epilogue {
   max-width: 38rem;
   margin: 0 0 1.4rem;
+  color: var(--umbra-ink);
 /* Account */
 .account-row {
   display: flex;
