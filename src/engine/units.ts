@@ -197,6 +197,7 @@ export class UnitSystem {
   readonly units: Unit[] = []
   private readonly grid = new Map<number, Unit[]>()
   /** Alive units of each side, gathered once a frame for target picking. */
+  private riftAlive: Unit[] = []
   readonly group = new THREE.Group()
   private readonly host: UnitHost
 
