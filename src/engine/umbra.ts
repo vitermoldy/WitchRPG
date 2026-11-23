@@ -269,6 +269,8 @@ export class Umbra {
     // Two or more glowing bodies in reach: one cast raises them all. Otherwise the one under the crosshair.
     if (this.casting.length) {
       this.candidate = this.casting[0]
+      this.targets = this.casting
+    } else {
 
     // Casting.
     const holding = canAct && g.input.held('KeyR')
