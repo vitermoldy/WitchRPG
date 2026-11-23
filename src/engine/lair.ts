@@ -185,3 +185,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
       return best.center.clone().setY(best.center.y + 0.05)
     },
     update(t: number) {
+      floorMat.emissiveIntensity = 0.45 + Math.sin(t * 2.1) * 0.2
