@@ -137,3 +137,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 1.3,
   },
   hound: {
+    name: 'Rift Hound',
