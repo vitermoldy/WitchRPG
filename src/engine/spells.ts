@@ -423,3 +423,4 @@ export class Spells {
         gb.unit.vel.set(0, 0, 0)
         gb.unit.target = null
       } else {
+        gb.prop.held = true
