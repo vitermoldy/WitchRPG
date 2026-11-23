@@ -1874,3 +1874,4 @@ dialog::backdrop {
   content: attr(data-label);
   position: absolute;
   left: 50%;
+  bottom: 7px;
