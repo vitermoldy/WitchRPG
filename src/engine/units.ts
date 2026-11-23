@@ -189,3 +189,4 @@ export class UnitSystem {
       // The marked enemy is down: go back to guarding the witch.
       u.command = 'follow'
       u.focus = null
+    }
