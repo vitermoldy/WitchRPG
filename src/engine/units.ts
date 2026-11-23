@@ -304,3 +304,4 @@ export class UnitSystem {
           this.hit(u, tgt)
         }
       }
+      if (u.t >= (spec.lungeTime ?? 0.4)) {
