@@ -301,3 +301,4 @@ export class Game {
       for (const id of r.unlocked) {
         const s = SKILLS.find((k) => k.id === id)!
         this.hud.message(`Skill baru terbuka: ${s.name} (${s.key}).`, s.branch === 'chaos' ? 'chaos' : 'umbra')
+      }
