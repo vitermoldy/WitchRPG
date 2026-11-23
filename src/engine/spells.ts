@@ -620,6 +620,7 @@ export class Spells {
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 }, uColor: { value: new THREE.Color(COLOR.umbra).lerp(new THREE.Color(COLOR.chaos), 0.35) } },
       vertexShader: RUNE_VERT,
       fragmentShader: RUNE_FRAG,
+      transparent: true,
   private burst() {
     const g = this.g
     const s = SPELL.burst
