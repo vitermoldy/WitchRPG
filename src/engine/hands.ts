@@ -16,3 +16,4 @@ interface Pose {
   glow: number
 }
 
+const POSES: Record<PoseName, Pose> = {
