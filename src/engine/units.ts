@@ -598,6 +598,7 @@ export class UnitSystem {
       if (u.t >= (spec.windup * u.tempo) / Math.max(0.4, u.slow)) {
         if (!tgt || !tgt.alive) {
           u.setState('recover')
+          return
     }
   }
 
