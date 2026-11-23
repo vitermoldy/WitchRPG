@@ -118,3 +118,4 @@ async function boot() {
     hud.hidden = !(s === 'playing' || s === 'paused' || s === 'ledger')
     resumeHint.hidden = true
     if (s === 'title') {
+      renderTitle()
