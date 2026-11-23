@@ -209,3 +209,4 @@ export async function flushQueue(): Promise<number> {
   return sent
 }
 
+export async function listRifts(): Promise<SavedRift[]> {
