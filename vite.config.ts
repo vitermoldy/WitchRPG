@@ -13,3 +13,4 @@ export default defineConfig({
   preview: { port: 4197 },
   // three.js alone is ~600 kB minified; the whole game is one bundle on purpose.
   build: { chunkSizeWarningLimit: 900 },
+  resolve: {
