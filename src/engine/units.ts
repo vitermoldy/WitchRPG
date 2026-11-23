@@ -353,3 +353,4 @@ export class UnitSystem {
           if (u.pos.y <= floor) {
             u.pos.y = floor
             u.vel.set(0, 0, 0)
+          }
