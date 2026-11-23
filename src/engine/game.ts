@@ -43,3 +43,4 @@ export class Game {
   readonly glow = new Particles(4000, 'glow')
   readonly smoke = new Particles(900, 'smoke')
   readonly lights: LightPool
+  readonly rings: Rings
