@@ -58,3 +58,4 @@ export class BossFight {
       dmg *= BOSS.warpDamage
     }
     // A phase cannot be skipped: damage stops just under the next threshold until the phase turns.
+    if (this.phase < 3) {
