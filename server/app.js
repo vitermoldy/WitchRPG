@@ -155,3 +155,5 @@ export function createApi(getPool, database) {
       settings: typeof w.settings === 'string' ? JSON.parse(w.settings) : w.settings,
       updatedAt: new Date(w.updated_at).toISOString(),
     }
+  }
+
