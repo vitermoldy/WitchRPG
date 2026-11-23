@@ -145,6 +145,7 @@ export class RiftDirector {
     const g = this.g
     const next = this.queue.shift()!
     let at: THREE.Vector3 | null = next.kind === 'spitter' ? this.freePerch() : null
+    if (!at) {
   }
 
   update(dt: number) {
