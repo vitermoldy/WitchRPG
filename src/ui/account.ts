@@ -31,3 +31,4 @@ export interface AccountHooks {
 /** Returns `refresh`, for when the title screen comes back after a Rift or the Ledger. */
 export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => void } {
   const gate = $<HTMLDialogElement>('auth-gate')
+  const form = $<HTMLFormElement>('gate-form')
