@@ -508,3 +508,4 @@ export class Game {
         pos: { x: around.x + Math.cos(a) * d, y: Math.random() * 3, z: around.z + Math.sin(a) * d },
         count: 1,
         color: Math.random() < 0.8 ? COLOR.chaosHot : COLOR.umbra,
+        intensity: 1.8,
