@@ -445,3 +445,4 @@ export class UnitSystem {
       const dz = a.pos.z - p.pos.z
       const min = a.radius + p.radius
       const d2 = dx * dx + dz * dz
+      if (d2 < min * min && d2 > 1e-8 && Math.abs(a.pos.y - p.pos.y) < 1.4) {
