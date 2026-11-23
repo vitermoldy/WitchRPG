@@ -564,6 +564,7 @@ export class UnitSystem {
     const lost = u.blind > 1.5
     // Ride above the target, not above whatever roof is underneath; lower when it has lost sight of it.
     // Shadows ride lower, so they stay in the fight around the witch.
+    const height = lost ? 2.5 : u.team === 'shadow' ? spec.fly!.height * 0.6 : spec.fly!.height
     }
   }
 
