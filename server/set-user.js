@@ -28,3 +28,4 @@ if (found) {
   process.exit(0)
 }
 
+const conn = await pool.getConnection()
