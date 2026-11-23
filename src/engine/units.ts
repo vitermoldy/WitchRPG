@@ -804,6 +804,7 @@ export class UnitSystem {
     const grid = this.grid
     grid.clear()
     for (const a of this.units) {
+      if (!free(a)) continue
       }
       // Keep clear of the witch.
       const p = host.player
