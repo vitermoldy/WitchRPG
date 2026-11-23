@@ -24,3 +24,4 @@ export interface Prop {
   hitCooldown: number
 }
 
+export interface PropHost {
