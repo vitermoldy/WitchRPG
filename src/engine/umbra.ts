@@ -17,3 +17,4 @@ export class Umbra {
   wheelOpen = false
   wheelChoice: WheelChoice | null = null
   private wheelX = 0
+  private wheelY = 0
