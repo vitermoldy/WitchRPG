@@ -19,3 +19,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
       ...base,
       ...data,
       stats: { ...base.stats, ...data.stats },
+      settings: { ...DEFAULT_SETTINGS, ...data.settings },
