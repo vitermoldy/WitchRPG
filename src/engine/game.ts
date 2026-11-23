@@ -543,6 +543,8 @@ export class Game {
     this.lair.group.visible = false
     this.activeColliders = this.world.colliders
     this.respawnProps()
+  }
+
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
