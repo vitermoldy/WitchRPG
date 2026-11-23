@@ -260,3 +260,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     pillar.castShadow = true
     group.add(pillar)
   }
+  const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTexture(), color: new THREE.Color(COLOR.umbra).multiplyScalar(1.2), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }))
+  halo.scale.set(9, 9, 1)
