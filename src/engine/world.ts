@@ -438,3 +438,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     s.position.set(x, 0.62, z)
     scene.add(s)
     colliders.add(x, z, w, d, 0.9)
+  }
+
