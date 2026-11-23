@@ -252,6 +252,7 @@ export type TierId = 1 | 2 | 3
 
 export interface TierSpec {
   tier: TierId
+  name: string
 }
 
 export const RIFT_TIER_1 = {
