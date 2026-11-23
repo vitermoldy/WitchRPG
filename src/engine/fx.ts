@@ -426,6 +426,8 @@ export class ShadowPools {
   constructor(scene: THREE.Object3D, count = 140) {
     const geo = new THREE.PlaneGeometry(2, 2)
     geo.rotateX(-Math.PI / 2)
+    for (let i = 0; i < count; i++) {
+      const mat = new THREE.ShaderMaterial({
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
