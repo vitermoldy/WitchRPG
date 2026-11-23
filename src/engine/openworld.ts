@@ -229,3 +229,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     depthWrite: false,
     side: THREE.DoubleSide,
     blending: THREE.AdditiveBlending,
+    fog: false,
+  })
