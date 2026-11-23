@@ -825,5 +825,6 @@ export class Game {
             this.props.group.remove(far.mesh)
             this.props.props.splice(this.props.props.indexOf(far), 1)
           }
+        }
   }
 }
