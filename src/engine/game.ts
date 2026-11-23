@@ -85,3 +85,4 @@ export class Game {
     this.scene.add(this.glow.points, this.smoke.points)
     this.lights = new LightPool(this.scene, 6)
     this.rings = new Rings(this.scene)
+    this.input = new Input(canvas)
