@@ -78,3 +78,5 @@ function facadeMaterial() {
           float h = h21(cell + floor(vWp.xz / 37.0));
           diffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.05, 0.04, 0.045), win);
           vec3 lit = h > 0.985 ? vec3(1.0, 0.3, 0.3) : vec3(1.0, 0.62, 0.32);
+          totalEmissiveRadiance += lit * win * step(0.93, h) * (0.6 + 0.4 * h21(cell * 1.7));
+          // Grime that darkens toward the street.
