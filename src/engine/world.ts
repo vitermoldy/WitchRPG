@@ -412,3 +412,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   // The arena edge itself.
   const wall = half + 0.5
   colliders.add(0, -wall, wall * 2 + 2, 1, 60)
+  colliders.add(0, wall, wall * 2 + 2, 1, 60)
