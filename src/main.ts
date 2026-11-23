@@ -236,6 +236,8 @@ async function boot() {
     }
     const gate = !!game.returnToWorld
     const ok = await confirmDialog(
+      'Tinggalkan Rift?',
+      `XP dan bayangan yang sudah didapat tetap tersimpan. Gelombang di Rift ini harus diulang dari awal.${gate ? ' Ilyra keluar lewat gerbang tempat dia masuk.' : ''}`,
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
     game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
