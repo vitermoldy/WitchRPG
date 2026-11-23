@@ -473,3 +473,4 @@ export class Spells {
         p.vel.copy(np).sub(p.pos).divideScalar(Math.max(dt, 1e-4))
         p.pos.copy(np)
       }
+    })
