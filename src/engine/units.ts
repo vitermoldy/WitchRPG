@@ -808,6 +808,7 @@ export class UnitSystem {
       const k = cellKey(Math.floor(a.pos.x / CELL), Math.floor(a.pos.z / CELL))
       const cell = grid.get(k)
       if (cell) cell.push(a)
+      else grid.set(k, [a])
       }
       // Keep clear of the witch.
       const p = host.player
