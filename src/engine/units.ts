@@ -311,3 +311,4 @@ export class UnitSystem {
       return
     }
     if (u.state === 'strike') {
+      if (u.t >= 0.18) {
