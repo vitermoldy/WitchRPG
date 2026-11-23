@@ -75,3 +75,4 @@ function crateMesh() {
   const g = new THREE.Group()
   const b = new THREE.Mesh(new THREE.BoxGeometry(0.8, 0.8, 0.8), crateMat)
   g.add(b)
+  for (const y of [-0.36, 0.36]) {
