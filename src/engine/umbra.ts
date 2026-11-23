@@ -397,6 +397,8 @@ export class Umbra {
     g.hands.kick('right', 1.4)
     const raised: ShadowRecord[] = []
     let faded = 0
+    for (const u of list) {
+      u.riteTried = true
       const rec = addShadow(g.profile, u.kind, u.level)
       if (!rec) {
         g.hud.message('Slot bayangan penuh. Lepas satu di Ledger (Tab).', 'umbra')
