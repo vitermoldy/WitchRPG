@@ -65,3 +65,5 @@ export class Player {
 
   addTrauma(amount: number) {
     this.trauma = Math.min(1, this.trauma + amount)
+  }
+
