@@ -80,3 +80,5 @@ export class Player {
     const str = k('KeyD') - k('KeyA')
     const wish = new THREE.Vector3().addScaledVector(this.forward, fwd).addScaledVector(this.right, str)
     const moving = wish.lengthSq() > 0
+    if (moving) wish.normalize()
+
