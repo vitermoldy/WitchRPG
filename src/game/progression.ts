@@ -106,3 +106,4 @@ export function derive(stats: Stats): Derived {
     manaRegen: PLAYER.manaRegen * (1 + PLAYER.manaRegenPerSpr * above('spr')),
     damageMult: 1 + PLAYER.damagePerHex * above('hex'),
     speedMult: 1 + PLAYER.speedPerAgi * above('agi'),
+    floatTime: MOVE.floatMax + MOVE.floatPerAgi * above('agi'),
