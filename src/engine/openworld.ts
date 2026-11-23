@@ -162,6 +162,7 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     [5, 222, 30],
   ]
   // The corners, farthest from the square: Lv 10 to 12 camps with elites.
+  const corners: [number, number][] = [
   ]
   const campDefs: { band: 0 | 1 | 2; elite?: boolean }[] = [
     ...Array.from({ length: 6 }, () => ({ band: 0 as const })),
