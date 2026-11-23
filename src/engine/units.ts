@@ -222,3 +222,5 @@ export class UnitSystem {
     while (diff > Math.PI) diff -= Math.PI * 2
     while (diff < -Math.PI) diff += Math.PI * 2
     u.yaw += diff * Math.min(1, dt * rate)
+  }
+
