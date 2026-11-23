@@ -72,3 +72,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   g.fillRect(px(-road), 0, px(road) - px(-road), size)
   g.fillRect(0, px(-road), size, px(road) - px(-road))
   // Lane dashes, worn.
+  g.fillStyle = 'rgba(190,180,170,0.28)'
