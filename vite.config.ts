@@ -17,3 +17,4 @@ export default defineConfig({
     alias: { '@': root + 'src' },
     dedupe: ['three'],
   },
+})
