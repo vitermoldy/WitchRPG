@@ -499,6 +499,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   // Scaffolds left by the evacuation: the only high ground, where Spitters perch.
   const perches: THREE.Vector3[] = []
   const scaffoldMetal = new THREE.MeshStandardMaterial({ color: 0x3a3436, roughness: 0.55, metalness: 0.6, flatShading: true })
+  const plank = new THREE.MeshStandardMaterial({ color: 0x4a3a2c, roughness: 0.9, flatShading: true })
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
