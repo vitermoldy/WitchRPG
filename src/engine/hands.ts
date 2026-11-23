@@ -54,3 +54,5 @@ interface Hand {
 }
 
 // Fitted dark gloves: the glowing sigils carry the colour, the hands read as silhouettes.
+const skinMat = () => new THREE.MeshStandardMaterial({ color: 0x4a3640, roughness: 0.4, metalness: 0.15 })
+
