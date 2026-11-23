@@ -68,6 +68,8 @@ async function boot() {
   const hud = $('hud')
   const resumeHint = $('resume-hint')
 
+  let account: { refresh: () => void } | null = null
+
   const renderTitle = () => {
     const p = game.profile
     const base = newProfile()
