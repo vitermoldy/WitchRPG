@@ -63,3 +63,4 @@ export class Unit implements Target {
   lungeDir = new THREE.Vector3()
   walk = Math.random() * 6
   flank = Math.random() < 0.5 ? -1 : 1
+  barShown = 0
