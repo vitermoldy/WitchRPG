@@ -78,3 +78,5 @@ export class Umbra {
     const eye = g.player.eyePos
     const fwd = g.player.viewDir()
     let best: Unit | null = null
+    let bestScore = Infinity
+
