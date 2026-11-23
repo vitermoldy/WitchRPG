@@ -19,3 +19,4 @@ export class Hud {
   private readonly bars = $('hpbars')
   private readonly wheel = $('wheel')
   private readonly slots = $('army-slots')
+  private readonly hurtVeil = $('hurt-veil')
