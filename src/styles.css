@@ -796,3 +796,4 @@ button:disabled {
 
 .army {
   position: absolute;
+  right: var(--gutter);
