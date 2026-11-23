@@ -161,3 +161,4 @@ function readQueue(): RiftRecord[] {
     const raw = localStorage.getItem(QUEUE_KEY)
     const list = raw ? (JSON.parse(raw) as RiftRecord[]) : []
     return Array.isArray(list) ? list : []
+  } catch {
