@@ -281,7 +281,7 @@ export class Hud {
     this.set('boss-name', 'text', u.elite ? `${u.spec.name}, elite ${ELITE.label[u.elite]}` : u.spec.name)
     this.set('boss-fill', 'transform', `scaleX(${Math.max(0, u.hp / u.maxHp).toFixed(3)})`)
     const boss = this.g.rift.boss
-    this.set('boss-phase', 'text', boss && boss.u === u ? boss.label : u.kind === 'riftlord' ? 'Memanggil husk dan menghantam tanah. Keluar dari lingkaran amber.' : '')
+    this.set('boss-phase', 'text', boss && boss.u === u ? boss.label : u.elite ? TRAIT_HINT[u.elite] : u.kind === 'riftlord' ? 'Memanggil husk dan menghantam tanah. Keluar dari lingkaran amber.' : '')
   }
 
   /** A summary that stays the same size whether the army is three shadows or three hundred. */
