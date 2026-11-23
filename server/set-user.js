@@ -35,3 +35,4 @@ try {
   const client = free[0]?.id ?? Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHABET.length)]).join('')
   // Only one witch per account: the newest browser's stays, the others' Rift history joins it.
   for (const { id: other } of free.slice(1)) await conn.query('UPDATE rift_runs SET client_id = ? WHERE client_id = ?', [client, other])
+  await conn.query('INSERT INTO users (username, password_hash, device_id, created_at) VALUES (?, ?, ?, UTC_TIMESTAMP())', [username, hash, client])
