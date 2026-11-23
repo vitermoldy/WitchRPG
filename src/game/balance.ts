@@ -185,6 +185,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Warden',
     rank: 'ksatria',
     hp: 110,
+    damage: 18,
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
