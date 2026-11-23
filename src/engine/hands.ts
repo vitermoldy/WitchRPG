@@ -354,3 +354,4 @@ export class Hands {
         intensity: 2.2 + k,
         life: 0.25,
         lifeJitter: 0.1,
+        size: 0.014,
