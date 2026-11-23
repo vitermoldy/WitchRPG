@@ -80,3 +80,4 @@ export class Projectiles {
       s.prev.copy(s.pos)
       s.vel.y -= s.gravity * dt
       s.pos.addScaledVector(s.vel, dt)
+      s.life -= dt
