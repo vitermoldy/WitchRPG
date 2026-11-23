@@ -811,5 +811,6 @@ export class Game {
         const reach = rocks.filter((r) => !r.thrown && r.pos.distanceTo(p.pos) < 20)
         if (reach.length < 3) {
           const spots = [...this.lair.rockSpots]
+            .filter((s) => !rocks.some((r) => r.pos.distanceTo(s) < 1.5))
   }
 }
