@@ -70,6 +70,7 @@ const WARP_FRAG = /* glsl */ `
   varying vec2 vUv;
   uniform float uTime;
   uniform float uFade;
+  void main() {
 const RUNE_VERT = /* glsl */ `
   varying vec2 vUv;
   void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }
