@@ -356,6 +356,7 @@ function hollow(team: Team): UnitModel {
       p.spine.add(rim)
       meshes.push(rim)
       const voidMat = new THREE.MeshBasicMaterial({ color: team === 'rift' ? 0x020001 : 0x08020f })
+      const hole = new THREE.Mesh(new THREE.CircleGeometry(0.6, 24), voidMat)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
