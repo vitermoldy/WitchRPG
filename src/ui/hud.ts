@@ -183,3 +183,4 @@ export class Hud {
       this.slots.innerHTML = html
     }
     const first = g.units.shadows()[0]
+    const order = !first ? 'Tanpa pasukan' : first.command === 'attack' ? 'Serang' : first.command === 'hold' ? 'Tahan' : 'Ikuti'
