@@ -265,3 +265,4 @@ export class BossFight {
       g.projectiles.fire(from, to, 'rift', u.damage * BOSS.volleyDamage, BOSS.shot, u)
     }
     g.sfx.spit()
+  }
