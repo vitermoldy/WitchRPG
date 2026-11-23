@@ -60,8 +60,8 @@ export class Umbra {
     return isUnlocked(this.g.profile, 'rite')
   }
 
-  /** Calls every saved shadow out of the Shadow Room at the start of a Rift. */
-  summonAll() {
+  /** Shadows standing on the field (rising ones included, sinking ones not). */
+  field(): Unit[] {
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
