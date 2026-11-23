@@ -925,6 +925,7 @@ export class UnitSystem {
         life: 0.8,
         size: 0.09,
         vel: { x: 0, y: 1.4, z: 0 },
+      })
     if (u.state === 'spawn') {
       const k = Math.min(1, u.t / 0.7)
       m.root.scale.setScalar(0.3 + 0.7 * k)
