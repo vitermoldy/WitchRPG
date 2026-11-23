@@ -15,3 +15,5 @@ export interface Target {
   radius: number
   alive: boolean
   team: Team
+}
+
