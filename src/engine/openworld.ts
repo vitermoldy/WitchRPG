@@ -30,3 +30,5 @@ export interface CampSpot {
 export interface OpenWorldBuild {
   group: THREE.Group
   colliders: Colliders
+  start: THREE.Vector3
+  altar: THREE.Vector3
