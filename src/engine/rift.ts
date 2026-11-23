@@ -25,3 +25,4 @@ export class RiftDirector {
   private readonly portals: Portal[] = []
   private readonly exit: THREE.Group
   private readonly exitMat: THREE.ShaderMaterial
+  // On the ground south of the monument, in view from where the witch enters.
