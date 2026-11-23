@@ -163,3 +163,4 @@ export class BossFight {
   private beginLanding() {
     this.landT = 0
     this.g.sfx.roar()
+    this.u.setState('recover')
