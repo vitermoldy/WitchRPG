@@ -364,3 +364,4 @@ export class Spells {
         g.lights.flash(at, COLOR.chaos, 8, 6, 0.18)
         if (hitUnit) g.sfx.hit()
         this.killBolt(b)
+        this.bolts.splice(i, 1)
