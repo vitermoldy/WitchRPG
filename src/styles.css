@@ -1710,3 +1710,5 @@ dialog::backdrop {
   height: 2.3rem;
   transform: translateX(-50%);
   overflow: hidden;
+  border-bottom: 1px solid var(--line-strong);
+  background: linear-gradient(90deg, transparent, rgba(12, 8, 9, 0.55) 18% 82%, transparent);
