@@ -20,3 +20,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | Tangan kiri, Chaos | |
 | --- | --- |
 | Klik kiri | Hex Bolt |
+| Tahan klik kanan | Telekinesis, lepas untuk melempar |
