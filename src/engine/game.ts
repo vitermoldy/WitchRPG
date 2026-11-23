@@ -378,3 +378,4 @@ export class Game {
   }
 
   async resume() {
+    if (this.state !== 'paused') return
