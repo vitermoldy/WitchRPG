@@ -242,3 +242,4 @@ export class Spells {
 
     if (canAct) {
       if (input.pressed('KeyG') && this.chaos >= CHAOS.max && !this.overloaded) this.startOverload()
+      if (input.held('Mouse0') && this.grabbed.length === 0 && this.boltCd <= 0) this.fireBolt()
