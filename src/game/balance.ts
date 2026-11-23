@@ -214,6 +214,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
   },
   hollow: {
+    name: 'The Hollow Warden',
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
