@@ -149,3 +149,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     const col = new THREE.Mesh(new THREE.CylinderGeometry(0.8, 1, h, 6), stone)
     col.position.set(Math.cos(a) * 27, h / 2 - 1, Math.sin(a) * 27)
     col.rotation.z = ((i % 5) - 2) * 0.06
+    col.castShadow = true
