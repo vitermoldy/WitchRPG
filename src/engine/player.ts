@@ -117,3 +117,4 @@ export class Player {
       } else {
         this.vel.x = desiredX
         this.vel.z = desiredZ
+      }
