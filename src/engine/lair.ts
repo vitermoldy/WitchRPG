@@ -153,3 +153,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     group.add(col)
   }
   const wall = 28
+  colliders.add(0, -wall, wall * 2 + 2, 1, 60)
