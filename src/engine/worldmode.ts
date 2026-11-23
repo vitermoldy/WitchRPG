@@ -48,3 +48,5 @@ export class WorldDirector {
   }
 
   private wake(c: Camp) {
+    const g = this.g
+    c.state = 'active'
