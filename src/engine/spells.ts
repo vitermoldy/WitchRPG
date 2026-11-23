@@ -519,3 +519,4 @@ export class Spells {
       } else {
         const p = gb.prop
         p.held = false
+        p.awake = true
