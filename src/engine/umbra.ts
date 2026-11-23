@@ -193,9 +193,8 @@ export class Umbra {
     u.record = rec
     u.slot = slot
     u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
-    g.sfx.riteResult(true)
-    g.rings.spawn(at, COLOR.umbra, 0.3, 2.5, 0.8)
-    g.lights.flash(at.clone().setY(1), COLOR.umbra, 14, 8, 0.8)
+    // UMB makes every soldier stronger.
+    const power = g.derived.shadowPower
     return u
   }
 
