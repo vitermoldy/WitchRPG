@@ -104,3 +104,4 @@ export class PropSystem {
     mesh.rotation.y = yaw
     this.group.add(mesh)
     const p: Prop = {
+      id: nextId++,
