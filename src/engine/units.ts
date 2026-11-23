@@ -610,6 +610,7 @@ export class UnitSystem {
       u.vel.copy(u.lungeDir).multiplyScalar((spec.lungeSpeed ?? 16) * u.slow)
       if (tgt && tgt.alive && !u.hitThisLunge) {
         const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.y + 0.9 - (u.pos.y + 0.5), tgt.pos.z - u.pos.z)
+        if (d < u.radius + tgt.radius + 0.7) {
     }
   }
 
