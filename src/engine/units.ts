@@ -365,3 +365,5 @@ export class UnitSystem {
         if (u.t > 1.2) u.setState('move')
         continue
       }
+      if (u.state === 'held') continue
+
