@@ -124,3 +124,4 @@ export class UnitSystem {
     const u = new Unit(kind, team, level)
     u.pos.copy(at)
     u.lastGood.copy(at)
+    u.yaw = Math.atan2(-(this.host.player.pos.x - at.x), -(this.host.player.pos.z - at.z))
