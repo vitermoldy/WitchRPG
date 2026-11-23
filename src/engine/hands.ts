@@ -274,3 +274,4 @@ export class Hands {
         h.hold -= dt
         if (h.hold <= 0) h.target = 'idle'
       }
+      const goal = POSES[h.target]
