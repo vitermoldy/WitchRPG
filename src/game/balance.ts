@@ -257,6 +257,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 15, count: 6, max: 10 },
     anchored: true,
   },
+  // Tier IV: hovers out of reach and dives. Telekinesis pulls it down, Chaos Burst knocks it out of the air.
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
