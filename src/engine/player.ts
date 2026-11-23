@@ -193,6 +193,8 @@ export class Player {
       this.staminaDelay = MOVE.staminaRegenDelay
       if (this.stamina <= 0) {
         this.flying = false
+        this.flightSpent = true
+      }
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
