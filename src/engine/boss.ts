@@ -30,3 +30,5 @@ export class BossFight {
     this.u = u
     this.home.copy(home)
     u.brainHook = (unit, dt) => this.brain(unit, dt)
+  }
+
