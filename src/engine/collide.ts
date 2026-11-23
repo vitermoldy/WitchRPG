@@ -16,3 +16,4 @@ export interface RayHit {
   dist: number
   point: THREE.Vector3
   normal: THREE.Vector3
+  box: Box | null
