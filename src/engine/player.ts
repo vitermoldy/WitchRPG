@@ -221,3 +221,4 @@ export class Player {
   }
 
   get bobPhase() {
+    return this.bob
