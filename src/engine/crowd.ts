@@ -77,3 +77,5 @@ export class ShadowCrowd {
       b.cap = cap
     }
     return b
+  }
+
