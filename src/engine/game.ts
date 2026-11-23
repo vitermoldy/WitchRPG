@@ -449,3 +449,4 @@ export class Game {
     // Timer.reset() (on tab switches) measures with performance.now() while update() gets the
     // frame timestamp, which can be a few ms earlier: the next delta comes out negative. Never
     // let time run backwards into the simulation.
+    const dt = Math.min(1 / 30, Math.max(0, this.timer.getDelta()))
