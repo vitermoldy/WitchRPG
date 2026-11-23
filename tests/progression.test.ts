@@ -72,6 +72,8 @@ describe('Umbra Rite chance', () => {
 
 describe('stats and the shadow army', () => {
   it('makes shadows 2% stronger per UMB point above 5', () => {
+    expect(shadowPower(5)).toBe(1)
+    expect(shadowPower(15)).toBeCloseTo(1.2)
   })
   it('derives HP and mana from VIT and SPR', () => {
     const d = derive(newProfile().stats)
