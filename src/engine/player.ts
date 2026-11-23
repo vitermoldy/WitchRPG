@@ -177,6 +177,8 @@ export class Player {
     this.sprinting = boost
     this.floating = false
     this.crouching = false
+    const speed = (boost ? MOVE.flyBoost : MOVE.flySpeed) * this.speedMult
+    const up = (canAct && input.held('Space') ? 1 : 0) - (canAct && input.held('KeyC') ? 1 : 0)
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
