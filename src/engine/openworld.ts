@@ -134,3 +134,6 @@ const CURTAIN_FRAG = /* glsl */ `
     float a = fade * (0.35 + 0.3 * band);
     gl_FragColor = vec4(col * a, a);
   }
+`
+
+export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
