@@ -106,6 +106,7 @@ export class Unit implements Target {
   focusBonus = 0
   // Elites (Tier IV and up).
   elite: EliteTrait | null = null
+  /** Multiplier on windup, recovery and cooldown; below 1 is quicker. */
 
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
