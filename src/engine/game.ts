@@ -341,3 +341,4 @@ export class Game {
   private die() {
     const p = this.player
     p.hp = 0
+    p.alive = false
