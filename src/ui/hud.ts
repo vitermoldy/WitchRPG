@@ -208,3 +208,4 @@ export class Hud {
     const w = window.innerWidth
     const h = window.innerHeight
     let n = 0
+    for (const u of g.units.units) {
