@@ -269,3 +269,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const gates: Gate[] = gateSpots.map(([tier, x, z], i) => {
     const mat = makeTearMaterial(7 + i * 2.3)
     const tear = new THREE.Mesh(new THREE.PlaneGeometry(5 + tier, 9 + tier * 2), mat)
+    tear.position.set(x, (9 + tier * 2) / 2, z)
+    tear.lookAt(0, tear.position.y, 0)
