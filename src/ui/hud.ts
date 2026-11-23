@@ -23,3 +23,4 @@ export class Hud {
   private readonly cache = new Map<string, string>()
   private bannerTimer = 0
   private hitTimer = 0
+  private hurt = 0
