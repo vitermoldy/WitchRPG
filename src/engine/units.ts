@@ -90,6 +90,7 @@ export class Unit implements Target {
   /** Where a slam will land, fixed at the start of the windup. */
   readonly slamAt = new THREE.Vector3()
   /** Custom behaviour (the boss); returns true when it handled this frame. */
+  brainHook: ((u: Unit, dt: number) => boolean) | null = null
   // Corpse.
   deadT = 0
   riteTried = false
