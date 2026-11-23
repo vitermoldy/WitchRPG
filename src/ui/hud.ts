@@ -133,6 +133,7 @@ export class Hud {
       'rift-left',
       'text',
       r.phase === 'wave'
+        ? `${r.remaining} musuh tersisa`
 
     // Skills.
     const cds = g.spells.cooldowns()
