@@ -245,3 +245,4 @@ export class BossFight {
     const g = this.g
     at.y = g.colliders.groundAt(at.x, at.z, 0.5, 5, 6)
     if (at.y < -50) return null
+    return g.summonUnit('husk', 9, at, 'rift', this.u)
