@@ -359,3 +359,4 @@ export class Game {
     this.glow.clear()
     this.smoke.clear()
     this.lights.reset()
+    this.spells.reset()
