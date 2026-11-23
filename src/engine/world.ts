@@ -99,3 +99,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
     g.lineWidth = 1 + R() * 1.5
     g.beginPath()
     g.moveTo(x, y)
+    for (let k = 0; k < 12; k++) {
