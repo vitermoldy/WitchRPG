@@ -578,11 +578,8 @@ export class Game {
 
   /** The city map: shown, colliding, with its props back in place. */
   private useCity() {
-    if (!this.inLair && this.world.city.visible) return
-    this.inLair = false
-    this.world.city.visible = true
-    this.lair.group.visible = false
-    this.activeColliders = this.world.colliders
+    if (this.map === 'city') return
+    this.setMap('city')
     this.respawnProps()
   }
 
