@@ -557,3 +557,4 @@ export class UnitSystem {
       armL.rotation.x = armX + (armX === 0 ? -sw * 0.4 * amp : 0)
       armR.rotation.x = armX + (armX === 0 ? sw * 0.4 * amp : 0)
       armL.rotation.z = -0.15
+      armR.rotation.z = 0.15
