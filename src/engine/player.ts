@@ -63,3 +63,4 @@ export class Player {
     this.alive = true
   }
 
+  addTrauma(amount: number) {
