@@ -190,6 +190,7 @@ async function boot() {
       renderTiers()
       next.focus()
     })
+  }
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
