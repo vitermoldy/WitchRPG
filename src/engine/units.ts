@@ -802,6 +802,7 @@ export class UnitSystem {
     // Units are sorted into 3 m cells first, so a big army checks its neighbours, not every pair.
     const free = (u: Unit) => u.alive && u.state !== 'held' && u.state !== 'air' && u.state !== 'sinking'
     const grid = this.grid
+    grid.clear()
       }
       // Keep clear of the witch.
       const p = host.player
