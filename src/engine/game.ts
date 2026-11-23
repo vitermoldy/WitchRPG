@@ -809,5 +809,6 @@ export class Game {
         this.rockT = 2
         const rocks = this.props.props.filter((r) => r.kind === 'rock' && !r.held)
         const reach = rocks.filter((r) => !r.thrown && r.pos.distanceTo(p.pos) < 20)
+        if (reach.length < 3) {
   }
 }
