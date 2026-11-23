@@ -577,3 +577,4 @@ export class UnitSystem {
       m.body.position.y = 0.72 - crouch * 0.22 + Math.abs(Math.sin(u.walk)) * 0.05 * amp
       m.body.rotation.x = crouch * 0.12 - stretch * 0.15
       for (let i = 0; i < 4; i++) {
+        const hip = P[legs[i]]
