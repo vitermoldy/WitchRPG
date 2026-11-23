@@ -84,3 +84,4 @@ async function boot() {
       : `<span>Lv <b>${p.level}</b></span><span><b>${p.shadows.length}</b> bayangan</span><span><b>${p.clears}</b> Rift ditutup</span>${
           p.statPoints || p.skillPoints ? `<span><b>${p.statPoints + p.skillPoints}</b> poin belum dipakai</span>` : ''
         }`
+    $('btn-reset').hidden = fresh
