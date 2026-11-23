@@ -58,7 +58,7 @@ export class RiftDirector {
       mesh.position.set(p.x, 3, p.z)
       mesh.lookAt(0, 3, 0)
       mesh.renderOrder = 6
-      g.scene.add(mesh)
+      g.world.city.add(mesh)
       this.portals.push({ pos: p.clone(), mesh, mat, open: 0 })
     })
     this.exit = new THREE.Group()
