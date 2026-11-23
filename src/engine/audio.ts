@@ -108,3 +108,4 @@ export class Sfx {
     this.tone(t, 'sawtooth', 420, 60, 0.4, 0.12)
   }
 
+  snare() {
