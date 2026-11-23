@@ -130,3 +130,4 @@ export class Game {
       profile: this.profile,
       changed: () => {
         this.applyStats(false)
+        this.saveSoon()
