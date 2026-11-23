@@ -7,3 +7,4 @@ import type { Unit } from './units'
 
 export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
 
+/** Umbra Rite (raising the fallen) and orders for the shadow army. */
