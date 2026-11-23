@@ -173,6 +173,7 @@ export class Game {
       },
       glow: this.glow,
       smoke: this.smoke,
+      hurtPlayer: (dmg, from) => this.hurtPlayer(dmg, from),
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
