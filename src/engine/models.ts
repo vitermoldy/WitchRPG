@@ -139,3 +139,4 @@ function hound(team: Team): UnitModel {
   const jaw = pivot(neck, 0, -0.1, -0.05)
   const jm = box(0.26, 0.08, 0.38, s.bone, meshes, -0.03)
   jm.position.z = -0.16
+  jaw.add(jm)
