@@ -421,3 +421,5 @@ export class Game {
     saveProfile(this.profile)
     this.input.unlock()
     this.setState('result')
+  }
+
