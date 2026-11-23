@@ -70,3 +70,4 @@ export class Umbra {
 
   /** Corpse glow, ash and clean-up; picks the corpse under the crosshair. */
   update(dt: number, canAct: boolean) {
+    const g = this.g
