@@ -459,6 +459,7 @@ export class Game {
   async enterRift(tier: TierId = this.tier) {
     if (!tierUnlocked(this.profile, tier)) tier = 1
     this.tier = tier
+    const spec = TIERS[tier]
     this.sfx.start()
     this.units.clear()
     this.respawnProps()
