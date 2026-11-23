@@ -233,9 +233,8 @@ export class Hud {
     // Prompt under the crosshair.
     let promptHtml = ''
     const c = g.umbra.candidate
-    if (g.rift.nearExit()) promptHtml = '<kbd>F</kbd> Keluar dari Rift'
-    else if (g.rift.nearGate()) promptHtml = '<kbd>F</kbd> Masuk ke Jantung Rift'
-    else if (c) {
+    const many = g.umbra.targets.length
+    const gate = g.mode === 'world' ? g.worldDir.nearGate() : null
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
