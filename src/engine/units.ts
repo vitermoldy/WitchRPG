@@ -433,3 +433,4 @@ export class UnitSystem {
         const d2 = dx * dx + dz * dz
         if (d2 >= min * min || d2 < 1e-8) continue
         const d = Math.sqrt(d2)
+        const push = (min - d) * 0.5
