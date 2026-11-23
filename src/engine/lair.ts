@@ -62,3 +62,4 @@ function crackTexture(size: number) {
     g.lineWidth = 3
     eg.beginPath()
     g.beginPath()
+    eg.moveTo(x, y)
