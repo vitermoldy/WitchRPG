@@ -60,3 +60,4 @@ async function boot() {
   game.start()
   try {
     await game.warmUp()
+  } catch (e) {
