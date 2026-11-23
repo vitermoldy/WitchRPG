@@ -240,3 +240,4 @@ export class PropSystem {
         p.mesh.rotation.z += (rz - p.mesh.rotation.z) * Math.min(1, dt * 8)
         if (p.vel.lengthSq() < 0.05 && p.spin.lengthSq() < 0.05) {
           p.vel.set(0, 0, 0)
+          p.thrown = false
