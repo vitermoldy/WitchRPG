@@ -611,3 +611,4 @@ button:disabled {
 @keyframes pulse-ring {
   to {
     stroke: var(--chaos-ink);
+  }
