@@ -6,3 +6,5 @@ import { Game, type GameState } from './engine/game'
 import { RANKS, UNITS } from './game/balance'
 import { newProfile } from './game/progression'
 import { clearProfile, saveProfile } from './game/save'
+import { confirmDialog } from './ui/ledger'
+
