@@ -320,3 +320,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   sc.right = sc.top = 46
   sc.near = 1
   sc.far = 160
+  key.shadow.bias = -0.0005
