@@ -90,3 +90,5 @@ export async function connect(db) {
   await migrate(pool)
   return pool
 }
+
+/** Brings a database made before version 1 (Tier I only) up to date. Safe to run every start. */
