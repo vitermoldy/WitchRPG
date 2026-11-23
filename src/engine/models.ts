@@ -45,3 +45,5 @@ function pivot(parent: THREE.Object3D, x: number, y: number, z: number) {
   g.position.set(x, y, z)
   parent.add(g)
   return g
+}
+
