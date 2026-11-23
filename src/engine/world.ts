@@ -342,3 +342,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.add(ground)
   // Far ground beyond the arena so the fog has something to swallow.
   const far = new THREE.Mesh(new THREE.PlaneGeometry(700, 700), new THREE.MeshStandardMaterial({ color: 0x141011, roughness: 1 }))
+  far.rotation.x = -Math.PI / 2
