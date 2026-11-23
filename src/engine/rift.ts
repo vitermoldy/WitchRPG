@@ -34,3 +34,4 @@ export class RiftDirector {
   raised: string[] = []
 
   constructor(g: Game) {
+    this.g = g
