@@ -230,3 +230,4 @@ export class Spells {
       if (this.overloadT <= 0) {
         this.overloadT = 0
         this.backlashT = CHAOS.backlashTime
+        g.hands.overload = false
