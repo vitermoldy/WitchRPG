@@ -68,6 +68,7 @@ export class RiftDirector {
       m.position.y = h / 2
       group.add(m)
       const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTexture(), color: new THREE.Color(halo).multiplyScalar(1.4), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }))
+      glow.scale.set(w * 2.7, w * 2.7, 1)
   }
 
   start() {
