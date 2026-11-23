@@ -18,3 +18,4 @@ export interface WorldBuild {
   breakables: Box[]
   update: (t: number) => void
   keyLight: THREE.DirectionalLight
+  riftDir: THREE.Vector3
