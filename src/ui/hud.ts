@@ -196,6 +196,8 @@ export class Hud {
     this.set('boss-fill', 'transform', `scaleX(${Math.max(0, u.hp / u.maxHp).toFixed(3)})`)
     const boss = this.g.rift.boss
     this.set('boss-phase', 'text', boss && boss.u === u ? boss.label : u.kind === 'riftlord' ? 'Memanggil husk dan menghantam tanah. Keluar dari lingkaran amber.' : '')
+  }
+
   private updateArmy() {
     const g = this.g
     const slots = g.derived.slots
