@@ -503,6 +503,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   for (const [x, z, top] of [[-30, -15, 4.6], [30, 15, 4.6], [-15, 30, 4.2], [15, -30, 4.2], [-31, 18, 5], [31, -18, 5]] as const) {
     for (const [dx, dz] of [[-1.3, -1.3], [1.3, -1.3], [-1.3, 1.3], [1.3, 1.3]]) {
       const leg = solid(new THREE.Mesh(new THREE.BoxGeometry(0.14, top, 0.14), scaffoldMetal))
+      leg.position.set(x + dx, top / 2, z + dz)
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
