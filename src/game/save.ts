@@ -32,3 +32,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
 
 export function saveProfile(p: Profile): boolean {
   try {
+    localStorage.setItem(KEY, JSON.stringify(p))
