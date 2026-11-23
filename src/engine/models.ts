@@ -392,6 +392,7 @@ function hollow(team: Team): UnitModel {
         fore.add(fist)
       }
     },
+  )
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
