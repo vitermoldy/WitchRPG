@@ -345,3 +345,4 @@ export class Spells {
       }
       for (const pr of g.props.props) {
         if (pr.held || pr.kind === 'chunk') continue
+        sphere.set(pr.pos, pr.radius)
