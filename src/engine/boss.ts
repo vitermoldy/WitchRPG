@@ -38,3 +38,4 @@ export class BossFight {
     return 'Fase 3: kebal, kecuali di dalam Reality Warp'
   }
 
+  /** Damage after the shell has had its say. Also stops a phase from being skipped in one hit. */
