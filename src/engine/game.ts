@@ -606,6 +606,7 @@ export class Game {
     return u
   }
 
+  /** A shadow that fell into the void, or was left behind, rises again beside the witch. */
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
