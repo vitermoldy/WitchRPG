@@ -277,3 +277,4 @@ export function makeTearMaterial(seed: number) {
 export function buildWorld(scene: THREE.Scene): WorldBuild {
   const half = WORLD.arenaHalf
   const colliders = new Colliders()
+  const R = rand(1234)
