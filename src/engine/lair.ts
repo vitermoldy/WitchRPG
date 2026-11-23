@@ -184,3 +184,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
       }
       return best.center.clone().setY(best.center.y + 0.05)
     },
+    update(t: number) {
