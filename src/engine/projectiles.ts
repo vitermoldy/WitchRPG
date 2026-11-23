@@ -20,3 +20,4 @@ interface Shot {
   reflected: boolean
 }
 
+export interface ShotHost {
