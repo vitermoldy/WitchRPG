@@ -465,6 +465,7 @@ function harrier(team: Team): UnitModel {
     leg.position.set(side * 0.08, -0.22, 0.18)
     body.add(leg)
   }
+  const tail = pivot(body, 0, 0, 0.4)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
