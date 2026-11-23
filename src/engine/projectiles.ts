@@ -76,3 +76,4 @@ export class Projectiles {
   update(dt: number) {
     const h = this.host
     for (let i = this.shots.length - 1; i >= 0; i--) {
+      const s = this.shots[i]
