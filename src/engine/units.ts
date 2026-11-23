@@ -820,6 +820,7 @@ export class UnitSystem {
           if (!cell) continue
           for (const b of cell) {
             // Each pair once.
+            if (b.id <= a.id) continue
       }
       // Keep clear of the witch.
       const p = host.player
