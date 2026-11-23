@@ -87,3 +87,4 @@ kbd {
 
 /* Buttons */
 button {
+  font: inherit;
