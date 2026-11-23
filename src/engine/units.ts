@@ -805,6 +805,7 @@ export class UnitSystem {
     grid.clear()
     for (const a of this.units) {
       if (!free(a)) continue
+      const k = cellKey(Math.floor(a.pos.x / CELL), Math.floor(a.pos.z / CELL))
       }
       // Keep clear of the witch.
       const p = host.player
