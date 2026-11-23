@@ -122,6 +122,7 @@ export function xpForKill(enemyLevel: number, boss = false): number {
 /** Bigger ranks are worth more: a Rift Lord five husks, the boss ten ("XP besar" in the GDD). */
 const RANK_XP: Record<RankId, number> = { prajurit: 1, ksatria: 2, jenderal: 5, marsekal: 10 }
 
+export function xpForUnit(kind: UnitKind, level: number): number {
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v))
 
 /** Chance that one Umbra Rite cast succeeds. Raw UMB counts, as in the GDD example. */
