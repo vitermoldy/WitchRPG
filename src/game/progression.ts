@@ -50,6 +50,7 @@ export interface Profile {
   clears: number
   tierClears: Record<TierId, number>
   /** Times The Hollow Warden has fallen. */
+  bossKills: number
   settings: Settings
   /** When this witch last changed; with an account, the newer copy wins. */
   updatedAt?: string
