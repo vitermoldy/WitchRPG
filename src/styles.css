@@ -201,3 +201,4 @@ button:disabled {
 .screen-lead {
   max-width: 34rem;
   margin: 0 0 1.4rem;
+  color: var(--ink-2);
