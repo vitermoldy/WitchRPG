@@ -57,6 +57,9 @@ function duration(s: number): string {
 }
 
 /** Status, stats, skill tree and the Shadow Room. */
+/** Members listed per Shadow Room group; the rest are summed up in one line. */
+const ROOM_SHOWN = 60
+
 export class Ledger {
   private readonly dlg = $<HTMLDialogElement>('ledger')
   private readonly host: LedgerHost
