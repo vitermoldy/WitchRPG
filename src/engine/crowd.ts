@@ -102,3 +102,4 @@ export class ShadowCrowd {
       } else if (u.state === 'sinking') {
         const k = Math.min(1, u.t / 0.8)
         this.p.y -= k * k * u.spec.height
+      } else {
