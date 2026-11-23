@@ -166,3 +166,4 @@ export class Player {
       this.onGround = false
     }
     if (this.onGround) {
+      this.floatLeft = this.floatMax
