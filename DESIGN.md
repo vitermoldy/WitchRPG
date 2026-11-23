@@ -48,6 +48,8 @@ Semua di `src/game/balance.ts`.
 
 ## Versi 1: Tier II, Tier III, dan The Hollow Warden (23 Nov 2026)
 
+Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama menurut GDD: Tier I sampai III dan satu Rift lengkap dengan boss.
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
