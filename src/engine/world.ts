@@ -552,4 +552,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   for (const o of [...scene.children]) if (!shared.has(o) && !floaterMeshes.has(o as THREE.Mesh)) city.add(o)
   scene.add(city)
 
+  return { city, colliders, portals, perches, playerStart: new THREE.Vector3(0, 0, 14), props, breakables, update, keyLight: key, riftDir }
 }
