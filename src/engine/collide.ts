@@ -143,3 +143,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
   const n = new THREE.Vector3()
   n.setComponent(axis, sign)
   return { t: tmin, n }
+}
