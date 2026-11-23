@@ -185,3 +185,5 @@ export class Hud {
     const first = g.units.shadows()[0]
     const order = !first ? 'Tanpa pasukan' : first.command === 'attack' ? 'Serang' : first.command === 'hold' ? 'Tahan' : 'Ikuti'
     this.set('army-order', 'text', order)
+  }
+
