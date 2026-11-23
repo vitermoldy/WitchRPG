@@ -279,6 +279,7 @@ export class UnitSystem {
     let best: Target | null = null
     let bestD = Infinity
     if (u.team === 'rift') {
+      if (u.hunt && p.alive) return p
       if (p.alive) {
         best = p
         bestD = u.pos.distanceTo(p.pos) * 0.8
