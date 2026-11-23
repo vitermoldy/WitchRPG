@@ -39,3 +39,4 @@ function carMesh(color: number) {
   const paint = new THREE.MeshStandardMaterial({ color, roughness: 0.45, metalness: 0.6, flatShading: true })
   const glass = new THREE.MeshStandardMaterial({ color: 0x0a0a0c, roughness: 0.15, metalness: 0.8 })
   const tyre = new THREE.MeshStandardMaterial({ color: 0x111012, roughness: 0.9 })
+  const lamp = new THREE.MeshStandardMaterial({ color: 0x110a05, emissive: 0xffb070, emissiveIntensity: Math.random() < 0.35 ? 1.4 : 0 })
