@@ -1526,6 +1526,7 @@ dialog::backdrop {
     gap: 0.4rem 1rem;
   }
   .history-item {
+    grid-template-columns: 1fr;
 }
 
 @media (prefers-reduced-motion: reduce) {
