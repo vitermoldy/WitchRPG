@@ -27,3 +27,4 @@ const shared = {
 }
 
 function bodyMaterial(team: Team) {
+  return team === 'rift'
