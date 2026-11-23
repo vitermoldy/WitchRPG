@@ -310,3 +310,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   // Light: dim crimson sky fill, a red key light from the tear, cold violet bounce.
   scene.add(new THREE.HemisphereLight(0x5c3a42, 0x140c12, 1.1))
   const amb = new THREE.AmbientLight(0x3a2a48, 0.75)
+  scene.add(amb)
