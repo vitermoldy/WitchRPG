@@ -359,3 +359,4 @@ export class Umbra {
       g.player.vel.set(0, 0, 0)
       pick.pos.copy(mine)
       this.swapCd = hasUpgrade(g.profile, 'swap') ? RITE.swapCooldownUpgraded : RITE.swapCooldown
+      for (const at of [mine, theirs]) {
