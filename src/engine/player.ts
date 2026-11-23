@@ -213,3 +213,4 @@ export class Player {
   }
 
   get eyePos() {
+    return new THREE.Vector3(this.pos.x, this.pos.y + this.eye, this.pos.z)
