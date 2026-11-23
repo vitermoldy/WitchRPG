@@ -403,6 +403,7 @@ export class Game {
       if (this.warded(u)) {
         raw *= ELITE.ward.share
         if (Math.random() < 0.5) this.glow.emit({ pos: u.center, count: 3, color: COLOR.rift, intensity: 2.4, life: 0.35, size: 0.12, speed: 2 })
+      }
     if (this.rift.boss && u === this.rift.boss.u) raw = this.rift.boss.filter(raw, by, from)
     if (raw <= 0) return
     // Chaos and feedback count only the damage that landed, not overkill.
