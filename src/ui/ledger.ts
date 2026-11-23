@@ -36,3 +36,5 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
     dlg.showModal()
     $('confirm-no').focus()
   })
+}
+
