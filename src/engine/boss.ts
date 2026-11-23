@@ -204,3 +204,4 @@ export class BossFight {
       u.pos.y += (hover - u.pos.y) * Math.min(1, dt * 2)
       u.vel.set(0, 0, 0)
       if (goal) g.units.face(u, goal, dt, 3)
+      if (this.landT < 0) this.volley(dt, BOSS.volleyShots)
