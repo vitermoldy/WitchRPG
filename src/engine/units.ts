@@ -403,3 +403,4 @@ export class UnitSystem {
       this.brain(u, dt)
       if (!u.alive) continue
       u.pos.x += u.vel.x * dt
+      u.pos.z += u.vel.z * dt
