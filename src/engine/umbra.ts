@@ -102,3 +102,4 @@ export class Umbra {
         if (dist < RITE.range) {
           const dir = u.pos.clone().setY(u.pos.y + 0.3).sub(eye).normalize()
           const ang = fwd.angleTo(dir)
+          if (ang < 0.5) {
