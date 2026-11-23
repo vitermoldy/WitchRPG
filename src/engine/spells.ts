@@ -621,3 +621,4 @@ export class Spells {
   private snare() {
     const g = this.g
     const s = SPELL.snare
+    this.snareCd = s.cooldown
