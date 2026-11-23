@@ -66,3 +66,4 @@ export function newProfile(): Profile {
   }
 }
 
+/** XP needed to go from `level` to `level + 1`: 80 x n^1.5, rounded to tens. */
