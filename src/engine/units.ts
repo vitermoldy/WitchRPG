@@ -731,6 +731,7 @@ export class UnitSystem {
     m.root.scale.setScalar(1)
 
     if (BIPEDS.has(u.kind)) this.animateBiped(u, sw, amp, t)
+    else this.animateHound(u, amp, t)
       }
     }
   }
