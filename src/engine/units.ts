@@ -203,3 +203,4 @@ export class UnitSystem {
     return best
   }
 
+  private steer(u: Unit, goal: THREE.Vector3, speed: number, dt: number, stopAt = 0) {
