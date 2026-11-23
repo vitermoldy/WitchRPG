@@ -85,3 +85,4 @@ export class Projectiles {
       const color = s.reflected ? COLOR.chaos : s.source?.team === 'shadow' ? COLOR.umbra : COLOR.rift
       if (Math.random() < 0.7) h.glow.emit({ pos: s.pos, count: 1, color, intensity: 2.2, life: 0.35, size: s.radius * 0.9, sizeEnd: 0.03, speed: 0.4, jitter: s.radius * 0.4 })
 
+      // Reality Warp turns a rift glob back on whoever threw it.
