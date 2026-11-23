@@ -277,6 +277,7 @@ export class Sfx {
     this.tone(t, 'sine', 50, 25, 2.4, 0.6, 0.3)
   }
 
+  reflect() {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
