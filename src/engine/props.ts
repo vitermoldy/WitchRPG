@@ -145,3 +145,4 @@ export class PropSystem {
 
   clear() {
     for (const p of this.props) this.group.remove(p.mesh)
+    this.props.length = 0
