@@ -419,6 +419,8 @@ interface Pool {
 /**
  * Shadow pools for calling and dismissing the army: a wide one that spills out from under the
  * witch, and one under each shadow that rises out of it or sinks back into it.
+ */
+export class ShadowPools {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
