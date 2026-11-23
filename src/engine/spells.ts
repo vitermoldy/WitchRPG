@@ -419,3 +419,4 @@ export class Spells {
     }
     for (const gb of this.grabbed) {
       if (gb.unit) {
+        gb.unit.setState('held')
