@@ -171,6 +171,7 @@ async function boot() {
   // Title.
   $('btn-enter').addEventListener('click', () => void game.enterRift(game.tier))
   const tierButtons = [...document.querySelectorAll<HTMLButtonElement>('.tier')]
+  for (const el of tierButtons) {
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
