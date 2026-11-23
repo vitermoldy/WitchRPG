@@ -824,5 +824,6 @@ export class UnitSystem {
       hip.rotation.x = stretch ? (i < 2 ? -1.1 : 1.1) : s * 0.75 * amp + crouch * (i < 2 ? -0.5 : 0.6)
       ;(hip.userData.knee as THREE.Object3D).rotation.x = stretch ? 0.2 : Math.max(0, -s) * 0.9 * amp + crouch * 0.8
     }
+    }
   }
 }
