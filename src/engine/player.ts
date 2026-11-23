@@ -4,3 +4,4 @@ import type { Colliders } from './collide'
 import type { Input } from './input'
 
 export interface Circle {
+  pos: THREE.Vector3
