@@ -1074,3 +1074,4 @@ dialog::backdrop {
 }
 
 .ledger-stats {
+  grid-area: stats;
