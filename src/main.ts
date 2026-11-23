@@ -100,6 +100,7 @@ async function boot() {
       const open = tierUnlocked(p, t)
       el.disabled = !open
       el.setAttribute('aria-checked', String(t === game.tier))
+      el.tabIndex = t === game.tier ? 0 : -1
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
