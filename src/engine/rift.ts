@@ -67,3 +67,4 @@ export class RiftDirector {
     this.kills = 0
     this.xpGained = 0
     this.levelsGained = 0
+    this.raised = []
