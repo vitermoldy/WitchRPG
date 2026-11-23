@@ -141,3 +141,4 @@ function hound(team: Team): UnitModel {
   jm.position.z = -0.16
   jaw.add(jm)
   parts.jaw = jaw
+  for (const [x, y] of [[-0.09, 0.06], [0.09, 0.06], [-0.05, 0.11], [0.05, 0.11]] as const) {
