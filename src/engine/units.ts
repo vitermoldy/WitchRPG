@@ -588,6 +588,7 @@ export class UnitSystem {
         u.setState('windup')
         host.growl()
       }
+      return
     }
   }
 
