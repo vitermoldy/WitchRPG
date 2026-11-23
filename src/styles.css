@@ -1766,3 +1766,5 @@ dialog::backdrop {
 .compass .cm-camp {
   top: 1.85rem;
   width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
