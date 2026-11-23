@@ -91,6 +91,7 @@ async function boot() {
     1: 'Husk dan Rift Hound, Lv 1 sampai 3. Lima gelombang.',
     2: 'Ditambah Spitter yang menembak dari perancah. Lv 4 sampai 6.',
     3: 'Ditambah Warden berperisai dan Rift Lord. Lv 7 sampai 9. Di ujungnya, Jantung Rift dan The Hollow Warden.',
+  }
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
