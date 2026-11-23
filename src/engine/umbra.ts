@@ -64,3 +64,4 @@ export class Umbra {
     u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
     g.sfx.riteResult(true)
     g.rings.spawn(at, COLOR.umbra, 0.3, 2.5, 0.8)
+    g.lights.flash(at.clone().setY(1), COLOR.umbra, 14, 8, 0.8)
