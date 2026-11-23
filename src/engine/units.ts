@@ -36,6 +36,7 @@ export interface UnitHost {
   /** A warning circle on the floor while a slam winds up. */
   telegraph(at: THREE.Vector3, radius: number, seconds: number): void
   /** A summoner calls a helper. */
+  summon(kind: UnitKind, level: number, at: THREE.Vector3, team: Team, owner: Unit): Unit | null
 }
 
 let nextId = 1
