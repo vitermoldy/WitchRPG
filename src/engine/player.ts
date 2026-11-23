@@ -104,3 +104,4 @@ export class Player {
       this.vel.z *= damp
       if (!this.onGround) this.sliding = 0
     } else {
+      const accel = this.onGround ? MOVE.groundAccel : MOVE.airAccel
