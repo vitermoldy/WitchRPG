@@ -551,6 +551,7 @@ export class UnitSystem {
   }
 
   /**
+   * Harriers: circle the target high up, dive at it after a screech, then climb back.
     }
   }
 
