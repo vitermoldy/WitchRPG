@@ -133,3 +133,4 @@ export class BossFight {
         this.feed.delete(o)
         continue
       }
+      if (performance.now() / 1000 > at) {
