@@ -418,3 +418,4 @@ export class Spells {
       if (second) this.grabbed.push({ unit: second })
     }
     for (const gb of this.grabbed) {
+      if (gb.unit) {
