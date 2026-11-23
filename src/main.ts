@@ -108,6 +108,7 @@ async function boot() {
     let info = TIER_INFO[game.tier]
     if (game.tier === 3) info += bossUnlocked(p) ? (p.bossKills ? ` The Hollow Warden sudah tumbang ${p.bossKills} kali.` : '') : ` Gerbangnya terbuka di Lv ${TIERS[3].boss!.unlock}.`
     $('tier-info').textContent = info
+    $('btn-enter').textContent = `Masuk Rift Tier ${TIERS[game.tier].roman}`
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
