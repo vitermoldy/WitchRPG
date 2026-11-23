@@ -45,3 +45,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   let pushTimer = 0
   let note = ''
 
+  const label = (): string => (mode === 'in' ? 'Masuk' : 'Buat akun')
