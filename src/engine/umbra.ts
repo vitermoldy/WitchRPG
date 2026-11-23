@@ -85,6 +85,9 @@ export class Umbra {
         next = Math.min(next, at - this.time)
       }
     }
+    return { count, next: Number.isFinite(next) ? Math.ceil(next) : 0 }
+  }
+
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
