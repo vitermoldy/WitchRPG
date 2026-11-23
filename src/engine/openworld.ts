@@ -281,3 +281,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       const a = (k / 5) * Math.PI * 2
       rock.position.set(x + Math.cos(a) * (6 + tier), 0.6, z + Math.sin(a) * (6 + tier))
       rock.castShadow = true
+      group.add(rock)
+    }
