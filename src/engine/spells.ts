@@ -183,3 +183,4 @@ export class Spells {
     if (before < CHAOS.max && this.chaos >= CHAOS.max) this.g.hud.message('Meter Chaos penuh. Tekan G untuk Crimson Overload.', 'chaos')
   }
 
+  /** Where the crosshair points: the first unit, prop, wall or floor along the view ray. */
