@@ -52,3 +52,5 @@ export class ShadowCrowd {
     const batch: Batch = { mesh: this.makeMesh(geo, mats, 64), geo, mats, cap: 64, used: 0 }
     this.batches.set(kind, batch)
     return batch
+  }
+
