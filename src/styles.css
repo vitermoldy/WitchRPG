@@ -840,3 +840,4 @@ button:disabled {
 }
 
 .army-slot.up .pip {
+  background: var(--umbra);
