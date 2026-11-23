@@ -357,3 +357,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     mesh.receiveShadow = true
     scene.add(mesh)
     return mesh
+  }
+
