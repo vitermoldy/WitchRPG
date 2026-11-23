@@ -242,3 +242,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       sent = false
     }
     await flushQueue()
+    if (!sent || queuedRifts() > 0) {
