@@ -167,3 +167,4 @@ export class Hud {
     for (let i = 0; i < g.profile.shadows.length; i++) {
       const rec = g.profile.shadows[i]
       const u = live.get(rec.id)
+      const down = g.umbra.down.has(rec.id)
