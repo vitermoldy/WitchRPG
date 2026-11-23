@@ -475,3 +475,5 @@ export class UnitSystem {
       this.knock(other, tmp)
     }
     u.thrown = false
+  }
+
