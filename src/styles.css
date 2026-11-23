@@ -533,6 +533,7 @@ button:disabled {
 .boss-phase {
   margin: 0.3rem 0 0;
   color: var(--ink-2);
+  font-size: 0.85rem;
 .banner {
   position: absolute;
   top: 24%;
