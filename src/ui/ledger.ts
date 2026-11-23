@@ -152,3 +152,4 @@ export class Ledger {
             <p class="node-effect">${s.effect}</p>
             ${up}
           </li>`
+        })
