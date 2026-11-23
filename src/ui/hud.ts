@@ -17,3 +17,4 @@ export class Hud {
   private readonly chaosRing = $('chaos-ring') as unknown as SVGCircleElement
   private readonly hitmark = $('hitmark') as unknown as SVGGElement
   private readonly bars = $('hpbars')
+  private readonly wheel = $('wheel')
