@@ -262,3 +262,4 @@ export class Hands {
   resize(aspect: number, heightPx: number) {
     this.camera.aspect = aspect
     this.camera.updateProjectionMatrix()
+    this.particles.setViewport(heightPx, this.camera.fov)
