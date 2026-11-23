@@ -498,6 +498,7 @@ button:disabled {
   width: min(34rem, 80vw);
   text-align: center;
   opacity: 0;
+  transition: opacity 0.3s;
 .banner {
   position: absolute;
   top: 24%;
