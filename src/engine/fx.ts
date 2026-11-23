@@ -462,6 +462,8 @@ export class ShadowPools {
     for (const p of this.pools) {
       if (p.state === 'off') continue
       p.t += dt
+      p.mat.uniforms.uTime.value += dt
+      if (p.t < 0) {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
