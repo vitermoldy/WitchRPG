@@ -243,3 +243,4 @@ export class UnitSystem {
             const p = this.host.player
             const n = Math.max(1, this.units.filter((o) => o.team === 'shadow').length)
             const a = p.yaw + Math.PI + (u.slot - (n - 1) / 2) * 0.7
+            tmp2.set(p.pos.x - Math.sin(a) * SHADOW.followDistance, 0, p.pos.z - Math.cos(a) * SHADOW.followDistance)
