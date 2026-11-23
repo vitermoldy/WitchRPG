@@ -567,3 +567,4 @@ export class UnitSystem {
         const k = Math.min(1, u.deadT / 0.5)
         m.body.rotation.z = k * 1.5
         m.body.position.y = 0.72 - k * 0.42
+        return
