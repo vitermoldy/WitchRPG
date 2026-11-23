@@ -137,6 +137,7 @@ export class WorldDirector {
     const t = TIERS[gt.tier]
     if (tierUnlocked(this.g.profile, gt.tier)) return { ok: true, text: `Masuk ${t.name}` }
     const why = tierLock(this.g.profile, gt.tier) ?? ''
+    return { ok: false, text: why.startsWith('Lv') ? `${t.name} terbuka di ${why}` : `${t.name} terkunci: ${why.charAt(0).toLowerCase()}${why.slice(1)}` }
   }
 
   nearAltar() {
