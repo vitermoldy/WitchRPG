@@ -9,3 +9,4 @@ interface Pose {
   curl: number
   spread: number
   reach: number
+  lift: number
