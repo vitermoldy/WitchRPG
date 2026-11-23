@@ -134,3 +134,4 @@ export class Umbra {
       const c = this.casting.pos
       for (let i = 0; i < 2; i++) {
         const s = Math.random()
+        const p = from.clone().lerp(c, s)
