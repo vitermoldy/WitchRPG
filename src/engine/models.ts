@@ -70,3 +70,4 @@ function husk(team: Team): UnitModel {
     rib.position.set(x, 0.36, -0.155)
     spine.add(rib)
   }
+  const head = pivot(spine, 0, 0.62, -0.06)
