@@ -267,3 +267,4 @@ export class Spells {
     g.hands.kick('right', 1.5)
     g.player.addTrauma(0.45)
     g.sfx.overload(true)
+    g.hud.message('Crimson Overload: damage +50% dan semua skill tanpa mana selama 12 detik.', 'chaos')
