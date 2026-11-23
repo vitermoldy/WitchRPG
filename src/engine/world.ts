@@ -52,3 +52,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   g.fillRect(0, px(-road), size, px(road) - px(-road))
   // Plaza disc in the middle.
   g.beginPath()
+  g.arc(px(0), px(0), (size / (half * 2)) * 11, 0, Math.PI * 2)
