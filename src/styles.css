@@ -1773,3 +1773,6 @@ dialog::backdrop {
 
 .compass .cm-camp.hard {
   background: var(--chaos);
+}
+
+.compass .cm-camp.easy {
