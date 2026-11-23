@@ -16,3 +16,4 @@ export default defineConfig({
   resolve: {
     alias: { '@': root + 'src' },
     dedupe: ['three'],
+  },
