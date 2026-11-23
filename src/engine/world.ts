@@ -359,3 +359,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     return mesh
   }
 
+  // Perimeter buildings, inner faces on the arena edge, gaps at the four road ends.
