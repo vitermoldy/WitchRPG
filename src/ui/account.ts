@@ -164,3 +164,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
         // Another browser saved a newer witch; take it only when no Rift is running.
         if (r.stale && r.profile && onTitle()) adopt(r.profile)
       } catch {
+        /* the browser keeps the save; the next one tries again */
