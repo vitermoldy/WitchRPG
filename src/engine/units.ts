@@ -294,3 +294,4 @@ export class UnitSystem {
       return
     }
     if (u.state === 'lunge') {
+      const ls = (spec.lungeSpeed ?? 12) * u.slow
