@@ -6,3 +6,4 @@ import { connect } from './db.js'
 /**
  * `npm run set-user -- <username> <kata sandi>`: makes an account, or gives an existing one a
  * new password (there is no reset by email, so this is the reset). A new account takes over the
+ * witch saved before accounts existed: the newest unowned browser's witch, plus the Rift history
