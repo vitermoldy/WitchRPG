@@ -528,3 +528,4 @@ export class Spells {
     }
     this.grabbed = []
     this.tendril.visible = false
+    g.lights.release(this.tendrilLight)
