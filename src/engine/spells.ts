@@ -550,6 +550,7 @@ export class Spells {
     const g = this.g
     if (!this.grabbed.length) return
     // A throw flies at what the crosshair is on, nearly straight for its first moment.
+    const aimAt = throwIt ? this.aim(80, { props: false }).point : null
     for (const gb of this.grabbed) {
       const mass = gb.unit ? gb.unit.mass : gb.prop!.mass
       const speed = mass > 200 ? SPELL.grip.throwSpeed * 0.6 : SPELL.grip.throwSpeed
