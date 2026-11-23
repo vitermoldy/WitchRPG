@@ -52,3 +52,4 @@ export class Unit implements Target {
   state: UnitState = 'move'
   t = 0
   cd = 0
+  target: Target | null = null
