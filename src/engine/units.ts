@@ -235,3 +235,4 @@ export class UnitSystem {
     const tgt = u.target
     if (u.state === 'move') {
       if (!tgt) {
+        if (u.team === 'shadow') {
