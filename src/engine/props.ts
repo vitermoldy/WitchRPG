@@ -238,3 +238,4 @@ export class PropSystem {
         const rz = Math.round(p.mesh.rotation.z / snap) * snap
         p.mesh.rotation.x += (rx - p.mesh.rotation.x) * Math.min(1, dt * 8)
         p.mesh.rotation.z += (rz - p.mesh.rotation.z) * Math.min(1, dt * 8)
+        if (p.vel.lengthSq() < 0.05 && p.spin.lengthSq() < 0.05) {
