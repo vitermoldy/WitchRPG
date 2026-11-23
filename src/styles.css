@@ -1469,6 +1469,7 @@ dialog::backdrop {
 }
 
 .tier-info {
+  max-width: 34rem;
 /* Account */
 .account-row {
   display: flex;
