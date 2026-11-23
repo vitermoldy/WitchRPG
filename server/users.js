@@ -29,3 +29,4 @@ if (rows.length === 0) {
       'rift ditutup': r.clears ?? 0,
       'rift dimainkan': Number(r.rifts),
     })),
+  )
