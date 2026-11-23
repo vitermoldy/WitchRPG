@@ -99,3 +99,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       text.innerHTML = ''
       text.append('Masuk sebagai ')
       const b = document.createElement('b')
+      b.textContent = state.account.username
