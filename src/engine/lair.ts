@@ -88,3 +88,5 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   const colliders = new Colliders()
   const stone = new THREE.MeshStandardMaterial({ color: 0x3a3236, roughness: 0.85, flatShading: true })
   const dark = new THREE.MeshStandardMaterial({ color: 0x1d1719, roughness: 0.9, flatShading: true })
+  const glowEdge = new THREE.MeshStandardMaterial({ color: 0x140806, emissive: COLOR.rift, emissiveIntensity: 0.9 })
+
