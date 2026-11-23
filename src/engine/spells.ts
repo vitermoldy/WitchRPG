@@ -292,3 +292,4 @@ export class Spells {
         damage: dmg,
         mesh,
         light: g.lights.acquire(COLOR.chaos, 6, 7),
+      })
