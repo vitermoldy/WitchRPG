@@ -397,3 +397,4 @@ button:disabled {
   display: grid;
   grid-template-columns: 1fr minmax(0, 9rem) 3rem;
   align-items: center;
+  gap: 0.8rem;
