@@ -266,3 +266,4 @@ export class Hands {
   }
 
   update(dt: number, lookDx: number, lookDy: number, bobPhase: number, bobWeight: number, charge: { left: number; right: number }) {
+    this.t += dt
