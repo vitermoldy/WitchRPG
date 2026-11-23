@@ -349,6 +349,7 @@ function hollow(team: Team): UnitModel {
       const ring = new THREE.Mesh(new THREE.TorusGeometry(0.78, 0.24, 8, 18), m.body)
       ring.position.set(0, 0.86, 0)
       p.spine.add(ring)
+      meshes.push(ring)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
