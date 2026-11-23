@@ -54,3 +54,4 @@ export class Projectiles {
 
   /** Lobs a glob from `from` so it lands on `to`; gravity bends it into an arc. */
   fire(from: THREE.Vector3, to: THREE.Vector3, team: ShotTeam, damage: number, spec: { speed: number; gravity: number; radius: number }, source: Unit | null) {
+    const flat = Math.hypot(to.x - from.x, to.z - from.z)
