@@ -323,3 +323,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   key.shadow.bias = -0.0005
   key.shadow.normalBias = 0.04
   scene.add(key)
+  scene.add(key.target)
+
