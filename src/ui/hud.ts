@@ -6,6 +6,7 @@ import type { Game } from '../engine/game'
 /** What to do about an elite's trait, under its name on the big bar. */
 const TRAIT_HINT: Record<EliteTrait, string> = {
   berlapis: 'Berlapis: bolt dan ledakan nyaris tidak melukai. Lempar benda atau makhluk ke arahnya.',
+  gesit: 'Gesit: bergerak dan menyerang lebih cepat.',
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
 type Tone = 'info' | 'chaos' | 'umbra' | 'level'
