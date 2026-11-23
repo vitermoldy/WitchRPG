@@ -276,3 +276,4 @@ export class Spells {
     this.boltCd = SPELL.bolt.cooldown
     const from = g.hands.palmWorld('left', g.camera)
     const target = this.aim(80).point
+    const base = target.clone().sub(from).normalize()
