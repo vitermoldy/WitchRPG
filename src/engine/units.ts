@@ -175,6 +175,8 @@ export class Unit implements Target {
       this.speed *= ELITE.swift.speed
       this.tempo = ELITE.swift.tempo
     }
+  }
+
 }
 
 const tmp = new THREE.Vector3()
