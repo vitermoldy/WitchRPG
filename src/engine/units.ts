@@ -783,6 +783,7 @@ export class UnitSystem {
     P.spine.rotation.x = lean
     legL.rotation.x = sw * 0.65 * amp
     legR.rotation.x = -sw * 0.65 * amp
+    P.kneeL.rotation.x = Math.max(0, -sw) * 0.8 * amp
     }
   }
 }
