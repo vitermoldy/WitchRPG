@@ -1108,6 +1108,7 @@ dialog::backdrop {
 .history-item {
   display: grid;
   grid-template-columns: 9rem 1fr auto;
+  align-items: baseline;
 .stat-list {
   display: grid;
   gap: 0.35rem;
