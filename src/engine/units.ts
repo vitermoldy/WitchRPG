@@ -974,6 +974,7 @@ export class UnitSystem {
     if (u.state === 'windup') flap = 0.7 + Math.sin(t * 30 + u.id) * 0.2
     else if (u.state === 'lunge') {
       flap = -0.1
+      fold = 1.1
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
