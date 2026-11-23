@@ -217,3 +217,4 @@ export class Hud {
         el = document.createElement('div')
         el.className = 'hpbar'
         el.appendChild(document.createElement('i'))
+        this.bars.appendChild(el)
