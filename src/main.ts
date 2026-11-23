@@ -144,8 +144,7 @@ async function boot() {
     $('out-vol').textContent = `${Math.round(s.volume * 100)}%`
     $<HTMLInputElement>('set-bob').checked = s.headBob
     $<HTMLInputElement>('set-shake').checked = s.shake
-    $<HTMLInputElement>('set-cap').value = String(s.fieldCap)
-    $('out-cap').textContent = String(s.fieldCap)
+    $<HTMLInputElement>('set-detail').value = String(s.detail)
     // In the open world, leaving goes to the title; in a Rift from a world gate, back out of the gate.
     const world = game.mode === 'world'
     const gate = !world && !!game.returnToWorld
