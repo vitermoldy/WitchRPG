@@ -75,3 +75,4 @@ function crackTexture(size: number) {
     g.stroke()
   }
   const map = new THREE.CanvasTexture(c)
+  map.colorSpace = THREE.SRGBColorSpace
