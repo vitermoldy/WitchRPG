@@ -283,3 +283,6 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       rock.castShadow = true
       group.add(rock)
     }
+    return { tier, pos: new THREE.Vector3(x, 0, z), mat }
+  })
+
