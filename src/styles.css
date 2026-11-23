@@ -506,6 +506,7 @@ button:disabled {
   opacity: 1;
 }
 
+.boss-name {
 .banner {
   position: absolute;
   top: 24%;
