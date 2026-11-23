@@ -21,3 +21,5 @@ Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Docu
 - Ledger (Tab): level, XP, 3 poin stat dan 1 poin skill per level, pohon skill dua cabang, Ruang Bayangan dengan tombol Lepas.
 - Simpanan di localStorage, layar judul, jeda dengan pengaturan, hasil Rift, layar tumbang.
 
+Belum dibuat (ditandai "Belum ada di prototype ini" di Ledger): Reality Warp, Kebangkitan Jenderal, Kebangkitan Marsekal, Spitter, Warden, Rift Lord, boss The Hollow Warden, Rift Tier II dan III.
+
