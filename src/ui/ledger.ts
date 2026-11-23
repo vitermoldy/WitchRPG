@@ -14,3 +14,5 @@ const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
   umb: { name: 'Umbra', effect: '+1% peluang rite, +1 slot tiap 5' },
 }
 
+const fmt = (n: number, d = 0) => n.toLocaleString('id-ID', { maximumFractionDigits: d, minimumFractionDigits: d })
+
