@@ -574,7 +574,7 @@ export class UnitSystem {
         const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
         if (u.pos.y <= floor) {
           u.pos.y = floor
-          if (u.thrown && speed > SPELL.impact.minSpeed) this.impact(u, speed, null)
+          if (u.thrown && u.vel.length() > SPELL.impact.minSpeed) this.impact(u, u.vel.length(), null)
           u.vel.y = 0
           u.vel.x *= 0.3
           u.vel.z *= 0.3
