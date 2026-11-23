@@ -93,6 +93,8 @@ export function riteBlock(p: Profile, kind: UnitKind): string | null {
     if (p.shadows.some((s) => s.kind === kind)) return `Hanya satu Marsekal per boss, dan ${UNITS[kind].name} sudah ada di Ruang Bayangan.`
   }
   return null
+}
+
 /** True for a witch nobody has played yet (settings do not count). */
 export function isFresh(p: Profile): boolean {
   return (
