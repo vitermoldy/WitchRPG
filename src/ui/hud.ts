@@ -96,6 +96,8 @@ export class Hud {
     const near = w.nearestCamp()
     this.set('rift-name', 'text', 'Dunia terbuka')
     this.set('rift-wave', 'text', near ? `Kamp Lv ${near.camp.spot.levels[0]} sampai ${near.camp.spot.levels[1]}${near.camp.spot.elite ? ', dengan Rift Lord' : ''}` : 'Semua kamp ditaklukkan')
+    this.set('rift-left', 'text', near ? `${Math.round(near.dist)} m, ${w.cleared} dari ${w.camps.length} kamp ditaklukkan` : '')
+    this.updateCompass()
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
