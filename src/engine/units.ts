@@ -525,7 +525,7 @@ export class UnitSystem {
       u.vel.z = u.lungeDir.z * ls
       if (tgt && tgt.alive && !u.hitThisLunge) {
         const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z)
-        if (d < u.radius + tgt.radius + 0.35) {
+        if (d < u.radius + tgt.radius + 0.35 && Math.abs(tgt.pos.y - u.pos.y) < u.height + 0.8) {
           u.hitThisLunge = true
           this.hit(u, tgt)
         }
