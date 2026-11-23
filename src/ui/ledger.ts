@@ -124,3 +124,4 @@ export class Ledger {
     }).join('')
 
     $('derived-list').innerHTML = [
+      ['HP maksimum', fmt(d.maxHp)],
