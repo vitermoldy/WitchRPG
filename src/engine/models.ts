@@ -54,3 +54,4 @@ function husk(team: Team): UnitModel {
   const s = shared[team]
   const root = new THREE.Group()
   const body = pivot(root, 0, 0.95, 0)
+  const parts: Record<string, THREE.Object3D> = {}
