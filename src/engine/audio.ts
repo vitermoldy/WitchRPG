@@ -312,6 +312,8 @@ export class Sfx {
     const ctx = this.ctx
     if (!this.windNodes) {
       if (level <= 0) return
+      const src = ctx.createBufferSource()
+      src.buffer = this.noiseBuf
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
