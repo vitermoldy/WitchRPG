@@ -210,3 +210,4 @@ export class Hands {
   private readonly left: Hand
   private readonly right: Hand
   private t = 0
+  private swayX = 0
