@@ -18,3 +18,4 @@ interface Portal {
 export class RiftDirector {
   private readonly g: Game
   phase: RiftPhase = 'intro'
+  wave = 0
