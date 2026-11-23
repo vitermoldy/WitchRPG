@@ -69,3 +69,4 @@ export class BossFight {
     const g = this.g
     const u = this.u
     this.immuneNote -= dt
+    if (!u.alive) return
