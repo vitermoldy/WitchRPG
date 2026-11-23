@@ -121,3 +121,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   const segs = [0.04, 0.028, 0.022]
   for (let f = 0; f < 4; f++) {
     const joints: THREE.Object3D[] = []
+    let parent: THREE.Object3D = wrist
