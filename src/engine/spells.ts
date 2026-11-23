@@ -512,3 +512,4 @@ export class Spells {
       if (gb.unit) {
         const u = gb.unit
         if (u.alive) {
+          u.vel.copy(v)
