@@ -53,3 +53,4 @@ export class Ledger {
   private readonly host: LedgerHost
   onClose: (() => void) | null = null
 
+  constructor(host: LedgerHost) {
