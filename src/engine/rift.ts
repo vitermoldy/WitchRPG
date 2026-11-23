@@ -1,5 +1,5 @@
 import * as THREE from 'three'
-import { RIFT, TIERS, UNITS, type TierSpec, type UnitKind } from '../game/balance'
+import { ELITE, RIFT, TIERS, UNITS, type EliteTrait, type TierSpec, type UnitKind } from '../game/balance'
 import { bossUnlocked } from '../game/progression'
 import type { BossFight } from './boss'
 import type { Game } from './game'
