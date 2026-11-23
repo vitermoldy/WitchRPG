@@ -38,3 +38,5 @@ export class Player {
   mana = 125
   maxMana = 125
   hurtTimer = 0
+  alive = true
+
