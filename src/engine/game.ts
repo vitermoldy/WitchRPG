@@ -504,3 +504,4 @@ export class Game {
     if (Math.random() < dt * 40) {
       const a = Math.random() * Math.PI * 2
       const d = Math.random() * r
+      this.glow.emit({
