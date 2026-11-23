@@ -138,6 +138,7 @@ export class RiftDirector {
   private freePerch(): THREE.Vector3 | null {
     const taken = this.g.units.enemies().filter((u) => u.kind === 'spitter')
     const free = this.g.world.perches.filter((p) => !taken.some((u) => u.pos.distanceTo(p) < 1.5))
+    return free.length ? free[Math.floor(Math.random() * free.length)].clone() : null
   }
 
   update(dt: number) {
