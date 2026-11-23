@@ -227,3 +227,4 @@ export class BossFight {
         if (Math.hypot(u.pos.x - this.home.x, u.pos.z - this.home.z) > 2.5) u.pos.lerp(this.home.clone().setY(u.pos.y), Math.min(1, dt * 2))
         this.summonT -= dt
         if (this.summonT <= 0) {
+          for (let i = 0; i < 3; i++) {
