@@ -32,3 +32,4 @@ function rand(seed: number) {
 
 function canvas(w: number, h: number) {
   const c = document.createElement('canvas')
+  c.width = w
