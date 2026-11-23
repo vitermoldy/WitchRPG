@@ -599,3 +599,4 @@ button:disabled {
   stroke-width: 2.5;
   stroke-dasharray: 0 100;
   transform: rotate(-90deg);
+  transform-origin: 60px 60px;
