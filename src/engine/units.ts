@@ -522,3 +522,4 @@ export class UnitSystem {
 
     if (u.kind === 'husk') {
       const legL = P.legL, legR = P.legR, armL = P.armL, armR = P.armR
+      let armX = 0
