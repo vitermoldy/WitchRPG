@@ -13,7 +13,7 @@ import {
   newProfile,
   riteChance,
   shadowName,
-  shadowSlots,
+  shadowPower,
   spendStat,
   unitStats,
   xpForKill,
