@@ -398,3 +398,4 @@ export class Spells {
         if (a < bestA && g.colliders.clear(o, u.center)) {
           bestA = a
           first = { unit: u }
+        }
