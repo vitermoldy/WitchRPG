@@ -150,3 +150,5 @@ export class Hud {
     if (this.cache.get('prompt') !== promptHtml) {
       this.cache.set('prompt', promptHtml)
       this.prompt.innerHTML = promptHtml
+    }
+
