@@ -189,3 +189,4 @@ export class Spells {
     const dir = this.g.player.viewDir()
     let best: AimHit = { point: o.clone().addScaledVector(dir, maxDist), dist: maxDist, unit: null, prop: null }
     const wall = this.g.colliders.raycast(o, dir, maxDist)
+    if (wall) best = { point: wall.point, dist: wall.dist, unit: null, prop: null }
