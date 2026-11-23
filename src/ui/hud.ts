@@ -337,6 +337,7 @@ export class Hud {
     for (const u of g.units.units) {
       if (u.team !== 'rift' || !u.alive) continue
       // Elites keep their bar and trait in view while they are close; the rest show it after a hit.
+      if (u.barShown <= 0 && !(u.elite && u.pos.distanceToSquared(g.player.pos) < 35 * 35)) continue
       if (this.v.z > 1 || Math.abs(this.v.x) > 1.1 || Math.abs(this.v.y) > 1.1) continue
       let el = this.pool[n]
       if (!el) {
