@@ -380,3 +380,4 @@ export class UnitSystem {
         if (u.thrown && speed > SPELL.impact.minSpeed) {
           for (const o of this.units) {
             if (o === u || !o.alive || o.team !== 'rift' || o.state === 'held') continue
+            if (o.pos.distanceTo(u.pos) < u.radius + o.radius + 0.25) {
