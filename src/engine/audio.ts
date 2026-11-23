@@ -270,6 +270,7 @@ export class Sfx {
     this.noise(t, 1.6, 'bandpass', 260, 0.3, 2, 120)
   }
 
+  collapse() {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
