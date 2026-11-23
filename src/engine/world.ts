@@ -364,3 +364,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   for (let side = 0; side < 4; side++) {
     let along = -60
     while (along < 60) {
+      const w = 11 + R() * 9
