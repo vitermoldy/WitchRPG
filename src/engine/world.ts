@@ -270,3 +270,4 @@ export function makeTearMaterial(seed: number) {
     fragmentShader: TEAR_FRAG,
     transparent: true,
     depthWrite: false,
+    side: THREE.DoubleSide,
