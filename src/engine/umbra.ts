@@ -359,9 +359,8 @@ export class Umbra {
 
   private begin() {
     const g = this.g
-    const u = this.candidate
-    if (!u) return
-    const why = this.blocker(u)
+    const list = this.targets
+    if (!list.length) return
     if (why) {
       g.hud.message(why, 'umbra')
       if (why.startsWith('Mana')) g.hud.flashMana()
