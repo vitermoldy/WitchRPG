@@ -267,6 +267,8 @@ export class Umbra {
     }
     this.casting = this.casting.filter((u) => u.state === 'dead' && !u.riteTried && !u.ash)
     // Two or more glowing bodies in reach: one cast raises them all. Otherwise the one under the crosshair.
+    if (this.casting.length) {
+      this.candidate = this.casting[0]
 
     // Casting.
     const holding = canAct && g.input.held('KeyR')
