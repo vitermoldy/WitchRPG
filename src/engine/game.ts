@@ -566,6 +566,7 @@ export class Game {
     boss.setState('rising')
     const fight = new BossFight(this, boss, home)
     this.rift.beginLair(fight)
+    this.hud.fade()
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
