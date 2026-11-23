@@ -1450,6 +1450,7 @@ dialog::backdrop {
   font-size: 0.9rem;
 }
 
+.gate-form .btn {
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
