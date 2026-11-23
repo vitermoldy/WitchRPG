@@ -492,6 +492,7 @@ function bombard(team: Team): UnitModel {
       muzzle.position.y = 0.53
       muzzle.rotation.x = Math.PI / 2
       muzzle.castShadow = false
+      tube.add(muzzle)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
