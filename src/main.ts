@@ -73,3 +73,4 @@ async function boot() {
     const fresh =
       p.level === 1 &&
       p.xp === 0 &&
+      p.shadows.length === 0 &&
