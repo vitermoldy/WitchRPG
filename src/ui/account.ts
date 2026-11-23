@@ -258,3 +258,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   render()
   void checkAccount()
   return { refresh: () => render() }
+}
