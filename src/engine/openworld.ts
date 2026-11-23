@@ -196,3 +196,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
         for (let j = 0; j < 3; j++) {
           if (R() < (i === 1 && j === 1 ? 0.6 : 0.15)) continue
           const cx = bx + (i - 1) * lot
+          const cz = bz + (j - 1) * lot
+          if (Math.abs(cx) > H - 8 || Math.abs(cz) > H - 8) continue
