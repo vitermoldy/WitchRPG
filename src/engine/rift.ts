@@ -128,6 +128,7 @@ export class RiftDirector {
     this.phase = 'wave'
     this.spawnT = 0.5
     const last = i === this.totalWaves - 1
+    this.g.hud.banner(
   }
 
   update(dt: number) {
