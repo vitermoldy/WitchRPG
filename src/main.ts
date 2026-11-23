@@ -47,3 +47,4 @@ async function boot() {
   if (!webglOk()) {
     fail('Browser ini tidak menyediakan WebGL 2.')
     return
+  }
