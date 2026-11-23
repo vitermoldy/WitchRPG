@@ -369,3 +369,4 @@ export class Umbra {
     }
     g.sfx.ui()
   }
+}
