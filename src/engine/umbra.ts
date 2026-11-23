@@ -250,3 +250,4 @@ export class Umbra {
       g.hud.riteResult(true, rec.name)
       g.saveSoon()
     } else {
+      this.turnToAsh(u)
