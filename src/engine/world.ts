@@ -304,3 +304,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const tear = new THREE.Mesh(new THREE.PlaneGeometry(70, 150), tearMat)
   tear.position.copy(riftDir.clone().multiplyScalar(250))
   tear.lookAt(0, 0, 0)
+  tear.rotateZ(0.35)
