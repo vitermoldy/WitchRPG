@@ -851,3 +851,4 @@ button:disabled {
   border-color: var(--ink-3);
 }
 
+.army-slot.empty {
