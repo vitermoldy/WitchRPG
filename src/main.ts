@@ -135,3 +135,5 @@ async function boot() {
       showScreen('dead')
       $('btn-retry').focus()
     }
+  }
+
