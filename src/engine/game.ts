@@ -315,3 +315,5 @@ export class Game {
       live.damage = st.damage
     }
     this.saveSoon()
+  }
+
