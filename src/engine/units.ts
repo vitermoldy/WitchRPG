@@ -310,6 +310,7 @@ export class UnitSystem {
     const walker = !u.spec.fly && !u.spec.shot
     for (const o of this.riftAlive) {
       if (!o.alive || o.state === 'spawn') continue
+      if (walker && o.aloft && o.pos.y > u.pos.y + 2.5) continue
       const d = u.pos.distanceTo(o.pos)
       if (d < bestD && o.pos.distanceTo(anchor) < (u.command === 'hold' ? range : SHADOW.leash + (u.spec.shot ? 8 : 0)) && d < range + 6) {
         best = o
