@@ -343,3 +343,4 @@ export class Spells {
           }
         }
       }
+      for (const pr of g.props.props) {
