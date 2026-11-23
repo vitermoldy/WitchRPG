@@ -309,3 +309,4 @@ export class Game {
       if (!live) continue
       const ratio = live.hp / live.maxHp
       const st = unitStats(live.kind, sl.level, true)
+      live.level = sl.level
