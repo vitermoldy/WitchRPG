@@ -97,3 +97,4 @@ async function migrate(pool) {
     const [rows] = await pool.query('SELECT DATA_TYPE AS t FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = ? AND COLUMN_NAME = ?', [table, column])
     return rows[0]?.t ?? null
   }
+  // Shadows can now be Spitters, Wardens, a Rift Lord or the boss.
