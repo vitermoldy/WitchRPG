@@ -486,3 +486,4 @@ export class Spells {
       const b = mid.clone().lerp(to, s)
       const pt = a.lerp(b, s)
       pt.x += Math.sin(t * 23 + i * 1.7) * 0.06 * Math.sin(s * Math.PI)
+      pt.y += Math.cos(t * 19 + i * 1.3) * 0.06 * Math.sin(s * Math.PI)
