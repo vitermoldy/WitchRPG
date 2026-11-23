@@ -185,6 +185,8 @@ export class Player {
     const len = diff.length()
     if (len > step && len > 1e-6) this.vel.addScaledVector(diff, step / len)
     else this.vel.add(diff)
+    const ground = world.groundAt(this.pos.x, this.pos.z, this.radius, this.pos.y, MOVE.step)
+    const top = Math.max(0, ground) + this.ceiling
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
