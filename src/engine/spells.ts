@@ -606,6 +606,7 @@ export class Spells {
 
   /** Reality Warp: a field where gravity turns over, rift globs turn back and the boss's shell opens. */
   private warp() {
+    const g = this.g
   private burst() {
     const g = this.g
     const s = SPELL.burst
