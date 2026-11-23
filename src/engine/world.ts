@@ -26,3 +26,4 @@ function rand(seed: number) {
   return () => {
     s = (Math.imul(s ^ (s >>> 15), 2246822507) + 0x9e3779b9) >>> 0
     s = Math.imul(s ^ (s >>> 13), 3266489909) >>> 0
+    return ((s ^ (s >>> 16)) >>> 0) / 4294967296
