@@ -246,3 +246,4 @@ export class Game {
     for (let i = 0; i < 4; i++) {
       const off = (i - 1.5) * 0.7
       const at = new THREE.Vector3(cx + (wide ? off : 0), 0.5 + Math.random() * 1, cz + (wide ? 0 : off))
+      const away = at.clone().sub(from).setY(0).normalize().multiplyScalar(7 + Math.random() * 5)
