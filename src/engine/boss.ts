@@ -147,3 +147,4 @@ export class BossFight {
   private breathe() {
     const p = this.g.player
     const heal = Math.round(p.maxHp * BOSS.phaseHeal)
+    p.hp = Math.min(p.maxHp, p.hp + heal)
