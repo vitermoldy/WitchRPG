@@ -542,6 +542,7 @@ export class Game {
     this.world.city.visible = true
     this.lair.group.visible = false
     this.activeColliders = this.world.colliders
+    this.respawnProps()
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
