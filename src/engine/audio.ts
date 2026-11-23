@@ -172,3 +172,4 @@ export class Sfx {
     osc.stop(t + 0.15)
     osc2.stop(t + 0.15)
     this.gripNodes = null
+    if (threw && this.ok()) {
