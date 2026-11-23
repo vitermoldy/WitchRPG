@@ -71,3 +71,4 @@ async function boot() {
     const p = game.profile
     const base = newProfile()
     const fresh =
+      p.level === 1 &&
