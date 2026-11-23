@@ -123,6 +123,7 @@ export interface UnitSpec {
   cooldown: number
   lungeSpeed?: number
   lungeTime?: number
+  /** Fires globs instead of hitting in melee. */
 }
 
 export const UNITS: Record<UnitKind, UnitSpec> = {
