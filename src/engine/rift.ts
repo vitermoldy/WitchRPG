@@ -204,6 +204,7 @@ export class RiftDirector {
           g.hud.message(`Gelombang ${this.wave} habis. Jeda ${RIFT.breather} detik, HP pulih ${heal}.`, 'info')
         } else if (this.tier.boss && bossUnlocked(g.profile)) {
           this.phase = 'gate'
+          this.gate.position.copy(this.cityExit)
         }
       }
       return
