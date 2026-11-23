@@ -42,3 +42,4 @@ export class Colliders {
     let hit = false
     for (const b of this.boxes) {
       if (b.top <= feetY + step) continue
+      const cx = Math.min(b.maxX, Math.max(b.minX, pos.x))
