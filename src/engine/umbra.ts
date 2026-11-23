@@ -62,3 +62,4 @@ export class Umbra {
     u.record = rec
     u.slot = g.profile.shadows.indexOf(rec)
     u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
+    g.sfx.riteResult(true)
