@@ -24,6 +24,7 @@ export interface SkillDef {
   /** False for skills the GDD lists that this prototype does not play yet. */
   built: boolean
   /** The GDD gives this skill no upgrade, so no point can be spent on it. */
+  noUpgrade?: boolean
 }
 
 export const SKILLS: SkillDef[] = [
