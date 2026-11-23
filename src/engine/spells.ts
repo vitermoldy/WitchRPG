@@ -338,3 +338,4 @@ export class Spells {
           if (d <= len && d < best) {
             best = d
             hitAt = p.clone()
+            hitUnit = u
