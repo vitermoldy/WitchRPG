@@ -765,6 +765,7 @@ export class Game {
       this.ow.update(this.t)
       if (s === 'playing') this.lightAt(this.player.pos)
     }
+    this.pools.update(dt)
     if (this.saveTimer > 0) {
       this.saveTimer -= dt
       if (this.saveTimer <= 0) this.persist()
