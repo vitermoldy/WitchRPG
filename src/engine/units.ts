@@ -751,6 +751,7 @@ export class UnitSystem {
         armX = 0
       } else {
         armX = (slammer ? -3 : -2.4) * k
+        lean = baseLean - (slammer ? 0.35 : 0.3) * k
       }
     }
   }
