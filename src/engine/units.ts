@@ -742,6 +742,7 @@ export class UnitSystem {
     const { legL, legR, armL, armR } = P
     const slammer = !!u.spec.slam
     let armX = 0
+    let lean = baseLean
       }
     }
   }
