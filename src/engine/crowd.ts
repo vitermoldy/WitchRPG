@@ -29,3 +29,5 @@ export class ShadowCrowd {
 
   constructor() {
     this.group.name = 'shadow-crowd'
+  }
+
