@@ -1726,3 +1726,6 @@ dialog::backdrop {
   bottom: 0;
   width: 1px;
   height: 0.45rem;
+  background: var(--ink);
+}
+
