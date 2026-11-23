@@ -616,6 +616,7 @@ export class Game {
     u.pos.copy(at)
     u.lastGood.copy(at)
     u.vel.set(0, 0, 0)
+    u.lifted = 0
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
