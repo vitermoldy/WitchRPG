@@ -128,3 +128,4 @@ export class Game {
     this.hud = new Hud(this)
     this.ledger = new Ledger({
       profile: this.profile,
+      changed: () => {
