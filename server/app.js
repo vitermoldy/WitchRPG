@@ -194,6 +194,7 @@ export function createApi(getPool, database) {
            next_shadow_id = VALUES(next_shadow_id), clears = VALUES(clears), boss_kills = VALUES(boss_kills), settings = VALUES(settings), updated_at = VALUES(updated_at)`,
         [client, p.level, p.xp, p.statPoints, p.skillPoints, p.stats.hex, p.stats.spr, p.stats.vit, p.stats.agi, p.stats.umb, p.nextShadowId, p.clears, p.bossKills, JSON.stringify(p.settings), p.updatedAt],
       )
+      await conn.query('INSERT INTO tier_clears (client_id, tier, clears) VALUES ? ON DUPLICATE KEY UPDATE clears = VALUES(clears)', [
       await conn.query('DELETE FROM witch_upgrades WHERE client_id = ?', [client])
       if (p.upgrades.length) await conn.query('INSERT INTO witch_upgrades (client_id, skill) VALUES ?', [p.upgrades.map((s) => [client, s])])
       await conn.query('DELETE FROM shadows WHERE client_id = ?', [client])
