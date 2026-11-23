@@ -23,3 +23,4 @@ interface Shot {
 export interface ShotHost {
   readonly colliders: Colliders
   units: UnitSystem
+  player: { pos: THREE.Vector3; alive: boolean }
