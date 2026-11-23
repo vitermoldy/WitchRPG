@@ -437,6 +437,7 @@ export class Game {
     this.detailT = 0.25
     const cam = this.camera.position
     const list = this.units.units.filter((u) => u.team === 'shadow' && u.alive)
+    const n = this.profile.settings.detail
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
