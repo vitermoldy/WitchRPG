@@ -84,6 +84,7 @@ export class Unit implements Target {
   /** Seconds until a summon or a shadow skill is ready again. */
   skillCd = 0
   /** Who called this unit up; summoners keep count of their helpers. */
+  owner: Unit | null = null
   // Corpse.
   deadT = 0
   riteTried = false
