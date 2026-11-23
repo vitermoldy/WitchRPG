@@ -474,3 +474,4 @@ export class Game {
       this.rings.update(dt)
     }
     const fighting = s === 'playing' || s === 'paused' || s === 'ledger' || s === 'dead'
+    this.hands.scene.visible = fighting
