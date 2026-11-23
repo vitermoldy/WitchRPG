@@ -50,3 +50,4 @@ export class ShadowCrowd {
     const parts = mats.map((mat) => mergeGeometries(byMat.get(mat)!, false)!)
     const geo = mergeGeometries(parts, true)!
     const batch: Batch = { mesh: this.makeMesh(geo, mats, 64), geo, mats, cap: 64, used: 0 }
+    this.batches.set(kind, batch)
