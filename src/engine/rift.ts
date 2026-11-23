@@ -251,6 +251,8 @@ export class RiftDirector {
     this.gate.visible = false
     this.boss = boss
     this.bossUnit = boss.u
+  }
+
   /** The exit is open and the witch is close enough to use it. */
   nearExit() {
     return this.phase === 'cleared' && Math.hypot(this.g.player.pos.x - this.exitPos.x, this.g.player.pos.z - this.exitPos.z) < 3
