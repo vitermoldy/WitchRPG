@@ -19,6 +19,7 @@ export interface UnitModel {
  */
 const SHAPES = new Map<string, THREE.BufferGeometry>()
 function shape(key: string, make: () => THREE.BufferGeometry): THREE.BufferGeometry {
+  let g = SHAPES.get(key)
 const shared = {
   rift: {
     accent: new THREE.MeshStandardMaterial({ color: 0x120806, emissive: COLOR.rift, emissiveIntensity: 1.6 }),
