@@ -98,6 +98,7 @@ Pemilik meminta "bayangannya bisa dikeluarkan tanpa kecuali". Saya membacanya se
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| T | Memanggil setiap bayangan yang siap, terkuat dulu. Yang sedang terbentuk kembali menyusul sendiri begitu siap, selama pasukan masih di luar. Bayangan yang baru dibangkitkan selalu berdiri di tempatnya dan bergabung | "Tanpa kecuali": tidak ada lagi bayangan yang tertahan di Ruang Bayangan karena batas, dan bayangan yang tumbang tidak perlu dipanggil ulang dengan mengembalikan seluruh pasukan dulu. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
