@@ -565,6 +565,7 @@ export class Game {
     const boss = this.units.spawn('hollow', 'rift', TIERS[3].boss!.level, home.clone())
     boss.setState('rising')
     const fight = new BossFight(this, boss, home)
+    this.rift.beginLair(fight)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
