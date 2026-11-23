@@ -240,3 +240,4 @@ export class Game {
     this.colliders.remove(b)
     if (b.mesh) b.mesh.visible = false
     this.brokenCover.push(b)
+    const cx = (b.minX + b.maxX) / 2
