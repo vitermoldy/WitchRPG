@@ -83,3 +83,4 @@ function sigilShape(): THREE.BufferGeometry {
 
 function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   const mirror = side === 'left' ? -1 : 1
+  const root = new THREE.Group()
