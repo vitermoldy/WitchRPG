@@ -400,7 +400,7 @@ export class UnitSystem {
           u.slamAt.copy(u.pos).addScaledVector(u.facing, Math.min(spec.slam * 0.4, d * 0.6))
           if (u.team === 'rift') this.host.telegraph(u.slamAt, spec.slam, spec.windup)
         }
-        this.steer(u, tgt.pos, speed, dt, spec.attackRange - 0.4)
+        if (Math.random() < 0.35 || spec.slam) this.host.growl()
       }
       return
     }
