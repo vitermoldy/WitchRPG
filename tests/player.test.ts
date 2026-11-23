@@ -25,3 +25,4 @@ describe('Player.update', () => {
     expect(finite(p)).toBe(true)
   })
 
+  it('falls back to the last good position if a number breaks anyway', () => {
