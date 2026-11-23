@@ -1329,3 +1329,4 @@ dialog::backdrop {
     gap: 0.4rem;
   }
   .ledger-head {
+    flex-direction: column;
