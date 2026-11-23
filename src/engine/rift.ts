@@ -140,3 +140,4 @@ export class RiftDirector {
           this.phase = 'cleared'
           this.exit.visible = true
           g.hud.banner('Rift ditaklukkan', 'Retakan di monumen terbuka. Dekati lalu tekan F untuk keluar.')
+          g.sfx.levelUp()
