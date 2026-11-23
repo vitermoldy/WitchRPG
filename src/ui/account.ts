@@ -130,3 +130,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     saveProfile(game.profile, false)
     game.applyStats(true)
     game.applySettings()
+    hooks.onProfileChanged()
