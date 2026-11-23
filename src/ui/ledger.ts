@@ -221,5 +221,7 @@ export class Ledger {
           : 'Belum ada bayangan. Umbra Rite terbuka di Lv 2: setelah itu tubuh musuh yang kalah bisa dibangkitkan.'
       }</li>`
       return
+    }
+    // One group per kind and rank, strongest first, so three hundred shadows still read at a glance.
   }
 }
