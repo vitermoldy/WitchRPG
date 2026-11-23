@@ -1678,3 +1678,6 @@ dialog::backdrop {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Calling the army: the screen edges darken violet for a breath. */
+.veil-umbra {
