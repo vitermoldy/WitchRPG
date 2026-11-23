@@ -179,6 +179,7 @@ export class Unit implements Target {
 
   /** Hovering out of reach of anything that fights on foot. */
   get aloft() {
+    return !!this.spec.fly && this.alive && (this.state === 'move' || this.state === 'windup')
 }
 
 const tmp = new THREE.Vector3()
