@@ -55,6 +55,7 @@ const TABLES = [
   `CREATE TABLE IF NOT EXISTS tier_clears (
     client_id CHAR(12) NOT NULL,
     tier TINYINT UNSIGNED NOT NULL,
+    clears INT UNSIGNED NOT NULL,
   `CREATE TABLE IF NOT EXISTS rift_runs (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     client_id CHAR(12) NOT NULL,
