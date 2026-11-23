@@ -130,6 +130,7 @@ export class Hud {
       r.phase === 'intro' ? 'Rift terbuka' : r.phase === 'cleared' ? 'Rift ditaklukkan' : r.phase === 'gate' ? 'Jantung Rift terbuka' : r.phase === 'lair' ? 'The Hollow Warden' : `Gelombang ${r.wave} dari ${r.totalWaves}`,
     )
     this.set(
+      'rift-left',
 
     // Skills.
     const cds = g.spells.cooldowns()
