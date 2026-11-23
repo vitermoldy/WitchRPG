@@ -264,5 +264,6 @@ export class RiftDirector {
   }
 
   nearGate() {
+    return this.phase === 'gate' && this.near(this.gate.position, 3.4)
   }
 }
