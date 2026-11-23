@@ -373,8 +373,8 @@ export class Umbra {
   }
 
   cancel() {
-    if (!this.casting) return
-    this.casting = null
+    if (!this.casting.length) return
+    this.casting = []
     this.progress = 0
     this.g.hands.pose('right', 'idle')
   }
