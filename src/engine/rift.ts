@@ -209,6 +209,7 @@ export class RiftDirector {
           g.hud.banner('Jantung Rift terbuka', 'The Hollow Warden menunggu di dalam. Dekati retakan di monumen, lalu tekan F.')
           g.sfx.roar()
         } else {
+          this.openExit(this.cityExit)
         }
       }
       return
