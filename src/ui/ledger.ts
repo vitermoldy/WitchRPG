@@ -49,3 +49,4 @@ export interface LedgerHost {
 
 /** Status, stats, skill tree and the Shadow Room. */
 export class Ledger {
+  private readonly dlg = $<HTMLDialogElement>('ledger')
