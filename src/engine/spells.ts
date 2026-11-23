@@ -216,3 +216,4 @@ export class Spells {
     return best
   }
 
+  update(dt: number, canAct: boolean) {
