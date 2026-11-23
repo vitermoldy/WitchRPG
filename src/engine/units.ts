@@ -510,3 +510,4 @@ export class UnitSystem {
     }
     if (u.state === 'rising') {
       const k = Math.min(1, u.t / 1.2)
+      m.root.position.y = u.pos.y - (1 - k) * (1 - k) * u.spec.height
