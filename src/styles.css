@@ -1781,3 +1781,6 @@ dialog::backdrop {
 
 .hud.world .rift-status {
   top: calc(var(--gutter) + 2.8rem);
+}
+
+.hud.world .bossbar {
