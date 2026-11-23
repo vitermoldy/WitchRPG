@@ -57,6 +57,8 @@ export class Game {
   mode: 'rift' | 'world' = 'rift'
   map: 'city' | 'lair' | 'world' = 'city'
   readonly ow: OpenWorldBuild
+  readonly worldDir: WorldDirector
+  readonly pools: ShadowPools
   /** The tier of the Rift in progress (or the last one played). */
   tier: TierId = 1
   readonly warnings: Warnings
