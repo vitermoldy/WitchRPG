@@ -199,3 +199,4 @@ export class Sfx {
     this.noise(t, 0.15, 'lowpass', 900, 0.2)
   }
 
+  riteCharge(k: number) {
