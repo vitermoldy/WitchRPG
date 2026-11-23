@@ -26,3 +26,5 @@ import { buildWorld, type WorldBuild } from './world'
 
 export type GameState = 'loading' | 'title' | 'playing' | 'paused' | 'ledger' | 'result' | 'dead'
 
+const SKILL_IDS = SKILLS.map((s) => s.id)
+
