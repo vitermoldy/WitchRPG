@@ -131,3 +131,4 @@ export class Ledger {
       ['Waktu melayang', `${fmt(d.floatTime, 1)} detik`],
       ['Slot bayangan', fmt(d.slots)],
     ]
+      .map(([a, b]) => `<dt>${a}</dt><dd class="num">${b}</dd>`)
