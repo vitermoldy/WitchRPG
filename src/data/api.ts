@@ -132,3 +132,4 @@ export const signIn = (username: string, password: string): Promise<void> => ent
 export const signUp = (username: string, password: string): Promise<void> => enter('auth/register', { username, password, device: clientCode() })
 
 /** Ends the session and forgets this browser's code and waiting Rifts; the caller clears the witch and reloads. */
+export async function signOut(): Promise<void> {
