@@ -115,3 +115,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     body.position.set(x, top - depth / 2, z)
     body.castShadow = true
     body.receiveShadow = true
+    group.add(body)
