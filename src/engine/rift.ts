@@ -132,3 +132,4 @@ export class RiftDirector {
         const at = portal.pos.clone().add(new THREE.Vector3((Math.random() - 0.5) * 2.5, 0, (Math.random() - 0.5) * 2.5))
         at.y = 0
         g.units.spawn(next.kind, 'rift', next.level, at)
+        g.glow.emit({ pos: at.clone().setY(1), count: 30, color: COLOR.chaos, intensity: 2.2, life: 0.6, size: 0.2, speed: 3, jitter: 0.4 })
