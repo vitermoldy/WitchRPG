@@ -318,6 +318,7 @@ function riftlord(team: Team): UnitModel {
         horn.position.set(x, 0.42 + h / 2, 0)
         horn.rotation.z = tilt
         p.head.add(horn)
+        meshes.push(horn)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
