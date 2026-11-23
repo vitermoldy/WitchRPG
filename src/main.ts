@@ -185,3 +185,4 @@ async function boot() {
   })
 
   // After a Rift or a fall.
+  $('btn-result-ledger').addEventListener('click', () => game.openLedger('result'))
