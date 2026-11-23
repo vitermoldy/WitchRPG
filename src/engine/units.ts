@@ -113,3 +113,4 @@ const tmp2 = new THREE.Vector3()
 
 export class UnitSystem {
   readonly units: Unit[] = []
+  readonly group = new THREE.Group()
