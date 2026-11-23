@@ -195,6 +195,7 @@ export class Game {
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
+    this.worldDir = new WorldDirector(this)
     this.hud = new Hud(this)
     this.ledger = new Ledger({
       profile: this.profile,
