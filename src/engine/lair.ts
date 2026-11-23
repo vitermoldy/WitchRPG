@@ -128,3 +128,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
       const edge = new THREE.Mesh(new THREE.BoxGeometry(w + 0.3, 0.06, d + 0.3), glowEdge)
       edge.position.set(x + ex, top + 0.01, z + ez)
       group.add(edge)
+    }
