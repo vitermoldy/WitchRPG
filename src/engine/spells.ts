@@ -462,3 +462,4 @@ export class Spells {
       goal.y = Math.max(goal.y, 0.6 + (gb.unit ? gb.unit.height * 0.5 : gb.prop!.halfH))
       const k = Math.min(1, dt * (heavy ? 5 : 9))
       if (gb.unit) {
+        const c = gb.unit.center
