@@ -487,6 +487,7 @@ export class Game {
           ? 'Spitter menembak dari perancah. Tarik mereka turun dengan Telekinesis.'
           : 'Warden menahan bolt dengan perisai, lempar mereka. Di akhir, Rift Lord keluar sendiri.',
     )
+    if (tier === 1 && this.profile.level === 1 && this.profile.clears === 0) {
       this.hud.message('Klik kiri untuk Hex Bolt. Tahan klik kanan untuk mengangkat, lepas untuk melempar.', 'chaos')
       window.setTimeout(() => this.hud.message('Di Lv 2 tubuh musuh mulai bersinar ungu: bidik lalu tahan R untuk membangkitkannya.', 'umbra'), 5000)
     }
