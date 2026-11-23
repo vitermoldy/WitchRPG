@@ -170,3 +170,4 @@ export class Umbra {
         this.wheelOpen = false
         g.hands.pose('right', 'idle')
         if (this.wheelChoice) this.order(this.wheelChoice)
+      }
