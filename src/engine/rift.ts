@@ -24,3 +24,4 @@ export class RiftDirector {
   private spawnT = 0
   private readonly portals: Portal[] = []
   private readonly exit: THREE.Group
+  private readonly exitMat: THREE.ShaderMaterial
