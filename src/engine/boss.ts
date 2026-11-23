@@ -81,3 +81,5 @@ export class BossFight {
         u.pos.z = this.home.z + ((u.pos.z - this.home.z) / off) * 2.8
       }
       u.pos.y = this.home.y
+    }
+
