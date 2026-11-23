@@ -285,3 +285,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.fog = new THREE.FogExp2(0x1a0a0e, 0.0135)
 
   // Sky dome.
+  const sky = new THREE.Mesh(
