@@ -121,3 +121,4 @@ async function boot() {
       renderTitle()
       showScreen('title')
       $('btn-enter').focus()
+    } else if (s === 'playing' || s === 'ledger') showScreen(null)
