@@ -155,3 +155,4 @@ export class BossFight {
   private beginCollapse() {
     const g = this.g
     this.collapseT = 0
+    g.sfx.roar()
