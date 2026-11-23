@@ -242,3 +242,4 @@ export class Game {
     this.brokenCover.push(b)
     const cx = (b.minX + b.maxX) / 2
     const cz = (b.minZ + b.maxZ) / 2
+    const wide = b.maxX - b.minX > b.maxZ - b.minZ
