@@ -172,3 +172,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
       floor.visible = solid
       colliders.floor = solid ? 0 : -1000
     },
+    nearestTop(at: THREE.Vector3) {
