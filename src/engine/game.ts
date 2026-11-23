@@ -187,3 +187,5 @@ export class Game {
     this.renderer.compile(this.hands.scene, this.hands.camera)
     this.composer.render(0.016)
     for (const s of samples) this.units.remove(s)
+  }
+
