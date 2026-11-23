@@ -630,3 +630,4 @@ export class Spells {
       vertexShader: RUNE_VERT,
       fragmentShader: RUNE_FRAG,
       transparent: true,
+      depthWrite: false,
