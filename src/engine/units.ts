@@ -238,3 +238,4 @@ export class UnitSystem {
         if (u.team === 'shadow') {
           // Out of the fight, shadows knit back together.
           u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
+          if (u.command === 'hold') this.steer(u, u.holdPos, speed, dt, 0.6)
