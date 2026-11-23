@@ -46,3 +46,4 @@ export const PLAYER = {
   hurtInvuln: 0.25,
 } as const
 
+export const CHAOS = {
