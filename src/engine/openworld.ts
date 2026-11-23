@@ -290,3 +290,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const camps: CampSpot[] = campSpots.map((c, i) => {
     const mat = makeTearMaterial(20 + i * 1.3)
     const tear = new THREE.Mesh(new THREE.PlaneGeometry(2.6, 5), mat)
+    tear.position.set(c.x, 2.8, c.z)
+    tear.rotation.y = R() * Math.PI
