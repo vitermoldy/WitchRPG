@@ -170,3 +170,4 @@ async function boot() {
     game.saveSoon()
   })
   $<HTMLInputElement>('set-vol').addEventListener('input', (e) => {
+    game.profile.settings.volume = Number((e.target as HTMLInputElement).value)
