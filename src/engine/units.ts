@@ -55,3 +55,4 @@ export class Unit implements Target {
   target: Target | null = null
   retarget = 0
   readonly model: UnitModel
+  flash = 0
