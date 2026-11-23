@@ -10,3 +10,4 @@ import { COLOR } from './palette'
 export interface Platform {
   box: Box
   center: THREE.Vector3
+  size: number
