@@ -452,3 +452,4 @@ export class Game {
     const dt = Math.min(1 / 30, Math.max(0, this.timer.getDelta()))
     this.t += dt
     const s = this.state
+    this.world.update(this.t)
