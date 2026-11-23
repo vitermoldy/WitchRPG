@@ -617,6 +617,9 @@ export class Game {
     }
     if (this.profile.shadows.length) window.setTimeout(() => this.hintArmy(), keep ? 900 : 4200)
     await this.input.lock()
+  }
+
+  /** Reminds that the army waits in the Shadow Room, unless it was already called. */
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
