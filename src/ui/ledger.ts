@@ -217,5 +217,7 @@ export class Ledger {
     if (!p.shadows.length) {
       $('room-list').innerHTML = `<li class="room-empty">${
         isUnlocked(p, 'rite')
+          ? 'Belum ada bayangan. Kalahkan musuh, bidik tubuhnya yang bersinar ungu, lalu tahan R.'
+          : 'Belum ada bayangan. Umbra Rite terbuka di Lv 2: setelah itu tubuh musuh yang kalah bisa dibangkitkan.'
   }
 }
