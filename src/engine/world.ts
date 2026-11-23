@@ -472,3 +472,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const head = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.15, 0.25), R() < 0.3 ? darkMetal : lampGlow)
     head.position.set(x + Math.sin(-tilt) * 2.5, 5, z)
     scene.add(head)
+    colliders.add(x, z, 0.3, 0.3, 5)
