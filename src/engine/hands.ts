@@ -12,3 +12,4 @@ interface Pose {
   lift: number
   twist: number
   palmDown: number
+  tremble: number
