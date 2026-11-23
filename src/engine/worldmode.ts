@@ -66,7 +66,7 @@ export class WorldDirector {
         g.glow.emit({ pos: at.clone().setY(at.y + 1), count: Math.round(20 * big), color: COLOR.chaos, intensity: 2.2, life: 0.6, size: 0.2, speed: 3 * big, jitter: 0.4 })
       }
     }
-    if (c.spot.elite) g.sfx.roar()
+    // Corner camps: some of the pack wake up elite.
   }
 
   update(dt: number) {
