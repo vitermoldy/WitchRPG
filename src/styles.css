@@ -1452,6 +1452,7 @@ dialog::backdrop {
   opacity: 0.5;
 }
 
+.tier-roman {
 /* Account */
 .account-row {
   display: flex;
