@@ -134,3 +134,4 @@ export class BossFight {
         continue
       }
       if (performance.now() / 1000 > at) {
+        g.streamTo(o.center, u.center, COLOR.rift)
