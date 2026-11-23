@@ -610,6 +610,7 @@ export class Game {
   recall(u: Unit) {
     const p = this.player.pos
     const a = Math.random() * Math.PI * 2
+    const at = new THREE.Vector3(p.x + Math.cos(a) * 2, p.y, p.z + Math.sin(a) * 2)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
