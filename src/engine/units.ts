@@ -816,6 +816,7 @@ export class UnitSystem {
       const cz = Math.floor(a.pos.z / CELL)
       for (let ix = cx - 1; ix <= cx + 1; ix++) {
         for (let iz = cz - 1; iz <= cz + 1; iz++) {
+          const cell = grid.get(cellKey(ix, iz))
       }
       // Keep clear of the witch.
       const p = host.player
