@@ -37,3 +37,4 @@ export class Unit implements Target {
   readonly id = nextId++
   readonly kind: UnitKind
   readonly team: Team
+  readonly spec: UnitSpec
