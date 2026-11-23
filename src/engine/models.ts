@@ -93,3 +93,4 @@ function husk(team: Team): UnitModel {
       claw.rotation.x = Math.PI
       el.add(claw)
       meshes.push(claw)
+    }
