@@ -650,6 +650,7 @@ export class Spells {
     g.hands.kick('right', 1.4)
     g.rings.spawn(at, COLOR.umbra, 0.5, s.radius, 0.6)
     g.lights.flash(at.clone().setY(at.y + 3), COLOR.umbra, 40, s.radius * 2.5, 0.8)
+    g.player.addTrauma(0.3)
   private burst() {
     const g = this.g
     const s = SPELL.burst
