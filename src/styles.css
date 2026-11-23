@@ -1768,3 +1768,6 @@ dialog::backdrop {
   width: 0.38rem;
   height: 0.38rem;
   border-radius: 50%;
+  background: var(--rift);
+}
+
