@@ -628,6 +628,8 @@ export class Game {
     this.sfx.slam(radius > 6)
     const d = this.player.pos.distanceTo(at)
     this.player.addTrauma(Math.max(0, 0.6 - d * 0.03))
+  }
+
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
