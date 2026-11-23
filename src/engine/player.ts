@@ -56,3 +56,4 @@ export class Player {
     this.pitch = 0
     this.onGround = true
     this.sliding = 0
+    this.floating = false
