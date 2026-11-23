@@ -39,3 +39,4 @@ function canvas(w: number, h: number) {
 
 /** Asphalt with two crossing roads, sidewalks, cracks and the glowing rift fractures. */
 function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
+  const R = rand(7)
