@@ -10,3 +10,4 @@ type Tone = 'info' | 'chaos' | 'umbra' | 'level'
 /** The in-fight overlay. Writes to the DOM only when a value changes. */
 export class Hud {
   private readonly g: Game
+  private readonly root = $('hud')
