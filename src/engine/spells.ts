@@ -642,3 +642,4 @@ export class Spells {
     g.hands.pose('left', 'push', 0.35)
     g.hands.kick('left', 1)
     g.sfx.snare()
+    g.rings.spawn(at, COLOR.chaos, s.radius * 0.2, s.radius, 0.4)
