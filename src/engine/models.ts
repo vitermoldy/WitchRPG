@@ -113,3 +113,4 @@ function husk(team: Team): UnitModel {
 function hound(team: Team): UnitModel {
   const meshes: THREE.Mesh[] = []
   const bodyMat = bodyMaterial(team)
+  const s = shared[team]
