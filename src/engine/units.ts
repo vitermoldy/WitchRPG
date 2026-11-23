@@ -548,6 +548,7 @@ export class UnitSystem {
           u.pos.addScaledVector(u.vel, dt)
           // When the field lets go, the fall counts as a throw.
           if (u.lifted <= 0) u.thrown = true
+          continue
         u.pos.addScaledVector(u.vel, dt)
         const n = new THREE.Vector3()
         const wall = host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3, n)
