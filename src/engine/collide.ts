@@ -120,3 +120,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
   for (let i = 0; i < 3; i++) {
     if (Math.abs(ds[i]) < 1e-9) {
       if (os[i] < mins[i] || os[i] > maxs[i]) return null
+      continue
