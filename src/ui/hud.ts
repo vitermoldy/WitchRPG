@@ -209,3 +209,4 @@ export class Hud {
     const h = window.innerHeight
     let n = 0
     for (const u of g.units.units) {
+      if (u.team !== 'rift' || !u.alive || u.barShown <= 0) continue
