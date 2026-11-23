@@ -96,3 +96,4 @@ export class Spells {
   barrierCd = 0
   grabbed: Grabbed[] = []
   chaos = 0
+  overloadT = 0
