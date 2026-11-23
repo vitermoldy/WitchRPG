@@ -49,3 +49,4 @@ interface Hand {
   hold: number
   kick: number
   flash: number
+  color: THREE.Color
