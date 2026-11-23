@@ -965,6 +965,7 @@ export class Game {
     this.projectiles.update(dt)
     this.warnings.update(dt)
     for (let i = this.fuses.length - 1; i >= 0; i--) {
+      const fu = this.fuses[i]
     if (this.mode === 'world') this.worldDir.update(dt)
     else this.rift.update(dt)
     if (p.flightSpent) this.hud.message('Stamina habis, terbang berhenti. Di dalam Rift, terbang memakai stamina.', 'info')
