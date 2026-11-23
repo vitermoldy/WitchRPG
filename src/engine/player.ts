@@ -207,3 +207,4 @@ export class Player {
   }
 
   /** Where the witch looks, from yaw and pitch, without bob or shake. */
+  viewDir(out = new THREE.Vector3()) {
