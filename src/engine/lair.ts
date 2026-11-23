@@ -37,3 +37,4 @@ function crackTexture(size: number) {
   g.fillStyle = '#1c1719'
   g.fillRect(0, 0, size, size)
   eg.fillStyle = '#000'
+  eg.fillRect(0, 0, size, size)
