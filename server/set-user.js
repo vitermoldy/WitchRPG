@@ -45,3 +45,4 @@ try {
       : `${config.name}: akun ${username} dibuat. Belum ada data sebelumnya.`,
   )
 } catch (err) {
+  await conn.rollback()
