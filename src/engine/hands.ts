@@ -290,3 +290,4 @@ export class Hands {
         h.base.y + this.swayY + bobY + breathe + p.lift + (Math.random() - 0.5) * trem,
         h.base.z - p.reach - h.kick * 0.05,
       )
+      // The arm stays put; only the wrist bends the palm down toward the ground.
