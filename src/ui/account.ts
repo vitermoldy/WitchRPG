@@ -231,3 +231,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       void checkAccount()
       return
     }
+    button.disabled = true
