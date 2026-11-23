@@ -9,3 +9,4 @@ import {
   riteChance,
   shadowName,
   shadowSlots,
+  spendStat,
