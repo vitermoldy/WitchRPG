@@ -449,3 +449,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const w = rot ? 0.22 : 2.9
     const d = rot ? 2.9 : 0.22
     const mesh = solid(new THREE.Mesh(new THREE.BoxGeometry(w, 1.8, d), panelMat))
+    mesh.position.set(x, 0.9, z)
