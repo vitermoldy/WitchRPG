@@ -213,3 +213,4 @@ const SKY_FRAG = /* glsl */ `
   uniform vec3 uRift;
   uniform float uTime;
   void main() {
+    float h = vDir.y;
