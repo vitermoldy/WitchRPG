@@ -597,6 +597,8 @@ export class Game {
     this.pools.clear()
     this.props.clear()
     for (const c of this.ow.cars) this.props.spawnCar(c.x, c.z, c.yaw)
+    this.glow.clear()
+    this.smoke.clear()
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
