@@ -57,3 +57,4 @@ function crackTexture(size: number) {
     let x = size / 2 + Math.cos(a) * size * 0.06
     let y = size / 2 + Math.sin(a) * size * 0.06
     let ang = a
+    eg.strokeStyle = 'rgba(255,120,60,0.9)'
