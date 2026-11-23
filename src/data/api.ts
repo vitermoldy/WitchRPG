@@ -174,3 +174,4 @@ function writeQueue(list: RiftRecord[]): void {
   }
 }
 
+export function queuedRifts(): number {
