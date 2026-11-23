@@ -774,6 +774,7 @@ export class UnitSystem {
       m.body.position.y = hip - k * hip * 0.72
       legL.rotation.x = k * 0.3
       legR.rotation.x = k * 0.5
+      armL.rotation.x = -k * 2.6
     }
   }
 }
