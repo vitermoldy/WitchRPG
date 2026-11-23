@@ -534,3 +534,4 @@ export class Game {
     p.update(dt, input, this.colliders, this.profile.settings.sensitivity, [...blockers, ...unitCircles], true)
     if (wheel) {
       input.dx = lookDx
+      input.dy = lookDy
