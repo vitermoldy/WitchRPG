@@ -166,3 +166,4 @@ export class PropSystem {
     return this.props.filter((p) => !p.held && p.kind !== 'chunk').map((p) => ({ pos: p.pos, radius: p.radius * 0.9, top: p.pos.y + p.halfH }))
   }
 
+  private floorFor(p: Prop) {
