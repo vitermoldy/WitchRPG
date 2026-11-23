@@ -437,6 +437,7 @@ function harrier(team: Team): UnitModel {
   const jaw = pivot(head, 0, -0.07, -0.1)
   jaw.add(box(0.12, 0.03, 0.16, s.bone, meshes))
   parts.jaw = jaw
+  for (const [x, y] of [[-0.06, 0.04], [0.06, 0.04], [0, 0.08]] as const) {
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
