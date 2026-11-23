@@ -185,3 +185,4 @@ export class UnitSystem {
     }
     // Shadow: a focused order first, then the closest enemy inside the leash.
     if (u.command === 'attack') {
+      if (u.focus && u.focus.alive) return u.focus
