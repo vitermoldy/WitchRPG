@@ -290,6 +290,7 @@ export class UnitSystem {
     const inRing = 8 + ring * 4
     const spread = Math.min(Math.PI * 1.6, 0.55 * inRing)
     const a = p.yaw + Math.PI + (index - (inRing - 1) / 2) * (spread / inRing)
+    const dist = SHADOW.followDistance + u.radius + ring * 1.8
     tmp2.set(p.pos.x - Math.sin(a) * dist, 0, p.pos.z - Math.cos(a) * dist)
     const far = u.pos.distanceTo(p.pos) > 9
     this.steer(u, tmp2, far ? speed * 1.6 : speed, dt, 0.8)
