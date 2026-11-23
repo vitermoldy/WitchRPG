@@ -2,3 +2,4 @@
 // playtesting, not final numbers.
 
 export const MOVE = {
+  walk: 5,
