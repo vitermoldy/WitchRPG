@@ -211,3 +211,4 @@ const SKY_VERT = /* glsl */ `
 const SKY_FRAG = /* glsl */ `
   varying vec3 vDir;
   uniform vec3 uRift;
+  uniform float uTime;
