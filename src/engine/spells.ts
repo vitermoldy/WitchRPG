@@ -293,3 +293,4 @@ export class Spells {
         mesh,
         light: g.lights.acquire(COLOR.chaos, 6, 7),
       })
+    }
