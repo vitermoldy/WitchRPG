@@ -21,3 +21,4 @@ export interface LairBuild {
   playerStart: THREE.Vector3
   /** Rocks the witch can throw at the boss's shell in phase 2. */
   rockSpots: THREE.Vector3[]
+  setFloor(solid: boolean): void
