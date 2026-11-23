@@ -170,3 +170,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     rockSpots,
     setFloor(solid: boolean) {
       floor.visible = solid
+      colliders.floor = solid ? 0 : -1000
