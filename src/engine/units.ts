@@ -37,6 +37,7 @@ export interface UnitHost {
   telegraph(at: THREE.Vector3, radius: number, seconds: number): void
   /** A summoner calls a helper. */
   summon(kind: UnitKind, level: number, at: THREE.Vector3, team: Team, owner: Unit): Unit | null
+  /** A shadow that fell into the void comes back beside the witch. */
 }
 
 let nextId = 1
