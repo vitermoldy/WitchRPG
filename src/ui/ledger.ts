@@ -122,6 +122,7 @@ export class Ledger {
           <p class="history-meta">Gelombang ${r.wave} dari ${r.waves}, ${fmt(r.kills)} musuh, +${fmt(r.xpGained)} XP${r.levelsGained ? `, naik ${r.levelsGained} level ke Lv ${r.levelAfter}` : ''}${r.shadowsRaised ? `, ${r.shadowsRaised} bayangan baru` : ''}</p>
           <p class="history-when num">${new Date(r.finishedAt).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}<span>${duration(r.seconds)}</span></p>
         </li>`,
+      )
   close() {
     if (this.dlg.open) this.dlg.close()
   }
