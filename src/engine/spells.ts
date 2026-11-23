@@ -625,6 +625,7 @@ export class Spells {
       blending: THREE.AdditiveBlending,
     })
     const disc = new THREE.Mesh(new THREE.PlaneGeometry(s.radius * 2, s.radius * 2), ruleMat)
+    disc.rotation.x = -Math.PI / 2
   private burst() {
     const g = this.g
     const s = SPELL.burst
