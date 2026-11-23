@@ -38,3 +38,4 @@ export interface Profile {
   version: 1
   level: number
   xp: number
+  statPoints: number
