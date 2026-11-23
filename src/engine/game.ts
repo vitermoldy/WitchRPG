@@ -331,3 +331,4 @@ export class Game {
     p.addTrauma(Math.min(0.5, 0.12 + left / 60))
     this.sfx.hurt()
     this.spells.addChaos(chaosFromDamage(0, left))
+    this.umbra.interrupt()
