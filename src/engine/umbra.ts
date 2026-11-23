@@ -44,3 +44,4 @@ export class Umbra {
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
+        if (g.state !== 'playing' && g.state !== 'paused' && g.state !== 'ledger') return
