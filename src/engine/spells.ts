@@ -570,6 +570,7 @@ export class Spells {
         p.awake = true
         p.vel.copy(v)
         p.thrown = throwIt
+        p.flight = throwIt ? SPELL.grip.flight : 0
         p.hitUnits.clear()
         if (throwIt) p.spin.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).multiplyScalar(6)
       }
