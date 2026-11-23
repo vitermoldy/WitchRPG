@@ -367,3 +367,4 @@ export class Umbra {
       g.player.addTrauma(0.2)
       g.hud.message(`Tukar Tempat dengan ${pick.record?.name ?? 'bayangan'}.`, 'umbra')
     }
+    g.sfx.ui()
