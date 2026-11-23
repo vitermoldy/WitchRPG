@@ -27,3 +27,4 @@ export class ShadowCrowd {
   private readonly p = new THREE.Vector3()
   private readonly s = new THREE.Vector3()
 
+  constructor() {
