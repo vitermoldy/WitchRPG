@@ -183,6 +183,7 @@ async function boot() {
       if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return
       e.preventDefault()
       const open = tierButtons.filter((b) => !b.disabled)
+      const i = open.indexOf(el)
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
