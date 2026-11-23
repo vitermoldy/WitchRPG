@@ -18,3 +18,4 @@ export interface LairBuild {
   colliders: Colliders
   platforms: Platform[]
   /** Where the witch steps in, on an outer pillar facing the middle. */
+  playerStart: THREE.Vector3
