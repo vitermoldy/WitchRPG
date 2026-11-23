@@ -288,3 +288,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
 
   // Camps: a small tear each, seen from far away.
   const camps: CampSpot[] = campSpots.map((c, i) => {
+    const mat = makeTearMaterial(20 + i * 1.3)
+    const tear = new THREE.Mesh(new THREE.PlaneGeometry(2.6, 5), mat)
