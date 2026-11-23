@@ -390,3 +390,4 @@ export class Game {
     this.ledgerReturn = from
     this.umbra.cancel()
     this.setState('ledger')
+    this.input.unlock()
