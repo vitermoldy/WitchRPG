@@ -80,3 +80,4 @@ function crateMesh() {
     band.position.y = y
     g.add(band)
   }
+  g.traverse((o) => {
