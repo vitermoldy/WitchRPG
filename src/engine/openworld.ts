@@ -277,3 +277,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     ring.position.set(x, 0.1, z)
     group.add(ring)
     for (let k = 0; k < 5; k++) {
+      const rock = new THREE.Mesh(new THREE.DodecahedronGeometry(1 + R() * 1.4, 0), stone)
+      const a = (k / 5) * Math.PI * 2
