@@ -434,6 +434,8 @@ export class ShadowPools {
         transparent: true,
         depthWrite: false,
         polygonOffset: true,
+        polygonOffsetFactor: -2,
+        polygonOffsetUnits: -2,
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
