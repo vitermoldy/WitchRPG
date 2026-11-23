@@ -970,6 +970,7 @@ export class UnitSystem {
     }
     let flap = Math.sin(t * 11 + u.id)
     let fold = 0
+    let pitch = 0
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
