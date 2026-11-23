@@ -314,3 +314,4 @@ export class Game {
       live.hp = st.hp * ratio
       live.damage = st.damage
     }
+    this.saveSoon()
