@@ -113,6 +113,8 @@ export class Umbra {
 
   /** T: call the army out of the Shadow Room, or send the field back into it. */
   toggle() {
+    if (this.summonCd > 0) return
+    if (this.field().length || this.calls.length) this.dismiss()
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
