@@ -163,3 +163,4 @@ export class Sfx {
   }
 
   gripStop(threw: boolean) {
+    if (!this.gripNodes || !this.ctx) return
