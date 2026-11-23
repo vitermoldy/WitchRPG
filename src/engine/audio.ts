@@ -160,3 +160,5 @@ export class Sfx {
     osc.start()
     osc2.start()
     this.gripNodes = { osc, osc2, gain }
+  }
+
