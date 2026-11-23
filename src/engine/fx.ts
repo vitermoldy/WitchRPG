@@ -428,6 +428,8 @@ export class ShadowPools {
     geo.rotateX(-Math.PI / 2)
     for (let i = 0; i < count; i++) {
       const mat = new THREE.ShaderMaterial({
+        uniforms: { uTime: { value: 0 }, uOpen: { value: 0 }, uSeed: { value: Math.random() * 10 } },
+        vertexShader: POOL_VERT,
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
