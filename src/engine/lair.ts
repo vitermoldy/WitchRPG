@@ -166,3 +166,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     group,
     colliders,
     platforms,
+    playerStart: new THREE.Vector3(0, 0.6, 20.5),
