@@ -482,3 +482,4 @@ export class UnitSystem {
     const m = u.model
     const P = m.parts
     m.root.position.copy(u.pos)
+    m.root.rotation.y = u.yaw
