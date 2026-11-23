@@ -88,3 +88,4 @@ export class BossFight {
       // Three seconds of warning: the cracks burn, the floor shakes, then it goes.
       if (Math.random() < dt * 30) g.smoke.emit({ pos: { x: (Math.random() - 0.5) * 44, y: 0.1, z: (Math.random() - 0.5) * 44 }, count: 1, color: 0x2a1f1a, life: 1.4, size: 1.6, sizeEnd: 2.6, vel: { x: 0, y: 1.5, z: 0 }, alpha: 0.6 })
       g.player.addTrauma(dt * 0.6)
+      if (this.collapseT >= 3) {
