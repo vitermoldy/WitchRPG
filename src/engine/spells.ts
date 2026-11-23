@@ -546,3 +546,4 @@ export class Spells {
     }
     const cd = id === 'burst' ? this.burstCd : id === 'snare' ? this.snareCd : this.barrierCd
     if (cd > 0) return
+    const spec = SPELL[id]
