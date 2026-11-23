@@ -481,6 +481,7 @@ export class UnitSystem {
       tmp.set(o.pos.x - at.x, 0, o.pos.z - at.z).normalize().multiplyScalar(6)
       tmp.y = 4
       this.knock(o, tmp)
+    }
   private hit(u: Unit, tgt: Target) {
     let dmg = u.damage
     if (u.team === 'shadow' && u.focus && tgt === u.focus) dmg *= 1 + u.focusBonus
