@@ -225,3 +225,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     uniforms: { uTime: { value: 0 } },
     vertexShader: 'varying vec2 vUv; void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
     fragmentShader: CURTAIN_FRAG,
+    transparent: true,
+    depthWrite: false,
