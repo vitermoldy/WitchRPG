@@ -35,3 +35,4 @@ export class BossFight {
   get label(): string {
     if (this.phase === 1) return 'Fase 1 dari 3'
     if (this.phase === 2) return 'Fase 2: cangkang hanya retak oleh benda yang kamu lempar'
+    return 'Fase 3: kebal, kecuali di dalam Reality Warp'
