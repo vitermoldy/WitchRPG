@@ -19,3 +19,5 @@ Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Docu
 - Umbra: Umbra Rite (tahan R di tubuh yang bersinar, satu lemparan peluang per tubuh), slot bayangan, roda perintah Z (Ikuti, Serang, Tahan, Tukar Tempat), Perintah Fokus, bayangan ikut naik level dan kembali utuh di Rift berikutnya.
 - Rift Tier I: kota yang dikepung retakan, lima gelombang Husk dan Rift Hound dari empat retakan, lalu retakan keluar di depan monumen.
 - Ledger (Tab): level, XP, 3 poin stat dan 1 poin skill per level, pohon skill dua cabang, Ruang Bayangan dengan tombol Lepas.
+- Simpanan di localStorage, layar judul, jeda dengan pengaturan, hasil Rift, layar tumbang.
+
