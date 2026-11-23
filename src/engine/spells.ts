@@ -19,3 +19,4 @@ interface Bolt {
 
 interface Snare {
   pos: THREE.Vector3
+  radius: number
