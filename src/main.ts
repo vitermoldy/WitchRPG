@@ -35,3 +35,5 @@ function webglOk() {
   } catch {
     return false
   }
+}
+
