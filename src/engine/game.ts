@@ -231,3 +231,4 @@ export class Game {
       b.alive = true
       if (b.mesh) b.mesh.visible = true
       this.colliders.boxes.push(b)
+    }
