@@ -518,3 +518,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     }
   }
 
+  return { colliders, portals, playerStart: new THREE.Vector3(0, 0, 14), props, breakables, update, keyLight: key, riftDir }
