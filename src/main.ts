@@ -130,3 +130,4 @@ async function boot() {
       renderResult()
       showScreen('result')
       $('btn-result-ledger').focus()
+    } else if (s === 'dead') {
