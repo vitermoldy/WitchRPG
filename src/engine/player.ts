@@ -30,3 +30,4 @@ export class Player {
   private shakeT = 0
   private fov: number = CAMERA.fov
   private landKick = 0
+  readonly radius = MOVE.radius
