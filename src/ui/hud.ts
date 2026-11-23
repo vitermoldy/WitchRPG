@@ -18,3 +18,4 @@ export class Hud {
   private readonly hitmark = $('hitmark') as unknown as SVGGElement
   private readonly bars = $('hpbars')
   private readonly wheel = $('wheel')
+  private readonly slots = $('army-slots')
