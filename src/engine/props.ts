@@ -85,3 +85,4 @@ function crateMesh() {
       o.castShadow = true
       o.receiveShadow = true
     }
+  })
