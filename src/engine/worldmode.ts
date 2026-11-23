@@ -85,3 +85,5 @@ export class WorldDirector {
           c.respawnAt = this.time + RESPAWN
           g.hud.message(`Kamp Lv ${c.spot.levels[0]} sampai ${c.spot.levels[1]} ditaklukkan. Retakannya meredup.`, 'info')
           g.sfx.levelUp()
+        } else if (d > SLEEP && alive.every((u) => u.pos.distanceTo(p.pos) > SLEEP - 40)) {
+          // Left behind: the pack goes back into its tear until she returns.
