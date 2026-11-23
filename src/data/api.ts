@@ -204,3 +204,4 @@ export async function flushQueue(): Promise<number> {
     } catch {
       break
     }
+  }
