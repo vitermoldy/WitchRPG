@@ -754,6 +754,7 @@ export class UnitSystem {
         lean = baseLean - (slammer ? 0.35 : 0.3) * k
       }
     } else if (u.state === 'strike') {
+      const k = Math.min(1, u.t / 0.12)
     }
   }
 }
