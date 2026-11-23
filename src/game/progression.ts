@@ -79,7 +79,8 @@ export function newProfile(): Profile {
   }
 }
 
-export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier].unlock
+export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier].unlock && (!TIERS[tier].needsBoss || p.bossKills > 0)
+
 
 /** The lair at the end of Tier III opens once Reality Warp can break the boss's last shell. */
 export const bossUnlocked = (p: Profile) => p.level >= (TIERS[3].boss?.unlock ?? 10)
