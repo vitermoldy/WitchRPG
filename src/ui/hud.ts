@@ -204,3 +204,4 @@ export class Hud {
 
   private updateBars() {
     const g = this.g
+    const cam = g.camera
