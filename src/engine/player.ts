@@ -58,3 +58,4 @@ export class Player {
     this.sliding = 0
     this.floating = false
     this.stamina = MOVE.staminaMax
+    this.floatLeft = this.floatMax
