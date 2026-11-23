@@ -51,3 +51,4 @@ Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sine
 | Keputusan | Alasan |
 | --- | --- |
 | Merah Chaos `#ff2a3d` di kiri, ungu Umbra `#8f55ff` di kanan | Datang dari GDD: warna adalah identitas tiap tangan. HUD mengulang pembagian itu: kondisi witch di kiri bawah, pasukan bayangan di kanan bawah, pohon skill Chaos di kolom kiri dan Umbra di kanan. Ini motif identitas seluruh UI. |
+| Makhluk Rift bermata dan beretakan amber `#ffa53d` | Musuh tidak boleh terbaca sebagai merah witch atau ungu bayangan. Amber juga dipakai untuk angka musuh dan level, satu-satunya aksen ketiga. |
