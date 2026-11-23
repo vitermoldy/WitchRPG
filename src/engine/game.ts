@@ -815,5 +815,6 @@ export class Game {
             .sort((a, b) => a.distanceTo(p.pos) - b.distanceTo(p.pos))
           const spot = spots[0]
           if (spot) {
+            this.props.spawnRock(spot)
   }
 }
