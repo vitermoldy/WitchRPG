@@ -511,3 +511,4 @@ export class Spells {
       const v = throwIt ? f.clone().multiplyScalar(mass >= 300 ? SPELL.grip.heavyThrowSpeed : speed).add(new THREE.Vector3(0, 1.5, 0)) : new THREE.Vector3()
       if (gb.unit) {
         const u = gb.unit
+        if (u.alive) {
