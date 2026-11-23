@@ -111,3 +111,4 @@ export class Umbra {
           }
         }
       } else if (!u.ash && u.deadT >= (u.riteTried ? 0 : window)) {
+        this.turnToAsh(u)
