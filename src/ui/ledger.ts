@@ -159,3 +159,4 @@ export class Ledger {
     const live = this.host.liveShadows()
     $('room-count').textContent = `${p.shadows.length} dari ${d.slots} slot`
     $('room-list').innerHTML = p.shadows.length
+      ? p.shadows
