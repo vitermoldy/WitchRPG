@@ -236,3 +236,4 @@ export class BossFight {
           this.summonT = BOSS.feedEvery
         }
         return true
+      }
