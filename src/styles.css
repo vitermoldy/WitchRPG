@@ -1118,6 +1118,8 @@ dialog::backdrop {
 
 .history-item p {
   margin: 0;
+}
+
 .stat-list {
   display: grid;
   gap: 0.35rem;
