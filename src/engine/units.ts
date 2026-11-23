@@ -100,3 +100,5 @@ export class Unit implements Target {
 
   get center() {
     return new THREE.Vector3(this.pos.x, this.pos.y + this.spec.height * 0.55, this.pos.z)
+  }
+
