@@ -9,3 +9,4 @@ import { connect } from './db.js'
  * (this also serves dist/). The game works with the server off: the witch stays in the browser,
  * finished Rifts wait there, and both go out once the server answers again.
  */
+let pool = null
