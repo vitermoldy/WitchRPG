@@ -443,6 +443,7 @@ export class Game {
   }
 
   /**
+   * A burst over an area: a Bombard charge or a fallen meledak elite. A rift burst hits the witch and
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
