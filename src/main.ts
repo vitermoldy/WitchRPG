@@ -105,6 +105,7 @@ async function boot() {
       const lock = el.querySelector('.tier-lock') as HTMLElement
       lock.textContent = open ? (p.tierClears[t] ? `${p.tierClears[t]} kali ditutup` : 'Terbuka') : `Lv ${TIERS[t].unlock}`
     }
+    let info = TIER_INFO[game.tier]
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
