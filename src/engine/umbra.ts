@@ -208,3 +208,5 @@ export class Umbra {
     this.casting = u
     this.progress = 0
     g.hands.pose('right', 'rite')
+  }
+
