@@ -23,3 +23,4 @@ export interface RayHit {
 export class Colliders {
   boxes: Box[] = []
 
+  add(cx: number, cz: number, w: number, d: number, top: number, extra: Partial<Box> = {}): Box {
