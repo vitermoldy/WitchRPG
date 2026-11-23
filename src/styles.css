@@ -1724,3 +1724,5 @@ dialog::backdrop {
   position: absolute;
   left: 50%;
   bottom: 0;
+  width: 1px;
+  height: 0.45rem;
