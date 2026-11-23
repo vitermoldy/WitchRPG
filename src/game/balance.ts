@@ -43,3 +43,4 @@ export const PLAYER = {
   manaRegenPerSpr: 0.04,
   damagePerHex: 0.02,
   speedPerAgi: 0.01,
+  hurtInvuln: 0.25,
