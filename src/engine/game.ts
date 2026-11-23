@@ -600,6 +600,7 @@ export class Game {
     if (this.units.units.length > 70) return null
     const u = this.units.spawn(kind, team, level, at, team === 'shadow')
     u.owner = owner
+    const col = team === 'rift' ? COLOR.chaos : COLOR.umbra
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
