@@ -299,3 +299,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     return { id: i, pos: new THREE.Vector3(c.x, 0, c.z), levels: lv, pack, elite: c.elite, mat }
   })
 
+  // A few wrecks near the square to lift and throw.
+  const cars = [
