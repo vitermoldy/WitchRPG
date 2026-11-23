@@ -109,3 +109,4 @@ export const SKILLS: SkillDef[] = [
   {
     id: 'focus',
     branch: 'umbra',
+    name: 'Perintah Fokus',
