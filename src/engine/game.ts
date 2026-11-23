@@ -481,6 +481,7 @@ export class Game {
     this.umbra.summonAll()
     this.hud.banner(
       spec.name,
+      tier === 1
       this.hud.message('Klik kiri untuk Hex Bolt. Tahan klik kanan untuk mengangkat, lepas untuk melempar.', 'chaos')
       window.setTimeout(() => this.hud.message('Di Lv 2 tubuh musuh mulai bersinar ungu: bidik lalu tahan R untuk membangkitkannya.', 'umbra'), 5000)
     }
