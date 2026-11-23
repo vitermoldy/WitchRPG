@@ -171,6 +171,7 @@ export class Game {
           return game.player.alive && game.state === 'playing'
         },
       },
+      glow: this.glow,
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
