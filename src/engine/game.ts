@@ -342,3 +342,4 @@ export class Game {
     const p = this.player
     p.hp = 0
     p.alive = false
+    this.spells.reset()
