@@ -162,6 +162,7 @@ export function createApi(getPool, database) {
       nextShadowId: w.next_shadow_id,
       clears: w.clears,
       tierClears: { 1: 0, 2: 0, 3: 0, ...Object.fromEntries(tc.map((r) => [r.tier, r.clears])) },
+      bossKills: w.boss_kills,
       settings: typeof w.settings === 'string' ? JSON.parse(w.settings) : w.settings,
       updatedAt: new Date(w.updated_at).toISOString(),
     }
