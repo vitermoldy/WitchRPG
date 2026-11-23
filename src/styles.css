@@ -697,3 +697,4 @@ button:disabled {
   position: relative;
   height: 10px;
   border-radius: 2px;
+  background: rgba(239, 230, 223, 0.1);
