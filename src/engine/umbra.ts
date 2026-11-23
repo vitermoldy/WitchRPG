@@ -176,3 +176,4 @@ export class Umbra {
 
   private turnToAsh(u: Unit) {
     u.ash = true
+    u.model.root.userData.ashAt = u.deadT
