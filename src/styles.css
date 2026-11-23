@@ -522,6 +522,7 @@ button:disabled {
   overflow: hidden;
 }
 
+.boss-hp i {
 .banner {
   position: absolute;
   top: 24%;
