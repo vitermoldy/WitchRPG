@@ -226,3 +226,4 @@ export class Umbra {
   }
 
   private complete(u: Unit) {
+    const g = this.g
