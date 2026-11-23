@@ -160,3 +160,4 @@ export class BossFight {
     this.u.setState('recover')
   }
 
+  private beginLanding() {
