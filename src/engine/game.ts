@@ -380,3 +380,4 @@ export class Game {
   async resume() {
     if (this.state !== 'paused') return
     const ok = await this.input.lock()
+    if (ok || this.debug) {
