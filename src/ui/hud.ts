@@ -142,6 +142,7 @@ export class Hud {
               : 'Keluar lewat retakan di monumen'
             : r.phase === 'gate'
               ? 'Masuk lewat retakan merah di monumen'
+              : '',
 
     // Skills.
     const cds = g.spells.cooldowns()
