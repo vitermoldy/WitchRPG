@@ -122,3 +122,4 @@ export class BossFight {
           eaten++
         }
         if (eaten) u.hp = Math.min(u.maxHp * BOSS.phase3At, u.hp + u.maxHp * 0.015 * eaten)
+        g.sfx.roar()
