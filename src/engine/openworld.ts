@@ -62,3 +62,5 @@ function facadeMaterial() {
         #else
           vec4 wp4 = modelMatrix * vec4(transformed, 1.0);
           vWn = normalize(mat3(modelMatrix) * objectNormal);
+        #endif
+        vWp = wp4.xyz;`,
