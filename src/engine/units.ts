@@ -348,6 +348,7 @@ export class UnitSystem {
     const spec = u.spec
     const speed = u.speed * u.slow
     const tgt = u.target
+    const perched = u.spec.shot && u.pos.y > 2.5
     if (u.state === 'move') {
       if (!tgt) {
         if (u.team === 'shadow') {
