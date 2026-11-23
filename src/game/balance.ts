@@ -127,6 +127,7 @@ export interface UnitSpec {
   shot?: { speed: number; gravity: number; radius: number; keepAway: number }
   /** Share of damage a raised shield stops when hit from the front. */
   shield?: number
+  /** Ground slam: everything of the other side inside this radius is hit. */
 }
 
 export const UNITS: Record<UnitKind, UnitSpec> = {
