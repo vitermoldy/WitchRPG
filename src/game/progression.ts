@@ -117,3 +117,5 @@ export const hasUpgrade = (p: Profile, id: SkillId) => !!p.upgrades[id] && isUnl
 export function canUpgrade(p: Profile, id: SkillId): boolean {
   const def = skillById(id)
   return def.built && isUnlocked(p, id) && !p.upgrades[id] && p.skillPoints > 0
+}
+
