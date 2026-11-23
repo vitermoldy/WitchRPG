@@ -391,6 +391,8 @@ const POOL_FRAG = /* glsl */ `
   uniform float uSeed;
   void main() {
     vec2 p = vUv * 2.0 - 1.0;
+    float r = length(p);
+    float a = atan(p.y, p.x);
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
