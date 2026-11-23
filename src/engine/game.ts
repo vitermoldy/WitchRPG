@@ -163,3 +163,5 @@ export class Game {
     )
     this.bloom = new UnrealBloomPass(new THREE.Vector2(512, 512), 0.85, 0.55, 0.82)
     this.composer.addPass(this.bloom)
+    this.composer.addPass(new OutputPass())
+
