@@ -26,3 +26,5 @@ export class Hud {
   private hurt = 0
   private manaFlash = 0
   private readonly pool: HTMLDivElement[] = []
+  private readonly v = new THREE.Vector3()
+
