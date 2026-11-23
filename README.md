@@ -59,4 +59,5 @@ Akun pemilik: `vmk`.
 src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan
 src/engine/   dunia 3D, pemain, tangan, musuh, sihir, Umbra, Rift, suara
 src/ui/       HUD, Ledger, layar masuk akun
+src/data/     panggilan ke API: akun, witch, riwayat Rift
 ```
