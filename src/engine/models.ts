@@ -110,3 +110,4 @@ function husk(team: Team): UnitModel {
 }
 
 /** Low, fast, many-eyed, with a ridge of bone spikes. */
+function hound(team: Team): UnitModel {
