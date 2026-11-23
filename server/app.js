@@ -144,3 +144,4 @@ export function createApi(getPool, database) {
     return {
       version: 1,
       level: w.level,
+      xp: w.xp,
