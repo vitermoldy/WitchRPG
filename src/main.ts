@@ -28,3 +28,4 @@ function fail(message: string) {
   $('error-text').textContent = message
 }
 
+function webglOk() {
