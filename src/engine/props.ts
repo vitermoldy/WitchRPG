@@ -140,3 +140,4 @@ export class PropSystem {
     p.spin.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).multiplyScalar(8)
     p.awake = true
     p.thrown = true
+    return p
