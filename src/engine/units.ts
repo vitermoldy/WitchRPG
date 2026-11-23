@@ -436,3 +436,4 @@ export class UnitSystem {
         const push = (min - d) * 0.5
         a.pos.x += (dx / d) * push
         a.pos.z += (dz / d) * push
+        b.pos.x -= (dx / d) * push
