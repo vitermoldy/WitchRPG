@@ -81,3 +81,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   // Curbs.
   g.fillStyle = '#39332f'
   for (const s of [-1, 1]) {
+    g.fillRect(px(s * road) - 2, 0, 4, size)
