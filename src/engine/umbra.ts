@@ -119,3 +119,4 @@ export class Umbra {
         mat.emissiveIntensity = 0
         u.model.root.position.y = u.pos.y - k * 0.6
         if (k >= 1) g.units.remove(u)
+      }
