@@ -348,3 +348,4 @@ button:disabled {
 }
 
 .controls dl {
+  display: grid;
