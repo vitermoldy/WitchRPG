@@ -725,3 +725,4 @@ button:disabled {
 }
 
 #mana-row.short .bar {
+  outline: 1px solid var(--rift);
