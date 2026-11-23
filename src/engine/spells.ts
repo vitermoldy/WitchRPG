@@ -603,3 +603,4 @@ export class Spells {
       for (const b of [...g.world.breakables]) {
         if (!b.alive) continue
         const cx = (b.minX + b.maxX) / 2
+        const cz = (b.minZ + b.maxZ) / 2
