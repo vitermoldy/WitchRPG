@@ -970,3 +970,4 @@ button:disabled {
   position: absolute;
   inset: 0;
   z-index: 25;
+  display: grid;
