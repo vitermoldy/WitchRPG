@@ -111,3 +111,4 @@ export class Game {
       hurtUnit: (u, dmg, from, by) => this.hurtUnit(u, dmg, from, by),
       impactFx: (at, s) => this.impactFx(at, s),
       growl: () => this.sfx.growl(),
+    }
