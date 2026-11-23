@@ -141,6 +141,8 @@ export class RiftDirector {
     return free.length ? free[Math.floor(Math.random() * free.length)].clone() : null
   }
 
+  }
+
   update(dt: number) {
     const g = this.g
     this.elapsed += dt
