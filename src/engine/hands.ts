@@ -292,3 +292,4 @@ export class Hands {
       )
       // The arm stays put; only the wrist bends the palm down toward the ground.
       h.root.rotation.set(h.baseRot.x - p.palmDown * 0.2 - h.kick * 0.2, h.baseRot.y - mirror * p.twist * 0.5, h.baseRot.z)
+      h.wrist.rotation.x = -p.palmDown * 0.85
