@@ -28,3 +28,4 @@ export interface PropHost {
   colliders: Colliders
   units: UnitSystem
   hurtUnit(u: Unit, dmg: number, from: THREE.Vector3, by: 'impact'): void
+  impactFx(at: THREE.Vector3, strength: number): void
