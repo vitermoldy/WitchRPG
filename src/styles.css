@@ -1873,3 +1873,4 @@ dialog::backdrop {
 .hpbar.elite::before {
   content: attr(data-label);
   position: absolute;
+  left: 50%;
