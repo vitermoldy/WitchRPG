@@ -279,7 +279,7 @@ export class Umbra {
     const holding = canAct && g.input.held('KeyR')
     if (this.casting.length && !holding) this.cancel()
     if (canAct && g.input.pressed('KeyR')) this.begin()
-    if (this.casting) {
+    if (this.casting.length) {
       const castTime = hasUpgrade(g.profile, 'rite') ? RITE.castTimeUpgraded : RITE.castTime
       this.progress += dt / castTime
       const from = g.hands.palmWorld('right', cam)
