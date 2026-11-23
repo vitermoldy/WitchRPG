@@ -759,6 +759,7 @@ export class UnitSystem {
       lean = u.spec.shot ? baseLean + 0.3 : baseLean + 0.3
     } else if (u.state === 'held' || u.state === 'air') {
       armX = Math.sin(t * 18 + u.id) * 1.2 - 1
+      lean = 0.1
     }
   }
 }
