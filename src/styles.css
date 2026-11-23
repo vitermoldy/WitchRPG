@@ -956,3 +956,4 @@ button:disabled {
 }
 
 .hpbar i {
+  display: block;
