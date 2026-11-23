@@ -646,6 +646,7 @@ export class Spells {
     this.warps.push({ pos: at, radius: s.radius, t: 0, duration: s.duration + (this.upgraded('warp') ? s.durationUpgrade : 0), group, ruleMat, wallMat })
     g.hands.pose('left', 'push', 0.5)
     g.hands.pose('right', 'push', 0.5)
+    g.hands.kick('left', 1.4)
   private burst() {
     const g = this.g
     const s = SPELL.burst
