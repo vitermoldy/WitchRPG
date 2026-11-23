@@ -125,3 +125,4 @@ export class UnitSystem {
     u.pos.copy(at)
     u.lastGood.copy(at)
     u.yaw = Math.atan2(-(this.host.player.pos.x - at.x), -(this.host.player.pos.z - at.z))
+    u.setState(rising ? 'rising' : 'spawn')
