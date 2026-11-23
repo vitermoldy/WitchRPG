@@ -71,6 +71,8 @@ export class Ledger {
     this.host = host
     $('btn-ledger-close').addEventListener('click', () => this.close())
     this.dlg.addEventListener('close', () => this.onClose?.())
+    this.dlg.addEventListener('toggle', (e) => {
+      const d = e.target as HTMLDetailsElement
     this.dlg.addEventListener('click', (e) => {
       const t = (e.target as HTMLElement).closest('button')
       if (!t) return
