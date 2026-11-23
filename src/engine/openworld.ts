@@ -279,3 +279,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     for (let k = 0; k < 5; k++) {
       const rock = new THREE.Mesh(new THREE.DodecahedronGeometry(1 + R() * 1.4, 0), stone)
       const a = (k / 5) * Math.PI * 2
+      rock.position.set(x + Math.cos(a) * (6 + tier), 0.6, z + Math.sin(a) * (6 + tier))
+      rock.castShadow = true
