@@ -345,6 +345,7 @@ export class Warnings {
       const fill = new THREE.Mesh(disc, mat())
       const edge = new THREE.Mesh(ring, mat())
       fill.renderOrder = edge.renderOrder = 8
+      group.add(fill, edge)
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
