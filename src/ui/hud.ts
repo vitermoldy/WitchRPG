@@ -136,3 +136,4 @@ export class Hud {
     const ov = `scaleY(${g.spells.overloaded ? 0 : (1 - g.spells.chaos / CHAOS.max).toFixed(3)})`
     if (ocd.style.transform !== ov) ocd.style.transform = ov
 
+    // Prompt under the crosshair.
