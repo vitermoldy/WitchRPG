@@ -1354,6 +1354,7 @@ dialog::backdrop {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: 0.2rem 0.9rem;
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
