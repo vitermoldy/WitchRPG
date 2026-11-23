@@ -220,3 +220,4 @@ export class UnitSystem {
     const yaw = Math.atan2(-(at.x - u.pos.x), -(at.z - u.pos.z))
     let diff = yaw - u.yaw
     while (diff > Math.PI) diff -= Math.PI * 2
+    while (diff < -Math.PI) diff += Math.PI * 2
