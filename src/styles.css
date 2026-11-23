@@ -1382,6 +1382,7 @@ dialog::backdrop {
 }
 
 .gate-title {
+  margin: 0 0 0.5rem;
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
