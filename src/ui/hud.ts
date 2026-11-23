@@ -103,3 +103,4 @@ export class Hud {
     this.set('mana-fill', 'transform', `scaleX(${Math.max(0, p.mana / p.maxMana).toFixed(3)})`)
     this.set('mana-text', 'text', g.spells.overloaded ? 'bebas' : `${Math.floor(p.mana)} / ${p.maxMana}`)
     this.set('mana-row', 'class', this.manaFlash > 0 ? 'vital short' : 'vital')
+    this.set('stamina-fill', 'transform', `scaleX(${(p.stamina / 100).toFixed(3)})`)
