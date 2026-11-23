@@ -96,3 +96,4 @@ export class BossFight {
           const a = Math.random() * Math.PI * 2
           const r = Math.random() * 24
           g.glow.emit({ pos: { x: Math.cos(a) * r, y: 0, z: Math.sin(a) * r }, count: 1, color: COLOR.rift, intensity: 2.4, life: 1.6, size: 0.3, vel: { x: 0, y: -6, z: 0 }, gravity: 10 })
+        }
