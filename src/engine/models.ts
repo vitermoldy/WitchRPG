@@ -477,6 +477,7 @@ function harrier(team: Team): UnitModel {
   return { root, body, parts, bodyMat, eyeMat: s.eye, meshes }
 }
 
+/** A squat brute with a stone mortar grown out of its back; the muzzle burns brighter before it fires. */
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
