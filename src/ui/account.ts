@@ -197,3 +197,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       showError(e instanceof Error ? e.message : 'Belum bisa masuk. Coba lagi.')
       if (e instanceof ApiError && e.status === 401) pass.select()
       pass.setAttribute('aria-invalid', 'true')
+    } finally {
