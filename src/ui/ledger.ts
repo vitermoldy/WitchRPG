@@ -101,3 +101,4 @@ export class Ledger {
       const el = this.dlg.querySelector<HTMLButtonElement>(sel)
       if (el && !el.disabled) el.focus()
       else $('btn-ledger-close').focus()
+    }
