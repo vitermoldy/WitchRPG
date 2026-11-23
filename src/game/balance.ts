@@ -238,10 +238,7 @@ export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
 export const SHADOW = { hpMult: 2.2, damageMult: 1.2, speedMult: 1.15, followDistance: 3.2, engageRange: 14, leash: 22, regen: 0.04 } as const
 
-export interface WaveSpec {
-  husk: number
-  hound: number
-  levels: [number, number]
+/** What raised shadows of the bigger ranks can do on their own. */
 }
 
 export const RIFT_TIER_1 = {
