@@ -28,6 +28,8 @@ export class Player {
   ceiling = 40
   /** Flight stopped this frame because stamina ran out (the game shows a note). */
   flightSpent = false
+  private clock = 0
+  private lastSpace = -1
   stamina: number = MOVE.staminaMax
   floatLeft: number = MOVE.floatMax
   private staminaDelay = 0
