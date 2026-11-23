@@ -463,3 +463,4 @@ export class Game {
       for (let i = 0; i < this.debugSpeed && this.state === 'playing'; i++) {
         this.simulate(dt)
         if (i < this.debugSpeed - 1) this.input.endFrame()
+      }
