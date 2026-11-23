@@ -1149,3 +1149,4 @@ dialog::backdrop {
 }
 
 .tree-cols {
+  display: grid;
