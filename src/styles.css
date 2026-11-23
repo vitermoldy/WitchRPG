@@ -549,3 +549,4 @@ button:disabled {
   font-size: 0.72em;
 }
 
+.feed-item.chaos::before {
