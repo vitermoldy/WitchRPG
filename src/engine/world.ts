@@ -475,3 +475,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     colliders.add(x, z, 0.3, 0.3, 5)
   }
 
+  // Reality is bent here: chunks of street float above the plaza.
