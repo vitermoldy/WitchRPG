@@ -438,6 +438,7 @@ export class Spells {
       for (const p of g.props.props) {
         if (p.held || p.kind === 'chunk' || p.mass > SPELL.grip.maxMass) continue
         const to = p.pos.clone().sub(o)
+        if (to.length() > SPELL.grip.range) continue
     }
     if (!first) return
     this.grabbed = [first]
