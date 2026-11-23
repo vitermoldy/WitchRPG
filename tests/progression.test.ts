@@ -52,3 +52,4 @@ describe('XP curve from the GDD', () => {
   })
 })
 
+describe('Umbra Rite chance', () => {
