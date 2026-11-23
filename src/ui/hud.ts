@@ -120,6 +120,8 @@ export class Hud {
     for (const c of g.worldDir.camps) {
       if (c.state === 'cleared') continue
       const lv = c.spot.levels[1]
+      marks.push({ label: '', cls: `cm-camp ${lv > g.profile.level + 2 ? 'hard' : lv < g.profile.level - 2 ? 'easy' : 'even'}`, x: c.spot.pos.x, z: c.spot.pos.z })
+    }
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
