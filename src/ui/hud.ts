@@ -162,3 +162,4 @@ export class Hud {
     const slots = g.derived.slots
     const live = new Map(g.units.shadows().map((u) => [u.record?.id, u]))
     const rows: string[] = []
+    // Every raised shadow gets a row; empty slots share one line so a big army stays compact.
