@@ -874,3 +874,4 @@ button:disabled {
 }
 
 .wheel {
+  position: absolute;
