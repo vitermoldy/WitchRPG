@@ -219,3 +219,4 @@ export class Hands {
     const tex = glowTexture()
     this.left = buildHand('left', COLOR.chaos, tex)
     this.right = buildHand('right', COLOR.umbra, tex)
+    this.scene.add(this.left.root, this.right.root, this.camera)
