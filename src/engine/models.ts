@@ -160,3 +160,4 @@ function hound(team: Team): UnitModel {
     knee.add(box(0.08, 0.3, 0.09, bodyMat, meshes, -0.14))
     hip.userData.knee = knee
     parts[name] = hip
+  }
