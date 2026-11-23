@@ -135,3 +135,4 @@ export class PropSystem {
   spawnChunk(at: THREE.Vector3, vel: THREE.Vector3, w: number, h: number, d: number) {
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), chunkMat)
     mesh.castShadow = true
+    const p = this.add('chunk', mesh, at, Math.max(w, d) * 0.5, h * 0.5, 40, Math.random() * 3)
