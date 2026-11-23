@@ -148,6 +148,7 @@ export class Projectiles {
       const reach = s.radius + Math.max(u.radius, u.height * 0.42)
       if (c.distanceToSquared(s.pos) > reach * reach) continue
       // A blast charge only bursts on contact; the burst does the damage.
+      if (!s.blast) h.hurtUnit(u, s.damage, s.prev, s.team === 'witch' ? (s.reflected ? 'player' : 'shadow') : 'rift')
       return true
     }
     return false
