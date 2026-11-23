@@ -231,3 +231,4 @@ export class Spells {
         this.overloadT = 0
         this.backlashT = CHAOS.backlashTime
         g.hands.overload = false
+        const loss = Math.round(g.player.hp * CHAOS.backlashHpLoss)
