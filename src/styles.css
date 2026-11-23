@@ -125,3 +125,4 @@ button:disabled {
 }
 
 .btn-primary {
+  background: var(--chaos-deep);
