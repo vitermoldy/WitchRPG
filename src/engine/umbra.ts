@@ -157,6 +157,7 @@ export class Umbra {
     const feet = new THREE.Vector3(p.pos.x, g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5), p.pos.z)
     if (feet.y < -50 || feet.y < p.pos.y - 6) feet.y = p.pos.y
     const base = this.field().length
+    // The darkness spreads as far as the outer rank stands; a big army rises within about 2.5 seconds.
     g.pools.open(feet, spill, 1.4 + n * stagger)
     g.pools.open(feet, spill * 0.45, 1.6 + n * stagger, 0.1)
     for (let i = 0; i < n; i++) {
