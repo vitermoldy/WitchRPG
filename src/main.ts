@@ -181,6 +181,7 @@ async function boot() {
     // Arrow keys move along the group, as a radio group should.
     el.addEventListener('keydown', (e) => {
       if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return
+      e.preventDefault()
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
