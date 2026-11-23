@@ -599,3 +599,4 @@ export class Spells {
       dir.y = lift * k
       g.props.push(p, dir)
     }
+    if (breakCover) {
