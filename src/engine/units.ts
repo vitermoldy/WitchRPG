@@ -504,3 +504,4 @@ export class UnitSystem {
     }
 
     if (u.state === 'spawn') {
+      const k = Math.min(1, u.t / 0.7)
