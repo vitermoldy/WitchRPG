@@ -153,3 +153,4 @@ export class Umbra {
       this.wheelX = this.wheelY = 0
       this.wheelChoice = null
       g.hands.pose('right', 'command')
+    }
