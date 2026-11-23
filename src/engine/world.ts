@@ -374,3 +374,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const f = facades[Math.floor(R() * 4)]
       const mapW = f.map.clone()
       mapW.repeat.set(w / 12, h / 24)
+      mapW.needsUpdate = true
