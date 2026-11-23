@@ -6,7 +6,7 @@ Ini prototype Fase 1 dan 2 dari [Game Design Document](./Game%20Design%20Documen
 
 ## Menjalankan
 
-Butuh Node 22 atau lebih baru dan browser dengan WebGL 2.
+Butuh Node 22 atau lebih baru, browser dengan WebGL 2, dan MySQL 8 untuk akun.
 
 ```bash
 npm install
