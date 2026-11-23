@@ -45,3 +45,4 @@ export class Colliders {
       const cx = Math.min(b.maxX, Math.max(b.minX, pos.x))
       const cz = Math.min(b.maxZ, Math.max(b.minZ, pos.z))
       let dx = pos.x - cx
+      let dz = pos.z - cz
