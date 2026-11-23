@@ -145,6 +145,7 @@ export class RiftDirector {
     const elites = q.filter((s) => s.elite).length
     this.g.hud.banner(
       lord.length > 1 ? 'Dua Rift Lord' : lord.length ? 'Rift Lord' : `Gelombang ${i + 1} dari ${this.totalWaves}`,
+      lord.length > 1
     )
   }
 
