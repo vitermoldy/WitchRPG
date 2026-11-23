@@ -52,3 +52,5 @@ export class WorldDirector {
     c.state = 'active'
     c.units = []
     const [lo, hi] = c.spot.levels
+    let i = 0
+    for (const [kind, count] of Object.entries(c.spot.pack) as [Exclude<UnitKind, 'hollow'>, number][]) {
