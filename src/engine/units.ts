@@ -91,3 +91,4 @@ export class Unit implements Target {
   }
 
   get alive() {
+    return this.state !== 'dead'
