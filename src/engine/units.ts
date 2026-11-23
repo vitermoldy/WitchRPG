@@ -762,6 +762,7 @@ export class UnitSystem {
       lean = 0.1
       shieldUp = false
     } else if (u.state === 'recover') {
+      armX = 0.6 * (1 - Math.min(1, u.t / 0.4))
     }
   }
 }
