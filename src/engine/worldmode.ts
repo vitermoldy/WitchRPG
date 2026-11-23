@@ -79,3 +79,5 @@ export class WorldDirector {
       c.spot.mat.uniforms.uOpen.value = c.open
       if (c.state === 'idle' && d < WAKE && p.alive) this.wake(c)
       else if (c.state === 'active') {
+        const alive = c.units.filter((u) => u.alive)
+        if (!alive.length) {
