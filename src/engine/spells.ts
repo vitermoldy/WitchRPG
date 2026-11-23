@@ -584,3 +584,4 @@ export class Spells {
         dir.normalize().multiplyScalar(push * k)
         dir.y = lift * k
         g.units.knock(u, dir)
+      } else if (!u.alive) {
