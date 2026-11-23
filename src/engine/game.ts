@@ -100,3 +100,4 @@ export class Game {
         },
         radius: MOVE.radius,
         get alive() {
+          return game.player.alive && game.state === 'playing'
