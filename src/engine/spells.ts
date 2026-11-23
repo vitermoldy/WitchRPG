@@ -246,3 +246,4 @@ export class Spells {
       if (input.pressed('Mouse2')) this.tryGrip()
       if (input.pressed('KeyQ')) this.cast('burst')
       if (input.pressed('KeyE')) this.cast('snare')
+      if (input.pressed('KeyX')) this.cast('barrier')
