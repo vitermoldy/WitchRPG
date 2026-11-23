@@ -539,3 +539,4 @@ export class Spells {
   }
 
   private cast(id: 'burst' | 'snare' | 'barrier') {
+    const g = this.g
