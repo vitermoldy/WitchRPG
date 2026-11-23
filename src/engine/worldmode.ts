@@ -91,3 +91,5 @@ export class WorldDirector {
           c.units = []
           c.state = 'idle'
         }
+      } else if (c.state === 'cleared' && this.time > c.respawnAt && d > WAKE + 20) {
+        c.state = 'idle'
