@@ -366,3 +366,4 @@ export class Game {
     this.applyStats(true)
     this.hands.pose('left', 'idle')
     this.hands.pose('right', 'idle')
+    this.rift.start()
