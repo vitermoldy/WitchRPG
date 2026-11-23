@@ -206,3 +206,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
           const h = (10 + R() * R() * 60) * tall + 6
           boxes.push({ x: cx, z: cz, w, d, h })
         }
+      }
+    }
