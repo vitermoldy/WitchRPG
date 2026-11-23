@@ -9,3 +9,4 @@ import {
   flushQueue,
   listRifts,
   onAuth,
+  pushProfile,
