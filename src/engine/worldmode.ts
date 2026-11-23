@@ -149,3 +149,6 @@ export class WorldDirector {
       if (!best || d < best.dist) best = { camp: c, dist: d }
     }
     return best
+  }
+
+  get cleared() {
