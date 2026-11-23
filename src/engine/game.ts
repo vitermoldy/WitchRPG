@@ -398,3 +398,4 @@ export class Game {
     saveProfile(this.profile)
     if (this.ledgerReturn === 'playing' || this.ledgerReturn === 'paused') {
       this.setState('paused')
+      this.onState?.('paused')
