@@ -132,3 +132,4 @@ describe('thrown bodies', () => {
     expect(crate).toBeGreaterThan(20)
     expect(car).toBeGreaterThan(crate * 2)
   })
+})
