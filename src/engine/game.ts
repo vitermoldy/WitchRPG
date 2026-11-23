@@ -555,6 +555,7 @@ export class Game {
     this.props.clear()
     this.projectiles.clear()
     this.warnings.clear()
+    this.spells.reset()
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
