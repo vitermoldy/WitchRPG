@@ -102,3 +102,5 @@ export class Ledger {
       if (el && !el.disabled) el.focus()
       else $('btn-ledger-close').focus()
     }
+  }
+
