@@ -633,3 +633,4 @@ export class Spells {
       depthWrite: false,
       blending: THREE.AdditiveBlending,
     })
+    const mesh = new THREE.Mesh(new THREE.PlaneGeometry(s.radius * 2, s.radius * 2), mat)
