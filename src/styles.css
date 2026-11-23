@@ -220,3 +220,4 @@ button:disabled {
 }
 
 .loading-title::after {
+  content: '';
