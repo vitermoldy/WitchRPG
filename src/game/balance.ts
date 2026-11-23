@@ -113,3 +113,4 @@ export interface UnitSpec {
   radius: number
   height: number
   mass: number
+  attackRange: number
