@@ -793,6 +793,7 @@ export class UnitSystem {
     if (shieldUp && u.state !== 'windup' && u.state !== 'strike') {
       armL.rotation.x = -1.2
       armL.rotation.z = 0.5
+      P.foreL.rotation.x = -0.3
     }
   }
 }
