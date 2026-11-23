@@ -44,3 +44,4 @@ export const SKILLS: SkillDef[] = [
     unlock: 1,
     effect: 'Angkat musuh atau objek hingga 500 kg, lepas untuk melempar.',
     upgrade: 'Mengangkat 2 target sekaligus.',
+    built: true,
