@@ -102,3 +102,4 @@ describe('upgrades and shadows', () => {
   it('fills slots, then refuses', () => {
     const p = newProfile()
     for (let i = 0; i < 3; i++) expect(addShadow(p, 'husk', 1)).not.toBeNull()
+    expect(addShadow(p, 'hound', 1)).toBeNull()
