@@ -13,3 +13,4 @@ export interface RiftRecord {
   tier: number
   result: 'cleared' | 'fallen' | 'left'
   wave: number
+  waves: number
