@@ -195,3 +195,4 @@ export class Hud {
     for (const el of this.wheel.querySelectorAll<HTMLElement>('.wheel-opt')) {
       const opt = el.dataset.opt
       el.classList.toggle('on', opt === u.wheelChoice)
+      if (opt === 'swap') {
