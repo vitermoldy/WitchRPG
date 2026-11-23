@@ -181,3 +181,4 @@ export class Player {
     const eyeTarget = this.crouching || this.sliding > 0 ? MOVE.crouchEye : MOVE.eye
     this.eye += (eyeTarget - this.eye) * Math.min(1, dt * 12)
     const speed = Math.hypot(this.vel.x, this.vel.z)
+    this.bobAmount += ((this.onGround && speed > 0.5 && this.sliding <= 0 ? Math.min(1, speed / MOVE.sprint) : 0) - this.bobAmount) * Math.min(1, dt * 8)
