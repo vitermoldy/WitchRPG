@@ -231,3 +231,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     blending: THREE.AdditiveBlending,
     fog: false,
   })
+  for (let s = 0; s < 4; s++) {
+    const c = new THREE.Mesh(new THREE.PlaneGeometry(H * 2 + 20, 140), curtainMat)
