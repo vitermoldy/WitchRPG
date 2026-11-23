@@ -52,6 +52,7 @@ Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Kunci tier | Tier II terbuka di Lv 4, Tier III di Lv 7 | GDD memberi level musuh per tier (1 sampai 3, 4 sampai 6, 7 sampai 9) tanpa syarat masuk; kuncinya mengikuti level musuh itu. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
