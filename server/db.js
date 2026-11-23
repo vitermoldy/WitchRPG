@@ -53,6 +53,7 @@ const TABLES = [
     CONSTRAINT shadows_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
   `CREATE TABLE IF NOT EXISTS tier_clears (
+    client_id CHAR(12) NOT NULL,
   `CREATE TABLE IF NOT EXISTS rift_runs (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     client_id CHAR(12) NOT NULL,
