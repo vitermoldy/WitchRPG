@@ -276,3 +276,5 @@ export class Game {
       }
     }
     if (u.hp <= 0) this.kill(u, from, by)
+  }
+
