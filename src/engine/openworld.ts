@@ -126,3 +126,5 @@ function groundMaterial() {
 
 const CURTAIN_FRAG = /* glsl */ `
   varying vec2 vUv;
+  uniform float uTime;
+  void main() {
