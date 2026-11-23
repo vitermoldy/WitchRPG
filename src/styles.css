@@ -1529,6 +1529,7 @@ dialog::backdrop {
     grid-template-columns: 1fr;
   }
   .history-when {
+    justify-items: start;
 }
 
 @media (prefers-reduced-motion: reduce) {
