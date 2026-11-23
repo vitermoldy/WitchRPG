@@ -1446,6 +1446,7 @@ dialog::backdrop {
 
 .gate-error {
   margin: 0;
+  color: var(--chaos-ink);
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
