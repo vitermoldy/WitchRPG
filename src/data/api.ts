@@ -108,3 +108,4 @@ export async function checkAccount(): Promise<void> {
   setAuth({ ...auth, status: 'checking' })
   try {
     const body = await call<Entry>('auth/me')
+    setAuth({ status: 'signed-in', account: body.user })
