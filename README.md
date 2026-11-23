@@ -37,3 +37,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | Spasi | Lompat; tahan di udara untuk melayang |
 | C | Menunduk; slide saat lari |
 | F | Interaksi (keluar dari Rift) |
+| Tab | Ledger |
