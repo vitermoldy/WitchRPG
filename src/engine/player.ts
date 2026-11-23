@@ -90,3 +90,5 @@ export class Player {
       this.vel.x = this.forward.x * boost
       this.vel.z = this.forward.z * boost
     }
+    this.crouching = crouchHeld && this.sliding <= 0
+
