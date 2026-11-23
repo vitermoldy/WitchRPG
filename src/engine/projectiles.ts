@@ -118,3 +118,4 @@ export class Projectiles {
       }
       if (!hit) {
         const len = this.seg.copy(s.pos).sub(s.prev).length()
+        const wall = len > 1e-5 ? h.colliders.raycast(s.prev, this.seg.divideScalar(len), len) : null
