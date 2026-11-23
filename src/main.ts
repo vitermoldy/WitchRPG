@@ -168,6 +168,7 @@ async function boot() {
       $('btn-resume').focus()
     } else if (s === 'result') {
       renderResult()
+      $('btn-result-world').hidden = !game.returnToWorld
       showScreen('result')
       $('btn-result-ledger').focus()
     } else if (s === 'dead') {
