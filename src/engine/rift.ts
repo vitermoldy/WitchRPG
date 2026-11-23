@@ -137,6 +137,7 @@ export class RiftDirector {
   /** A free scaffold top for a Spitter, or null when all are taken. */
   private freePerch(): THREE.Vector3 | null {
     const taken = this.g.units.enemies().filter((u) => u.kind === 'spitter')
+    const free = this.g.world.perches.filter((p) => !taken.some((u) => u.pos.distanceTo(p) < 1.5))
   }
 
   update(dt: number) {
