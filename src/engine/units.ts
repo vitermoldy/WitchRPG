@@ -331,3 +331,4 @@ export class UnitSystem {
     else if (tgt instanceof Unit) this.host.hurtUnit(tgt, dmg, u.pos, u.team === 'shadow' ? 'shadow' : 'rift')
   }
 
+  update(dt: number, t: number) {
