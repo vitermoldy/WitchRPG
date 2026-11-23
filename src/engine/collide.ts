@@ -50,3 +50,4 @@ export class Colliders {
       if (d2 >= r * r) continue
       hit = true
       if (d2 > 1e-8) {
+        const d = Math.sqrt(d2)
