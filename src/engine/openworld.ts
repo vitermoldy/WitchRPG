@@ -107,3 +107,5 @@ function groundMaterial() {
         `#include <color_fragment>
         vec2 m = mod(vWp.xz + ${OW.pitch / 2}.0, ${OW.pitch}.0) - ${OW.pitch / 2}.0;
         float rx = abs(m.x), rz = abs(m.y);
+        float road = 1.0 - step(${OW.road}.0, min(rx, rz));
+        float curb = (1.0 - road) * (1.0 - step(${OW.road + 3}.0, min(rx, rz)));
