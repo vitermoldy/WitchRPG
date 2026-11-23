@@ -648,3 +648,4 @@ button:disabled {
   top: calc(50% + 58px);
   transform: translateX(-50%);
   margin: 0;
+  max-width: 90vw;
