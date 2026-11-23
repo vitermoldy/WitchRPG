@@ -375,3 +375,5 @@ export class Game {
       window.setTimeout(() => this.hud.message('Di Lv 2 tubuh musuh mulai bersinar ungu: bidik lalu tahan R untuk membangkitkannya.', 'umbra'), 5000)
     }
     await this.input.lock()
+  }
+
