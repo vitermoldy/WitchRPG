@@ -129,3 +129,5 @@ export class WorldDirector {
   }
 
   /** Text for the gate prompt: enter, or why not yet. */
+  gatePrompt(gt: Gate): { ok: boolean; text: string } {
+    const t = TIERS[gt.tier]
