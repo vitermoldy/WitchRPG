@@ -601,6 +601,7 @@ export class Game {
     const u = this.units.spawn(kind, team, level, at, team === 'shadow')
     u.owner = owner
     const col = team === 'rift' ? COLOR.chaos : COLOR.umbra
+    this.glow.emit({ pos: at.clone().setY(at.y + 1), count: 18, color: col, intensity: 2.2, life: 0.6, size: 0.2, speed: 2.5, jitter: 0.4 })
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
