@@ -379,3 +379,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       em.repeat.copy(mapW.repeat)
       em.needsUpdate = true
       const mat = new THREE.MeshStandardMaterial({ map: mapW, emissiveMap: em, emissive: 0xffffff, emissiveIntensity: 0.9, roughness: 0.9 })
+      const m = new THREE.Mesh(new THREE.BoxGeometry(side % 2 === 0 ? w : depth, h, side % 2 === 0 ? depth : w), mat)
