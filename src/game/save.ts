@@ -16,3 +16,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
     if (data.version !== 1 || typeof data.level !== 'number' || !data.stats) throw new Error('shape')
     const base = newProfile()
     const profile: Profile = {
+      ...base,
