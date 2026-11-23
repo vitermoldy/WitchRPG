@@ -198,3 +198,4 @@ export class UnitSystem {
       if (d < bestD && o.pos.distanceTo(anchor) < (u.command === 'hold' ? range : SHADOW.leash) && d < range + 6) {
         best = o
         bestD = d
+      }
