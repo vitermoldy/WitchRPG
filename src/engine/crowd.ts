@@ -54,3 +54,4 @@ export class ShadowCrowd {
     return batch
   }
 
+  private makeMesh(geo: THREE.BufferGeometry, mats: THREE.Material[], cap: number) {
