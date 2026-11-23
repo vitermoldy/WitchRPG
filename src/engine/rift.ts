@@ -239,6 +239,7 @@ export class RiftDirector {
   }
 
   private openExit(at: THREE.Vector3) {
+    this.phase = 'cleared'
   /** The exit is open and the witch is close enough to use it. */
   nearExit() {
     return this.phase === 'cleared' && Math.hypot(this.g.player.pos.x - this.exitPos.x, this.g.player.pos.z - this.exitPos.z) < 3
