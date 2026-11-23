@@ -258,3 +258,4 @@ export class UnitSystem {
           return
         }
         // Circle in from the side instead of running straight at the target.
+        tmp2.set(tgt.pos.x - u.pos.x, 0, tgt.pos.z - u.pos.z).normalize()
