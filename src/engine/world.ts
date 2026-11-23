@@ -325,3 +325,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.add(key)
   scene.add(key.target)
 
+  // Ground.
