@@ -1307,3 +1307,4 @@ dialog::backdrop {
 @media (max-width: 900px) {
   .screen-start {
     grid-template-columns: 1fr;
+    align-items: start;
