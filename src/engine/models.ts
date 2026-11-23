@@ -455,6 +455,7 @@ function harrier(team: Team): UnitModel {
     const outer = box(0.72, 0.03, 0.34, bodyMat, meshes)
     outer.position.set(side * 0.36, 0, 0.04)
     tip.add(outer)
+    const edge = box(0.72, 0.035, 0.03, s.accent, meshes)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
