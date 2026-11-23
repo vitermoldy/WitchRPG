@@ -34,3 +34,4 @@ function webglOk() {
     return !!c.getContext('webgl2')
   } catch {
     return false
+  }
