@@ -420,3 +420,4 @@ export class Game {
     this.umbra.cancel()
     saveProfile(this.profile)
     this.input.unlock()
+    this.setState('result')
