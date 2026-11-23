@@ -418,3 +418,4 @@ export class Game {
     this.profile.clears += 1
     this.spells.reset()
     this.umbra.cancel()
+    saveProfile(this.profile)
