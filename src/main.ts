@@ -184,3 +184,4 @@ async function boot() {
     game.saveSoon()
   })
 
+  // After a Rift or a fall.
