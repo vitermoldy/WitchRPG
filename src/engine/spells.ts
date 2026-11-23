@@ -138,3 +138,4 @@ export class Spells {
   reset() {
     for (const b of this.bolts) this.killBolt(b)
     this.bolts.length = 0
+    for (const s of this.snares) this.g.scene.remove(s.mesh)
