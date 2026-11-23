@@ -959,6 +959,7 @@ export class UnitSystem {
     const m = u.model
     const P = m.parts
     if (u.state === 'dead') {
+      const k = Math.min(1, u.deadT / 0.5)
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
