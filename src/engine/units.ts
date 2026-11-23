@@ -67,3 +67,4 @@ export class Unit implements Target {
   // Corpse.
   deadT = 0
   riteTried = false
+  ash = false
