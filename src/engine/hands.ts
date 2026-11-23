@@ -128,3 +128,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
       j.position.set(s === 0 ? xs[f] : 0, y, 0)
       parent.add(j)
       const len = segs[s] * lengths[f]
+      const seg = new THREE.Mesh(new THREE.CapsuleGeometry(0.0092 - s * 0.0008, len, 3, 8), skin)
