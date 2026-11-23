@@ -141,3 +141,5 @@ export class BossFight {
         g.hud.message('The Hollow Warden menelan anak buahnya dan pulih.', 'info')
       }
     }
+  }
+
