@@ -263,3 +263,4 @@ export class BossFight {
       const to = goal.clone().add(side)
       to.y += 1
       g.projectiles.fire(from, to, 'rift', u.damage * BOSS.volleyDamage, BOSS.shot, u)
+    }
