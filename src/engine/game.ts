@@ -520,3 +520,4 @@ export class Game {
   private simulate(dt: number) {
     const input = this.input
     const p = this.player
+    const wheel = this.umbra.wheelOpen
