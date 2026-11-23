@@ -108,3 +108,4 @@ export function derive(stats: Stats): Derived {
     speedMult: 1 + PLAYER.speedPerAgi * above('agi'),
     floatTime: MOVE.floatMax + MOVE.floatPerAgi * above('agi'),
     slots: shadowSlots(stats.umb),
+  }
