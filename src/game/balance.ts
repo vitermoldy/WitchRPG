@@ -11,3 +11,4 @@ export const MOVE = {
   airAccel: 16,
   groundFriction: 12,
   radius: 0.38,
+  eye: 1.62,
