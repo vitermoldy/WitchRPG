@@ -30,6 +30,7 @@ import type { Team } from './models'
 import { buildWorld, type WorldBuild } from './world'
 import { buildOpenWorld, OW, type OpenWorldBuild } from './openworld'
 import { WorldDirector } from './worldmode'
+import { ShadowCrowd } from './crowd'
 
 export type GameState = 'loading' | 'title' | 'playing' | 'paused' | 'ledger' | 'result' | 'dead'
 
