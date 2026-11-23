@@ -222,6 +222,7 @@ export function createApi(getPool, database) {
     await touch(getPool(), client)
     const [r] = await getPool().query(
       `INSERT INTO rift_runs (client_id, tier, result, wave, waves, kills, xp_gained, levels_gained, level_after, shadows_raised, seconds, boss, finished_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [client, ...row],
     )
     res.json({ ok: true, id: r.insertId })
