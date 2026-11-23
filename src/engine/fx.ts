@@ -322,3 +322,4 @@ export class Rings {
   }
 }
 
+/** A soft round texture for sprites (palm orbs, exit glow). */
