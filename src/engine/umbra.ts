@@ -179,8 +179,7 @@ export class Umbra {
     g.lights.flash(feet.clone().setY(feet.y + 2), COLOR.umbra, 30, spill * 1.5, 1.2)
     g.hud.umbraPulse()
     g.sfx.summon(n)
-    const waiting = g.profile.shadows.length - this.field().length - n
-    g.hud.message(waiting > 0 ? `${n} bayangan dipanggil. ${waiting} lainnya menunggu di Ruang Bayangan.` : `${n} bayangan dipanggil.`, 'umbra')
+    const later = this.reforming().count
   }
 
   /** T again: every shadow on the field sinks into a pool and the darkness pulls back under the witch. */
