@@ -113,3 +113,4 @@ export class Spells {
     this.shield = new THREE.Mesh(
       new THREE.SphereGeometry(1.1, 32, 16),
       new THREE.ShaderMaterial({
+        uniforms: { uTime: { value: 0 }, uHit: { value: 0 }, uFade: { value: 0 } },
