@@ -168,6 +168,7 @@ export class Unit implements Target {
   makeElite(trait: EliteTrait) {
     this.elite = trait
     this.maxHp = Math.round(this.maxHp * ELITE.hp)
+    this.hp = this.maxHp
 }
 
 const tmp = new THREE.Vector3()
