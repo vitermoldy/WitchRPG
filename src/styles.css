@@ -527,3 +527,5 @@ button:disabled {
   flex-direction: column;
   gap: 0.35rem;
   width: min(30rem, 42vw);
+}
+
