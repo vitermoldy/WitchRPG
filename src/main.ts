@@ -88,6 +88,7 @@ async function boot() {
 
   /** The Rift picker: what each tier holds, which are open, and which one the button enters. */
   const TIER_INFO: Record<TierId, string> = {
+    1: 'Husk dan Rift Hound, Lv 1 sampai 3. Lima gelombang.',
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
