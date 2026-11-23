@@ -123,3 +123,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
         g.lineWidth = 3
         let cx = x
         let cy = y
+        let ca = a
