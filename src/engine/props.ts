@@ -298,3 +298,4 @@ export class PropSystem {
       if (!u.alive || u.team !== 'rift' || p.hitUnits.has(u.id)) continue
       const d = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z)
       if (d > 3) continue
+      p.hitUnits.add(u.id)
