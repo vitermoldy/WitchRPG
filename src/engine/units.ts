@@ -79,3 +79,4 @@ export class Unit implements Target {
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
     this.team = team
+    this.spec = UNITS[kind]
