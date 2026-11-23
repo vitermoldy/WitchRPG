@@ -102,3 +102,5 @@ export class WorldDirector {
     const atAltar = Math.hypot(p.pos.x - g.ow.altar.x, p.pos.z - g.ow.altar.z) < 10
     if (p.alive) {
       if (atAltar) {
+        p.hp = Math.min(p.maxHp, p.hp + p.maxHp * 0.12 * dt)
+        p.mana = Math.min(p.maxMana, p.mana + p.maxMana * 0.12 * dt)
