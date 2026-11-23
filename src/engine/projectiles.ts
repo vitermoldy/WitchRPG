@@ -101,3 +101,4 @@ export class Projectiles {
         continue
       }
 
+      let hit = false
