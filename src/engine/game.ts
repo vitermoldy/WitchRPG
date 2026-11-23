@@ -369,3 +369,4 @@ export class Game {
     this.rift.start()
     this.setState('playing')
     this.umbra.summonAll()
+    this.hud.banner('Rift Tier I', 'Bertahan lima gelombang, lalu keluar lewat retakan di monumen.')
