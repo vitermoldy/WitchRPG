@@ -111,3 +111,4 @@ export class Projectiles {
             h.hurtPlayer(s.damage, s.prev)
             hit = true
           }
+        }
