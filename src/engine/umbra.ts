@@ -231,3 +231,4 @@ export class Umbra {
     this.progress = 0
     if (!g.spells.overloaded) g.player.mana -= RITE.mana
     u.riteTried = true
+    const p = this.chance(u)
