@@ -65,3 +65,5 @@ function carMesh(color: number) {
     }
   })
   return g
+}
+
