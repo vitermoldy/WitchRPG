@@ -257,3 +257,4 @@ export class UnitSystem {
           this.host.growl()
           return
         }
+        // Circle in from the side instead of running straight at the target.
