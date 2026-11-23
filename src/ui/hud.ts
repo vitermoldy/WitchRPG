@@ -118,3 +118,4 @@ export class Hud {
     this.set('rift-wave', 'text', r.phase === 'intro' ? 'Rift terbuka' : r.phase === 'cleared' ? 'Rift ditaklukkan' : `Gelombang ${r.wave} dari ${r.totalWaves}`)
     this.set('rift-left', 'text', r.phase === 'wave' ? `${r.remaining} musuh tersisa` : r.phase === 'breather' ? 'Jeda antar gelombang' : r.phase === 'cleared' ? 'Keluar lewat retakan di monumen' : '')
 
+    // Skills.
