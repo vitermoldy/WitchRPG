@@ -15,3 +15,4 @@ export class Umbra {
   progress = 0
   swapCd = 0
   wheelOpen = false
+  wheelChoice: WheelChoice | null = null
