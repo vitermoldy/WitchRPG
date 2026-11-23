@@ -12,6 +12,7 @@ Butuh Node 22 atau lebih baru, browser dengan WebGL 2, dan MySQL 8 untuk akun.
 npm install
 cp .env.example .env   # isi DB_PASSWORD MySQL
 npm run server         # API + MySQL di port 8813; database witch_rpg dan tabelnya dibuat sendiri
+npm run dev            # http://localhost:5197, /api diteruskan ke server
 ```
 
 ## Kontrol
