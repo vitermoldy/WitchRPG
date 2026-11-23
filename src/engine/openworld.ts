@@ -80,3 +80,5 @@ function facadeMaterial() {
           vec3 lit = h > 0.985 ? vec3(1.0, 0.3, 0.3) : vec3(1.0, 0.62, 0.32);
           totalEmissiveRadiance += lit * win * step(0.93, h) * (0.6 + 0.4 * h21(cell * 1.7));
           // Grime that darkens toward the street.
+          diffuseColor.rgb *= 0.75 + 0.25 * smoothstep(0.0, 14.0, vWp.y);
+        } else {
