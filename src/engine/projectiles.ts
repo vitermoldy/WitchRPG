@@ -45,3 +45,4 @@ const MATS: Record<'rift' | 'shadow' | 'reflected', THREE.MeshBasicMaterial> = {
 export class Projectiles {
   readonly group = new THREE.Group()
   private readonly shots: Shot[] = []
+  private readonly host: ShotHost
