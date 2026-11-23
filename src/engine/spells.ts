@@ -569,3 +569,4 @@ export class Spells {
     g.sfx.burst()
   }
 
+  /** Shared by Chaos Burst and the barrier blast. */
