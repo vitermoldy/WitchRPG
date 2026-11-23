@@ -75,3 +75,4 @@ export class Umbra {
     const t = performance.now() / 1000
     const open = this.riteOpen
     const cam = g.camera
+    const eye = g.player.eyePos
