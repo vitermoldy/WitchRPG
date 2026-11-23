@@ -487,3 +487,4 @@ export class UnitSystem {
     u.walk += dt * speed * (u.kind === 'hound' ? 2.6 : 3.4)
     const sw = Math.sin(u.walk)
     const amp = Math.min(1, speed / Math.max(1, u.speed))
+    const flashCol = u.team === 'rift' ? 0xffffff : COLOR.umbraHot
