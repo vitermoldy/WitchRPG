@@ -21,3 +21,4 @@ export interface Prop {
   awake: boolean
   life: number
   hitUnits: Set<number>
+  hitCooldown: number
