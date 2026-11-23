@@ -143,3 +143,4 @@ async function boot() {
     game.sfx.start()
     game.openLedger('title')
   })
+  $('btn-reset').addEventListener('click', async () => {
