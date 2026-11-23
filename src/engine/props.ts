@@ -305,3 +305,4 @@ export class PropSystem {
       dir.y = 4
       this.host.units.knock(u, dir)
     }
+    this.host.impactFx(p.pos, 1)
