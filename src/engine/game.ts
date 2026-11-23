@@ -201,3 +201,4 @@ export class Game {
     this.derived = derive(this.profile.stats)
     const p = this.player
     p.maxHp = this.derived.maxHp
+    p.maxMana = this.derived.maxMana
