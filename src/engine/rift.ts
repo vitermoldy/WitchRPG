@@ -94,3 +94,4 @@ export class RiftDirector {
     this.queue = q
     this.wave = i + 1
     this.phase = 'wave'
+    this.spawnT = 0.5
