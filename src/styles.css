@@ -199,3 +199,4 @@ button:disabled {
 }
 
 .screen-lead {
+  max-width: 34rem;
