@@ -102,3 +102,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   sleeve.position.set(0, -0.31, 0.1)
   sleeve.rotation.x = 0.32
   root.add(sleeve)
+  const trim = new THREE.Mesh(new THREE.TorusGeometry(0.07, 0.006, 6, 20), cuff)
