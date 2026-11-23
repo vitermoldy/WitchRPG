@@ -121,3 +121,4 @@ export class Spells {
         side: THREE.DoubleSide,
         blending: THREE.AdditiveBlending,
       }),
+    )
