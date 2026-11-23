@@ -19,3 +19,5 @@ export interface Gate {
 }
 
 export interface CampSpot {
+  id: number
+  pos: THREE.Vector3
