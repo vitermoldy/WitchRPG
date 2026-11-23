@@ -139,3 +139,4 @@ export async function signOut(): Promise<void> {
     localStorage.removeItem(QUEUE_KEY)
   } catch {
     /* blocked storage: nothing was kept either */
+  }
