@@ -92,3 +92,4 @@ export class BossFight {
         g.lair.setFloor(false)
         g.sfx.collapse()
         g.player.addTrauma(0.8)
+        for (let i = 0; i < 60; i++) {
