@@ -386,3 +386,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       m.receiveShadow = true
       scene.add(m)
       // Roof clutter for a broken skyline.
+      if (R() < 0.6) {
