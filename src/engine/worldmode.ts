@@ -66,3 +66,6 @@ export class WorldDirector {
       }
     }
     if (c.spot.elite) g.sfx.roar()
+  }
+
+  update(dt: number) {
