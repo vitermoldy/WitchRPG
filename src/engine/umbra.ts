@@ -124,7 +124,7 @@ export class Umbra {
     return at
   }
 
-  /** T: call the army out of the Shadow Room, or send the field back into it. */
+  /** T: call the whole army out of the Shadow Room, or send all of it back. */
   toggle() {
     if (this.summonCd > 0) return
     if (this.field().length || this.calls.length) this.dismiss()
