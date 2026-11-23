@@ -382,3 +382,4 @@ export class UnitSystem {
             if (o === u || !o.alive || o.team !== 'rift' || o.state === 'held') continue
             if (o.pos.distanceTo(u.pos) < u.radius + o.radius + 0.25) {
               this.impact(u, speed, o)
+              u.vel.multiplyScalar(0.4)
