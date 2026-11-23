@@ -30,3 +30,4 @@ function rand(seed: number) {
   }
 }
 
+function canvas(w: number, h: number) {
