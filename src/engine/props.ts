@@ -96,3 +96,4 @@ export class PropSystem {
   private readonly tmp = new THREE.Vector3()
 
   constructor(host: PropHost) {
+    this.host = host
