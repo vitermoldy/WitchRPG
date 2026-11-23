@@ -62,3 +62,5 @@ export class WorldDirector {
         const u = g.units.spawn(kind, 'rift', lo + Math.floor(Math.random() * (hi - lo + 1)), at)
         c.units.push(u)
         const big = UNITS[kind].height / 1.8
+        g.glow.emit({ pos: at.clone().setY(at.y + 1), count: Math.round(20 * big), color: COLOR.chaos, intensity: 2.2, life: 0.6, size: 0.2, speed: 3 * big, jitter: 0.4 })
+      }
