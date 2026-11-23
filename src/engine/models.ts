@@ -322,6 +322,7 @@ function riftlord(team: Team): UnitModel {
       }
       eyes(p.head, m, meshes, [[-0.1, 0.24], [0.1, 0.24]], [0.08, 0.035], -0.215)
       const cloak = new THREE.Mesh(new THREE.ConeGeometry(0.85, 1.9, 7, 1, true), m.body)
+      cloak.material.side = THREE.DoubleSide
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
