@@ -14,6 +14,7 @@ cp .env.example .env   # isi DB_PASSWORD MySQL
 npm run server         # API + MySQL di port 8813; database witch_rpg dan tabelnya dibuat sendiri
 npm run dev            # http://localhost:5197, /api diteruskan ke server
 npm test               # tes progresi, rumus, dan gerak witch
+npm run build          # hasil di dist/; npm start menyajikannya bersama API
 ```
 
 ## Kontrol
