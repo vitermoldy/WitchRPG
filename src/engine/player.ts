@@ -10,3 +10,4 @@ export interface Circle {
 }
 
 /** The witch's body: movement, Crimson Float, slide, camera, bob and shake. */
+export class Player {
