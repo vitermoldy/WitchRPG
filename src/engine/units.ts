@@ -744,6 +744,7 @@ export class UnitSystem {
     let armX = 0
     let lean = baseLean
     let shieldUp = u.kind === 'warden' && u.stun <= 0
+    if (u.state === 'windup') {
       }
     }
   }
