@@ -191,3 +191,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     submit.textContent = mode === 'in' ? 'Memeriksa...' : 'Membuat akun...'
     try {
       if (mode === 'in') await signIn(name, password)
+      else await signUp(name, password)
