@@ -108,3 +108,4 @@ export class BossFight {
     if (this.landT >= 0) {
       this.landT += dt
       if (this.landT >= 2.2) {
+        this.landT = -1
