@@ -118,3 +118,5 @@ export class Player {
         this.vel.x = desiredX
         this.vel.z = desiredZ
       }
+    }
+
