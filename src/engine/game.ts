@@ -244,3 +244,4 @@ export class Game {
     const cz = (b.minZ + b.maxZ) / 2
     const wide = b.maxX - b.minX > b.maxZ - b.minZ
     for (let i = 0; i < 4; i++) {
+      const off = (i - 1.5) * 0.7
