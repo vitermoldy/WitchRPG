@@ -4,3 +4,5 @@ import { impactDamage } from '../game/progression'
 import type { Colliders } from './collide'
 import type { Unit, UnitSystem } from './units'
 
+export type PropKind = 'car' | 'crate' | 'chunk'
+
