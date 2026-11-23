@@ -523,6 +523,7 @@ button:disabled {
 }
 
 .boss-hp i {
+  display: block;
 .banner {
   position: absolute;
   top: 24%;
