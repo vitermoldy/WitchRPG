@@ -232,3 +232,4 @@ export class Sfx {
   }
 
   ui() {
+    if (!this.ok()) return
