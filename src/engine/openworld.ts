@@ -72,3 +72,5 @@ function facadeMaterial() {
         `#include <emissivemap_fragment>
         if (abs(vWn.y) < 0.5) {
           float u = abs(vWn.x) > 0.5 ? vWp.z : vWp.x;
+          vec2 cell = vec2(floor(u / 2.9), floor((vWp.y - 1.0) / 3.3));
+          vec2 f = vec2(fract(u / 2.9), fract((vWp.y - 1.0) / 3.3));
