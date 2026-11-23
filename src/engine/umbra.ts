@@ -387,7 +387,8 @@ export class Umbra {
     }
   }
 
-  private complete(u: Unit) {
+  /** Every body rolls its own chance (GDD: one roll per body). */
+  private complete(list: Unit[]) {
     const g = this.g
     this.casting = null
     this.progress = 0
