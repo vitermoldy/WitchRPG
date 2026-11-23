@@ -235,6 +235,8 @@ export class Hud {
     const c = g.umbra.candidate
     const many = g.umbra.targets.length
     const gate = g.mode === 'world' ? g.worldDir.nearGate() : null
+    if (g.mode === 'rift' && g.rift.nearExit()) promptHtml = '<kbd>F</kbd> Keluar dari Rift'
+    else if (g.mode === 'rift' && g.rift.nearGate()) promptHtml = '<kbd>F</kbd> Masuk ke Jantung Rift'
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
