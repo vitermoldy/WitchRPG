@@ -206,3 +206,4 @@ export class Game {
     p.floatMax = this.derived.floatTime
     if (refill) {
       p.hp = p.maxHp
+      p.mana = p.maxMana
