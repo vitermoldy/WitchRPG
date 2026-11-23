@@ -187,6 +187,8 @@ export class Hud {
     const r = g.rift
     this.root.classList.toggle('world', g.mode === 'world')
     if (g.mode === 'world') this.updateWorld()
+    else this.set('rift-name', 'text', g.inLair ? 'Jantung Rift' : r.tier.name)
+    if (g.mode === 'rift') this.set(
       'rift-wave',
       'text',
       r.phase === 'intro' ? 'Rift terbuka' : r.phase === 'cleared' ? 'Rift ditaklukkan' : r.phase === 'gate' ? 'Jantung Rift terbuka' : r.phase === 'lair' ? 'The Hollow Warden' : `Gelombang ${r.wave} dari ${r.totalWaves}`,
