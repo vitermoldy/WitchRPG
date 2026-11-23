@@ -46,6 +46,7 @@ export interface Profile {
   nextShadowId: number
   clears: number
   settings: Settings
+  /** When this witch last changed; with an account, the newer copy wins. */
 }
 
 export const DEFAULT_SETTINGS: Settings = { sensitivity: 1, volume: 0.7, headBob: true, shake: true }
