@@ -620,6 +620,7 @@ export class Game {
     u.setState('rising')
   }
 
+  slamFx(at: THREE.Vector3, radius: number, team: Team) {
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
