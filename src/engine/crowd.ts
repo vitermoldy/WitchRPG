@@ -76,3 +76,4 @@ export class ShadowCrowd {
       b.mesh = this.makeMesh(b.geo, b.mats, cap)
       b.cap = cap
     }
+    return b
