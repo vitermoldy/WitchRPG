@@ -257,3 +257,4 @@ button:disabled {
 /* Title screen: the name, one line of story, one way in. Controls sit to the side. */
 .screen-start {
   display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
