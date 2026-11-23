@@ -59,3 +59,4 @@ export class Unit implements Target {
   slow = 1
   vulnerable = 0
   thrown = false
+  hitThisLunge = false
