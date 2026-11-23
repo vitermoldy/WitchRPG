@@ -141,3 +141,4 @@ export class Hud {
     const c = g.umbra.candidate
     if (g.rift.nearExit()) promptHtml = '<kbd>F</kbd> Keluar dari Rift'
     else if (c) {
+      const why = g.umbra.blocker()
