@@ -202,3 +202,4 @@ export class Game {
     const p = this.player
     p.maxHp = this.derived.maxHp
     p.maxMana = this.derived.maxMana
+    p.speedMult = this.derived.speedMult
