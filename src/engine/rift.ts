@@ -61,18 +61,7 @@ export class RiftDirector {
       g.world.city.add(mesh)
       this.portals.push({ pos: p.clone(), mesh, mat, open: 0 })
     })
-    this.exit = new THREE.Group()
-    this.exitMat = makeTearMaterial(9.3)
-    const tear = new THREE.Mesh(new THREE.PlaneGeometry(2.2, 3.6), this.exitMat)
-    tear.position.y = 1.8
-    this.exit.add(tear)
-    const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTexture(), color: new THREE.Color(COLOR.umbra).multiplyScalar(1.4), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }))
-    halo.scale.set(6, 6, 1)
-    halo.position.y = 1.8
-    this.exit.add(halo)
-    this.exit.position.copy(this.exitPos)
-    this.exit.visible = false
-    g.scene.add(this.exit)
+    const tear = (seed: number, w: number, h: number, halo: number) => {
   }
 
   start() {
