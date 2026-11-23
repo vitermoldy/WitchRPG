@@ -237,3 +237,4 @@ export class UnitSystem {
       if (!tgt) {
         if (u.team === 'shadow') {
           // Out of the fight, shadows knit back together.
+          u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
