@@ -188,6 +188,7 @@ export class UnitSystem {
   knock(u: Unit, impulse: THREE.Vector3) {
     if (!u.alive || u.state === 'held') return
     // The big ones only rock back a little.
+    if (u.spec.anchored) {
     const scale = 70 / u.mass
     u.vel.addScaledVector(impulse, Math.min(1.6, scale))
     if (impulse.y > 0.5) {
