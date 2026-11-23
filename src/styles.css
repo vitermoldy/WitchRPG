@@ -879,3 +879,4 @@ button:disabled {
   top: 50%;
   width: 22rem;
   height: 22rem;
+  transform: translate(-50%, -50%);
