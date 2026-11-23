@@ -483,3 +483,4 @@ export class Game {
         this.camera.position.y += (this.player.pos.y + 0.4 - this.camera.position.y) * Math.min(1, dt * 2)
         this.camera.rotation.z += (0.5 - this.camera.rotation.z) * Math.min(1, dt * 2)
       }
+    }
