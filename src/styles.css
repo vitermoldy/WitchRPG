@@ -511,6 +511,7 @@ button:disabled {
   font-family: var(--font-display);
   font-size: 1rem;
   letter-spacing: -0.02em;
+  color: var(--rift);
 .banner {
   position: absolute;
   top: 24%;
