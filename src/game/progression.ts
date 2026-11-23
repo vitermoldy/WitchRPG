@@ -48,3 +48,5 @@ export interface Profile {
   settings: Settings
 }
 
+export const DEFAULT_SETTINGS: Settings = { sensitivity: 1, volume: 0.7, headBob: true, shake: true }
+
