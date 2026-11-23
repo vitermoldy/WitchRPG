@@ -64,6 +64,7 @@ export class RiftDirector {
     const tear = (seed: number, w: number, h: number, halo: number) => {
       const group = new THREE.Group()
       const mat = makeTearMaterial(seed)
+      const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), mat)
   }
 
   start() {
