@@ -1279,3 +1279,4 @@ dialog::backdrop {
 .room-empty {
   grid-column: 1 / -1;
   margin: 0;
+  color: var(--ink-3);
