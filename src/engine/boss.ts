@@ -103,3 +103,4 @@ export class BossFight {
         this.volleyT = 2
         g.spawnRocks()
         g.hud.banner('Fase 2', 'Lantai runtuh. Lempar batu ke cangkangnya dengan Telekinesis, melayang antar pilar dengan Crimson Float.')
+      }
