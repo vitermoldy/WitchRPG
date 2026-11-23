@@ -26,3 +26,4 @@ export class BossFight {
   private immuneNote = 0
 
   constructor(g: Game, u: Unit, home: THREE.Vector3) {
+    this.g = g
