@@ -864,6 +864,8 @@ export class Game {
           void this.enterRift(gate.tier, true)
           return
         }
+      }
+    } else if (input.pressed('KeyF') && this.rift.nearExit()) {
       this.finishRift()
       return
     }
