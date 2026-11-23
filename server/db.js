@@ -55,3 +55,4 @@ const TABLES = [
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     client_id CHAR(12) NOT NULL,
     tier TINYINT UNSIGNED NOT NULL,
+    result ENUM('cleared','fallen','left') NOT NULL,
