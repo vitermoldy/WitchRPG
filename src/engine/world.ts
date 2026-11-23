@@ -289,3 +289,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     new THREE.SphereGeometry(320, 32, 16),
     new THREE.ShaderMaterial({
       uniforms: { uRift: { value: riftDir }, uTime: { value: 0 } },
+      vertexShader: SKY_VERT,
