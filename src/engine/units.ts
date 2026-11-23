@@ -309,6 +309,7 @@ export class UnitSystem {
     if (u.kind === 'riftlord') {
       if (!enemiesNear.length) return
       const c = SHADOW_SKILL.call
+      for (let i = 0; i < c.count; i++) {
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
