@@ -13,3 +13,4 @@ export interface Box {
 }
 
 export interface RayHit {
+  dist: number
