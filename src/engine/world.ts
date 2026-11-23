@@ -165,3 +165,4 @@ function facadeTextures(seed: number) {
   }
   const cols = 4
   const rows = 8
+  for (let r = 0; r < rows; r++) {
