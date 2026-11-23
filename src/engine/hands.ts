@@ -286,3 +286,4 @@ export class Hands {
       const bobX = Math.cos(bobPhase) * 0.01 * bobWeight
       const breathe = Math.sin(this.t * 1.6 + (h.side === 'left' ? 0 : 1.3)) * 0.004
       h.root.position.set(
+        h.base.x + this.swayX + bobX + (Math.random() - 0.5) * trem - mirror * p.reach * 0.25,
