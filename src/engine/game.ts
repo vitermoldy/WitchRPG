@@ -591,6 +591,7 @@ export class Game {
   streamTo(from: THREE.Vector3, to: THREE.Vector3, color: number) {
     for (let i = 0; i < 24; i++) {
       const p = from.clone().lerp(to, Math.random() * 0.3)
+      const v = to.clone().sub(p).multiplyScalar(1.6)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
