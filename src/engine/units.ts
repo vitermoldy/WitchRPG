@@ -815,6 +815,7 @@ export class UnitSystem {
       const cx = Math.floor(a.pos.x / CELL)
       const cz = Math.floor(a.pos.z / CELL)
       for (let ix = cx - 1; ix <= cx + 1; ix++) {
+        for (let iz = cz - 1; iz <= cz + 1; iz++) {
       }
       // Keep clear of the witch.
       const p = host.player
