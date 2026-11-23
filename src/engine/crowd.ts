@@ -108,3 +108,4 @@ export class ShadowCrowd {
         this.p.y += Math.abs(Math.sin(t * 9 + u.id)) * 0.05 * pace
       }
       this.q.setFromAxisAngle(UP, u.yaw)
+      this.s.setScalar(u.scale)
