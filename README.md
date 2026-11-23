@@ -53,7 +53,7 @@ Akun pemilik: `vmk`.
 | Tangan kanan, Umbra | |
 | --- | --- |
 | Tahan R | Umbra Rite pada tubuh musuh yang bersinar ungu (Lv 2); dua tubuh atau lebih dalam 12 m dibangkitkan sekaligus |
-| T | Panggil pasukan bayangan, tekan lagi untuk mengembalikannya |
+| T | Panggil seluruh pasukan bayangan dari Ruang Bayangan, tekan lagi untuk mengembalikannya |
 | Tahan Z | Roda perintah: Ikuti, Serang, Tahan, Tukar Tempat |
 
 | Gerak | |
