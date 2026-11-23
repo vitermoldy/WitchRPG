@@ -805,5 +805,6 @@ export class Game {
     // missed and landed on the far side do not count, and the farthest go once there are too many.
     if (this.rift.boss?.phase === 2) {
       this.rockT -= dt
+      if (this.rockT <= 0) {
   }
 }
