@@ -32,3 +32,5 @@ export interface Settings {
   volume: number
   headBob: boolean
   shake: boolean
+}
+
