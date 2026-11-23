@@ -282,6 +282,7 @@ function warden(team: Team): UnitModel {
       }
       const visor = box(0.24, 0.035, 0.02, m.eye, meshes, 0.2)
       visor.position.z = -0.17
+      visor.castShadow = false
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
