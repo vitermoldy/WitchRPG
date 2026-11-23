@@ -23,3 +23,5 @@ Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Docu
 
 Belum dibuat (ditandai "Belum ada di prototype ini" di Ledger): Reality Warp, Kebangkitan Jenderal, Kebangkitan Marsekal, Spitter, Warden, Rift Lord, boss The Hollow Warden, Rift Tier II dan III.
 
+## Penyesuaian dari GDD dan alasannya
+
