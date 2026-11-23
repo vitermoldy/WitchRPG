@@ -363,6 +363,7 @@ export class Warnings {
   }
 
   update(dt: number) {
+    for (const w of this.pool) {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
