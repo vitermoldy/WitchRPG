@@ -168,3 +168,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   const orb = new THREE.Sprite(
     new THREE.SpriteMaterial({ map: tex, color, blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }),
   )
+  orb.position.set(0, 0.1, -0.09)
