@@ -81,3 +81,4 @@ export class Hud {
     if (ok) this.banner(name, 'bangkit dari bayangan dan berdiri di sisimu')
   }
 
+  clearFeed() {
