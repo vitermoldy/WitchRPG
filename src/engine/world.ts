@@ -346,3 +346,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   far.position.y = -0.02
   scene.add(far)
 
+  const concrete = new THREE.MeshStandardMaterial({ color: 0x4a4446, roughness: 0.95, flatShading: true })
