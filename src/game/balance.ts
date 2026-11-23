@@ -251,6 +251,7 @@ export type WaveSpec = Partial<Record<Exclude<UnitKind, 'hollow'>, number>> & { 
 export type TierId = 1 | 2 | 3
 
 export interface TierSpec {
+  tier: TierId
 }
 
 export const RIFT_TIER_1 = {
