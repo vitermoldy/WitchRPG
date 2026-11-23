@@ -608,6 +608,7 @@ export class Spells {
   private warp() {
     const g = this.g
     const s = SPELL.warp
+    this.warpCd = s.cooldown
   private burst() {
     const g = this.g
     const s = SPELL.burst
