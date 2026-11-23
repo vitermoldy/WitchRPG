@@ -232,3 +232,4 @@ export class Umbra {
     if (!g.spells.overloaded) g.player.mana -= RITE.mana
     u.riteTried = true
     const p = this.chance(u)
+    const roll = Math.random()
