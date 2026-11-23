@@ -146,7 +146,7 @@ async function boot() {
     const fresh = newProfile()
     fresh.settings = settings
     Object.assign(game.profile, fresh)
-    saveProfile(game.profile)
+    game.persist()
     game.applyStats(true)
     renderTitle()
   })
