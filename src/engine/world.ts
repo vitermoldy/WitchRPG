@@ -317,3 +317,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   key.shadow.mapSize.set(2048, 2048)
   const sc = key.shadow.camera
   sc.left = sc.bottom = -46
+  sc.right = sc.top = 46
