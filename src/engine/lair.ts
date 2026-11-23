@@ -74,3 +74,4 @@ function crackTexture(size: number) {
     eg.stroke()
     g.stroke()
   }
+  const map = new THREE.CanvasTexture(c)
