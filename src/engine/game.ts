@@ -480,6 +480,7 @@ export class Game {
     this.units.clear()
     this.projectiles.clear()
     this.warnings.clear()
+    this.pools.clear()
     this.respawnProps()
     this.glow.clear()
     this.smoke.clear()
