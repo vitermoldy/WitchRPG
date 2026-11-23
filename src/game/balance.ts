@@ -15,3 +15,4 @@ export const MOVE = {
   crouchEye: 1.05,
   step: 0.5,
   floatMax: 5,
+  floatPerAgi: 0.1,
