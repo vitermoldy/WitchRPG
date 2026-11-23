@@ -118,6 +118,7 @@ export class Ledger {
     box.innerHTML = `<ol class="history-list">${runs
       .map(
         (r) => `<li class="history-item ${r.result}">
+          <p class="history-result">${RESULT[r.result]}<span class="num">Tier ${'I'.repeat(Math.min(3, r.tier))}</span></p>
   close() {
     if (this.dlg.open) this.dlg.close()
   }
