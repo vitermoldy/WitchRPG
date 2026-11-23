@@ -72,3 +72,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   const onTitle = (): boolean => game.state === 'title'
 
   function render(state: AuthState = authState()): void {
+    const offline = state.status === 'unavailable'
