@@ -748,6 +748,8 @@ export class UnitSystem {
     }
     if (u.state === 'sinking') {
       const k = Math.min(1, u.t / 0.8)
+      m.root.position.y = u.pos.y - k * k * u.spec.height
+      if (Math.random() < 0.5) this.host.glow.emit({ pos: u.pos, count: 1, color: COLOR.umbra, intensity: 2.4, life: 0.6, size: 0.1, speed: 0.8, vel: { x: 0, y: 1.6, z: 0 }, jitter: 0.4 })
     m.root.scale.setScalar(1)
 
     if (BIPEDS.has(u.kind)) this.animateBiped(u, sw, amp, t)
