@@ -241,3 +241,4 @@ export const TEAR_FRAG = /* glsl */ `
   uniform float uSeed;
   float hash(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7)) + uSeed) * 43758.5453); }
   float noise(vec2 p) {
+    vec2 i = floor(p), f = fract(p);
