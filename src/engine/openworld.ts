@@ -177,3 +177,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       const a = (i * 2.399 + tries * 0.7) % (Math.PI * 2)
       const d = b.min + R() * (b.max - b.min)
       const x = Math.cos(a) * d
+      const z = Math.sin(a) * d
+      if (Math.abs(x) > H - 14 || Math.abs(z) > H - 14) continue
