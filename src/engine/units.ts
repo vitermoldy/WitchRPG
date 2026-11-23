@@ -558,6 +558,7 @@ export class UnitSystem {
     const host = this.host
     const spec = u.spec
     const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
+    const ref = tgt ?? host.player
     }
   }
 
