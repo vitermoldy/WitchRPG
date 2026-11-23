@@ -4,3 +4,4 @@
 export const MOVE = {
   walk: 5,
   sprint: 8,
+  crouch: 2.6,
