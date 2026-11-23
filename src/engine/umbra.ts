@@ -212,3 +212,4 @@ export class Umbra {
 
   cancel() {
     if (!this.casting) return
+    this.casting = null
