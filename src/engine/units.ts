@@ -322,6 +322,7 @@ export class UnitSystem {
       for (const o of caught) {
         tmp.copy(u.pos).sub(o.pos).setY(0)
         const d = tmp.length()
+        tmp.normalize().multiplyScalar(Math.min(14, d * 2.2))
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
