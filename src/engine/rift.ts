@@ -58,3 +58,4 @@ export class RiftDirector {
     g.scene.add(this.exit)
   }
 
+  start() {
