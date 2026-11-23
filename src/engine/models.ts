@@ -395,6 +395,8 @@ function hollow(team: Team): UnitModel {
   )
 }
 
+const BUILDERS: Record<UnitKind, (team: Team) => UnitModel> = { husk, hound, spitter, warden, riftlord, hollow }
+
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
