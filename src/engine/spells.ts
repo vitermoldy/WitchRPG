@@ -635,6 +635,7 @@ export class Spells {
       fragmentShader: WARP_FRAG,
       transparent: true,
       depthWrite: false,
+      side: THREE.DoubleSide,
   private burst() {
     const g = this.g
     const s = SPELL.burst
