@@ -608,3 +608,4 @@ button:disabled {
   animation: pulse-ring 0.6s ease-in-out infinite alternate;
 }
 
+@keyframes pulse-ring {
