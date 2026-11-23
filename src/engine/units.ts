@@ -400,3 +400,4 @@ export class UnitSystem {
         continue
       }
 
+      this.brain(u, dt)
