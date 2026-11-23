@@ -207,3 +207,4 @@ const SKY_VERT = /* glsl */ `
     vDir = normalize(position);
     gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
   }
+`
