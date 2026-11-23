@@ -1323,3 +1323,4 @@ dialog::backdrop {
   .controls,
   .tree-cols {
     grid-template-columns: 1fr;
+  }
