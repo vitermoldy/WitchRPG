@@ -590,7 +590,7 @@ export class Spells {
   private cast(id: 'burst' | 'snare' | 'barrier' | 'warp') {
     const g = this.g
     if (!this.unlocked(id)) {
-      g.hud.message(`${id === 'burst' ? 'Chaos Burst' : id === 'snare' ? 'Hex Snare' : 'Hex Barrier'} terbuka di Lv ${id === 'burst' ? 3 : id === 'snare' ? 5 : 7}.`, 'info')
+      const def = skillById(id)
       return
     }
     const cd = id === 'burst' ? this.burstCd : id === 'snare' ? this.snareCd : this.barrierCd
