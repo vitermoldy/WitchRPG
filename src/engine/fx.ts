@@ -350,6 +350,8 @@ export class Warnings {
       scene.add(group)
       this.pool.push({ group, fill, edge, t: 0, dur: 1 })
     }
+  }
+
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
