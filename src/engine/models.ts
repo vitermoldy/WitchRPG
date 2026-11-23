@@ -388,6 +388,7 @@ function hollow(team: Team): UnitModel {
       // Shards circle the body, not the spine, so they stay level while it moves.
       p.spine.parent!.parent!.add(shards)
       for (const fore of [p.foreL, p.foreR]) {
+        const fist = box(0.46, 0.46, 0.46, m.bone, meshes, -1.38)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
