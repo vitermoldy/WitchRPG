@@ -73,6 +73,8 @@ Hasil bot uji (`?debug`, waktu game): Tier II dari Lv 4 berakhir di Lv 8 sebelum
 
 Pemilik meminta: witch bisa terbang, ada mode dunia terbuka, bayangan bisa dibangkitkan sebanyak-banyaknya, satu tombol untuk memanggil dan mengembalikan pasukan, dan efek pemanggilan yang terasa seperti pasukan bayangan bangkit dari tanah. Efeknya dibuat sendiri; tidak ada nama, kalimat, atau aset dari karya sumber.
 
+| Bagian | Keputusan | Alasan |
+| --- | --- | --- |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
