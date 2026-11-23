@@ -294,3 +294,4 @@ export class Game {
     this.rift.xpGained += xp
     const r = gainXp(this.profile, xp, SKILL_IDS)
     if (r.levelsGained) {
+      this.rift.levelsGained += r.levelsGained
