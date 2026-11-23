@@ -169,3 +169,4 @@ export class BossFight {
   private targetFor(): THREE.Vector3 | null {
     const g = this.g
     const p = g.player
+    if (p.alive) return p.pos
