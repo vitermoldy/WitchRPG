@@ -528,3 +528,4 @@ export class UnitSystem {
         const k = Math.min(1, u.t / u.spec.windup)
         armX = -2.4 * k
         lean = 0.42 - 0.3 * k
+      } else if (u.state === 'strike') {
