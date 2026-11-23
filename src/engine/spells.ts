@@ -507,3 +507,4 @@ export class Spells {
     const f = g.player.viewDir()
     for (const gb of this.grabbed) {
       const mass = gb.unit ? gb.unit.mass : gb.prop!.mass
+      const speed = mass > 200 ? SPELL.grip.throwSpeed * 0.6 : SPELL.grip.throwSpeed
