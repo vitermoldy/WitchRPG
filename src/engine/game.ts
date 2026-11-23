@@ -243,6 +243,7 @@ export class Game {
       result,
       wave: r.wave,
       waves: r.totalWaves,
+      kills: r.kills,
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
