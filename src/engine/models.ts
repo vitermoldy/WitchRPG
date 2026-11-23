@@ -58,3 +58,4 @@ function husk(team: Team): UnitModel {
   body.add(box(0.36, 0.2, 0.24, bodyMat, meshes))
   const spine = pivot(body, 0, 0.08, 0)
   spine.rotation.x = 0.42
+  parts.spine = spine
