@@ -121,3 +121,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     renderRow()
   }
 
+  /** Puts a witch from the server in place of the one in this browser. */
