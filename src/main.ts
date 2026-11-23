@@ -230,6 +230,8 @@ async function boot() {
   $('btn-leave').addEventListener('click', async () => {
     if (game.mode === 'world') {
       const ok = await confirmDialog('Kembali ke layar judul?', 'XP dan bayangan tersimpan. Kamp yang sudah ditaklukkan hidup lagi saat dunia terbuka dimasuki lagi.', 'Ke layar judul')
+      if (ok) game.leaveRift()
+      else $('btn-resume').focus()
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
     game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
