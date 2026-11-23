@@ -285,3 +285,4 @@ export class Hands {
       const bobY = Math.sin(bobPhase * 2 + (h.side === 'left' ? 0 : 0.6)) * 0.012 * bobWeight
       const bobX = Math.cos(bobPhase) * 0.01 * bobWeight
       const breathe = Math.sin(this.t * 1.6 + (h.side === 'left' ? 0 : 1.3)) * 0.004
+      h.root.position.set(
