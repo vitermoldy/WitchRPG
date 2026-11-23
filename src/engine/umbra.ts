@@ -259,3 +259,4 @@ export class Umbra {
 
   /** Records a fallen shadow so it does not rise again until the next Rift. */
   shadowFell(u: Unit) {
+    const g = this.g
