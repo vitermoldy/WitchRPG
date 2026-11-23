@@ -152,3 +152,5 @@ export class Player {
         this.pos.x = b.pos.x + (dx / d) * min
         this.pos.z = b.pos.z + (dz / d) * min
       }
+    }
+
