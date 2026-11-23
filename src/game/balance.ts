@@ -83,8 +83,8 @@ export const RITE = {
   castTime: 1.5,
   castTimeUpgraded: 1,
   mana: 40,
-  baseSlots: 3,
-  umbPerSlot: 5,
+  /** Holding R near several glowing bodies raises them all in one cast; each extra body costs this much more mana. */
+  massRadius: 12,
   shadowXpShare: 0.3,
   minChance: 0.1,
   maxChance: 0.9,
