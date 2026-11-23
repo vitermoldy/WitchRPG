@@ -536,6 +536,7 @@ export class Game {
   }
 
   /** The city map: shown, colliding, with its props back in place. */
+  private useCity() {
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
