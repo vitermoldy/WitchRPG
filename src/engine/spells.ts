@@ -384,3 +384,4 @@ export class Spells {
     let first: Grabbed | null = null
     if (hit.unit && this.grippable(hit.unit)) first = { unit: hit.unit }
     else if (hit.prop && hit.prop.mass <= SPELL.grip.maxMass) first = { prop: hit.prop }
+    else {
