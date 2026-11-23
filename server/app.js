@@ -152,3 +152,4 @@ export function createApi(getPool, database) {
       shadows: sh.map((s) => ({ id: s.shadow_id, name: s.name, kind: s.kind, rank: s.rank, level: s.level, xp: s.xp })),
       nextShadowId: w.next_shadow_id,
       clears: w.clears,
+      settings: typeof w.settings === 'string' ? JSON.parse(w.settings) : w.settings,
