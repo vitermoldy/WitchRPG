@@ -570,6 +570,7 @@ export class UnitSystem {
       u.vel.y += ((goal - u.pos.y) * rate - u.vel.y) * Math.min(1, dt * 4)
     }
     if (u.state === 'move') {
+      climb(cruise, 1.5)
     }
   }
 
