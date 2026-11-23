@@ -6,6 +6,7 @@ import {
   derive,
   isFresh,
   riteBlock,
+  tierUnlocked,
   gainXp,
   impactDamage,
   newProfile,
