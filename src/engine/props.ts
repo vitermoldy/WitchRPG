@@ -14,3 +14,4 @@ export interface Prop {
   vel: THREE.Vector3
   spin: THREE.Vector3
   radius: number
+  halfH: number
