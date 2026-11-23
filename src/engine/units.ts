@@ -538,3 +538,4 @@ export class UnitSystem {
         armX = 0.6 * (1 - Math.min(1, u.t / 0.4))
       }
       if (u.state === 'dead') {
+        const k = Math.min(1, u.deadT / 0.5)
