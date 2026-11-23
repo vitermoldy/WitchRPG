@@ -388,3 +388,4 @@ export class Game {
 
   openLedger(from: GameState = this.state) {
     this.ledgerReturn = from
+    this.umbra.cancel()
