@@ -194,3 +194,4 @@ async function boot() {
   })
   $('btn-click-resume').addEventListener('click', () => void game.resume())
 
+  // Escape inside the Ledger closes it natively; returning to the fight then needs a click.
