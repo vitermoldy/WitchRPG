@@ -62,3 +62,4 @@ export class Game {
   private readonly debug: boolean
   debugSpeed = 1
   private readonly brokenCover: Box[] = []
+  private readonly unitHost: UnitHost
