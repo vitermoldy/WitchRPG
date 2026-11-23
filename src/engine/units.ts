@@ -801,6 +801,7 @@ export class UnitSystem {
     // Separation so crowds spread instead of stacking. The big ones push, they are not pushed.
     // Units are sorted into 3 m cells first, so a big army checks its neighbours, not every pair.
     const free = (u: Unit) => u.alive && u.state !== 'held' && u.state !== 'air' && u.state !== 'sinking'
+    const grid = this.grid
       }
       // Keep clear of the witch.
       const p = host.player
