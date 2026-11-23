@@ -211,3 +211,4 @@ export class BossFight {
     u.pos.y = this.home.y
     // Inside Reality Warp it reels and does nothing until the field lets go.
     if (g.spells.inWarp(u.center)) {
+      u.stun = Math.max(u.stun, 0.25)
