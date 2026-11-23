@@ -21,7 +21,8 @@ interface Call {
 export class Umbra {
   private readonly g: Game
   candidate: Unit | null = null
-  casting: Unit | null = null
+  /** Every body the next cast would raise: the one under the crosshair, or all glowing ones in reach. */
+  targets: Unit[] = []
   progress = 0
   swapCd = 0
   wheelOpen = false
