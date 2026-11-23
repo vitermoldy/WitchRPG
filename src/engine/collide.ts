@@ -47,6 +47,7 @@ export class Colliders {
 
   private reindex() {
     this.cells.clear()
+    for (const b of this.boxes) {
 
   add(cx: number, cz: number, w: number, d: number, top: number, extra: Partial<Box> = {}): Box {
     const b: Box = { minX: cx - w / 2, maxX: cx + w / 2, minZ: cz - d / 2, maxZ: cz + d / 2, top, alive: true, ...extra }
