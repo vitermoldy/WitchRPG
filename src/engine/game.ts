@@ -453,6 +453,7 @@ export class Game {
       const p = this.player
       if (p.alive && Math.hypot(p.pos.x - at.x, p.pos.z - at.z) < radius + MOVE.radius && Math.abs(p.pos.y - at.y) < 3) this.hurtPlayer(damage, at)
     }
+    for (const o of [...this.units.units]) {
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
