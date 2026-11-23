@@ -1432,6 +1432,7 @@ dialog::backdrop {
   min-height: 56px;
   padding: 0.45rem 0.7rem;
   border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
 /* Account */
 .account-row {
   display: flex;
