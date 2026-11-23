@@ -197,6 +197,7 @@ async function boot() {
   })
 
   game.setState('title')
+  account = mountAccount(game, { onProfileChanged: renderTitle })
 }
 
 void boot()
