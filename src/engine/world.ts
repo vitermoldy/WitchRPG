@@ -457,3 +457,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   for (const [x, z] of [[-28, 9], [28, -7]] as const) {
     const roof = solid(new THREE.Mesh(new THREE.BoxGeometry(1.8, 0.15, 4.4), darkMetal))
     roof.position.set(x, 2.6, z)
+    const back = solid(new THREE.Mesh(new THREE.BoxGeometry(0.1, 2.5, 4.4), panelMat))
