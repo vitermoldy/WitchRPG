@@ -125,9 +125,6 @@ export class Unit implements Target {
     this.speed = st.speed
     this.radius = this.spec.radius
     this.mass = this.spec.mass
-    this.model = buildModel(kind, team)
-    // A shadow army casts no shadows: half the draw cost per soldier, and they are shadow already.
-    if (team === 'shadow') for (const m of this.model.meshes) m.castShadow = false
     this.skillCd = this.spec.summon ? this.spec.summon.every * 0.5 : 6
   }
 
