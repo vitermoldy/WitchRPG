@@ -196,6 +196,7 @@ function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3
   const meshes: THREE.Mesh[] = []
   const bodyMat = bodyMaterial(team)
   const s = shared[team]
+  const mats: Mats = { ...s, body: bodyMat }
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
