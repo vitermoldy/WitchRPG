@@ -917,6 +917,7 @@ export class UnitSystem {
     if (u.elite && u.alive && Math.random() < dt * 14) {
       const r = u.radius * 1.4
       const a = Math.random() * Math.PI * 2
+      this.host.glow.emit({
     if (u.state === 'spawn') {
       const k = Math.min(1, u.t / 0.7)
       m.root.scale.setScalar(0.3 + 0.7 * k)
