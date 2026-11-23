@@ -56,3 +56,4 @@ const RUNE_VERT = /* glsl */ `
   void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }
 `
 const SHIELD_FRAG = /* glsl */ `
+  varying vec3 vNormal;
