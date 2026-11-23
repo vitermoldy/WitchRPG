@@ -583,6 +583,8 @@ export class Game {
     this.respawnProps()
   }
 
+  /**
+   * The open world: the city beyond the Rifts, its camps and gates. `at` is where she appears;
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
