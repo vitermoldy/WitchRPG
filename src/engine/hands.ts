@@ -309,3 +309,4 @@ export class Hands {
       orbMat.color.copy(col)
       h.orb.scale.setScalar((0.035 + glow * 0.05) * pulse)
       orbMat.opacity = Math.min(1, 0.25 + glow * 0.5)
+      h.light.color.copy(col)
