@@ -15,3 +15,4 @@ interface Shot {
   damage: number
   team: ShotTeam
   life: number
+  mesh: THREE.Mesh
