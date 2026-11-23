@@ -98,3 +98,4 @@ export class Umbra {
           g.glow.emit({ pos: u.pos, count: 1, color: COLOR.umbra, intensity: 2.2, life: 1.2, size: 0.12, vel: { x: 0, y: 0.9, z: 0 }, jitter: 0.5 })
         }
         const to = u.pos.clone().sub(g.player.pos)
+        const dist = to.length()
