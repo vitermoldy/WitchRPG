@@ -10,3 +10,5 @@ interface Batch {
   mats: THREE.Material[]
   cap: number
   used: number
+}
+
