@@ -286,6 +286,7 @@ export class UnitSystem {
     this.steer(u, tmp2, far ? speed * 1.6 : speed, dt, 0.8)
   }
 
+  /** Abilities that run beside the normal fight: summons and the big shadows' skills. */
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
