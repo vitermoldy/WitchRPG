@@ -248,3 +248,5 @@ export class Hands {
     const h = this.hand(side)
     h.kick = Math.max(h.kick, amount)
     h.flash = Math.max(h.flash, amount)
+  }
+
