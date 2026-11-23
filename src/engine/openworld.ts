@@ -146,3 +146,6 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
 
   const ground = new THREE.Mesh(new THREE.PlaneGeometry(H * 2 + 40, H * 2 + 40), groundMaterial())
   ground.rotation.x = -Math.PI / 2
+  ground.receiveShadow = true
+  group.add(ground)
+
