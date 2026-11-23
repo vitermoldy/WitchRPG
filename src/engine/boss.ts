@@ -27,3 +27,4 @@ export class BossFight {
 
   constructor(g: Game, u: Unit, home: THREE.Vector3) {
     this.g = g
+    this.u = u
