@@ -175,3 +175,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     const b = bands[c.band]
     for (let tries = 0; tries < 80; tries++) {
       const a = (i * 2.399 + tries * 0.7) % (Math.PI * 2)
+      const d = b.min + R() * (b.max - b.min)
+      const x = Math.cos(a) * d
