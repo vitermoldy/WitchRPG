@@ -228,3 +228,4 @@ export class Game {
       else for (let i = 0; i < (s.stack ?? 1); i++) this.props.spawnCrate(s.x + (Math.random() - 0.5) * 0.1, s.z + (Math.random() - 0.5) * 0.1, s.yaw + (Math.random() - 0.5) * 0.4, i)
     }
     for (const b of this.brokenCover) {
+      b.alive = true
