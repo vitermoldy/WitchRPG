@@ -77,3 +77,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
     if (Math.abs(m) < 12) continue
     g.fillRect(px(-0.12), px(m), px(0.12) - px(-0.12), px(m + 2) - px(m))
     g.fillRect(px(m), px(-0.12), px(m + 2) - px(m), px(0.12) - px(-0.12))
+  }
