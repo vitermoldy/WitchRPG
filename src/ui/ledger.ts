@@ -46,6 +46,7 @@ export interface LedgerHost {
   /** Shadows that are standing in the current Rift, by record id. */
   liveShadows(): Set<number>
   /** The account's latest Rifts, or null when nobody is signed in. */
+  history(): Promise<SavedRift[] | null>
 }
 
 /** Status, stats, skill tree and the Shadow Room. */
