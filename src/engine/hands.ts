@@ -17,3 +17,4 @@ interface Pose {
 }
 
 const POSES: Record<PoseName, Pose> = {
+  idle: { curl: 0.38, spread: 0.08, reach: 0, lift: 0, twist: 0, palmDown: 0, tremble: 0, glow: 0.35 },
