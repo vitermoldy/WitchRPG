@@ -765,6 +765,7 @@ export class UnitSystem {
       armX = 0.6 * (1 - Math.min(1, u.t / 0.4))
     }
     if (u.stun > 0) {
+      lean = baseLean + 0.25
     }
   }
 }
