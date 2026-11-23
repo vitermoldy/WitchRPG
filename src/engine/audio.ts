@@ -231,6 +231,7 @@ export class Sfx {
     this.noise(t, 0.2, 'bandpass', 1500, 0.15, 3, 400)
   }
 
+  warp() {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
