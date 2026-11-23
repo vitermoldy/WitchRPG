@@ -335,3 +335,4 @@ export class UnitSystem {
     const host = this.host
     for (const u of this.units) {
       u.t += dt
+      u.cd = Math.max(0, u.cd - dt)
