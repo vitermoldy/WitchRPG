@@ -57,3 +57,5 @@ export class ApiError extends Error {
   }
 }
 
+// ---------------------------------------------------------------- who is signed in
+
