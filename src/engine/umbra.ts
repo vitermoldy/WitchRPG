@@ -161,3 +161,4 @@ export class Umbra {
       if (len > 24) {
         const a = Math.atan2(this.wheelY, this.wheelX)
         // Up = follow, right = attack, down = hold, left = swap.
+        if (a > -Math.PI * 0.75 && a <= -Math.PI * 0.25) this.wheelChoice = 'follow'
