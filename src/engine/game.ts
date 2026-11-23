@@ -71,3 +71,4 @@ export class Game {
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.25))
     this.renderer.shadowMap.enabled = true
     this.renderer.shadowMap.type = THREE.PCFShadowMap
+    this.renderer.toneMapping = THREE.ACESFilmicToneMapping
