@@ -95,3 +95,4 @@ async function boot() {
     const rows: [string, string, string?][] = [
       ['Waktu', fmtTime(r.elapsed)],
       ['Musuh dikalahkan', String(r.kills)],
+      ['XP didapat', String(r.xpGained)],
