@@ -63,3 +63,5 @@ Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sine
 
 Motion: bob tangan, recoil saat cast, guncangan kamera, banner gelombang, dan feed yang memudar. Semua animasi CSS berhenti di `prefers-reduced-motion`; head bob dan guncangan kamera punya tombol sendiri di layar jeda.
 
+## Cara mengecek
+
