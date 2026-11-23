@@ -93,3 +93,4 @@ function cleanProfile(p) {
   // A clock a little ahead is fine; a date far in the future would lock every later save out.
   let updated = Date.parse(p.updatedAt)
   if (!Number.isFinite(updated)) updated = Date.now()
+  updated = Math.min(updated, Date.now() + 60_000)
