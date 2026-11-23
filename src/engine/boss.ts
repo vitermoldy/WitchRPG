@@ -116,3 +116,4 @@ export class BossFight {
         // It swallows every creature still standing.
         let eaten = 0
         for (const o of g.units.enemies()) {
+          if (o === u) continue
