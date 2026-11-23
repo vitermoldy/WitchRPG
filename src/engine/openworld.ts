@@ -239,3 +239,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   }
   const wall = H + 2
   colliders.add(0, -wall, wall * 2 + 2, 1, 200)
+  colliders.add(0, wall, wall * 2 + 2, 1, 200)
+  colliders.add(-wall, 0, 1, wall * 2 + 2, 200)
