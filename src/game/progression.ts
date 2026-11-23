@@ -97,3 +97,4 @@ export interface Derived {
   slots: number
 }
 
+/** Stat effects count the points above the starting 5, so a new witch plays at the GDD's base values. */
