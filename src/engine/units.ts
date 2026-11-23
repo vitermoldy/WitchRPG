@@ -963,6 +963,7 @@ export class UnitSystem {
       m.body.rotation.set(0, 0, k * 1.2)
       m.body.position.y = 0.5 - k * 0.32
       P.wingL.rotation.set(0, 0, k * 0.5)
+      P.wingR.rotation.set(0, 0, -k * 0.2)
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
