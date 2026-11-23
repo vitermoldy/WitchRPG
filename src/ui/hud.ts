@@ -119,3 +119,4 @@ export class Hud {
     this.set('rift-left', 'text', r.phase === 'wave' ? `${r.remaining} musuh tersisa` : r.phase === 'breather' ? 'Jeda antar gelombang' : r.phase === 'cleared' ? 'Keluar lewat retakan di monumen' : '')
 
     // Skills.
+    const cds = g.spells.cooldowns()
