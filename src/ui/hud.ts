@@ -144,6 +144,7 @@ export class Hud {
               ? 'Masuk lewat retakan merah di monumen'
               : '',
     )
+    this.updateBossBar()
 
     // Skills.
     const cds = g.spells.cooldowns()
