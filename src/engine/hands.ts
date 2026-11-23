@@ -317,3 +317,4 @@ export class Hands {
       h.cuff.emissiveIntensity = 0.4 + glow * 0.5
 
       // Sparks drifting off the palm; more while charging or overloaded.
+      const rateSparks = (glow > 0.9 ? 40 : 8) * (this.overload ? 2.2 : 1)
