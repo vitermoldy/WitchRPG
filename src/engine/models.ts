@@ -48,3 +48,4 @@ function pivot(parent: THREE.Object3D, x: number, y: number, z: number) {
 }
 
 /** A hunched, long-armed ash body with an amber crack down the chest. */
+function husk(team: Team): UnitModel {
