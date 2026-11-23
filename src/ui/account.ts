@@ -98,3 +98,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     if (state.status === 'signed-in' && state.account) {
       text.innerHTML = ''
       text.append('Masuk sebagai ')
+      const b = document.createElement('b')
