@@ -249,6 +249,7 @@ export class Sfx {
 
   clank() {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
