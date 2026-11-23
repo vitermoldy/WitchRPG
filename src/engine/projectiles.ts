@@ -50,3 +50,5 @@ export class Projectiles {
 
   constructor(host: ShotHost) {
     this.host = host
+  }
+
