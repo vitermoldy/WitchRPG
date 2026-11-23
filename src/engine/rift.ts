@@ -53,3 +53,4 @@ export class RiftDirector {
     halo.scale.set(6, 6, 1)
     halo.position.y = 1.8
     this.exit.add(halo)
+    this.exit.position.copy(this.exitPos)
