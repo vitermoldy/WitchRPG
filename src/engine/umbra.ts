@@ -219,6 +219,8 @@ export class Umbra {
     // Shadows of a call rise one after another.
     while (this.calls.length && this.calls[0].at <= this.time) {
       const c = this.calls.shift()!
+      if (!g.profile.shadows.includes(c.rec)) continue
+      this.spawnShadow(c.rec, c.pos, c.slot)
 
     for (const u of [...g.units.units]) {
       if (u.alive) continue
