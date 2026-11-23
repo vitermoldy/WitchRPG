@@ -221,3 +221,4 @@ export class BossFight {
       if (u.state === 'move') {
         u.vel.x *= Math.exp(-6 * dt)
         u.vel.z *= Math.exp(-6 * dt)
+        if (goal) g.units.face(u, goal, dt, 4)
