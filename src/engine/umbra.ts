@@ -34,6 +34,8 @@ export class Umbra {
   private chargeTick = 0
   /** Game seconds since the fight began; fallen shadows reform against this clock. */
   private time = 0
+  /** Fallen shadows and when they can be called again. */
+  readonly downUntil = new Map<number, number>()
 
   constructor(g: Game) {
     this.g = g
