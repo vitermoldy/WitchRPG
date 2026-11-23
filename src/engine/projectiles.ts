@@ -35,3 +35,4 @@ export interface ShotHost {
 }
 
 const geo = new THREE.IcosahedronGeometry(1, 1)
+const MATS: Record<'rift' | 'shadow' | 'reflected', THREE.MeshBasicMaterial> = {
