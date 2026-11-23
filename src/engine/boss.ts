@@ -242,3 +242,4 @@ export class BossFight {
   }
 
   private callHusk(at: THREE.Vector3): Unit | null {
+    const g = this.g
