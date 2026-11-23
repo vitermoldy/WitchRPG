@@ -55,3 +55,4 @@ Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sine
 | Tema gelap tanpa toggle terang | Nada GDD "gelap dan sinematik", dan HUD duduk di atas adegan 3D yang gelap. Mode terang tidak punya arti di dalam Rift. |
 | Sora untuk judul, Figtree untuk teks, Martian Mono untuk angka | Pasangan pertama dari `start.mjs deal --page gaming --trade game` (taste-skill). Sora lebar dan geometris, cocok untuk kota modern-fantasi. Martian Mono dipakai hanya untuk angka (HP, XP, peluang) supaya tidak bergeser saat berubah. |
 | Tangan bersarung gelap dengan sigil bercahaya | Tangan pucat terlihat seperti kertas datar di adegan gelap. Sarung gelap membuat sigil dan cahaya telapak membawa warnanya, dan siluet jari tetap terbaca. |
+| Glow hanya di sihir, sigil, retakan, dan tombol Overload saat siap | Bloom adalah bahasa sihir di game ini. Panel HUD tetap datar supaya glow tetap berarti "ada kekuatan di sini". |
