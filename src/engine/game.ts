@@ -66,3 +66,4 @@ export class Game {
   onState: ((s: GameState) => void) | null = null
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
+    this.debug = debug
