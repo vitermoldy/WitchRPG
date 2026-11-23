@@ -223,3 +223,4 @@ export class Game {
 
   private respawnProps() {
     this.props.clear()
+    for (const s of this.world.props) {
