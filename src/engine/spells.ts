@@ -381,3 +381,4 @@ export class Spells {
       return
     }
     const hit = this.aim(SPELL.grip.range)
+    let first: Grabbed | null = null
