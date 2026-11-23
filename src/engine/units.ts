@@ -327,3 +327,4 @@ export class UnitSystem {
   private hit(u: Unit, tgt: Target) {
     let dmg = u.damage
     if (u.team === 'shadow' && u.focus && tgt === u.focus) dmg *= 1 + u.focusBonus
+    if (tgt === this.host.player) this.host.hurtPlayer(dmg, u.pos)
