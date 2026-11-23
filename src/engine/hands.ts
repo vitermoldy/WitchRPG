@@ -191,3 +191,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     sigil,
     cuff,
     base,
+    baseRot,
