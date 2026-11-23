@@ -42,3 +42,4 @@ export class BossFight {
   filter(amount: number, by: DamageSource, from: THREE.Vector3): number {
     const g = this.g
     const u = this.u
+    let dmg = amount
