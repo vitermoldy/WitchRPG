@@ -515,3 +515,5 @@ export class Game {
         drag: 0.2,
       })
     }
+  }
+
