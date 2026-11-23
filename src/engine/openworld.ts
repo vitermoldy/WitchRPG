@@ -233,3 +233,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   })
   for (let s = 0; s < 4; s++) {
     const c = new THREE.Mesh(new THREE.PlaneGeometry(H * 2 + 20, 140), curtainMat)
+    c.position.set(s === 1 ? H + 4 : s === 3 ? -H - 4 : 0, 70, s === 0 ? -H - 4 : s === 2 ? H + 4 : 0)
+    c.rotation.y = s % 2 ? Math.PI / 2 : 0
