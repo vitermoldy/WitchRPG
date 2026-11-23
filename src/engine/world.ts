@@ -152,3 +152,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
 /** Facade with a window grid. A few windows still burn: the city was emptied, not dead. */
 function facadeTextures(seed: number) {
   const R = rand(seed)
+  const { c, g } = canvas(256, 512)
