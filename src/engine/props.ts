@@ -222,3 +222,4 @@ export class PropSystem {
         }
       }
       const floor = this.floorFor(p)
+      if (p.pos.y - p.halfH <= floor) {
