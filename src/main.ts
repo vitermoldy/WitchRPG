@@ -176,6 +176,7 @@ async function boot() {
       game.tier = Number(el.dataset.tier) as TierId
       pickedTier = true
       game.sfx.ui()
+      renderTiers()
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
