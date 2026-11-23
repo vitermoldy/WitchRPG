@@ -343,6 +343,7 @@ export class UnitSystem {
     if (u.stun > 0) {
       u.vel.x *= Math.exp(-5 * dt)
       u.vel.z *= Math.exp(-5 * dt)
+      return
     const spec = u.spec
     const speed = u.speed * u.slow
     const tgt = u.target
