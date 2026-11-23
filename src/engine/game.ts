@@ -51,6 +51,7 @@ export class Game {
     return this.activeColliders
   }
   inLair = false
+  /** The tier of the Rift in progress (or the last one played). */
   readonly glow = new Particles(4000, 'glow')
   readonly smoke = new Particles(900, 'smoke')
   readonly lights: LightPool
