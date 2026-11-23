@@ -65,6 +65,8 @@ Motion: bob tangan, recoil saat cast, guncangan kamera, banner gelombang, dan fe
 
 ## Database dan akun (23 Nov 2026)
 
+Pemilik meminta database "seperti yang lain" dengan akun pemilik `vmk`. Bentuknya sama dengan proyek database lain di MyRepo:
+
 ## Cara mengecek
 
 - `npm test`: kurva XP (80 dan 2.160), peluang Umbra Rite (contoh GDD 58%), slot, upgrade, bagi XP bayangan, damage lempar.
