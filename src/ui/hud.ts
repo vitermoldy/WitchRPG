@@ -176,3 +176,4 @@ export class Hud {
         }</li>`,
       )
     }
+    if (empty) rows.push(`<li class="army-slot empty"><span class="pip"></span><span>${empty} slot kosong</span><span></span></li>`)
