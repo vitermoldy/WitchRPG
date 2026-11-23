@@ -44,3 +44,5 @@ export const PLAYER = {
   damagePerHex: 0.02,
   speedPerAgi: 0.01,
   hurtInvuln: 0.25,
+} as const
+
