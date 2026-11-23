@@ -48,7 +48,7 @@ const TABLES = [
     \`rank\` ENUM('prajurit','ksatria','jenderal','marsekal') NOT NULL,
     level TINYINT UNSIGNED NOT NULL,
     xp INT UNSIGNED NOT NULL,
-    slot TINYINT UNSIGNED NOT NULL,
+    slot SMALLINT UNSIGNED NOT NULL,
     PRIMARY KEY (client_id, shadow_id),
     CONSTRAINT shadows_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
