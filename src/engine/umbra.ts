@@ -274,3 +274,4 @@ export class Umbra {
     if (!shadows.length && choice !== 'swap') {
       g.hud.message('Belum ada bayangan yang berdiri di Rift ini.', 'umbra')
       return
+    }
