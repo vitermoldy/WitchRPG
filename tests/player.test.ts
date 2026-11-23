@@ -11,3 +11,4 @@ const finite = (p: Player) => [p.pos.x, p.pos.y, p.pos.z, p.vel.x, p.vel.y, p.ve
 
 describe('Player.update', () => {
   it('stays finite when standing still with a negative frame time (the black-screen bug)', () => {
+    const p = new Player()
