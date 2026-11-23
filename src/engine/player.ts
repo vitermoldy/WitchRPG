@@ -77,3 +77,4 @@ export class Player {
 
     const k = (c: string) => (canAct && input.held(c) ? 1 : 0)
     const fwd = k('KeyW') - k('KeyS')
+    const str = k('KeyD') - k('KeyA')
