@@ -1448,6 +1448,7 @@ dialog::backdrop {
   background: rgba(158, 16, 32, 0.35);
 }
 
+.tier:disabled {
 /* Account */
 .account-row {
   display: flex;
