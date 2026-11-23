@@ -1269,3 +1269,5 @@ dialog::backdrop {
   grid-column: 1;
   color: var(--ink-3);
   font-size: 0.8rem;
+}
+
