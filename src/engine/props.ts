@@ -99,3 +99,4 @@ export class PropSystem {
     this.host = host
   }
 
+  private add(kind: PropKind, mesh: THREE.Object3D, pos: THREE.Vector3, radius: number, halfH: number, mass: number, yaw: number) {
