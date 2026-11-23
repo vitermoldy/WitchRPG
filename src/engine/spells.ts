@@ -570,3 +570,4 @@ export class Spells {
   }
 
   /** Shared by Chaos Burst and the barrier blast. */
+  explode(at: THREE.Vector3, r: number, damage: number, push: number, lift: number, breakCover: boolean) {
