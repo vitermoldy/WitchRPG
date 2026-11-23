@@ -616,6 +616,7 @@ export class UnitSystem {
         }
       }
       if (u.hitThisLunge || u.t >= (spec.lungeTime ?? 0.8) || u.pos.y <= floor + 0.5) {
+        u.setState('recover')
     }
   }
 
