@@ -307,3 +307,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   tear.rotateZ(0.35)
   scene.add(tear)
 
+  // Light: dim crimson sky fill, a red key light from the tear, cold violet bounce.
