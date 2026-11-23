@@ -678,3 +678,4 @@ export class Spells {
   private raiseBarrier() {
     const g = this.g
     const s = SPELL.barrier
+    this.barrierCd = s.cooldown
