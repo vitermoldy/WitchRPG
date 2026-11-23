@@ -318,3 +318,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     altar,
     gates,
     camps,
+    cars,
+    update(t: number) {
