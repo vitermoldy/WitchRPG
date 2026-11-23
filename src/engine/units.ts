@@ -272,3 +272,4 @@ export class UnitSystem {
       }
       return
     }
+    if (u.state === 'windup') {
