@@ -140,3 +140,4 @@ function hound(team: Team): UnitModel {
   const jm = box(0.26, 0.08, 0.38, s.bone, meshes, -0.03)
   jm.position.z = -0.16
   jaw.add(jm)
+  parts.jaw = jaw
