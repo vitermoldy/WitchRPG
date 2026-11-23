@@ -205,6 +205,7 @@ export class RiftDirector {
         } else if (this.tier.boss && bossUnlocked(g.profile)) {
           this.phase = 'gate'
           this.gate.position.copy(this.cityExit)
+          this.gate.visible = true
         }
       }
       return
