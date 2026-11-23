@@ -120,3 +120,4 @@ async function boot() {
     if (s === 'title') {
       renderTitle()
       showScreen('title')
+      $('btn-enter').focus()
