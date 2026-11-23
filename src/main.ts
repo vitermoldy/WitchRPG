@@ -4,8 +4,7 @@ import '@fontsource-variable/martian-mono'
 import './styles.css'
 import { Game, type GameState } from './engine/game'
 import { RANKS, UNITS } from './game/balance'
-import { newProfile } from './game/progression'
-import { clearProfile, saveProfile } from './game/save'
+import { isFresh, newProfile } from './game/progression'
 import { confirmDialog } from './ui/ledger'
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
