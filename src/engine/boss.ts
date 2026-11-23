@@ -208,3 +208,4 @@ export class BossFight {
       return true
     }
     // Phase 3: on the middle pillar, slams when the witch comes close, volleys when she keeps away.
+    u.pos.y = this.home.y
