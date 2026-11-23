@@ -35,3 +35,4 @@ function makeCode(): string {
 }
 
 function clientCode(): string {
+  try {
