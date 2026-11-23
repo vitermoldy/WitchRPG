@@ -533,3 +533,4 @@ export class Game {
     const unitCircles = this.units.units.filter((u) => u.alive && u.state !== 'held' && u.state !== 'air').map((u) => ({ pos: u.pos, radius: u.radius, top: u.pos.y + u.height }))
     p.update(dt, input, this.colliders, this.profile.settings.sensitivity, [...blockers, ...unitCircles], true)
     if (wheel) {
+      input.dx = lookDx
