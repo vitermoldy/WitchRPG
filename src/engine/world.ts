@@ -516,3 +516,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       f.m.rotation.y += f.spin.y * 0.016
       f.m.position.y = f.base + Math.sin(t * 0.4 + f.phase) * 1.2
     }
+  }
+
