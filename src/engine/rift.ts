@@ -149,3 +149,4 @@ export class RiftDirector {
           g.hud.message(`Gelombang ${this.wave} habis. Jeda ${RIFT_TIER_1.breather} detik, HP pulih ${heal}.`, 'info')
         }
       }
+      return
