@@ -96,3 +96,4 @@ export class Game {
           return game.player.pos
         },
         get yaw() {
+          return game.player.yaw
