@@ -6,6 +6,7 @@ import { defineConfig } from 'vite'
 const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d) => d.toUpperCase())
 // The MySQL server (npm run server) keeps accounts, the witch and the Rift history; dev and
 // preview forward /api to it.
+const api = { '/api': { target: `http://localhost:${process.env.PORT ?? 8813}` } }
 
 export default defineConfig({
   root,
