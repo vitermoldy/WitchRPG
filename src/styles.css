@@ -515,6 +515,7 @@ button:disabled {
 }
 
 .boss-hp {
+  height: 8px;
 .banner {
   position: absolute;
   top: 24%;
