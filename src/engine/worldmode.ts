@@ -11,3 +11,6 @@ interface Camp {
   state: 'idle' | 'active' | 'cleared'
   units: Unit[]
   respawnAt: number
+  open: number
+}
+
