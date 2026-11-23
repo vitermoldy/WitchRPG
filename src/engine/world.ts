@@ -328,6 +328,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   key.shadow.normalBias = 0.04
   scene.add(key)
   scene.add(key.target)
+  // Everything added from here on belongs to the city (the floaters excepted, they hang over both maps).
 
   // Ground.
   const crackSpots = [...portals, new THREE.Vector3(0, 0, 0)]
