@@ -332,3 +332,4 @@ export class UnitSystem {
   }
 
   update(dt: number, t: number) {
+    const host = this.host
