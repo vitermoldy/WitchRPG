@@ -373,3 +373,4 @@ button:disabled {
 }
 
 .result-list dt {
+  color: var(--ink-3);
