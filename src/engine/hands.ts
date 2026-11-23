@@ -150,3 +150,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     t0.position.set(-0.042, 0.022, -0.004)
     t0.rotation.set(-0.3, 0, 0.5)
     parent.add(t0)
+    parent = t0
