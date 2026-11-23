@@ -268,3 +268,4 @@ export class Game {
     const amount = Math.min(u.hp, u.team === 'rift' && u.vulnerable > 0 ? dmg * 1.25 : dmg)
     u.hp -= amount
     u.flash = 1
+    if (u.team === 'rift') {
