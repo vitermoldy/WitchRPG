@@ -495,6 +495,7 @@ button:disabled {
   top: calc(var(--gutter) + 4.6rem);
   left: 50%;
   transform: translateX(-50%);
+  width: min(34rem, 80vw);
 .banner {
   position: absolute;
   top: 24%;
