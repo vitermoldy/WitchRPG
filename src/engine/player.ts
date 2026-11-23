@@ -191,3 +191,4 @@ export class Player {
     this.landKick = Math.max(0, this.landKick - dt * 0.6)
     cam.position.set(this.pos.x, this.pos.y + this.eye + bobY - this.landKick, this.pos.z)
     cam.position.addScaledVector(this.right, bobX)
+    this.shakeT += dt * 38
