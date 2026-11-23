@@ -975,6 +975,7 @@ export class UnitSystem {
     else if (u.state === 'lunge') {
       flap = -0.1
       fold = 1.1
+      pitch = Math.asin(Math.max(-1, Math.min(1, u.lungeDir.y)))
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
