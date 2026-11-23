@@ -159,3 +159,4 @@ export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
 export const SHADOW = { hpMult: 2.2, damageMult: 1.2, speedMult: 1.15, followDistance: 3.2, engageRange: 14, leash: 22, regen: 0.04 } as const
 
 export interface WaveSpec {
+  husk: number
