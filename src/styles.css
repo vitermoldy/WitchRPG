@@ -1106,6 +1106,7 @@ dialog::backdrop {
 
 /* One row per Rift: result, what happened, when. The result word carries the colour. */
 .history-item {
+  display: grid;
 .stat-list {
   display: grid;
   gap: 0.35rem;
