@@ -684,6 +684,7 @@ export class Spells {
         g.scene.remove(w.group)
         w.ruleMat.dispose()
         w.wallMat.dispose()
+        this.warps.splice(i, 1)
   private burst() {
     const g = this.g
     const s = SPELL.burst
