@@ -59,3 +59,4 @@ function carMesh(color: number) {
     g.add(l)
   }
   g.traverse((o) => {
+    if ((o as THREE.Mesh).isMesh) {
