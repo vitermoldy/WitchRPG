@@ -579,6 +579,7 @@ export class Game {
     this.sfx.levelUp()
     this.sfx.collapse()
     this.player.addTrauma(0.6)
+    this.persist()
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
