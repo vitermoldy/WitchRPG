@@ -115,3 +115,4 @@ export class PropSystem {
       mass,
       held: false,
       thrown: false,
+      awake: false,
