@@ -221,3 +221,4 @@ export class PropSystem {
           p.vel.multiplyScalar(0.6)
         }
       }
+      const floor = this.floorFor(p)
