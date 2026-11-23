@@ -312,3 +312,4 @@ button:disabled {
     display: block;
   }
   .btn-small {
+    min-height: 44px;
