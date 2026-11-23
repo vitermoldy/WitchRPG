@@ -103,6 +103,8 @@ export class Player {
           this.vel.y = Math.max(this.vel.y, 3)
           this.sliding = 0
           this.crouching = false
+        }
+        this.lastSpace = -1
     const crouchHeld = canAct && input.held('KeyC')
     this.sprinting = canAct && input.held('ShiftLeft') && fwd > 0 && !this.crouching && this.sliding <= 0
     if (canAct && input.pressed('KeyC') && this.onGround && this.sprinting) {
