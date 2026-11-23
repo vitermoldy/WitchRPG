@@ -67,3 +67,4 @@ export class ShadowCrowd {
   }
 
   private batch(kind: UnitKind, need: number): Batch {
+    const b = this.batches.get(kind) ?? this.build(kind)
