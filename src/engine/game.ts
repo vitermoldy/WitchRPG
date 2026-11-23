@@ -634,6 +634,8 @@ export class Game {
   async leaveToWorld() {
     if (this.mode === 'rift' && (this.state === 'paused' || this.state === 'playing')) this.endRift('left')
     await this.backToWorld()
+  }
+
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
