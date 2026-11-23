@@ -13,3 +13,4 @@ export interface Circle {
 export class Player {
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
+  yaw = 0
