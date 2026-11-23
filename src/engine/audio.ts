@@ -171,3 +171,4 @@ export class Sfx {
     gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.12)
     osc.stop(t + 0.15)
     osc2.stop(t + 0.15)
+    this.gripNodes = null
