@@ -217,6 +217,7 @@ export class Player {
       }
     }
     // Walls get the last word: a crowd of shadows pressing her into a thin wall must not push her through it.
+    world.pushCircle(this.pos, this.radius, this.pos.y, MOVE.step)
 
     // Vertical.
     const floor = world.groundAt(this.pos.x, this.pos.z, this.radius, this.pos.y, MOVE.step)
