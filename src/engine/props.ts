@@ -225,3 +225,4 @@ export class PropSystem {
       if (p.pos.y - p.halfH <= floor) {
         const fall = -p.vel.y
         p.pos.y = floor + p.halfH
+        if (p.thrown && fall > 8 && p.mass >= 300) this.slam(p, fall)
