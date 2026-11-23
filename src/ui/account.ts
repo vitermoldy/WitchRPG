@@ -104,3 +104,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       button.textContent = 'Keluar'
       button.hidden = false
     } else if (state.status === 'checking') {
+      text.textContent = 'Memeriksa akun...'
