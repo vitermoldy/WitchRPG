@@ -58,3 +58,4 @@ function carMesh(color: number) {
     l.position.set(x, -0.05, -1.62)
     g.add(l)
   }
+  g.traverse((o) => {
