@@ -41,3 +41,5 @@ export class WorldDirector {
       }
     } else {
       this.camps = this.g.ow.camps.map((spot) => ({ spot, state: 'idle', units: [], respawnAt: 0, open: 1 }))
+      this.time = 0
+    }
