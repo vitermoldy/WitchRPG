@@ -167,3 +167,4 @@ export class PropSystem {
   }
 
   private floorFor(p: Prop) {
+    let floor = this.host.colliders.groundAt(p.pos.x, p.pos.z, p.radius * 0.7, p.pos.y - p.halfH, 0.45)
