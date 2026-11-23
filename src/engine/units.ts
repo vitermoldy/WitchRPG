@@ -89,6 +89,7 @@ export class Unit implements Target {
   temp = 0
   /** Where a slam will land, fixed at the start of the windup. */
   readonly slamAt = new THREE.Vector3()
+  /** Custom behaviour (the boss); returns true when it handled this frame. */
   // Corpse.
   deadT = 0
   riteTried = false
