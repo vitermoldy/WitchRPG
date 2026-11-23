@@ -17,3 +17,5 @@ import {
 import { SKILLS } from '../src/game/skills'
 import { SPELL } from '../src/game/balance'
 
+const ALL = SKILLS.map((s) => s.id)
+
