@@ -1733,3 +1733,5 @@ dialog::backdrop {
   position: absolute;
   top: 0.3rem;
   left: 0;
+  translate: -50% 0;
+  font-family: var(--font-mono);
