@@ -70,3 +70,4 @@ describe('stats and slots', () => {
     expect(shadowSlots(5)).toBe(3)
     expect(shadowSlots(9)).toBe(3)
     expect(shadowSlots(10)).toBe(4)
+    expect(shadowSlots(20)).toBe(6)
