@@ -77,3 +77,4 @@ async function boot() {
       p.clears === 0 &&
       p.statPoints === 0 &&
       p.skillPoints === 0 &&
+      Object.keys(p.upgrades).length === 0 &&
