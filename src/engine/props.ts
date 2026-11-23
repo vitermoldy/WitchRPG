@@ -226,3 +226,4 @@ export class PropSystem {
         const fall = -p.vel.y
         p.pos.y = floor + p.halfH
         if (p.thrown && fall > 8 && p.mass >= 300) this.slam(p, fall)
+        if (fall > 4) this.host.impactFx(this.tmp.set(p.pos.x, floor, p.pos.z), Math.min(0.6, (p.mass * fall) / 9000))
