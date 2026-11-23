@@ -176,6 +176,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     height: 1.5,
     mass: 55,
     attackRange: 26,
+    windup: 0.6,
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
