@@ -88,3 +88,4 @@ function husk(team: Team): UnitModel {
     const el = pivot(sh, 0, -0.42, 0)
     el.add(box(0.1, 0.46, 0.1, bodyMat, meshes, -0.22))
     for (let c = -1; c <= 1; c++) {
+      const claw = new THREE.Mesh(new THREE.ConeGeometry(0.018, 0.12, 4), s.bone)
