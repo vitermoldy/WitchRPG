@@ -30,6 +30,7 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
     stats: { ...base.stats, ...data.stats },
     settings: { ...DEFAULT_SETTINGS, ...data.settings },
     upgrades: { ...data.upgrades },
+    shadows: Array.isArray(data.shadows) ? data.shadows : [],
   try {
     localStorage.setItem(KEY, JSON.stringify(p))
     return true
