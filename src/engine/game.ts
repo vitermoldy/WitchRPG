@@ -432,6 +432,7 @@ export class Game {
 
   /** The shadows nearest the camera get their own animated models; the crowd draws the rest. */
   private pickDetail(dt: number) {
+    this.detailT -= dt
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
