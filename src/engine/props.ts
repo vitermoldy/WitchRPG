@@ -140,6 +140,7 @@ export class PropSystem {
   spawnRock(at: THREE.Vector3) {
     const mesh = new THREE.Mesh(new THREE.DodecahedronGeometry(0.62, 0), rockMat)
     mesh.castShadow = true
+    const p = this.add('rock', mesh, at.clone().setY(at.y + 0.6), 0.62, 0.6, 120, Math.random() * 3)
   spawnChunk(at: THREE.Vector3, vel: THREE.Vector3, w: number, h: number, d: number) {
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), chunkMat)
     mesh.castShadow = true
