@@ -90,3 +90,4 @@ export class Projectiles {
         s.team = 'witch'
         s.reflected = true
         s.damage *= h.reflectDamage
+        s.mesh.material = MATS.reflected
