@@ -555,6 +555,8 @@ export class Game {
 
   /** Shows one map, uses its collision, and sets flight and fog for it. */
   private setMap(map: 'city' | 'lair' | 'world') {
+    this.map = map
+    this.inLair = map === 'lair'
   /** The city map: shown, colliding, with its props back in place. */
   private useCity() {
     if (!this.inLair && this.world.city.visible) return
