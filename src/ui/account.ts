@@ -79,3 +79,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     $('gate-switch-line').hidden = state.status !== 'signed-out'
     $('gate-offline').hidden = !offline
     $('gate-lead').hidden = state.status !== 'signed-out'
+    if (wanted && !gate.open) gate.showModal()
