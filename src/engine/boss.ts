@@ -11,3 +11,4 @@ export type BossPhase = 1 | 2 | 3
  * 1. Open floor: it slams and calls waves of husks.
  * 2. The floor falls away; it hovers over the void inside a shell that only thrown bodies crack.
  * 3. It lands, swallows what is left of its army and is untouchable outside Reality Warp.
+ */
