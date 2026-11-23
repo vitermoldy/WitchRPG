@@ -1125,6 +1125,8 @@ dialog::backdrop {
   align-items: baseline;
   gap: 0.5rem;
   font-weight: 500;
+}
+
 .stat-list {
   display: grid;
   gap: 0.35rem;
