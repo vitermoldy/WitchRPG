@@ -463,3 +463,4 @@ export class UnitSystem {
     }
   }
 
+  private impact(u: Unit, speed: number, other: Unit | null) {
