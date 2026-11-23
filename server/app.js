@@ -101,3 +101,4 @@ function cleanProfile(p) {
 function cleanRun(run) {
   if (!run || typeof run !== 'object') return { error: 'Data Rift kosong.' }
   if (!RESULTS.has(run.result)) return { error: 'Hasil Rift tidak dikenal.' }
+  const at = new Date(run.finishedAt)
