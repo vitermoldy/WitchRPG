@@ -31,3 +31,4 @@ export interface ShotHost {
   /** Inside an active Reality Warp field: rift shots turn around there. */
   inWarp(at: THREE.Vector3): boolean
   reflectDamage: number
+  onReflect(): void
