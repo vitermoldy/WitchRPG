@@ -9,3 +9,4 @@ export type PropKind = 'car' | 'crate' | 'chunk'
 export interface Prop {
   id: number
   kind: PropKind
+  mesh: THREE.Object3D
