@@ -61,6 +61,7 @@ const RUNE_FRAG = /* glsl */ `
     gl_FragColor = vec4(uColor * v * 2.2, v * uFade);
   }
 `
+const WARP_VERT = /* glsl */ `
 const RUNE_VERT = /* glsl */ `
   varying vec2 vUv;
   void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }
