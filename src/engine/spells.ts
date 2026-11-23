@@ -485,3 +485,4 @@ export class Spells {
       const a = from.clone().lerp(mid, s)
       const b = mid.clone().lerp(to, s)
       const pt = a.lerp(b, s)
+      pt.x += Math.sin(t * 23 + i * 1.7) * 0.06 * Math.sin(s * Math.PI)
