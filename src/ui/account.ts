@@ -51,3 +51,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     error.hidden = !text
   }
 
+  function setMode(next: 'in' | 'up'): void {
