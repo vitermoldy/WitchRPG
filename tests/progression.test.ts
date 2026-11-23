@@ -98,3 +98,4 @@ describe('upgrades and shadows', () => {
     expect(buyUpgrade(p, 'hexBolt')).toBe(false)
     p.level = 10
     expect(buyUpgrade(p, 'warp')).toBe(false)
+  })
