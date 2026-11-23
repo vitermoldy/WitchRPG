@@ -617,6 +617,7 @@ export class Spells {
     const group = new THREE.Group()
     group.position.copy(at)
     const ruleMat = new THREE.ShaderMaterial({
+      uniforms: { uTime: { value: 0 }, uFade: { value: 0 }, uColor: { value: new THREE.Color(COLOR.umbra).lerp(new THREE.Color(COLOR.chaos), 0.35) } },
   private burst() {
     const g = this.g
     const s = SPELL.burst
