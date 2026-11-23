@@ -177,3 +177,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
       let bd = Infinity
       for (const p of platforms) {
         const d = Math.hypot(p.center.x - at.x, p.center.z - at.z)
+        if (d < bd) {
