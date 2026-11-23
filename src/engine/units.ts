@@ -207,6 +207,7 @@ export class UnitSystem {
   lift(u: Unit, seconds: number) {
     if (!u.alive || u.spec.anchored || u.state === 'held') return
     if (u.lifted <= 0) u.liftFrom = u.pos.y
+    u.lifted = Math.max(u.lifted, seconds)
   private pickTarget(u: Unit): Target | null {
     const p = this.host.player
     let best: Target | null = null
