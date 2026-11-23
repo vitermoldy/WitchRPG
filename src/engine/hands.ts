@@ -311,3 +311,4 @@ export class Hands {
       orbMat.opacity = Math.min(1, 0.25 + glow * 0.5)
       h.light.color.copy(col)
       h.light.intensity = 0.01 + glow * 0.035
+      h.sigil.emissive.copy(col)
