@@ -955,6 +955,7 @@ export class UnitSystem {
     else this.animateHound(u, amp, t)
   }
 
+  private animateFlyer(u: Unit, t: number) {
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
