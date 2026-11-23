@@ -858,6 +858,8 @@ export class Game {
       const gate = this.worldDir.nearGate()
       if (gate && input.pressed('KeyF')) {
         const prompt = this.worldDir.gatePrompt(gate)
+        if (!prompt.ok) this.hud.message(prompt.text + '.', 'info')
+        else {
       this.finishRift()
       return
     }
