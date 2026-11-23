@@ -1848,3 +1848,6 @@ dialog::backdrop {
 
 .room-group summary .room-name {
   font-weight: 500;
+}
+
+.room-members {
