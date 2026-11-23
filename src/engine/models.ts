@@ -343,7 +343,7 @@ function riftlord(team: Team): UnitModel {
       meshes.push(cloak)
       for (const fore of [p.foreL, p.foreR]) {
         for (let c = -1; c <= 1; c++) {
-          const claw = new THREE.Mesh(new THREE.ConeGeometry(0.04, 0.3, 4), m.bone)
+          const claw = new THREE.Mesh(shape(`Cone:${[0.04, 0.3, 4].join(',')}`, () => new THREE.ConeGeometry(0.04, 0.3, 4)), m.bone)
           claw.position.set(c * 0.07, -0.98, -0.04)
           claw.rotation.x = Math.PI
           fore.add(claw)
