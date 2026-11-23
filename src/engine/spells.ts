@@ -565,3 +565,4 @@ export class Spells {
     const r = s.radius + (this.upgraded('burst') ? s.radiusUpgrade : 0)
     this.explode(at, r, s.damage * this.damageMult, s.push, s.lift, true)
     g.hands.pose('left', 'push', 0.35)
+    g.hands.kick('left', 1.6)
