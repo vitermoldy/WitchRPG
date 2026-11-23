@@ -86,3 +86,4 @@ function crateMesh() {
       o.receiveShadow = true
     }
   })
+  return g
