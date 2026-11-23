@@ -81,3 +81,4 @@ function cleanProfile(p) {
     if (id === null || lv === null || sxp === null || seen.has(id)) return { error: 'Data bayangan tidak sah.' }
     if (!KINDS.has(s.kind) || !RANKS.has(s.rank) || typeof s.name !== 'string' || !/^[A-Za-z]{2,24}$/.test(s.name)) return { error: 'Data bayangan tidak sah.' }
     seen.add(id)
+    shadows.push({ id, name: s.name, kind: s.kind, rank: s.rank, level: lv, xp: sxp })
