@@ -393,6 +393,7 @@ export class UnitSystem {
         this.steer(u, goal, speed, dt, 0)
         return
       }
+      if (d < spec.attackRange - 0.2 && u.cd <= 0) {
         }
         this.steer(u, tgt.pos, speed, dt, spec.attackRange - 0.4)
       }
