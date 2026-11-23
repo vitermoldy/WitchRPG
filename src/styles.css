@@ -265,3 +265,4 @@ button:disabled {
 
 .title {
   margin: 0 0 1rem;
+  font-family: var(--font-display);
