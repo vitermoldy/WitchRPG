@@ -223,3 +223,4 @@ export class BossFight {
         u.vel.z *= Math.exp(-6 * dt)
         if (goal) g.units.face(u, goal, dt, 4)
         this.volley(dt, BOSS.volleyShots)
+        // Stay on the pillar.
