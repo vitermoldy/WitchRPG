@@ -327,6 +327,7 @@ export class UnitSystem {
         o.stun = Math.max(o.stun, p.stun)
         if (o.state === 'windup' || o.state === 'lunge') o.setState('recover')
       }
+      host.slamFx(u.pos, p.radius, 'shadow')
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
