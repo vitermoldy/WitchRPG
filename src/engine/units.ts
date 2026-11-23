@@ -348,3 +348,4 @@ export class UnitSystem {
           u.vel.y -= 22 * dt
           u.vel.x *= Math.exp(-3 * dt)
           u.vel.z *= Math.exp(-3 * dt)
+          u.pos.addScaledVector(u.vel, dt)
