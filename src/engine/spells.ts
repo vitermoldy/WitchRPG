@@ -625,3 +625,4 @@ export class Spells {
     const hit = this.aim(s.range, { props: false })
     const at = hit.unit ? hit.unit.pos.clone() : hit.point.clone()
     at.y = g.colliders.groundAt(at.x, at.z, 0.2, at.y, 0.3)
+    const mat = new THREE.ShaderMaterial({
