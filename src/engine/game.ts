@@ -362,3 +362,4 @@ export class Game {
     this.spells.reset()
     this.umbra.reset()
     this.hud.clearFeed()
+    this.player.reset(this.world.playerStart, 0)
