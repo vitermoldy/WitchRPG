@@ -417,3 +417,4 @@ button:disabled {
   width: 20px;
   height: 20px;
   accent-color: var(--chaos);
+  cursor: pointer;
