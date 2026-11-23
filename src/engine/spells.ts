@@ -288,3 +288,4 @@ export class Spells {
         pos: from.clone(),
         prev: from.clone(),
         vel: d.multiplyScalar(SPELL.bolt.speed),
+        life: SPELL.bolt.life,
