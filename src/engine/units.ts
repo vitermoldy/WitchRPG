@@ -322,3 +322,5 @@ export class UnitSystem {
       u.vel.z *= Math.exp(-6 * dt)
       if (u.t >= spec.recover) u.setState('move')
     }
+  }
+
