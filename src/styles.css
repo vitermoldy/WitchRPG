@@ -1813,3 +1813,6 @@ dialog::backdrop {
 
 .prompt .num {
   color: var(--ink-3);
+  font-size: 0.85rem;
+}
+
