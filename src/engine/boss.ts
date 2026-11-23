@@ -137,3 +137,4 @@ export class BossFight {
         g.streamTo(o.center, u.center, COLOR.rift)
         g.units.remove(o)
         this.feed.delete(o)
+        u.hp = Math.min(u.maxHp * BOSS.phase3At, u.hp + u.maxHp * BOSS.swallowHeal)
