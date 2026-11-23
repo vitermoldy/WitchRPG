@@ -80,6 +80,8 @@ export function isFresh(p: Profile): boolean {
     Object.keys(p.upgrades).length === 0 &&
     STAT_KEYS.every((k) => p.stats[k] === XP.startStat)
   )
+}
+
 /** XP needed to go from `level` to `level + 1`: 80 x n^1.5, rounded to tens. */
 export function xpToNext(level: number): number {
   return Math.round((XP.base * level ** XP.exponent) / 10) * 10
