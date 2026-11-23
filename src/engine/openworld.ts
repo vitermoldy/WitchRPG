@@ -214,3 +214,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   boxes.forEach((b, i) => {
     m.compose(new THREE.Vector3(b.x, b.h / 2, b.z), new THREE.Quaternion(), new THREE.Vector3(b.w, b.h, b.d))
     inst.setMatrixAt(i, m)
+    colliders.add(b.x, b.z, b.w, b.d, b.h)
+  })
