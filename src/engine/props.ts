@@ -258,3 +258,4 @@ export class PropSystem {
         if (d2 >= min * min || d2 < 1e-6 || Math.abs(p.pos.y - o.pos.y) > p.halfH + o.halfH) continue
         const d = Math.sqrt(d2)
         const share = o.mass / (p.mass + o.mass)
+        p.pos.x += (dx / d) * (min - d) * share
