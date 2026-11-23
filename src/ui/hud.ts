@@ -84,6 +84,7 @@ export class Hud {
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
+    el.classList.remove('on')
   clearFeed() {
     this.feed.replaceChildren()
     this.bannerEl.classList.remove('show')
