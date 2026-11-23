@@ -40,3 +40,4 @@ export class Player {
   hurtTimer = 0
   alive = true
 
+  // Tuned from stats each Rift.
