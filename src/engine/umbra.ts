@@ -295,3 +295,4 @@ export class Umbra {
       const hit = g.spells.aim(60, { props: false })
       let target = hit.unit
       if (!target) {
+        // Nearest enemy to where the crosshair lands.
