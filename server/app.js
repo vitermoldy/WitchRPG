@@ -23,3 +23,4 @@ const SKILLS = new Set(['hexBolt', 'grip', 'burst', 'snare', 'barrier', 'warp', 
 const KINDS = new Set(['husk', 'hound'])
 const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
 const STATS = ['hex', 'spr', 'vit', 'agi', 'umb']
+const RESULTS = new Set(['cleared', 'fallen', 'left'])
