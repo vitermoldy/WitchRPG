@@ -142,3 +142,4 @@ export class Hud {
     if (g.rift.nearExit()) promptHtml = '<kbd>F</kbd> Keluar dari Rift'
     else if (c) {
       const why = g.umbra.blocker()
+      const name = `${UNITS[c.kind].name} Lv ${c.level}`
