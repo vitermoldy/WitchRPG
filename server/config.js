@@ -17,3 +17,4 @@ export const config = {
   name: 'Crimson Sovereign',
   port: num('PORT', 8813),
   db: {
+    host: str('DB_HOST', '127.0.0.1'),
