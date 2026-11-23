@@ -58,3 +58,4 @@ export class Unit implements Target {
   flash = 0
   slow = 1
   vulnerable = 0
+  thrown = false
