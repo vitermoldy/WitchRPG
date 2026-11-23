@@ -702,3 +702,4 @@ export class Spells {
     const s = SPELL.barrier
     this.barrierT = 0
     this.shield.visible = false
+    g.hands.pose('left', 'push', 0.3)
