@@ -490,3 +490,4 @@ export class Game {
   }
 
   private orbit(dt: number) {
+    const a = this.t * 0.05
