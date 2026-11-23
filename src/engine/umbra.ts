@@ -76,3 +76,4 @@ export class Umbra {
     const open = this.riteOpen
     const cam = g.camera
     const eye = g.player.eyePos
+    const fwd = g.player.viewDir()
