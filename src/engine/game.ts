@@ -485,3 +485,4 @@ export class Game {
       }
     }
     if (s === 'playing') this.hud.update(dt)
+    this.composer.render(dt)
