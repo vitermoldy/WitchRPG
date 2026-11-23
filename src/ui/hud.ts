@@ -161,3 +161,4 @@ export class Hud {
     const g = this.g
     const slots = g.derived.slots
     const live = new Map(g.units.shadows().map((u) => [u.record?.id, u]))
+    const rows: string[] = []
