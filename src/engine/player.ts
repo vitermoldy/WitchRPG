@@ -168,6 +168,9 @@ export class Player {
       this.vel.y -= MOVE.gravity * dt
     }
 
+    this.finish(dt, world, blockers)
+  }
+
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
