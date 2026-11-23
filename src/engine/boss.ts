@@ -220,3 +220,4 @@ export class BossFight {
     if (d > 9) {
       if (u.state === 'move') {
         u.vel.x *= Math.exp(-6 * dt)
+        u.vel.z *= Math.exp(-6 * dt)
