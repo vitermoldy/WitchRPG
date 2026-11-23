@@ -152,3 +152,4 @@ export class Spells {
     return this.overloadT > 0
   }
 
+  get damageMult() {
