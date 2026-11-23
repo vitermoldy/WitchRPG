@@ -213,3 +213,5 @@ export class Hands {
   private swayX = 0
   private swayY = 0
   overload = false
+  private readonly tmp = new THREE.Vector3()
+
