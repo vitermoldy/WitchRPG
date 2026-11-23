@@ -577,6 +577,7 @@ export class UnitSystem {
           this.follow(u, speed, dt)
         } else this.steer(u, u.pos, 0, dt)
         return
+      }
     }
   }
 
