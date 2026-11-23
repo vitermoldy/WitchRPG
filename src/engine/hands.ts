@@ -335,3 +335,4 @@ export class Hands {
         })
       }
     }
+    this.particles.update(dt)
