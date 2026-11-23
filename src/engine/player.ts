@@ -108,3 +108,4 @@ export class Player {
       const desiredX = wish.x * target
       const desiredZ = wish.z * target
       const dx = desiredX - this.vel.x
+      const dz = desiredZ - this.vel.z
