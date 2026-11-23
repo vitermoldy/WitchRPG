@@ -44,3 +44,4 @@ function pivot(parent: THREE.Object3D, x: number, y: number, z: number) {
   const g = new THREE.Group()
   g.position.set(x, y, z)
   parent.add(g)
+  return g
