@@ -205,3 +205,4 @@ export class PropSystem {
         p.mesh.position.copy(p.pos)
         p.mesh.rotation.x += p.spin.x * dt
         p.mesh.rotation.z += p.spin.z * dt
+        continue
