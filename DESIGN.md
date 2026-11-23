@@ -4,3 +4,4 @@ Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Docu
 
 ## Keputusan pemilik (23 Nov 2026)
 
+| Pertanyaan GDD | Jawaban |
