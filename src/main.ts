@@ -85,3 +85,4 @@ async function boot() {
           p.statPoints || p.skillPoints ? `<span><b>${p.statPoints + p.skillPoints}</b> poin belum dipakai</span>` : ''
         }`
     $('btn-reset').hidden = fresh
+    const warn = $('save-warning')
