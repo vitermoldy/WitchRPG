@@ -80,3 +80,4 @@ export class Game {
     this.saveError = loaded.error
     this.derived = derive(this.profile.stats)
 
+    this.world = buildWorld(this.scene)
