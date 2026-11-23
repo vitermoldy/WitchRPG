@@ -423,3 +423,4 @@ export class Game {
     this.setState('result')
   }
 
+  resize() {
