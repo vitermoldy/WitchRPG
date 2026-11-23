@@ -254,3 +254,4 @@ export class PropSystem {
         const dx = p.pos.x - o.pos.x
         const dz = p.pos.z - o.pos.z
         const min = (p.radius + o.radius) * 0.8
+        const d2 = dx * dx + dz * dz
