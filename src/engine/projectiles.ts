@@ -41,3 +41,4 @@ const MATS: Record<'rift' | 'shadow' | 'reflected', THREE.MeshBasicMaterial> = {
   reflected: new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).multiplyScalar(3) }),
 }
 
+/** Arcing globs from Spitters, the boss, and shadow Spitters. */
