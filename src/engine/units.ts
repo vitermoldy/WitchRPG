@@ -43,3 +43,4 @@ export class Unit implements Target {
   maxHp: number
   damage: number
   speed: number
+  readonly radius: number
