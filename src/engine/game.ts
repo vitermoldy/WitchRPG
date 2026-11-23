@@ -514,3 +514,4 @@ export class Game {
         vel: { x: (Math.random() - 0.5) * 0.6, y: 0.7 + Math.random() * 0.8, z: (Math.random() - 0.5) * 0.6 },
         drag: 0.2,
       })
+    }
