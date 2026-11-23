@@ -285,3 +285,4 @@ export class UnitSystem {
           u.setState('strike')
           if (tgt && tgt.alive) {
             const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) - tgt.radius
+            tmp.set(-Math.sin(u.yaw), 0, -Math.cos(u.yaw))
