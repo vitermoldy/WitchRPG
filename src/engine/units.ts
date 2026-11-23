@@ -108,6 +108,7 @@ export class Unit implements Target {
   elite: EliteTrait | null = null
   /** Multiplier on windup, recovery and cooldown; below 1 is quicker. */
   tempo = 1
+  /** Seconds a flier has not seen its target; it drops into the street to find it. */
 
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
