@@ -417,6 +417,8 @@ export class Umbra {
       if (this.field().length < this.fieldCap) this.spawnShadow(rec, at, this.field().length)
       else g.streamTo(at.clone().setY(at.y + 0.5), g.player.pos.clone().setY(g.player.pos.y + 0.3), COLOR.umbra)
       g.rift.raised.push(rec.name)
+    }
+    if (raised.length) {
       g.saveSoon()
     } else {
       this.turnToAsh(u)
