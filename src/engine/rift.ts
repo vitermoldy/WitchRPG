@@ -122,3 +122,4 @@ export class RiftDirector {
       return
     }
     if (this.phase === 'wave') {
+      this.spawnT -= dt
