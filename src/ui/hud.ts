@@ -132,6 +132,8 @@ export class Hud {
       const bearing = Math.atan2(-(m.x - p.pos.x), -(m.z - p.pos.z))
       let d = bearing - p.yaw
       while (d > Math.PI) d -= Math.PI * 2
+      while (d < -Math.PI) d += Math.PI * 2
+      const shown = Math.abs(d) < span / 2
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
