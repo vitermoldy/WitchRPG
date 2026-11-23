@@ -34,6 +34,8 @@ export interface Settings {
   volume: number
   headBob: boolean
   shake: boolean
+  /** Shadows on the field at once; the rest wait in the Shadow Room. */
+  fieldCap: number
 }
 
 export interface Profile {
