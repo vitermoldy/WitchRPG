@@ -980,3 +980,4 @@ dialog {
   color: var(--ink);
 }
 
+dialog::backdrop {
