@@ -1256,3 +1256,4 @@ dialog::backdrop {
   background: var(--bg);
 }
 
+.room-item p {
