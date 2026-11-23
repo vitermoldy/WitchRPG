@@ -66,3 +66,4 @@ function husk(team: Team): UnitModel {
   crack.castShadow = false
   spine.add(crack)
   for (const x of [-0.14, 0.14]) {
+    const rib = box(0.12, 0.03, 0.02, s.bone, meshes, 0.3)
