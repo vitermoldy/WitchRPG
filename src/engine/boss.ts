@@ -76,3 +76,4 @@ export class BossFight {
     // From phase 2 on it never leaves the middle pillar.
     if (this.phase === 3) {
       const off = Math.hypot(u.pos.x - this.home.x, u.pos.z - this.home.z)
+      if (off > 2.8) {
