@@ -10,6 +10,7 @@ import {
   TIERS,
   XP,
   type RankId,
+  type TierId,
   type UnitKind,
 } from './balance'
 import { skillById, type SkillId } from './skills'
