@@ -180,3 +180,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
         if (d < bd) {
           bd = d
           best = p
+        }
