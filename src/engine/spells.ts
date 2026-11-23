@@ -459,3 +459,4 @@ export class Spells {
       const heavy = (gb.unit ? gb.unit.mass : gb.prop!.mass) > 200
       const dist = SPELL.grip.holdDistance + (heavy ? 2 : 0)
       const goal = o.clone().addScaledVector(f, dist).addScaledVector(right, i === 0 ? 0 : 1.4)
+      goal.y = Math.max(goal.y, 0.6 + (gb.unit ? gb.unit.height * 0.5 : gb.prop!.halfH))
