@@ -94,3 +94,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
 
   // Forearm and sleeve, running back toward the camera.
   const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.036, 0.05, 0.42, 10), skin)
+  arm.position.set(0, -0.2, 0.06)
