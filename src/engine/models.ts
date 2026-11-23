@@ -153,3 +153,4 @@ function hound(team: Team): UnitModel {
     ['legBL', -0.2, 0.38],
     ['legBR', 0.2, 0.38],
   ]
+  for (const [name, x, z] of legs) {
