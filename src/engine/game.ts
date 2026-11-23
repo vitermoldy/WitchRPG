@@ -29,3 +29,4 @@ export type GameState = 'loading' | 'title' | 'playing' | 'paused' | 'ledger' | 
 const SKILL_IDS = SKILLS.map((s) => s.id)
 
 export class Game {
+  readonly renderer: THREE.WebGLRenderer
