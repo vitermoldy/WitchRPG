@@ -66,6 +66,7 @@ export class Game {
   private readonly unitHost: UnitHost
   onState: ((s: GameState) => void) | null = null
   /** After every save of the witch; the account layer sends it to the server. */
+  onSaved: (() => void) | null = null
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
