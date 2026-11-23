@@ -70,3 +70,4 @@ export class Colliders {
     return hit
   }
 
+  /** Height of the floor under a circle: the highest box top within reach, or 0. */
