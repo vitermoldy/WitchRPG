@@ -230,3 +230,4 @@ export class Hands {
     const fill = new THREE.DirectionalLight(0xc8b8ff, 0.6)
     fill.position.set(0, -0.3, 1)
     this.scene.add(fill)
+    this.scene.add(this.particles.points)
