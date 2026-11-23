@@ -308,3 +308,4 @@ export class Game {
       const live = this.units.units.find((x) => x.record?.id === sl.id && x.alive)
       if (!live) continue
       const ratio = live.hp / live.maxHp
+      const st = unitStats(live.kind, sl.level, true)
