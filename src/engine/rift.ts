@@ -29,3 +29,4 @@ export class RiftDirector {
   private readonly exitPos = new THREE.Vector3(0, 0, 5.4)
   elapsed = 0
   kills = 0
+  xpGained = 0
