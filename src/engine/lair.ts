@@ -152,3 +152,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     col.castShadow = true
     group.add(col)
   }
+  const wall = 28
