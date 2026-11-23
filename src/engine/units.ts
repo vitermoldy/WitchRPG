@@ -951,6 +951,7 @@ export class UnitSystem {
     m.root.scale.setScalar(u.scale)
 
     if (BIPEDS.has(u.kind)) this.animateBiped(u, sw, amp, t)
+    else if (u.spec.fly) this.animateFlyer(u, t)
     else this.animateHound(u, amp, t)
   }
 
