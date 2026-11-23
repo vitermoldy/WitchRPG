@@ -97,3 +97,4 @@ function cleanProfile(p) {
   return { level, xp, statPoints, skillPoints, nextShadowId, clears, stats, upgrades, shadows, settings, updatedAt: new Date(updated) }
 }
 
+/** Checks one finished Rift; returns the row values or a reason. */
