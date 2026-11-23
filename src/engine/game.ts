@@ -394,3 +394,4 @@ export class Game {
     this.ledger.open()
   }
 
+  private afterLedger() {
