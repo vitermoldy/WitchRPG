@@ -257,3 +257,4 @@ export class BossFight {
     const goal = this.targetFor()
     if (!goal) return
     const from = u.center.add(new THREE.Vector3(0, u.height * 0.25, 0))
+    for (let i = 0; i < shots; i++) {
