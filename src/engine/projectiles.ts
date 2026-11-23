@@ -74,3 +74,4 @@ export class Projectiles {
   }
 
   update(dt: number) {
+    const h = this.host
