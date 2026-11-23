@@ -103,7 +103,7 @@ export class Game {
     this.derived = derive(this.profile.stats, this.profile.level)
 
     this.world = buildWorld(this.scene)
-    this.colliders = this.world.colliders
+    this.lair = buildLair(this.scene)
     this.scene.add(this.glow.points, this.smoke.points)
     this.lights = new LightPool(this.scene, 6)
     this.rings = new Rings(this.scene)
