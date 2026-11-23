@@ -154,3 +154,5 @@ export class Ledger {
           </li>`
         })
         .join('')
+    }
+
