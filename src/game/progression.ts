@@ -98,3 +98,4 @@ export interface Derived {
 }
 
 /** Stat effects count the points above the starting 5, so a new witch plays at the GDD's base values. */
+export function derive(stats: Stats): Derived {
