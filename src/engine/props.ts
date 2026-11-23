@@ -250,3 +250,4 @@ export class PropSystem {
       }
       // Bodies push each other apart.
       for (const o of this.props) {
+        if (o === p || o.held) continue
