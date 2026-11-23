@@ -258,3 +258,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     const pillar = new THREE.Mesh(new THREE.CylinderGeometry(0.35, 0.45, 4.5, 6), stone)
     pillar.position.set(Math.cos(a) * 6, 2.6, Math.sin(a) * 6)
     pillar.castShadow = true
+    group.add(pillar)
+  }
