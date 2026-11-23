@@ -355,3 +355,4 @@ export class Umbra {
       }
       const mine = g.player.pos.clone()
       const theirs = pick.pos.clone()
+      g.player.pos.copy(theirs)
