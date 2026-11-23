@@ -416,3 +416,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   colliders.add(-wall, 0, 1, wall * 2 + 2, 60)
   colliders.add(wall, 0, 1, wall * 2 + 2, 60)
 
+  // Central monument: a plinth you can stand on and a cracked obelisk leaning out of it.
