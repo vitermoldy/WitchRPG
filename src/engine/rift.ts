@@ -102,3 +102,4 @@ export class RiftDirector {
     const g = this.g
     this.elapsed += dt
     const t = this.elapsed
+    for (const p of this.portals) {
