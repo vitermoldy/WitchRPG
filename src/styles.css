@@ -728,3 +728,4 @@ button:disabled {
   outline: 1px solid var(--rift);
 }
 
+#mana-row.short .vital-value {
