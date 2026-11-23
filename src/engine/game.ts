@@ -176,6 +176,7 @@ export class Game {
       hurtPlayer: (dmg, from) => this.hurtPlayer(dmg, from),
       hurtUnit: (u, dmg, from, by) => this.hurtUnit(u, dmg, from, by),
       inWarp: (at) => this.spells.inWarp(at),
+      reflectDamage: SPELL.warp.reflectDamage,
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
