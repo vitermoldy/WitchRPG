@@ -192,3 +192,4 @@ export class Spells {
     if (wall) best = { point: wall.point, dist: wall.dist, unit: null, prop: null }
     const sphere = new THREE.Sphere()
     const ray = new THREE.Ray(o, dir)
+    const hit = new THREE.Vector3()
