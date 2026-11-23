@@ -198,3 +198,4 @@ export class PropSystem {
           ;(p.mesh as THREE.Mesh).geometry.dispose()
           this.props.splice(this.props.indexOf(p), 1)
           continue
+        }
