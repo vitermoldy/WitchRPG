@@ -365,3 +365,4 @@ button:disabled {
 }
 
 .result-list {
+  display: grid;
