@@ -450,6 +450,7 @@ export class Game {
     this.slamFx(at, radius, team === 'rift' ? 'rift' : 'shadow')
     this.impactFx(at.clone().setY(at.y + 0.5), 0.7)
     if (team === 'rift') {
+      const p = this.player
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
