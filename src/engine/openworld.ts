@@ -310,3 +310,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   ]
 
   scene.add(group)
+  return {
+    group,
