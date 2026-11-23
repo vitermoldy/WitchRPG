@@ -32,3 +32,5 @@ export interface AimHit {
   dist: number
   unit: Unit | null
   prop: Prop | null
+}
+
