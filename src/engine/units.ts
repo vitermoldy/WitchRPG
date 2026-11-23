@@ -564,6 +564,7 @@ export class UnitSystem {
           for (const o of this.units) {
             if (o === u || !o.alive || o.team !== 'rift' || o.state === 'held') continue
             const reach = u.radius + o.radius + 0.25
+            if (Math.hypot(o.pos.x - u.pos.x, o.pos.z - u.pos.z) < reach && u.pos.y < o.pos.y + o.height && u.pos.y + u.height > o.pos.y) {
               this.impact(u, speed, o)
               u.vel.multiplyScalar(0.4)
               break
