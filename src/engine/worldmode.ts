@@ -14,3 +14,5 @@ interface Camp {
   open: number
 }
 
+const WAKE = 80
+const SLEEP = 170
