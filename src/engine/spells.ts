@@ -670,6 +670,7 @@ export class Spells {
       w.ruleMat.uniforms.uFade.value = fade
       w.wallMat.uniforms.uTime.value = w.t
       w.wallMat.uniforms.uFade.value = fade
+      const left = w.duration - w.t
   private burst() {
     const g = this.g
     const s = SPELL.burst
