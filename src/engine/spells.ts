@@ -576,3 +576,4 @@ export class Spells {
       if (u.team !== 'rift' || !u.alive) continue
       const d = u.pos.distanceTo(at)
       if (d > r) continue
+      const k = 1 - 0.5 * (d / r)
