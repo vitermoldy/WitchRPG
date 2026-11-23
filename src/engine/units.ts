@@ -801,6 +801,7 @@ export class UnitSystem {
   }
 
   private animateHound(u: Unit, amp: number, t: number) {
+    const m = u.model
     }
   }
 }
