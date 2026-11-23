@@ -92,3 +92,4 @@ function husk(team: Team): UnitModel {
       claw.position.set(c * 0.03, -0.5, -0.02)
       claw.rotation.x = Math.PI
       el.add(claw)
+      meshes.push(claw)
