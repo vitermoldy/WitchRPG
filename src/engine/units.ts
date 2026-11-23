@@ -392,6 +392,7 @@ export class UnitSystem {
         const goal = new THREE.Vector3(tgt.pos.x, 0, tgt.pos.z).add(side)
         this.steer(u, goal, speed, dt, 0)
         return
+      }
         }
         this.steer(u, tgt.pos, speed, dt, spec.attackRange - 0.4)
       }
