@@ -65,3 +65,4 @@ function husk(team: Team): UnitModel {
   crack.position.z = -0.155
   crack.castShadow = false
   spine.add(crack)
+  for (const x of [-0.14, 0.14]) {
