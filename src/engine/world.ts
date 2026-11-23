@@ -223,3 +223,4 @@ const SKY_FRAG = /* glsl */ `
     col += vec3(0.42, 0.03, 0.05) * pow(r, 8.0) * 0.5;
     col += vec3(0.2, 0.06, 0.3) * pow(r, 40.0) * 0.45;
     gl_FragColor = vec4(col, 1.0);
+  }
