@@ -38,6 +38,7 @@ export interface UnitHost {
   /** A summoner calls a helper. */
   summon(kind: UnitKind, level: number, at: THREE.Vector3, team: Team, owner: Unit): Unit | null
   /** A shadow that fell into the void comes back beside the witch. */
+  recall(u: Unit): void
 }
 
 let nextId = 1
