@@ -229,3 +229,4 @@ export class BossFight {
         if (this.summonT <= 0) {
           for (let i = 0; i < 3; i++) {
             const a = (i / 3) * Math.PI * 2 + Math.random()
+            const h = this.callHusk(new THREE.Vector3(this.home.x + Math.cos(a) * 3, this.home.y, this.home.z + Math.sin(a) * 3))
