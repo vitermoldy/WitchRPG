@@ -1173,3 +1173,4 @@ dialog::backdrop {
   color: var(--chaos-ink);
 }
 
+.tree-umbra::before {
