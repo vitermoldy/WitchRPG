@@ -107,3 +107,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   trim.rotation.x = Math.PI / 2 + 0.32
   root.add(trim)
 
+  // Palm: faces forward (-Z); the player sees the back of the hand and its sigil.
