@@ -77,6 +77,7 @@ export class Unit implements Target {
   /** Seconds unable to act (Marsekal's pull, a Warden's guard break). */
   stun = 0
   /** Seconds of near-straight flight left after a Telekinesis throw. */
+  flight = 0
   // Corpse.
   deadT = 0
   riteTried = false
