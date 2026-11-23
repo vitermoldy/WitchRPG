@@ -21,3 +21,4 @@ export class RiftDirector {
   wave = 0
   private queue: { kind: UnitKind; level: number }[] = []
   private timer = 0
+  private spawnT = 0
