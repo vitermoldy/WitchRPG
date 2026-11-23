@@ -166,6 +166,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeSpeed: 15,
     lungeTime: 0.45,
   },
+  spitter: {
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
