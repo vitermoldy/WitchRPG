@@ -414,6 +414,7 @@ export const TIERS: Record<TierId, TierSpec> = {
     name: 'Rift Tier V',
     roman: 'V',
     unlock: 13,
+    needsBoss: true,
 }
 
 export const RIFT = {
