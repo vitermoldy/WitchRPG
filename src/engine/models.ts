@@ -104,3 +104,4 @@ function husk(team: Team): UnitModel {
     foot.position.z = -0.05
     knee.add(foot)
     parts[side < 0 ? 'legL' : 'legR'] = hip
+    parts[side < 0 ? 'kneeL' : 'kneeR'] = knee
