@@ -464,7 +464,7 @@ export class Game {
     this.hands.pose('right', 'lowered')
     this.input.unlock()
     this.persist()
-    this.endRift('fallen')
+    if (this.mode === 'rift') this.endRift('fallen')
     this.setState('dead')
   }
 
