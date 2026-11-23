@@ -237,3 +237,4 @@ export class PropSystem {
         const rx = Math.round(p.mesh.rotation.x / snap) * snap
         const rz = Math.round(p.mesh.rotation.z / snap) * snap
         p.mesh.rotation.x += (rx - p.mesh.rotation.x) * Math.min(1, dt * 8)
+        p.mesh.rotation.z += (rz - p.mesh.rotation.z) * Math.min(1, dt * 8)
