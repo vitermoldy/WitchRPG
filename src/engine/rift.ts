@@ -83,7 +83,7 @@ export class RiftDirector {
     this.gateMat = l.mat
   }
 
-  start() {
+  start(tier: TierSpec) {
     this.phase = 'intro'
     this.wave = 0
     this.queue = []
