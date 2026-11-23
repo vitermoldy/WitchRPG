@@ -264,3 +264,4 @@ export const TEAR_FRAG = /* glsl */ `
 `
 
 export function makeTearMaterial(seed: number) {
+  return new THREE.ShaderMaterial({
