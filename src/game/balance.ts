@@ -35,3 +35,4 @@ export const CAMERA = {
 } as const
 
 export const PLAYER = {
+  baseHp: 100,
