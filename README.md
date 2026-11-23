@@ -47,3 +47,4 @@ src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan
 src/engine/   dunia 3D, pemain, tangan, musuh, sihir, Umbra, Rift, suara
 src/ui/       HUD dan Ledger
 tests/        tes Vitest untuk progresi
+```
