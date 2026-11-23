@@ -121,3 +121,4 @@ export class Hud {
     // Skills.
     const cds = g.spells.cooldowns()
     const skill = (id: string, unlock: number, cd: number) => {
+      const locked = pr.level < unlock
