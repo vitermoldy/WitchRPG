@@ -466,3 +466,4 @@ export class Spells {
         const nc = c.clone().lerp(goal, k)
         gb.unit.vel.copy(nc).sub(c).divideScalar(Math.max(dt, 1e-4))
         gb.unit.pos.add(nc.sub(c))
+        gb.unit.yaw += dt * 2
