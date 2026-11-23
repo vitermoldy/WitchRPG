@@ -136,3 +136,4 @@ export class RiftDirector {
         g.smoke.emit({ pos: at, count: 10, color: 0x120608, life: 1, size: 1.2, sizeEnd: 2, speed: 1, jitter: 0.6, alpha: 0.8 })
       }
       if (!this.queue.length && g.units.enemies().length === 0) {
+        if (this.wave >= this.totalWaves) {
