@@ -17,6 +17,8 @@ npm test               # tes progresi, rumus, dan gerak witch
 npm run build          # hasil di dist/; npm start menyajikannya bersama API
 ```
 
+## Akun dan database
+
 ## Kontrol
 
 | Tangan kiri, Chaos | |
