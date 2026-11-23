@@ -30,3 +30,4 @@ export class Colliders {
   }
 
   remove(b: Box) {
+    b.alive = false
