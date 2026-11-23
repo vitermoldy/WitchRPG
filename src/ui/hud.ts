@@ -66,3 +66,5 @@ export class Hud {
 
   flashMana() {
     this.manaFlash = 0.6
+  }
+
