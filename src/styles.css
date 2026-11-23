@@ -724,3 +724,4 @@ button:disabled {
   background: var(--ink-2);
 }
 
+#mana-row.short .bar {
