@@ -105,3 +105,5 @@ function groundMaterial() {
       .replace(
         '#include <color_fragment>',
         `#include <color_fragment>
+        vec2 m = mod(vWp.xz + ${OW.pitch / 2}.0, ${OW.pitch}.0) - ${OW.pitch / 2}.0;
+        float rx = abs(m.x), rz = abs(m.y);
