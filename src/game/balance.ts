@@ -93,3 +93,5 @@ export const XP = {
   maxLevel: 30,
 } as const
 
+export type RankId = 'prajurit' | 'ksatria' | 'jenderal' | 'marsekal'
+
