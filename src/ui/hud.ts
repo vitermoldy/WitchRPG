@@ -182,3 +182,4 @@ export class Hud {
       this.cache.set('army', html)
       this.slots.innerHTML = html
     }
+    const first = g.units.shadows()[0]
