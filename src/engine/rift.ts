@@ -151,6 +151,7 @@ export class RiftDirector {
           ? 'Penguasa retakan ini keluar sendiri. Ia memanggil husk dan menghantam tanah.'
           : last
             ? 'Gelombang terakhir. Rift mulai runtuh.'
+            : `${q.length} makhluk keluar dari retakan${elites ? `, ${elites} di antaranya elite` : ''}.`,
     )
   }
 
