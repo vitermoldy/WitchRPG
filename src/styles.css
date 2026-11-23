@@ -1419,6 +1419,7 @@ dialog::backdrop {
 
 /* Rift picker: three tiers side by side, the chosen one in Chaos red. */
 .tier-pick {
+  display: grid;
 /* Account */
 .account-row {
   display: flex;
