@@ -415,12 +415,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       solid(rock)
     }
   }
-  // The arena edge itself.
-  const wall = half + 0.5
-  colliders.add(0, -wall, wall * 2 + 2, 1, 60)
-  colliders.add(0, wall, wall * 2 + 2, 1, 60)
-  colliders.add(-wall, 0, 1, wall * 2 + 2, 60)
-  colliders.add(wall, 0, 1, wall * 2 + 2, 60)
+  // The arena edge itself: 4 m thick, so a crowd pushing against it can never squeeze anything past its middle.
 
   // Central monument: a plinth you can stand on and a cracked obelisk leaning out of it.
   const plinth = solid(new THREE.Mesh(new THREE.BoxGeometry(7, 1.1, 7), concrete))
