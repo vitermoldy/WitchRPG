@@ -26,6 +26,8 @@ export class Player {
   flightFree = false
   /** Highest the feet may go above the open floor. */
   ceiling = 40
+  /** Flight stopped this frame because stamina ran out (the game shows a note). */
+  flightSpent = false
   stamina: number = MOVE.staminaMax
   floatLeft: number = MOVE.floatMax
   private staminaDelay = 0
