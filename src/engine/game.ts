@@ -351,3 +351,4 @@ export class Game {
     this.setState('dead')
   }
 
+  /** Starts a fresh Tier I Rift with the current witch. */
