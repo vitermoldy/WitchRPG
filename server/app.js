@@ -215,3 +215,4 @@ export function createApi(getPool, database) {
   })
 
   api.get('/runs', async (req, res) => {
+    const [rows] = await getPool().query(
