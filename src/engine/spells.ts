@@ -613,6 +613,7 @@ export class Spells {
     const at = hit.unit ? hit.unit.pos.clone() : hit.point.clone()
     at.y = g.colliders.groundAt(at.x, at.z, 0.2, at.y + 0.5, 0.6)
     // Over the void the field hangs at the height of whatever it caught, or the witch's feet.
+    if (at.y < -50) at.y = hit.unit ? hit.unit.pos.y : g.player.pos.y
   private burst() {
     const g = this.g
     const s = SPELL.burst
