@@ -229,3 +229,4 @@ const SKY_FRAG = /* glsl */ `
 export const TEAR_VERT = /* glsl */ `
   varying vec2 vUv;
   void main() {
+    vUv = uv;
