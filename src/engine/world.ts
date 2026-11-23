@@ -425,3 +425,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   obelisk.rotation.set(0.12, 0.6, -0.09)
   colliders.add(0.3, -0.4, 2, 2, 9)
 
+  // Jersey barriers: low, standable cover.
