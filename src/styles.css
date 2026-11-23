@@ -751,3 +751,4 @@ button:disabled {
   bottom: var(--gutter);
   transform: translateX(-50%);
   display: flex;
+  gap: 0.5rem;
