@@ -189,6 +189,7 @@ interface BipedSize {
 type Mats = (typeof shared)['rift'] & { body: THREE.MeshStandardMaterial }
 
 /**
+ * A standing body with the same joints as the husk (spine, head, jaw, arms, forearms, legs, knees),
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
