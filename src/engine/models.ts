@@ -475,6 +475,8 @@ function harrier(team: Team): UnitModel {
   }
   parts.tail = tail
   return { root, body, parts, bodyMat, eyeMat: s.eye, meshes }
+}
+
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
