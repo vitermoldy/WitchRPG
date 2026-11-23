@@ -63,3 +63,4 @@ function cleanProfile(p) {
   const statPoints = int(p.statPoints, 0, 1000)
   const skillPoints = int(p.skillPoints, 0, 1000)
   const nextShadowId = int(p.nextShadowId, 1, 1_000_000)
+  const clears = int(p.clears, 0, 1_000_000)
