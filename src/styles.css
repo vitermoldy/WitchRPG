@@ -935,3 +935,4 @@ button:disabled {
   width: max-content;
   color: var(--ink-2);
   font-size: 0.85rem;
+  text-shadow: 0 1px 4px #000;
