@@ -212,3 +212,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const inst = new THREE.InstancedMesh(new THREE.BoxGeometry(1, 1, 1), facadeMaterial(), boxes.length)
   const m = new THREE.Matrix4()
   boxes.forEach((b, i) => {
+    m.compose(new THREE.Vector3(b.x, b.h / 2, b.z), new THREE.Quaternion(), new THREE.Vector3(b.w, b.h, b.d))
+    inst.setMatrixAt(i, m)
