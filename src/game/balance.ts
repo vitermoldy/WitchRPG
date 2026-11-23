@@ -248,6 +248,8 @@ export const SHADOW_SKILL = {
 
 export type WaveSpec = Partial<Record<Exclude<UnitKind, 'hollow'>, number>> & { levels: [number, number] }
 
+export type TierId = 1 | 2 | 3
+
 }
 
 export const RIFT_TIER_1 = {
