@@ -28,3 +28,5 @@ export interface CampSpot {
 }
 
 export interface OpenWorldBuild {
+  group: THREE.Group
+  colliders: Colliders
