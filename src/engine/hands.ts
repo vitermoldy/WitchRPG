@@ -272,3 +272,4 @@ export class Hands {
     for (const h of [this.left, this.right]) {
       if (h.hold > 0) {
         h.hold -= dt
+        if (h.hold <= 0) h.target = 'idle'
