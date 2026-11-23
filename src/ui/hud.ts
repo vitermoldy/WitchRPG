@@ -293,7 +293,8 @@ export class Hud {
       const hp = Math.max(0, u.hp / u.maxHp)
       rows.push(`<li class="army-slot up"><span class="pip"></span><span>${u.record!.name} <span class="num">Lv ${u.level}</span></span><span class="hp"><i style="transform:scaleX(${hp.toFixed(2)})"></i></span></li>`)
     }
-    if (empty) rows.push(`<li class="army-slot empty"><span class="pip"></span><span>${empty} slot kosong</span><span></span></li>`)
+    if (field.length > 3) rows.push(`<li class="army-row dim"><span>dan ${field.length - 3} lainnya</span><b></b></li>`)
+    if (total) rows.push(`<li class="army-row key"><span><kbd>T</kbd> ${field.length ? 'Kembalikan' : 'Panggil'}</span><b></b></li>`)
     const html = rows.join('')
     if (this.cache.get('army') !== html) {
       this.cache.set('army', html)
