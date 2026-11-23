@@ -465,3 +465,5 @@ export class Game {
         if (i < this.debugSpeed - 1) this.input.endFrame()
       }
     }
+    else if (s === 'title' || s === 'loading' || s === 'result') this.orbit(dt)
+
