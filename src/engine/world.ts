@@ -365,3 +365,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     let along = -60
     while (along < 60) {
       const w = 11 + R() * 9
+      const centre = along + w / 2
