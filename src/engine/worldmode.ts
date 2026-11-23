@@ -4,3 +4,6 @@ import { tierUnlocked } from '../game/progression'
 import type { Game } from './game'
 import type { CampSpot, Gate } from './openworld'
 import { COLOR } from './palette'
+import type { Unit } from './units'
+
+interface Camp {
