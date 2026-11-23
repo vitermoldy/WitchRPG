@@ -70,3 +70,4 @@ export class Unit implements Target {
   ash = false
   // Shadows.
   record: ShadowRecord | null = null
+  command: Command = 'follow'
