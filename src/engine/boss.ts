@@ -49,3 +49,4 @@ export class BossFight {
       if (!g.spells.inWarp(u.center) && !g.spells.inWarp(u.pos)) {
         if (this.immuneNote <= 0) {
           g.hud.message('Cangkangnya menutup. Kurung dia dengan Reality Warp (V) dulu.', 'chaos')
+          this.immuneNote = 6
