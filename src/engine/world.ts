@@ -508,3 +508,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     { kind: 'crate', x: -16, z: -13, yaw: 0.2, stack: 1 },
   ]
 
+  const update = (t: number) => {
