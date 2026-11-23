@@ -25,6 +25,8 @@ interface Warp {
   group: THREE.Group
   ruleMat: THREE.ShaderMaterial
   wallMat: THREE.ShaderMaterial
+}
+
 interface Snare {
   pos: THREE.Vector3
   radius: number
