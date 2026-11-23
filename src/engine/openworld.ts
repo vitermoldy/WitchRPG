@@ -25,6 +25,7 @@ export interface CampSpot {
   pack: Partial<Record<Exclude<UnitKind, 'hollow'>, number>>
   /** A Rift Lord leads this camp. */
   elite: boolean
+  /** How many of the pack wake up as elites. */
   mat: THREE.ShaderMaterial
 }
 
