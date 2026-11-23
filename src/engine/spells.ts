@@ -492,3 +492,4 @@ export class Spells {
     this.tendril.geometry.setFromPoints(this.tendrilPts)
     this.tendrilLight?.position.copy(to)
     for (const gb of this.grabbed) {
+      const c = gb.unit ? gb.unit.center : gb.prop!.pos
