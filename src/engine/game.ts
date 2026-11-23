@@ -138,6 +138,7 @@ export class Game {
       impactFx: (at, s) => this.impactFx(at, s),
       growl: () => this.sfx.growl(),
       fire: (from, to, u) => {
+        this.projectiles.fire(from, to, u.team === 'rift' ? 'rift' : 'witch', u.damage, u.spec.shot!, u)
     }
     this.unitHost = host
     this.units = new UnitSystem(host)
