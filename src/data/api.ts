@@ -10,3 +10,4 @@ const QUEUE_KEY = 'crimson-sovereign:unsent-rifts'
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
 
 export interface RiftRecord {
+  tier: number
