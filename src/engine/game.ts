@@ -31,3 +31,4 @@ const SKILL_IDS = SKILLS.map((s) => s.id)
 export class Game {
   readonly renderer: THREE.WebGLRenderer
   readonly scene = new THREE.Scene()
+  readonly camera = new THREE.PerspectiveCamera(CAMERA.fov, 1, CAMERA.near, CAMERA.far)
