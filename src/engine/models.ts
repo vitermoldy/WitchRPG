@@ -274,6 +274,7 @@ function warden(team: Team): UnitModel {
     team,
     { hip: 1.08, pelvis: [0.5, 0.26, 0.32], torso: [0.72, 0.78, 0.44], lean: 0.08, head: [0.3, 0.34, 0.32], shoulderX: 0.46, arm: [0.17, 0.46, 0.48], hipX: 0.17, leg: [0.2, 0.52, 0.52] },
     (p, m, meshes) => {
+      for (const side of [-1, 1]) {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
