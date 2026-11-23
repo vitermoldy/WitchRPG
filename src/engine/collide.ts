@@ -34,3 +34,4 @@ export class Colliders {
     this.boxes = this.boxes.filter((x) => x !== b)
   }
 
+  /**
