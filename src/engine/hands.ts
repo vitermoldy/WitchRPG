@@ -141,3 +141,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
       y = len
     }
     fingers.push({ joints, baseSpread: (f - 1.5) * 0.09 })
+  }
