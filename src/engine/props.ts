@@ -20,3 +20,4 @@ export interface Prop {
   thrown: boolean
   awake: boolean
   life: number
+  hitUnits: Set<number>
