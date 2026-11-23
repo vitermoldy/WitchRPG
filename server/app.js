@@ -109,3 +109,4 @@ function cleanRun(run) {
     int(run.wave, 0, 50),
     int(run.waves, 1, 50),
     int(run.kills, 0, 100_000),
+    int(run.xpGained, 0, 10_000_000),
