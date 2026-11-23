@@ -494,6 +494,7 @@ function bombard(team: Team): UnitModel {
       muzzle.castShadow = false
       tube.add(muzzle)
       meshes.push(muzzle)
+      p.muzzle = muzzle
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
