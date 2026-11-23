@@ -670,3 +670,4 @@ export class Spells {
         g.scene.remove(s.mesh)
         mat.dispose()
         s.mesh.geometry.dispose()
+        this.snares.splice(i, 1)
