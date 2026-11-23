@@ -387,3 +387,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       scene.add(m)
       // Roof clutter for a broken skyline.
       if (R() < 0.6) {
+        const cap = new THREE.Mesh(new THREE.BoxGeometry(3 + R() * 4, 2 + R() * 3, 3 + R() * 3), darkMetal)
