@@ -46,3 +46,4 @@ export class ShadowCrowd {
       if (list) list.push(g)
       else byMat.set(mat, [g])
     }
+    const mats = [...byMat.keys()]
