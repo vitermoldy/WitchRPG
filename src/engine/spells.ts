@@ -658,6 +658,8 @@ export class Spells {
   inWarp(at: THREE.Vector3): boolean {
     for (const w of this.warps) if (Math.hypot(at.x - w.pos.x, at.z - w.pos.z) < w.radius && at.y > w.pos.y - 2 && at.y < w.pos.y + 9) return true
     return false
+  }
+
   private burst() {
     const g = this.g
     const s = SPELL.burst
