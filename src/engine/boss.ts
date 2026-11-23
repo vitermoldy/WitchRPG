@@ -110,3 +110,4 @@ export class BossFight {
       if (this.landT >= 2.2) {
         this.landT = -1
         this.phase = 3
+        this.breathe()
