@@ -124,3 +124,4 @@ async function boot() {
     } else if (s === 'playing' || s === 'ledger') showScreen(null)
     else if (s === 'paused') {
       renderPause()
+      showScreen('paused')
