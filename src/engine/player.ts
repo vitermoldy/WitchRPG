@@ -202,3 +202,4 @@ export class Player {
     this.fov += (fovTarget - this.fov) * Math.min(1, dt * 6)
     if (Math.abs(cam.fov - this.fov) > 0.01) {
       cam.fov = this.fov
+      cam.updateProjectionMatrix()
