@@ -480,3 +480,4 @@ export class Game {
       if (s === 'playing' || s === 'dead') this.hands.update(dt, this.input.dx, this.input.dy, p.bobPhase, p.bobWeight, { left: 0, right: 0 })
       if (s === 'playing') p.applyCamera(this.camera, dt, this.profile.settings.headBob, this.profile.settings.shake)
       if (s === 'dead') {
+        this.camera.position.y += (this.player.pos.y + 0.4 - this.camera.position.y) * Math.min(1, dt * 2)
