@@ -175,3 +175,4 @@ async function boot() {
     game.applySettings()
     game.saveSoon()
   })
+  $<HTMLInputElement>('set-bob').addEventListener('change', (e) => {
