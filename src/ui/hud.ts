@@ -136,6 +136,7 @@ export class Hud {
         ? `${r.remaining} musuh tersisa`
         : r.phase === 'breather'
           ? 'Jeda antar gelombang'
+          : r.phase === 'cleared'
 
     // Skills.
     const cds = g.spells.cooldowns()
