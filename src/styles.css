@@ -297,3 +297,4 @@ button:disabled {
   border: 1px solid rgba(255, 165, 61, 0.45);
   border-radius: var(--radius);
   color: #ffc98a;
+  font-size: 0.9rem;
