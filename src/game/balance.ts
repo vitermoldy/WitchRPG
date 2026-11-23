@@ -58,3 +58,4 @@ export const CHAOS = {
 
 export const SPELL = {
   bolt: { damage: 12, mana: 0, cooldown: 0.4, speed: 48, life: 1.6, radius: 0.28, spreadDamage: 9, spreadAngle: 0.07 },
+  grip: { manaPerSec: 4, maxMass: 500, range: 26, holdDistance: 6.5, throwSpeed: 30, heavyThrowSpeed: 18, aimCone: 0.07 },
