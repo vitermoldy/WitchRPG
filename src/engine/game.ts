@@ -82,3 +82,4 @@ export class Game {
 
     this.world = buildWorld(this.scene)
     this.colliders = this.world.colliders
+    this.scene.add(this.glow.points, this.smoke.points)
