@@ -639,7 +639,7 @@ export class UnitSystem {
       if (!a.alive || a.state === 'held' || a.state === 'air' || a.state === 'sinking') continue
       for (let j = i + 1; j < this.units.length; j++) {
         const b = this.units[j]
-        if (!b.alive || b.state === 'held' || b.state === 'air') continue
+        if (!b.alive || b.state === 'held' || b.state === 'air' || b.state === 'sinking') continue
         if (Math.abs(a.pos.y - b.pos.y) > 1.5) continue
         const dx = a.pos.x - b.pos.x
         const dz = a.pos.z - b.pos.z
