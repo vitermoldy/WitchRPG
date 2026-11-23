@@ -163,3 +163,5 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
       thumb.push(j)
       parent = j
     }
+  }
+
