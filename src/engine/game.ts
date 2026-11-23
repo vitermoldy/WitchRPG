@@ -295,7 +295,7 @@ export class Game {
   private endRift(result: RiftRecord['result']) {
     const r = this.rift
     this.onRiftEnd?.({
-      tier: 1,
+      tier: this.tier,
       result,
       wave: r.wave,
       waves: r.totalWaves,
