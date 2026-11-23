@@ -141,3 +141,4 @@ export class Umbra {
       g.hands.gather('right', this.progress)
       this.chargeTick -= dt
       if (this.chargeTick <= 0) {
+        g.sfx.riteCharge(this.progress)
