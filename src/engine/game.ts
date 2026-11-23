@@ -126,3 +126,4 @@ export class Game {
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
     this.hud = new Hud(this)
+    this.ledger = new Ledger({
