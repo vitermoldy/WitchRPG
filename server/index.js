@@ -10,3 +10,4 @@ import { connect } from './db.js'
  * finished Rifts wait there, and both go out once the server answers again.
  */
 let pool = null
+const app = express()
