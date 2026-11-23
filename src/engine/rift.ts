@@ -151,6 +151,7 @@ export class RiftDirector {
       const portal = pool[Math.floor(Math.random() * pool.length)]
       at = portal.pos.clone().add(new THREE.Vector3((Math.random() - 0.5) * 2.5, 0, (Math.random() - 0.5) * 2.5))
       at.y = 0
+    }
   }
 
   update(dt: number) {
