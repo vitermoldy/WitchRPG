@@ -257,3 +257,4 @@ export class Game {
     this.glow.emit({ pos: at, count: Math.round(8 + strength * 30), color: COLOR.chaosHot, intensity: 2.4, life: 0.4, size: 0.18, sizeEnd: 0.02, speed: 3 + strength * 5, gravity: 6 })
     this.smoke.emit({ pos: at, count: Math.round(3 + strength * 8), color: 0x2a2224, life: 1, size: 0.8 + strength, sizeEnd: 1.6 + strength, speed: 1 + strength * 2, alpha: 0.6 })
     if (strength > 0.25) {
+      this.sfx.impact(strength)
