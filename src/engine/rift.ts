@@ -4,6 +4,7 @@ import { bossUnlocked } from '../game/progression'
 import type { BossFight } from './boss'
 import type { Game } from './game'
 import { COLOR } from './palette'
+import type { Unit } from './units'
 import { makeTearMaterial } from './world'
 import { glowTexture } from './fx'
 
