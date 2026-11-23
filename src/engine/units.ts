@@ -391,11 +391,7 @@ export class UnitSystem {
         const side = new THREE.Vector3(-tmp2.z, 0, tmp2.x).multiplyScalar(u.flank * Math.min(5, d * 0.5))
         const goal = new THREE.Vector3(tgt.pos.x, 0, tgt.pos.z).add(side)
         this.steer(u, goal, speed, dt, 0)
-      } else {
-        if (d < spec.attackRange - 0.2 && u.cd <= 0) {
-          u.setState('windup')
-          if (Math.random() < 0.35) this.host.growl()
-          return
+        return
         }
         this.steer(u, tgt.pos, speed, dt, spec.attackRange - 0.4)
       }
