@@ -263,3 +263,4 @@ export class Spells {
     this.overloadT = CHAOS.overloadTime
     this.chaos = 0
     g.hands.overload = true
+    g.hands.kick('left', 1.5)
