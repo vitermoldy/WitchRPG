@@ -94,3 +94,4 @@ function cleanProfile(p) {
   let updated = Date.parse(p.updatedAt)
   if (!Number.isFinite(updated)) updated = Date.now()
   updated = Math.min(updated, Date.now() + 60_000)
+  return { level, xp, statPoints, skillPoints, nextShadowId, clears, stats, upgrades, shadows, settings, updatedAt: new Date(updated) }
