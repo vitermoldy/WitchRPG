@@ -72,6 +72,7 @@ export class RiftDirector {
       glow.position.y = h / 2
       group.add(glow)
       group.visible = false
+      g.scene.add(group)
   }
 
   start() {
