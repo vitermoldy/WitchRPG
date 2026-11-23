@@ -10,3 +10,4 @@ export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
 /** Umbra Rite (raising the fallen) and orders for the shadow army. */
 export class Umbra {
   private readonly g: Game
+  candidate: Unit | null = null
