@@ -286,3 +286,4 @@ button:disabled {
 }
 
 .profile-line b {
+  color: var(--ink);
