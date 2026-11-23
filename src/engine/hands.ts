@@ -313,3 +313,4 @@ export class Hands {
       h.light.intensity = 0.01 + glow * 0.035
       h.sigil.emissive.copy(col)
       h.sigil.emissiveIntensity = 0.8 + glow * 1.4
+      h.cuff.emissive.copy(col)
