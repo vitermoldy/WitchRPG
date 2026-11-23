@@ -67,3 +67,4 @@ describe('Umbra Rite chance', () => {
 
 describe('stats and slots', () => {
   it('starts with 3 slots and adds one per 5 UMB', () => {
+    expect(shadowSlots(5)).toBe(3)
