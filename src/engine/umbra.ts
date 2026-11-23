@@ -285,3 +285,4 @@ export class Umbra {
     } else if (choice === 'hold') {
       for (const s of shadows) {
         s.command = 'hold'
+        s.holdPos.copy(s.pos)
