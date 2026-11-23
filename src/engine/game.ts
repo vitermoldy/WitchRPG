@@ -524,3 +524,4 @@ export class Game {
     // While the command wheel is open, mouse movement picks an order instead of turning.
     const lookDx = input.dx
     const lookDy = input.dy
+    if (wheel) {
