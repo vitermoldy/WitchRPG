@@ -294,3 +294,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     tear.rotation.y = R() * Math.PI
     group.add(tear)
     const lv = bands[c.band].levels
+    const pack: CampSpot['pack'] =
+      c.band === 0 ? { husk: 4, hound: 2 } : c.band === 1 ? { husk: 4, hound: 2, spitter: 2 } : c.elite ? { riftlord: 1, husk: 3, warden: 1 } : { husk: 3, hound: 2, spitter: 1, warden: 2 }
