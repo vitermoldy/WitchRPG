@@ -136,3 +136,4 @@ export class BossFight {
       if (performance.now() / 1000 > at) {
         g.streamTo(o.center, u.center, COLOR.rift)
         g.units.remove(o)
+        this.feed.delete(o)
