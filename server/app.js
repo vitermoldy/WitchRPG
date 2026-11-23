@@ -143,3 +143,4 @@ export function createApi(getPool, database) {
     const [sh] = await db.query('SELECT shadow_id, name, kind, `rank`, level, xp FROM shadows WHERE client_id = ? ORDER BY slot', [client])
     return {
       version: 1,
+      level: w.level,
