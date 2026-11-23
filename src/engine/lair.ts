@@ -33,3 +33,4 @@ function crackTexture(size: number) {
   const g = c.getContext('2d')!
   const e = document.createElement('canvas')
   e.width = e.height = size
+  const eg = e.getContext('2d')!
