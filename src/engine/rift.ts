@@ -37,3 +37,4 @@ export class RiftDirector {
     this.g = g
     g.world.portals.forEach((p, i) => {
       const mat = makeTearMaterial(i * 1.7 + 0.4)
+      const mesh = new THREE.Mesh(new THREE.PlaneGeometry(3.4, 6), mat)
