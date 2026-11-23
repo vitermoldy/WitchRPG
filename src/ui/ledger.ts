@@ -116,6 +116,7 @@ export class Ledger {
       return
     }
     box.innerHTML = `<ol class="history-list">${runs
+      .map(
   close() {
     if (this.dlg.open) this.dlg.close()
   }
