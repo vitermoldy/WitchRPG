@@ -248,3 +248,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       button.textContent = 'Keluar'
       return
     }
+    await signOut()
