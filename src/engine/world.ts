@@ -426,3 +426,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   colliders.add(0.3, -0.4, 2, 2, 9)
 
   // Jersey barriers: low, standable cover.
+  const barrierSpots: [number, number, number][] = [
