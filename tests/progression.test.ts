@@ -3,3 +3,4 @@ import {
   addShadow,
   buyUpgrade,
   derive,
+  gainXp,
