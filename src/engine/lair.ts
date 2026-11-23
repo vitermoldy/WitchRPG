@@ -124,3 +124,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     tip.position.set(x, top - depth - 4, z)
     tip.rotation.x = Math.PI
     group.add(tip)
+    for (const [ex, ez, w, d] of [[0, size / 2, size, 0.06], [0, -size / 2, size, 0.06], [size / 2, 0, 0.06, size], [-size / 2, 0, 0.06, size]] as const) {
