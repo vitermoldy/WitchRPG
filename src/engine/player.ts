@@ -129,3 +129,4 @@ export class Player {
     }
     const wantsFloat = !this.onGround && space && this.vel.y <= 0.5 && this.stamina > 0 && this.floatLeft > 0
     this.floating = wantsFloat
+    if (this.floating) {
