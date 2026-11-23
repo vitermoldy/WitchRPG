@@ -23,3 +23,5 @@ interface Snare {
   t: number
   duration: number
   mesh: THREE.Mesh
+}
+
