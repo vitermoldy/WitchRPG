@@ -721,3 +721,4 @@ button:disabled {
 }
 
 .bar-stamina i {
+  background: var(--ink-2);
