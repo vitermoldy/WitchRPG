@@ -187,7 +187,7 @@ export class Umbra {
   }
 
   /** Why a cast on this corpse cannot start right now, or null when it can. */
-  blocker(): string | null {
+  blocker(u?: Unit): string | null {
     const g = this.g
     if (!this.riteOpen) return 'Umbra Rite terbuka di Lv 2.'
     if (g.profile.shadows.length >= g.derived.slots) return 'Slot bayangan penuh. Lepas satu di Ledger (Tab).'
