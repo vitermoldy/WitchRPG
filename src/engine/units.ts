@@ -56,3 +56,4 @@ export class Unit implements Target {
   retarget = 0
   readonly model: UnitModel
   flash = 0
+  slow = 1
