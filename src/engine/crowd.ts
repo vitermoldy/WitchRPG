@@ -47,3 +47,4 @@ export class ShadowCrowd {
       else byMat.set(mat, [g])
     }
     const mats = [...byMat.keys()]
+    const parts = mats.map((mat) => mergeGeometries(byMat.get(mat)!, false)!)
