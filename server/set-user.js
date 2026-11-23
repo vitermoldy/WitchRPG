@@ -29,3 +29,4 @@ if (found) {
 }
 
 const conn = await pool.getConnection()
+try {
