@@ -514,6 +514,7 @@ button:disabled {
   color: var(--rift);
 }
 
+.boss-hp {
 .banner {
   position: absolute;
   top: 24%;
