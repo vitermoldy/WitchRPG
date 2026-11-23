@@ -442,6 +442,7 @@ export class Spells {
         const a = f.angleTo(to)
         if (a < bestA) {
           bestA = a
+          first = { prop: p }
     }
     if (!first) return
     this.grabbed = [first]
