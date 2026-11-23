@@ -234,3 +234,4 @@ export class Hands {
   }
 
   private hand(side: Side) {
+    return side === 'left' ? this.left : this.right
