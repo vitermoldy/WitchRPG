@@ -279,6 +279,7 @@ async function boot() {
     if (game.mode === 'world') void game.enterWorld(undefined, true)
     else void game.enterRift(game.tier, !!game.returnToWorld)
   })
+  $('btn-dead-world').addEventListener('click', () => void game.backToWorld())
   $('btn-dead-title').addEventListener('click', () => {
     game.leaveRift()
   })
