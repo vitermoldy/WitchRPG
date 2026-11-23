@@ -33,3 +33,4 @@ export class RiftDirector {
   levelsGained = 0
   raised: string[] = []
 
+  constructor(g: Game) {
