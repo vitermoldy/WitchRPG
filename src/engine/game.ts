@@ -475,3 +475,4 @@ export class Game {
     }
     const fighting = s === 'playing' || s === 'paused' || s === 'ledger' || s === 'dead'
     this.hands.scene.visible = fighting
+    if (fighting) {
