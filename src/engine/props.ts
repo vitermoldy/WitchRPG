@@ -213,3 +213,4 @@ export class PropSystem {
       const n = this.tmp
       n.set(0, 0, 0)
       const speed = p.vel.length()
+      if (this.host.colliders.pushCircle(p.pos, p.radius * 0.85, p.pos.y - p.halfH, 0.45, n)) {
