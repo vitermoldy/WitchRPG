@@ -25,3 +25,4 @@ Belum dibuat (ditandai "Belum ada di prototype ini" di Ledger): Reality Warp, Ke
 
 ## Penyesuaian dari GDD dan alasannya
 
+| GDD | Di prototype | Alasan |
