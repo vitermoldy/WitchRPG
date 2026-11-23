@@ -41,3 +41,4 @@ export class Unit implements Target {
   level: number
   hp: number
   maxHp: number
+  damage: number
