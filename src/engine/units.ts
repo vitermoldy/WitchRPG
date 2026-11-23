@@ -84,3 +84,4 @@ export class Unit implements Target {
     const st = unitStats(kind, level, team === 'shadow')
     this.hp = this.maxHp = st.hp
     this.damage = st.damage
+    this.speed = st.speed
