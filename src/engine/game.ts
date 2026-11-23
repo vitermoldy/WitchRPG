@@ -455,6 +455,7 @@ export class Game {
     }
     for (const o of [...this.units.units]) {
       if (!o.alive || o.team !== (team === 'rift' ? 'shadow' : 'rift')) continue
+      const d = Math.hypot(o.pos.x - at.x, o.pos.z - at.z)
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
