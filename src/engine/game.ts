@@ -786,4 +786,6 @@ export class Game {
     // Safety net: anything that leaves the city is pulled back.
     if (!this.inLair && p.pos.y < -5) p.reset(this.world.playerStart, p.yaw)
   }
+
+  }
 }
