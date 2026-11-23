@@ -102,3 +102,4 @@ export class Unit implements Target {
     return new THREE.Vector3(this.pos.x, this.pos.y + this.spec.height * 0.55, this.pos.z)
   }
 
+  setState(s: UnitState, t = 0) {
