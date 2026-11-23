@@ -321,3 +321,4 @@ export class Spells {
       let hitUnit: Unit | null = null
       let hitProp: Prop | null = null
       // Sweep the segment so fast bolts never tunnel through a thin body.
+      const seg = this.tmp.copy(b.pos).sub(b.prev)
