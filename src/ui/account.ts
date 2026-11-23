@@ -48,3 +48,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   const label = (): string => (mode === 'in' ? 'Masuk' : 'Buat akun')
   function showError(text: string): void {
     error.textContent = text
+    error.hidden = !text
