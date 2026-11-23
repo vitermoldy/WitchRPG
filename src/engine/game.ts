@@ -132,3 +132,4 @@ export class Game {
         this.applyStats(false)
         this.saveSoon()
       },
+      sfxUi: () => this.sfx.ui(),
