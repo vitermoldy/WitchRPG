@@ -456,3 +456,4 @@ export class UnitSystem {
       // A unit with a broken number goes back to its last good spot instead of infecting its neighbours.
       if (!Number.isFinite(u.pos.x + u.pos.y + u.pos.z + u.vel.x + u.vel.y + u.vel.z + u.yaw)) {
         u.pos.copy(u.lastGood)
+        u.vel.set(0, 0, 0)
