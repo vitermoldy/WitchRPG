@@ -666,3 +666,4 @@ button:disabled {
 
 .vitals {
   position: absolute;
+  left: var(--gutter);
