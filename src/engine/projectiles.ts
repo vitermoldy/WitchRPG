@@ -35,6 +35,7 @@ export interface ShotHost {
   reflectDamage: number
   onReflect(): void
   /** A Bombard charge bursts: everything of the other side inside the radius is hit. */
+  blast(at: THREE.Vector3, radius: number, damage: number, team: ShotTeam, reflected: boolean, source: Unit | null): void
 }
 
 const geo = new THREE.IcosahedronGeometry(1, 1)
