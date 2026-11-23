@@ -119,3 +119,4 @@ async function boot() {
     resumeHint.hidden = true
     if (s === 'title') {
       renderTitle()
+      showScreen('title')
