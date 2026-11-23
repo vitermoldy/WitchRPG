@@ -156,3 +156,4 @@ function facadeTextures(seed: number) {
   const { c: ec, g: eg } = canvas(256, 512)
   const base = ['#2b2629', '#262225', '#302a2a', '#232123'][seed % 4]
   g.fillStyle = base
+  g.fillRect(0, 0, 256, 512)
