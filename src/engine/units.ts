@@ -190,6 +190,7 @@ const BIPEDS = new Set<UnitKind>(['husk', 'spitter', 'warden', 'riftlord', 'holl
 const ELITE_COLOR: Record<EliteTrait, number> = { berlapis: 0xe8d8c0, gesit: 0xffd24a, meledak: COLOR.chaos, penjaga: COLOR.rift }
 
 /** Separation cell size: wider than the two biggest radii together (boss 1.35 + Rift Lord 0.95). */
+const CELL = 3
 
 export class UnitSystem {
   readonly units: Unit[] = []
