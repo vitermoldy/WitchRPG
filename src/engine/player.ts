@@ -187,6 +187,8 @@ export class Player {
     else this.vel.add(diff)
     const ground = world.groundAt(this.pos.x, this.pos.z, this.radius, this.pos.y, MOVE.step)
     const top = Math.max(0, ground) + this.ceiling
+    if (this.pos.y >= top && this.vel.y > 0) this.vel.y = 0
+    if (!this.flightFree) {
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
