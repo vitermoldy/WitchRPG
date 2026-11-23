@@ -153,3 +153,4 @@ export class UnitSystem {
 
   knock(u: Unit, impulse: THREE.Vector3) {
     if (!u.alive || u.state === 'held') return
+    const scale = 70 / u.mass
