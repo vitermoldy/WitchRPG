@@ -91,3 +91,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   const glowEdge = new THREE.MeshStandardMaterial({ color: 0x140806, emissive: COLOR.rift, emissiveIntensity: 0.9 })
 
   // The disc of phase 1.
+  const tex = crackTexture(1024)
