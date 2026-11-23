@@ -91,3 +91,4 @@ async function boot() {
   }
 
   const renderResult = () => {
+    const r = game.rift
