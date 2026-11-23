@@ -138,3 +138,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
     }
     tmax = Math.min(tmax, t2)
     if (tmin > tmax) return null
+  }
