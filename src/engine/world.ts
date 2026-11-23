@@ -112,3 +112,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   eg.fillRect(0, 0, size, size)
   for (const at of cracksAt) {
     for (let i = 0; i < 9; i++) {
+      const x = px(at.x)
