@@ -525,3 +525,4 @@ export class Spells {
         p.hitUnits.clear()
         if (throwIt) p.spin.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).multiplyScalar(6)
       }
+    }
