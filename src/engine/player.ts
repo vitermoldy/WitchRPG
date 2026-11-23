@@ -20,3 +20,4 @@ export class Player {
   sliding = 0
   floating = false
   sprinting = false
+  stamina: number = MOVE.staminaMax
