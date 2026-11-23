@@ -1879,3 +1879,4 @@ dialog::backdrop {
   font-family: var(--font-mono);
   font-size: 0.66rem;
   line-height: 1;
+  white-space: nowrap;
