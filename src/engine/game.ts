@@ -234,6 +234,8 @@ export class Game {
     this.saveTimer = -1
     saveProfile(this.profile)
     this.onSaved?.()
+  }
+
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
