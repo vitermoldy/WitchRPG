@@ -98,3 +98,4 @@ function husk(team: Team): UnitModel {
     parts[side < 0 ? 'foreL' : 'foreR'] = el
     const hip = pivot(body, side * 0.12, -0.05, 0)
     hip.add(box(0.14, 0.46, 0.15, bodyMat, meshes, -0.22))
+    const knee = pivot(hip, 0, -0.45, 0)
