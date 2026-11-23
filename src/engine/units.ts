@@ -601,6 +601,7 @@ export class UnitSystem {
           return
         }
         u.lungeDir.set(tgt.pos.x - u.pos.x, tgt.pos.y + 0.9 - (u.pos.y + 0.5), tgt.pos.z - u.pos.z).normalize()
+        u.hitThisLunge = false
     }
   }
 
