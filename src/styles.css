@@ -617,3 +617,4 @@ button:disabled {
 .ring-rite {
   fill: none;
   stroke: var(--umbra-ink);
+  stroke-width: 3;
