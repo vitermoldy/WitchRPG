@@ -142,3 +142,4 @@ export class Game {
     const handPass = new RenderPass(this.hands.scene, this.hands.camera)
     handPass.clear = false
     handPass.clearDepth = true
+    this.composer.addPass(handPass)
