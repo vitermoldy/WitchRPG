@@ -112,6 +112,7 @@ export class Unit implements Target {
   blind = 0
   /** One of the last of a wave: it goes for the witch and leaves its perch. */
   hunt = false
+  scale = 1
 
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
