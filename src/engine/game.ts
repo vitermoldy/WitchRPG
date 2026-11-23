@@ -58,3 +58,4 @@ export class Game {
   private ledgerReturn: GameState = 'title'
   private readonly timer = new THREE.Timer()
   private t = 0
+  private saveTimer = -1
