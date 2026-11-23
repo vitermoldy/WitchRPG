@@ -361,6 +361,7 @@ function hollow(team: Team): UnitModel {
       hole.rotation.y = Math.PI
       p.spine.add(hole)
       meshes.push(hole)
+      p.hole = hole
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
