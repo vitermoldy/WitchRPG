@@ -260,3 +260,4 @@ export class BossFight {
     for (let i = 0; i < shots; i++) {
       const spread = (i - (shots - 1) / 2) * BOSS.volleySpread
       const side = new THREE.Vector3(-(goal.z - from.z), 0, goal.x - from.x).normalize().multiplyScalar(spread)
+      const to = goal.clone().add(side)
