@@ -245,5 +245,7 @@ export class Ledger {
               <span class="room-meta num">${list.length} bayangan, Lv ${list[list.length - 1].level} sampai ${list[0].level}${fighting ? `, ${fighting} di medan` : ''}</span>
             </summary>
             <ul class="room-members">${shown
+              .map(
+                (s) => `<li class="room-item">
   }
 }
