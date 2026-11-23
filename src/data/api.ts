@@ -162,3 +162,4 @@ function readQueue(): RiftRecord[] {
     const list = raw ? (JSON.parse(raw) as RiftRecord[]) : []
     return Array.isArray(list) ? list : []
   } catch {
+    return []
