@@ -270,3 +270,4 @@ export class Game {
     u.flash = 1
     if (u.team === 'rift') {
       u.barShown = 3
+      if (by === 'player' || by === 'impact') {
