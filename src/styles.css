@@ -1759,3 +1759,6 @@ dialog::backdrop {
 }
 
 .compass .cm-altar {
+  color: var(--umbra-ink);
+}
+
