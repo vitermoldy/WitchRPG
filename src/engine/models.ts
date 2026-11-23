@@ -11,3 +11,5 @@ export interface UnitModel {
   bodyMat: THREE.MeshStandardMaterial
   eyeMat: THREE.MeshStandardMaterial
   meshes: THREE.Mesh[]
+}
+
