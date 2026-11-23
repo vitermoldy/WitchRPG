@@ -198,3 +198,4 @@ function facadeTextures(seed: number) {
   const emissive = new THREE.CanvasTexture(ec)
   emissive.colorSpace = THREE.SRGBColorSpace
   emissive.wrapS = emissive.wrapT = THREE.RepeatWrapping
+  return { map, emissive }
