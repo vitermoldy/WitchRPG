@@ -551,6 +551,7 @@ export class Game {
     this.world.city.visible = false
     this.lair.group.visible = true
     this.lair.setFloor(true)
+    this.activeColliders = this.lair.colliders
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
