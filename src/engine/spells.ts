@@ -703,3 +703,4 @@ export class Spells {
     this.barrierT = 0
     this.shield.visible = false
     g.hands.pose('left', 'push', 0.3)
+    g.hands.pose('right', 'push', 0.3)
