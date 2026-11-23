@@ -550,6 +550,7 @@ button:disabled {
 
 @keyframes fade-through {
   0% {
+    opacity: 1;
 .banner {
   position: absolute;
   top: 24%;
