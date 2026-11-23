@@ -76,6 +76,8 @@ export function newProfile(): Profile {
   }
 }
 
+export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier].unlock
+
 /** True for a witch nobody has played yet (settings do not count). */
 export function isFresh(p: Profile): boolean {
   return (
