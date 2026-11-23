@@ -44,3 +44,4 @@ const TABLES = [
     shadow_id INT UNSIGNED NOT NULL,
     name VARCHAR(24) NOT NULL,
     kind ENUM('husk','hound') NOT NULL,
+    \`rank\` ENUM('prajurit','ksatria','jenderal','marsekal') NOT NULL,
