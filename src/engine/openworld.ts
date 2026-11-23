@@ -151,3 +151,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
 
   // Places that stay open: the square, the gates and the camps.
   const altar = new THREE.Vector3(0, 0, 0)
+  const gateSpots: [TierId, number, number][] = [
+    [1, 52, 52],
