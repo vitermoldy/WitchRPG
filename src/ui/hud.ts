@@ -218,3 +218,4 @@ export class Hud {
         el.className = 'hpbar'
         el.appendChild(document.createElement('i'))
         this.bars.appendChild(el)
+        this.pool.push(el)
