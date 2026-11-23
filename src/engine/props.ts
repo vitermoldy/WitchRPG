@@ -17,3 +17,4 @@ export interface Prop {
   halfH: number
   mass: number
   held: boolean
+  thrown: boolean
