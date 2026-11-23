@@ -145,3 +145,4 @@ function hound(team: Team): UnitModel {
     const eye = box(0.035, 0.03, 0.02, s.eye, meshes)
     eye.position.set(x, y, -0.385)
     eye.castShadow = false
+    neck.add(eye)
