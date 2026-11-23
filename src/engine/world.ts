@@ -208,3 +208,4 @@ const SKY_VERT = /* glsl */ `
     gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
   }
 `
+const SKY_FRAG = /* glsl */ `
