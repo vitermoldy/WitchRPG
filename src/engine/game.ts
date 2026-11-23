@@ -630,6 +630,8 @@ export class Game {
     await this.enterWorld(this.returnToWorld ?? undefined, true)
   }
 
+  /** From a Rift entered at a world gate: record it as left, then step back out of the gate. */
+  async leaveToWorld() {
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
