@@ -37,3 +37,5 @@ export class WorldDirector {
     if (keep && this.camps.length) {
       for (const c of this.camps) {
         c.units = []
+        if (c.state === 'active') c.state = 'idle'
+      }
