@@ -164,3 +164,4 @@ function facadeTextures(seed: number) {
     g.fillRect(R() * 256, R() * 512, 2, 2)
   }
   const cols = 4
+  const rows = 8
