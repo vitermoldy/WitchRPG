@@ -469,3 +469,4 @@ export class UnitSystem {
     this.host.impactFx(u.center, Math.min(1, dmg / 60))
     this.host.hurtUnit(u, dmg, u.pos, 'impact')
     if (other) {
+      this.host.hurtUnit(other, dmg, u.pos, 'impact')
