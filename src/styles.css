@@ -1429,6 +1429,7 @@ dialog::backdrop {
   display: grid;
   justify-items: start;
   gap: 0.1rem;
+  min-height: 56px;
 /* Account */
 .account-row {
   display: flex;
