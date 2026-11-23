@@ -27,3 +27,4 @@ const RESULTS = new Set(['cleared', 'fallen', 'left'])
 const MAX_LEVEL = 30
 const MAX_SHADOWS = 40
 
+/** Writes come as JSON from this site only: no form posts, no other origin. */
