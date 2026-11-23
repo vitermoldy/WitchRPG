@@ -351,3 +351,4 @@ export class UnitSystem {
           u.pos.addScaledVector(u.vel, dt)
           host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3)
           if (u.pos.y <= floor) {
+            u.pos.y = floor
