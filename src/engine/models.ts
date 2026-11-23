@@ -199,6 +199,7 @@ function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3
   const mats: Mats = { ...s, body: bodyMat }
   const root = new THREE.Group()
   const body = pivot(root, 0, z.hip, 0)
+  const parts: Record<string, THREE.Object3D> = {}
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
