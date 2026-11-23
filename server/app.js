@@ -129,3 +129,4 @@ export function createApi(getPool, database) {
   api.get('/health', (_req, res) => res.status(getPool() ? 200 : 503).json({ ok: !!getPool(), database }))
   api.use((req, res, next) => (getPool() ? next() : res.status(503).json({ error: 'Database belum terhubung.' })))
 
+  const auth = createAuth({ getPool, cookie: 'witch_rpg_session', lang: 'id', deviceCode: CODE, newDevice: newCode })
