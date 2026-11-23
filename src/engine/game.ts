@@ -641,6 +641,7 @@ export class Game {
     this.setMap('lair')
     this.lair.setFloor(true)
     this.props.clear()
+    this.pools.clear()
     this.projectiles.clear()
     this.warnings.clear()
     this.spells.reset()
