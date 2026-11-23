@@ -165,3 +165,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
 }
 
 export function unitStats(kind: UnitKind, level: number, shadow: boolean) {
+  const spec = UNITS[kind]
