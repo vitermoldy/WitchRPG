@@ -121,3 +121,4 @@ export class RiftDirector {
       if (this.timer <= 0) this.startWave(this.wave)
       return
     }
+    if (this.phase === 'wave') {
