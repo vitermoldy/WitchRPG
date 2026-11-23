@@ -472,3 +472,4 @@ export class Game {
       this.smoke.update(dt)
       this.lights.update(dt)
       this.rings.update(dt)
+    }
