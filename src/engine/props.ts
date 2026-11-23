@@ -253,3 +253,4 @@ export class PropSystem {
         if (o === p || o.held) continue
         const dx = p.pos.x - o.pos.x
         const dz = p.pos.z - o.pos.z
+        const min = (p.radius + o.radius) * 0.8
