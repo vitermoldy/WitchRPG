@@ -156,3 +156,4 @@ export class Player {
 
     // Vertical.
     const floor = world.groundAt(this.pos.x, this.pos.z, this.radius, this.pos.y, MOVE.step)
+    this.pos.y += this.vel.y * dt
