@@ -324,3 +324,4 @@ export class Umbra {
           }
         }
         s.focus = mine
+        s.target = mine
