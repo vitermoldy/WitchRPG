@@ -813,3 +813,4 @@ button:disabled {
 }
 
 .army-order {
+  color: var(--umbra-ink);
