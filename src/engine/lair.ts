@@ -168,3 +168,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     platforms,
     playerStart: new THREE.Vector3(0, 0.6, 20.5),
     rockSpots,
+    setFloor(solid: boolean) {
