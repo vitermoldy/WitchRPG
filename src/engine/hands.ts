@@ -192,3 +192,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     cuff,
     base,
     baseRot,
+    pose: { ...POSES.idle },
