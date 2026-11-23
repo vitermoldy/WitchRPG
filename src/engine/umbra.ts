@@ -128,3 +128,4 @@ export class Umbra {
     if (this.casting && (!holding || this.casting.riteTried || this.casting.ash)) this.cancel()
     if (canAct && g.input.pressed('KeyR')) this.begin()
     if (this.casting) {
+      const castTime = hasUpgrade(g.profile, 'rite') ? RITE.castTimeUpgraded : RITE.castTime
