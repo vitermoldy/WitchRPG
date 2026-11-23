@@ -118,3 +118,4 @@ export class BossFight {
         for (const o of g.units.enemies()) {
           if (o === u) continue
           g.streamTo(o.center, u.center, COLOR.rift)
+          g.units.remove(o)
