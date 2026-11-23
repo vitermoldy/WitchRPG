@@ -10,3 +10,5 @@ export interface Box {
   breakable?: boolean
   mesh?: THREE.Object3D
   alive: boolean
+}
+
