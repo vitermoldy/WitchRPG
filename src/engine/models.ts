@@ -341,6 +341,7 @@ function riftlord(team: Team): UnitModel {
 }
 
 /** The boss: a hollow ring where a chest should be, a mask for a face, shards orbiting it. */
+function hollow(team: Team): UnitModel {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
