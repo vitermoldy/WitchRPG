@@ -199,3 +199,4 @@ export class PropSystem {
           this.props.splice(this.props.indexOf(p), 1)
           continue
         }
+      }
