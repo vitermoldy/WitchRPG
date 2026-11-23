@@ -4,3 +4,4 @@ const KEY = 'crimson-sovereign:profile:v1'
 
 /** Reads the saved witch. Storage can be blocked or hold junk; both give a fresh profile. */
 export function loadProfile(): { profile: Profile; error: string | null } {
+  let raw: string | null = null
