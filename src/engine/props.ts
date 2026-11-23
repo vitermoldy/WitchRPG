@@ -56,3 +56,4 @@ function carMesh(color: number) {
   for (const x of [-0.5, 0.5]) {
     const l = new THREE.Mesh(new THREE.BoxGeometry(0.3, 0.12, 0.04), lamp)
     l.position.set(x, -0.05, -1.62)
+    g.add(l)
