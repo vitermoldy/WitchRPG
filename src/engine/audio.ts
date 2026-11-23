@@ -259,3 +259,4 @@ export class Sfx {
     wf.type = 'bandpass'
     wf.frequency.value = 500
     wf.Q.value = 0.6
+    const lfo = ctx.createOscillator()
