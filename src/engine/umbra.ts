@@ -245,3 +245,4 @@ export class Umbra {
       g.units.remove(u)
       const s = this.spawnShadow(rec.id, at)
       if (s) s.slot = g.profile.shadows.length - 1
+      g.player.addTrauma(0.2)
