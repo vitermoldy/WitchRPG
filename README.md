@@ -23,3 +23,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | Tahan klik kanan | Telekinesis, lepas untuk melempar |
 | Q | Chaos Burst (Lv 3) |
 | E | Hex Snare (Lv 5) |
+| X | Hex Barrier (Lv 7) |
