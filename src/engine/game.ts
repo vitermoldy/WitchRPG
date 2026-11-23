@@ -470,3 +470,4 @@ export class Game {
     if (s !== 'paused' && s !== 'ledger') {
       this.glow.update(dt)
       this.smoke.update(dt)
+      this.lights.update(dt)
