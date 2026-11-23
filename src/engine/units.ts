@@ -370,3 +370,4 @@ export class UnitSystem {
       if (u.state === 'air') {
         u.vel.y -= 22 * dt
         u.pos.addScaledVector(u.vel, dt)
+        const n = new THREE.Vector3()
