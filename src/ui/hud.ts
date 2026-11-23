@@ -115,3 +115,4 @@ export class Hud {
 
     // Rift status.
     const r = g.rift
+    this.set('rift-wave', 'text', r.phase === 'intro' ? 'Rift terbuka' : r.phase === 'cleared' ? 'Rift ditaklukkan' : `Gelombang ${r.wave} dari ${r.totalWaves}`)
