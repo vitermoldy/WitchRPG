@@ -323,3 +323,4 @@ export class Game {
     const left = this.spells.absorb(dmg)
     if (left <= 0) {
       this.sfx.barrier(true)
+      return
