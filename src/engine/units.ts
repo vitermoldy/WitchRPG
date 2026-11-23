@@ -297,3 +297,4 @@ export class UnitSystem {
       const ls = (spec.lungeSpeed ?? 12) * u.slow
       u.vel.x = u.lungeDir.x * ls
       u.vel.z = u.lungeDir.z * ls
+      if (tgt && tgt.alive && !u.hitThisLunge) {
