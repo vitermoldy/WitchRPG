@@ -70,6 +70,7 @@ Pemilik meminta database "seperti yang lain" dengan akun pemilik `vmk`. Bentukny
 - Express 5 + mysql2 di port 8813 (port Vite 5197 + 3616), database `witch_rpg`. Akun MySQL di `.env` disalin dari SongPlaylist-ForLearning dan tidak ikut ke git.
 - Tabel `users` dan `sessions` dari modul auth bersama (scrypt, cookie HttpOnly `witch_rpg_session`, masuk dibatasi 10 kali per menit, kata sandi minimal 6 karakter).
 - Tabel game: `clients` (satu kode data per akun), `witches` (level, XP, poin, lima stat, pengaturan), `witch_upgrades`, `shadows` (Ruang Bayangan), `rift_runs` (setiap Rift yang ditutup, tumbang, atau ditinggalkan).
+- Browser menyimpan lebih dulu, lalu witch dikirim ke server sedetik kemudian. Saat masuk, salinan yang `updatedAt`-nya lebih baru yang dipakai; witch yang belum pernah dimainkan selalu kalah dari salinan server.
 ## Cara mengecek
 
 - `npm test`: kurva XP (80 dan 2.160), peluang Umbra Rite (contoh GDD 58%), slot, upgrade, bagi XP bayangan, damage lempar.
