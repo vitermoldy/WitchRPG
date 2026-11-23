@@ -1188,3 +1188,4 @@ dialog::backdrop {
   background: var(--bg);
 }
 
+.tree-chaos .node.open {
