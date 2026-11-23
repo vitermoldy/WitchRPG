@@ -216,3 +216,4 @@ export class Player {
     return new THREE.Vector3(this.pos.x, this.pos.y + this.eye, this.pos.z)
   }
 
+  get moveSpeed() {
