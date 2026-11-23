@@ -125,6 +125,7 @@ export interface UnitSpec {
   lungeTime?: number
   /** Fires globs instead of hitting in melee. */
   shot?: { speed: number; gravity: number; radius: number; keepAway: number }
+  /** Share of damage a raised shield stops when hit from the front. */
 }
 
 export const UNITS: Record<UnitKind, UnitSpec> = {
