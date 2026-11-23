@@ -303,3 +303,4 @@ export class Hands {
       h.thumb[1].rotation.x = -p.curl * 0.9
 
       const col = this.overload ? h.overloadColor : h.color
+      const pulse = 0.85 + Math.sin(this.t * (this.overload ? 9 : 2.4)) * 0.15
