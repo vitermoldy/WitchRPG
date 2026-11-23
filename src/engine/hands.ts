@@ -244,3 +244,4 @@ export class Hands {
     h.hold = hold
   }
 
+  kick(side: Side, amount = 1) {
