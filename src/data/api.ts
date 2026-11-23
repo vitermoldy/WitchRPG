@@ -5,3 +5,4 @@
 
 import type { Profile } from '../game/progression'
 
+const CODE_KEY = 'crimson-sovereign:client'
