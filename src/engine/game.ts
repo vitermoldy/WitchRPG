@@ -454,3 +454,4 @@ export class Game {
     const s = this.state
     this.world.update(this.t)
     if (this.saveTimer > 0) {
+      this.saveTimer -= dt
