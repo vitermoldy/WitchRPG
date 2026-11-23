@@ -183,3 +183,4 @@ export function createApi(getPool, database) {
            next_shadow_id = VALUES(next_shadow_id), clears = VALUES(clears), settings = VALUES(settings), updated_at = VALUES(updated_at)`,
         [client, p.level, p.xp, p.statPoints, p.skillPoints, p.stats.hex, p.stats.spr, p.stats.vit, p.stats.agi, p.stats.umb, p.nextShadowId, p.clears, JSON.stringify(p.settings), p.updatedAt],
       )
+      await conn.query('DELETE FROM witch_upgrades WHERE client_id = ?', [client])
