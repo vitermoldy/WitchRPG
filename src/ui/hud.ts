@@ -81,6 +81,7 @@ export class Hud {
     if (ok) this.banner(name, 'bangkit dari bayangan dan berdiri di sisimu')
   }
 
+  /** A short black fade, for stepping through the gate into the lair. */
   clearFeed() {
     this.feed.replaceChildren()
     this.bannerEl.classList.remove('show')
