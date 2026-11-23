@@ -340,8 +340,8 @@ export class Umbra {
     return riteChance(UNITS[u.kind].rank, g.profile.level, u.level, g.profile.stats.umb)
   }
 
-  /** Why a cast on this corpse cannot start right now, or null when it can. */
-  blocker(u?: Unit): string | null {
+  /** Mana for raising `n` bodies in one cast. */
+  cost(n: number) {
     const g = this.g
     if (!this.riteOpen) return 'Umbra Rite terbuka di Lv 2.'
     const rank = u ? riteBlock(g.profile, u.kind) : null
