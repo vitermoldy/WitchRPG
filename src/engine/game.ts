@@ -134,3 +134,4 @@ export class Game {
       },
       sfxUi: () => this.sfx.ui(),
       liveShadows: () => new Set(this.units.shadows().map((u) => u.record!.id)),
+    })
