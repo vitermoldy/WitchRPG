@@ -296,3 +296,4 @@ export class Game {
     if (r.levelsGained) {
       this.rift.levelsGained += r.levelsGained
       this.applyStats(false)
+      this.sfx.levelUp()
