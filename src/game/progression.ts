@@ -125,6 +125,8 @@ const RANK_XP: Record<RankId, number> = { prajurit: 1, ksatria: 2, jenderal: 5, 
 export function xpForUnit(kind: UnitKind, level: number): number {
   const rank = UNITS[kind].rank
   return xpForKill(level, rank === 'marsekal') * RANK_XP[rank]
+}
+
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v))
 
 /** Chance that one Umbra Rite cast succeeds. Raw UMB counts, as in the GDD example. */
