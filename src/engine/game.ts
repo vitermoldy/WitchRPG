@@ -399,3 +399,4 @@ export class Game {
     if (this.ledgerReturn === 'playing' || this.ledgerReturn === 'paused') {
       this.setState('paused')
       this.onState?.('paused')
+      // A click on "Tutup" is a user gesture, so the pointer can lock again right away.
