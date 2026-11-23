@@ -132,6 +132,7 @@ export class Hud {
     this.set(
       'rift-left',
       'text',
+      r.phase === 'wave'
 
     // Skills.
     const cds = g.spells.cooldowns()
