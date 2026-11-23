@@ -31,3 +31,4 @@ function fail(message: string) {
 function webglOk() {
   try {
     const c = document.createElement('canvas')
+    return !!c.getContext('webgl2')
