@@ -382,3 +382,4 @@ export class Game {
     const ok = await this.input.lock()
     if (ok || this.debug) {
       this.setState('playing')
+    }
