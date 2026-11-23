@@ -128,3 +128,4 @@ export class UnitSystem {
     u.setState(rising ? 'rising' : 'spawn')
     u.model.root.position.copy(u.pos)
     this.group.add(u.model.root)
+    this.units.push(u)
