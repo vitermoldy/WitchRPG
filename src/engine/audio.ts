@@ -232,6 +232,7 @@ export class Sfx {
   }
 
   warp() {
+    if (!this.ok()) return
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
