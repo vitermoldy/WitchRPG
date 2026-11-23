@@ -58,6 +58,7 @@ const TABLES = [
     clears INT UNSIGNED NOT NULL,
     PRIMARY KEY (client_id, tier),
     CONSTRAINT tier_clears_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
   `CREATE TABLE IF NOT EXISTS rift_runs (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     client_id CHAR(12) NOT NULL,
