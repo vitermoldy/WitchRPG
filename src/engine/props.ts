@@ -259,3 +259,4 @@ export class PropSystem {
         const d = Math.sqrt(d2)
         const share = o.mass / (p.mass + o.mass)
         p.pos.x += (dx / d) * (min - d) * share
+        p.pos.z += (dz / d) * (min - d) * share
