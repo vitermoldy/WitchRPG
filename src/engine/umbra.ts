@@ -342,3 +342,4 @@ export class Umbra {
         g.hud.message('Belum ada bayangan untuk bertukar tempat.', 'umbra')
         return
       }
+      const eye = g.player.eyePos
