@@ -453,3 +453,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     breakables.push(colliders.add(x, z, w, d, 1.8, { breakable: true, mesh }))
   }
 
+  // Bus shelters.
