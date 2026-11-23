@@ -21,6 +21,7 @@ export function loadProfile(): { profile: Profile; error: string | null } {
 }
 
 /** A witch from storage or the server, with defaults filled in; null when it is not one. */
+export function normalizeProfile(data: Partial<Profile> | null | undefined): Profile | null {
   try {
     localStorage.setItem(KEY, JSON.stringify(p))
     return true
