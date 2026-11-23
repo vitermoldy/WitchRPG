@@ -216,3 +216,4 @@ export function createApi(getPool, database) {
 
   api.get('/runs', async (req, res) => {
     const [rows] = await getPool().query(
+      `SELECT id, tier, result, wave, waves, kills, xp_gained AS xpGained, levels_gained AS levelsGained, level_after AS levelAfter,
