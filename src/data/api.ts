@@ -43,3 +43,4 @@ function clientCode(): string {
     }
     return code
   } catch {
+    memoryCode ??= makeCode()
