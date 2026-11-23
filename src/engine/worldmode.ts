@@ -143,3 +143,5 @@ export class WorldDirector {
   nearestCamp(): { camp: Camp; dist: number } | null {
     const p = this.g.player.pos
     let best: { camp: Camp; dist: number } | null = null
+    for (const c of this.camps) {
+      if (c.state === 'cleared') continue
