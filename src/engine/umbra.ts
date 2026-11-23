@@ -67,6 +67,9 @@ export class Umbra {
 
   get fieldCap() {
     return this.g.profile.settings.fieldCap
+  }
+
+  /** Records that could be called right now: not out, not reforming. */
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
