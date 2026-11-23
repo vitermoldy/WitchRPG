@@ -555,6 +555,7 @@ export class UnitSystem {
    * They ride above the higher of the ground and their target, so they follow a flying witch up.
    */
   private flyer(u: Unit, dt: number, tgt: Target | null, speed: number) {
+    const host = this.host
     }
   }
 
