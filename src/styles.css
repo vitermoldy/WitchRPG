@@ -619,3 +619,4 @@ button:disabled {
   stroke: var(--umbra-ink);
   stroke-width: 3;
   stroke-dasharray: 0 100;
+  transform: rotate(-90deg);
