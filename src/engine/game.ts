@@ -67,6 +67,7 @@ export class Game {
   onState: ((s: GameState) => void) | null = null
   /** After every save of the witch; the account layer sends it to the server. */
   onSaved: (() => void) | null = null
+  /** When a Rift ends: cleared, fallen, or left from the pause menu. */
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
