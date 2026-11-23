@@ -105,3 +105,5 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   )
   abyss.rotation.x = -Math.PI / 2
   abyss.position.y = -38
+  group.add(abyss)
+
