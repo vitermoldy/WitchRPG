@@ -113,3 +113,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     const depth = 14 + Math.random() * 10
     const body = new THREE.Mesh(new THREE.BoxGeometry(size, depth, size), stone)
     body.position.set(x, top - depth / 2, z)
+    body.castShadow = true
