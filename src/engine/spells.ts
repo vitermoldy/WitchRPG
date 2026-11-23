@@ -587,3 +587,4 @@ export class Spells {
       } else if (!u.alive) {
         const dir = new THREE.Vector3(u.pos.x - at.x, 0, u.pos.z - at.z).normalize().multiplyScalar(push * 0.5 * k)
         dir.y = lift * 0.5 * k
+        u.vel.copy(dir)
