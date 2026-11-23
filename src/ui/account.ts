@@ -65,3 +65,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
         : 'Witch yang sudah ada di browser ini ikut masuk ke akun barumu.'
     showError('')
     user.removeAttribute('aria-invalid')
+    pass.removeAttribute('aria-invalid')
