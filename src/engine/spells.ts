@@ -197,3 +197,4 @@ export class Spells {
       for (const u of this.g.units.units) {
         if (!u.alive || (opts.team && u.team !== opts.team) || (!opts.team && u.team !== 'rift')) continue
         sphere.set(u.center, Math.max(u.radius, u.height * 0.42))
+        if (ray.intersectSphere(sphere, hit)) {
