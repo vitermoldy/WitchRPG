@@ -225,3 +225,4 @@ export class Umbra {
     }
   }
 
+  private complete(u: Unit) {
