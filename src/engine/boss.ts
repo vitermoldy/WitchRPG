@@ -249,3 +249,4 @@ export class BossFight {
   }
 
   private volley(dt: number, shots: number) {
+    const g = this.g
