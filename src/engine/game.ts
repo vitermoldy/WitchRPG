@@ -439,3 +439,4 @@ export class Game {
 
   start() {
     this.timer.connect(document)
+    this.renderer.setAnimationLoop((ts) => {
