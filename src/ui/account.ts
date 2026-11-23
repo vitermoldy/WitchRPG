@@ -17,3 +17,4 @@ import {
   signUp,
   type AuthState,
 } from '../data/api'
+import type { Game } from '../engine/game'
