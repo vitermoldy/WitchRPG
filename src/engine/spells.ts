@@ -656,3 +656,4 @@ export class Spells {
       mat.uniforms.uFade.value = Math.min(1, s.t * 4) * Math.min(1, (s.duration - s.t) * 2)
       for (const u of g.units.units) {
         if (u.team !== 'rift' || !u.alive) continue
+        if (Math.hypot(u.pos.x - s.pos.x, u.pos.z - s.pos.z) < s.radius) {
