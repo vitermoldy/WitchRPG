@@ -16,3 +16,4 @@ export interface WorldBuild {
   playerStart: THREE.Vector3
   props: PropSpot[]
   breakables: Box[]
+  update: (t: number) => void
