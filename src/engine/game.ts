@@ -159,6 +159,7 @@ export class Game {
     })
     this.scene.add(this.props.group)
     this.projectiles = new Projectiles({
+      get colliders() {
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
