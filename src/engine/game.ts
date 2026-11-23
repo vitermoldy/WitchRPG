@@ -572,6 +572,8 @@ export class Game {
     const key = this.world.keyLight
     const snap = (v: number) => Math.round(v / 4) * 4
     key.target.position.set(snap(at.x), 0, snap(at.z))
+    key.position.copy(key.target.position).addScaledVector(this.world.riftDir, 60)
+    key.target.updateMatrixWorld()
   /** The city map: shown, colliding, with its props back in place. */
   private useCity() {
     if (!this.inLair && this.world.city.visible) return
