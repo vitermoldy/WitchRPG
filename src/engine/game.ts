@@ -500,3 +500,4 @@ export class Game {
     this.embers(dt, new THREE.Vector3(0, 0, 0), 30)
   }
 
+  private embers(dt: number, around: THREE.Vector3, r: number) {
