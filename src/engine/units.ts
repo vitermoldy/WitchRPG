@@ -305,6 +305,7 @@ export class UnitSystem {
       return
     }
     if (u.team !== 'shadow') return
+    const enemiesNear = this.units.filter((o) => o.team === 'rift' && o.alive && o.pos.distanceTo(u.pos) < 14)
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
