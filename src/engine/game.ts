@@ -146,3 +146,4 @@ export class Game {
     // One NaN pixel blurred by bloom turns the whole screen black. Zero any that slip through.
     this.composer.addPass(
       new ShaderPass({
+        uniforms: { tDiffuse: { value: null } },
