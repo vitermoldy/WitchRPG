@@ -564,3 +564,4 @@ export class UnitSystem {
       const legs = ['legFL', 'legFR', 'legBL', 'legBR']
       const phase = [0, Math.PI, Math.PI * 0.5, Math.PI * 1.5]
       if (u.state === 'dead') {
+        const k = Math.min(1, u.deadT / 0.5)
