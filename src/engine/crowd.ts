@@ -21,3 +21,4 @@ const UP = new THREE.Vector3(0, 1, 0)
  */
 export class ShadowCrowd {
   readonly group = new THREE.Group()
+  private readonly batches = new Map<UnitKind, Batch>()
