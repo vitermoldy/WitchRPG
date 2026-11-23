@@ -1342,3 +1342,4 @@ dialog::backdrop {
     grid-template-columns: auto 1fr;
   }
   .result-list {
+    gap: 0.4rem 1rem;
