@@ -105,6 +105,8 @@ export class Player {
           this.crouching = false
         }
         this.lastSpace = -1
+      } else this.lastSpace = this.clock
+    }
     const crouchHeld = canAct && input.held('KeyC')
     this.sprinting = canAct && input.held('ShiftLeft') && fwd > 0 && !this.crouching && this.sliding <= 0
     if (canAct && input.pressed('KeyC') && this.onGround && this.sprinting) {
