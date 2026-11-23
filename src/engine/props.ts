@@ -252,3 +252,4 @@ export class PropSystem {
       for (const o of this.props) {
         if (o === p || o.held) continue
         const dx = p.pos.x - o.pos.x
+        const dz = p.pos.z - o.pos.z
