@@ -356,3 +356,4 @@ export class Game {
     this.sfx.start()
     this.units.clear()
     this.respawnProps()
+    this.glow.clear()
