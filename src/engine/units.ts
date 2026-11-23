@@ -396,6 +396,7 @@ export class UnitSystem {
       if (d < spec.attackRange - 0.2 && u.cd <= 0) {
         u.setState('windup')
         if (spec.slam) {
+          // The slam lands where the target stood when the arms went up: step out of the circle.
         }
         this.steer(u, tgt.pos, speed, dt, spec.attackRange - 0.4)
       }
