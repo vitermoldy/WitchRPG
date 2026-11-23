@@ -1365,6 +1365,7 @@ dialog::backdrop {
 }
 
 .account-text b {
+  color: var(--umbra-ink);
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
