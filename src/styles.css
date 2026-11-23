@@ -806,3 +806,4 @@ button:disabled {
 
 .army-head {
   display: flex;
+  justify-content: space-between;
