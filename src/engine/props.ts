@@ -161,3 +161,4 @@ export class PropSystem {
     p.hitUnits.clear()
   }
 
+  /** Things the player and units walk around. */
