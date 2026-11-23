@@ -229,3 +229,4 @@ export class PropSystem {
         if (fall > 4) this.host.impactFx(this.tmp.set(p.pos.x, floor, p.pos.z), Math.min(0.6, (p.mass * fall) / 9000))
         p.vel.y = fall > 3 ? fall * 0.18 : 0
         const fr = Math.exp(-6 * dt)
+        p.vel.x *= fr
