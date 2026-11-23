@@ -324,3 +324,4 @@ export class Game {
     if (left <= 0) {
       this.sfx.barrier(true)
       return
+    }
