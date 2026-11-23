@@ -469,6 +469,7 @@ function harrier(team: Team): UnitModel {
   let seg: THREE.Object3D = tail
   for (let i = 0; i < 3; i++) {
     const t = box(0.06 - i * 0.012, 0.04, 0.24, i === 2 ? s.accent : bodyMat, meshes)
+    t.position.z = 0.12
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
