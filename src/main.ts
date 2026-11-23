@@ -148,6 +148,7 @@ async function boot() {
     $('btn-leave').textContent = world ? 'Ke layar judul' : gate ? 'Kembali ke dunia terbuka' : 'Tinggalkan Rift'
     $('pause-note').textContent = world
       ? 'XP, bayangan, dan kamp yang ditaklukkan tersimpan saat kamu kembali ke layar judul. Kamp hidup lagi saat dunia dibuka ulang.'
+      : 'Meninggalkan Rift menyimpan XP dan bayangan yang sudah didapat.'
   }
 
   game.onState = (s: GameState) => {
