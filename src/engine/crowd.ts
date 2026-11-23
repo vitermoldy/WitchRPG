@@ -37,3 +37,4 @@ export class ShadowCrowd {
     model.root.updateMatrixWorld(true)
     const byMat = new Map<THREE.Material, THREE.BufferGeometry[]>()
     for (const mesh of model.meshes) {
+      let g = mesh.geometry.index ? mesh.geometry.toNonIndexed() : mesh.geometry.clone()
