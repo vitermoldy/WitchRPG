@@ -222,6 +222,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     radius: 1.35,
     height: 4.6,
     mass: 3000,
+    attackRange: 4.8,
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
