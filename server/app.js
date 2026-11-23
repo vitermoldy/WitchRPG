@@ -219,3 +219,4 @@ export function createApi(getPool, database) {
       `SELECT id, tier, result, wave, waves, kills, xp_gained AS xpGained, levels_gained AS levelsGained, level_after AS levelAfter,
         shadows_raised AS shadowsRaised, seconds, finished_at AS finishedAt
        FROM rift_runs WHERE client_id = ? ORDER BY finished_at DESC, id DESC LIMIT 20`,
+      [req.user.device],
