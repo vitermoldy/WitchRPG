@@ -460,3 +460,4 @@ export class UnitSystem {
         if (!Number.isFinite(u.yaw)) u.yaw = 0
       } else u.lastGood.copy(u.pos)
       this.animate(u, dt, t)
+    }
