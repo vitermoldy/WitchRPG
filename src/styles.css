@@ -1424,6 +1424,7 @@ dialog::backdrop {
   padding: 0.5rem 0.7rem;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
+  background: var(--bg);
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
