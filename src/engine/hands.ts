@@ -101,3 +101,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   sleeve.material.side = THREE.DoubleSide
   sleeve.position.set(0, -0.31, 0.1)
   sleeve.rotation.x = 0.32
+  root.add(sleeve)
