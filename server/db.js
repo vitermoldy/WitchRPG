@@ -31,3 +31,4 @@ const TABLES = [
     clears INT UNSIGNED NOT NULL,
     settings JSON NOT NULL,
     updated_at DATETIME(3) NOT NULL,
+    CONSTRAINT witches_client FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
