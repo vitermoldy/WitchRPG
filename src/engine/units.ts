@@ -549,6 +549,7 @@ export class UnitSystem {
         continue
       }
       if (u.state === 'sinking') {
+        if (u.t > 0.8) this.remove(u)
         continue
       }
       if (u.state === 'held') continue
