@@ -403,3 +403,4 @@ export class Game {
       void this.resume()
     } else {
       this.setState(this.ledgerReturn)
+    }
