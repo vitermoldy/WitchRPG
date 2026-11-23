@@ -157,3 +157,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
         j.position.y = 0.032
         parent.add(j)
       }
+      const seg = new THREE.Mesh(new THREE.CapsuleGeometry(0.0105, 0.03, 3, 8), skin)
