@@ -68,3 +68,4 @@ function husk(team: Team): UnitModel {
   for (const x of [-0.14, 0.14]) {
     const rib = box(0.12, 0.03, 0.02, s.bone, meshes, 0.3)
     rib.position.set(x, 0.36, -0.155)
+    spine.add(rib)
