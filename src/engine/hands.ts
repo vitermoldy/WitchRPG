@@ -57,3 +57,4 @@ interface Hand {
 const skinMat = () => new THREE.MeshStandardMaterial({ color: 0x4a3640, roughness: 0.4, metalness: 0.15 })
 
 function sigilShape(): THREE.BufferGeometry {
+  // A small crossing mark on the back of the hand. Thin boxes merged by hand.
