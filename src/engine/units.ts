@@ -11,3 +11,4 @@ export type Command = 'follow' | 'attack' | 'hold'
 export type DamageSource = 'player' | 'shadow' | 'impact' | 'rift'
 
 export interface Target {
+  pos: THREE.Vector3
