@@ -1169,3 +1169,4 @@ dialog::backdrop {
 }
 
 .tree-chaos::before {
+  content: 'Chaos';
