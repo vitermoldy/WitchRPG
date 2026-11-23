@@ -166,3 +166,4 @@ export class BossFight {
     this.u.setState('recover')
   }
 
+  private targetFor(): THREE.Vector3 | null {
