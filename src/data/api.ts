@@ -198,3 +198,4 @@ export async function flushQueue(): Promise<number> {
   const list = readQueue()
   let sent = 0
   for (const run of list) {
+    try {
