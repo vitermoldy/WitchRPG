@@ -175,3 +175,5 @@ export class Game {
     this.resize()
     this.applySettings()
     this.respawnProps()
+  }
+
