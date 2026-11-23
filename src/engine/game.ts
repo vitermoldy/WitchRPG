@@ -806,5 +806,6 @@ export class Game {
     if (this.rift.boss?.phase === 2) {
       this.rockT -= dt
       if (this.rockT <= 0) {
+        this.rockT = 2
   }
 }
