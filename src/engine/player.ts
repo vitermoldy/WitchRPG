@@ -150,3 +150,4 @@ export class Player {
       if (d2 < min * min && d2 > 1e-6 && this.pos.y < b.top - 0.1) {
         const d = Math.sqrt(d2)
         this.pos.x = b.pos.x + (dx / d) * min
+        this.pos.z = b.pos.z + (dz / d) * min
