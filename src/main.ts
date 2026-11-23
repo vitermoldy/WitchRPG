@@ -87,3 +87,4 @@ async function boot() {
     $('btn-reset').hidden = fresh
     const warn = $('save-warning')
     warn.hidden = !game.saveError
+    warn.textContent = game.saveError ?? ''
