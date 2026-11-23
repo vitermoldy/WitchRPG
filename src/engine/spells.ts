@@ -209,3 +209,4 @@ export class Spells {
         sphere.set(p.pos, p.radius)
         if (ray.intersectSphere(sphere, hit)) {
           const d = hit.distanceTo(o)
+          if (d < best.dist) best = { point: hit.clone(), dist: d, unit: null, prop: p }
