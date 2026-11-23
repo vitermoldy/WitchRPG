@@ -172,3 +172,4 @@ function facadeTextures(seed: number) {
       const x = 14 + k * 60
       const y = 10 + r * 64
       g.fillStyle = '#0d0b0c'
+      g.fillRect(x, y, 40, 42)
