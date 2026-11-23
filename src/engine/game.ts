@@ -367,3 +367,4 @@ export class Game {
     this.hands.pose('left', 'idle')
     this.hands.pose('right', 'idle')
     this.rift.start()
+    this.setState('playing')
