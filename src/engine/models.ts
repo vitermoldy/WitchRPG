@@ -429,6 +429,7 @@ function harrier(team: Team): UnitModel {
   const skull = box(0.2, 0.18, 0.26, bodyMat, meshes)
   skull.position.z = -0.08
   head.add(skull)
+  const beak = new THREE.Mesh(shape(`Cone:${[0.06, 0.3, 4].join(',')}`, () => new THREE.ConeGeometry(0.06, 0.3, 4)), s.bone)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
