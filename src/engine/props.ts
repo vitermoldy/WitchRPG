@@ -243,3 +243,4 @@ export class PropSystem {
           p.thrown = false
           if (Math.abs(p.mesh.rotation.x - rx) < 0.01 && Math.abs(p.mesh.rotation.z - rz) < 0.01) p.awake = false
         }
+      } else {
