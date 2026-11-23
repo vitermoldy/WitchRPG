@@ -324,6 +324,7 @@ function riftlord(team: Team): UnitModel {
       const cloak = new THREE.Mesh(new THREE.ConeGeometry(0.85, 1.9, 7, 1, true), m.body)
       cloak.material.side = THREE.DoubleSide
       cloak.position.set(0, 0.2, 0.3)
+      cloak.rotation.x = 0.12
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
