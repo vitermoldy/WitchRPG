@@ -21,3 +21,5 @@ export interface RiftRecord {
   shadowsRaised: number
   seconds: number
   finishedAt: string
+}
+
