@@ -178,3 +178,4 @@ export class UnitSystem {
         const d = u.pos.distanceTo(o.pos)
         if (d < bestD) {
           best = o
+          bestD = d
