@@ -83,6 +83,8 @@ export class Hud {
 
   /** A violet breath across the screen when the army is called. */
   umbraPulse() {
+    const el = $('umbra-veil')
+    el.classList.remove('on')
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
