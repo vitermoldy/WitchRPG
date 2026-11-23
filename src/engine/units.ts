@@ -364,6 +364,7 @@ export class UnitSystem {
         if (d < spec.attackRange && u.cd <= 0 && sees) {
           u.setState('windup')
           return
+        }
       if (u.kind === 'hound') {
         if (d < spec.attackRange && u.cd <= 0 && this.host.colliders.clear(u.center, tmp.set(tgt.pos.x, 0.8, tgt.pos.z))) {
           u.setState('windup')
