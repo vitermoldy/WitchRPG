@@ -116,6 +116,7 @@ Pemilik meminta "lanjutkan fitur berikutnya sesuai GDD". Semua yang ada di GDD u
 | --- | --- | --- |
 | Kunci | Tier IV terbuka di Lv 10 setelah The Hollow Warden kalah sekali. Tier V di Lv 13, juga setelah boss kalah. Tombol tier menulis "Lv 10" atau "Kalahkan boss" | Epilog berkata "Rift lain akan terbuka". Boss menjadi gerbang ke bagian sesudah versi pertama. |
 | Level musuh | Tier IV Lv 10 sampai 12, Tier V Lv 13 sampai 15. Tier IV lima gelombang, Tier V enam | Melanjutkan pita tiga level per tier dari Tier I sampai III. Dikunci tes. |
+| Musuh baru Tier IV: Harrier | Prajurit terbang. Melayang sekitar 7 m di atas targetnya, berputar, lalu menukik setelah jeritan 0,7 detik dan naik lagi. Kalau tembok atau atap menghalangi pandangannya lebih dari 1,5 detik, ia turun ke jalan dan merapat. Bayangan Harrier ikut terbang lebih rendah di sekitar Ilyra | Memberi kegunaan untuk terbang di dalam Rift. Jawabannya Hex Bolt ke atas, Telekinesis yang menarik turun, Chaos Burst yang menjatuhkannya, atau terbang menyusul. Makhluk darat tidak mengejar Harrier yang melayang di atasnya. Versi pertama melayang di atas atap mana pun di bawahnya dan bisa berputar di sana selamanya tanpa pernah melihat targetnya; satu Rift bot macet di gelombang 4 karenanya. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
