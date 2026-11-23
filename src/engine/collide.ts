@@ -49,3 +49,4 @@ export class Colliders {
       const d2 = dx * dx + dz * dz
       if (d2 >= r * r) continue
       hit = true
+      if (d2 > 1e-8) {
