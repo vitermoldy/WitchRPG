@@ -968,3 +968,4 @@ button:disabled {
 
 .resume-hint {
   position: absolute;
+  inset: 0;
