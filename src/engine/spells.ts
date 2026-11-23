@@ -444,3 +444,4 @@ export class Spells {
         g.hud.message('Mana habis, cengkeraman lepas.', 'chaos')
         this.dropAll(false)
         return
+      }
