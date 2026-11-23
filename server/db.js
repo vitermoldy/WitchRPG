@@ -60,3 +60,4 @@ const TABLES = [
     waves TINYINT UNSIGNED NOT NULL,
     kills SMALLINT UNSIGNED NOT NULL,
     xp_gained INT UNSIGNED NOT NULL,
+    levels_gained TINYINT UNSIGNED NOT NULL,
