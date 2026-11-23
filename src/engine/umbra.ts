@@ -168,6 +168,8 @@ export class Umbra {
 
   /** T again: every shadow on the field sinks into a pool and the darkness pulls back under the witch. */
   dismiss() {
+    const g = this.g
+    const out = this.field()
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
