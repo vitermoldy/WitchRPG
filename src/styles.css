@@ -1246,3 +1246,4 @@ dialog::backdrop {
 }
 
 .room-item {
+  display: grid;
