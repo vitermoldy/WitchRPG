@@ -112,6 +112,8 @@ export class Hud {
       { label: 'U', cls: 'cm-cardinal', x: p.pos.x, z: p.pos.z - 1000 },
       { label: 'T', cls: 'cm-cardinal', x: p.pos.x + 1000, z: p.pos.z },
       { label: 'S', cls: 'cm-cardinal', x: p.pos.x, z: p.pos.z + 1000 },
+      { label: 'B', cls: 'cm-cardinal', x: p.pos.x - 1000, z: p.pos.z },
+    ]
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
