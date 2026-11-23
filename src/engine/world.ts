@@ -418,3 +418,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
 
   // Central monument: a plinth you can stand on and a cracked obelisk leaning out of it.
   const plinth = solid(new THREE.Mesh(new THREE.BoxGeometry(7, 1.1, 7), concrete))
+  plinth.position.set(0, 0.55, 0)
