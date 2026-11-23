@@ -53,3 +53,4 @@ export class Hud {
     p.textContent = text
     this.feed.appendChild(p)
     while (this.feed.children.length > 5) this.feed.firstElementChild?.remove()
+    window.setTimeout(() => p.classList.add('fade'), 5200)
