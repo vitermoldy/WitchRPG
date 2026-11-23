@@ -290,6 +290,7 @@ export class UnitSystem {
   private skills(u: Unit, dt: number) {
     u.skillCd -= dt
     if (u.skillCd > 0 || u.state === 'air' || u.stun > 0) return
+    const host = this.host
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
