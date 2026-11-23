@@ -176,6 +176,7 @@ function hound(team: Team): UnitModel {
 
 interface BipedSize {
   hip: number
+  pelvis: [number, number, number]
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
