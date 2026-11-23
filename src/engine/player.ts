@@ -33,3 +33,4 @@ export class Player {
   readonly radius = MOVE.radius
   readonly height = 1.75
 
+  hp = 150
