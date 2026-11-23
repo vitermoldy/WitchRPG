@@ -144,6 +144,8 @@ async function boot() {
     $('out-cap').textContent = String(s.fieldCap)
     // In the open world, leaving goes to the title; in a Rift from a world gate, back out of the gate.
     const world = game.mode === 'world'
+    const gate = !world && !!game.returnToWorld
+    $('btn-leave').textContent = world ? 'Ke layar judul' : gate ? 'Kembali ke dunia terbuka' : 'Tinggalkan Rift'
   }
 
   game.onState = (s: GameState) => {
