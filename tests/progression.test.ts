@@ -7,6 +7,7 @@ import {
   isFresh,
   riteBlock,
   tierUnlocked,
+  xpForUnit,
   gainXp,
   impactDamage,
   newProfile,
