@@ -209,3 +209,4 @@ const SKY_VERT = /* glsl */ `
   }
 `
 const SKY_FRAG = /* glsl */ `
+  varying vec3 vDir;
