@@ -446,3 +446,4 @@ export class Game {
   }
 
   private tick() {
+    // Timer.reset() (on tab switches) measures with performance.now() while update() gets the
