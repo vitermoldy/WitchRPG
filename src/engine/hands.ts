@@ -110,3 +110,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   // Palm: faces forward (-Z); the player sees the back of the hand and its sigil.
   const palm = new THREE.Mesh(new THREE.BoxGeometry(0.082, 0.092, 0.03), skin)
   palm.position.set(0, 0.046, 0)
+  wrist.add(palm)
