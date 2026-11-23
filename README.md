@@ -15,3 +15,5 @@ npm test         # tes progresi dan rumus
 npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 ```
 
+## Kontrol
+
