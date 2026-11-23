@@ -34,3 +34,4 @@ export class Game {
   readonly camera = new THREE.PerspectiveCamera(CAMERA.fov, 1, CAMERA.near, CAMERA.far)
   private readonly composer: EffectComposer
   private readonly bloom: UnrealBloomPass
+  readonly hands = new Hands()
