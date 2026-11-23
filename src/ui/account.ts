@@ -8,3 +8,4 @@ import {
   fetchProfile,
   flushQueue,
   listRifts,
+  onAuth,
