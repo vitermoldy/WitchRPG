@@ -348,3 +348,4 @@ export class Spells {
         sphere.set(pr.pos, pr.radius)
         if (ray.intersectSphere(sphere, p)) {
           const d = p.distanceTo(b.prev)
+          if (d <= len && d < best) {
