@@ -96,3 +96,4 @@ button:disabled {
 }
 
 .btn {
+  display: inline-flex;
