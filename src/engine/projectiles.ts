@@ -22,3 +22,4 @@ interface Shot {
 
 export interface ShotHost {
   readonly colliders: Colliders
+  units: UnitSystem
