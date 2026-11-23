@@ -78,6 +78,7 @@ export class Unit implements Target {
   stun = 0
   /** Seconds of near-straight flight left after a Telekinesis throw. */
   flight = 0
+  /** Seconds left floating in a Reality Warp field. */
   // Corpse.
   deadT = 0
   riteTried = false
