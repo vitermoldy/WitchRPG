@@ -51,3 +51,4 @@ const RUNE_FRAG = /* glsl */ `
     gl_FragColor = vec4(uColor * v * 2.2, v * uFade);
   }
 `
+const RUNE_VERT = /* glsl */ `
