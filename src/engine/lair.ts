@@ -158,3 +158,5 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   colliders.add(-wall, 0, 1, wall * 2 + 2, 60)
   colliders.add(wall, 0, 1, wall * 2 + 2, 60)
 
+  const rockSpots = platforms.slice(1, 9).map((p) => p.center.clone().setY(p.center.y + 0.7))
+
