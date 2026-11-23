@@ -157,3 +157,4 @@ async function boot() {
   })
 
   // Pause.
+  $('btn-resume').addEventListener('click', () => void game.resume())
