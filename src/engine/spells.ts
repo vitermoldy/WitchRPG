@@ -83,3 +83,4 @@ const SHIELD_VERT = /* glsl */ `
   }
 `
 
+const boltGeo = new THREE.SphereGeometry(0.11, 10, 8)
