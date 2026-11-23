@@ -95,3 +95,5 @@ export class Player {
     let target: number = MOVE.walk
     if (this.sprinting) target = MOVE.sprint
     if (this.crouching) target = MOVE.crouch
+    target *= this.speedMult
+
