@@ -603,6 +603,8 @@ export class Game {
     this.spells.reset()
     this.umbra.reset()
     this.hud.clearFeed()
+    const spot = at ?? this.ow.start
+    this.player.reset(spot, Math.atan2(spot.x, spot.z))
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
