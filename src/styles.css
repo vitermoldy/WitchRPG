@@ -1427,6 +1427,7 @@ dialog::backdrop {
 
 .tier {
   display: grid;
+  justify-items: start;
 /* Account */
 .account-row {
   display: flex;
