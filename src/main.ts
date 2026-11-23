@@ -39,3 +39,4 @@ function webglOk() {
 
 function fmtTime(s: number) {
   const m = Math.floor(s / 60)
+  const r = Math.floor(s % 60)
