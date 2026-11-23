@@ -292,3 +292,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     const tear = new THREE.Mesh(new THREE.PlaneGeometry(2.6, 5), mat)
     tear.position.set(c.x, 2.8, c.z)
     tear.rotation.y = R() * Math.PI
+    group.add(tear)
+    const lv = bands[c.band].levels
