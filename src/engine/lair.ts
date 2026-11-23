@@ -63,3 +63,4 @@ function crackTexture(size: number) {
     eg.beginPath()
     g.beginPath()
     eg.moveTo(x, y)
+    g.moveTo(x, y)
