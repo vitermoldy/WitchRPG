@@ -109,3 +109,5 @@ function groundMaterial() {
         float rx = abs(m.x), rz = abs(m.y);
         float road = 1.0 - step(${OW.road}.0, min(rx, rz));
         float curb = (1.0 - road) * (1.0 - step(${OW.road + 3}.0, min(rx, rz)));
+        float dash = road * step(min(rx, rz), 0.14) * step(0.5, fract((rx < rz ? vWp.z : vWp.x) / 6.0));
+        float grain = n2(vWp.xz * 0.6) * 0.5 + n2(vWp.xz * 3.1) * 0.5;
