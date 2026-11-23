@@ -383,3 +383,4 @@ export class UnitSystem {
             if (o.pos.distanceTo(u.pos) < u.radius + o.radius + 0.25) {
               this.impact(u, speed, o)
               u.vel.multiplyScalar(0.4)
+              break
