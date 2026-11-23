@@ -35,6 +35,7 @@ export interface UnitHost {
   slamFx(at: THREE.Vector3, radius: number, team: Team): void
   /** A warning circle on the floor while a slam winds up. */
   telegraph(at: THREE.Vector3, radius: number, seconds: number): void
+  /** A summoner calls a helper. */
 }
 
 let nextId = 1
