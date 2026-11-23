@@ -277,3 +277,4 @@ export class PropSystem {
       if (!u.alive || u.team !== 'rift' || u.state === 'held' || p.hitUnits.has(u.id)) continue
       const dx = u.pos.x - p.pos.x
       const dz = u.pos.z - p.pos.z
+      const r = p.radius + u.radius
