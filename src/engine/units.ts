@@ -537,7 +537,7 @@ export class UnitSystem {
       if (u.state === 'held') continue
 
       if (u.state === 'air') {
-        u.vel.y -= 22 * dt
+        if (u.lifted > 0) {
         u.pos.addScaledVector(u.vel, dt)
         const n = new THREE.Vector3()
         const wall = host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3, n)
