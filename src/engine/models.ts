@@ -399,6 +399,7 @@ const BUILDERS: Record<UnitKind, (team: Team) => UnitModel> = { husk, hound, spi
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
+  m.body.userData.hip = m.body.position.y
 }
 
 export function disposeModel(m: UnitModel) {
