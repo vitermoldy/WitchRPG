@@ -13,3 +13,4 @@ export type BossPhase = 1 | 2 | 3
  * 3. It lands, swallows what is left of its army and is untouchable outside Reality Warp.
  */
 export class BossFight {
+  readonly u: Unit
