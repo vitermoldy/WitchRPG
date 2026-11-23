@@ -349,3 +349,5 @@ export class Game {
     this.input.unlock()
     saveProfile(this.profile)
     this.setState('dead')
+  }
+
