@@ -30,3 +30,5 @@ export class Hud {
 
   constructor(g: Game) {
     this.g = g
+  }
+
