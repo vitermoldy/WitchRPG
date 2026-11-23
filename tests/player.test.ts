@@ -13,3 +13,4 @@ describe('Player.update', () => {
   it('stays finite when standing still with a negative frame time (the black-screen bug)', () => {
     const p = new Player()
     p.reset(new THREE.Vector3(0, 0, 14), 0)
+    p.update(-0.0014, idle, new Colliders(), 1, [], true)
