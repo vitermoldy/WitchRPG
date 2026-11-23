@@ -104,3 +104,4 @@ describe('upgrades and shadows', () => {
     for (let i = 0; i < 3; i++) expect(addShadow(p, 'husk', 1)).not.toBeNull()
     expect(addShadow(p, 'hound', 1)).toBeNull()
   })
+  it('shares 30% of XP with shadows and keeps them at or below your level', () => {
