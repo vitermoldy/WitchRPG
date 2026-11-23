@@ -152,6 +152,7 @@ export class Umbra {
     const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
     const pick = [...ready].sort((a, b) => order[a.rank] - order[b.rank] || b.level - a.level)
     const n = pick.length
+    this.armyOut = true
     const p = g.player
     const feet = new THREE.Vector3(p.pos.x, g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5), p.pos.z)
     if (feet.y < -50 || feet.y < p.pos.y - 6) feet.y = p.pos.y
