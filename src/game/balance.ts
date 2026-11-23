@@ -21,3 +21,4 @@ export const MOVE = {
   floatDrain: 20,
   staminaRegen: 35,
   staminaRegenDelay: 0.5,
+  slideTime: 1,
