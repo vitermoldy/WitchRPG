@@ -157,7 +157,7 @@ export function derive(stats: Stats, level = 1): Derived {
     maxHp: PLAYER.baseHp + PLAYER.hpPerVit * stats.vit + PLAYER.hpPerLevel * grown,
     maxMana: PLAYER.baseMana + PLAYER.manaPerSpr * stats.spr,
     manaRegen: PLAYER.manaRegen * (1 + PLAYER.manaRegenPerSpr * above('spr')),
-    damageMult: 1 + PLAYER.damagePerHex * above('hex'),
+    damageMult: 1 + PLAYER.damagePerHex * above('hex') + PLAYER.damagePerLevel * grown,
     speedMult: 1 + PLAYER.speedPerAgi * above('agi'),
     floatTime: MOVE.floatMax + MOVE.floatPerAgi * above('agi'),
     slots: shadowSlots(stats.umb),
