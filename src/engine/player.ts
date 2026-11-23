@@ -68,3 +68,4 @@ export class Player {
   }
 
   update(dt: number, input: Input, world: Colliders, sensitivity: number, blockers: Circle[], canAct: boolean) {
+    // Look.
