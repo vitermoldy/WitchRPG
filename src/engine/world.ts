@@ -221,3 +221,4 @@ const SKY_FRAG = /* glsl */ `
     col = mix(col, top, smoothstep(0.15, 0.75, h));
     float r = max(0.0, dot(vDir, normalize(uRift)));
     col += vec3(0.42, 0.03, 0.05) * pow(r, 8.0) * 0.5;
+    col += vec3(0.2, 0.06, 0.3) * pow(r, 40.0) * 0.45;
