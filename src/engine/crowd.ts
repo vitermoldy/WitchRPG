@@ -15,3 +15,4 @@ interface Batch {
 const UP = new THREE.Vector3(0, 1, 0)
 
 /**
+ * The far part of a shadow army. Each kind is one merged, standing model drawn as an InstancedMesh with
