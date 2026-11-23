@@ -917,3 +917,4 @@ button:disabled {
 }
 
 .wheel-opt.on {
+  border-color: var(--umbra);
