@@ -102,6 +102,8 @@ export class Hud {
 
   private readonly compassMarks: HTMLElement[] = []
 
+  private updateCompass() {
+    const g = this.g
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
