@@ -456,3 +456,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   // Bus shelters.
   for (const [x, z] of [[-28, 9], [28, -7]] as const) {
     const roof = solid(new THREE.Mesh(new THREE.BoxGeometry(1.8, 0.15, 4.4), darkMetal))
+    roof.position.set(x, 2.6, z)
