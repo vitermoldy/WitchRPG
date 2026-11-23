@@ -8,3 +8,4 @@ import { COLOR } from './palette'
  * pillars over a void; the witch floats between them. Phase 3 keeps the pillars.
  */
 export interface Platform {
+  box: Box
