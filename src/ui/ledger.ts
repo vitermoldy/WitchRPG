@@ -164,3 +164,4 @@ export class Ledger {
             (s) => `<li class="room-item">
           <p class="room-name">${s.name}</p>
           <p class="room-meta">${RANKS[s.rank].label} dari ${UNITS[s.kind].name}, Lv ${s.level}${live.has(s.id) ? ', sedang bertarung' : ''}</p>
+          <button class="btn btn-small" type="button" data-release="${s.id}" aria-label="Lepas ${s.name}">Lepas</button>
