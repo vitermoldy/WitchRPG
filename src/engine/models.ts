@@ -162,3 +162,4 @@ function hound(team: Team): UnitModel {
     parts[name] = hip
   }
   const tail = pivot(body, 0, 0.08, 0.52)
+  let seg: THREE.Object3D = tail
