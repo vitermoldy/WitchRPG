@@ -21,3 +21,5 @@ export interface Gate {
 export interface CampSpot {
   id: number
   pos: THREE.Vector3
+  levels: [number, number]
+  pack: Partial<Record<Exclude<UnitKind, 'hollow'>, number>>
