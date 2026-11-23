@@ -36,3 +36,4 @@ export class Hud {
     this.root.hidden = !on
   }
 
+  private set(id: string, key: 'text' | 'transform' | 'class' | 'dash', value: string) {
