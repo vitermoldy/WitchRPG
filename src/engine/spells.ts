@@ -385,3 +385,4 @@ export class Spells {
     if (hit.unit && this.grippable(hit.unit)) first = { unit: hit.unit }
     else if (hit.prop && hit.prop.mass <= SPELL.grip.maxMass) first = { prop: hit.prop }
     else {
+      // A little aim help: the closest body to the crosshair inside a narrow cone.
