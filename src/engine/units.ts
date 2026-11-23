@@ -764,7 +764,7 @@ export class UnitSystem {
       if (!u.alive) continue
       u.pos.x += u.vel.x * dt
       u.pos.z += u.vel.z * dt
-      if (!u.brainHook) {
+      if (u.spec.fly && !u.brainHook) {
         u.vel.y = 0
         host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3)
         const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
