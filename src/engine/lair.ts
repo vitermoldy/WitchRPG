@@ -69,3 +69,4 @@ function crackTexture(size: number) {
       x += Math.cos(ang) * size * 0.017
       y += Math.sin(ang) * size * 0.017
       eg.lineTo(x, y)
+      g.lineTo(x, y)
