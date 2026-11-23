@@ -128,3 +128,4 @@ async function enter(path: string, payload: unknown): Promise<void> {
 
 export const signIn = (username: string, password: string): Promise<void> => enter('auth/login', { username, password })
 
+/** A new account. The witch and Rifts this browser has become the account's. */
