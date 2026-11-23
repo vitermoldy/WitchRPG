@@ -438,6 +438,8 @@ export class ShadowPools {
         polygonOffsetUnits: -2,
       })
       const mesh = new THREE.Mesh(geo, mat)
+      mesh.visible = false
+      mesh.renderOrder = 6
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
