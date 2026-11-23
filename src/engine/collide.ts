@@ -6,3 +6,4 @@ export interface Box {
   minZ: number
   maxZ: number
   top: number
+  /** Thin cover that Chaos Burst knocks down. */
