@@ -72,3 +72,4 @@ export class Ledger {
         void confirmDialog(`Lepas ${rec.name}?`, `${rec.name} kembali menjadi debu dan slotnya kosong. Bayangan yang dilepas tidak bisa dipanggil lagi.`, 'Lepas bayangan').then((ok) => {
           if (ok && releaseShadow(p, id)) this.after()
           if (!this.dlg.open) this.dlg.showModal()
+        })
