@@ -517,3 +517,4 @@ export class Game {
     }
   }
 
+  private simulate(dt: number) {
