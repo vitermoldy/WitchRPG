@@ -502,3 +502,4 @@ button:disabled {
 }
 
 .banner.show {
+  opacity: 1;
