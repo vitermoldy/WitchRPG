@@ -197,3 +197,4 @@ async function boot() {
   // Escape inside the Ledger closes it natively; returning to the fight then needs a click.
   document.addEventListener('pointerlockerror', () => {
     if (game.state === 'paused') {
+      showScreen('paused')
