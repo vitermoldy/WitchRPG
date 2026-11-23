@@ -36,3 +36,4 @@ export class ShadowCrowd {
     const model = buildModel(kind, 'shadow')
     model.root.updateMatrixWorld(true)
     const byMat = new Map<THREE.Material, THREE.BufferGeometry[]>()
+    for (const mesh of model.meshes) {
