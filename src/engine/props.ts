@@ -8,3 +8,4 @@ export type PropKind = 'car' | 'crate' | 'chunk'
 
 export interface Prop {
   id: number
+  kind: PropKind
