@@ -613,6 +613,7 @@ export class UnitSystem {
         if (d < u.radius + tgt.radius + 0.7) {
           u.hitThisLunge = true
           this.hit(u, tgt)
+        }
     }
   }
 
