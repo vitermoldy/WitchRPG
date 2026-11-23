@@ -140,6 +140,9 @@ export class Hud {
       if (el.textContent !== m.label) el.textContent = m.label
       el.style.transform = `translateX(${(-d / span + 0.5) * width}px)`
     })
+    for (let i = marks.length; i < this.compassMarks.length; i++) this.compassMarks[i].hidden = true
+  }
+
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
