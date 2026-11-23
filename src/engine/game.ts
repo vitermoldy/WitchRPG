@@ -614,6 +614,7 @@ export class Game {
     at.y = this.colliders.groundAt(at.x, at.z, u.radius, p.y + 1, 1.5)
     if (at.y < -50) at.copy(this.inLair ? this.lair.nearestTop(p) : p)
     u.pos.copy(at)
+    u.lastGood.copy(at)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
