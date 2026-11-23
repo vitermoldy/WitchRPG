@@ -86,8 +86,7 @@ export class Colliders {
   /** Ray against boxes and the ground plane. */
   raycast(o: THREE.Vector3, dir: THREE.Vector3, maxDist: number): RayHit | null {
     let best: RayHit | null = null
-    if (dir.y < -1e-6) {
-      const t = -o.y / dir.y
+    if (dir.y < -1e-6 && this.floor > -100) {
       if (t > 0 && t < maxDist) best = { dist: t, point: o.clone().addScaledVector(dir, t), normal: new THREE.Vector3(0, 1, 0), box: null }
     }
     for (const b of this.boxes) {
