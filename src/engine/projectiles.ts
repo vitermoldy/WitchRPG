@@ -34,6 +34,7 @@ export interface ShotHost {
   inWarp(at: THREE.Vector3): boolean
   reflectDamage: number
   onReflect(): void
+  /** A Bombard charge bursts: everything of the other side inside the radius is hit. */
 }
 
 const geo = new THREE.IcosahedronGeometry(1, 1)
