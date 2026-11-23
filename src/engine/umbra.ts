@@ -91,3 +91,4 @@ export class Umbra {
       const mat = u.model.bodyMat
       if (glowing) {
         const pulse = 0.55 + Math.sin(t * 4 + u.id) * 0.25
+        const end = Math.min(1, (window - u.deadT) / 3)
