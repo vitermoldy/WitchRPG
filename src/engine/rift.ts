@@ -117,3 +117,4 @@ export class RiftDirector {
       return
     }
     if (this.phase === 'breather') {
+      this.timer -= dt
