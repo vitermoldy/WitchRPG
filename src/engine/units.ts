@@ -579,6 +579,7 @@ export class UnitSystem {
         return
       }
       // Circle the target at dive distance; close in tight when a wall or roof hides it.
+      const r = lost ? 3 : 9
     }
   }
 
