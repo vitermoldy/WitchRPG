@@ -338,3 +338,4 @@ export class Hands {
     this.particles.update(dt)
   }
 
+  /** Particles drawn inward to a palm while a cast charges. */
