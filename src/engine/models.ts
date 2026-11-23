@@ -472,6 +472,7 @@ function harrier(team: Team): UnitModel {
     t.position.z = 0.12
     seg.add(t)
     seg = pivot(seg, 0, 0, 0.24)
+  }
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
