@@ -215,3 +215,4 @@ export class BossFight {
       u.vel.set(0, 0, 0)
       if (u.state === 'windup') u.setState('recover')
       return true
+    }
