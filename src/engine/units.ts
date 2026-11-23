@@ -523,6 +523,7 @@ export class UnitSystem {
         if (u.temp <= 0) {
           host.smoke.emit({ pos: u.pos, count: 10, color: 0x170a28, life: 1, size: 0.9, sizeEnd: 1.5, speed: 1, vel: { x: 0, y: 1, z: 0 }, alpha: 0.8 })
           this.remove(u)
+          continue
       if (u.state === 'spawn') {
         if (u.t > 0.7) u.setState('move')
         continue
