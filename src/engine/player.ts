@@ -120,3 +120,4 @@ export class Player {
       }
     }
 
+    // Jump and Crimson Float.
