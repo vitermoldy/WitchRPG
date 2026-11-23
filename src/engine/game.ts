@@ -357,3 +357,4 @@ export class Game {
     this.units.clear()
     this.respawnProps()
     this.glow.clear()
+    this.smoke.clear()
