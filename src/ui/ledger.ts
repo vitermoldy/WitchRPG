@@ -128,3 +128,4 @@ export class Ledger {
       ['Mana maksimum', fmt(d.maxMana)],
       ['Regen mana', `${fmt(d.manaRegen, 1)} per detik`],
       ['Damage Chaos', `${fmt(d.damageMult * 100)}%`],
+      ['Waktu melayang', `${fmt(d.floatTime, 1)} detik`],
