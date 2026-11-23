@@ -9,3 +9,5 @@ import type { Unit } from './units'
 interface Camp {
   spot: CampSpot
   state: 'idle' | 'active' | 'cleared'
+  units: Unit[]
+  respawnAt: number
