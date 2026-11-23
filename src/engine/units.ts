@@ -396,3 +396,4 @@ export class UnitSystem {
           u.vel.z *= 0.3
           u.thrown = false
           if (u.alive) u.setState('recover', 0.2)
+        }
