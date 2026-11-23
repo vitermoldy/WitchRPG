@@ -294,3 +294,4 @@ export class Spells {
         light: g.lights.acquire(COLOR.chaos, 6, 7),
       })
     }
+    g.hands.pose('left', 'cast', 0.25)
