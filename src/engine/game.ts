@@ -549,6 +549,7 @@ export class Game {
   enterLair() {
     this.inLair = true
     this.world.city.visible = false
+    this.lair.group.visible = true
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
