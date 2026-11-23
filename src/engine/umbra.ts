@@ -265,7 +265,8 @@ export class Umbra {
         if (k >= 1) g.units.remove(u)
       }
     }
-    this.candidate = this.casting && this.casting.state === 'dead' && !this.casting.riteTried && !this.casting.ash ? this.casting : best
+    this.casting = this.casting.filter((u) => u.state === 'dead' && !u.riteTried && !u.ash)
+    // Two or more glowing bodies in reach: one cast raises them all. Otherwise the one under the crosshair.
 
     // Casting.
     const holding = canAct && g.input.held('KeyR')
