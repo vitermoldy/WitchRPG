@@ -132,6 +132,7 @@ export class Unit implements Target {
 
   /** Forward direction on the ground. */
   get facing() {
+    return new THREE.Vector3(-Math.sin(this.yaw), 0, -Math.cos(this.yaw))
   setState(s: UnitState, t = 0) {
     this.state = s
     this.t = t
