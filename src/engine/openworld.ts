@@ -68,3 +68,5 @@ function facadeMaterial() {
     shader.fragmentShader = shader.fragmentShader
       .replace('#include <common>', '#include <common>\nvarying vec3 vWp;\nvarying vec3 vWn;\nfloat h21(vec2 p){ return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }')
       .replace(
+        '#include <emissivemap_fragment>',
+        `#include <emissivemap_fragment>
