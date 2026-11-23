@@ -623,6 +623,7 @@ export class Game {
   slamFx(at: THREE.Vector3, radius: number, team: Team) {
     const col = team === 'rift' ? COLOR.rift : COLOR.umbra
     this.rings.spawn(at, col, 0.4, radius, 0.5)
+    this.glow.emit({ pos: at.clone().setY(at.y + 0.3), count: 50, color: col, intensity: 2.6, life: 0.6, size: 0.25, sizeEnd: 0.04, speed: radius * 1.3, drag: 3, gravity: 4 })
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
