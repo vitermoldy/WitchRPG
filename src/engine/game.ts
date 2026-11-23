@@ -367,7 +367,7 @@ export class Game {
     if (this.rift.boss && u === this.rift.boss.u) raw = this.rift.boss.filter(raw, by, from)
     if (raw <= 0) return
     // Chaos and feedback count only the damage that landed, not overkill.
-    const amount = Math.min(u.hp, u.team === 'rift' && u.vulnerable > 0 ? dmg * 1.25 : dmg)
+    const amount = Math.min(u.hp, raw)
     u.hp -= amount
     u.flash = 1
     if (u.team === 'rift') {
