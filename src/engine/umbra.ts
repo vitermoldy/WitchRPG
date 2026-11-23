@@ -222,3 +222,4 @@ export class Umbra {
     if (this.casting) {
       this.g.hud.message('Cast terputus karena kamu terkena serangan.', 'umbra')
       this.cancel()
+    }
