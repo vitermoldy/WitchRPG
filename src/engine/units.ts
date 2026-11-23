@@ -287,6 +287,7 @@ export class UnitSystem {
       }
       const walker = !u.spec.fly && !u.spec.shot
       for (const o of this.shadowAlive) {
+        if (!o.alive || o.state === 'rising' || o.state === 'sinking') continue
         // A shadow Warden draws attention to itself.
         const d = u.pos.distanceTo(o.pos) * (o.kind === 'warden' ? 0.6 : 1)
         if (d < bestD) {
