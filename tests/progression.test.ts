@@ -79,3 +79,4 @@ describe('stats and slots', () => {
     expect(d.damageMult).toBe(1)
     expect(d.floatTime).toBe(5)
   })
+  it('spends stat points only when there are some', () => {
