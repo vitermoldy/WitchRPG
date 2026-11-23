@@ -126,3 +126,4 @@ export function buyUpgrade(p: Profile, id: SkillId): boolean {
   return true
 }
 
+export function spendStat(p: Profile, key: StatKey): boolean {
