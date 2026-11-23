@@ -197,3 +197,4 @@ export class Game {
   }
 
   applyStats(refill: boolean) {
+    const before = { hp: this.player.maxHp, mana: this.player.maxMana }
