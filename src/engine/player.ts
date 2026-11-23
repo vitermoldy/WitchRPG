@@ -175,3 +175,5 @@ export class Player {
     if (!Number.isFinite(this.pos.x + this.pos.y + this.pos.z + this.vel.x + this.vel.y + this.vel.z)) {
       this.pos.copy(this.lastGood)
       this.vel.set(0, 0, 0)
+    } else this.lastGood.copy(this.pos)
+
