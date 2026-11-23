@@ -239,7 +239,7 @@ export class UnitSystem {
       u.focus = null
     }
     const anchor = u.command === 'hold' ? u.holdPos : p.pos
-    const range = u.command === 'hold' ? 6 : SHADOW.engageRange
+    const range = u.command === 'hold' ? 6 : SHADOW.engageRange + (u.spec.shot ? 8 : 0)
     for (const o of this.units) {
       if (o.team !== 'rift' || !o.alive || o.state === 'spawn') continue
       const d = u.pos.distanceTo(o.pos)
