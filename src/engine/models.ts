@@ -170,3 +170,4 @@ function hound(team: Team): UnitModel {
     const next = pivot(seg, 0, 0, 0.22)
     seg = next
   }
+  parts.tail = tail
