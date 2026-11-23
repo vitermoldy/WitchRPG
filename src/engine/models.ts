@@ -327,6 +327,7 @@ function riftlord(team: Team): UnitModel {
       cloak.rotation.x = 0.12
       p.spine.add(cloak)
       meshes.push(cloak)
+      for (const fore of [p.foreL, p.foreR]) {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
