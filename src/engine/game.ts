@@ -442,3 +442,4 @@ export class Game {
     this.renderer.setAnimationLoop((ts) => {
       this.timer.update(ts)
       this.tick()
+    })
