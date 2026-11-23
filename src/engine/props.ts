@@ -114,3 +114,4 @@ export class PropSystem {
       halfH,
       mass,
       held: false,
+      thrown: false,
