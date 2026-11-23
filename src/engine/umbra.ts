@@ -206,3 +206,4 @@ export class Umbra {
       return
     }
     this.casting = u
+    this.progress = 0
