@@ -483,6 +483,7 @@ function bombard(team: Team): UnitModel {
     team,
     { hip: 1, pelvis: [0.66, 0.3, 0.48], torso: [0.92, 0.78, 0.66], lean: 0.5, head: [0.32, 0.26, 0.36], shoulderX: 0.55, arm: [0.22, 0.5, 0.58], hipX: 0.24, leg: [0.25, 0.5, 0.5] },
     (p, m, meshes) => {
+      const tube = new THREE.Mesh(shape(`Cylinder:${[0.24, 0.3, 1.05, 8].join(',')}`, () => new THREE.CylinderGeometry(0.24, 0.3, 1.05, 8)), m.bone)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
