@@ -191,6 +191,7 @@ export class Umbra {
     this.armyOut = false
     if (!out.length) return
     out.forEach((u, i) => {
+      if (i < POOLS_PER_CALL) g.pools.open(u.pos, 0.9 + u.radius * 1.6, 0.6)
       u.setState('sinking')
       u.vel.set(0, 0, 0)
     }
