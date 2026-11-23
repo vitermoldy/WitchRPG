@@ -490,3 +490,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     floaters.push({ m, base, spin: new THREE.Vector3(R() - 0.5, R() - 0.5, R() - 0.5).multiplyScalar(0.25), phase: R() * 6 })
   }
 
+  // Props for the physics layer.
