@@ -231,3 +231,4 @@ export class PropSystem {
         const fr = Math.exp(-6 * dt)
         p.vel.x *= fr
         p.vel.z *= fr
+        p.spin.multiplyScalar(Math.exp(-5 * dt))
