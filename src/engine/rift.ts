@@ -121,7 +121,7 @@ export class RiftDirector {
     const rest = q.filter((s) => s.kind !== 'riftlord')
     for (let n = rest.length - 1; n > 0; n--) {
       const k = Math.floor(Math.random() * (n + 1))
-      ;[q[n], q[k]] = [q[k], q[n]]
+      ;[rest[n], rest[k]] = [rest[k], rest[n]]
     }
     this.queue = q
     this.wave = i + 1
