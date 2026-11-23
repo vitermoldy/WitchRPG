@@ -72,3 +72,4 @@ async function boot() {
     const base = newProfile()
     const fresh =
       p.level === 1 &&
+      p.xp === 0 &&
