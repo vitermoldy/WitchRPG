@@ -11,3 +11,4 @@ interface Portal {
   pos: THREE.Vector3
   mesh: THREE.Mesh
   mat: THREE.ShaderMaterial
+  open: number
