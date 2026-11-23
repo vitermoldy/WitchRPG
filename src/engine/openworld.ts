@@ -89,3 +89,5 @@ function facadeMaterial() {
   return mat
 }
 
+/** Asphalt roads, pale curbs, cracked concrete blocks; all from world position, no texture. */
+function groundMaterial() {
