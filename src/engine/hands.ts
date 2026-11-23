@@ -35,3 +35,4 @@ interface Finger {
 interface Hand {
   side: Side
   root: THREE.Group
+  wrist: THREE.Group
