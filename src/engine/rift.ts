@@ -45,3 +45,4 @@ export class RiftDirector {
       this.portals.push({ pos: p.clone(), mesh, mat, open: 0 })
     })
     this.exit = new THREE.Group()
+    this.exitMat = makeTearMaterial(9.3)
