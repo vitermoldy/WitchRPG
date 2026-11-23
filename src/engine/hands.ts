@@ -37,3 +37,4 @@ interface Hand {
   root: THREE.Group
   wrist: THREE.Group
   fingers: Finger[]
+  thumb: THREE.Object3D[]
