@@ -189,3 +189,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     orb,
     light,
     sigil,
+    cuff,
