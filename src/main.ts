@@ -69,6 +69,7 @@ async function boot() {
   const resumeHint = $('resume-hint')
 
   let account: { refresh: () => void } | null = null
+  let pickedTier = false
 
   const renderTitle = () => {
     const p = game.profile
