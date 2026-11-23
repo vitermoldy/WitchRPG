@@ -479,3 +479,4 @@ export class Spells {
     const first = this.grabbed[0]
     const to = first.unit ? first.unit.center : first.prop!.pos
     const mid = from.clone().lerp(to, 0.5).add(new THREE.Vector3(0, 0.6, 0))
+    const t = performance.now() / 1000
