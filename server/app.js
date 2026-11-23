@@ -177,3 +177,4 @@ export function createApi(getPool, database) {
       }
       await conn.query(
         `INSERT INTO witches (client_id, level, xp, stat_points, skill_points, hex, spr, vit, agi, umb, next_shadow_id, clears, settings, updated_at)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
