@@ -342,3 +342,4 @@ export class Hands {
   gather(side: Side, k: number) {
     const h = this.hand(side)
     h.orb.getWorldPosition(this.tmp)
+    const col = this.overload ? h.overloadColor : h.color
