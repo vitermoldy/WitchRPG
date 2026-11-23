@@ -188,3 +188,4 @@ export class Hud {
   }
 
   private updateWheel() {
+    const u = this.g.umbra
