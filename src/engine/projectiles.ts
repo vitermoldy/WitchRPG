@@ -94,3 +94,4 @@ export class Projectiles {
         s.gravity = 0
         const speed = Math.max(14, s.vel.length())
         const back = s.source && s.source.alive ? s.source.center.sub(s.pos) : s.vel.clone().negate()
+        s.vel.copy(back.normalize().multiplyScalar(speed))
