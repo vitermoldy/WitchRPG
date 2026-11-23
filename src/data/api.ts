@@ -205,3 +205,4 @@ export async function flushQueue(): Promise<number> {
       break
     }
   }
+  writeQueue(list.slice(sent))
