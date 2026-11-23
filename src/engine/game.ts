@@ -208,3 +208,4 @@ export class Game {
       p.hp = p.maxHp
       p.mana = p.maxMana
     } else {
+      p.hp = Math.min(p.maxHp, p.hp + Math.max(0, p.maxHp - before.hp))
