@@ -106,7 +106,7 @@ async function boot() {
       const why = tierLock(p, t)
       el.setAttribute('aria-label', open ? `Rift Tier ${TIERS[t].roman}` : `Rift Tier ${TIERS[t].roman}, terkunci: ${why}`)
       const lock = el.querySelector('.tier-lock') as HTMLElement
-      lock.textContent = open ? (p.tierClears[t] ? `${p.tierClears[t]} kali ditutup` : 'Terbuka') : `Lv ${TIERS[t].unlock}`
+      // The button is narrow: the level, or that the boss has to fall first. The full reason is in the label.
     }
     let info = TIER_INFO[game.tier]
     if (game.tier === 3) info += bossUnlocked(p) ? (p.bossKills ? ` The Hollow Warden sudah tumbang ${p.bossKills} kali.` : '') : ` Gerbangnya terbuka di Lv ${TIERS[3].boss!.unlock}.`
