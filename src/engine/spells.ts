@@ -164,3 +164,4 @@ export class Spells {
     return hasUpgrade(this.g.profile, id)
   }
 
+  /** Spends mana unless Overload makes skills free. */
