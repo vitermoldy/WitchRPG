@@ -53,3 +53,4 @@ async function boot() {
   try {
     game = new Game($<HTMLCanvasElement>('view'), debug)
   } catch (e) {
+    fail(`Renderer gagal dibuat: ${(e as Error).message}`)
