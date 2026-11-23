@@ -66,3 +66,4 @@ export class BossFight {
   }
 
   update(dt: number) {
+    const g = this.g
