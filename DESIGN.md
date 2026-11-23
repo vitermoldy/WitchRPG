@@ -33,3 +33,4 @@ Belum dibuat (ditandai "Belum ada di prototype ini" di Ledger): Reality Warp, Ke
 | Ruang Bayangan dipanggil dengan menahan Z | Semua bayangan bangkit otomatis di awal Rift; tahan Z membuka roda perintah | Satu tombol untuk dua fungsi tahan membuat salah pencet. Memanggil semua di awal juga menjaga tempo pembuka. |
 | Perintah "Serang target" dan Perintah Fokus (Lv 6) | Sebelum Lv 6, Serang mengirim tiap bayangan ke musuh terdekat dari titik bidik. Setelah Lv 6, semua memukul satu target; upgradenya +20% damage | Memberi Perintah Fokus perbedaan yang terasa. |
 | Efek stat per poin | Dihitung dari poin di atas nilai awal 5, kecuali UMB di rumus Umbra Rite | Witch baru bermain di nilai dasar GDD. Rumus peluang memakai UMB mentah supaya contoh GDD (58%) tetap tepat, dan itu dikunci tes. |
+| Slot bayangan "3 di awal, +1 tiap 5 poin Umbra" | 3 + floor((UMB − 5) / 5) | UMB awal 5 memberi tepat 3 slot. |
