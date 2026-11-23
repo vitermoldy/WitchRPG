@@ -105,3 +105,4 @@ export class PropSystem {
     this.group.add(mesh)
     const p: Prop = {
       id: nextId++,
+      kind,
