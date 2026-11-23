@@ -295,6 +295,7 @@ function warden(team: Team): UnitModel {
       rim.castShadow = false
       p.foreL.add(rim)
       p.shield = shield
+      const mace = box(0.26, 0.3, 0.26, m.bone, meshes, -0.55)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
