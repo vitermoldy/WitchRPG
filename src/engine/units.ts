@@ -225,6 +225,8 @@ export class UnitSystem {
     if (u.hasModel) disposeModel(u.model)
   }
 
+  }
+
   clear() {
     for (const u of [...this.units]) this.remove(u)
   }
