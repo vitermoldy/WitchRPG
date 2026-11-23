@@ -87,3 +87,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       else if (offline) $('gate-retry').focus()
     }
     shown = gate.open ? state.status : null
+    renderRow(state)
