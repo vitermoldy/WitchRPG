@@ -550,3 +550,4 @@ export class Game {
     this.umbra.update(dt, true)
     this.units.update(dt, this.t)
     this.props.update(dt)
+    this.rift.update(dt)
