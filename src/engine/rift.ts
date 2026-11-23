@@ -40,3 +40,4 @@ export class RiftDirector {
       const mesh = new THREE.Mesh(new THREE.PlaneGeometry(3.4, 6), mat)
       mesh.position.set(p.x, 3, p.z)
       mesh.lookAt(0, 3, 0)
+      mesh.renderOrder = 6
