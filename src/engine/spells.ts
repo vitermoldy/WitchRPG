@@ -206,3 +206,4 @@ export class Spells {
     if (opts.props !== false) {
       for (const p of this.g.props.props) {
         if (p.held || p.kind === 'chunk') continue
+        sphere.set(p.pos, p.radius)
