@@ -78,3 +78,5 @@ export class RiftDirector {
 
   get remaining() {
     return this.queue.length + this.g.units.enemies().length
+  }
+
