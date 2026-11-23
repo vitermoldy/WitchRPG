@@ -92,6 +92,7 @@ export class Ledger {
 
   open() {
     this.render()
+    void this.renderHistory()
     if (!this.dlg.open) this.dlg.showModal()
     $('btn-ledger-close').focus()
   }
