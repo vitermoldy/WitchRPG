@@ -75,3 +75,5 @@ export class WorldDirector {
     for (const c of this.camps) {
       const d = Math.hypot(p.pos.x - c.spot.pos.x, p.pos.z - c.spot.pos.z)
       const want = c.state === 'cleared' ? 0.12 : 1
+      c.open += (want - c.open) * Math.min(1, dt * 1.5)
+      c.spot.mat.uniforms.uOpen.value = c.open
