@@ -115,6 +115,7 @@ export class Ledger {
       box.innerHTML = '<p class="room-empty">Belum ada Rift yang tercatat. Setiap Rift yang ditutup, membuatmu tumbang, atau kamu tinggalkan masuk ke sini.</p>'
       return
     }
+    box.innerHTML = `<ol class="history-list">${runs
   close() {
     if (this.dlg.open) this.dlg.close()
   }
