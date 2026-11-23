@@ -94,6 +94,7 @@ async function boot() {
   }
   const renderTiers = () => {
     const p = game.profile
+    if (!tierUnlocked(p, game.tier)) game.tier = 1
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
