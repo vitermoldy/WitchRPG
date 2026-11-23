@@ -289,3 +289,4 @@ export class Spells {
         prev: from.clone(),
         vel: d.multiplyScalar(SPELL.bolt.speed),
         life: SPELL.bolt.life,
+        damage: dmg,
