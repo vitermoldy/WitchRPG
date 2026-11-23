@@ -44,3 +44,4 @@ interface Hand {
   cuff: THREE.MeshStandardMaterial
   base: THREE.Vector3
   baseRot: THREE.Euler
+  pose: Pose
