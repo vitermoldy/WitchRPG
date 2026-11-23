@@ -307,8 +307,7 @@ export class UnitSystem {
     }
     const anchor = u.command === 'hold' ? u.holdPos : p.pos
     const range = u.command === 'hold' ? 6 : SHADOW.engageRange + (u.spec.shot ? 8 : 0)
-    for (const o of this.units) {
-      if (o.team !== 'rift' || !o.alive || o.state === 'spawn') continue
+    const walker = !u.spec.fly && !u.spec.shot
       const d = u.pos.distanceTo(o.pos)
       if (d < bestD && o.pos.distanceTo(anchor) < (u.command === 'hold' ? range : SHADOW.leash + (u.spec.shot ? 8 : 0)) && d < range + 6) {
         best = o
