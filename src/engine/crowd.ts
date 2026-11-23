@@ -19,3 +19,4 @@ const UP = new THREE.Vector3(0, 1, 0)
  * one draw per material, placed by position, facing and scale. Rising and sinking still play, by moving
  * the instance into and out of the ground. The nearest shadows keep their own animated models.
  */
+export class ShadowCrowd {
