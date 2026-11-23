@@ -122,3 +122,4 @@ export class Projectiles {
         const floor = h.colliders.groundAt(s.pos.x, s.pos.z, 0.1, s.pos.y, 0.05)
         if (wall || s.pos.y <= floor || s.life <= 0) hit = true
       }
+      if (hit) {
