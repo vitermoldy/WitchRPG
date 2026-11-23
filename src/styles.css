@@ -1143,3 +1143,4 @@ dialog::backdrop {
   color: var(--ink-3);
 }
 
+.derived dd {
