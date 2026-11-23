@@ -255,3 +255,4 @@ export class Hands {
     const h = this.hand(side)
     h.orb.getWorldPosition(this.tmp)
     // Hand-camera space equals world-camera space (both look down -Z from the origin).
+    out.copy(this.tmp).applyMatrix4(worldCam.matrixWorld)
