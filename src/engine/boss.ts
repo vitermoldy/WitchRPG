@@ -218,3 +218,4 @@ export class BossFight {
     }
     const d = goal ? Math.hypot(goal.x - u.pos.x, goal.z - u.pos.z) : 99
     if (d > 9) {
+      if (u.state === 'move') {
