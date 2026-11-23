@@ -288,3 +288,4 @@ export class Hands {
       h.root.position.set(
         h.base.x + this.swayX + bobX + (Math.random() - 0.5) * trem - mirror * p.reach * 0.25,
         h.base.y + this.swayY + bobY + breathe + p.lift + (Math.random() - 0.5) * trem,
+        h.base.z - p.reach - h.kick * 0.05,
