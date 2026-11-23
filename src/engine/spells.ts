@@ -561,6 +561,7 @@ export class Spells {
         if (u.alive) {
           u.vel.copy(v)
           u.thrown = throwIt
+          u.flight = throwIt ? SPELL.grip.flight : 0
           u.setState('air')
         }
       } else {
