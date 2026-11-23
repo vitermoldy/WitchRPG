@@ -367,6 +367,7 @@ export class Warnings {
       if (!w.group.visible) continue
       w.t += dt
       const k = Math.min(1, w.t / w.dur)
+      w.fill.scale.setScalar(Math.max(0.01, (w.fill.userData.r as number) * k))
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
