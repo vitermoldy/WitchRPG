@@ -233,3 +233,4 @@ export class PropSystem {
         p.vel.z *= fr
         p.spin.multiplyScalar(Math.exp(-5 * dt))
         // Settle onto a flat face.
+        const snap = p.kind === 'car' ? Math.PI : Math.PI / 2
