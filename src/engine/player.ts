@@ -44,3 +44,4 @@ export class Player {
   speedMult = 1
   floatMax: number = MOVE.floatMax
 
+  private readonly lastGood = new THREE.Vector3()
