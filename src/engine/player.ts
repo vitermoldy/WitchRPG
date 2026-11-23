@@ -212,3 +212,4 @@ export class Player {
     return out.set(-Math.sin(this.yaw) * c, Math.sin(this.pitch), -Math.cos(this.yaw) * c)
   }
 
+  get eyePos() {
