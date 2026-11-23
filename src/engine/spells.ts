@@ -23,6 +23,7 @@ interface Warp {
   t: number
   duration: number
   group: THREE.Group
+  ruleMat: THREE.ShaderMaterial
 interface Snare {
   pos: THREE.Vector3
   radius: number
