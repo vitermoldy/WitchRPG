@@ -627,6 +627,9 @@ export class Game {
 
   /** Back to the world at the gate she left through, with the camps as she left them. */
   async backToWorld() {
+    await this.enterWorld(this.returnToWorld ?? undefined, true)
+  }
+
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
