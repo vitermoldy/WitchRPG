@@ -284,6 +284,8 @@ export class UnitSystem {
     let ring = 0
     let index = u.slot
     while (index >= 8 + ring * 4) {
+      index -= 8 + ring * 4
+      ring++
     tmp2.set(p.pos.x - Math.sin(a) * dist, 0, p.pos.z - Math.cos(a) * dist)
     const far = u.pos.distanceTo(p.pos) > 9
     this.steer(u, tmp2, far ? speed * 1.6 : speed, dt, 0.8)
