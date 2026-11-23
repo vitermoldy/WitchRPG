@@ -416,6 +416,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     }
   }
   // The arena edge itself: 4 m thick, so a crowd pushing against it can never squeeze anything past its middle.
+  const wall = half + 2
 
   // Central monument: a plinth you can stand on and a cracked obelisk leaning out of it.
   const plinth = solid(new THREE.Mesh(new THREE.BoxGeometry(7, 1.1, 7), concrete))
