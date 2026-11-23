@@ -235,3 +235,4 @@ export class Game {
     this.brokenCover.length = 0
   }
 
+  breakCover(b: Box, from: THREE.Vector3) {
