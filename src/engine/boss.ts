@@ -16,3 +16,4 @@ export class BossFight {
   readonly u: Unit
   phase: BossPhase = 1
   private readonly g: Game
+  private summonT = 6
