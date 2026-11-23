@@ -1779,3 +1779,5 @@ dialog::backdrop {
   background: var(--ink-3);
 }
 
+.hud.world .rift-status {
+  top: calc(var(--gutter) + 2.8rem);
