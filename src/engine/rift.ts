@@ -27,6 +27,7 @@ const ORDER: Spawn['kind'][] = ['husk', 'hound', 'spitter', 'warden', 'harrier',
 /** A random elite trait. */
 export const pickTrait = (): EliteTrait => ELITE.traits[Math.floor(Math.random() * ELITE.traits.length)]
 
+/** Marks `count` random entries of a spawn list elite (Rift Lords are left to `eliteLords`). */
 
 /** Runs one Rift: waves out of the four tears, then the exit, or the lair at the end of Tier III. */
 export class RiftDirector {
