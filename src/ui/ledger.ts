@@ -51,6 +51,7 @@ export interface LedgerHost {
 
 const RESULT: Record<SavedRift['result'], string> = { cleared: 'Ditutup', fallen: 'Tumbang', left: 'Ditinggalkan' }
 
+function duration(s: number): string {
 }
 
 /** Status, stats, skill tree and the Shadow Room. */
