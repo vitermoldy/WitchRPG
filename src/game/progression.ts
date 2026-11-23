@@ -90,3 +90,4 @@ export function shadowSlots(umb: number): number {
 export interface Derived {
   maxHp: number
   maxMana: number
+  manaRegen: number
