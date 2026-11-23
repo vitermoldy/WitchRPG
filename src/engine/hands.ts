@@ -217,3 +217,4 @@ export class Hands {
 
   constructor() {
     const tex = glowTexture()
+    this.left = buildHand('left', COLOR.chaos, tex)
