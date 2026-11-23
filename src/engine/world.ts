@@ -291,3 +291,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       uniforms: { uRift: { value: riftDir }, uTime: { value: 0 } },
       vertexShader: SKY_VERT,
       fragmentShader: SKY_FRAG,
+      side: THREE.BackSide,
