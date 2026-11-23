@@ -20,3 +20,4 @@ const newCode = () => Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHAB
 
 // Mirrors src/game: skill ids, creature kinds, shadow ranks and the five stats.
 const SKILLS = new Set(['hexBolt', 'grip', 'burst', 'snare', 'barrier', 'warp', 'rite', 'swap', 'focus', 'general', 'marshal'])
+const KINDS = new Set(['husk', 'hound'])
