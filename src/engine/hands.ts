@@ -144,3 +144,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   }
   // Thumb on the inner edge.
   const thumb: THREE.Object3D[] = []
+  {
