@@ -291,3 +291,4 @@ export class Spells {
         life: SPELL.bolt.life,
         damage: dmg,
         mesh,
+        light: g.lights.acquire(COLOR.chaos, 6, 7),
