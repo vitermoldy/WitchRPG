@@ -237,3 +237,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     window.clearTimeout(pushTimer)
     let sent = true
     try {
+      await pushProfile(game.profile)
