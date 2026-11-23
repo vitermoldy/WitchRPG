@@ -487,3 +487,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     m.position.set(Math.cos(a) * r, base, Math.sin(a) * r)
     m.castShadow = true
     scene.add(m)
+    floaters.push({ m, base, spin: new THREE.Vector3(R() - 0.5, R() - 0.5, R() - 0.5).multiplyScalar(0.25), phase: R() * 6 })
