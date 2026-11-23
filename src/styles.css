@@ -1684,3 +1684,5 @@ dialog::backdrop {
   background: radial-gradient(ellipse at 50% 85%, transparent 25%, rgba(36, 10, 78, 0.6) 100%);
 }
 
+.veil-umbra.on {
+  animation: umbra-breath 1.7s ease-out;
