@@ -348,3 +348,4 @@ export class Hands {
       const r = 0.09 + Math.random() * 0.05
       const from = { x: this.tmp.x + Math.cos(a) * r, y: this.tmp.y + Math.sin(a) * r, z: this.tmp.z + (Math.random() - 0.5) * 0.05 }
       this.particles.emit({
+        pos: from,
