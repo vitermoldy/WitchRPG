@@ -263,3 +263,4 @@ export class PropSystem {
         if (speed > 5) {
           o.awake = true
           o.vel.x -= (dx / d) * speed * 0.3 * (p.mass / (o.mass + p.mass))
+          o.vel.z -= (dz / d) * speed * 0.3 * (p.mass / (o.mass + p.mass))
