@@ -689,6 +689,7 @@ export class UnitSystem {
     m.root.rotation.y = u.yaw
     const speed = Math.hypot(u.vel.x, u.vel.z)
     const stride = u.kind === 'hound' ? 2.6 : 3.4 / Math.max(1, u.height / 1.8)
+    u.walk += dt * speed * stride
     const sw = Math.sin(u.walk)
     const amp = Math.min(1, speed / Math.max(1, u.speed))
     const flashCol = u.team === 'rift' ? 0xffffff : COLOR.umbraHot
