@@ -331,3 +331,4 @@ export class Spells {
       const sphere = new THREE.Sphere()
       const p = new THREE.Vector3()
       for (const u of g.units.units) {
+        if (u.team !== 'rift' || !u.alive || u.state === 'spawn') continue
