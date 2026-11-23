@@ -46,3 +46,5 @@ Semua di `src/game/balance.ts`.
 
 ## Arah desain
 
+Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
+
