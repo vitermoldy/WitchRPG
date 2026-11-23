@@ -375,6 +375,7 @@ export class Warnings {
   }
 
   clear() {
+    for (const w of this.pool) w.group.visible = false
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
