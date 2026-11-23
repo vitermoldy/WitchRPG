@@ -102,6 +102,8 @@ Pemilik meminta "bayangannya bisa dikeluarkan tanpa kecuali". Saya membacanya se
 | Pengaturan | "Bayangan di medan" diganti "Bayangan detail penuh" (10 sampai 120, bawaan 40): berapa bayangan terdekat yang digambar dengan model dan gerakan lengkap. Semua bayangan tetap bertarung | Batas lama ada hanya karena biaya gambar. Sekarang angka itu hanya mengatur kualitas, bukan jumlah. |
 | Kerumunan | Bayangan di luar yang terdekat digambar sebagai satu InstancedMesh per jenis, satu gambar per material, dengan posisi, arah, ayunan langkah kecil, naik dari kolam dan tenggelam. Model lengkap dibuat hanya saat pertama kali dibutuhkan | Seratus dua puluh model lengkap sudah memakan 26 ms per frame. |
 | Pemanggilan besar | Selesai dalam sekitar 2,5 detik berapa pun jumlahnya. Sembilan puluh prajurit pertama mendapat kolam sendiri, sisanya naik dari kolam lebar yang menutupi seluruh barisan (sampai 60 m) | Satu kolam per prajurit untuk dua ribu prajurit akan berkedip karena kolamnya habis dipakai ulang. |
+| Biaya simulasi | Geometri dipakai bersama oleh semua makhluk sejenis. Dorongan antarmakhluk memakai grid 3 m, dan tabrakan dengan dinding dan lantai memakai indeks sel 8 m, bukan memeriksa setiap kotak di peta | Dengan dua ribu makhluk, memeriksa setiap pasangan berarti dua juta pemeriksaan per frame, dan setiap makhluk memeriksa setiap gedung. |
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
