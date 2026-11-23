@@ -505,6 +505,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const leg = solid(new THREE.Mesh(new THREE.BoxGeometry(0.14, top, 0.14), scaffoldMetal))
       leg.position.set(x + dx, top / 2, z + dz)
     }
+    for (const y of [top * 0.35, top * 0.7]) {
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
