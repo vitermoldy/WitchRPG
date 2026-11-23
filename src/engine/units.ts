@@ -314,3 +314,4 @@ export class UnitSystem {
       if (u.t >= 0.18) {
         u.setState('recover')
         u.cd = spec.cooldown
+      }
