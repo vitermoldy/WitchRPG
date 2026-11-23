@@ -112,3 +112,4 @@ export class Player {
       const len = Math.hypot(dx, dz)
       const maxStep = accel * dt
       if (len > maxStep && len > 1e-6) {
+        this.vel.x += (dx / len) * maxStep
