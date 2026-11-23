@@ -282,3 +282,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const portals = [new THREE.Vector3(0, 0, -33), new THREE.Vector3(33, 0, 0), new THREE.Vector3(0, 0, 33), new THREE.Vector3(-33, 0, 0)]
 
   scene.background = new THREE.Color(0x0b0507)
+  scene.fog = new THREE.FogExp2(0x1a0a0e, 0.0135)
+
