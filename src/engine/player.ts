@@ -92,3 +92,4 @@ export class Player {
     }
     this.crouching = crouchHeld && this.sliding <= 0
 
+    let target: number = MOVE.walk
