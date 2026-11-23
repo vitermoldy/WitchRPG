@@ -73,3 +73,4 @@ export class Projectiles {
     return this.shots.length
   }
 
+  update(dt: number) {
