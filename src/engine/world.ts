@@ -420,6 +420,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   colliders.add(0, -wall, wall * 2 + 4, 4, 60)
   colliders.add(0, wall, wall * 2 + 4, 4, 60)
   colliders.add(-wall, 0, 4, wall * 2 + 4, 60)
+  colliders.add(wall, 0, 4, wall * 2 + 4, 60)
 
   // Central monument: a plinth you can stand on and a cracked obelisk leaning out of it.
   const plinth = solid(new THREE.Mesh(new THREE.BoxGeometry(7, 1.1, 7), concrete))
