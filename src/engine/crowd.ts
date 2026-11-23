@@ -113,3 +113,4 @@ export class ShadowCrowd {
       b.mesh.setMatrixAt(b.used++, this.m)
     }
     for (const b of this.batches.values()) {
+      b.mesh.count = b.used
