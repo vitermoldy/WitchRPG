@@ -26,3 +26,4 @@ const shared = {
   },
 }
 
+function bodyMaterial(team: Team) {
