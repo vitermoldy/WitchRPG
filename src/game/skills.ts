@@ -40,3 +40,4 @@ export const SKILLS: SkillDef[] = [
     id: 'grip',
     branch: 'chaos',
     name: 'Telekinesis Grip',
+    key: 'Tahan RMB',
