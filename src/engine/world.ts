@@ -60,3 +60,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   g.lineWidth = 1
   for (let m = -half; m <= half; m += 2.5) {
     g.beginPath()
+    g.moveTo(px(m), 0)
