@@ -53,3 +53,4 @@ interface Hand {
   overloadColor: THREE.Color
 }
 
+// Fitted dark gloves: the glowing sigils carry the colour, the hands read as silhouettes.
