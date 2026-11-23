@@ -211,3 +211,4 @@ export class PropSystem {
       p.vel.y -= 22 * dt
       p.pos.addScaledVector(p.vel, dt)
       const n = this.tmp
+      n.set(0, 0, 0)
