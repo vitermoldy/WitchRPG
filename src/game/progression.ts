@@ -102,3 +102,4 @@ export function derive(stats: Stats): Derived {
   const above = (k: StatKey) => stats[k] - XP.startStat
   return {
     maxHp: PLAYER.baseHp + PLAYER.hpPerVit * stats.vit,
+    maxMana: PLAYER.baseMana + PLAYER.manaPerSpr * stats.spr,
