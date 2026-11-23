@@ -87,3 +87,4 @@ export const SKILLS: SkillDef[] = [
     built: false,
   },
   {
+    id: 'rite',
