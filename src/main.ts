@@ -191,3 +191,4 @@ async function boot() {
   $('btn-retry').addEventListener('click', () => void game.enterRift())
   $('btn-dead-title').addEventListener('click', () => {
     game.leaveRift()
+  })
