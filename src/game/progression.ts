@@ -199,3 +199,4 @@ export function shadowName(id: number): string {
 }
 
 export function addShadow(p: Profile, kind: UnitKind, level: number): ShadowRecord | null {
+  if (p.shadows.length >= derive(p.stats).slots) return null
