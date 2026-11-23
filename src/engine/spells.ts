@@ -668,3 +668,4 @@ export class Spells {
       }
       if (s.t >= s.duration) {
         g.scene.remove(s.mesh)
+        mat.dispose()
