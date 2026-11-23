@@ -295,3 +295,4 @@ export class Spells {
       })
     }
     g.hands.pose('left', 'cast', 0.25)
+    g.hands.kick('left', 0.8)
