@@ -791,6 +791,7 @@ export class UnitSystem {
     armR.rotation.z = 0.15
     // The Warden keeps its shield across its body unless knocked off balance.
     if (shieldUp && u.state !== 'windup' && u.state !== 'strike') {
+      armL.rotation.x = -1.2
     }
   }
 }
