@@ -299,3 +299,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.add(sky)
 
   // The great tear in the sky.
+  const tearMat = makeTearMaterial(3.1)
