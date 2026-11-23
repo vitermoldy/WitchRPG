@@ -377,3 +377,4 @@ export class Spells {
     const g = this.g
     if (!this.unlocked('grip')) return
     if (!this.overloaded && g.player.mana < 1) {
+      g.hud.flashMana()
