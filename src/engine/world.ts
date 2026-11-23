@@ -368,3 +368,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const centre = along + w / 2
       along += w + 0.6
       if (Math.abs(centre) < 8 + w / 2) continue
+      const h = 16 + R() * 34
