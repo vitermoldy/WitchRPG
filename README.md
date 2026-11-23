@@ -27,3 +27,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | G | Crimson Overload saat meter Chaos penuh |
 
 | Tangan kanan, Umbra | |
+| --- | --- |
