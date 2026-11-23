@@ -427,3 +427,4 @@ export class UnitSystem {
       for (let j = i + 1; j < this.units.length; j++) {
         const b = this.units[j]
         if (!b.alive || b.state === 'held' || b.state === 'air') continue
+        const dx = a.pos.x - b.pos.x
