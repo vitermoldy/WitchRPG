@@ -318,3 +318,4 @@ export class Hands {
 
       // Sparks drifting off the palm; more while charging or overloaded.
       const rateSparks = (glow > 0.9 ? 40 : 8) * (this.overload ? 2.2 : 1)
+      if (Math.random() < rateSparks * dt) {
