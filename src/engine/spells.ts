@@ -201,3 +201,4 @@ export class Spells {
           const d = hit.distanceTo(o)
           if (d < best.dist) best = { point: hit.clone(), dist: d, unit: u, prop: null }
         }
+      }
