@@ -93,3 +93,5 @@ export class PropSystem {
   readonly props: Prop[] = []
   readonly group = new THREE.Group()
   private readonly host: PropHost
+  private readonly tmp = new THREE.Vector3()
+
