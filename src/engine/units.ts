@@ -560,6 +560,7 @@ export class UnitSystem {
     const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
     const ref = tgt ?? host.player
     const sees = !tgt || host.colliders.clear(u.center, tmp.set(tgt.pos.x, tgt.pos.y + 1, tgt.pos.z))
+    u.blind = sees ? 0 : u.blind + dt
     }
   }
 
