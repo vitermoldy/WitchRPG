@@ -37,3 +37,4 @@ let nextId = 1
 function carMesh(color: number) {
   const g = new THREE.Group()
   const paint = new THREE.MeshStandardMaterial({ color, roughness: 0.45, metalness: 0.6, flatShading: true })
+  const glass = new THREE.MeshStandardMaterial({ color: 0x0a0a0c, roughness: 0.15, metalness: 0.8 })
