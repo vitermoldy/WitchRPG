@@ -427,6 +427,7 @@ export class Game {
     for (const o of this.units.units) {
       if (o !== u && o.elite === 'penjaga' && o.alive && o.team === 'rift' && o.pos.distanceToSquared(u.pos) < r * r) return true
     }
+    return false
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
