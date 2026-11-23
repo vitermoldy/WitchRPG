@@ -298,3 +298,4 @@ export class Hands {
         f.joints[0].rotation.set(-p.curl * 1.15, 0, -f.baseSpread * (0.5 + p.spread * 2.2))
         f.joints[1].rotation.x = -p.curl * 1.35
         f.joints[2].rotation.x = -p.curl * 1.0
+      }
