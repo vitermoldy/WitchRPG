@@ -183,3 +183,5 @@ export class Player {
     const speed = Math.hypot(this.vel.x, this.vel.z)
     this.bobAmount += ((this.onGround && speed > 0.5 && this.sliding <= 0 ? Math.min(1, speed / MOVE.sprint) : 0) - this.bobAmount) * Math.min(1, dt * 8)
     this.bob += dt * (6 + speed * 1.1)
+  }
+
