@@ -99,3 +99,4 @@ async function migrate(pool) {
   }
   // Shadows can now be Spitters, Wardens, a Rift Lord or the boss.
   if ((await has('shadows', 'kind')) === 'enum') await pool.query('ALTER TABLE shadows MODIFY kind VARCHAR(16) NOT NULL')
+  if (!(await has('witches', 'boss_kills'))) await pool.query('ALTER TABLE witches ADD COLUMN boss_kills INT UNSIGNED NOT NULL DEFAULT 0 AFTER clears')
