@@ -113,3 +113,4 @@ export class Hud {
     this.set('rite-ring', 'dash', `${(g.umbra.progress * 100).toFixed(1)} 100`)
     this.root.classList.toggle('overloaded', g.spells.overloaded)
 
+    // Rift status.
