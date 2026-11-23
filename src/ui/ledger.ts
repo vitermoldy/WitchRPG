@@ -54,3 +54,4 @@ export class Ledger {
   onClose: (() => void) | null = null
 
   constructor(host: LedgerHost) {
+    this.host = host
