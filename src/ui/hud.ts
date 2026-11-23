@@ -300,9 +300,8 @@ export class Hud {
       this.cache.set('army', html)
       this.slots.innerHTML = html
     }
-    const first = g.units.shadows()[0]
-    const order = !first ? 'Tanpa pasukan' : first.command === 'attack' ? 'Serang' : first.command === 'hold' ? 'Tahan' : 'Ikuti'
-    this.set('army-order', 'text', order)
+    const first = field[0]
+    const cmd = !first ? (total ? 'Di Ruang Bayangan' : 'Tanpa pasukan') : first.command === 'attack' ? 'Serang' : first.command === 'hold' ? 'Tahan' : 'Ikuti'
   }
 
   private updateWheel() {
