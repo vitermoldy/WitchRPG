@@ -386,3 +386,4 @@ export class Game {
     return ok
   }
 
+  openLedger(from: GameState = this.state) {
