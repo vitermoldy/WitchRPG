@@ -142,3 +142,4 @@ export class Ledger {
           let up = ''
           if (!s.built) up = `<p class="node-up">Belum ada di prototype ini</p>`
           else if (bought) up = `<p class="node-up bought">Upgrade terpasang: ${s.upgrade}</p>`
+          else
