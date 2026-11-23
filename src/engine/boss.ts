@@ -253,3 +253,4 @@ export class BossFight {
     const u = this.u
     this.volleyT -= dt
     if (this.volleyT > 0) return
+    this.volleyT = this.phase === 3 ? BOSS.volleyEvery3 : BOSS.volleyEvery
