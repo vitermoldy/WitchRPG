@@ -53,3 +53,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
 
   function setMode(next: 'in' | 'up'): void {
     mode = next
+    $('gate-h').textContent = next === 'in' ? 'Masuk ke Crimson Sovereign' : 'Buat akun Crimson Sovereign'
