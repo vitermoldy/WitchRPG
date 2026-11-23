@@ -252,7 +252,7 @@ export class Hud {
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
-      else if (g.umbra.casting) promptHtml = `Membangkitkan ${name}`
+      else if (g.umbra.casting.length) promptHtml = `Membangkitkan ${name}`
       else promptHtml = `<kbd>Tahan R</kbd> Bangkitkan ${name} <span class="chance">${Math.round(g.umbra.chance(c) * 100)}%</span>`
     }
     if (this.cache.get('prompt') !== promptHtml) {
