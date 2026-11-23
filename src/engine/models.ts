@@ -263,6 +263,7 @@ function spitter(team: Team): UnitModel {
         spike.rotation.x = 0.6
         p.spine.add(spike)
         meshes.push(spike)
+      }
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
