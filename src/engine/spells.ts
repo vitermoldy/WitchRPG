@@ -224,3 +224,4 @@ export class Spells {
     this.snareCd = Math.max(0, this.snareCd - dt)
     this.barrierCd = Math.max(0, this.barrierCd - dt)
 
+    // Overload, then Backlash.
