@@ -34,6 +34,7 @@ export interface UnitHost {
   /** A slam lands: dust, a ring, a shake for the witch if she is close. */
   slamFx(at: THREE.Vector3, radius: number, team: Team): void
   /** A warning circle on the floor while a slam winds up. */
+  telegraph(at: THREE.Vector3, radius: number, seconds: number): void
 }
 
 let nextId = 1
