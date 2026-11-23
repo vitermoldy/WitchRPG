@@ -1830,3 +1830,5 @@ dialog::backdrop {
   background: var(--bg);
 }
 
+.room-group summary {
+  display: flex;
