@@ -59,3 +59,4 @@ export class Colliders {
       } else {
         // Centre inside the box: leave along the shortest axis.
         const pen = [pos.x - b.minX, b.maxX - pos.x, pos.z - b.minZ, b.maxZ - pos.z]
+        const m = pen.indexOf(Math.min(...pen))
