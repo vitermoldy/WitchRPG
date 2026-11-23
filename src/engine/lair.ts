@@ -93,3 +93,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   // The disc of phase 1.
   const tex = crackTexture(1024)
   const floorMat = new THREE.MeshStandardMaterial({ map: tex.map, emissiveMap: tex.em, emissive: 0xffffff, emissiveIntensity: 0.6, roughness: 0.9 })
+  const floor = new THREE.Mesh(new THREE.CylinderGeometry(26, 25, 1.2, 64), floorMat)
