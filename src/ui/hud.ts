@@ -222,3 +222,4 @@ export class Hud {
       }
       el.hidden = false
       el.style.transform = `translate(${((this.v.x + 1) / 2) * w}px, ${((1 - this.v.y) / 2) * h}px)`
+      const k = Math.max(0, u.hp / u.maxHp)
