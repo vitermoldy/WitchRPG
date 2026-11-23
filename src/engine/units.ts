@@ -318,6 +318,7 @@ export class UnitSystem {
     } else if (u.kind === 'hollow') {
       const p = SHADOW_SKILL.pull
       const caught = enemiesNear.filter((o) => o.pos.distanceTo(u.pos) < p.radius && !o.spec.anchored)
+      if (!caught.length) return
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
