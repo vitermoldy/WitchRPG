@@ -18,3 +18,4 @@ import {
   type AuthState,
 } from '../data/api'
 import type { Game } from '../engine/game'
+import { isFresh, type Profile } from '../game/progression'
