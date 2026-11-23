@@ -156,3 +156,4 @@ export class BossFight {
     const g = this.g
     this.collapseT = 0
     g.sfx.roar()
+    g.hud.banner('Lantainya retak', 'Naik ke salah satu pilar sebelum lantai jatuh ke kehampaan.')
