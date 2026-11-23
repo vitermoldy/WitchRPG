@@ -124,3 +124,4 @@ export class Player {
     const space = canAct && input.held('Space')
     if (canAct && input.pressed('Space') && this.onGround) {
       this.vel.y = Math.sqrt(2 * MOVE.gravity * MOVE.jumpHeight)
+      this.onGround = false
