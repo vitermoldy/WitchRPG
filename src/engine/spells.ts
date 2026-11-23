@@ -439,6 +439,7 @@ export class Spells {
         if (p.held || p.kind === 'chunk' || p.mass > SPELL.grip.maxMass) continue
         const to = p.pos.clone().sub(o)
         if (to.length() > SPELL.grip.range) continue
+        const a = f.angleTo(to)
     }
     if (!first) return
     this.grabbed = [first]
