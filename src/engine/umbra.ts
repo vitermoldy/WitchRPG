@@ -214,6 +214,9 @@ export class Umbra {
     const fwd = g.player.viewDir()
     let best: Unit | null = null
     let bestScore = Infinity
+    const near: Unit[] = []
+
+    // Shadows of a call rise one after another.
 
     for (const u of [...g.units.units]) {
       if (u.alive) continue
