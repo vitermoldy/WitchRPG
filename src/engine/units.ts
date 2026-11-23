@@ -443,3 +443,4 @@ export class UnitSystem {
       const p = host.player
       const dx = a.pos.x - p.pos.x
       const dz = a.pos.z - p.pos.z
+      const min = a.radius + p.radius
