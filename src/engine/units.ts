@@ -513,6 +513,7 @@ export class UnitSystem {
             tmp2.set(tgt.pos.x - u.pos.x, 0, tgt.pos.z - u.pos.z).normalize()
             // A claw only reaches what is beside it, not a witch flying overhead.
             const level = Math.abs(tgt.pos.y - u.pos.y) < u.height + 0.8
+            if (d < spec.attackRange + 0.45 && u.facing.dot(tmp2) > 0.3 && level) this.hit(u, tgt)
           }
         }
       }
