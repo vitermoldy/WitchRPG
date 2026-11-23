@@ -123,7 +123,7 @@ export class RiftDirector {
       const k = Math.floor(Math.random() * (n + 1))
       ;[rest[n], rest[k]] = [rest[k], rest[n]]
     }
-    this.queue = q
+    this.queue = [...lord, ...rest]
     this.wave = i + 1
     this.phase = 'wave'
     this.spawnT = 0.5
