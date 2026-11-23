@@ -81,3 +81,4 @@ export class Unit implements Target {
     this.team = team
     this.spec = UNITS[kind]
     this.level = level
+    const st = unitStats(kind, level, team === 'shadow')
