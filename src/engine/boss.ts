@@ -129,3 +129,4 @@ export class BossFight {
 
     // Phase 3: helpers it calls are swallowed if they live long enough.
     for (const [o, at] of [...this.feed]) {
+      if (!o.alive) {
