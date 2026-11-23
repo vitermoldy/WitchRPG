@@ -77,3 +77,5 @@ export class WorldDirector {
       const want = c.state === 'cleared' ? 0.12 : 1
       c.open += (want - c.open) * Math.min(1, dt * 1.5)
       c.spot.mat.uniforms.uOpen.value = c.open
+      if (c.state === 'idle' && d < WAKE && p.alive) this.wake(c)
+      else if (c.state === 'active') {
