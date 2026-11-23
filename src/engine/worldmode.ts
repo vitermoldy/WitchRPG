@@ -60,3 +60,5 @@ export class WorldDirector {
         const at = new THREE.Vector3(c.spot.pos.x + Math.cos(a) * r, 0, c.spot.pos.z + Math.sin(a) * r)
         at.y = g.colliders.groundAt(at.x, at.z, 0.6, 2, 2.5)
         const u = g.units.spawn(kind, 'rift', lo + Math.floor(Math.random() * (hi - lo + 1)), at)
+        c.units.push(u)
+        const big = UNITS[kind].height / 1.8
