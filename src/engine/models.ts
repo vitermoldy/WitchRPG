@@ -32,3 +32,4 @@ function bodyMaterial(team: Team) {
     : new THREE.MeshStandardMaterial({ color: 0x150c24, roughness: 0.5, flatShading: true, emissive: COLOR.umbraDeep, emissiveIntensity: 0.55 })
 }
 
+function box(w: number, h: number, d: number, mat: THREE.Material, meshes: THREE.Mesh[], y = 0) {
