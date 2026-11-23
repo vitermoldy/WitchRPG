@@ -146,6 +146,7 @@ export class RiftDirector {
     this.g.hud.banner(
       lord.length > 1 ? 'Dua Rift Lord' : lord.length ? 'Rift Lord' : `Gelombang ${i + 1} dari ${this.totalWaves}`,
       lord.length > 1
+        ? 'Dua penguasa retakan sekaligus, keduanya elite. Jatuhkan satu dulu.'
     )
   }
 
