@@ -40,3 +40,4 @@ export class Hud {
     const k = id + key
     if (this.cache.get(k) === value) return
     this.cache.set(k, value)
+    const el = $(id)
