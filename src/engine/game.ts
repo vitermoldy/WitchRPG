@@ -824,5 +824,6 @@ export class Game {
           if (far) {
             this.props.group.remove(far.mesh)
             this.props.props.splice(this.props.props.indexOf(far), 1)
+          }
   }
 }
