@@ -11,3 +11,4 @@ export interface Prop {
   kind: PropKind
   mesh: THREE.Object3D
   pos: THREE.Vector3
+  vel: THREE.Vector3
