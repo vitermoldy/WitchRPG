@@ -557,6 +557,7 @@ export class UnitSystem {
   private flyer(u: Unit, dt: number, tgt: Target | null, speed: number) {
     const host = this.host
     const spec = u.spec
+    const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
     }
   }
 
