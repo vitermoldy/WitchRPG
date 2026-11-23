@@ -590,6 +590,7 @@ export class UnitSystem {
       }
       return
     }
+    }
   }
 
   /** A slam hits every target of the other side inside its circle. */
