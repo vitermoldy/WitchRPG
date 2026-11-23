@@ -148,3 +148,4 @@ function hound(team: Team): UnitModel {
     neck.add(eye)
   }
   const legs: [string, number, number][] = [
+    ['legFL', -0.22, -0.4],
