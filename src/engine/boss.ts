@@ -153,3 +153,4 @@ export class BossFight {
   }
 
   private beginCollapse() {
+    const g = this.g
