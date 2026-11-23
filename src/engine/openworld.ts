@@ -54,3 +54,5 @@ function facadeMaterial() {
     shader.vertexShader = shader.vertexShader
       .replace('#include <common>', '#include <common>\nvarying vec3 vWp;\nvarying vec3 vWn;')
       .replace(
+        '#include <worldpos_vertex>',
+        `#include <worldpos_vertex>
