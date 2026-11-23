@@ -394,3 +394,4 @@ export class UnitSystem {
           u.vel.y = 0
           u.vel.x *= 0.3
           u.vel.z *= 0.3
+          u.thrown = false
