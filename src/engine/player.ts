@@ -139,3 +139,4 @@ export class Player {
     }
 
     // Integrate horizontal, then push out of walls, units and props.
+    this.pos.x += this.vel.x * dt
