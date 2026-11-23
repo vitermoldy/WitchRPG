@@ -587,6 +587,8 @@ export class Game {
    * The open world: the city beyond the Rifts, its camps and gates. `at` is where she appears;
    * `keep` keeps the camps as she left them (back from a Rift, or risen at the altar).
    */
+  async enterWorld(at?: THREE.Vector3, keep = false) {
+    this.sfx.start()
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
