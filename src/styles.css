@@ -1137,6 +1137,7 @@ dialog::backdrop {
 }
 
 .history-item.fallen .history-result {
+  color: var(--chaos-ink);
 .stat-list {
   display: grid;
   gap: 0.35rem;
