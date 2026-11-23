@@ -116,3 +116,4 @@ export class Ledger {
 
     $('stat-list').innerHTML = STAT_KEYS.map((k) => {
       const info = STAT_INFO[k]
+      return `<li class="stat">
