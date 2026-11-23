@@ -244,6 +244,7 @@ export class Sfx {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
     this.noise(t, 0.18, 'bandpass', 1200, 0.16, 3, 400)
+    this.tone(t, 'square', 260, 120, 0.12, 0.05)
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
