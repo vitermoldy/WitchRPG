@@ -730,73 +730,7 @@ export class UnitSystem {
     }
     m.root.scale.setScalar(1)
 
-    if (u.kind === 'husk') {
-      const legL = P.legL, legR = P.legR, armL = P.armL, armR = P.armR
-      let armX = 0
-      let lean = 0.42
-      if (u.state === 'windup') {
-        const k = Math.min(1, u.t / u.spec.windup)
-        armX = -2.4 * k
-        lean = 0.42 - 0.3 * k
-      } else if (u.state === 'strike') {
-        armX = -2.4 + Math.min(1, u.t / 0.12) * 3.1
-        lean = 0.7
-      } else if (u.state === 'held' || u.state === 'air') {
-        armX = Math.sin(t * 18 + u.id) * 1.2 - 1
-        lean = 0.1
-      } else if (u.state === 'recover') {
-        armX = 0.6 * (1 - Math.min(1, u.t / 0.4))
-      }
-      if (u.state === 'dead') {
-        const k = Math.min(1, u.deadT / 0.5)
-        m.body.rotation.x = -k * 1.45
-        m.body.position.y = 0.95 - k * 0.72
-        legL.rotation.x = k * 0.3
-        legR.rotation.x = k * 0.5
-        armL.rotation.x = -k * 2.6
-        armR.rotation.x = -k * 2.2
-        return
-      }
-      m.body.rotation.x = 0
-      m.body.position.y = 0.95 + Math.abs(sw) * 0.04 * amp
-      P.spine.rotation.x = lean
-      legL.rotation.x = sw * 0.65 * amp
-      legR.rotation.x = -sw * 0.65 * amp
-      ;(P.kneeL as THREE.Object3D).rotation.x = Math.max(0, -sw) * 0.8 * amp
-      ;(P.kneeR as THREE.Object3D).rotation.x = Math.max(0, sw) * 0.8 * amp
-      armL.rotation.x = armX + (armX === 0 ? -sw * 0.4 * amp : 0)
-      armR.rotation.x = armX + (armX === 0 ? sw * 0.4 * amp : 0)
-      armL.rotation.z = -0.15
-      armR.rotation.z = 0.15
-      P.jaw.rotation.x = u.state === 'windup' ? 0.5 : Math.sin(t * 2 + u.id) * 0.08 + 0.1
-      P.head.rotation.x = -0.25
-    } else {
-      const legs = ['legFL', 'legFR', 'legBL', 'legBR']
-      const phase = [0, Math.PI, Math.PI * 0.5, Math.PI * 1.5]
-      if (u.state === 'dead') {
-        const k = Math.min(1, u.deadT / 0.5)
-        m.body.rotation.z = k * 1.5
-        m.body.position.y = 0.72 - k * 0.42
-        return
-      }
-      m.body.rotation.z = 0
-      let crouch = 0
-      let stretch = 0
-      if (u.state === 'windup') crouch = Math.min(1, u.t / u.spec.windup)
-      if (u.state === 'lunge') stretch = 1
-      m.body.position.y = 0.72 - crouch * 0.22 + Math.abs(Math.sin(u.walk)) * 0.05 * amp
-      m.body.rotation.x = crouch * 0.12 - stretch * 0.15
-      for (let i = 0; i < 4; i++) {
-        const hip = P[legs[i]]
-        const s = Math.sin(u.walk + phase[i])
-        hip.rotation.x = stretch ? (i < 2 ? -1.1 : 1.1) : s * 0.75 * amp + crouch * (i < 2 ? -0.5 : 0.6)
-        ;(hip.userData.knee as THREE.Object3D).rotation.x = stretch ? 0.2 : Math.max(0, -s) * 0.9 * amp + crouch * 0.8
-      }
-      P.jaw.rotation.x = u.state === 'windup' || u.state === 'lunge' ? 0.7 : 0.1 + Math.sin(t * 3 + u.id) * 0.05
-      P.head.rotation.x = crouch * 0.3
-      P.tail.rotation.y = Math.sin(t * 5 + u.id) * 0.4
-      if (u.state === 'held' || u.state === 'air') {
-        for (let i = 0; i < 4; i++) P[legs[i]].rotation.x = Math.sin(t * 20 + i) * 0.9
+    if (BIPEDS.has(u.kind)) this.animateBiped(u, sw, amp, t)
       }
     }
   }
