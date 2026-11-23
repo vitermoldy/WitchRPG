@@ -26,6 +26,7 @@ export class Umbra {
   casting: Unit[] = []
   progress = 0
   swapCd = 0
+  summonCd = 0
   wheelOpen = false
   wheelChoice: WheelChoice | null = null
   private wheelX = 0
