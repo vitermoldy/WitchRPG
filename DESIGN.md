@@ -17,7 +17,7 @@ Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Docu
 - Dua tangan sihir yang selalu terlihat, digambar di pass terpisah supaya tidak menembus dinding. Tiap tangan punya pose diam, mengisi, melepas, dan Overload.
 - Chaos: Hex Bolt, Telekinesis Grip (angkat musuh, peti, atau mobil sampai 500 kg lalu lempar), Chaos Burst, Hex Snare, Hex Barrier, meter Chaos dengan Crimson Overload dan Backlash.
 - Umbra: Umbra Rite (tahan R di tubuh yang bersinar, satu lemparan peluang per tubuh), slot bayangan, roda perintah Z (Ikuti, Serang, Tahan, Tukar Tempat), Perintah Fokus, bayangan ikut naik level dan kembali utuh di Rift berikutnya.
-- Rift Tier I: kota yang dikepung retakan, lima gelombang Husk dan Rift Hound dari empat retakan, lalu retakan keluar di depan monumen.
+- Tiga tier Rift di kota yang dikepung retakan: Tier I (Husk, Rift Hound), Tier II (ditambah Spitter yang menembak dari perancah), Tier III (ditambah Warden berperisai dan Rift Lord sebagai mini-boss).
 - Ledger (Tab): level, XP, 3 poin stat dan 1 poin skill per level, pohon skill dua cabang, Ruang Bayangan dengan tombol Lepas.
 - Simpanan di localStorage, layar judul, jeda dengan pengaturan, hasil Rift, layar tumbang.
 
