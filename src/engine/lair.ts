@@ -102,3 +102,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   const abyss = new THREE.Mesh(
     new THREE.CircleGeometry(90, 48),
     new THREE.MeshBasicMaterial({ color: new THREE.Color(0x5a0a12), fog: true }),
+  )
