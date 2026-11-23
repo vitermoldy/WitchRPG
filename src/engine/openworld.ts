@@ -36,3 +36,6 @@ export interface OpenWorldBuild {
   camps: CampSpot[]
   cars: { x: number; z: number; yaw: number }[]
   update(t: number): void
+}
+
+function rand(seed: number) {
