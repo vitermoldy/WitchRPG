@@ -496,6 +496,7 @@ button:disabled {
   left: 50%;
   transform: translateX(-50%);
   width: min(34rem, 80vw);
+  text-align: center;
 .banner {
   position: absolute;
   top: 24%;
