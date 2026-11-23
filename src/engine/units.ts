@@ -582,3 +582,4 @@ export class UnitSystem {
         hip.rotation.x = stretch ? (i < 2 ? -1.1 : 1.1) : s * 0.75 * amp + crouch * (i < 2 ? -0.5 : 0.6)
         ;(hip.userData.knee as THREE.Object3D).rotation.x = stretch ? 0.2 : Math.max(0, -s) * 0.9 * amp + crouch * 0.8
       }
+      P.jaw.rotation.x = u.state === 'windup' || u.state === 'lunge' ? 0.7 : 0.1 + Math.sin(t * 3 + u.id) * 0.05
