@@ -303,3 +303,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const cars = [
     { x: 18, z: -12, yaw: 0.4 },
     { x: -22, z: 9, yaw: 1.2 },
+    { x: 9, z: 30, yaw: 2.6 },
+    { x: -30, z: -26, yaw: 0.9 },
