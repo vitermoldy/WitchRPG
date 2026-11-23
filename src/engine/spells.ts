@@ -185,3 +185,4 @@ export class Spells {
 
   /** Where the crosshair points: the first unit, prop, wall or floor along the view ray. */
   aim(maxDist: number, opts: { units?: boolean; props?: boolean; team?: 'rift' | 'shadow' } = {}): AimHit {
+    const o = this.g.player.eyePos
