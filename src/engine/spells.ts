@@ -628,6 +628,7 @@ export class Spells {
     disc.rotation.x = -Math.PI / 2
     disc.position.y = 0.06
     disc.renderOrder = 7
+    group.add(disc)
   private burst() {
     const g = this.g
     const s = SPELL.burst
