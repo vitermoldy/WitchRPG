@@ -316,6 +316,8 @@ export class Sfx {
       src.buffer = this.noiseBuf
       src.loop = true
       const filter = ctx.createBiquadFilter()
+      filter.type = 'bandpass'
+      filter.Q.value = 0.8
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
