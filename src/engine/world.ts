@@ -170,3 +170,4 @@ function facadeTextures(seed: number) {
     g.fillRect(0, r * 64 + 58, 256, 6)
     for (let k = 0; k < cols; k++) {
       const x = 14 + k * 60
+      const y = 10 + r * 64
