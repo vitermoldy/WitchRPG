@@ -280,6 +280,7 @@ function warden(team: Team): UnitModel {
         pad.rotation.z = side * -0.25
         p.spine.add(pad)
       }
+      const visor = box(0.24, 0.035, 0.02, m.eye, meshes, 0.2)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
