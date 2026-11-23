@@ -192,3 +192,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   for (let bx = -H + OW.pitch / 2; bx < H; bx += OW.pitch) {
     for (let bz = -H + OW.pitch / 2; bz < H; bz += OW.pitch) {
       const ring = Math.hypot(bx, bz)
+      for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
