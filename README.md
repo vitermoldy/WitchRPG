@@ -26,3 +26,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | X | Hex Barrier (Lv 7) |
 | G | Crimson Overload saat meter Chaos penuh |
 
+| Tangan kanan, Umbra | |
