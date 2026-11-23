@@ -494,7 +494,7 @@ export class Game {
     this.hands.pose('right', 'idle')
     this.rift.start(spec)
     this.setState('playing')
-    this.umbra.summonAll()
+    if (this.profile.shadows.length) window.setTimeout(() => this.hintArmy(), 1800)
     this.hud.banner(
       spec.name,
       tier === 1
