@@ -159,6 +159,7 @@ export class RiftDirector {
       g.player.addTrauma(0.3)
     }
     const big = UNITS[next.kind].height / 1.8
+    g.glow.emit({ pos: at.clone().setY(at.y + 1), count: Math.round(30 * big), color: COLOR.chaos, intensity: 2.2, life: 0.6, size: 0.2, speed: 3 * big, jitter: 0.4 })
   }
 
   update(dt: number) {
