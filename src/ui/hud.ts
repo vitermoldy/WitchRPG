@@ -21,3 +21,4 @@ export class Hud {
   private readonly slots = $('army-slots')
   private readonly hurtVeil = $('hurt-veil')
   private readonly cache = new Map<string, string>()
+  private bannerTimer = 0
