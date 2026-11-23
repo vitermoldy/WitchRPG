@@ -124,3 +124,5 @@ function groundMaterial() {
   return mat
 }
 
+const CURTAIN_FRAG = /* glsl */ `
+  varying vec2 vUv;
