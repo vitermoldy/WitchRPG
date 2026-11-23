@@ -122,6 +122,7 @@ export class Spells {
   snareCd = 0
   barrierCd = 0
   warpCd = 0
+  readonly warps: Warp[] = []
   grabbed: Grabbed[] = []
   chaos = 0
   overloadT = 0
