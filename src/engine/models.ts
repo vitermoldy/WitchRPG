@@ -430,6 +430,7 @@ function harrier(team: Team): UnitModel {
   skull.position.z = -0.08
   head.add(skull)
   const beak = new THREE.Mesh(shape(`Cone:${[0.06, 0.3, 4].join(',')}`, () => new THREE.ConeGeometry(0.06, 0.3, 4)), s.bone)
+  beak.rotation.x = -Math.PI / 2
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
