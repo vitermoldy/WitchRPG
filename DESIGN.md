@@ -75,6 +75,8 @@ Pemilik meminta: witch bisa terbang, ada mode dunia terbuka, bayangan bisa diban
 
 | Bagian | Keputusan | Alasan |
 | --- | --- | --- |
+| Terbang | Ketuk Spasi dua kali (jeda 0,32 detik) untuk mulai dan berhenti. Spasi naik 8 m/dtk, C turun, Shift mempercepat dari 13 ke 26 m/dtk. C di dekat tanah mendarat | Spasi sekali tetap lompat dan tahan Spasi tetap Crimson Float, jadi kontrol lama tidak berubah. |
+| Biaya terbang | Gratis di dunia terbuka. Di dalam Rift memakai stamina (6 per detik, 12 saat cepat) dan berhenti saat stamina habis. Plafon 90 m di dunia, 22 m di kota Rift, 30 m di Jantung Rift | Di dunia terbuka terbang adalah cara berkeliling. Di Rift, terbang bebas akan membuat musuh darat dan fase 2 boss tidak berarti. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
