@@ -152,3 +152,4 @@ export class RiftDirector {
       return
     }
     if (this.phase === 'cleared') {
+      this.exit.rotation.y = Math.atan2(g.player.pos.x - this.exitPos.x, g.player.pos.z - this.exitPos.z)
