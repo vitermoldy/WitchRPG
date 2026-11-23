@@ -48,3 +48,4 @@ interface Hand {
   target: PoseName
   hold: number
   kick: number
+  flash: number
