@@ -355,3 +355,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const solid = (mesh: THREE.Mesh) => {
     mesh.castShadow = true
     mesh.receiveShadow = true
+    scene.add(mesh)
