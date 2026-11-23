@@ -118,3 +118,4 @@ function hound(team: Team): UnitModel {
   const body = pivot(root, 0, 0.72, 0)
   const parts: Record<string, THREE.Object3D> = {}
   const torso = box(0.5, 0.42, 1.05, bodyMat, meshes)
+  body.add(torso)
