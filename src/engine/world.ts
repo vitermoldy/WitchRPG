@@ -313,3 +313,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.add(amb)
   const key = new THREE.DirectionalLight(0xff8268, 1.7)
   key.position.copy(riftDir.clone().multiplyScalar(60))
+  key.castShadow = true
