@@ -191,3 +191,4 @@ button:disabled {
 
 .screen-title {
   margin: 0 0 0.6rem;
+  font-family: var(--font-display);
