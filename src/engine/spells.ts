@@ -710,3 +710,4 @@ export class Spells {
 
   private updateBarrier(dt: number) {
     if (this.barrierT <= 0) return
+    this.barrierT -= dt
