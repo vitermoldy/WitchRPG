@@ -13,3 +13,4 @@ import {
   unitStats,
   xpForKill,
   xpToNext,
+} from '../src/game/progression'
