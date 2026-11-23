@@ -98,6 +98,8 @@ export class Umbra {
       ring++
     }
     const inRing = 8 + ring * 4
+    const spread = Math.min(Math.PI * 1.6, 0.55 * inRing)
+    const a = p.yaw + Math.PI + (index - (inRing - 1) / 2) * (spread / inRing)
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
