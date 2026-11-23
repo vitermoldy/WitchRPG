@@ -513,3 +513,4 @@ export class Spells {
         const u = gb.unit
         if (u.alive) {
           u.vel.copy(v)
+          u.thrown = throwIt
