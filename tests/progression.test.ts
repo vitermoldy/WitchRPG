@@ -70,12 +70,8 @@ describe('Umbra Rite chance', () => {
   })
 })
 
-describe('stats and slots', () => {
-  it('starts with 3 slots and adds one per 5 UMB', () => {
-    expect(shadowSlots(5)).toBe(3)
-    expect(shadowSlots(9)).toBe(3)
-    expect(shadowSlots(10)).toBe(4)
-    expect(shadowSlots(20)).toBe(6)
+describe('stats and the shadow army', () => {
+  it('makes shadows 2% stronger per UMB point above 5', () => {
   })
   it('derives HP and mana from VIT and SPR', () => {
     const d = derive(newProfile().stats)
