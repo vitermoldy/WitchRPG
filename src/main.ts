@@ -127,3 +127,4 @@ async function boot() {
       showScreen('paused')
       $('btn-resume').focus()
     } else if (s === 'result') {
+      renderResult()
