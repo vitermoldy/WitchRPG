@@ -24,3 +24,4 @@ export class Player {
   floatLeft: number = MOVE.floatMax
   private staminaDelay = 0
   private eye: number = MOVE.eye
+  private bob = 0
