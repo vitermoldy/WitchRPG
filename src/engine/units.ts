@@ -531,3 +531,4 @@ export class UnitSystem {
       } else if (u.state === 'strike') {
         armX = -2.4 + Math.min(1, u.t / 0.12) * 3.1
         lean = 0.7
+      } else if (u.state === 'held' || u.state === 'air') {
