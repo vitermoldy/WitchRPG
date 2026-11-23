@@ -484,6 +484,7 @@ export class Game {
       tier === 1
         ? 'Bertahan lima gelombang, lalu keluar lewat retakan di monumen.'
         : tier === 2
+          ? 'Spitter menembak dari perancah. Tarik mereka turun dengan Telekinesis.'
       this.hud.message('Klik kiri untuk Hex Bolt. Tahan klik kanan untuk mengangkat, lepas untuk melempar.', 'chaos')
       window.setTimeout(() => this.hud.message('Di Lv 2 tubuh musuh mulai bersinar ungu: bidik lalu tahan R untuk membangkitkannya.', 'umbra'), 5000)
     }
