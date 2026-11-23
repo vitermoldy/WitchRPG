@@ -148,3 +148,4 @@ export class RiftDirector {
           g.player.hp = Math.min(g.player.maxHp, g.player.hp + heal)
           g.hud.message(`Gelombang ${this.wave} habis. Jeda ${RIFT_TIER_1.breather} detik, HP pulih ${heal}.`, 'info')
         }
+      }
