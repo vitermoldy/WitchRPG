@@ -129,3 +129,4 @@ export class UnitSystem {
     u.model.root.position.copy(u.pos)
     this.group.add(u.model.root)
     this.units.push(u)
+    return u
