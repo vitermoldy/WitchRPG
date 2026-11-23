@@ -117,3 +117,4 @@ export async function checkAccount(): Promise<void> {
 
 async function enter(path: string, payload: unknown): Promise<void> {
   try {
+    const body = await call<Entry>(path, { method: 'POST', body: JSON.stringify(payload) })
