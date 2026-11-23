@@ -275,3 +275,4 @@ export class Hands {
         if (h.hold <= 0) h.target = 'idle'
       }
       const goal = POSES[h.target]
+      const rate = Math.min(1, dt * 14)
