@@ -200,3 +200,5 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     color: new THREE.Color(color),
     overloadColor: new THREE.Color(COLOR.chaos),
   }
+}
+
