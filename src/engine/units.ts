@@ -77,3 +77,4 @@ export class Unit implements Target {
   focusBonus = 0
 
   constructor(kind: UnitKind, team: Team, level: number) {
+    this.kind = kind
