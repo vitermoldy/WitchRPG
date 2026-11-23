@@ -79,3 +79,5 @@ export class Ledger {
 
   get isOpen() {
     return this.dlg.open
+  }
+
