@@ -88,6 +88,8 @@ export class Umbra {
     return { count, next: Number.isFinite(next) ? Math.ceil(next) : 0 }
   }
 
+  /** Formation spot for slot `i`: rings behind the witch, 8 in the first, 4 more per ring. */
+  private spot(i: number): THREE.Vector3 {
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
