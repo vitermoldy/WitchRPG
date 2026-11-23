@@ -57,3 +57,4 @@ export class Player {
     this.onGround = true
     this.sliding = 0
     this.floating = false
+    this.stamina = MOVE.staminaMax
