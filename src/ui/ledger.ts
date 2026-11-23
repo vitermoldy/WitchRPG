@@ -98,3 +98,4 @@ export class Ledger {
     // Keep keyboard focus on the control that was used, or the next useful one.
     if (focusKey) {
       const sel = focusKey.startsWith('up-') ? `[data-upgrade="${focusKey.slice(3)}"]` : `[data-stat="${focusKey}"]`
+      const el = this.dlg.querySelector<HTMLButtonElement>(sel)
