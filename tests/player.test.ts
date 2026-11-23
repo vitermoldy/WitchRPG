@@ -29,3 +29,4 @@ describe('Player.update', () => {
     const p = new Player()
     p.reset(new THREE.Vector3(5, 0, 5), 0)
     p.vel.x = Number.NaN
+    p.update(1 / 60, idle, new Colliders(), 1, [], true)
