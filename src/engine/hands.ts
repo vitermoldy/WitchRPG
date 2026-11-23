@@ -316,3 +316,4 @@ export class Hands {
       h.cuff.emissive.copy(col)
       h.cuff.emissiveIntensity = 0.4 + glow * 0.5
 
+      // Sparks drifting off the palm; more while charging or overloaded.
