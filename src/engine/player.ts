@@ -46,3 +46,5 @@ export class Player {
 
   private readonly lastGood = new THREE.Vector3()
   readonly forward = new THREE.Vector3()
+  readonly right = new THREE.Vector3()
+
