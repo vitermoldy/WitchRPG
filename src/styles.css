@@ -1798,3 +1798,6 @@ dialog::backdrop {
 
 .army-row b {
   font-weight: 500;
+  color: var(--ink);
+}
+
