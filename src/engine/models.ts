@@ -382,6 +382,7 @@ function hollow(team: Team): UnitModel {
         const a = (i / 7) * Math.PI * 2
         sh.position.set(Math.cos(a) * 2.4, Math.sin(i * 1.7) * 0.6, Math.sin(a) * 2.4)
         shards.add(sh)
+        meshes.push(sh)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
