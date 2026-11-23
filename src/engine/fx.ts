@@ -466,6 +466,8 @@ export class ShadowPools {
       if (p.t < 0) {
         p.mat.uniforms.uOpen.value = 0
         continue
+      }
+      if (p.state === 'opening') {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
