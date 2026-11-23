@@ -194,3 +194,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       const ring = Math.hypot(bx, bz)
       for (let i = 0; i < 3; i++) {
         for (let j = 0; j < 3; j++) {
+          if (R() < (i === 1 && j === 1 ? 0.6 : 0.15)) continue
+          const cx = bx + (i - 1) * lot
