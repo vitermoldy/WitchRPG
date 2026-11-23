@@ -349,3 +349,4 @@ export class Umbra {
       for (const s of shadows) {
         const a = fwd.angleTo(s.center.sub(eye))
         if (a < ba) {
+          ba = a
