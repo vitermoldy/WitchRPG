@@ -24,3 +24,4 @@ import { clearProfile, normalizeProfile, saveProfile } from '../game/save'
 const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getElementById(id) as T
 
 export interface AccountHooks {
+  /** The witch changed underneath the title screen (taken from the server). */
