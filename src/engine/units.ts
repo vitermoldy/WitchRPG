@@ -745,6 +745,7 @@ export class UnitSystem {
     let lean = baseLean
     let shieldUp = u.kind === 'warden' && u.stun <= 0
     if (u.state === 'windup') {
+      const k = Math.min(1, u.t / u.spec.windup)
       }
     }
   }
