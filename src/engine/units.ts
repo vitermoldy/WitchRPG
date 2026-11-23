@@ -501,3 +501,5 @@ export class UnitSystem {
       // A faint inner ember so rift bodies read against the dark streets.
       m.bodyMat.emissive.set(0x3a1606)
       m.bodyMat.emissiveIntensity = 0.55
+    }
+
