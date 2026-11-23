@@ -282,3 +282,4 @@ export class Umbra {
         s.target = null
       }
       g.hud.message('Perintah: ikuti aku.', 'umbra')
+    } else if (choice === 'hold') {
