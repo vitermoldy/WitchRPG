@@ -423,6 +423,7 @@ function harrier(team: Team): UnitModel {
   body.add(chest)
   const line = box(0.03, 0.02, 0.66, s.accent, meshes, 0.125)
   line.castShadow = false
+  body.add(line)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
