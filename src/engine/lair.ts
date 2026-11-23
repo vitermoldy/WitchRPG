@@ -189,3 +189,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
       glowEdge.emissiveIntensity = 0.75 + Math.sin(t * 1.3) * 0.2
     },
   }
+}
