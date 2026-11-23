@@ -143,3 +143,4 @@ export class RiftDirector {
           g.sfx.levelUp()
         } else {
           this.phase = 'breather'
+          this.timer = RIFT_TIER_1.breather
