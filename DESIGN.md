@@ -56,3 +56,4 @@ Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sine
 | Sora untuk judul, Figtree untuk teks, Martian Mono untuk angka | Pasangan pertama dari `start.mjs deal --page gaming --trade game` (taste-skill). Sora lebar dan geometris, cocok untuk kota modern-fantasi. Martian Mono dipakai hanya untuk angka (HP, XP, peluang) supaya tidak bergeser saat berubah. |
 | Tangan bersarung gelap dengan sigil bercahaya | Tangan pucat terlihat seperti kertas datar di adegan gelap. Sarung gelap membuat sigil dan cahaya telapak membawa warnanya, dan siluet jari tetap terbaca. |
 | Glow hanya di sihir, sigil, retakan, dan tombol Overload saat siap | Bloom adalah bahasa sihir di game ini. Panel HUD tetap datar supaya glow tetap berarti "ada kekuatan di sini". |
+| HUD di tepi layar, panel semi-transparan, radius 4 px | Tengah layar milik tangan dan pertarungan (pilar 1 GDD). Radius kecil menjaga kesan tegas, tidak ada bentuk pil. |
