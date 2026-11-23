@@ -178,6 +178,7 @@ export class Game {
       inWarp: (at) => this.spells.inWarp(at),
       reflectDamage: SPELL.warp.reflectDamage,
       onReflect: () => this.sfx.reflect(),
+    })
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
