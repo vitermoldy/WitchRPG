@@ -157,3 +157,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     [3, 158, -150],
   ]
   const campDefs: { band: 0 | 1 | 2; elite?: boolean }[] = [
+    ...Array.from({ length: 6 }, () => ({ band: 0 as const })),
+    ...Array.from({ length: 6 }, () => ({ band: 1 as const })),
