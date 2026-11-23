@@ -91,3 +91,4 @@ export class Hud {
     const p = g.player
     const pr = g.profile
     this.bannerTimer -= dt
+    if (this.bannerTimer <= 0) this.bannerEl.classList.remove('show')
