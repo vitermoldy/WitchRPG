@@ -29,3 +29,4 @@ const TABLES = [
     umb SMALLINT UNSIGNED NOT NULL,
     next_shadow_id INT UNSIGNED NOT NULL,
     clears INT UNSIGNED NOT NULL,
+    settings JSON NOT NULL,
