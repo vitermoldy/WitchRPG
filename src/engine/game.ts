@@ -773,6 +773,7 @@ export class Game {
     this.umbra.update(dt, true)
     this.units.update(dt, this.t)
     this.props.update(dt)
+    this.projectiles.update(dt)
     this.rift.update(dt)
     this.embers(dt, p.pos, 18)
 
