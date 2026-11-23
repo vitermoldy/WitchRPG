@@ -70,3 +70,4 @@ const SHIELD_FRAG = /* glsl */ `
     gl_FragColor = vec4(vec3(1.0, 0.16, 0.22) * v * 1.2, v * 0.4);
   }
 `
+const SHIELD_VERT = /* glsl */ `
