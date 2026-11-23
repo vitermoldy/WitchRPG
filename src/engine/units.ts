@@ -465,3 +465,4 @@ export class UnitSystem {
 
   private impact(u: Unit, speed: number, other: Unit | null) {
     const c = SPELL.impact
+    const dmg = impactDamage(u.mass, speed, c.coefficient, c.exponent)
