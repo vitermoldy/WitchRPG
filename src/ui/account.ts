@@ -39,3 +39,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   let mode: 'in' | 'up' = 'in'
   let busy = false
   // "Main tanpa akun" holds until the page reloads or the player asks to sign in.
+  let skipped = false
