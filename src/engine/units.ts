@@ -230,3 +230,4 @@ export class UnitSystem {
       u.target = this.pickTarget(u)
       u.retarget = 0.4 + Math.random() * 0.3
     }
+    const spec = u.spec
