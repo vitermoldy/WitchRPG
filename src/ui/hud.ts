@@ -183,7 +183,7 @@ export class Hud {
     this.set('rite-ring', 'dash', `${(g.umbra.progress * 100).toFixed(1)} 100`)
     this.root.classList.toggle('overloaded', g.spells.overloaded)
 
-    // Rift status.
+    // Rift status, or where things are in the open world.
     const r = g.rift
     this.set('rift-name', 'text', g.inLair ? 'Jantung Rift' : r.tier.name)
     this.set(
