@@ -481,3 +481,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   for (let i = 0; i < 26; i++) {
     const s = 0.8 + R() * 3.2
     const m = new THREE.Mesh(new THREE.IcosahedronGeometry(s, 0), rockMat)
+    const a = R() * Math.PI * 2
