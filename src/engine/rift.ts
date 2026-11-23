@@ -22,3 +22,4 @@ export class RiftDirector {
   private queue: { kind: UnitKind; level: number }[] = []
   private timer = 0
   private spawnT = 0
+  private readonly portals: Portal[] = []
