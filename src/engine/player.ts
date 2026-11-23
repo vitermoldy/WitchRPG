@@ -210,3 +210,5 @@ export class Player {
   viewDir(out = new THREE.Vector3()) {
     const c = Math.cos(this.pitch)
     return out.set(-Math.sin(this.yaw) * c, Math.sin(this.pitch), -Math.cos(this.yaw) * c)
+  }
+
