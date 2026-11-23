@@ -161,3 +161,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     pushTimer = window.setTimeout(async () => {
       try {
         const r = await pushProfile(game.profile)
+        // Another browser saved a newer witch; take it only when no Rift is running.
