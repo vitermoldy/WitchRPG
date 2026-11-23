@@ -44,3 +44,4 @@ export class ShadowCrowd {
       const mat = mesh.material as THREE.Material
       const list = byMat.get(mat)
       if (list) list.push(g)
+      else byMat.set(mat, [g])
