@@ -551,3 +551,4 @@ export class UnitSystem {
       m.body.position.y = 0.95 + Math.abs(sw) * 0.04 * amp
       P.spine.rotation.x = lean
       legL.rotation.x = sw * 0.65 * amp
+      legR.rotation.x = -sw * 0.65 * amp
