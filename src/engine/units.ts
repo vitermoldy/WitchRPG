@@ -161,3 +161,4 @@ export class UnitSystem {
       u.setState('air')
     } else if (u.state !== 'air') {
       u.setState('recover', 0)
+    }
