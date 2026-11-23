@@ -172,6 +172,7 @@ export class Unit implements Target {
     this.damage = Math.round(this.damage * ELITE.damage * 10) / 10
     this.scale = ELITE.scale
     if (trait === 'gesit') {
+      this.speed *= ELITE.swift.speed
 }
 
 const tmp = new THREE.Vector3()
