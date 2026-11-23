@@ -17,3 +17,4 @@ export const MOVE = {
   floatMax: 5,
   floatPerAgi: 0.1,
   floatSink: 0.6,
+  staminaMax: 100,
