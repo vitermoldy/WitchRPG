@@ -49,3 +49,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   function showError(text: string): void {
     error.textContent = text
     error.hidden = !text
+  }
+
