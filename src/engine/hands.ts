@@ -353,3 +353,4 @@ export class Hands {
         color: col,
         intensity: 2.2 + k,
         life: 0.25,
+        lifeJitter: 0.1,
