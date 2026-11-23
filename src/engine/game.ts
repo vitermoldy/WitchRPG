@@ -457,6 +457,7 @@ export class Game {
 
   /** Starts a fresh Rift of the given tier with the current witch. */
   async enterRift(tier: TierId = this.tier) {
+    if (!tierUnlocked(this.profile, tier)) tier = 1
     this.sfx.start()
     this.units.clear()
     this.respawnProps()
