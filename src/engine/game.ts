@@ -568,6 +568,8 @@ export class Game {
   }
 
   /** The key light and its shadow box follow the witch, so shadows reach wherever she is. */
+  private lightAt(at: THREE.Vector3) {
+    const key = this.world.keyLight
   /** The city map: shown, colliding, with its props back in place. */
   private useCity() {
     if (!this.inLair && this.world.city.visible) return
