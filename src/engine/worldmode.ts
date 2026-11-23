@@ -134,3 +134,5 @@ export class WorldDirector {
     return tierUnlocked(this.g.profile, gt.tier) ? { ok: true, text: `Masuk ${t.name}` } : { ok: false, text: `${t.name} terbuka di Lv ${t.unlock}` }
   }
 
+  nearAltar() {
+    const p = this.g.player.pos
