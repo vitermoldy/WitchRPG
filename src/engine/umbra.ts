@@ -171,3 +171,4 @@ export class Umbra {
         g.hands.pose('right', 'idle')
         if (this.wheelChoice) this.order(this.wheelChoice)
       }
+    }
