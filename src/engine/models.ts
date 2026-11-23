@@ -428,6 +428,7 @@ function harrier(team: Team): UnitModel {
   parts.head = head
   const skull = box(0.2, 0.18, 0.26, bodyMat, meshes)
   skull.position.z = -0.08
+  head.add(skull)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
