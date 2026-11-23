@@ -47,3 +47,4 @@ function crackTexture(size: number) {
   // Rings of carved stone and the cracks that will open in phase 2.
   g.strokeStyle = 'rgba(0,0,0,0.5)'
   for (const r of [0.18, 0.34, 0.48]) {
+    g.lineWidth = 3
