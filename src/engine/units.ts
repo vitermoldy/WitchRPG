@@ -173,3 +173,4 @@ export class UnitSystem {
         best = p
         bestD = u.pos.distanceTo(p.pos) * 0.8
       }
+      for (const o of this.units) {
