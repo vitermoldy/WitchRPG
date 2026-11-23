@@ -558,6 +558,7 @@ export class Game {
     this.spells.reset()
     for (const u of [...this.units.units]) if (u.team === 'rift' || !u.alive) this.units.remove(u)
     this.player.reset(this.lair.playerStart, 0)
+    this.player.hp = this.player.maxHp
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
