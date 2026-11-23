@@ -246,6 +246,8 @@ async function boot() {
   })
   $<HTMLInputElement>('set-cap').addEventListener('input', (e) => {
     game.profile.settings.fieldCap = Number((e.target as HTMLInputElement).value)
+    $('out-cap').textContent = String(game.profile.settings.fieldCap)
+    game.saveSoon()
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
     game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
