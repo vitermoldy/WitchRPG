@@ -82,10 +82,6 @@ export class Umbra {
     return this.g.units.units.filter((u) => u.team === 'shadow' && u.record && u.alive && u.state !== 'sinking')
   }
 
-  get fieldCap() {
-    return this.g.profile.settings.fieldCap
-  }
-
   /** Records that could be called right now: not out, not reforming. */
   ready(): ShadowRecord[] {
     const out = new Set(this.g.units.units.filter((u) => u.team === 'shadow' && u.record).map((u) => u.record!.id))
