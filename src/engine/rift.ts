@@ -37,6 +37,7 @@ export class RiftDirector {
   private readonly exit: THREE.Group
   private readonly exitMat: THREE.ShaderMaterial
   private readonly gate: THREE.Group
+  private readonly gateMat: THREE.ShaderMaterial
   private readonly exitPos = new THREE.Vector3(0, 0, 5.4)
   elapsed = 0
   kills = 0
