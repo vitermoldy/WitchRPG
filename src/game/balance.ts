@@ -121,3 +121,4 @@ export interface UnitSpec {
   lungeTime?: number
 }
 
+export const UNITS: Record<UnitKind, UnitSpec> = {
