@@ -138,3 +138,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     pillar(Math.cos(a) * 13, Math.sin(a) * 13, 4.6, [0.4, 1.1, 1.8][i % 3])
   }
   for (let i = 0; i < 4; i++) {
+    const a = (i / 4) * Math.PI * 2
