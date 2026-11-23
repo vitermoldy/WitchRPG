@@ -365,3 +365,4 @@ export class Spells {
         if (hitUnit) g.sfx.hit()
         this.killBolt(b)
         this.bolts.splice(i, 1)
+      }
