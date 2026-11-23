@@ -14,3 +14,4 @@ export class Umbra {
   casting: Unit | null = null
   progress = 0
   swapCd = 0
+  wheelOpen = false
