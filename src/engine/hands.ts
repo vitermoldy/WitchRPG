@@ -345,3 +345,4 @@ export class Hands {
     const col = this.overload ? h.overloadColor : h.color
     for (let i = 0; i < 2; i++) {
       const a = Math.random() * Math.PI * 2
+      const r = 0.09 + Math.random() * 0.05
