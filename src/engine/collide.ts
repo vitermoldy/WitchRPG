@@ -81,3 +81,4 @@ export class Colliders {
     return g
   }
 
+  /** Ray against boxes and the ground plane. */
