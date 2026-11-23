@@ -247,6 +247,8 @@ export class Hud {
       const hi = Math.max(...chances)
       if (why) promptHtml = `<span class="blocked">${why}</span>`
       else if (g.umbra.casting.length) promptHtml = `Membangkitkan ${g.umbra.casting.length} tubuh`
+      else promptHtml = `<kbd>Tahan R</kbd> Bangkitkan ${many} tubuh <span class="chance">${lo === hi ? `${lo}%` : `${lo} sampai ${hi}%`}</span> <span class="num">mana ${g.umbra.cost(many)}</span>`
+    } else if (c) {
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
