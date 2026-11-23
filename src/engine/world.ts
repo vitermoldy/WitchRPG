@@ -402,3 +402,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const off = (R() - 0.5) * 16
       rock.position.set(
         p.x * 1.2 + (across === 'x' ? off : (R() - 0.5) * 3),
+        s * 0.5,
