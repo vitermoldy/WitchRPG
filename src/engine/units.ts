@@ -477,3 +477,4 @@ export class UnitSystem {
     u.thrown = false
   }
 
+  /** Procedural animation from state and speed. */
