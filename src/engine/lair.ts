@@ -111,3 +111,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   const platforms: Platform[] = []
   const pillar = (x: number, z: number, size: number, top: number) => {
     const depth = 14 + Math.random() * 10
+    const body = new THREE.Mesh(new THREE.BoxGeometry(size, depth, size), stone)
