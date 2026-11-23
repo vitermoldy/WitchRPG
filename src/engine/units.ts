@@ -550,6 +550,7 @@ export class UnitSystem {
           if (u.lifted <= 0) u.thrown = true
           continue
         }
+        u.flight = Math.max(0, u.flight - dt)
         u.pos.addScaledVector(u.vel, dt)
         const n = new THREE.Vector3()
         const wall = host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3, n)
