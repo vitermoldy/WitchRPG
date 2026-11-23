@@ -165,3 +165,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   return {
     group,
     colliders,
+    platforms,
