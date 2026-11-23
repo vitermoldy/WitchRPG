@@ -140,3 +140,4 @@ button:disabled {
   border-color: var(--umbra);
 }
 
+.btn-umbra:hover {
