@@ -179,3 +179,4 @@ export class BossFight {
     const g = this.g
     const goal = this.targetFor()
     if (this.collapseT >= 0) {
+      u.vel.set(0, 0, 0)
