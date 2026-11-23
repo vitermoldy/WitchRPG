@@ -22,6 +22,8 @@ export class Player {
   sprinting = false
   /** True flight (double-tap Space), as opposed to Crimson Float. */
   flying = false
+  /** The open world lets her fly for free; Rifts charge stamina for it. */
+  flightFree = false
   stamina: number = MOVE.staminaMax
   floatLeft: number = MOVE.floatMax
   private staminaDelay = 0
