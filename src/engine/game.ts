@@ -76,3 +76,4 @@ export class Game {
     this.renderer.outputColorSpace = THREE.SRGBColorSpace
 
     const loaded = loadProfile()
+    this.profile = loaded.profile
