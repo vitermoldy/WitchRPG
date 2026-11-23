@@ -368,3 +368,4 @@ export class Umbra {
       g.hud.message(`Tukar Tempat dengan ${pick.record?.name ?? 'bayangan'}.`, 'umbra')
     }
     g.sfx.ui()
+  }
