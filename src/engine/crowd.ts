@@ -57,3 +57,4 @@ export class ShadowCrowd {
   private makeMesh(geo: THREE.BufferGeometry, mats: THREE.Material[], cap: number) {
     const mesh = new THREE.InstancedMesh(geo, mats, cap)
     mesh.count = 0
+    // Instances spread over the whole map; the merged model's own bounds would cull them wrongly.
