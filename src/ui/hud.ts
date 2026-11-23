@@ -86,3 +86,4 @@ export class Hud {
     this.bannerEl.classList.remove('show')
   }
 
+  update(dt: number) {
