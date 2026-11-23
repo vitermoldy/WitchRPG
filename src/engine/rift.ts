@@ -131,6 +131,7 @@ export class RiftDirector {
     const lord = q.filter((s) => s.kind === 'riftlord')
     const rest = q.filter((s) => s.kind !== 'riftlord')
     if (spec.eliteLords) for (const l of lord) l.elite = pickTrait()
+    markElites(rest, spec.elites ?? 0)
     for (let n = rest.length - 1; n > 0; n--) {
       const k = Math.floor(Math.random() * (n + 1))
       ;[rest[n], rest[k]] = [rest[k], rest[n]]
