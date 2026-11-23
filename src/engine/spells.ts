@@ -579,3 +579,4 @@ export class Spells {
       const k = 1 - 0.5 * (d / r)
       g.hurtUnit(u, damage * k, at, 'player')
       if (u.alive && u.state !== 'held') {
+        const dir = new THREE.Vector3(u.pos.x - at.x, 0, u.pos.z - at.z)
