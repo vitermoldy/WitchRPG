@@ -212,8 +212,7 @@ export class UnitSystem {
     u.lastGood.copy(at)
     u.yaw = Math.atan2(-(this.host.player.pos.x - at.x), -(this.host.player.pos.z - at.z))
     u.setState(rising ? 'rising' : 'spawn')
-    u.model.root.position.copy(u.pos)
-    this.group.add(u.model.root)
+    // Rift creatures are always drawn in full; shadows start in the crowd until they are near the camera.
     this.units.push(u)
     return u
   }
