@@ -43,3 +43,4 @@ function carMesh(color: number) {
   const body = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.6, 3.2), paint)
   body.position.y = -0.1
   const cabin = new THREE.Mesh(new THREE.BoxGeometry(1.32, 0.5, 1.7), glass)
+  cabin.position.set(0, 0.42, 0.15)
