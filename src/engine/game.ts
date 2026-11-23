@@ -890,6 +890,7 @@ export class Game {
       if (Math.random() < 0.6) this.hands.gather('left', 0.1)
       if (Math.random() < 0.6) this.hands.gather('right', 0.1)
     }
+    this.sfx.wind(p.flying ? Math.min(1, p.vel.length() / 26) : 0)
     if (this.inLair) this.lairUpdate(dt)
     this.embers(dt, p.pos, 18)
 
