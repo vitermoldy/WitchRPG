@@ -122,3 +122,4 @@ export class Game {
       impactFx: (at, s) => this.impactFx(at, s),
     })
     this.scene.add(this.props.group)
+    this.spells = new Spells(this)
