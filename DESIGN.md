@@ -44,3 +44,5 @@ Semua di `src/game/balance.ts`.
 - Jeda antar gelombang memulihkan 20% HP maksimum. GDD belum punya cara menyembuhkan diri, dan bot yang membidik meleset tumbang di gelombang 5 tanpanya.
 - Bayangan: HP ×1,5 → ×2,2 dari musuh asalnya, dan pulih 4% HP per detik saat tidak bertarung. Sebelumnya ketiga bayangan tumbang di gelombang 3, sehingga fantasi "pasukan" hilang di tengah Rift.
 
+## Arah desain
+
