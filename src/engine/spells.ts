@@ -399,3 +399,4 @@ export class Spells {
           bestA = a
           first = { unit: u }
         }
+      }
