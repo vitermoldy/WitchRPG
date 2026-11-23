@@ -441,6 +441,7 @@ export class Spells {
         if (to.length() > SPELL.grip.range) continue
         const a = f.angleTo(to)
         if (a < bestA) {
+          bestA = a
     }
     if (!first) return
     this.grabbed = [first]
