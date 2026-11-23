@@ -225,3 +225,4 @@ export class Hud {
       const k = Math.max(0, u.hp / u.maxHp)
       ;(el.firstChild as HTMLElement).style.transform = `scaleX(${k.toFixed(3)})`
       el.classList.toggle('weak', u.vulnerable > 0)
+      n++
