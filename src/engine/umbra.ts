@@ -81,3 +81,4 @@ export class Umbra {
     let bestScore = Infinity
 
     for (const u of [...g.units.units]) {
+      if (u.alive) continue
