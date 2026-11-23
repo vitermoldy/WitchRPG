@@ -24,6 +24,8 @@ export class Player {
   flying = false
   /** The open world lets her fly for free; Rifts charge stamina for it. */
   flightFree = false
+  /** Highest the feet may go above the open floor. */
+  ceiling = 40
   stamina: number = MOVE.staminaMax
   floatLeft: number = MOVE.floatMax
   private staminaDelay = 0
