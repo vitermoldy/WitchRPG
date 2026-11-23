@@ -333,3 +333,4 @@ export class Spells {
       for (const u of g.units.units) {
         if (u.team !== 'rift' || !u.alive || u.state === 'spawn') continue
         sphere.set(u.center, Math.max(u.radius, u.height * 0.42) + SPELL.bolt.radius)
+        if (ray.intersectSphere(sphere, p)) {
