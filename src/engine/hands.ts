@@ -136,3 +136,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
         tip.position.set(0, len + 0.004, -0.002)
         j.add(tip)
       }
+      joints.push(j)
