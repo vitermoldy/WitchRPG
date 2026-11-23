@@ -95,3 +95,4 @@ export class RiftDirector {
     this.wave = i + 1
     this.phase = 'wave'
     this.spawnT = 0.5
+    this.g.hud.banner(`Gelombang ${i + 1} dari ${this.totalWaves}`, i === this.totalWaves - 1 ? 'Gelombang terakhir. Rift mulai runtuh.' : `${q.length} makhluk keluar dari retakan.`)
