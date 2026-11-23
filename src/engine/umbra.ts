@@ -163,6 +163,9 @@ export class Umbra {
     g.hud.umbraPulse()
     g.sfx.summon(n)
     const waiting = g.profile.shadows.length - this.field().length - n
+    g.hud.message(waiting > 0 ? `${n} bayangan dipanggil. ${waiting} lainnya menunggu di Ruang Bayangan.` : `${n} bayangan dipanggil.`, 'umbra')
+  }
+
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
