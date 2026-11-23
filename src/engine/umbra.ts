@@ -95,3 +95,4 @@ export class Umbra {
         mat.emissive.set(COLOR.umbra)
         mat.emissiveIntensity = pulse * end * (u === this.casting ? 1.35 : 0.8)
         if (Math.random() < dt * 6) {
+          g.glow.emit({ pos: u.pos, count: 1, color: COLOR.umbra, intensity: 2.2, life: 1.2, size: 0.12, vel: { x: 0, y: 0.9, z: 0 }, jitter: 0.5 })
