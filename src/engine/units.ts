@@ -472,3 +472,4 @@ export class UnitSystem {
       this.host.hurtUnit(other, dmg, u.pos, 'impact')
       tmp.copy(u.vel).setY(0).normalize().multiplyScalar(6)
       tmp.y = 3
+      this.knock(other, tmp)
