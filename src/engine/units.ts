@@ -208,3 +208,4 @@ export class UnitSystem {
     const d = tmp.length()
     const want = d > stopAt ? speed : 0
     if (d > 1e-4) tmp.divideScalar(d)
+    const ax = tmp.x * want - u.vel.x
