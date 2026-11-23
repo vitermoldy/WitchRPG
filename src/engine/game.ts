@@ -554,3 +554,4 @@ export class Game {
     this.embers(dt, p.pos, 18)
 
     // Hands follow what the witch is doing when no skill holds them.
+    if (p.floating) this.hands.gather('left', 0.2)
