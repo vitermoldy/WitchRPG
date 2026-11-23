@@ -23,3 +23,5 @@ const LEASH = 45
 export class WorldDirector {
   private readonly g: Game
   camps: Camp[] = []
+  private time = 0
+  private lastHp = 0
