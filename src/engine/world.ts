@@ -378,3 +378,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const em = f.emissive.clone()
       em.repeat.copy(mapW.repeat)
       em.needsUpdate = true
+      const mat = new THREE.MeshStandardMaterial({ map: mapW, emissiveMap: em, emissive: 0xffffff, emissiveIntensity: 0.9, roughness: 0.9 })
