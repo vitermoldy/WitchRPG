@@ -190,3 +190,4 @@ export async function saveRift(run: RiftRecord): Promise<boolean> {
   } catch {
     writeQueue([...readQueue(), run])
     return false
+  }
