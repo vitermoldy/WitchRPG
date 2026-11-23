@@ -170,3 +170,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   }
 
   game.onSaved = schedulePush
+  game.onRiftEnd = (run) => void saveRift(run)
