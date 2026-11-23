@@ -28,3 +28,4 @@ export class Hud {
   private readonly pool: HTMLDivElement[] = []
   private readonly v = new THREE.Vector3()
 
+  constructor(g: Game) {
