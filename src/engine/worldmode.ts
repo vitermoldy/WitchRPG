@@ -115,3 +115,5 @@ export class WorldDirector {
       this.leashT = 1
       for (const u of g.umbra.field()) {
         if (u.state === 'rising' || u.pos.distanceTo(p.pos) < LEASH) continue
+        if (u.command === 'hold') continue
+        g.pools.open(u.pos, 1 + u.radius * 1.5, 0.4)
