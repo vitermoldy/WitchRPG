@@ -13,3 +13,4 @@ interface Shot {
   gravity: number
   radius: number
   damage: number
+  team: ShotTeam
