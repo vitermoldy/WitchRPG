@@ -156,3 +156,4 @@ export class PropSystem {
     if (p.held) return
     p.vel.addScaledVector(impulse, Math.min(2, 60 / p.mass))
     p.spin.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).multiplyScalar(spin * Math.min(1, 60 / p.mass) + 1)
+    p.awake = true
