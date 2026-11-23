@@ -460,3 +460,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const back = solid(new THREE.Mesh(new THREE.BoxGeometry(0.1, 2.5, 4.4), panelMat))
     back.position.set(x + (x < 0 ? -0.85 : 0.85), 1.3, z)
     colliders.add(x + (x < 0 ? -0.85 : 0.85), z, 0.3, 4.4, 2.6)
+  }
+
