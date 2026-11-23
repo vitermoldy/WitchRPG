@@ -156,3 +156,4 @@ export class UnitSystem {
     const scale = 70 / u.mass
     u.vel.addScaledVector(impulse, Math.min(1.6, scale))
     if (impulse.y > 0.5) {
+      u.vel.y = Math.max(u.vel.y, impulse.y * Math.min(1.4, scale))
