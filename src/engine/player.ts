@@ -173,3 +173,4 @@ export class Player {
 
     // Last line of defence: a bad number here would spread to every enemy chasing the witch.
     if (!Number.isFinite(this.pos.x + this.pos.y + this.pos.z + this.vel.x + this.vel.y + this.vel.z)) {
+      this.pos.copy(this.lastGood)
