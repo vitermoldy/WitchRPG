@@ -62,3 +62,4 @@ const SHIELD_FRAG = /* glsl */ `
   uniform float uTime;
   uniform float uHit;
   uniform float uFade;
+  void main() {
