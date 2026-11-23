@@ -130,3 +130,4 @@ export class Sfx {
 
   overload(on: boolean) {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
