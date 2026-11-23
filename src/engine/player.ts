@@ -87,3 +87,4 @@ export class Player {
     if (canAct && input.pressed('KeyC') && this.onGround && this.sprinting) {
       this.sliding = MOVE.slideTime
       const boost = MOVE.sprint * this.speedMult * MOVE.slideBoost
+      this.vel.x = this.forward.x * boost
