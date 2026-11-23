@@ -206,3 +206,4 @@ export function createApi(getPool, database) {
     const { row, error } = cleanRun(req.body?.run)
     if (error) return res.status(400).json({ error })
     await touch(getPool(), client)
+    const [r] = await getPool().query(
