@@ -82,3 +82,4 @@ export class Hud {
   }
 
   clearFeed() {
+    this.feed.replaceChildren()
