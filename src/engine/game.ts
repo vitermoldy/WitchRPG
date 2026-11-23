@@ -593,6 +593,8 @@ export class Game {
     this.setMap('world')
     this.units.clear()
     this.projectiles.clear()
+    this.warnings.clear()
+    this.pools.clear()
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
