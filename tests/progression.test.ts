@@ -80,3 +80,4 @@ describe('stats and slots', () => {
     expect(d.floatTime).toBe(5)
   })
   it('spends stat points only when there are some', () => {
+    const p = newProfile()
