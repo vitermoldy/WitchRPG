@@ -330,3 +330,4 @@ export class Spells {
       const ray = new THREE.Ray(b.prev, dir)
       const sphere = new THREE.Sphere()
       const p = new THREE.Vector3()
+      for (const u of g.units.units) {
