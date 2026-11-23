@@ -108,8 +108,8 @@ describe('upgrades and shadows', () => {
   })
   it('keeps raising without a slot limit', () => {
     const p = newProfile()
-    for (let i = 0; i < 3; i++) expect(addShadow(p, 'husk', 1)).not.toBeNull()
-    expect(addShadow(p, 'hound', 1)).toBeNull()
+    for (let i = 0; i < 250; i++) expect(addShadow(p, i % 2 ? 'husk' : 'hound', 1)).not.toBeNull()
+    expect(p.shadows.length).toBe(250)
   })
   it('shares 30% of XP with shadows and keeps them at or below your level', () => {
     const p = newProfile()
