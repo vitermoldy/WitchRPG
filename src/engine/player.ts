@@ -204,3 +204,5 @@ export class Player {
       cam.fov = this.fov
       cam.updateProjectionMatrix()
     }
+  }
+
