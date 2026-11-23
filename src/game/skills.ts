@@ -83,3 +83,4 @@ export const SKILLS: SkillDef[] = [
     key: 'V',
     unlock: 10,
     effect: 'Medan 10 m selama 5 detik: gravitasi terbalik, proyektil musuh dipantulkan.',
+    upgrade: 'Durasi +2 detik.',
