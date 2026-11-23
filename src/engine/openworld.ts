@@ -34,3 +34,5 @@ export interface OpenWorldBuild {
   altar: THREE.Vector3
   gates: Gate[]
   camps: CampSpot[]
+  cars: { x: number; z: number; yaw: number }[]
+  update(t: number): void
