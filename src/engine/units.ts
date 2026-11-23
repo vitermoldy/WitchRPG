@@ -575,6 +575,7 @@ export class UnitSystem {
         if (u.team === 'shadow') {
           u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
           this.follow(u, speed, dt)
+        } else this.steer(u, u.pos, 0, dt)
     }
   }
 
