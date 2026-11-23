@@ -192,3 +192,4 @@ export function shadowName(id: number): string {
     h = (h ^ (h >>> 16)) >>> 0
     return h
   }
+  const parts = 2 + (next() % 2)
