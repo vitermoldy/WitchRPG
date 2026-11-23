@@ -561,6 +561,7 @@ export class Game {
     this.player.hp = this.player.maxHp
     this.player.mana = this.player.maxMana
     for (const s of this.units.shadows()) this.recall(s)
+    const home = this.lair.platforms[0].center.clone()
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
