@@ -362,3 +362,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   // Perimeter buildings, inner faces on the arena edge, gaps at the four road ends.
   const facades = [0, 1, 2, 3].map((i) => facadeTextures(10 + i))
   for (let side = 0; side < 4; side++) {
+    let along = -60
