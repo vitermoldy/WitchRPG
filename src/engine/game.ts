@@ -583,6 +583,7 @@ export class Game {
   }
 
   /** Puts the rocks of phase 2 on the ring of pillars. */
+  spawnRocks() {
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
