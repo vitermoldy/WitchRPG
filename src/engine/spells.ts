@@ -548,3 +548,4 @@ export class Spells {
     if (cd > 0) return
     const spec = SPELL[id]
     if (!this.pay(spec.mana)) return
+    if (id === 'burst') this.burst()
