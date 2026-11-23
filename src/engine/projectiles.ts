@@ -60,3 +60,4 @@ export class Projectiles {
     const mesh = new THREE.Mesh(geo, source?.team === 'shadow' ? MATS.shadow : MATS.rift)
     mesh.scale.setScalar(spec.radius)
     mesh.position.copy(from)
+    this.group.add(mesh)
