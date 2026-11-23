@@ -1309,3 +1309,4 @@ dialog::backdrop {
     grid-template-columns: 1fr;
     align-items: start;
   }
+  .ledger-body {
