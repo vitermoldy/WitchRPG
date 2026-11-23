@@ -245,3 +245,4 @@ export class PropSystem {
         }
       } else {
         p.mesh.rotation.x += p.spin.x * dt
+        p.mesh.rotation.y += p.spin.y * dt * 0.5
