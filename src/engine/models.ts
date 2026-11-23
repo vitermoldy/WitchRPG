@@ -41,3 +41,4 @@ function box(w: number, h: number, d: number, mat: THREE.Material, meshes: THREE
 }
 
 function pivot(parent: THREE.Object3D, x: number, y: number, z: number) {
+  const g = new THREE.Group()
