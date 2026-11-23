@@ -141,6 +141,7 @@ export class RiftDirector {
     return free.length ? free[Math.floor(Math.random() * free.length)].clone() : null
   }
 
+  private spawnNext() {
   }
 
   update(dt: number) {
