@@ -105,3 +105,4 @@ export class Unit implements Target {
   setState(s: UnitState, t = 0) {
     this.state = s
     this.t = t
+  }
