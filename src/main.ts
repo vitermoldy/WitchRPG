@@ -102,3 +102,5 @@ async function boot() {
     $('result-list').innerHTML = rows.map(([a, b, c]) => `<dt>${a}</dt><dd${c ? ` class="${c}"` : ''}>${b}</dd>`).join('')
     const pts = game.profile.statPoints + game.profile.skillPoints
     $('btn-result-ledger').textContent = pts ? `Bagikan ${pts} poin di Ledger` : 'Buka Ledger'
+  }
+
