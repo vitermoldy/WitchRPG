@@ -95,3 +95,4 @@ export class PropSystem {
   private readonly host: PropHost
   private readonly tmp = new THREE.Vector3()
 
+  constructor(host: PropHost) {
