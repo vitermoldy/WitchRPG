@@ -454,6 +454,7 @@ export class Game {
     this.spells.reset()
     this.umbra.cancel()
     this.persist()
+    this.endRift('cleared')
     this.input.unlock()
     this.setState('result')
   }
