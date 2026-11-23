@@ -5,3 +5,4 @@ import {
   derive,
   gainXp,
   impactDamage,
+  newProfile,
