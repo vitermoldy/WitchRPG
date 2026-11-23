@@ -329,3 +329,4 @@ export class Hands {
           size: 0.012,
           sizeEnd: 0.002,
           speed: 0.05,
+          vel: { x: 0, y: this.overload ? 0.12 : 0.05, z: 0 },
