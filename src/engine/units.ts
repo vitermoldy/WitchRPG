@@ -434,3 +434,4 @@ export class UnitSystem {
         if (d2 >= min * min || d2 < 1e-8) continue
         const d = Math.sqrt(d2)
         const push = (min - d) * 0.5
+        a.pos.x += (dx / d) * push
