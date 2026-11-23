@@ -179,3 +179,4 @@ export class Sfx {
   }
 
   impact(strength: number) {
+    if (!this.ok()) return
