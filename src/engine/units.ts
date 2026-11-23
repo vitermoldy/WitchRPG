@@ -417,6 +417,7 @@ export class UnitSystem {
           u.setState('lunge')
         } else if (spec.shot && tgt && tgt.alive) {
           const from = u.center.add(u.facing.multiplyScalar(u.radius + 0.3))
+          from.y += u.height * 0.25
         } else {
           u.setState('strike')
           if (tgt && tgt.alive) {
