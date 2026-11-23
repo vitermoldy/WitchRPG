@@ -415,3 +415,4 @@ export class Game {
   }
 
   private finishRift() {
+    this.profile.clears += 1
