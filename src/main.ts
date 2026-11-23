@@ -198,3 +198,4 @@ async function boot() {
   document.addEventListener('pointerlockerror', () => {
     if (game.state === 'paused') {
       showScreen('paused')
+    }
