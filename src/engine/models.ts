@@ -227,6 +227,7 @@ function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3
     knee.add(foot)
     parts[side < 0 ? 'legL' : 'legR'] = hip
     parts[side < 0 ? 'kneeL' : 'kneeR'] = knee
+  }
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
