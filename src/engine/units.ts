@@ -221,8 +221,7 @@ export class UnitSystem {
   remove(u: Unit) {
     const i = this.units.indexOf(u)
     if (i >= 0) this.units.splice(i, 1)
-    this.group.remove(u.model.root)
-    disposeModel(u.model)
+    if (u.detailed) this.group.remove(u.model.root)
   }
 
   clear() {
