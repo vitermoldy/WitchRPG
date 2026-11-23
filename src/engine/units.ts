@@ -958,6 +958,7 @@ export class UnitSystem {
   private animateFlyer(u: Unit, t: number) {
     const m = u.model
     const P = m.parts
+    if (u.state === 'dead') {
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
