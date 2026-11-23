@@ -115,3 +115,4 @@ export class ShadowCrowd {
     for (const b of this.batches.values()) {
       b.mesh.count = b.used
       if (b.used) b.mesh.instanceMatrix.needsUpdate = true
+    }
