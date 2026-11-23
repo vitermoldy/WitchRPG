@@ -116,3 +116,4 @@ function cleanRun(run) {
     int(run.seconds, 0, 86_400),
     at,
   ]
+  if (values.includes(null)) return { error: 'Angka Rift di luar batas.' }
