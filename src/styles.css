@@ -775,3 +775,4 @@ button:disabled {
 
 .skill .cd {
   position: absolute;
+  inset: 0;
