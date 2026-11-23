@@ -29,6 +29,8 @@ export const MOVE = {
   flyClimb: 8,
   flyAccel: 30,
   flyDrain: 6,
+  flyBoostDrain: 12,
+  doubleTap: 0.32,
   interactRange: 3,
 } as const
 
