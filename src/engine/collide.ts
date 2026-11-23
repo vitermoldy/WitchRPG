@@ -21,3 +21,5 @@ export interface RayHit {
 
 /** Static world: axis-aligned boxes standing on the ground at y = 0. */
 export class Colliders {
+  boxes: Box[] = []
+
