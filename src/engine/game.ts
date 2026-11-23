@@ -402,3 +402,4 @@ export class Game {
       // A click on "Tutup" is a user gesture, so the pointer can lock again right away.
       void this.resume()
     } else {
+      this.setState(this.ledgerReturn)
