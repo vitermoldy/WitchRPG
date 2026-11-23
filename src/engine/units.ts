@@ -499,6 +499,7 @@ export class UnitSystem {
       u.flash = Math.max(0, u.flash - dt * 6)
       u.barShown = Math.max(0, u.barShown - dt)
       u.vulnerable = Math.max(0, u.vulnerable - dt)
+      u.stun = Math.max(0, u.stun - dt)
 
       if (u.state === 'dead') {
         u.deadT += dt
