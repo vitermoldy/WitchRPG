@@ -406,3 +406,4 @@ export class Spells {
     if (this.upgraded('grip')) {
       const at = first.unit ? first.unit.pos : first.prop!.pos
       let second: Unit | null = null
+      let sd = 4
