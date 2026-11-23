@@ -1132,6 +1132,7 @@ dialog::backdrop {
   font-weight: 400;
 }
 
+.history-item.cleared .history-result {
 .stat-list {
   display: grid;
   gap: 0.35rem;
