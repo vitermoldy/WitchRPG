@@ -248,3 +248,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const base = new THREE.Mesh(new THREE.CylinderGeometry(7, 8, 0.8, 8), stone)
   base.position.y = 0.4
   base.receiveShadow = true
+  group.add(base)
+  colliders.add(0, 0, 11, 11, 0.8)
