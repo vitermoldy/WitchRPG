@@ -214,3 +214,4 @@ export class Hud {
       if (this.v.z > 1 || Math.abs(this.v.x) > 1.1 || Math.abs(this.v.y) > 1.1) continue
       let el = this.pool[n]
       if (!el) {
+        el = document.createElement('div')
