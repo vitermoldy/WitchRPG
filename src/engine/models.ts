@@ -304,6 +304,7 @@ function warden(team: Team): UnitModel {
 /** Tall, crowned with horns, a burning core in the chest. It calls husks to its side. */
 function riftlord(team: Team): UnitModel {
   return biped(
+    team,
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
