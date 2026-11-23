@@ -168,3 +168,4 @@ export class Player {
     if (this.onGround) {
       this.floatLeft = this.floatMax
       this.staminaDelay -= dt
+      if (this.staminaDelay <= 0) this.stamina = Math.min(MOVE.staminaMax, this.stamina + MOVE.staminaRegen * dt)
