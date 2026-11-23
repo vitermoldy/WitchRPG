@@ -1328,3 +1328,4 @@ dialog::backdrop {
     grid-template-columns: 1fr;
     gap: 0.4rem;
   }
+  .ledger-head {
