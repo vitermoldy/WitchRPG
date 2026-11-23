@@ -186,3 +186,4 @@ export class Umbra {
     return riteChance(UNITS[u.kind].rank, g.profile.level, u.level, g.profile.stats.umb)
   }
 
+  /** Why a cast on this corpse cannot start right now, or null when it can. */
