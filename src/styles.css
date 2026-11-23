@@ -652,3 +652,4 @@ button:disabled {
   color: var(--ink);
   font-size: 0.95rem;
   text-align: center;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.95);
