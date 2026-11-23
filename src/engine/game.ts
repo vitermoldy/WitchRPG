@@ -585,6 +585,8 @@ export class Game {
   /** Puts the rocks of phase 2 on the ring of pillars. */
   spawnRocks() {
     for (const at of this.lair.rockSpots) this.props.spawnRock(at)
+  }
+
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
