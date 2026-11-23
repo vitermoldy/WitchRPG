@@ -1438,6 +1438,7 @@ dialog::backdrop {
   text-align: left;
 }
 
+.tier:hover:not(:disabled) {
 /* Account */
 .account-row {
   display: flex;
