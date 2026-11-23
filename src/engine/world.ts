@@ -46,3 +46,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   g.fillStyle = '#2a2527'
   g.fillRect(0, 0, size, size)
   // Roads.
+  const road = 6.5
