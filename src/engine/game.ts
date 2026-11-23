@@ -143,3 +143,4 @@ export class Game {
     handPass.clear = false
     handPass.clearDepth = true
     this.composer.addPass(handPass)
+    // One NaN pixel blurred by bloom turns the whole screen black. Zero any that slip through.
