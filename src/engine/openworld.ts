@@ -246,3 +246,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   // The altar at the square: where she starts, heals and wakes after a fall.
   const stone = new THREE.MeshStandardMaterial({ color: 0x3e3538, roughness: 0.85, flatShading: true })
   const base = new THREE.Mesh(new THREE.CylinderGeometry(7, 8, 0.8, 8), stone)
+  base.position.y = 0.4
+  base.receiveShadow = true
