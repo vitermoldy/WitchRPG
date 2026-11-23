@@ -121,3 +121,4 @@ export class PropSystem {
       hitCooldown: 0,
     }
     this.props.push(p)
+    return p
