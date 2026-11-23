@@ -511,6 +511,7 @@ function bombard(team: Team): UnitModel {
   )
 }
 
+const BUILDERS: Record<UnitKind, (team: Team) => UnitModel> = { husk, hound, spitter, warden, riftlord, hollow, harrier, bombard }
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
