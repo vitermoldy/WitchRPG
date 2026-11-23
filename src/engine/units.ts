@@ -471,3 +471,4 @@ export class UnitSystem {
     if (other) {
       this.host.hurtUnit(other, dmg, u.pos, 'impact')
       tmp.copy(u.vel).setY(0).normalize().multiplyScalar(6)
+      tmp.y = 3
