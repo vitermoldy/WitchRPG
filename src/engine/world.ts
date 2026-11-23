@@ -17,3 +17,4 @@ export interface WorldBuild {
   props: PropSpot[]
   breakables: Box[]
   update: (t: number) => void
+  keyLight: THREE.DirectionalLight
