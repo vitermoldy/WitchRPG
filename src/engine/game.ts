@@ -802,5 +802,6 @@ export class Game {
       if (p.hp <= 0) this.die()
     }
     // Phase 2 needs something to throw: keep three rocks within reach of the witch. Rocks that
+    // missed and landed on the far side do not count, and the farthest go once there are too many.
   }
 }
