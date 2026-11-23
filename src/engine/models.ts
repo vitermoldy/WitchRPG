@@ -183,6 +183,7 @@ interface BipedSize {
   shoulderX: number
   arm: [number, number, number]
   hipX: number
+  leg: [number, number, number]
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
