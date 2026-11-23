@@ -48,3 +48,5 @@ function rand(seed: number) {
 }
 
 /** Windows drawn from world position, so a facade of any size gets the same grid and lit panes. */
+function facadeMaterial() {
+  const mat = new THREE.MeshStandardMaterial({ color: 0x2a2528, roughness: 0.88, metalness: 0.05 })
