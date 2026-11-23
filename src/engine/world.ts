@@ -296,3 +296,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       fog: false,
     }),
   )
+  scene.add(sky)
+
