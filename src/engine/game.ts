@@ -594,6 +594,8 @@ export class Game {
       const v = to.clone().sub(p).multiplyScalar(1.6)
       this.glow.emit({ pos: p, count: 1, color, intensity: 2.6, life: 0.6, size: 0.2, sizeEnd: 0.05, vel: v, drag: 0 })
     }
+  }
+
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
