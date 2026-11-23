@@ -84,3 +84,4 @@ export class RiftDirector {
     const spec = RIFT_TIER_1.waves[i]
     const q: { kind: UnitKind; level: number }[] = []
     const lv = () => spec.levels[0] + Math.floor(Math.random() * (spec.levels[1] - spec.levels[0] + 1))
+    for (let n = 0; n < spec.husk; n++) q.push({ kind: 'husk', level: lv() })
