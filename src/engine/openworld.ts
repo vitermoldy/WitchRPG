@@ -241,3 +241,6 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   colliders.add(0, -wall, wall * 2 + 2, 1, 200)
   colliders.add(0, wall, wall * 2 + 2, 1, 200)
   colliders.add(-wall, 0, 1, wall * 2 + 2, 200)
+  colliders.add(wall, 0, 1, wall * 2 + 2, 200)
+
+  // The altar at the square: where she starts, heals and wakes after a fall.
