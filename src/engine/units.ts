@@ -116,3 +116,4 @@ export class UnitSystem {
   readonly group = new THREE.Group()
   private readonly host: UnitHost
 
+  constructor(host: UnitHost) {
