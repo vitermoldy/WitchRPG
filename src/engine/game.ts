@@ -414,3 +414,4 @@ export class Game {
     this.setState('title')
   }
 
+  private finishRift() {
