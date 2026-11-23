@@ -262,6 +262,7 @@ export class Sfx {
     this.noise(t, big ? 0.9 : 0.5, 'lowpass', 900, big ? 0.55 : 0.4, 0.7, 120)
   }
 
+  roar() {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
