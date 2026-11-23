@@ -459,3 +459,4 @@ export class UnitSystem {
         u.vel.set(0, 0, 0)
         if (!Number.isFinite(u.yaw)) u.yaw = 0
       } else u.lastGood.copy(u.pos)
+      this.animate(u, dt, t)
