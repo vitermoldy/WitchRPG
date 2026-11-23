@@ -607,6 +607,8 @@ export class Game {
     this.player.reset(spot, Math.atan2(spot.x, spot.z))
     this.applyStats(true)
     this.hands.pose('left', 'idle')
+    this.hands.pose('right', 'idle')
+    this.worldDir.start(keep)
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
