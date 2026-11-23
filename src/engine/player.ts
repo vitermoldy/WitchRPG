@@ -75,3 +75,4 @@ export class Player {
     this.forward.set(-Math.sin(this.yaw), 0, -Math.cos(this.yaw))
     this.right.set(Math.cos(this.yaw), 0, -Math.sin(this.yaw))
 
+    const k = (c: string) => (canAct && input.held(c) ? 1 : 0)
