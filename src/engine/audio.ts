@@ -314,6 +314,8 @@ export class Sfx {
       if (level <= 0) return
       const src = ctx.createBufferSource()
       src.buffer = this.noiseBuf
+      src.loop = true
+      const filter = ctx.createBiquadFilter()
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
