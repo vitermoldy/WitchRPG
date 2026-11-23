@@ -281,6 +281,7 @@ export class Hud {
     const g = this.g
     const field = g.umbra.field()
     const total = g.profile.shadows.length
+    const reform = g.umbra.reforming()
     const rows: string[] = []
     // Every raised shadow gets a row; empty slots share one line so a big army stays compact.
     const empty = Math.max(0, slots - g.profile.shadows.length)
