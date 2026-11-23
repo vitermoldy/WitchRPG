@@ -226,3 +226,4 @@ export class Hud {
       ;(el.firstChild as HTMLElement).style.transform = `scaleX(${k.toFixed(3)})`
       el.classList.toggle('weak', u.vulnerable > 0)
       n++
+    }
