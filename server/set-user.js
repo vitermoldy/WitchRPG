@@ -10,3 +10,4 @@ import { connect } from './db.js'
  * of every other browser nobody owns yet.
  */
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
+const [username = '', password = ''] = process.argv.slice(2)
