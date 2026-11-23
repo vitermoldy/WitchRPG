@@ -609,6 +609,8 @@ export class Game {
     this.hands.pose('left', 'idle')
     this.hands.pose('right', 'idle')
     this.worldDir.start(keep)
+    this.returnToWorld = null
+    this.setState('playing')
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
