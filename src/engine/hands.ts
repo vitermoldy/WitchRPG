@@ -268,3 +268,4 @@ export class Hands {
   update(dt: number, lookDx: number, lookDy: number, bobPhase: number, bobWeight: number, charge: { left: number; right: number }) {
     this.t += dt
     this.swayX += (Math.max(-0.04, Math.min(0.04, -lookDx * 0.0006)) - this.swayX) * Math.min(1, dt * 10)
+    this.swayY += (Math.max(-0.04, Math.min(0.04, lookDy * 0.0006)) - this.swayY) * Math.min(1, dt * 10)
