@@ -386,3 +386,4 @@ export class Spells {
     else if (hit.prop && hit.prop.mass <= SPELL.grip.maxMass) first = { prop: hit.prop }
     else {
       // A little aim help: the closest body to the crosshair inside a narrow cone.
+      const o = g.player.eyePos
