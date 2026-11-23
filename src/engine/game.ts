@@ -53,6 +53,8 @@ export class Game {
     return this.activeColliders
   }
   inLair = false
+  /** 'rift': an arena Rift (city or lair). 'world': the open city. */
+  mode: 'rift' | 'world' = 'rift'
   /** The tier of the Rift in progress (or the last one played). */
   tier: TierId = 1
   readonly warnings: Warnings
