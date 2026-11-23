@@ -107,3 +107,4 @@ export class Projectiles {
         const p = h.player
         if (p.alive) {
           const y = Math.min(Math.max(s.pos.y, p.pos.y + 0.3), p.pos.y + 1.6)
+          if (Math.hypot(s.pos.x - p.pos.x, s.pos.y - y, s.pos.z - p.pos.z) < s.radius + 0.42) {
