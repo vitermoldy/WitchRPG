@@ -12,8 +12,7 @@ export default defineConfig({
   root,
   // Relative asset paths, so the built game runs from any folder or static host.
   base: './',
-  server: { port: 5197 },
-  preview: { port: 4197 },
+  server: { port: 5197, proxy: api },
   // three.js alone is ~600 kB minified; the whole game is one bundle on purpose.
   build: { chunkSizeWarningLimit: 900 },
   resolve: {
