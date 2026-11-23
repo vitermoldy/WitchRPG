@@ -477,6 +477,7 @@ export class Game {
     if (u.elite === 'meledak') {
       const b = ELITE.burst
       const at = u.pos.clone()
+      this.fuses.push({ at, t: b.delay, radius: b.radius, damage: u.damage * b.damage })
     if (u === this.rift.bossUnit && u.kind === 'riftlord') this.hud.banner('Rift Lord tumbang', 'Tubuhnya bisa dibangkitkan dengan Kebangkitan Jenderal (Lv 8).')
     this.rift.kills++
     this.rift.xpGained += xp
