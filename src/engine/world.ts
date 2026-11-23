@@ -326,3 +326,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.add(key.target)
 
   // Ground.
+  const crackSpots = [...portals, new THREE.Vector3(0, 0, 0)]
