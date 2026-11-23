@@ -274,3 +274,4 @@ export function makeTearMaterial(seed: number) {
   })
 }
 
+export function buildWorld(scene: THREE.Scene): WorldBuild {
