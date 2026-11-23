@@ -350,3 +350,4 @@ export class Umbra {
         const a = fwd.angleTo(s.center.sub(eye))
         if (a < ba) {
           ba = a
+          pick = s
