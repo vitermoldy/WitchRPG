@@ -207,3 +207,4 @@ export class BossFight {
       if (this.landT < 0) this.volley(dt, BOSS.volleyShots)
       return true
     }
+    // Phase 3: on the middle pillar, slams when the witch comes close, volleys when she keeps away.
