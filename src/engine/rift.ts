@@ -125,3 +125,4 @@ export class RiftDirector {
       this.spawnT -= dt
       if (this.queue.length && this.spawnT <= 0 && g.units.enemies().length < RIFT_TIER_1.maxAlive) {
         this.spawnT = RIFT_TIER_1.spawnInterval * (0.6 + Math.random() * 0.8)
+        const next = this.queue.shift()!
