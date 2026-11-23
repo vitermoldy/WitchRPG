@@ -94,6 +94,7 @@ export class RiftDirector {
     this.xpGained = 0
     this.levelsGained = 0
     this.raised = []
+    this.bossUnit = null
     this.exit.visible = false
     for (const p of this.portals) p.open = 0
   }
