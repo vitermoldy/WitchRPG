@@ -427,3 +427,4 @@ export class Spells {
         gb.prop.awake = true
         gb.prop.spin.set(Math.random() - 0.5, 0, Math.random() - 0.5)
         g.props.wakeNear(gb.prop.pos, 2)
+      }
