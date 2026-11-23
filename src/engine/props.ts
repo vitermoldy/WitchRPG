@@ -189,3 +189,4 @@ export class PropSystem {
         awake[i].vel.set(0, 0, 0)
       }
     }
+    for (const p of [...this.props]) {
