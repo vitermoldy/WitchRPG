@@ -489,6 +489,7 @@ button:disabled {
   color: var(--rift);
 }
 
+/* The big one's health: under the Rift status, only while a Rift Lord or the boss stands. */
 .banner {
   position: absolute;
   top: 24%;
