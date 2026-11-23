@@ -114,3 +114,4 @@ export class Hud {
     this.root.classList.toggle('overloaded', g.spells.overloaded)
 
     // Rift status.
+    const r = g.rift
