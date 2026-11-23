@@ -110,6 +110,7 @@ export class Unit implements Target {
   tempo = 1
   /** Seconds a flier has not seen its target; it drops into the street to find it. */
   blind = 0
+  /** One of the last of a wave: it goes for the witch and leaves its perch. */
 
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
