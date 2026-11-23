@@ -599,6 +599,7 @@ export class UnitSystem {
         if (!tgt || !tgt.alive) {
           u.setState('recover')
           return
+        }
     }
   }
 
