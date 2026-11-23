@@ -384,6 +384,7 @@ function hollow(team: Team): UnitModel {
         shards.add(sh)
         meshes.push(sh)
       }
+      p.shards = shards
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
