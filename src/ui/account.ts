@@ -113,3 +113,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
           : 'Belum masuk. Progres hanya tersimpan di browser ini.'
       button.textContent = 'Masuk'
       button.hidden = false
+    }
