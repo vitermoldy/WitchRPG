@@ -74,6 +74,7 @@ export function isFresh(p: Profile): boolean {
     p.level === 1 &&
     p.xp === 0 &&
     p.shadows.length === 0 &&
+    p.clears === 0 &&
 /** XP needed to go from `level` to `level + 1`: 80 x n^1.5, rounded to tens. */
 export function xpToNext(level: number): number {
   return Math.round((XP.base * level ** XP.exponent) / 10) * 10
