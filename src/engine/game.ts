@@ -519,3 +519,4 @@ export class Game {
 
   private simulate(dt: number) {
     const input = this.input
+    const p = this.player
