@@ -7,3 +7,5 @@ import { COLOR } from './palette'
 import type { Unit } from './units'
 
 interface Camp {
+  spot: CampSpot
+  state: 'idle' | 'active' | 'cleared'
