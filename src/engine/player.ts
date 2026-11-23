@@ -37,3 +37,4 @@ export class Player {
   maxHp = 150
   mana = 125
   maxMana = 125
+  hurtTimer = 0
