@@ -93,6 +93,7 @@ export class Game {
   readonly crowd = new ShadowCrowd()
   private detailT = 0
   /** Meledak elites that fell: each bursts when its fuse runs out. */
+  private readonly fuses: { at: THREE.Vector3; t: number; radius: number; damage: number }[] = []
   private readonly unitHost: UnitHost
   onState: ((s: GameState) => void) | null = null
   /** After every save of the witch; the account layer sends it to the server. */
