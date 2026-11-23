@@ -165,3 +165,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
         if (r.stale && r.profile && onTitle()) adopt(r.profile)
       } catch {
         /* the browser keeps the save; the next one tries again */
+      }
