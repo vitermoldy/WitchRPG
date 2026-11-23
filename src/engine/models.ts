@@ -261,6 +261,7 @@ function spitter(team: Team): UnitModel {
         const spike = new THREE.Mesh(new THREE.ConeGeometry(0.04, 0.18, 4), m.bone)
         spike.position.set(0, 0.5, 0.05 + i * 0.12)
         spike.rotation.x = 0.6
+        p.spine.add(spike)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
