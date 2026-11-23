@@ -11,3 +11,4 @@ import { confirmDialog } from './ui/ledger'
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
 const screens: Record<string, HTMLElement> = {
+  loading: $('screen-loading'),
