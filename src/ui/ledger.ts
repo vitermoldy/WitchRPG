@@ -22,3 +22,4 @@ export function confirmDialog(title: string, text: string, yes: string): Promise
   $('confirm-title').textContent = title
   $('confirm-text').textContent = text
   $('confirm-yes').textContent = yes
+  return new Promise((resolve) => {
