@@ -407,3 +407,4 @@ export class UnitSystem {
       u.vel.y = 0
       host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3)
       u.pos.y += (host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3) - u.pos.y) * Math.min(1, dt * 12)
+      for (const b of host.propBlockers) {
