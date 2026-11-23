@@ -322,3 +322,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     update(t: number) {
       curtainMat.uniforms.uTime.value = t
       shrine.rotation.y = t * 0.6
+      shrine.position.y = 3.6 + Math.sin(t * 1.2) * 0.3
+      for (const g of gates) g.mat.uniforms.uTime.value = t
