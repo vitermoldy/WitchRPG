@@ -31,3 +31,4 @@ export class ShadowCrowd {
     this.group.name = 'shadow-crowd'
   }
 
+  /** One standing shadow of this kind, merged by material so it draws in a handful of calls. */
