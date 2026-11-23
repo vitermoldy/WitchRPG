@@ -1111,6 +1111,7 @@ dialog::backdrop {
   align-items: baseline;
   gap: 0.2rem 1rem;
   padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
 .stat-list {
   display: grid;
   gap: 0.35rem;
