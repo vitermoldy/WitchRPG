@@ -120,3 +120,4 @@ export class UnitSystem {
     this.host = host
   }
 
+  spawn(kind: UnitKind, team: Team, level: number, at: THREE.Vector3, rising = false): Unit {
