@@ -21,6 +21,7 @@ export interface RiftRecord {
   shadowsRaised: number
   seconds: number
   /** The Hollow Warden fell in this Rift. */
+  boss?: boolean
   finishedAt: string
 }
 
