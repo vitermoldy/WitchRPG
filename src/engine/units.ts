@@ -190,3 +190,4 @@ export class UnitSystem {
       u.command = 'follow'
       u.focus = null
     }
+    const anchor = u.command === 'hold' ? u.holdPos : p.pos
