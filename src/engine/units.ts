@@ -194,3 +194,4 @@ export class UnitSystem {
     const range = u.command === 'hold' ? 6 : SHADOW.engageRange
     for (const o of this.units) {
       if (o.team !== 'rift' || !o.alive || o.state === 'spawn') continue
+      const d = u.pos.distanceTo(o.pos)
