@@ -187,3 +187,4 @@ export class BossFight {
       if (this.summonT <= 0) {
         const s = UNITS.hollow.summon!
         const mine = g.units.units.filter((o) => o.owner === u && o.alive).length
+        for (let i = 0; i < Math.min(s.count, s.max - mine); i++) {
