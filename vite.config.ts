@@ -5,3 +5,4 @@ import { defineConfig } from 'vite'
 // spelling. Pin the root to one spelling.
 const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d) => d.toUpperCase())
 
+export default defineConfig({
