@@ -495,3 +495,4 @@ export class UnitSystem {
     } else if (u.state === 'dead') {
       if (u.team === 'shadow') m.bodyMat.emissiveIntensity = 0
     } else if (u.team === 'shadow') {
+      m.bodyMat.emissive.set(COLOR.umbraDeep)
