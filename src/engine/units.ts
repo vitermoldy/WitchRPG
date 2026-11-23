@@ -40,3 +40,4 @@ export class Unit implements Target {
   readonly spec: UnitSpec
   level: number
   hp: number
+  maxHp: number
