@@ -648,3 +648,4 @@ export class Spells {
   private updateSnares(dt: number) {
     const g = this.g
     for (const u of g.units.units) u.slow = 1
+    for (let i = this.snares.length - 1; i >= 0; i--) {
