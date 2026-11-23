@@ -137,6 +137,8 @@ export class Umbra {
     }
     // Strongest first: Marsekal, Jenderal, Ksatria, then by level.
     const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
+    const pick = [...ready].sort((a, b) => order[a.rank] - order[b.rank] || b.level - a.level).slice(0, Math.max(0, this.fieldCap - this.field().length))
+    const n = pick.length
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
