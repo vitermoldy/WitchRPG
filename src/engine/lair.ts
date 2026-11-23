@@ -110,3 +110,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   // Pillars: a wide one in the middle, a ring of eight, four at the edge.
   const platforms: Platform[] = []
   const pillar = (x: number, z: number, size: number, top: number) => {
+    const depth = 14 + Math.random() * 10
