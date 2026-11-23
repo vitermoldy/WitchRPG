@@ -106,6 +106,8 @@ export class Umbra {
     // Over the void (or while she flies high) they rise where she can stand.
     if (at.y < -50 || at.y < p.pos.y - 6) {
       const below = this.g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5)
+      at.set(p.pos.x + (Math.random() - 0.5) * 2, below > -50 ? below : p.pos.y, p.pos.z + (Math.random() - 0.5) * 2)
+    }
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
