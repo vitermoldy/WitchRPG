@@ -63,3 +63,4 @@ function husk(team: Team): UnitModel {
   spine.add(torso)
   const crack = box(0.07, 0.44, 0.02, s.accent, meshes, 0.32)
   crack.position.z = -0.155
+  crack.castShadow = false
