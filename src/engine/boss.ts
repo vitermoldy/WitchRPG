@@ -235,3 +235,4 @@ export class BossFight {
           g.hud.message('Ia memanggil husk ke pilarnya. Habisi sebelum ditelan.', 'info')
           this.summonT = BOSS.feedEvery
         }
+        return true
