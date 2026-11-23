@@ -59,3 +59,4 @@ export class ShadowCrowd {
     mesh.count = 0
     // Instances spread over the whole map; the merged model's own bounds would cull them wrongly.
     mesh.frustumCulled = false
+    mesh.castShadow = false
