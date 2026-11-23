@@ -154,3 +154,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     for (let s = 0; s < 2; s++) {
       const j = s === 0 ? t0 : new THREE.Group()
       if (s > 0) {
+        j.position.y = 0.032
