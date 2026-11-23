@@ -334,3 +334,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     emissive: new THREE.Color(1, 1, 1),
     emissiveIntensity: 1,
     roughness: 0.93,
+    metalness: 0,
