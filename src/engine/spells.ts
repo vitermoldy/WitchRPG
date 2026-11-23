@@ -468,3 +468,4 @@ export class Spells {
         gb.unit.pos.add(nc.sub(c))
         gb.unit.yaw += dt * 2
       } else {
+        const p = gb.prop!
