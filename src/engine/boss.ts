@@ -197,3 +197,4 @@ export class BossFight {
       return false
     }
     if (this.phase === 2 || (this.landT >= 0 && this.landT < 2.2)) {
+      // Hover over the middle pillar; sink back down while landing.
