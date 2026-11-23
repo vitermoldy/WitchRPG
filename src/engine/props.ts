@@ -224,3 +224,4 @@ export class PropSystem {
       const floor = this.floorFor(p)
       if (p.pos.y - p.halfH <= floor) {
         const fall = -p.vel.y
+        p.pos.y = floor + p.halfH
