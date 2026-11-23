@@ -242,6 +242,8 @@ async function boot() {
     )
     if (!ok) $('btn-resume').focus()
     else if (gate) void game.leaveToWorld()
+    else game.leaveRift()
+  })
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
     game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
