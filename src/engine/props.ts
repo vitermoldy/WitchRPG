@@ -49,3 +49,4 @@ function carMesh(color: number) {
   g.add(body, cabin, roof)
   for (const [x, z] of [[-0.72, -1.05], [0.72, -1.05], [-0.72, 1.05], [0.72, 1.05]]) {
     const w = new THREE.Mesh(new THREE.CylinderGeometry(0.33, 0.33, 0.24, 10), tyre)
+    w.rotation.z = Math.PI / 2
