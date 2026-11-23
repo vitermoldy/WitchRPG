@@ -120,3 +120,4 @@ export class PropSystem {
       hitUnits: new Set(),
       hitCooldown: 0,
     }
+    this.props.push(p)
