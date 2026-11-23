@@ -27,3 +27,4 @@ export const MOVE = {
 } as const
 
 export const CAMERA = {
+  fov: 80,
