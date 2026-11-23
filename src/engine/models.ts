@@ -457,6 +457,7 @@ function harrier(team: Team): UnitModel {
     tip.add(outer)
     const edge = box(0.72, 0.035, 0.03, s.accent, meshes)
     edge.position.set(side * 0.36, 0.01, -0.14)
+    edge.castShadow = false
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
