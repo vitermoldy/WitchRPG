@@ -347,3 +347,4 @@ export class Game {
     this.hands.pose('left', 'lowered')
     this.hands.pose('right', 'lowered')
     this.input.unlock()
+    saveProfile(this.profile)
