@@ -61,3 +61,4 @@ export class Hud {
     ;(this.bannerEl.querySelector('.banner-title') as HTMLElement).textContent = title
     ;(this.bannerEl.querySelector('.banner-sub') as HTMLElement).textContent = sub
     this.bannerEl.classList.add('show')
+    this.bannerTimer = 3.2
