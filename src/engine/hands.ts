@@ -24,3 +24,4 @@ const POSES: Record<PoseName, Pose> = {
   rite: { curl: 0.22, spread: 0.45, reach: 0.09, lift: 0, twist: 0.15, palmDown: 0.8, tremble: 0.6, glow: 1.35 },
   command: { curl: 0.55, spread: 0.1, reach: 0.05, lift: 0.15, twist: -0.2, palmDown: -0.2, tremble: 0, glow: 0.8 },
   block: { curl: 0.08, spread: 0.3, reach: 0.11, lift: 0.12, twist: 0.45, palmDown: -0.1, tremble: 0.3, glow: 1.4 },
+  lowered: { curl: 0.5, spread: 0, reach: -0.05, lift: -0.34, twist: 0, palmDown: 0.3, tremble: 0, glow: 0.15 },
