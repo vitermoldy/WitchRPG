@@ -73,3 +73,4 @@ export class Ledger {
           if (ok && releaseShadow(p, id)) this.after()
           if (!this.dlg.open) this.dlg.showModal()
         })
+      }
