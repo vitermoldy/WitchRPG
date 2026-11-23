@@ -638,3 +638,4 @@ export class Spells {
     mesh.position.copy(at).setY(at.y + 0.05)
     mesh.renderOrder = 7
     g.scene.add(mesh)
+    this.snares.push({ pos: at, radius: s.radius, t: 0, duration: s.duration + (this.upgraded('snare') ? s.durationUpgrade : 0), mesh })
