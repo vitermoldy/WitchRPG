@@ -191,3 +191,4 @@ export class PropSystem {
     }
     for (const p of [...this.props]) {
       if (p.kind === 'chunk') {
+        p.life -= dt
