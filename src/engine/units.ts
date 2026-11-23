@@ -397,6 +397,7 @@ export class UnitSystem {
         u.setState('windup')
         if (spec.slam) {
           // The slam lands where the target stood when the arms went up: step out of the circle.
+          u.slamAt.copy(u.pos).addScaledVector(u.facing, Math.min(spec.slam * 0.4, d * 0.6))
         }
         this.steer(u, tgt.pos, speed, dt, spec.attackRange - 0.4)
       }
