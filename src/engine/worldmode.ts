@@ -54,3 +54,5 @@ export class WorldDirector {
     const [lo, hi] = c.spot.levels
     let i = 0
     for (const [kind, count] of Object.entries(c.spot.pack) as [Exclude<UnitKind, 'hollow'>, number][]) {
+      for (let n = 0; n < count; n++, i++) {
+        const a = (i / 7) * Math.PI * 2 + Math.random() * 0.5
