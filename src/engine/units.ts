@@ -277,6 +277,7 @@ export class UnitSystem {
       this.steer(u, u.holdPos, speed, dt, 0.6)
       return
     }
+    const p = this.host.player
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
