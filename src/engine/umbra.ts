@@ -163,7 +163,7 @@ export class Umbra {
     g.pools.open(feet, spill, 1.4 + n * stagger)
     g.pools.open(feet, spill * 0.45, 1.6 + n * stagger, 0.1)
     for (let i = 0; i < n; i++) {
-      const pos = this.spot(this.field().length + i)
+      const pos = this.spot(base + i)
       const at = this.time + 0.35 + i * stagger
       this.calls.push({ at, rec: pick[i], pos, slot: this.field().length + i })
       g.pools.open(pos, 0.9 + UNITS[pick[i].kind].radius * 1.6, 1.4, 0.3 + i * stagger)
