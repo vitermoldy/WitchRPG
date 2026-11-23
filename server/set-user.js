@@ -43,3 +43,4 @@ try {
     w || runs.n
       ? `${config.name}: akun ${username} dibuat dan memegang data yang sudah ada: witch Lv ${w?.level ?? 1}, ${runs.n} Rift tercatat.`
       : `${config.name}: akun ${username} dibuat. Belum ada data sebelumnya.`,
+  )
