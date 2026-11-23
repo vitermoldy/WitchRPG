@@ -51,7 +51,8 @@ export class Umbra {
     this.swapCd = 0
     this.summonCd = 0
     this.wheelOpen = false
-    this.down.clear()
+    this.downUntil.clear()
+    this.calls = []
   }
 
   get riteOpen() {
