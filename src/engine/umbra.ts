@@ -133,6 +133,8 @@ export class Umbra {
     if (!ready.length) {
       const r = this.reforming()
       g.hud.message(r.count ? `Semua bayangan sedang terbentuk kembali. Yang pertama siap dalam ${r.next} detik.` : 'Tidak ada bayangan yang bisa dipanggil.', 'umbra')
+      return
+    }
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
