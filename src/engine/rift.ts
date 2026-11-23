@@ -5,3 +5,5 @@ import { COLOR } from './palette'
 import { makeTearMaterial } from './world'
 import { glowTexture } from './fx'
 
+export type RiftPhase = 'intro' | 'wave' | 'breather' | 'cleared'
+
