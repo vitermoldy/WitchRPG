@@ -310,3 +310,4 @@ export class Umbra {
         return
       }
       for (const s of shadows) {
+        s.command = 'attack'
