@@ -48,3 +48,4 @@ export class Projectiles {
   private readonly host: ShotHost
   private readonly seg = new THREE.Vector3()
 
+  constructor(host: ShotHost) {
