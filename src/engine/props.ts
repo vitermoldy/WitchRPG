@@ -106,3 +106,4 @@ export class PropSystem {
     const p: Prop = {
       id: nextId++,
       kind,
+      mesh,
