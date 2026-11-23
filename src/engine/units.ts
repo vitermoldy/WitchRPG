@@ -922,6 +922,7 @@ export class UnitSystem {
         count: 1,
         color: ELITE_COLOR[u.elite],
         intensity: 2.4,
+        life: 0.8,
     if (u.state === 'spawn') {
       const k = Math.min(1, u.t / 0.7)
       m.root.scale.setScalar(0.3 + 0.7 * k)
