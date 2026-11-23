@@ -761,3 +761,4 @@ button:disabled {
   gap: 0.15rem;
   width: 4.4rem;
   padding: 0.4rem 0.2rem 0.35rem;
+  border: 1px solid var(--line);
