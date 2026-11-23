@@ -22,6 +22,7 @@ interface Warp {
   radius: number
   t: number
   duration: number
+  group: THREE.Group
 interface Snare {
   pos: THREE.Vector3
   radius: number
