@@ -185,6 +185,7 @@ async function boot() {
 
   // Title.
   $('btn-enter').addEventListener('click', () => void game.enterRift(game.tier))
+  $('btn-world').addEventListener('click', () => void game.enterWorld())
   const tierButtons = [...document.querySelectorAll<HTMLButtonElement>('.tier')]
   for (const el of tierButtons) {
     el.addEventListener('click', () => {
