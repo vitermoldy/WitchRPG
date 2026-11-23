@@ -567,3 +567,5 @@ export class Spells {
     g.hands.pose('left', 'push', 0.35)
     g.hands.kick('left', 1.6)
     g.sfx.burst()
+  }
+
