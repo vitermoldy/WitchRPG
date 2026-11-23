@@ -574,6 +574,7 @@ export class Game {
 
   onBossDefeated() {
     this.profile.bossKills += 1
+    this.projectiles.clear()
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
