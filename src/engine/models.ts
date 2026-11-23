@@ -137,7 +137,7 @@ function hound(team: Team): UnitModel {
   chest.position.z = -0.36
   body.add(chest)
   for (let i = 0; i < 5; i++) {
-    const spike = new THREE.Mesh(new THREE.ConeGeometry(0.05, 0.22 - i * 0.02, 4), s.bone)
+    const spike = new THREE.Mesh(shape(`Cone:${[0.05, 0.22 - i * 0.02, 4].join(',')}`, () => new THREE.ConeGeometry(0.05, 0.22 - i * 0.02, 4)), s.bone)
     spike.position.set(0, 0.28, -0.35 + i * 0.18)
     spike.rotation.x = 0.5
     body.add(spike)
