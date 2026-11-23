@@ -74,3 +74,4 @@ export class Colliders {
   groundAt(x: number, z: number, r: number, feetY: number, step: number): number {
     let g = 0
     for (const b of this.boxes) {
+      if (b.top > feetY + step || b.top <= g) continue
