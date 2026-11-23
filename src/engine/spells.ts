@@ -440,6 +440,7 @@ export class Spells {
         const to = p.pos.clone().sub(o)
         if (to.length() > SPELL.grip.range) continue
         const a = f.angleTo(to)
+        if (a < bestA) {
     }
     if (!first) return
     this.grabbed = [first]
