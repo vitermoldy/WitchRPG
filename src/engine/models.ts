@@ -13,6 +13,7 @@ export interface UnitModel {
   meshes: THREE.Mesh[]
 }
 
+/**
 const shared = {
   rift: {
     accent: new THREE.MeshStandardMaterial({ color: 0x120806, emissive: COLOR.rift, emissiveIntensity: 1.6 }),
