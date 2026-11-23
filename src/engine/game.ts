@@ -547,6 +547,7 @@ export class Game {
 
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
+    this.inLair = true
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
