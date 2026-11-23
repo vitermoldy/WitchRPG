@@ -452,7 +452,7 @@ export class Umbra {
     const g = this.g
     const shadows = this.field()
     if (!shadows.length && choice !== 'swap') {
-      g.hud.message('Belum ada bayangan yang berdiri di Rift ini.', 'umbra')
+      g.hud.message('Belum ada bayangan di medan. Tekan T untuk memanggil mereka.', 'umbra')
       return
     }
     if (choice === 'follow') {
