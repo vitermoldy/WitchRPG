@@ -505,3 +505,4 @@ export class Spells {
     const g = this.g
     if (!this.grabbed.length) return
     const f = g.player.viewDir()
+    for (const gb of this.grabbed) {
