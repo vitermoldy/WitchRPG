@@ -469,6 +469,7 @@ export class UnitSystem {
   slam(u: Unit, at = u.slamAt, radius = u.spec.slam ?? 4, damage = u.damage) {
     const host = this.host
     host.slamFx(at, radius, u.team)
+    if (u.team === 'rift') {
   private hit(u: Unit, tgt: Target) {
     let dmg = u.damage
     if (u.team === 'shadow' && u.focus && tgt === u.focus) dmg *= 1 + u.focusBonus
