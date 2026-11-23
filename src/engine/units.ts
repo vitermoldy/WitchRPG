@@ -591,6 +591,7 @@ export class UnitSystem {
       return
     }
     if (u.state === 'windup') {
+      u.vel.x *= Math.exp(-6 * dt)
     }
   }
 
