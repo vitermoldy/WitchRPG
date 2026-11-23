@@ -187,3 +187,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       return
     }
     busy = true
+    submit.disabled = true
