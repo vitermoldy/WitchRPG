@@ -123,3 +123,4 @@ export class Projectiles {
         if (wall || s.pos.y <= floor || s.life <= 0) hit = true
       }
       if (hit) {
+        h.glow.emit({ pos: s.pos, count: 16, color, intensity: 2.4, life: 0.45, size: 0.22, sizeEnd: 0.03, speed: 3.2, gravity: 6 })
