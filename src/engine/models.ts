@@ -379,6 +379,7 @@ function hollow(team: Team): UnitModel {
       shards.position.y = 3
       for (let i = 0; i < 7; i++) {
         const sh = new THREE.Mesh(new THREE.OctahedronGeometry(0.22 + (i % 3) * 0.06, 0), i % 2 ? m.accent : m.bone)
+        const a = (i / 7) * Math.PI * 2
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
