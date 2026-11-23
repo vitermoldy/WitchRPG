@@ -107,3 +107,4 @@ export class ShadowCrowd {
         const pace = Math.min(1, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
         this.p.y += Math.abs(Math.sin(t * 9 + u.id)) * 0.05 * pace
       }
+      this.q.setFromAxisAngle(UP, u.yaw)
