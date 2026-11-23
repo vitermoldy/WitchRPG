@@ -119,3 +119,5 @@ function groundMaterial() {
         float crack = smoothstep(0.03, 0.0, abs(n2(vWp.xz * 0.35) - 0.5)) * 0.6;
         col *= 1.0 - crack * 0.5;
         diffuseColor.rgb = col;`,
+      )
+  }
