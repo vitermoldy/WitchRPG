@@ -279,6 +279,7 @@ function warden(team: Team): UnitModel {
         pad.position.x = side * 0.42
         pad.rotation.z = side * -0.25
         p.spine.add(pad)
+      }
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
