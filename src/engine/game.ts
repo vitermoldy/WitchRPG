@@ -249,6 +249,7 @@ export class Game {
       levelAfter: this.profile.level,
       shadowsRaised: r.raised.length,
       seconds: Math.round(r.elapsed),
+      finishedAt: new Date().toISOString(),
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
