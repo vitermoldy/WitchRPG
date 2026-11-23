@@ -333,3 +333,4 @@ export class Hands {
           jitter: 0.02,
           drag: 2,
         })
+      }
