@@ -178,3 +178,4 @@ export class Player {
     } else this.lastGood.copy(this.pos)
 
     this.hurtTimer = Math.max(0, this.hurtTimer - dt)
+    const eyeTarget = this.crouching || this.sliding > 0 ? MOVE.crouchEye : MOVE.eye
