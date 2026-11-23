@@ -563,6 +563,7 @@ export class Game {
     for (const s of this.units.shadows()) this.recall(s)
     const home = this.lair.platforms[0].center.clone()
     const boss = this.units.spawn('hollow', 'rift', TIERS[3].boss!.level, home.clone())
+    boss.setState('rising')
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
