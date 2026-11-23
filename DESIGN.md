@@ -62,6 +62,7 @@ Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama
 | Boss fase 3 | Menelan sisa anak buahnya, kebal kecuali di dalam Reality Warp. Di dalam medan ia limbung dan menerima +50% damage | Dengan cooldown Warp 30 detik dari GDD, jendela 5 sampai 7 detik terlalu pendek tanpa bonus ini; bot uji kehabisan HP sebelum boss jatuh. |
 | Napas antar fase | Setiap fase baru memulihkan 25% HP dan 30 mana | Pertarungan boss tidak punya jeda gelombang. |
 | Lemparan Telekinesis | Terbang hampir lurus selama 0,9 detik menuju titik bidik | Dengan gravitasi penuh, batu jatuh sekitar 5 m sebelum mencapai boss yang melayang 20 m jauhnya. |
+| XP per rank | Prajurit ×1, Ksatria ×2, Jenderal ×5, Marsekal ×10 (boss Lv 10 = 1.500 XP) | GDD: "Hadiah: XP besar". Rumus 10 XP per level musuh tetap dipakai sebagai dasar. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
