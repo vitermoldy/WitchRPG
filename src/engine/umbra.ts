@@ -172,3 +172,5 @@ export class Umbra {
         if (this.wheelChoice) this.order(this.wheelChoice)
       }
     }
+  }
+
