@@ -55,6 +55,7 @@ export class Game {
   tier: TierId = 1
   readonly warnings: Warnings
   readonly projectiles: Projectiles
+  private rockT = 0
   readonly glow = new Particles(4000, 'glow')
   readonly smoke = new Particles(900, 'smoke')
   readonly lights: LightPool
