@@ -5,3 +5,4 @@ import { WORLD } from '../game/balance'
 export interface PropSpot {
   kind: 'car' | 'crate'
   x: number
+  z: number
