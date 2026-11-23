@@ -271,3 +271,4 @@ export class Hands {
     this.swayY += (Math.max(-0.04, Math.min(0.04, lookDy * 0.0006)) - this.swayY) * Math.min(1, dt * 10)
     for (const h of [this.left, this.right]) {
       if (h.hold > 0) {
+        h.hold -= dt
