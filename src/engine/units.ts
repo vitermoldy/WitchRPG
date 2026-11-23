@@ -38,3 +38,4 @@ export class Unit implements Target {
   readonly kind: UnitKind
   readonly team: Team
   readonly spec: UnitSpec
+  level: number
