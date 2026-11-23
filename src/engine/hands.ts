@@ -269,3 +269,4 @@ export class Hands {
     this.t += dt
     this.swayX += (Math.max(-0.04, Math.min(0.04, -lookDx * 0.0006)) - this.swayX) * Math.min(1, dt * 10)
     this.swayY += (Math.max(-0.04, Math.min(0.04, lookDy * 0.0006)) - this.swayY) * Math.min(1, dt * 10)
+    for (const h of [this.left, this.right]) {
