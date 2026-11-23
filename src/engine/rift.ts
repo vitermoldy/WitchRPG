@@ -118,6 +118,7 @@ export class RiftDirector {
     for (const kind of ORDER) for (let n = 0; n < (spec[kind] ?? 0); n++) q.push({ kind, level: lv() })
     // Shuffle so the kinds arrive mixed; the Rift Lord comes first so its wave is about it.
     const lord = q.filter((s) => s.kind === 'riftlord')
+    const rest = q.filter((s) => s.kind !== 'riftlord')
       const k = Math.floor(Math.random() * (n + 1))
       ;[q[n], q[k]] = [q[k], q[n]]
     }
