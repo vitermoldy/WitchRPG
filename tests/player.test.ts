@@ -7,3 +7,5 @@ import type { Input } from '../src/engine/input'
 // Only the parts of Input that Player.update reads.
 const idle = { dx: 0, dy: 0, held: () => false, pressed: () => false } as unknown as Input
 
+const finite = (p: Player) => [p.pos.x, p.pos.y, p.pos.z, p.vel.x, p.vel.y, p.vel.z].every(Number.isFinite)
+
