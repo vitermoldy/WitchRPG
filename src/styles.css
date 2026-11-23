@@ -1145,6 +1145,7 @@ dialog::backdrop {
 }
 
 .history-meta {
+  color: var(--ink-2);
 .stat-list {
   display: grid;
   gap: 0.35rem;
