@@ -172,3 +172,4 @@ export class Game {
       if (!locked && this.state === 'playing') this.setState('paused')
     }
     window.addEventListener('resize', () => this.resize())
+    this.resize()
