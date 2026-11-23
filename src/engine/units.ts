@@ -225,3 +225,4 @@ export class UnitSystem {
   }
 
   private brain(u: Unit, dt: number) {
+    u.retarget -= dt
