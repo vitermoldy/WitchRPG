@@ -11,7 +11,7 @@ const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
   spr: { name: 'Spirit', effect: '+5 mana maks, regen lebih cepat' },
   vit: { name: 'Vitality', effect: '+10 HP maks' },
   agi: { name: 'Agility', effect: '+1% gerak, +0,1 dtk melayang' },
-  umb: { name: 'Umbra', effect: '+1% peluang rite, +1 slot tiap 5' },
+  umb: { name: 'Umbra', effect: '+1% peluang rite, bayangan +2% lebih kuat' },
 }
 
 const fmt = (n: number, d = 0) => n.toLocaleString('id-ID', { maximumFractionDigits: d, minimumFractionDigits: d })
