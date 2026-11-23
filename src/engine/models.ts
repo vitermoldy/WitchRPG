@@ -268,6 +268,7 @@ function spitter(team: Team): UnitModel {
   )
 }
 
+/** Armoured, slow, with a tower shield held in front: bolts break on it. */
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
