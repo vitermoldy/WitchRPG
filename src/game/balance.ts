@@ -91,6 +91,8 @@ export const RITE = {
   /** A fallen shadow can be called again after this many seconds. */
   reform: 45,
   summonCooldown: 2.5,
+  /** Each UMB point above 5 makes every shadow 2% tougher and stronger. */
+  powerPerUmb: 0.02,
   shadowXpShare: 0.3,
   minChance: 0.1,
   maxChance: 0.9,
