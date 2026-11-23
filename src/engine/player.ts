@@ -197,3 +197,4 @@ export class Player {
     const sy = Math.sin(this.shakeT * 1.1) * 0.035 * s
     const sp = Math.sin(this.shakeT * 1.37 + 2) * 0.035 * s
     const sr = Math.sin(this.shakeT * 0.93 + 4) * 0.05 * s
+    cam.rotation.set(this.pitch + sp, this.yaw + sy, sr + (this.sliding > 0 ? 0.04 : 0), 'YXZ')
