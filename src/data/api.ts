@@ -34,3 +34,4 @@ function makeCode(): string {
   return [...bytes].map((b) => ALPHABET[b % ALPHABET.length]).join('')
 }
 
+function clientCode(): string {
