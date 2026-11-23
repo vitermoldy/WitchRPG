@@ -22,3 +22,5 @@ import { RiftDirector } from './rift'
 import { Spells } from './spells'
 import { Umbra } from './umbra'
 import { Unit, UnitSystem, type DamageSource, type UnitHost } from './units'
+import { buildWorld, type WorldBuild } from './world'
+
