@@ -397,3 +397,4 @@ export class Spells {
         const a = f.angleTo(to)
         if (a < bestA && g.colliders.clear(o, u.center)) {
           bestA = a
+          first = { unit: u }
