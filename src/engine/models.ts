@@ -76,3 +76,4 @@ function husk(team: Team): UnitModel {
   const jaw = pivot(head, 0, -0.02, -0.02)
   jaw.add(box(0.2, 0.06, 0.2, s.bone, meshes, -0.03))
   parts.jaw = jaw
+  for (const x of [-0.06, 0.06]) {
