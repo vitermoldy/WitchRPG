@@ -45,3 +45,4 @@ export class Player {
   floatMax: number = MOVE.floatMax
 
   private readonly lastGood = new THREE.Vector3()
+  readonly forward = new THREE.Vector3()
