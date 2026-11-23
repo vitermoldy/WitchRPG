@@ -169,3 +169,4 @@ export class Hud {
       const u = live.get(rec.id)
       const down = g.umbra.down.has(rec.id)
       const cls = down ? 'down' : u ? 'up' : ''
+      const hp = u ? Math.max(0, u.hp / u.maxHp) : 0
