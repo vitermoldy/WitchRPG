@@ -259,3 +259,4 @@ export const TEAR_FRAG = /* glsl */ `
     vec3 col = core * inside + rimCol * rim;
     float a = max(inside, rim) * smoothstep(1.0, 0.85, abs(p.y));
     if (a < 0.01) discard;
+    gl_FragColor = vec4(col, a);
