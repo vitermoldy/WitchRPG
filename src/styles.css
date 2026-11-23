@@ -1196,3 +1196,4 @@ dialog::backdrop {
   border-color: rgba(143, 85, 255, 0.55);
 }
 
+.node.locked {
