@@ -276,6 +276,7 @@ function warden(team: Team): UnitModel {
     (p, m, meshes) => {
       for (const side of [-1, 1]) {
         const pad = box(0.34, 0.16, 0.42, m.bone, meshes, 0.84)
+        pad.position.x = side * 0.42
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
