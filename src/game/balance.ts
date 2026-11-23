@@ -168,6 +168,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   spitter: {
     name: 'Spitter',
+    rank: 'prajurit',
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
