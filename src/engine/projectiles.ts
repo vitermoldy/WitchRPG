@@ -102,3 +102,4 @@ export class Projectiles {
       }
 
       let hit = false
+      if (s.team === 'rift') {
