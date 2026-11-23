@@ -1390,6 +1390,7 @@ dialog::backdrop {
   line-height: 1.15;
 }
 
+.gate-note {
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
