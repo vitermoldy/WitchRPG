@@ -60,3 +60,4 @@ export class Hud {
   banner(title: string, sub: string) {
     ;(this.bannerEl.querySelector('.banner-title') as HTMLElement).textContent = title
     ;(this.bannerEl.querySelector('.banner-sub') as HTMLElement).textContent = sub
+    this.bannerEl.classList.add('show')
