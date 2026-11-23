@@ -22,6 +22,8 @@ interface Portal {
 }
 
 type Spawn = { kind: Exclude<UnitKind, 'hollow'>; level: number; elite?: EliteTrait }
+const ORDER: Spawn['kind'][] = ['husk', 'hound', 'spitter', 'warden', 'harrier', 'bombard', 'riftlord']
+
 
 /** Runs one Rift: waves out of the four tears, then the exit, or the lair at the end of Tier III. */
 export class RiftDirector {
