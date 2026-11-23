@@ -166,3 +166,4 @@ function hound(team: Team): UnitModel {
   for (let i = 0; i < 3; i++) {
     const t = box(0.07 - i * 0.015, 0.07 - i * 0.015, 0.22, i === 2 ? s.accent : bodyMat, meshes)
     t.position.z = 0.11
+    seg.add(t)
