@@ -332,6 +332,8 @@ interface Warn {
 
 /** A circle on the floor that fills up while a slam winds up: step out before it is full. */
 export class Warnings {
+  private readonly pool: Warn[] = []
+
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
