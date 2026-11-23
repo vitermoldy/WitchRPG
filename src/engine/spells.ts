@@ -328,3 +328,4 @@ export class Spells {
       let best = wall ? wall.dist : Infinity
       if (wall) hitAt = wall.point
       const ray = new THREE.Ray(b.prev, dir)
+      const sphere = new THREE.Sphere()
