@@ -375,3 +375,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const mapW = f.map.clone()
       mapW.repeat.set(w / 12, h / 24)
       mapW.needsUpdate = true
+      const em = f.emissive.clone()
