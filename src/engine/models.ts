@@ -20,3 +20,4 @@ const shared = {
     bone: new THREE.MeshStandardMaterial({ color: 0x8a7d70, roughness: 0.7, flatShading: true }),
   },
   shadow: {
+    accent: new THREE.MeshStandardMaterial({ color: 0x080410, emissive: COLOR.umbra, emissiveIntensity: 1.8 }),
