@@ -394,3 +394,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     }
   }
   // Rubble mounds close the four streets behind each portal.
+  for (const p of portals) {
