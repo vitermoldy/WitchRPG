@@ -362,3 +362,4 @@ export class UnitSystem {
         continue
       }
       if (u.state === 'rising') {
+        if (u.t > 1.2) u.setState('move')
