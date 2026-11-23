@@ -45,3 +45,4 @@ export class Game {
   readonly lights: LightPool
   readonly rings: Rings
   readonly units: UnitSystem
+  readonly props: PropSystem
