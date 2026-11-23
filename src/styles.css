@@ -1272,3 +1272,4 @@ dialog::backdrop {
 }
 
 .room-item .btn {
+  grid-row: 1 / span 2;
