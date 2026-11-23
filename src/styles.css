@@ -668,3 +668,4 @@ button:disabled {
   position: absolute;
   left: var(--gutter);
   bottom: var(--gutter);
+  display: grid;
