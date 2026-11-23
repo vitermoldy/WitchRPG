@@ -152,3 +152,4 @@ button:disabled {
 }
 
 .btn-text {
+  min-height: 44px;
