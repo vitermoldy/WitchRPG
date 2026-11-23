@@ -567,6 +567,7 @@ export class UnitSystem {
     const height = lost ? 2.5 : u.team === 'shadow' ? spec.fly!.height * 0.6 : spec.fly!.height
     const cruise = Math.max(floor + 2, ref.pos.y + height) + Math.sin(u.walk * 0.3 + u.id) * 0.6
     const climb = (goal: number, rate: number) => {
+      u.vel.y += ((goal - u.pos.y) * rate - u.vel.y) * Math.min(1, dt * 4)
     }
   }
 
