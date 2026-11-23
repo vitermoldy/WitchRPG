@@ -1113,6 +1113,7 @@ dialog::backdrop {
   padding: 0.55rem 0.7rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
+  background: var(--bg);
 .stat-list {
   display: grid;
   gap: 0.35rem;
