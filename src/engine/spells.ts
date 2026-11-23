@@ -191,3 +191,4 @@ export class Spells {
     const wall = this.g.colliders.raycast(o, dir, maxDist)
     if (wall) best = { point: wall.point, dist: wall.dist, unit: null, prop: null }
     const sphere = new THREE.Sphere()
+    const ray = new THREE.Ray(o, dir)
