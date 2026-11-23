@@ -425,6 +425,8 @@ export class Umbra {
         const rec = raised[0]
         g.hud.message(`Bayangan baru: ${rec.name}, ${RANKS[rec.rank].label} dari ${UNITS[rec.kind].name} Lv ${rec.level}.`, 'umbra')
         g.hud.riteResult(true, rec.name)
+      } else {
+        g.hud.message(`${raised.length} bangkit${faded ? `, ${faded} pudar` : ''}. Ruang Bayangan sekarang menampung ${g.profile.shadows.length} bayangan.`, 'umbra')
       g.saveSoon()
     } else {
       this.turnToAsh(u)
