@@ -65,3 +65,4 @@ export class Game {
   private readonly unitHost: UnitHost
   onState: ((s: GameState) => void) | null = null
 
+  constructor(canvas: HTMLCanvasElement, debug: boolean) {
