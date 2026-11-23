@@ -72,6 +72,7 @@ Pemilik meminta database "seperti yang lain" dengan akun pemilik `vmk`. Bentukny
 - Tabel game: `clients` (satu kode data per akun), `witches` (level, XP, poin, lima stat, pengaturan), `witch_upgrades`, `shadows` (Ruang Bayangan), `rift_runs` (setiap Rift yang ditutup, tumbang, atau ditinggalkan).
 - Browser menyimpan lebih dulu, lalu witch dikirim ke server sedetik kemudian. Saat masuk, salinan yang `updatedAt`-nya lebih baru yang dipakai; witch yang belum pernah dimainkan selalu kalah dari salinan server.
 - Saat server menyala, layar masuk menutup layar judul dan tidak bisa ditutup dengan Esc. Saat server mati, layar itu menawarkan "Coba lagi" dan "Main tanpa akun".
+- Keluar akun mengirim witch dan Rift yang tertunda dulu, lalu menghapusnya dari browser.
 ## Cara mengecek
 
 - `npm test`: kurva XP (80 dan 2.160), peluang Umbra Rite (contoh GDD 58%), slot, upgrade, bagi XP bayangan, damage lempar.
