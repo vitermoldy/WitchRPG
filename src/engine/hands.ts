@@ -281,3 +281,4 @@ export class Hands {
       h.flash = Math.max(0, h.flash - dt * 5)
       const p = h.pose
       const mirror = h.side === 'left' ? -1 : 1
+      const trem = p.tremble * 0.004
