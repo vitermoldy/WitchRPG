@@ -195,6 +195,8 @@ export class Umbra {
     u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
     // UMB makes every soldier stronger.
     const power = g.derived.shadowPower
+    u.maxHp *= power
+    u.hp = u.maxHp
     return u
   }
 
