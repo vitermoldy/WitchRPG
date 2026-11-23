@@ -390,3 +390,4 @@ export class Spells {
       const f = g.player.viewDir()
       let bestA: number = SPELL.grip.aimCone
       for (const u of g.units.units) {
+        if (!this.grippable(u)) continue
