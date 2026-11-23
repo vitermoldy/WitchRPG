@@ -335,6 +335,7 @@ export class Warnings {
   private readonly pool: Warn[] = []
 
   constructor(scene: THREE.Object3D, count = 6) {
+    const disc = new THREE.CircleGeometry(1, 48)
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
