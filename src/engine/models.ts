@@ -96,3 +96,4 @@ function husk(team: Team): UnitModel {
     }
     parts[side < 0 ? 'armL' : 'armR'] = sh
     parts[side < 0 ? 'foreL' : 'foreR'] = el
+    const hip = pivot(body, side * 0.12, -0.05, 0)
