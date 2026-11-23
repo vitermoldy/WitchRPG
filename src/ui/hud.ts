@@ -81,6 +81,8 @@ export class Hud {
     if (ok) this.banner(name, 'bangkit dari bayangan dan berdiri di sisimu')
   }
 
+  /** A violet breath across the screen when the army is called. */
+  umbraPulse() {
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
