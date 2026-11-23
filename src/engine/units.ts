@@ -599,6 +599,7 @@ export class UnitSystem {
         if (floor < u.pos.y - 1) {
           u.setState('air')
           continue
+        }
       for (const b of host.propBlockers) {
         const dx = u.pos.x - b.pos.x
         const dz = u.pos.z - b.pos.z
