@@ -220,3 +220,4 @@ export class Player {
     return Math.hypot(this.vel.x, this.vel.z)
   }
 
+  get bobPhase() {
