@@ -629,3 +629,4 @@ export class Spells {
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 }, uColor: { value: new THREE.Color(COLOR.chaos) } },
       vertexShader: RUNE_VERT,
       fragmentShader: RUNE_FRAG,
+      transparent: true,
