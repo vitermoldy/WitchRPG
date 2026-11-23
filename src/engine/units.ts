@@ -563,6 +563,7 @@ export class UnitSystem {
     u.blind = sees ? 0 : u.blind + dt
     const lost = u.blind > 1.5
     // Ride above the target, not above whatever roof is underneath; lower when it has lost sight of it.
+    // Shadows ride lower, so they stay in the fight around the witch.
     }
   }
 
