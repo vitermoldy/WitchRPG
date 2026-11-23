@@ -883,3 +883,4 @@ button:disabled {
 }
 
 .wheel-opt {
+  position: absolute;
