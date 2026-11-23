@@ -241,3 +241,4 @@ button:disabled {
 
 .loading-sub {
   color: var(--ink-3);
+  font-size: 0.9rem;
