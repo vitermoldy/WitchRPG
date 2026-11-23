@@ -100,7 +100,7 @@ export class Game {
     const loaded = loadProfile()
     this.profile = loaded.profile
     this.saveError = loaded.error
-    this.derived = derive(this.profile.stats)
+    this.derived = derive(this.profile.stats, this.profile.level)
 
     this.world = buildWorld(this.scene)
     this.colliders = this.world.colliders
