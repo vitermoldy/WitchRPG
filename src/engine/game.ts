@@ -279,3 +279,4 @@ export class Game {
   }
 
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
+    u.setState('dead')
