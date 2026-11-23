@@ -46,3 +46,4 @@ const TABLES = [
     kind ENUM('husk','hound') NOT NULL,
     \`rank\` ENUM('prajurit','ksatria','jenderal','marsekal') NOT NULL,
     level TINYINT UNSIGNED NOT NULL,
+    xp INT UNSIGNED NOT NULL,
