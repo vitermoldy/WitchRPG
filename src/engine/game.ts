@@ -430,3 +430,4 @@ export class Game {
     this.composer.setSize(w, h)
     this.camera.aspect = w / h
     this.camera.updateProjectionMatrix()
+    this.hands.resize(w / h, h * this.renderer.getPixelRatio())
