@@ -65,6 +65,8 @@ Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama
 | XP per rank | Prajurit ×1, Ksatria ×2, Jenderal ×5, Marsekal ×10 (boss Lv 10 = 1.500 XP) | GDD: "Hadiah: XP besar". Rumus 10 XP per level musuh tetap dipakai sebagai dasar. |
 | Pertumbuhan | Musuh +15% HP dan +10% damage per level (sebelumnya +25% dan +15%); witch +5% damage dan +8 HP per level | Tanpa ini husk Lv 9 butuh tiga kali lebih banyak bolt dari husk Lv 1 sementara witch tidak bertambah kuat. Dikunci tes. |
 | Upgrade Hex Bolt | 3 peluru × 6 damage (sebelumnya × 9) | Versi lama hampir melipattigakan DPS dan menghabisi fase 1 boss dalam 8 detik. |
+| Kebangkitan Jenderal dan Marsekal | Rift Lord bayangan memanggil dua husk bayangan sementara; Hollow Warden bayangan menarik dan membekukan musuh. Satu Marsekal per boss, tanpa upgrade | GDD: Jenderal punya 1 skill unik, Marsekal hanya satu per boss. GDD tidak memberi upgrade untuk keduanya. |
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
