@@ -72,3 +72,4 @@ export class RiftDirector {
     for (const p of this.portals) p.open = 0
   }
 
+  get totalWaves() {
