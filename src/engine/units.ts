@@ -10,3 +10,4 @@ export type UnitState = 'spawn' | 'rising' | 'move' | 'windup' | 'strike' | 'lun
 export type Command = 'follow' | 'attack' | 'hold'
 export type DamageSource = 'player' | 'shadow' | 'impact' | 'rift'
 
+export interface Target {
