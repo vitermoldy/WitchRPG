@@ -10,3 +10,4 @@ export const MOVE = {
   groundAccel: 60,
   airAccel: 16,
   groundFriction: 12,
+  radius: 0.38,
