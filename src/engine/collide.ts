@@ -79,6 +79,7 @@ export class Colliders {
   pushCircle(pos: THREE.Vector3, r: number, feetY: number, step: number, outNormal?: THREE.Vector3): boolean {
     let hit = false
     // A push can move the circle by up to its radius, so look a little wider.
+    for (const b of this.near(pos.x, pos.z, r + 1)) {
       if (b.top <= feetY + step) continue
       const cx = Math.min(b.maxX, Math.max(b.minX, pos.x))
       const cz = Math.min(b.maxZ, Math.max(b.minZ, pos.z))
