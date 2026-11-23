@@ -194,3 +194,4 @@ function facadeTextures(seed: number) {
   }
   const map = new THREE.CanvasTexture(c)
   map.colorSpace = THREE.SRGBColorSpace
+  map.wrapS = map.wrapT = THREE.RepeatWrapping
