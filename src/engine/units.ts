@@ -474,3 +474,4 @@ export class UnitSystem {
       tmp.y = 3
       this.knock(other, tmp)
     }
+    u.thrown = false
