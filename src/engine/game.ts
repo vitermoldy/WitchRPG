@@ -131,3 +131,4 @@ export class Game {
       changed: () => {
         this.applyStats(false)
         this.saveSoon()
+      },
