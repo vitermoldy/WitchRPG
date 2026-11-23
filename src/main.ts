@@ -100,3 +100,4 @@ async function boot() {
       ['Pasukan bayangan', game.profile.shadows.length ? game.profile.shadows.map((s) => `${s.name} (${RANKS[s.rank].label}, ${UNITS[s.kind].name})`).join(', ') : 'Belum ada', 'umbra'],
     ]
     $('result-list').innerHTML = rows.map(([a, b, c]) => `<dt>${a}</dt><dd${c ? ` class="${c}"` : ''}>${b}</dd>`).join('')
+    const pts = game.profile.statPoints + game.profile.skillPoints
