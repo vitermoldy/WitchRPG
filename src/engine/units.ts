@@ -821,6 +821,7 @@ export class UnitSystem {
           for (const b of cell) {
             // Each pair once.
             if (b.id <= a.id) continue
+            if (Math.abs(a.pos.y - b.pos.y) > 1.5) continue
       }
       // Keep clear of the witch.
       const p = host.player
