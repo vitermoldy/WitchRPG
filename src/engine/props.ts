@@ -18,3 +18,4 @@ export interface Prop {
   mass: number
   held: boolean
   thrown: boolean
+  awake: boolean
