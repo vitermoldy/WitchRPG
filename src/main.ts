@@ -173,3 +173,4 @@ async function boot() {
     game.profile.settings.volume = Number((e.target as HTMLInputElement).value)
     $('out-vol').textContent = `${Math.round(game.profile.settings.volume * 100)}%`
     game.applySettings()
+    game.saveSoon()
