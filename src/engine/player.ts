@@ -48,3 +48,4 @@ export class Player {
   readonly forward = new THREE.Vector3()
   readonly right = new THREE.Vector3()
 
+  reset(at: THREE.Vector3, yaw: number) {
