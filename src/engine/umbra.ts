@@ -189,8 +189,6 @@ export class Umbra {
 
   private spawnShadow(rec: ShadowRecord, at: THREE.Vector3, slot: number) {
     const g = this.g
-    const rec = g.profile.shadows.find((s) => s.id === recordId)
-    if (!rec) return null
     const u = g.units.spawn(rec.kind, 'shadow', rec.level, at, true)
     u.record = rec
     u.slot = g.profile.shadows.indexOf(rec)
