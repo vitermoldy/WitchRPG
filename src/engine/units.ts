@@ -766,6 +766,7 @@ export class UnitSystem {
     }
     if (u.stun > 0) {
       lean = baseLean + 0.25
+      armX = 0.4
     }
   }
 }
