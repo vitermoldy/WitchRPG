@@ -403,6 +403,7 @@ export class UnitSystem {
         if (Math.random() < 0.35 || spec.slam) this.host.growl()
         return
       }
+      this.steer(u, tgt.pos, speed, dt, spec.attackRange - 0.4)
       return
     }
     if (u.state === 'windup') {
