@@ -203,3 +203,4 @@ export class BossFight {
       u.pos.z += (this.home.z - u.pos.z) * Math.min(1, dt * 2)
       u.pos.y += (hover - u.pos.y) * Math.min(1, dt * 2)
       u.vel.set(0, 0, 0)
+      if (goal) g.units.face(u, goal, dt, 3)
