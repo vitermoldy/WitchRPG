@@ -214,3 +214,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   gate.addEventListener('cancel', (event) => {
     event.preventDefault()
     if (authState().status === 'unavailable') skip()
+  })
+
