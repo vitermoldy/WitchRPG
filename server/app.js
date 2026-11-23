@@ -96,6 +96,7 @@ function cleanProfile(p) {
     volume: num(st.volume, 0, 1, 0.7),
     headBob: st.headBob !== false,
     shake: st.shake !== false,
+    fieldCap: Math.round(num(st.fieldCap, 10, 120, 50)),
   }
   // A clock a little ahead is fine; a date far in the future would lock every later save out.
   let updated = Date.parse(p.updatedAt)
