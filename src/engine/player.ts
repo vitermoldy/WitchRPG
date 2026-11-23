@@ -7,3 +7,5 @@ export interface Circle {
   pos: THREE.Vector3
   radius: number
   top: number
+}
+
