@@ -29,3 +29,4 @@ export class BossFight {
     this.g = g
     this.u = u
     this.home.copy(home)
+    u.brainHook = (unit, dt) => this.brain(unit, dt)
