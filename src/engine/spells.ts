@@ -683,6 +683,7 @@ export class Spells {
       if (w.t >= w.duration) {
         g.scene.remove(w.group)
         w.ruleMat.dispose()
+        w.wallMat.dispose()
   private burst() {
     const g = this.g
     const s = SPELL.burst
