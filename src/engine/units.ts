@@ -544,3 +544,4 @@ export class UnitSystem {
         legL.rotation.x = k * 0.3
         legR.rotation.x = k * 0.5
         armL.rotation.x = -k * 2.6
+        armR.rotation.x = -k * 2.2
