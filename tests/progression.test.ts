@@ -65,3 +65,4 @@ describe('Umbra Rite chance', () => {
   })
 })
 
+describe('stats and slots', () => {
