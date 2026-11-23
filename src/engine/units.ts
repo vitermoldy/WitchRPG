@@ -4,3 +4,5 @@ import { impactDamage, unitStats, type ShadowRecord } from '../game/progression'
 import type { Colliders } from './collide'
 import { buildModel, disposeModel, type Team, type UnitModel } from './models'
 import type { Particles } from './fx'
+import { COLOR } from './palette'
+
