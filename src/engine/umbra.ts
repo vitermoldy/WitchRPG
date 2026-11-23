@@ -218,3 +218,4 @@ export class Umbra {
   }
 
   /** Taking damage breaks the cast (GDD). */
+  interrupt() {
