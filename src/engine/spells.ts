@@ -483,3 +483,4 @@ export class Spells {
     for (let i = 0; i < this.tendrilPts.length; i++) {
       const s = i / (this.tendrilPts.length - 1)
       const a = from.clone().lerp(mid, s)
+      const b = mid.clone().lerp(to, s)
