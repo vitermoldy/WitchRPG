@@ -140,3 +140,4 @@ export class Projectiles {
       if (c.distanceToSquared(s.pos) > reach * reach) continue
       h.hurtUnit(u, s.damage, s.prev, s.team === 'witch' ? (s.reflected ? 'player' : 'shadow') : 'rift')
       return true
+    }
