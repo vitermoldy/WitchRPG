@@ -203,3 +203,4 @@ export async function flushQueue(): Promise<number> {
       sent++
     } catch {
       break
+    }
