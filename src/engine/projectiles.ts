@@ -14,3 +14,4 @@ interface Shot {
   radius: number
   damage: number
   team: ShotTeam
+  life: number
