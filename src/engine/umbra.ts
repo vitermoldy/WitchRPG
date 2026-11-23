@@ -127,6 +127,8 @@ export class Umbra {
     const g = this.g
     const ready = this.ready()
     if (!g.profile.shadows.length) {
+      g.hud.message(this.riteOpen ? 'Ruang Bayangan masih kosong. Bangkitkan musuh yang kalah dengan Tahan R.' : 'Ruang Bayangan masih kosong. Umbra Rite terbuka di Lv 2.', 'umbra')
+      return
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
