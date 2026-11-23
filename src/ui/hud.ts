@@ -92,6 +92,8 @@ export class Hud {
   /** Open world: the region line, the nearest camp, and the compass. */
   private updateWorld() {
     const g = this.g
+    const w = g.worldDir
+    const near = w.nearestCamp()
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
