@@ -141,3 +141,4 @@ export class Player {
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
+    world.pushCircle(this.pos, this.radius, this.pos.y, MOVE.step)
