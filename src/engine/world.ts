@@ -303,3 +303,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   ;(tearMat as THREE.ShaderMaterial & { fog: boolean }).fog = false
   const tear = new THREE.Mesh(new THREE.PlaneGeometry(70, 150), tearMat)
   tear.position.copy(riftDir.clone().multiplyScalar(250))
+  tear.lookAt(0, 0, 0)
