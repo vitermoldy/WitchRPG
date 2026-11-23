@@ -526,3 +526,4 @@ export class Spells {
         if (throwIt) p.spin.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).multiplyScalar(6)
       }
     }
+    this.grabbed = []
