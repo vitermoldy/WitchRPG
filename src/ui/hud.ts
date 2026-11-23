@@ -45,3 +45,5 @@ export class Hud {
     else if (key === 'transform') el.style.transform = value
     else if (key === 'dash') el.style.strokeDasharray = value
     else el.className = value
+  }
+
