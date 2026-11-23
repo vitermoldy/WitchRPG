@@ -154,3 +154,4 @@ function hound(team: Team): UnitModel {
     ['legBR', 0.2, 0.38],
   ]
   for (const [name, x, z] of legs) {
+    const hip = pivot(body, x, -0.12, z)
