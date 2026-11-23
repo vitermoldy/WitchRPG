@@ -182,3 +182,4 @@ export class PropSystem {
   update(dt: number) {
     const awake = this.props.filter((p) => p.awake && !p.held)
     // The GDD caps live physics at 20 bodies; the slowest go to sleep first.
+    if (awake.length > WORLD.maxPhysicsProps) {
