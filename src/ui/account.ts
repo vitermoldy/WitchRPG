@@ -86,3 +86,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       if (state.status === 'signed-out') user.focus()
       else if (offline) $('gate-retry').focus()
     }
+    shown = gate.open ? state.status : null
