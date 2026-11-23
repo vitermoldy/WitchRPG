@@ -1417,6 +1417,7 @@ dialog::backdrop {
   font-size: 0.9rem;
 }
 
+/* Rift picker: three tiers side by side, the chosen one in Chaos red. */
 /* Account */
 .account-row {
   display: flex;
