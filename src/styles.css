@@ -530,6 +530,7 @@ button:disabled {
   transition: transform 0.15s linear;
 }
 
+.boss-phase {
 .banner {
   position: absolute;
   top: 24%;
