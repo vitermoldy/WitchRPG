@@ -254,3 +254,4 @@ export class Sfx {
     }
     const wind = ctx.createBufferSource()
     wind.buffer = this.noiseBuf
+    wind.loop = true
