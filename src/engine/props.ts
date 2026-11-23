@@ -206,3 +206,4 @@ export class PropSystem {
         p.mesh.rotation.x += p.spin.x * dt
         p.mesh.rotation.z += p.spin.z * dt
         continue
+      }
