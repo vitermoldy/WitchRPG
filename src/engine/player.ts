@@ -76,3 +76,4 @@ export class Player {
     this.right.set(Math.cos(this.yaw), 0, -Math.sin(this.yaw))
 
     const k = (c: string) => (canAct && input.held(c) ? 1 : 0)
+    const fwd = k('KeyW') - k('KeyS')
