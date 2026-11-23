@@ -233,6 +233,7 @@ export class UnitSystem {
       u.model.root.position.copy(u.pos)
       u.model.root.rotation.y = u.yaw
       this.group.add(u.model.root)
+    } else if (u.hasModel) this.group.remove(u.model.root)
   }
 
   clear() {
