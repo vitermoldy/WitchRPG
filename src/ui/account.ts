@@ -136,3 +136,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   /** After signing in: the newer witch wins, whichever side has it. */
   async function sync(): Promise<void> {
     try {
+      const remote = await fetchProfile()
