@@ -39,3 +39,4 @@ interface Hand {
   fingers: Finger[]
   thumb: THREE.Object3D[]
   orb: THREE.Sprite
+  light: THREE.PointLight
