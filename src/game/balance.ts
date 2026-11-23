@@ -16,3 +16,4 @@ export const MOVE = {
   step: 0.5,
   floatMax: 5,
   floatPerAgi: 0.1,
+  floatSink: 0.6,
