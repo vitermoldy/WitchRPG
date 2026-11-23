@@ -234,3 +234,4 @@ export class PropSystem {
         p.spin.multiplyScalar(Math.exp(-5 * dt))
         // Settle onto a flat face.
         const snap = p.kind === 'car' ? Math.PI : Math.PI / 2
+        const rx = Math.round(p.mesh.rotation.x / snap) * snap
