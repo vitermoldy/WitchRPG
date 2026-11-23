@@ -236,3 +236,4 @@ export class UnitSystem {
     if (u.state === 'move') {
       if (!tgt) {
         if (u.team === 'shadow') {
+          // Out of the fight, shadows knit back together.
