@@ -480,3 +480,4 @@ export class UnitSystem {
   /** Procedural animation from state and speed. */
   private animate(u: Unit, dt: number, t: number) {
     const m = u.model
+    const P = m.parts
