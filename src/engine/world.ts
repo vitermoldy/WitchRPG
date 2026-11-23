@@ -401,3 +401,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const rock = new THREE.Mesh(new THREE.DodecahedronGeometry(s, 0), concrete)
       const off = (R() - 0.5) * 16
       rock.position.set(
+        p.x * 1.2 + (across === 'x' ? off : (R() - 0.5) * 3),
