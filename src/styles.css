@@ -944,3 +944,4 @@ button:disabled {
 }
 
 .hpbar {
+  position: absolute;
