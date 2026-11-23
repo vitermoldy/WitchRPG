@@ -127,3 +127,4 @@ export const SKILLS: SkillDef[] = [
     built: false,
   },
   {
+    id: 'marshal',
