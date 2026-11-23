@@ -46,3 +46,4 @@ export class RiftDirector {
     })
     this.exit = new THREE.Group()
     this.exitMat = makeTearMaterial(9.3)
+    const tear = new THREE.Mesh(new THREE.PlaneGeometry(2.2, 3.6), this.exitMat)
