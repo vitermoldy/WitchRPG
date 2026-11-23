@@ -293,6 +293,7 @@ function warden(team: Team): UnitModel {
       const rim = box(0.04, 1.2, 0.05, m.accent, meshes, -0.25)
       rim.position.set(0.05, -0.3, -0.38)
       rim.castShadow = false
+      p.foreL.add(rim)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
