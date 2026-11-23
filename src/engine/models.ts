@@ -100,3 +100,4 @@ function husk(team: Team): UnitModel {
     hip.add(box(0.14, 0.46, 0.15, bodyMat, meshes, -0.22))
     const knee = pivot(hip, 0, -0.45, 0)
     knee.add(box(0.12, 0.44, 0.13, bodyMat, meshes, -0.22))
+    const foot = box(0.13, 0.06, 0.24, s.bone, meshes, -0.44)
