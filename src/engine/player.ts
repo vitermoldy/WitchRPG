@@ -53,3 +53,4 @@ export class Player {
     this.lastGood.copy(at)
     this.vel.set(0, 0, 0)
     this.yaw = yaw
+    this.pitch = 0
