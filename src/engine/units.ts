@@ -508,3 +508,4 @@ export class UnitSystem {
       m.root.scale.setScalar(0.3 + 0.7 * k)
       return
     }
+    if (u.state === 'rising') {
