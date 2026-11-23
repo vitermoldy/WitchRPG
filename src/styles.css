@@ -537,3 +537,4 @@ button:disabled {
   color: var(--ink);
   font-size: 0.9rem;
   line-height: 1.35;
+  animation: feed-in 0.25s ease-out;
