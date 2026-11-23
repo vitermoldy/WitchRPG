@@ -141,6 +141,8 @@ export class Umbra {
     const n = pick.length
     const p = g.player
     const feet = new THREE.Vector3(p.pos.x, g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5), p.pos.z)
+    if (feet.y < -50 || feet.y < p.pos.y - 6) feet.y = p.pos.y
+    const spill = Math.min(26, 5 + Math.sqrt(n) * 2.4)
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
