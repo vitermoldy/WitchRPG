@@ -194,3 +194,4 @@ export class BossFight {
         g.sfx.roar()
         this.summonT = s.every
       }
+      return false
