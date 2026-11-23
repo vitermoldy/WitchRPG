@@ -63,3 +63,4 @@ export class Colliders {
         if (m === 0) pos.x = b.minX - r
         else if (m === 1) pos.x = b.maxX + r
         else if (m === 2) pos.z = b.minZ - r
+        else pos.z = b.maxZ + r
