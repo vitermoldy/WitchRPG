@@ -459,3 +459,4 @@ export class Game {
     }
 
     if (s === 'playing') {
+      // ?debug runs can fast-forward the fight in fixed sub-steps.
