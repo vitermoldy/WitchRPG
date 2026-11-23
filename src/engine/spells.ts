@@ -8,3 +8,4 @@ import type { Prop } from './props'
 import { Unit } from './units'
 
 interface Bolt {
+  pos: THREE.Vector3
