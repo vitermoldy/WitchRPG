@@ -126,3 +126,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     group.add(tip)
     for (const [ex, ez, w, d] of [[0, size / 2, size, 0.06], [0, -size / 2, size, 0.06], [size / 2, 0, 0.06, size], [-size / 2, 0, 0.06, size]] as const) {
       const edge = new THREE.Mesh(new THREE.BoxGeometry(w + 0.3, 0.06, d + 0.3), glowEdge)
+      edge.position.set(x + ex, top + 0.01, z + ez)
