@@ -164,3 +164,4 @@ function hound(team: Team): UnitModel {
   const tail = pivot(body, 0, 0.08, 0.52)
   let seg: THREE.Object3D = tail
   for (let i = 0; i < 3; i++) {
+    const t = box(0.07 - i * 0.015, 0.07 - i * 0.015, 0.22, i === 2 ? s.accent : bodyMat, meshes)
