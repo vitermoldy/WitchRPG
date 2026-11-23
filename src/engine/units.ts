@@ -233,3 +233,4 @@ export class UnitSystem {
     const spec = u.spec
     const speed = u.speed * u.slow
     const tgt = u.target
+    if (u.state === 'move') {
