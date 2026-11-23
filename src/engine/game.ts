@@ -421,6 +421,7 @@ export class Game {
     if (u.hp <= 0) this.kill(u, from, by)
   }
 
+  /** A rift creature standing near a living penjaga elite (not the elite itself). */
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
