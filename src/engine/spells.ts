@@ -21,3 +21,4 @@ interface Snare {
   pos: THREE.Vector3
   radius: number
   t: number
+  duration: number
