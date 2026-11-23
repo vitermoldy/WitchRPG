@@ -749,6 +749,7 @@ export class UnitSystem {
       if (u.spec.shot) {
         lean = baseLean - 0.5 * k
         armX = 0
+      } else {
       }
     }
   }
