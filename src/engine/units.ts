@@ -768,5 +768,6 @@ export class UnitSystem {
       lean = baseLean + 0.25
       armX = 0.4
     }
+    }
   }
 }
