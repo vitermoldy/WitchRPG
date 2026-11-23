@@ -1784,3 +1784,6 @@ dialog::backdrop {
 }
 
 .hud.world .bossbar {
+  top: calc(var(--gutter) + 7.4rem);
+}
+
