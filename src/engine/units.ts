@@ -823,6 +823,7 @@ export class UnitSystem {
             if (b.id <= a.id) continue
             if (Math.abs(a.pos.y - b.pos.y) > 1.5) continue
             const dx = a.pos.x - b.pos.x
+            const dz = a.pos.z - b.pos.z
       }
       // Keep clear of the witch.
       const p = host.player
