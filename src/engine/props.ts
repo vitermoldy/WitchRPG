@@ -275,3 +275,4 @@ export class PropSystem {
     const c = SPELL.impact
     for (const u of this.host.units.units) {
       if (!u.alive || u.team !== 'rift' || u.state === 'held' || p.hitUnits.has(u.id)) continue
+      const dx = u.pos.x - p.pos.x
