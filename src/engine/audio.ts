@@ -318,6 +318,8 @@ export class Sfx {
       const filter = ctx.createBiquadFilter()
       filter.type = 'bandpass'
       filter.Q.value = 0.8
+      const gain = ctx.createGain()
+      gain.gain.value = 0.0001
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
