@@ -753,6 +753,7 @@ export class UnitSystem {
         armX = (slammer ? -3 : -2.4) * k
         lean = baseLean - (slammer ? 0.35 : 0.3) * k
       }
+    } else if (u.state === 'strike') {
     }
   }
 }
