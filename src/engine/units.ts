@@ -740,6 +740,7 @@ export class UnitSystem {
     const hip = (m.body.userData.hip as number) ?? 0.95
     const baseLean = (P.spine.userData.lean as number) ?? 0.42
     const { legL, legR, armL, armR } = P
+    const slammer = !!u.spec.slam
       }
     }
   }
