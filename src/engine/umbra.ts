@@ -170,6 +170,8 @@ export class Umbra {
   dismiss() {
     const g = this.g
     const out = this.field()
+    this.calls = []
+    if (!out.length) return
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
