@@ -266,3 +266,4 @@ export class Spells {
     g.hands.kick('left', 1.5)
     g.hands.kick('right', 1.5)
     g.player.addTrauma(0.45)
+    g.sfx.overload(true)
