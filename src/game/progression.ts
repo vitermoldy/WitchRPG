@@ -8,3 +8,4 @@ import {
   SHADOW,
   UNITS,
   XP,
+  type RankId,
