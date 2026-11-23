@@ -473,3 +473,4 @@ export class UnitSystem {
       tmp.copy(u.vel).setY(0).normalize().multiplyScalar(6)
       tmp.y = 3
       this.knock(other, tmp)
+    }
