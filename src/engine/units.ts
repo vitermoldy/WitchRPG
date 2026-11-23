@@ -593,6 +593,7 @@ export class UnitSystem {
       u.pos.z += u.vel.z * dt
       if (!u.brainHook) {
         u.vel.y = 0
+        host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3)
       for (const b of host.propBlockers) {
         const dx = u.pos.x - b.pos.x
         const dz = u.pos.z - b.pos.z
