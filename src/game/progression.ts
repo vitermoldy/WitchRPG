@@ -82,6 +82,7 @@ export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier]
 export const bossUnlocked = (p: Profile) => p.level >= (TIERS[3].boss?.unlock ?? 10)
 
 /**
+ * Why this witch cannot raise a body of this kind yet, or null when she can.
 /** True for a witch nobody has played yet (settings do not count). */
 export function isFresh(p: Profile): boolean {
   return (
