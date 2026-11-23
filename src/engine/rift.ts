@@ -47,6 +47,7 @@ export class RiftDirector {
   raised: string[] = []
   /** The big one on screen: the Rift Lord in the last wave, or the boss in the lair. */
   bossUnit: Unit | null = null
+  boss: BossFight | null = null
 
   constructor(g: Game) {
     this.g = g
