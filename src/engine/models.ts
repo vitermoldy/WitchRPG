@@ -470,6 +470,7 @@ function harrier(team: Team): UnitModel {
   for (let i = 0; i < 3; i++) {
     const t = box(0.06 - i * 0.012, 0.04, 0.24, i === 2 ? s.accent : bodyMat, meshes)
     t.position.z = 0.12
+    seg.add(t)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
