@@ -424,6 +424,7 @@ export class Game {
   /** A rift creature standing near a living penjaga elite (not the elite itself). */
   private warded(u: Unit) {
     const r = ELITE.ward.radius
+    for (const o of this.units.units) {
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
