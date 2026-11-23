@@ -1436,6 +1436,8 @@ dialog::backdrop {
   background: var(--surface);
   color: var(--ink);
   text-align: left;
+}
+
 /* Account */
 .account-row {
   display: flex;
