@@ -119,6 +119,7 @@ export class Game {
     this.scene.add(this.glow.points, this.smoke.points)
     this.lights = new LightPool(this.scene, 6)
     this.rings = new Rings(this.scene)
+    this.pools = new ShadowPools(this.scene)
     this.warnings = new Warnings(this.scene)
     this.input = new Input(canvas)
     this.input.virtualLock = debug
