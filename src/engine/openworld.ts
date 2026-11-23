@@ -305,3 +305,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     { x: -22, z: 9, yaw: 1.2 },
     { x: 9, z: 30, yaw: 2.6 },
     { x: -30, z: -26, yaw: 0.9 },
+    { x: 40, z: 4, yaw: 1.7 },
+    { x: -8, z: -44, yaw: 0.2 },
