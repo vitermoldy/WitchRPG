@@ -391,3 +391,4 @@ export class UnitSystem {
         if (u.pos.y <= floor) {
           u.pos.y = floor
           if (u.thrown && speed > SPELL.impact.minSpeed) this.impact(u, speed, null)
+          u.vel.y = 0
