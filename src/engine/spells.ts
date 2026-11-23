@@ -168,6 +168,7 @@ export class Spells {
     for (const b of this.bolts) this.killBolt(b)
     this.bolts.length = 0
     for (const s of this.snares) this.g.scene.remove(s.mesh)
+    for (const w of this.warps) this.g.scene.remove(w.group)
     this.snares.length = 0
     this.dropAll(false)
     this.boltCd = this.burstCd = this.snareCd = this.barrierCd = 0
