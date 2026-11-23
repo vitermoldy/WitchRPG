@@ -779,6 +779,7 @@ export class UnitSystem {
       return
     }
     m.body.rotation.x = 0
+    m.body.position.y = hip + Math.abs(sw) * 0.04 * amp * (hip / 0.95)
     }
   }
 }
