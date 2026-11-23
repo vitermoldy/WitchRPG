@@ -212,3 +212,4 @@ export class Spells {
           if (d < best.dist) best = { point: hit.clone(), dist: d, unit: null, prop: p }
         }
       }
+    }
