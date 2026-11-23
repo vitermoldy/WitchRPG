@@ -413,3 +413,4 @@ button:disabled {
   cursor: pointer;
 }
 
+.setting input[type='checkbox'] {
