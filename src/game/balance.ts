@@ -83,3 +83,4 @@ export const RITE = {
 } as const
 
 export const XP = {
+  base: 80,
