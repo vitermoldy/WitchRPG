@@ -121,3 +121,4 @@ async function enter(path: string, payload: unknown): Promise<void> {
     setAuth({ status: 'signed-in', account: body.user })
   } catch (err) {
     if (err instanceof ApiError && err.status >= 400 && err.status < 500) throw err
+    setAuth({ status: 'unavailable', account: null })
