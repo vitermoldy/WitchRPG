@@ -89,6 +89,9 @@ Pemilik meminta: witch bisa terbang, ada mode dunia terbuka, bayangan bisa diban
 | Formasi | Lingkaran di belakang witch: 8 di lingkaran pertama, bertambah 4 per lingkaran, jarak antarlingkaran 1,8 m | Lima puluh bayangan dalam satu baris akan memanjang ratusan meter. |
 | Bayangan tertinggal | Di dunia terbuka, bayangan yang tertinggal lebih dari 45 m (misalnya karena witch terbang) tenggelam dan muncul lagi di sampingnya, kecuali yang diperintah Tahan | Pasukan darat tidak bisa mengikuti witch yang terbang. |
 | HUD pasukan | Panel kanan bawah menjadi ringkasan: jumlah di medan dari batasnya, isi Ruang Bayangan, yang sedang terbentuk kembali, tiga bayangan terkuat dengan HP, lalu "dan N lainnya" | Panel per slot tidak muat untuk ratusan bayangan. |
+| Ledger | Ruang Bayangan dikelompokkan per rank dan jenis, terkuat di atas. Kelompok dibuka untuk melihat anggotanya (60 teratas) dan melepas satu per satu | Ratusan kartu sejajar tidak terbaca. |
+| Server | Batas bayangan 40 menjadi 2.000, batas body JSON 64 KB menjadi 1 MB, kolom `shadows.slot` dan `rift_runs.shadows_raised` menjadi SMALLINT. Migrasi otomatis saat server menyala | Ruang Bayangan penuh sekitar 200 KB JSON. |
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
