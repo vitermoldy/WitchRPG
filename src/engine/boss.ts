@@ -191,3 +191,4 @@ export class BossFight {
           const a = (i / s.count) * Math.PI * 2
           if (g.units.units.length < 60) this.callHusk(new THREE.Vector3(Math.cos(a) * 9, 0, Math.sin(a) * 9))
         }
+        g.sfx.roar()
