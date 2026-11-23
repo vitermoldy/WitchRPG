@@ -129,3 +129,4 @@ export class Game {
     this.ledger = new Ledger({
       profile: this.profile,
       changed: () => {
+        this.applyStats(false)
