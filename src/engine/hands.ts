@@ -11,3 +11,4 @@ interface Pose {
   reach: number
   lift: number
   twist: number
+  palmDown: number
