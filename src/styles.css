@@ -1241,3 +1241,4 @@ dialog::backdrop {
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   gap: 0.6rem;
   margin: 0;
+  padding: 0;
