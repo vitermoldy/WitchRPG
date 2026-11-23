@@ -144,6 +144,7 @@ export class Game {
       slamFx: (at, radius, team) => this.slamFx(at, radius, team),
       telegraph: (at, radius, seconds) => this.warnings.show(at, radius, seconds),
       summon: (kind, level, at, team, owner) => this.summonUnit(kind, level, at, team, owner),
+      recall: (u) => this.recall(u),
     }
     this.unitHost = host
     this.units = new UnitSystem(host)
