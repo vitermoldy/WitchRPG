@@ -173,3 +173,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const campSpots: { x: number; z: number; band: 0 | 1 | 2; elite: boolean }[] = []
   campDefs.forEach((c, i) => {
     const b = bands[c.band]
+    for (let tries = 0; tries < 80; tries++) {
+      const a = (i * 2.399 + tries * 0.7) % (Math.PI * 2)
