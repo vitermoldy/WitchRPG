@@ -111,3 +111,4 @@ export class Player {
       const dz = desiredZ - this.vel.z
       const len = Math.hypot(dx, dz)
       const maxStep = accel * dt
+      if (len > maxStep && len > 1e-6) {
