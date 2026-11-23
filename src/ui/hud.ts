@@ -153,3 +153,4 @@ export class Hud {
     }
 
     this.updateArmy()
+    this.updateWheel()
