@@ -8,3 +8,5 @@ import { newProfile } from './game/progression'
 import { clearProfile, saveProfile } from './game/save'
 import { confirmDialog } from './ui/ledger'
 
+const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
+
