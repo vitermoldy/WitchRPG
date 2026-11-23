@@ -487,6 +487,7 @@ function bombard(team: Team): UnitModel {
       tube.position.set(0, 0.9, 0.2)
       tube.rotation.x = -0.75
       p.spine.add(tube)
+      meshes.push(tube)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
