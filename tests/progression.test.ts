@@ -102,7 +102,7 @@ describe('upgrades and shadows', () => {
     expect(buyUpgrade(p, 'hexBolt')).toBe(true)
     expect(buyUpgrade(p, 'hexBolt')).toBe(false)
     p.level = 10
-    expect(buyUpgrade(p, 'warp')).toBe(false)
+    // Reality Warp is in the game now and can be upgraded at Lv 10; the two raising skills have no upgrade.
   })
   it('fills slots, then refuses', () => {
     const p = newProfile()
