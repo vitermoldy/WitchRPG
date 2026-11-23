@@ -124,3 +124,4 @@ export class Umbra {
     this.candidate = this.casting && this.casting.state === 'dead' && !this.casting.riteTried && !this.casting.ash ? this.casting : best
 
     // Casting.
+    const holding = canAct && g.input.held('KeyR')
