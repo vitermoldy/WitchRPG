@@ -92,3 +92,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   }
   // Ordinary cracks.
   g.strokeStyle = 'rgba(0,0,0,0.5)'
+  for (let i = 0; i < 70; i++) {
