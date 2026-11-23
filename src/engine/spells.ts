@@ -616,6 +616,7 @@ export class Spells {
     if (at.y < -50) at.y = hit.unit ? hit.unit.pos.y : g.player.pos.y
     const group = new THREE.Group()
     group.position.copy(at)
+    const ruleMat = new THREE.ShaderMaterial({
   private burst() {
     const g = this.g
     const s = SPELL.burst
