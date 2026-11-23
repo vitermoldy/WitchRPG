@@ -10,6 +10,7 @@ Game ini mengikuti [Game Design Document](./Game%20Design%20Document%20RPG%203D%
 | Tier II | Lv 4 | Ditambah Spitter yang menembak dari perancah |
 | Tier III | Lv 7 | Ditambah Warden berperisai dan Rift Lord; di ujungnya Jantung Rift (Lv 10) |
 | Tier IV | Lv 10, setelah boss kalah | Ditambah Harrier yang terbang dan menukik, dan makhluk elite dengan satu sifat |
+| Tier V | Lv 13, setelah boss kalah | Ditambah Bombard yang menembak ke lingkaran amber; di ujungnya dua Rift Lord elite |
 
 Selain masuk Rift langsung dari layar judul, ada **dunia terbuka**: kota 500 × 500 m untuk dijelajahi sambil terbang, dengan 19 kamp makhluk Rift yang levelnya naik makin jauh dari pusat, altar penyembuh di alun-alun, dan tiga gerbang ke Rift Tier I sampai III. Bayangan bisa dibangkitkan tanpa batas; T memanggil pasukan dari Ruang Bayangan dan mengembalikannya lagi.
 
