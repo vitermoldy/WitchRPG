@@ -279,3 +279,4 @@ button:disabled {
 .profile-line {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
