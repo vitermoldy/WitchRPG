@@ -43,3 +43,4 @@ interface Hand {
   sigil: THREE.MeshStandardMaterial
   cuff: THREE.MeshStandardMaterial
   base: THREE.Vector3
+  baseRot: THREE.Euler
