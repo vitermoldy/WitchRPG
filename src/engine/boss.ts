@@ -213,3 +213,4 @@ export class BossFight {
     if (g.spells.inWarp(u.center)) {
       u.stun = Math.max(u.stun, 0.25)
       u.vel.set(0, 0, 0)
+      if (u.state === 'windup') u.setState('recover')
