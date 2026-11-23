@@ -385,6 +385,8 @@ const POOL_VERT = /* glsl */ `
 `
 /** A pool of shadow on the ground: near-black, rippling inside, a wavering violet rim that blooms. */
 const POOL_FRAG = /* glsl */ `
+  varying vec2 vUv;
+  uniform float uTime;
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
