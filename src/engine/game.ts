@@ -456,3 +456,5 @@ export class Game {
     if (this.saveTimer > 0) {
       this.saveTimer -= dt
       if (this.saveTimer <= 0) saveProfile(this.profile)
+    }
+
