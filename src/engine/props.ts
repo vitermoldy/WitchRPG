@@ -67,3 +67,4 @@ function carMesh(color: number) {
   return g
 }
 
+const crateMat = new THREE.MeshStandardMaterial({ color: 0x4d3c2e, roughness: 0.85, flatShading: true })
