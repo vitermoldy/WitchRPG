@@ -159,3 +159,4 @@ export class Sfx {
     f.connect(gain).connect(this.master!)
     osc.start()
     osc2.start()
+    this.gripNodes = { osc, osc2, gain }
