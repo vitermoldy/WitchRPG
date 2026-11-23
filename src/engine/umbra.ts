@@ -68,3 +68,4 @@ export class Umbra {
     return u
   }
 
+  /** Corpse glow, ash and clean-up; picks the corpse under the crosshair. */
