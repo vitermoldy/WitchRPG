@@ -7,3 +7,4 @@ export interface PropSpot {
   x: number
   z: number
   yaw: number
+  stack?: number
