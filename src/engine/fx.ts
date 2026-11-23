@@ -449,6 +449,8 @@ export class ShadowPools {
   open(at: { x: number; y: number; z: number }, radius: number, hold: number, delay = 0) {
     const p = this.pools.find((x) => x.state === 'off') ?? this.pools.reduce((a, b) => (a.t > b.t ? a : b))
     p.mesh.position.set(at.x, at.y + 0.04, at.z)
+    p.mesh.scale.setScalar(radius)
+    p.mesh.visible = true
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
