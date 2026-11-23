@@ -457,3 +457,4 @@ button:disabled {
 
 @keyframes veil {
   to {
+    opacity: 0.65;
