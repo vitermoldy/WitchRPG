@@ -15,3 +15,4 @@ interface Portal {
 }
 
 /** Runs one Rift: waves out of the four tears, then the exit at the monument. */
+export class RiftDirector {
