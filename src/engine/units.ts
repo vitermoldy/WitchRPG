@@ -377,3 +377,4 @@ export class UnitSystem {
           this.impact(u, speed, null)
           u.vel.reflect(n).multiplyScalar(0.3)
         }
+        if (u.thrown && speed > SPELL.impact.minSpeed) {
