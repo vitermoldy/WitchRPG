@@ -9,6 +9,7 @@ import { makeTearMaterial } from './world'
 import { glowTexture } from './fx'
 
 /**
+ * intro, wave, breather: the city fight. gate: Tier III is cleared and the lair is open.
 
 interface Portal {
   pos: THREE.Vector3
