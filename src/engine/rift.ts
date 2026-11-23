@@ -144,8 +144,7 @@ export class RiftDirector {
     const last = i === this.totalWaves - 1
     const elites = q.filter((s) => s.elite).length
     this.g.hud.banner(
-      lord.length ? 'Rift Lord' : `Gelombang ${i + 1} dari ${this.totalWaves}`,
-      lord.length ? 'Penguasa retakan ini keluar sendiri. Ia memanggil husk dan menghantam tanah.' : last ? 'Gelombang terakhir. Rift mulai runtuh.' : `${q.length} makhluk keluar dari retakan.`,
+      lord.length > 1 ? 'Dua Rift Lord' : lord.length ? 'Rift Lord' : `Gelombang ${i + 1} dari ${this.totalWaves}`,
     )
   }
 
