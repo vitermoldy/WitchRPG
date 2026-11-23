@@ -134,6 +134,7 @@ export class Hud {
       'text',
       r.phase === 'wave'
         ? `${r.remaining} musuh tersisa`
+        : r.phase === 'breather'
 
     // Skills.
     const cds = g.spells.cooldowns()
