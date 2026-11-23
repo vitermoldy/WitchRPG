@@ -223,5 +223,7 @@ export class Ledger {
       return
     }
     // One group per kind and rank, strongest first, so three hundred shadows still read at a glance.
+    const order: Record<string, number> = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
+    const groups = new Map<string, typeof p.shadows>()
   }
 }
