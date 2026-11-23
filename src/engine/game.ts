@@ -141,6 +141,7 @@ export class Game {
       },
       sfxUi: () => this.sfx.ui(),
       liveShadows: () => new Set(this.units.shadows().map((u) => u.record!.id)),
+      history: () => (this.historySource ? this.historySource() : Promise.resolve(null)),
     })
     this.ledger.onClose = () => this.afterLedger()
 
