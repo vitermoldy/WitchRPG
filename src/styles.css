@@ -245,3 +245,4 @@ button:disabled {
 }
 
 .actions {
+  display: flex;
