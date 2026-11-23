@@ -80,6 +80,7 @@ async function boot() {
           p.statPoints || p.skillPoints ? `<span><b>${p.statPoints + p.skillPoints}</b> poin belum dipakai</span>` : ''
         }`
     $('btn-reset').hidden = fresh
+    renderTiers()
     const warn = $('save-warning')
     warn.hidden = !game.saveError
     warn.textContent = game.saveError ?? ''
