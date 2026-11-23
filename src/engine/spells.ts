@@ -95,3 +95,4 @@ export class Spells {
   snareCd = 0
   barrierCd = 0
   grabbed: Grabbed[] = []
+  chaos = 0
