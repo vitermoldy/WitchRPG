@@ -50,3 +50,4 @@ export class Hud {
   message(text: string, tone: Tone = 'info') {
     const p = document.createElement('p')
     p.className = `feed-item ${tone}`
+    p.textContent = text
