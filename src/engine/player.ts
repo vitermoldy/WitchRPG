@@ -224,3 +224,4 @@ export class Player {
     return this.bob
   }
 
+  get bobWeight() {
