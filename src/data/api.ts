@@ -156,3 +156,4 @@ export async function pushProfile(profile: Profile): Promise<{ stale: boolean; p
 
 // ---------------------------------------------------------------- Rift history
 
+function readQueue(): RiftRecord[] {
