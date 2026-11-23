@@ -129,3 +129,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
         g.beginPath()
         eg.moveTo(cx, cy)
         g.moveTo(cx, cy)
+        for (let k = 0; k < len; k++) {
