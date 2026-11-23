@@ -82,6 +82,7 @@ export function newProfile(): Profile {
 export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier].unlock && (!TIERS[tier].needsBoss || p.bossKills > 0)
 
 /** What still keeps a tier shut, for the title and the world gates; null when it is open. */
+export function tierLock(p: Profile, tier: TierId): string | null {
 
 /** The lair at the end of Tier III opens once Reality Warp can break the boss's last shell. */
 export const bossUnlocked = (p: Profile) => p.level >= (TIERS[3].boss?.unlock ?? 10)
