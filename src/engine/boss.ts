@@ -228,3 +228,4 @@ export class BossFight {
         this.summonT -= dt
         if (this.summonT <= 0) {
           for (let i = 0; i < 3; i++) {
+            const a = (i / 3) * Math.PI * 2 + Math.random()
