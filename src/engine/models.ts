@@ -106,3 +106,4 @@ function husk(team: Team): UnitModel {
     parts[side < 0 ? 'legL' : 'legR'] = hip
     parts[side < 0 ? 'kneeL' : 'kneeR'] = knee
   }
+  return { root, body, parts, bodyMat, eyeMat: s.eye, meshes }
