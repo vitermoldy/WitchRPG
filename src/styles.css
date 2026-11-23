@@ -1350,3 +1350,4 @@ dialog::backdrop {
   *,
   *::before,
   *::after {
+    animation-duration: 0.001ms !important;
