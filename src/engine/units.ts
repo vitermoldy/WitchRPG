@@ -376,6 +376,7 @@ export class UnitSystem {
           tmp2.set(u.pos.x * 2 - tgt.pos.x, 0, u.pos.z * 2 - tgt.pos.z)
           this.steer(u, tmp2, speed, dt, 0)
           this.face(u, tgt.pos, dt, 6)
+        } else if (!sees || d > spec.attackRange * 0.8) this.steer(u, tgt.pos, speed, dt, spec.shot.keepAway)
       if (u.kind === 'hound') {
         if (d < spec.attackRange && u.cd <= 0 && this.host.colliders.clear(u.center, tmp.set(tgt.pos.x, 0.8, tgt.pos.z))) {
           u.setState('windup')
