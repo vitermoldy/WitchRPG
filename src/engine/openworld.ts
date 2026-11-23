@@ -218,3 +218,6 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   })
   inst.castShadow = true
   inst.receiveShadow = true
+  group.add(inst)
+
+  // The edge: a wall of Rift light and an invisible wall behind it.
