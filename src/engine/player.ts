@@ -97,3 +97,4 @@ export class Player {
     if (this.crouching) target = MOVE.crouch
     target *= this.speedMult
 
+    if (this.sliding > 0) {
