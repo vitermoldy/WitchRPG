@@ -152,3 +152,5 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeSpeed: 15,
     lungeTime: 0.45,
   },
+}
+
