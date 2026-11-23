@@ -44,3 +44,4 @@ function fmtTime(s: number) {
 }
 
 async function boot() {
+  if (!webglOk()) {
