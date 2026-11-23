@@ -109,3 +109,5 @@ export class RiftDirector {
       p.mat.uniforms.uOpen.value = p.open
       p.mesh.visible = p.open > 0.02
     }
+    this.exitMat.uniforms.uTime.value = t
+
