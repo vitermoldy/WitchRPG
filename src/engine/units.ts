@@ -746,6 +746,7 @@ export class UnitSystem {
     let shieldUp = u.kind === 'warden' && u.stun <= 0
     if (u.state === 'windup') {
       const k = Math.min(1, u.t / u.spec.windup)
+      if (u.spec.shot) {
       }
     }
   }
