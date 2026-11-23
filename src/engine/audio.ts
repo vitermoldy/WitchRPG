@@ -249,3 +249,4 @@ export class Sfx {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
       o.frequency.value = freq
+      o.connect(f)
