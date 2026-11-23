@@ -36,3 +36,4 @@ export class Player {
   hp = 150
   maxHp = 150
   mana = 125
+  maxMana = 125
