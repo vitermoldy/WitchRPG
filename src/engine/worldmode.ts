@@ -16,3 +16,6 @@ interface Camp {
 
 const WAKE = 80
 const SLEEP = 170
+const RESPAWN = 120
+const LEASH = 45
+
