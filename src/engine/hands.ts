@@ -87,3 +87,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   const wrist = new THREE.Group()
   root.add(wrist)
   const skin = skinMat()
+  const cloth = new THREE.MeshStandardMaterial({ color: COLOR.cloth, roughness: 0.85 })
