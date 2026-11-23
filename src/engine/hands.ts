@@ -307,3 +307,4 @@ export class Hands {
       const glow = (this.overload ? Math.max(1.4, p.glow) : p.glow) + h.flash * 1.5 + (h.side === 'left' ? charge.left : charge.right)
       const orbMat = h.orb.material as THREE.SpriteMaterial
       orbMat.color.copy(col)
+      h.orb.scale.setScalar((0.035 + glow * 0.05) * pulse)
