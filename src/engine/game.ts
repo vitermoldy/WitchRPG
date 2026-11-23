@@ -165,3 +165,4 @@ export class Game {
     this.composer.addPass(this.bloom)
     this.composer.addPass(new OutputPass())
 
+    this.input.onKey = (code) => {
