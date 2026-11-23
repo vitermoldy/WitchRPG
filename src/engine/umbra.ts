@@ -450,7 +450,7 @@ export class Umbra {
 
   private order(choice: WheelChoice) {
     const g = this.g
-    const shadows = g.units.shadows()
+    const shadows = this.field()
     if (!shadows.length && choice !== 'swap') {
       g.hud.message('Belum ada bayangan yang berdiri di Rift ini.', 'umbra')
       return
