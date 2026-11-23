@@ -174,3 +174,4 @@ export class Hud {
         `<li class="army-slot ${cls}"><span class="pip"></span><span>${rec.name} <span class="num">Lv ${rec.level}</span></span>${
           down ? '<span class="num">tumbang</span>' : `<span class="hp"><i style="transform:scaleX(${hp.toFixed(2)})"></i></span>`
         }</li>`,
+      )
