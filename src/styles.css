@@ -1708,3 +1708,5 @@ dialog::backdrop {
   left: 50%;
   width: min(30rem, 72vw);
   height: 2.3rem;
+  transform: translateX(-50%);
+  overflow: hidden;
