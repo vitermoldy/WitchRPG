@@ -1878,3 +1878,4 @@ dialog::backdrop {
   transform: translateX(-50%);
   font-family: var(--font-mono);
   font-size: 0.66rem;
+  line-height: 1;
