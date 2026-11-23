@@ -291,6 +291,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 5.5,
     // A slow, high arc (about 12 m at 26 m range) clears street cover and gives time to step out of the circle.
     shot: { speed: 10, gravity: 14, radius: 0.55, keepAway: 16, blast: 3.5 },
+  },
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
