@@ -1378,6 +1378,7 @@ dialog::backdrop {
 }
 
 .gate::backdrop {
+  background: rgba(8, 5, 6, 0.62);
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
