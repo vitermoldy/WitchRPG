@@ -1356,6 +1356,7 @@ dialog::backdrop {
   align-items: center;
   gap: 0.2rem 0.9rem;
   margin: -0.6rem 0 1.4rem;
+  color: var(--ink-2);
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
