@@ -610,6 +610,7 @@ export class Spells {
     const s = SPELL.warp
     this.warpCd = s.cooldown
     const hit = this.aim(s.range, { props: false })
+    const at = hit.unit ? hit.unit.pos.clone() : hit.point.clone()
   private burst() {
     const g = this.g
     const s = SPELL.burst
