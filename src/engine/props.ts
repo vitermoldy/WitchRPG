@@ -159,3 +159,5 @@ export class PropSystem {
     p.awake = true
     p.thrown = true
     p.hitUnits.clear()
+  }
+
