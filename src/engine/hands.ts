@@ -81,3 +81,4 @@ function sigilShape(): THREE.BufferGeometry {
   return geo
 }
 
+function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
