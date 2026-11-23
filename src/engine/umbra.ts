@@ -390,7 +390,7 @@ export class Umbra {
   /** Every body rolls its own chance (GDD: one roll per body). */
   private complete(list: Unit[]) {
     const g = this.g
-    this.casting = null
+    this.casting = []
     this.progress = 0
     if (!g.spells.overloaded) g.player.mana -= RITE.mana
     u.riteTried = true
