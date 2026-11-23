@@ -86,3 +86,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   group.name = 'lair'
   group.visible = false
   const colliders = new Colliders()
+  const stone = new THREE.MeshStandardMaterial({ color: 0x3a3236, roughness: 0.85, flatShading: true })
