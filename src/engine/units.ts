@@ -579,6 +579,7 @@ export class UnitSystem {
           u.vel.x *= 0.3
           u.vel.z *= 0.3
           u.thrown = false
+          // A Warden that lands hard loses its guard for a moment.
           if (u.alive) u.setState('recover', 0.2)
         }
         continue
