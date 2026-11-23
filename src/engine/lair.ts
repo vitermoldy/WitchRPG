@@ -55,3 +55,4 @@ function crackTexture(size: number) {
   for (let i = 0; i < 16; i++) {
     const a = (i / 16) * Math.PI * 2 + R() * 0.2
     let x = size / 2 + Math.cos(a) * size * 0.06
+    let y = size / 2 + Math.sin(a) * size * 0.06
