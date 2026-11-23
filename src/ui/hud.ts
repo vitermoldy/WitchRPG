@@ -122,6 +122,8 @@ export class Hud {
       const lv = c.spot.levels[1]
       marks.push({ label: '', cls: `cm-camp ${lv > g.profile.level + 2 ? 'hard' : lv < g.profile.level - 2 ? 'easy' : 'even'}`, x: c.spot.pos.x, z: c.spot.pos.z })
     }
+    while (this.compassMarks.length < marks.length) {
+      const el = document.createElement('span')
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
