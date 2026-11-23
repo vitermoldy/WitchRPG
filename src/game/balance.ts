@@ -304,6 +304,7 @@ export const TIERS: Record<TierId, TierSpec> = {
     ],
     // Phase 3 can only be won inside Reality Warp (Lv 10), so the lair opens at that level.
     boss: { level: 10, unlock: 10 },
+  },
   spawnInterval: 0.8,
   breather: 6,
   /** Share of max HP restored when a wave ends; the GDD has no other healing yet. */
