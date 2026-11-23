@@ -339,6 +339,7 @@ export class UnitSystem {
       u.target = this.pickTarget(u)
       u.retarget = 0.4 + Math.random() * 0.3
     }
+    this.skills(u, dt)
     const spec = u.spec
     const speed = u.speed * u.slow
     const tgt = u.target
