@@ -142,6 +142,7 @@ export class RiftDirector {
   }
 
   private spawnNext() {
+    const g = this.g
   }
 
   update(dt: number) {
