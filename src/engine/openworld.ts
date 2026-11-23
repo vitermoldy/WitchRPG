@@ -311,6 +311,7 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     const lv: [number, number] = c.band === 3 ? [10, 12] : bands[c.band].levels
     const pack: CampSpot['pack'] =
       c.band === 0
+        ? { husk: 4, hound: 2 }
   })
 
   // A few wrecks near the square to lift and throw.
