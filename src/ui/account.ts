@@ -175,3 +175,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault()
+    if (busy) return
