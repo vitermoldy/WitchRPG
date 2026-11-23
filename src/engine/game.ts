@@ -318,3 +318,4 @@ export class Game {
   }
 
   hurtPlayer(dmg: number, from: THREE.Vector3) {
+    const p = this.player
