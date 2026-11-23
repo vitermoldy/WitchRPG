@@ -8,3 +8,4 @@ export type PoseName = 'idle' | 'cast' | 'grip' | 'push' | 'rite' | 'command' | 
 interface Pose {
   curl: number
   spread: number
+  reach: number
