@@ -89,3 +89,4 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
       ...init,
       headers: init?.body ? { 'Content-Type': 'application/json' } : undefined,
     })
+  } catch {
