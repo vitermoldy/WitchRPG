@@ -1432,6 +1432,8 @@ dialog::backdrop {
 
 .gate-field input:hover {
   border-color: var(--ink-3);
+}
+
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
