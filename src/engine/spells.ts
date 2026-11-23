@@ -627,3 +627,4 @@ export class Spells {
     at.y = g.colliders.groundAt(at.x, at.z, 0.2, at.y, 0.3)
     const mat = new THREE.ShaderMaterial({
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 }, uColor: { value: new THREE.Color(COLOR.chaos) } },
+      vertexShader: RUNE_VERT,
