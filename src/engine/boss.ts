@@ -55,3 +55,4 @@ export class BossFight {
         return 0
       }
       // Caught in the field it reels: the shell is open and every hit goes deeper.
+      dmg *= BOSS.warpDamage
