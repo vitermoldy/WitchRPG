@@ -291,3 +291,4 @@ export class PropSystem {
     }
   }
 
+  /** A heavy body landing hard hurts everything around it. */
