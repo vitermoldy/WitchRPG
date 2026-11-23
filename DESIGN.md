@@ -58,3 +58,4 @@ Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sine
 | Glow hanya di sihir, sigil, retakan, dan tombol Overload saat siap | Bloom adalah bahasa sihir di game ini. Panel HUD tetap datar supaya glow tetap berarti "ada kekuatan di sini". |
 | HUD di tepi layar, panel semi-transparan, radius 4 px | Tengah layar milik tangan dan pertarungan (pilar 1 GDD). Radius kecil menjaga kesan tegas, tidak ada bentuk pil. |
 | Pesan Ledger di kiri tengah, diberi label kecil "Ledger" | GDD menyebut identitas witch dibawa lewat pesan Ledger. Label memberi suara itu tanpa jendela sistem bergaya game sumber. |
+| Semua suara disintesis dengan WebAudio | Tidak ada file audio berlisensi yang perlu dicari. |
