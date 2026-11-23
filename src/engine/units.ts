@@ -204,6 +204,7 @@ export class UnitSystem {
   }
 
   /** Reality Warp: the unit floats up and cannot act until the field lets go. */
+  lift(u: Unit, seconds: number) {
   private pickTarget(u: Unit): Target | null {
     const p = this.host.player
     let best: Target | null = null
