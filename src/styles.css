@@ -1440,6 +1440,7 @@ dialog::backdrop {
 
 .tier:hover:not(:disabled) {
   border-color: var(--ink-3);
+  background: var(--surface-2);
 /* Account */
 .account-row {
   display: flex;
