@@ -353,3 +353,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const lampGlow = new THREE.MeshStandardMaterial({ color: 0x100806, emissive: 0xffa060, emissiveIntensity: 2.2 })
 
   const solid = (mesh: THREE.Mesh) => {
+    mesh.castShadow = true
