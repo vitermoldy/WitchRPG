@@ -632,3 +632,4 @@ export class Spells {
       transparent: true,
       depthWrite: false,
       blending: THREE.AdditiveBlending,
+    })
