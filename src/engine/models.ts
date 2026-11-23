@@ -440,6 +440,7 @@ function harrier(team: Team): UnitModel {
   for (const [x, y] of [[-0.06, 0.04], [0.06, 0.04], [0, 0.08]] as const) {
     const eye = box(0.035, 0.03, 0.02, s.eye, meshes, y)
     eye.position.set(x, y, -0.215)
+    eye.castShadow = false
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
