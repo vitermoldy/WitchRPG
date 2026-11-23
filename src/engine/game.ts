@@ -535,3 +535,5 @@ export class Game {
     if (wheel) {
       input.dx = lookDx
       input.dy = lookDy
+    }
+
