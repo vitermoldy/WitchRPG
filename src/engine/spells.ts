@@ -340,3 +340,4 @@ export class Spells {
             hitAt = p.clone()
             hitUnit = u
             hitProp = null
+          }
