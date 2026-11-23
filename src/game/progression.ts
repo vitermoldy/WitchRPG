@@ -78,6 +78,7 @@ export function newProfile(): Profile {
 
 export const tierUnlocked = (p: Profile, tier: TierId) => p.level >= TIERS[tier].unlock
 
+/** The lair at the end of Tier III opens once Reality Warp can break the boss's last shell. */
 /** True for a witch nobody has played yet (settings do not count). */
 export function isFresh(p: Profile): boolean {
   return (
