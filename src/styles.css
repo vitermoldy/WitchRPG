@@ -752,3 +752,5 @@ button:disabled {
   transform: translateX(-50%);
   display: flex;
   gap: 0.5rem;
+}
+
