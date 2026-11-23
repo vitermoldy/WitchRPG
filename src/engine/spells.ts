@@ -659,3 +659,4 @@ export class Spells {
         if (Math.hypot(u.pos.x - s.pos.x, u.pos.z - s.pos.z) < s.radius) {
           u.slow = 1 - SPELL.snare.slow
           u.vulnerable = 0.2
+        }
