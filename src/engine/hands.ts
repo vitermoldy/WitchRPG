@@ -33,3 +33,4 @@ interface Finger {
 }
 
 interface Hand {
+  side: Side
