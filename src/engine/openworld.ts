@@ -93,3 +93,5 @@ function facadeMaterial() {
 function groundMaterial() {
   const mat = new THREE.MeshStandardMaterial({ color: 0x2c2729, roughness: 0.95 })
   mat.onBeforeCompile = (shader) => {
+    shader.vertexShader = shader.vertexShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vWp;')
