@@ -1428,6 +1428,7 @@ dialog::backdrop {
 .tier {
   display: grid;
   justify-items: start;
+  gap: 0.1rem;
 /* Account */
 .account-row {
   display: flex;
