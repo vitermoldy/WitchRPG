@@ -40,3 +40,5 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | Tab | Ledger |
 | Esc | Jeda dan pengaturan |
 
+## Struktur
+
