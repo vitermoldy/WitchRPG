@@ -4,6 +4,7 @@ import { xpToNext } from '../game/progression'
 import type { Game } from '../engine/game'
 
 /** What to do about an elite's trait, under its name on the big bar. */
+const TRAIT_HINT: Record<EliteTrait, string> = {
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
 type Tone = 'info' | 'chaos' | 'umbra' | 'level'
