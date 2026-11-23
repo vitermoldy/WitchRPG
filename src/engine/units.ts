@@ -318,3 +318,4 @@ export class UnitSystem {
       return
     }
     if (u.state === 'recover') {
+      u.vel.x *= Math.exp(-6 * dt)
