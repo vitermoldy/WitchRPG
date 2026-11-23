@@ -157,6 +157,8 @@ export class Umbra {
       g.smoke.emit({ pos: { x: feet.x + Math.cos(a) * spill * 0.8, y: feet.y + 0.2, z: feet.z + Math.sin(a) * spill * 0.8 }, count: 1, color: 0x0c0614, life: 1.6, size: 1.6, sizeEnd: 2.8, vel: { x: Math.cos(a) * 1.5, y: 1.2, z: Math.sin(a) * 1.5 }, alpha: 0.75 })
     }
     g.hands.pose('right', 'rite', 0.9)
+    g.hands.kick('right', 1.6)
+    g.player.addTrauma(0.35)
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
