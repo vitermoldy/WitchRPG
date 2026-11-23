@@ -116,3 +116,4 @@ async function boot() {
 
   game.onState = (s: GameState) => {
     hud.hidden = !(s === 'playing' || s === 'paused' || s === 'ledger')
+    resumeHint.hidden = true
