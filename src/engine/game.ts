@@ -453,7 +453,7 @@ export class Game {
     this.profile.clears += 1
     this.spells.reset()
     this.umbra.cancel()
-    saveProfile(this.profile)
+    this.persist()
     this.input.unlock()
     this.setState('result')
   }
