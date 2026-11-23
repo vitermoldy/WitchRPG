@@ -25,3 +25,4 @@ export class Hud {
   private hitTimer = 0
   private hurt = 0
   private manaFlash = 0
+  private readonly pool: HTMLDivElement[] = []
