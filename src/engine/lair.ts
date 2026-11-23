@@ -143,3 +143,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   }
 
   // A ring of broken columns at the rim, and the rim itself as the wall of the arena.
+  for (let i = 0; i < 18; i++) {
