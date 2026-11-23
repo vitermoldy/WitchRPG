@@ -43,3 +43,4 @@ export class BossFight {
     const g = this.g
     const u = this.u
     let dmg = amount
+    if (this.collapseT >= 0 || this.landT >= 0) return 0
