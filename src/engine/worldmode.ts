@@ -56,3 +56,5 @@ export class WorldDirector {
     for (const [kind, count] of Object.entries(c.spot.pack) as [Exclude<UnitKind, 'hollow'>, number][]) {
       for (let n = 0; n < count; n++, i++) {
         const a = (i / 7) * Math.PI * 2 + Math.random() * 0.5
+        const r = 3 + Math.random() * 4
+        const at = new THREE.Vector3(c.spot.pos.x + Math.cos(a) * r, 0, c.spot.pos.z + Math.sin(a) * r)
