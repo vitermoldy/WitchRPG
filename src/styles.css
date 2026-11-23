@@ -1801,3 +1801,5 @@ dialog::backdrop {
   color: var(--ink);
 }
 
+.army-row.dim,
+.army-row.dim b {
