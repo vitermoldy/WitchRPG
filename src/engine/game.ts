@@ -783,7 +783,6 @@ export class Game {
     if (p.floating) this.hands.gather('left', 0.2)
     if (this.spells.overloaded && Math.random() < 0.5) this.hands.gather('right', 0.5)
 
-    // Safety net: anything that leaves the arena is pulled back.
-    if (p.pos.y < -5) p.reset(this.world.playerStart, p.yaw)
+    // Safety net: anything that leaves the city is pulled back.
   }
 }
