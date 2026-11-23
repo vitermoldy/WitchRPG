@@ -75,3 +75,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   g.fillStyle = 'rgba(190,180,170,0.28)'
   for (let m = -half; m < half; m += 4) {
     if (Math.abs(m) < 12) continue
+    g.fillRect(px(-0.12), px(m), px(0.12) - px(-0.12), px(m + 2) - px(m))
