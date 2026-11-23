@@ -538,3 +538,4 @@ export class Game {
     }
 
     // Mana regen stops during Backlash.
+    if (this.spells.backlashT <= 0 && this.spells.grabbed.length === 0) p.mana = Math.min(p.maxMana, p.mana + this.derived.manaRegen * dt)
