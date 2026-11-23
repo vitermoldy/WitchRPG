@@ -223,6 +223,7 @@ export class RiftDirector {
       const left = g.units.enemies()
       if (!this.queue.length && left.length && left.length <= 3) {
         this.straggle += dt
+        if (this.straggle > RIFT.straggle) for (const u of left) u.hunt = true
       if (!this.queue.length && g.units.enemies().length === 0) {
         if (this.wave < this.totalWaves) {
           this.phase = 'breather'
