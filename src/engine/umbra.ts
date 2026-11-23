@@ -269,3 +269,4 @@ export class Umbra {
   }
 
   private order(choice: WheelChoice) {
+    const g = this.g
