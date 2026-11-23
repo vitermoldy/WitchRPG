@@ -590,3 +590,4 @@ button:disabled {
 .ring-track {
   fill: none;
   stroke: rgba(239, 230, 223, 0.12);
+  stroke-width: 2;
