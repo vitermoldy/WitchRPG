@@ -50,3 +50,4 @@ async function boot() {
   }
   const debug = new URLSearchParams(location.search).has('debug')
   let game: Game
+  try {
