@@ -44,7 +44,7 @@ const TABLES = [
     client_id CHAR(12) NOT NULL,
     shadow_id INT UNSIGNED NOT NULL,
     name VARCHAR(24) NOT NULL,
-    kind ENUM('husk','hound') NOT NULL,
+    kind VARCHAR(16) NOT NULL,
     \`rank\` ENUM('prajurit','ksatria','jenderal','marsekal') NOT NULL,
     level TINYINT UNSIGNED NOT NULL,
     xp INT UNSIGNED NOT NULL,
