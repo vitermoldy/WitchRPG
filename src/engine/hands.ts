@@ -181,3 +181,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   root.rotation.copy(baseRot)
   root.scale.set(mirror * 0.86, 0.86, 0.86)
   return {
+    side,
