@@ -357,3 +357,4 @@ export class Umbra {
       const theirs = pick.pos.clone()
       g.player.pos.copy(theirs)
       g.player.vel.set(0, 0, 0)
+      pick.pos.copy(mine)
