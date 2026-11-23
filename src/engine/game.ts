@@ -794,5 +794,6 @@ export class Game {
       const loss = Math.round(p.maxHp * BOSS.fallDamage)
       const back = this.lair.nearestTop(p.pos)
       p.reset(back, p.yaw)
+      p.addTrauma(0.4)
   }
 }
