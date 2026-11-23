@@ -164,3 +164,4 @@ export class Hud {
     const rows: string[] = []
     // Every raised shadow gets a row; empty slots share one line so a big army stays compact.
     const empty = Math.max(0, slots - g.profile.shadows.length)
+    for (let i = 0; i < g.profile.shadows.length; i++) {
