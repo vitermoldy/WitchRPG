@@ -621,6 +621,7 @@ export class UnitSystem {
       }
       return
     }
+    // Recovering, or back on its feet after a fall: pull up to cruising height.
   }
 
   /** A slam hits every target of the other side inside its circle. */
