@@ -285,3 +285,4 @@ export class PropSystem {
       this.host.hurtUnit(u, dmg, p.pos, 'impact')
       this.host.impactFx(u.center, Math.min(1, dmg / 60))
       const dir = this.tmp.copy(p.vel).setY(0).normalize().multiplyScalar(Math.min(12, speed * 0.5))
+      dir.y = 3
