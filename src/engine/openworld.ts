@@ -190,3 +190,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const boxes: { x: number; z: number; w: number; d: number; h: number }[] = []
   const lot = (OW.pitch - (OW.road + 3) * 2) / 3
   for (let bx = -H + OW.pitch / 2; bx < H; bx += OW.pitch) {
+    for (let bz = -H + OW.pitch / 2; bz < H; bz += OW.pitch) {
+      const ring = Math.hypot(bx, bz)
