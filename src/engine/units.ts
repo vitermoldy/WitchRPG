@@ -799,25 +799,7 @@ export class UnitSystem {
     }
 
     // Separation so crowds spread instead of stacking. The big ones push, they are not pushed.
-    for (let i = 0; i < this.units.length; i++) {
-      const a = this.units[i]
-      if (!a.alive || a.state === 'held' || a.state === 'air' || a.state === 'sinking') continue
-      for (let j = i + 1; j < this.units.length; j++) {
-        const b = this.units[j]
-        if (!b.alive || b.state === 'held' || b.state === 'air' || b.state === 'sinking') continue
-        if (Math.abs(a.pos.y - b.pos.y) > 1.5) continue
-        const dx = a.pos.x - b.pos.x
-        const dz = a.pos.z - b.pos.z
-        const min = a.radius + b.radius
-        const d2 = dx * dx + dz * dz
-        if (d2 >= min * min || d2 < 1e-8) continue
-        const d = Math.sqrt(d2)
-        const share = a.mass / (a.mass + b.mass)
-        const push = min - d
-        a.pos.x += (dx / d) * push * (1 - share)
-        a.pos.z += (dz / d) * push * (1 - share)
-        b.pos.x -= (dx / d) * push * share
-        b.pos.z -= (dz / d) * push * share
+    // Units are sorted into 3 m cells first, so a big army checks its neighbours, not every pair.
       }
       // Keep clear of the witch.
       const p = host.player
