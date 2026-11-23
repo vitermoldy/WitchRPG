@@ -65,3 +65,4 @@ export class BossFight {
     return dmg
   }
 
+  update(dt: number) {
