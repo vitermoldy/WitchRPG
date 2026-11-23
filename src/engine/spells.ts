@@ -203,3 +203,4 @@ export class Spells {
         }
       }
     }
+    if (opts.props !== false) {
