@@ -571,6 +571,7 @@ export class UnitSystem {
     }
     if (u.state === 'move') {
       climb(cruise, 1.5)
+      if (!tgt) {
     }
   }
 
