@@ -1407,6 +1407,7 @@ dialog::backdrop {
   color: var(--rift);
 }
 
+.gate-form {
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
