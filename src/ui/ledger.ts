@@ -118,3 +118,4 @@ export class Ledger {
       const info = STAT_INFO[k]
       return `<li class="stat">
         <span class="stat-name"><b>${info.name}</b><small>${info.effect}</small></span>
+        <span class="stat-val num">${p.stats[k]}</span>
