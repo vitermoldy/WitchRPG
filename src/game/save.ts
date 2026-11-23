@@ -43,3 +43,4 @@ export function clearProfile(): void {
   try {
     localStorage.removeItem(KEY)
   } catch {
+    /* storage blocked: nothing to clear */
