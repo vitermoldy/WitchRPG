@@ -1150,6 +1150,7 @@ dialog::backdrop {
 }
 
 .history-when {
+  display: grid;
 .stat-list {
   display: grid;
   gap: 0.35rem;
