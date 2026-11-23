@@ -73,3 +73,4 @@ function crackTexture(size: number) {
     }
     eg.stroke()
     g.stroke()
+  }
