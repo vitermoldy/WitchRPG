@@ -9,3 +9,4 @@ export type RiftPhase = 'intro' | 'wave' | 'breather' | 'cleared'
 
 interface Portal {
   pos: THREE.Vector3
+  mesh: THREE.Mesh
