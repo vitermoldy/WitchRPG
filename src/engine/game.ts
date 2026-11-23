@@ -776,6 +776,7 @@ export class Game {
     this.projectiles.update(dt)
     this.warnings.update(dt)
     this.rift.update(dt)
+    if (this.inLair) this.lairUpdate(dt)
     this.embers(dt, p.pos, 18)
 
     // Hands follow what the witch is doing when no skill holds them.
