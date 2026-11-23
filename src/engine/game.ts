@@ -391,7 +391,7 @@ export class Game {
     }
     if (by === 'player' || by === 'impact') this.hud.hit(true)
     this.glow.emit({ pos: u.center, count: 16, color: COLOR.rift, intensity: 2, life: 0.6, size: 0.12, speed: 2.5, gravity: 2 })
-    const xp = xpForKill(u.level)
+    const xp = xpForUnit(u.kind, u.level)
     this.rift.kills++
     this.rift.xpGained += xp
     const r = gainXp(this.profile, xp, SKILL_IDS)
