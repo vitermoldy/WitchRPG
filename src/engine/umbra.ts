@@ -14,6 +14,8 @@ interface Call {
   slot: number
 }
 
+/**
+ * Umbra Rite (raising the fallen, one body or every glowing body in reach), the Shadow Room
 export class Umbra {
   private readonly g: Game
   candidate: Unit | null = null
