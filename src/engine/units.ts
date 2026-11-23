@@ -968,6 +968,7 @@ export class UnitSystem {
       P.tipR.rotation.z = -k * 0.6
       return
     }
+    let flap = Math.sin(t * 11 + u.id)
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
