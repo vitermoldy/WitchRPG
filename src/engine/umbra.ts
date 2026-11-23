@@ -427,6 +427,8 @@ export class Umbra {
         g.hud.riteResult(true, rec.name)
       } else {
         g.hud.message(`${raised.length} bangkit${faded ? `, ${faded} pudar` : ''}. Ruang Bayangan sekarang menampung ${g.profile.shadows.length} bayangan.`, 'umbra')
+        g.hud.riteResult(true, `${raised.length} bayangan`)
+      }
       g.saveSoon()
     } else {
       this.turnToAsh(u)
