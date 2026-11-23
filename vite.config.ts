@@ -6,3 +6,4 @@ import { defineConfig } from 'vite'
 const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d) => d.toUpperCase())
 
 export default defineConfig({
+  root,
