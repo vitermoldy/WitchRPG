@@ -132,3 +132,4 @@ export class Hud {
     skill('sk-barrier', 7, cds.barrier)
     const full = g.spells.chaos >= CHAOS.max
     this.set('sk-overload', 'class', `skill skill-overload${full || g.spells.overloaded ? ' ready-full' : ''}`)
+    const ocd = $('sk-overload').querySelector('.cd') as HTMLElement
