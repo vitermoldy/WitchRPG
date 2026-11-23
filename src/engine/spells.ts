@@ -706,3 +706,5 @@ export class Spells {
     g.hands.pose('right', 'push', 0.3)
     g.sfx.barrier(false)
     this.explode(g.player.pos.clone(), s.blastRadius, s.blastDamage * this.damageMult, s.push, 4, false)
+  }
+
