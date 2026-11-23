@@ -317,3 +317,4 @@ button:disabled {
 }
 
 .controls {
+  display: grid;
