@@ -191,17 +191,7 @@ export class RiftDirector {
     }
     if (this.phase === 'wave') {
       this.spawnT -= dt
-      if (this.queue.length && this.spawnT <= 0 && g.units.enemies().length < RIFT_TIER_1.maxAlive) {
-        this.spawnT = RIFT_TIER_1.spawnInterval * (0.6 + Math.random() * 0.8)
-        const next = this.queue.shift()!
-        // Prefer a tear the witch is not standing next to.
-        const choices = this.portals.filter((p) => p.pos.distanceTo(g.player.pos) > 12)
-        const portal = (choices.length ? choices : this.portals)[Math.floor(Math.random() * (choices.length || this.portals.length))]
-        const at = portal.pos.clone().add(new THREE.Vector3((Math.random() - 0.5) * 2.5, 0, (Math.random() - 0.5) * 2.5))
-        at.y = 0
-        g.units.spawn(next.kind, 'rift', next.level, at)
-        g.glow.emit({ pos: at.clone().setY(1), count: 30, color: COLOR.chaos, intensity: 2.2, life: 0.6, size: 0.2, speed: 3, jitter: 0.4 })
-        g.smoke.emit({ pos: at, count: 10, color: 0x120608, life: 1, size: 1.2, sizeEnd: 2, speed: 1, jitter: 0.6, alpha: 0.8 })
+      if (this.queue.length && this.spawnT <= 0 && g.units.enemies().length < this.tier.maxAlive) {
       }
       if (!this.queue.length && g.units.enemies().length === 0) {
         if (this.wave >= this.totalWaves) {
