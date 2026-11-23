@@ -12,18 +12,7 @@ export function loadProfile(): { profile: Profile; error: string | null } {
   }
   if (!raw) return { profile: newProfile(), error: null }
   try {
-    const data = JSON.parse(raw) as Partial<Profile>
-    if (data.version !== 1 || typeof data.level !== 'number' || !data.stats) throw new Error('shape')
-    const base = newProfile()
-    const profile: Profile = {
-      ...base,
-      ...data,
-      stats: { ...base.stats, ...data.stats },
-      settings: { ...DEFAULT_SETTINGS, ...data.settings },
-      upgrades: { ...data.upgrades },
-      shadows: Array.isArray(data.shadows) ? data.shadows : [],
-    } as Profile
-    for (const k of STAT_KEYS) if (typeof profile.stats[k] !== 'number') profile.stats[k] = base.stats[k]
+    const profile = normalizeProfile(JSON.parse(raw))
     return { profile, error: null }
   } catch {
     return { profile: newProfile(), error: 'Data simpanan rusak, jadi witch dimulai dari Lv 1.' }
