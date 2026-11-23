@@ -112,3 +112,4 @@ export class RiftDirector {
     this.exitMat.uniforms.uTime.value = t
 
     if (this.phase === 'intro') {
+      this.timer -= dt
