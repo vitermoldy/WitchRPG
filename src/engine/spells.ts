@@ -616,3 +616,5 @@ export class Spells {
     g.lights.flash(at.clone().setY(at.y + 1.5), COLOR.chaos, 60, r * 3, 0.5)
     const near = g.player.pos.distanceTo(at)
     g.player.addTrauma(Math.max(0.15, 0.6 - near * 0.02))
+  }
+
