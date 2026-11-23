@@ -735,6 +735,7 @@ export class UnitSystem {
   }
 
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
+    const m = u.model
       }
     }
   }
