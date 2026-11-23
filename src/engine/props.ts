@@ -287,3 +287,4 @@ export class PropSystem {
       const dir = this.tmp.copy(p.vel).setY(0).normalize().multiplyScalar(Math.min(12, speed * 0.5))
       dir.y = 3
       this.host.units.knock(u, dir)
+      p.vel.multiplyScalar(Math.max(0.3, 1 - u.mass / (p.mass + u.mass)))
