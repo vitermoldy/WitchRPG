@@ -424,3 +424,4 @@ export class Spells {
         gb.unit.target = null
       } else {
         gb.prop.held = true
+        gb.prop.awake = true
