@@ -153,3 +153,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
 function facadeTextures(seed: number) {
   const R = rand(seed)
   const { c, g } = canvas(256, 512)
+  const { c: ec, g: eg } = canvas(256, 512)
