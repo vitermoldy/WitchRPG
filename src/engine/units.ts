@@ -211,3 +211,4 @@ export class UnitSystem {
     const ax = tmp.x * want - u.vel.x
     const az = tmp.z * want - u.vel.z
     const k = Math.min(1, dt * 8)
+    u.vel.x += ax * k
