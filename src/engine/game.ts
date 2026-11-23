@@ -440,6 +440,7 @@ export class Game {
   }
 
   leaveRift() {
+    // From the pause menu the Rift was still running; from the fallen screen it was already recorded.
     this.units.clear()
     this.spells.reset()
     this.umbra.reset()
