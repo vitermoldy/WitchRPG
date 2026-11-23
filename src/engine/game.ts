@@ -5,6 +5,7 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js'
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js'
 import { BOSS, CAMERA, MOVE, SPELL, TIERS, UNITS, type TierId, type UnitKind } from '../game/balance'
+import { chaosFromDamage, derive, gainXp, tierUnlocked, unitStats, xpForUnit, type Derived, type Profile } from '../game/progression'
 import { loadProfile, saveProfile } from '../game/save'
 import type { RiftRecord, SavedRift } from '../data/api'
 import { SKILLS } from '../game/skills'
