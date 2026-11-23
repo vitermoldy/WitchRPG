@@ -69,6 +69,7 @@ export class WorldDirector {
     // Corner camps: some of the pack wake up elite.
     const plain = c.units.filter((u) => u.kind !== 'riftlord')
     for (let n = 0; n < c.spot.elites && plain.length; n++) plain.splice(Math.floor(Math.random() * plain.length), 1)[0].makeElite(pickTrait())
+    if (c.spot.elite || c.spot.elites) g.sfx.roar()
   }
 
   update(dt: number) {
