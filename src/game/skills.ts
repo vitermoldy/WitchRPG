@@ -51,3 +51,4 @@ export const SKILLS: SkillDef[] = [
     branch: 'chaos',
     name: 'Chaos Burst',
     key: 'Q',
+    unlock: 3,
