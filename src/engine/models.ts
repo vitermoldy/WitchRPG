@@ -152,3 +152,4 @@ function hound(team: Team): UnitModel {
     ['legFR', 0.22, -0.4],
     ['legBL', -0.2, 0.38],
     ['legBR', 0.2, 0.38],
+  ]
