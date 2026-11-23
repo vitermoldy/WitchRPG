@@ -178,3 +178,4 @@ export class Sfx {
     }
   }
 
+  impact(strength: number) {
