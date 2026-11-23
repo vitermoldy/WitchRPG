@@ -181,3 +181,4 @@ export class Hud {
     if (this.cache.get('army') !== html) {
       this.cache.set('army', html)
       this.slots.innerHTML = html
+    }
