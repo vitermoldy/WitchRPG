@@ -186,3 +186,4 @@ function facadeTextures(seed: number) {
         g.fillStyle = '#1b1718'
         g.beginPath()
         g.moveTo(x, y)
+        g.lineTo(x + 40 * R(), y + 42)
