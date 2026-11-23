@@ -444,9 +444,7 @@ export class Umbra {
       const at = u.pos.clone()
       g.units.remove(u)
       g.pools.open(at, 0.9 + UNITS[rec.kind].radius * 1.6, 1.3)
-      // Room on the field: it stands up here. No room: it sinks straight into the Shadow Room.
-      if (this.field().length < this.fieldCap) this.spawnShadow(rec, at, this.field().length)
-      else g.streamTo(at.clone().setY(at.y + 0.5), g.player.pos.clone().setY(g.player.pos.y + 0.3), COLOR.umbra)
+      // It stands up where it fell and joins the field.
       g.rift.raised.push(rec.name)
     }
     if (raised.length) {
