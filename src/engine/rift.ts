@@ -86,3 +86,4 @@ export class RiftDirector {
     const lv = () => spec.levels[0] + Math.floor(Math.random() * (spec.levels[1] - spec.levels[0] + 1))
     for (let n = 0; n < spec.husk; n++) q.push({ kind: 'husk', level: lv() })
     for (let n = 0; n < spec.hound; n++) q.push({ kind: 'hound', level: lv() })
+    // Shuffle so hounds arrive mixed in with the husks.
