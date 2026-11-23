@@ -219,3 +219,4 @@ export class UnitSystem {
   private face(u: Unit, at: THREE.Vector3, dt: number, rate = 8) {
     const yaw = Math.atan2(-(at.x - u.pos.x), -(at.z - u.pos.z))
     let diff = yaw - u.yaw
+    while (diff > Math.PI) diff -= Math.PI * 2
