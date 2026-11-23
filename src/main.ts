@@ -152,3 +152,4 @@ async function boot() {
     fresh.settings = settings
     Object.assign(game.profile, fresh)
     saveProfile(game.profile)
+    game.applyStats(true)
