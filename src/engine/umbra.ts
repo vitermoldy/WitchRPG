@@ -150,7 +150,7 @@ export class Umbra {
     }
     // Every shadow that is ready comes out, strongest first: Marsekal, Jenderal, Ksatria, then by level.
     const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
-    const pick = [...ready].sort((a, b) => order[a.rank] - order[b.rank] || b.level - a.level).slice(0, Math.max(0, this.fieldCap - this.field().length))
+    const pick = [...ready].sort((a, b) => order[a.rank] - order[b.rank] || b.level - a.level)
     const n = pick.length
     const p = g.player
     const feet = new THREE.Vector3(p.pos.x, g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5), p.pos.z)
