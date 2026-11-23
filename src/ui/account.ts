@@ -142,3 +142,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       const localTime = local.updatedAt ? Date.parse(local.updatedAt) : 0
       if (remote && (isFresh(local) || remoteTime > localTime)) {
         adopt(remote)
+        setNote(`Witch Lv ${remote.level} dimuat dari server`)
