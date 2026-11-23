@@ -94,3 +94,4 @@ export class BossFight {
         g.player.addTrauma(0.8)
         for (let i = 0; i < 60; i++) {
           const a = Math.random() * Math.PI * 2
+          const r = Math.random() * 24
