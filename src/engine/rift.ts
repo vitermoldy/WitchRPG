@@ -80,3 +80,4 @@ export class RiftDirector {
     return this.queue.length + this.g.units.enemies().length
   }
 
+  private startWave(i: number) {
