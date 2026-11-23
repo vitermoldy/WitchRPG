@@ -370,3 +370,4 @@ export class Spells {
   }
 
   private grippable(u: Unit) {
+    return u.alive && u.team === 'rift' && u.mass <= SPELL.grip.maxMass && u.state !== 'spawn'
