@@ -1070,3 +1070,4 @@ dialog::backdrop {
 
 .points {
   color: var(--rift);
+  font-weight: 400;
