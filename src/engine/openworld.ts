@@ -32,3 +32,5 @@ export interface OpenWorldBuild {
   colliders: Colliders
   start: THREE.Vector3
   altar: THREE.Vector3
+  gates: Gate[]
+  camps: CampSpot[]
