@@ -23,3 +23,4 @@ export class Umbra {
   readonly down = new Set<number>()
 
   constructor(g: Game) {
+    this.g = g
