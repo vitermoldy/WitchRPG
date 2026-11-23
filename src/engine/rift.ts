@@ -12,3 +12,5 @@ interface Portal {
   mesh: THREE.Mesh
   mat: THREE.ShaderMaterial
   open: number
+}
+
