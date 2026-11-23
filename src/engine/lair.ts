@@ -98,3 +98,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   floor.receiveShadow = true
   group.add(floor)
 
+  // The void under it: a deep red glow that the fog swallows.
