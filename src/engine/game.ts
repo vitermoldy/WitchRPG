@@ -78,3 +78,5 @@ export class Game {
     const loaded = loadProfile()
     this.profile = loaded.profile
     this.saveError = loaded.error
+    this.derived = derive(this.profile.stats)
+
