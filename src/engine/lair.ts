@@ -14,3 +14,4 @@ export interface Platform {
 }
 
 export interface LairBuild {
+  group: THREE.Group
