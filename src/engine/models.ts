@@ -272,7 +272,7 @@ function spitter(team: Team): UnitModel {
       p.jaw.add(jaw)
       eyes(p.head, m, meshes, [[-0.08, 0.15], [0.08, 0.15], [0, 0.18]], [0.04, 0.03], -0.182)
       for (let i = 0; i < 3; i++) {
-        const spike = new THREE.Mesh(new THREE.ConeGeometry(0.04, 0.18, 4), m.bone)
+        const spike = new THREE.Mesh(shape(`Cone:${[0.04, 0.18, 4].join(',')}`, () => new THREE.ConeGeometry(0.04, 0.18, 4)), m.bone)
         spike.position.set(0, 0.5, 0.05 + i * 0.12)
         spike.rotation.x = 0.6
         p.spine.add(spike)
