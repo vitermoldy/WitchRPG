@@ -226,3 +226,4 @@ const SKY_FRAG = /* glsl */ `
   }
 `
 
+export const TEAR_VERT = /* glsl */ `
