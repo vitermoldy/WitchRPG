@@ -89,3 +89,4 @@ function crateMesh() {
   return g
 }
 
+export class PropSystem {
