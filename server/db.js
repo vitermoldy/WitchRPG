@@ -61,3 +61,4 @@ const TABLES = [
     kills SMALLINT UNSIGNED NOT NULL,
     xp_gained INT UNSIGNED NOT NULL,
     levels_gained TINYINT UNSIGNED NOT NULL,
+    level_after TINYINT UNSIGNED NOT NULL,
