@@ -438,3 +438,4 @@ export class Game {
   }
 
   start() {
+    this.timer.connect(document)
