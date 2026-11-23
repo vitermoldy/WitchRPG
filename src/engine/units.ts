@@ -803,6 +803,7 @@ export class UnitSystem {
     const free = (u: Unit) => u.alive && u.state !== 'held' && u.state !== 'air' && u.state !== 'sinking'
     const grid = this.grid
     grid.clear()
+    for (const a of this.units) {
       }
       // Keep clear of the witch.
       const p = host.player
