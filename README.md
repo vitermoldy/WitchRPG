@@ -31,3 +31,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | Tahan R | Umbra Rite pada tubuh musuh yang bersinar ungu (Lv 2) |
 | Tahan Z | Roda perintah: Ikuti, Serang, Tahan, Tukar Tempat |
 
+| Gerak | |
