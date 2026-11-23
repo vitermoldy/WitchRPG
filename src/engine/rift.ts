@@ -146,6 +146,7 @@ export class RiftDirector {
     const next = this.queue.shift()!
     let at: THREE.Vector3 | null = next.kind === 'spitter' ? this.freePerch() : null
     if (!at) {
+      const choices = this.portals.filter((p) => p.pos.distanceTo(g.player.pos) > 12)
   }
 
   update(dt: number) {
