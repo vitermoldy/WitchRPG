@@ -182,3 +182,4 @@ export class Umbra {
   }
 
   chance(u: Unit) {
+    const g = this.g
