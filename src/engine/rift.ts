@@ -120,3 +120,4 @@ export class RiftDirector {
       this.timer -= dt
       if (this.timer <= 0) this.startWave(this.wave)
       return
+    }
