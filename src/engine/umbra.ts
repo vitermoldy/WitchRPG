@@ -202,3 +202,4 @@ export class Umbra {
     const why = this.blocker()
     if (why) {
       g.hud.message(why, 'umbra')
+      if (why.startsWith('Mana')) g.hud.flashMana()
