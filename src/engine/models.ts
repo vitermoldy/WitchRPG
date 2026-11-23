@@ -230,6 +230,8 @@ function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3
   }
   dress(parts, mats, meshes)
   return { root, body, parts, bodyMat, eyeMat: s.eye, meshes }
+}
+
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
