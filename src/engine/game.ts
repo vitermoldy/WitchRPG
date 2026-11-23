@@ -251,6 +251,8 @@ export class Game {
       seconds: Math.round(r.elapsed),
       finishedAt: new Date().toISOString(),
     })
+  }
+
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
