@@ -37,3 +37,4 @@ export class Game {
   readonly hands = new Hands()
   readonly input: Input
   readonly sfx = new Sfx()
+  readonly player = new Player()
