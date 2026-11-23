@@ -7,6 +7,7 @@ Ini versi pertama dari [Game Design Document](./Game%20Design%20Document%20RPG%2
 | Rift | Terbuka | Isi |
 | --- | --- | --- |
 | Tier I | Lv 1 | Husk dan Rift Hound, lima gelombang |
+| Tier II | Lv 4 | Ditambah Spitter yang menembak dari perancah |
 
 ## Menjalankan
 
