@@ -62,3 +62,5 @@ async function boot() {
     await game.warmUp()
   } catch (e) {
     console.error(e)
+  }
+
