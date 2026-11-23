@@ -28,3 +28,4 @@ export class Player {
   private bobAmount = 0
   private trauma = 0
   private shakeT = 0
+  private fov: number = CAMERA.fov
