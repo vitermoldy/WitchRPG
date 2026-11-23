@@ -23,3 +23,4 @@ export class Player {
   stamina: number = MOVE.staminaMax
   floatLeft: number = MOVE.floatMax
   private staminaDelay = 0
+  private eye: number = MOVE.eye
