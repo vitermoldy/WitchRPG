@@ -65,6 +65,7 @@ export class Unit implements Target {
   target: Target | null = null
   retarget = 0
   private built: UnitModel | null = null
+  /** Drawn with its own animated model. Otherwise (far shadows) the crowd draws it as one instance. */
   flash = 0
   slow = 1
   vulnerable = 0
