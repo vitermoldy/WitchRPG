@@ -409,6 +409,7 @@ export class Umbra {
         this.turnToAsh(u)
         continue
       }
+      raised.push(rec)
       const at = u.pos.clone()
       g.units.remove(u)
       const s = this.spawnShadow(rec.id, at)
