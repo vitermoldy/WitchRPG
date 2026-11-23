@@ -112,3 +112,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
   let tmin = 0
   let tmax = maxT
   let axis = -1
+  let sign = 0
