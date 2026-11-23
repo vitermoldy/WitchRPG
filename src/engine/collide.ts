@@ -101,3 +101,4 @@ export class Colliders {
   clear(a: THREE.Vector3, b: THREE.Vector3): boolean {
     const dir = b.clone().sub(a)
     const len = dir.length()
+    if (len < 1e-4) return true
