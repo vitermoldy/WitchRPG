@@ -358,3 +358,4 @@ export class Game {
     this.respawnProps()
     this.glow.clear()
     this.smoke.clear()
+    this.lights.reset()
