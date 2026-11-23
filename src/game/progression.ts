@@ -78,3 +78,4 @@ export function xpForKill(enemyLevel: number, boss = false): number {
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v))
 
 /** Chance that one Umbra Rite cast succeeds. Raw UMB counts, as in the GDD example. */
+export function riteChance(rank: RankId, playerLevel: number, enemyLevel: number, umb: number): number {
