@@ -122,3 +122,4 @@ function hound(team: Team): UnitModel {
   const chest = box(0.56, 0.48, 0.4, bodyMat, meshes, 0.03)
   chest.position.z = -0.36
   body.add(chest)
+  for (let i = 0; i < 5; i++) {
