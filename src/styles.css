@@ -1197,3 +1197,4 @@ dialog::backdrop {
 }
 
 .node.locked {
+  opacity: 0.6;
