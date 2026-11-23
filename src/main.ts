@@ -176,6 +176,8 @@ async function boot() {
       $('dead-text').textContent = world
         ? `XP dan bayangan yang sudah didapat tetap tersimpan (Lv ${game.profile.level}). Kamp yang sudah ditaklukkan tetap padam.`
         : `XP dan bayangan yang sudah didapat tetap tersimpan (Lv ${game.profile.level}). Rift harus diulang dari gelombang pertama.`
+      $('btn-retry').textContent = world ? 'Bangkit di altar' : 'Masuk Rift lagi'
+      $('btn-dead-world').hidden = world || !game.returnToWorld
       showScreen('dead')
       $('btn-retry').focus()
     }
