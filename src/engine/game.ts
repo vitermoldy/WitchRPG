@@ -442,6 +442,7 @@ export class Game {
     list.forEach((u, i) => this.units.setDetailed(u, i < n))
   }
 
+  /**
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
