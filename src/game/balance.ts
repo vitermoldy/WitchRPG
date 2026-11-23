@@ -314,4 +314,5 @@ export const RIFT = {
   breatherHeal: 0.2,
 } as const
 
+export const BOSS = {
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
