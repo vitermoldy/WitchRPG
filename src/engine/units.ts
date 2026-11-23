@@ -64,7 +64,7 @@ export class Unit implements Target {
   cd = 0
   target: Target | null = null
   retarget = 0
-  readonly model: UnitModel
+  private built: UnitModel | null = null
   flash = 0
   slow = 1
   vulnerable = 0
