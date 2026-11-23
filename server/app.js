@@ -203,3 +203,4 @@ export function createApi(getPool, database) {
 
   api.post('/runs', async (req, res) => {
     const client = req.user.device
+    const { row, error } = cleanRun(req.body?.run)
