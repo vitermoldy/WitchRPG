@@ -184,6 +184,7 @@ export class Umbra {
     for (const u of out.slice(0, 40)) g.streamTo(u.center, feet.clone().setY(feet.y + 0.3), COLOR.umbra)
     g.hands.pose('right', 'command', 0.6)
     g.sfx.dismiss()
+    g.hud.message(`${out.length} bayangan kembali ke Ruang Bayangan.`, 'umbra')
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
