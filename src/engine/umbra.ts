@@ -20,3 +20,5 @@ export class Umbra {
   private wheelY = 0
   private chargeTick = 0
   /** Records of shadows that fell this Rift; they come back whole next Rift. */
+  readonly down = new Set<number>()
+
