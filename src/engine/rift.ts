@@ -54,3 +54,4 @@ export class RiftDirector {
     halo.position.y = 1.8
     this.exit.add(halo)
     this.exit.position.copy(this.exitPos)
+    this.exit.visible = false
