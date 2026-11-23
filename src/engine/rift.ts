@@ -133,3 +133,4 @@ export class RiftDirector {
         at.y = 0
         g.units.spawn(next.kind, 'rift', next.level, at)
         g.glow.emit({ pos: at.clone().setY(1), count: 30, color: COLOR.chaos, intensity: 2.2, life: 0.6, size: 0.2, speed: 3, jitter: 0.4 })
+        g.smoke.emit({ pos: at, count: 10, color: 0x120608, life: 1, size: 1.2, sizeEnd: 2, speed: 1, jitter: 0.6, alpha: 0.8 })
