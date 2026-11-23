@@ -161,3 +161,4 @@ export class Player {
       if (!this.onGround && this.vel.y < -6) this.landKick = Math.min(0.12, -this.vel.y * 0.01)
       this.pos.y = floor
       this.vel.y = Math.max(0, this.vel.y)
+      this.onGround = true
