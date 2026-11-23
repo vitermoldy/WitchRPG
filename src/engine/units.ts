@@ -301,6 +301,7 @@ export class UnitSystem {
         }
         host.growl()
       }
+      u.skillCd = s.every
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
