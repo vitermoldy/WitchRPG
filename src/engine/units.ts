@@ -580,6 +580,7 @@ export class UnitSystem {
           u.vel.z *= 0.3
           u.thrown = false
           // A Warden that lands hard loses its guard for a moment.
+          if (u.alive && u.kind === 'warden' && speed > SPELL.impact.minSpeed) u.stun = Math.max(u.stun, 2)
           if (u.alive) u.setState('recover', 0.2)
         }
         continue
