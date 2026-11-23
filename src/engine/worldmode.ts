@@ -89,3 +89,5 @@ export class WorldDirector {
           // Left behind: the pack goes back into its tear until she returns.
           for (const u of alive) g.units.remove(u)
           c.units = []
+          c.state = 'idle'
+        }
