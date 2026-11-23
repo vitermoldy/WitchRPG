@@ -1,0 +1,30 @@
+{
+  "name": "witch-rpg",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Crimson Sovereign: RPG aksi 3D first-person. Seorang witch membengkokkan realitas dengan sihir Chaos dan membangkitkan musuh yang kalah menjadi pasukan bayangan.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
+    "@fontsource-variable/martian-mono": "^5.3.0",
+    "@fontsource-variable/sora": "^5.3.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
