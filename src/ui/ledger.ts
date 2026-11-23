@@ -170,3 +170,4 @@ export class Ledger {
           .join('')
       : `<li class="room-empty">${
           isUnlocked(p, 'rite')
+            ? 'Belum ada bayangan. Kalahkan musuh, bidik tubuhnya yang bersinar ungu, lalu tahan R.'
