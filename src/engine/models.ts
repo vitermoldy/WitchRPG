@@ -168,3 +168,4 @@ function hound(team: Team): UnitModel {
     t.position.z = 0.11
     seg.add(t)
     const next = pivot(seg, 0, 0, 0.22)
+    seg = next
