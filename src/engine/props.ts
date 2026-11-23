@@ -143,3 +143,4 @@ export class PropSystem {
     return p
   }
 
+  clear() {
