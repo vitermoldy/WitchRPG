@@ -178,6 +178,7 @@ async function boot() {
       game.sfx.ui()
       renderTiers()
     })
+    // Arrow keys move along the group, as a radio group should.
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
