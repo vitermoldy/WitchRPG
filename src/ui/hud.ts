@@ -99,3 +99,4 @@ export class Hud {
     this.manaFlash = Math.max(0, this.manaFlash - dt)
 
     this.set('hp-fill', 'transform', `scaleX(${Math.max(0, p.hp / p.maxHp).toFixed(3)})`)
+    this.set('hp-text', 'text', `${Math.ceil(Math.max(0, p.hp))} / ${p.maxHp}`)
