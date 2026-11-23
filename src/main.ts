@@ -176,3 +176,4 @@ async function boot() {
     game.saveSoon()
   })
   $<HTMLInputElement>('set-bob').addEventListener('change', (e) => {
+    game.profile.settings.headBob = (e.target as HTMLInputElement).checked
