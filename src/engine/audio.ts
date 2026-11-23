@@ -308,6 +308,8 @@ export class Sfx {
 
   /** A steady wind while flying, louder and brighter with speed; 0 fades it out. */
   wind(level: number) {
+    if (!this.ctx || !this.noiseBuf) return
+    const ctx = this.ctx
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
