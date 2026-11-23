@@ -61,3 +61,5 @@ export class Player {
     this.floatLeft = this.floatMax
     this.trauma = 0
     this.alive = true
+  }
+
