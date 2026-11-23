@@ -137,6 +137,7 @@ export class Game {
       hurtUnit: (u, dmg, from, by) => this.hurtUnit(u, dmg, from, by),
       impactFx: (at, s) => this.impactFx(at, s),
       growl: () => this.sfx.growl(),
+      fire: (from, to, u) => {
     }
     this.unitHost = host
     this.units = new UnitSystem(host)
