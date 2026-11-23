@@ -125,16 +125,8 @@ export class Umbra {
    */
   summon() {
     const g = this.g
-    g.profile.shadows.forEach((rec, i) => {
-      window.setTimeout(() => {
-        if (g.state !== 'playing' && g.state !== 'paused' && g.state !== 'ledger') return
-        if (g.units.units.some((u) => u.record?.id === rec.id)) return
-        const a = (i / Math.max(1, g.profile.shadows.length)) * Math.PI * 2
-        const at = g.player.pos.clone().add(new THREE.Vector3(Math.cos(a) * 2.4, 0, Math.sin(a) * 2.4))
-        at.y = 0
-        this.spawnShadow(rec.id, at)
-      }, 600 + i * 260)
-    })
+    const ready = this.ready()
+    if (!g.profile.shadows.length) {
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
