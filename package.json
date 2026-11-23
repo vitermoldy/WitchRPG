@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit",
     "server": "node --watch server/index.js",
     "start": "node server/index.js",
+    "users": "node server/users.js",
   },
   "dependencies": {
     "@fontsource-variable/figtree": "^5.3.0",
