@@ -187,3 +187,4 @@ export class Sfx {
   }
 
   growl() {
+    if (!this.ok()) return
