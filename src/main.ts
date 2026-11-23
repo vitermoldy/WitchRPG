@@ -204,3 +204,4 @@ async function boot() {
   game.setState('title')
 }
 
+void boot()
