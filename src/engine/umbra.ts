@@ -17,6 +17,7 @@ function ringRadius(count: number) {
   while (left > 8 + ring * 4) {
     left -= 8 + ring * 4
     ring++
+  }
 interface Call {
   at: number
   rec: ShadowRecord
