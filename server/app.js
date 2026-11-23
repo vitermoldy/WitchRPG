@@ -9,3 +9,4 @@ import { createAuth } from './auth.js'
  *   GET  /api/profile                 the account's witch, or { profile: null } before the first save
  *   PUT  /api/profile  { profile }    save the witch; an older copy than the stored one is refused
  *   POST /api/runs     { run }        one Rift that ended
+ *   GET  /api/runs                    the latest 20 Rifts, newest first
