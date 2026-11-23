@@ -618,6 +618,8 @@ export class Game {
     u.vel.set(0, 0, 0)
     u.lifted = 0
     u.setState('rising')
+  }
+
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
