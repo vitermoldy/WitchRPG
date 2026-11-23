@@ -224,3 +224,4 @@ export class Game {
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
+      if (s.kind === 'car') this.props.spawnCar(s.x, s.z, s.yaw)
