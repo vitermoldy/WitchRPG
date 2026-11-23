@@ -122,6 +122,8 @@ export class Umbra {
   /**
    * The call: darkness spills out from under the witch, a pool opens at every soldier's place in the
    * formation, they rise out of it from the inside of the ranks to the outside, and their eyes light last.
+   */
+  summon() {
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
