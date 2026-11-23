@@ -38,3 +38,4 @@ export class Hud {
 
   private set(id: string, key: 'text' | 'transform' | 'class' | 'dash', value: string) {
     const k = id + key
+    if (this.cache.get(k) === value) return
