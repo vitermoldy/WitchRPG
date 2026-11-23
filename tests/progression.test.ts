@@ -142,3 +142,5 @@ describe('thrown bodies', () => {
     expect(car).toBeGreaterThan(crate * 2)
   })
 })
+
+describe('version 1: tiers, ranks and growth', () => {
