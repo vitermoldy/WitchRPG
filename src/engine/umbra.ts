@@ -243,6 +243,7 @@ export class Umbra {
         if (!rec || g.units.units.some((u) => u.record === rec && u.alive)) continue
         const slot = this.field().length
         const pos = this.spot(slot)
+        g.pools.open(pos, 0.9 + UNITS[rec.kind].radius * 1.6, 1.4)
     // Shadows of a call rise one after another.
     while (this.calls.length && this.calls[0].at <= this.time) {
       const c = this.calls.shift()!
