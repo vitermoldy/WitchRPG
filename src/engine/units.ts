@@ -453,3 +453,4 @@ export class UnitSystem {
     }
 
     for (const u of this.units) {
+      // A unit with a broken number goes back to its last good spot instead of infecting its neighbours.
