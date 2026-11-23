@@ -34,3 +34,4 @@ export interface Settings {
   shake: boolean
 }
 
+export interface Profile {
