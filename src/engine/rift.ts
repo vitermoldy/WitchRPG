@@ -196,12 +196,7 @@ export class RiftDirector {
         this.spawnNext()
       }
       if (!this.queue.length && g.units.enemies().length === 0) {
-        if (this.wave >= this.totalWaves) {
-          this.phase = 'cleared'
-          this.exit.visible = true
-          g.hud.banner('Rift ditaklukkan', 'Retakan di monumen terbuka. Dekati lalu tekan F untuk keluar.')
-          g.sfx.levelUp()
-        } else {
+        if (this.wave < this.totalWaves) {
           this.phase = 'breather'
           this.timer = RIFT_TIER_1.breather
           const heal = Math.round(g.player.maxHp * RIFT_TIER_1.breatherHeal)
