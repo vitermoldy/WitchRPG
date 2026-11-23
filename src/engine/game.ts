@@ -142,6 +142,7 @@ export class Game {
         this.sfx.spit()
       },
       slamFx: (at, radius, team) => this.slamFx(at, radius, team),
+      telegraph: (at, radius, seconds) => this.warnings.show(at, radius, seconds),
     }
     this.unitHost = host
     this.units = new UnitSystem(host)
