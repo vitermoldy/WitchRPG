@@ -236,3 +236,4 @@ export class Game {
   }
 
   breakCover(b: Box, from: THREE.Vector3) {
+    if (!b.alive) return
