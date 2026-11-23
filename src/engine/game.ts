@@ -53,3 +53,4 @@ export class Game {
   readonly ledger: Ledger
   profile: Profile
   derived: Derived
+  readonly saveError: string | null
