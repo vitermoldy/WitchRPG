@@ -124,9 +124,7 @@ export const SKILLS: SkillDef[] = [
     name: 'Kebangkitan Jenderal',
     key: 'Tahan R',
     unlock: 8,
-    effect: 'Bisa membangkitkan Rift Lord.',
-    upgrade: 'Belum dirancang.',
-    built: false,
+    effect: 'Bisa membangkitkan Rift Lord. Sebagai bayangan, ia memanggil dua husk bayangan setiap 20 detik.',
   },
   {
     id: 'marshal',
