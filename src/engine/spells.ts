@@ -1,3 +1,4 @@
 import * as THREE from 'three'
 import { CHAOS, SPELL } from '../game/balance'
 import { hasUpgrade, isUnlocked } from '../game/progression'
+import type { SkillId } from '../game/skills'
