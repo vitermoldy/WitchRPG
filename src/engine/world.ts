@@ -352,3 +352,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const stripe = new THREE.MeshStandardMaterial({ color: 0x8a7a5a, roughness: 0.8 })
   const lampGlow = new THREE.MeshStandardMaterial({ color: 0x100806, emissive: 0xffa060, emissiveIntensity: 2.2 })
 
+  const solid = (mesh: THREE.Mesh) => {
