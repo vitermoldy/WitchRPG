@@ -665,6 +665,7 @@ export class Spells {
     for (let i = this.warps.length - 1; i >= 0; i--) {
       const w = this.warps[i]
       w.t += dt
+      const fade = Math.min(1, w.t * 3) * Math.min(1, (w.duration - w.t) * 2)
   private burst() {
     const g = this.g
     const s = SPELL.burst
