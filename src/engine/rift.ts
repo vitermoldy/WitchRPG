@@ -92,3 +92,4 @@ export class RiftDirector {
       ;[q[n], q[k]] = [q[k], q[n]]
     }
     this.queue = q
+    this.wave = i + 1
