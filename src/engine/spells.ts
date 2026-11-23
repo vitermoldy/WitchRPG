@@ -544,3 +544,4 @@ export class Spells {
       g.hud.message(`${id === 'burst' ? 'Chaos Burst' : id === 'snare' ? 'Hex Snare' : 'Hex Barrier'} terbuka di Lv ${id === 'burst' ? 3 : id === 'snare' ? 5 : 7}.`, 'info')
       return
     }
+    const cd = id === 'burst' ? this.burstCd : id === 'snare' ? this.snareCd : this.barrierCd
