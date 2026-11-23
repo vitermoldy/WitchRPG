@@ -226,3 +226,4 @@ export class BossFight {
         // Stay on the pillar.
         if (Math.hypot(u.pos.x - this.home.x, u.pos.z - this.home.z) > 2.5) u.pos.lerp(this.home.clone().setY(u.pos.y), Math.min(1, dt * 2))
         this.summonT -= dt
+        if (this.summonT <= 0) {
