@@ -367,7 +367,7 @@ export class Umbra {
       if (why.startsWith('Mana')) g.hud.flashMana()
       return
     }
-    this.casting = u
+    this.casting = [...list]
     this.progress = 0
     g.hands.pose('right', 'rite')
   }
