@@ -156,6 +156,7 @@ export class RiftDirector {
     if (next.kind === 'riftlord') {
       this.bossUnit = u
       g.sfx.roar()
+      g.player.addTrauma(0.3)
   }
 
   update(dt: number) {
