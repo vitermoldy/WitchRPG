@@ -134,3 +134,4 @@ export class Player {
       this.stamina = Math.max(0, this.stamina - MOVE.floatDrain * dt)
       this.floatLeft -= dt
       this.staminaDelay = MOVE.staminaRegenDelay
+    } else {
