@@ -18,7 +18,7 @@ export interface Target {
 }
 
 export interface UnitHost {
-  colliders: Colliders
+  readonly colliders: Colliders
   player: Target & { yaw: number }
   glow: Particles
   smoke: Particles
