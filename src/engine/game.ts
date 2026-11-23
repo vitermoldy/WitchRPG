@@ -491,3 +491,4 @@ export class Game {
 
   private orbit(dt: number) {
     const a = this.t * 0.05
+    this.camera.position.set(Math.sin(a) * 26, 7.5 + Math.sin(this.t * 0.2) * 0.8, Math.cos(a) * 26)
