@@ -46,3 +46,4 @@ export class Game {
   readonly rings: Rings
   readonly units: UnitSystem
   readonly props: PropSystem
+  readonly spells: Spells
