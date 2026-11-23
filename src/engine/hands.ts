@@ -118,3 +118,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   const fingers: Finger[] = []
   const lengths = [0.95, 1, 0.94, 0.78]
   const xs = [-0.029, -0.0095, 0.0095, 0.028]
+  const segs = [0.04, 0.028, 0.022]
