@@ -654,6 +654,7 @@ export class Spells {
     g.sfx.warp()
   }
 
+  /** True while `at` is inside a Reality Warp field. */
   private burst() {
     const g = this.g
     const s = SPELL.burst
