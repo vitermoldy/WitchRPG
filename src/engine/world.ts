@@ -160,3 +160,4 @@ function facadeTextures(seed: number) {
   eg.fillStyle = '#000'
   eg.fillRect(0, 0, 256, 512)
   for (let i = 0; i < 900; i++) {
+    g.fillStyle = R() < 0.5 ? 'rgba(0,0,0,0.12)' : 'rgba(255,255,255,0.025)'
