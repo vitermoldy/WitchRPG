@@ -87,3 +87,4 @@ export function shadowSlots(umb: number): number {
   return RITE.baseSlots + Math.floor(Math.max(0, umb - XP.startStat) / RITE.umbPerSlot)
 }
 
+export interface Derived {
