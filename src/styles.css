@@ -528,6 +528,8 @@ button:disabled {
   background: linear-gradient(90deg, #c77a1d, var(--rift));
   transform-origin: left;
   transition: transform 0.15s linear;
+}
+
 .banner {
   position: absolute;
   top: 24%;
