@@ -216,3 +216,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     inst.setMatrixAt(i, m)
     colliders.add(b.x, b.z, b.w, b.d, b.h)
   })
+  inst.castShadow = true
+  inst.receiveShadow = true
