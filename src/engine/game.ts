@@ -364,3 +364,4 @@ export class Game {
     this.hud.clearFeed()
     this.player.reset(this.world.playerStart, 0)
     this.applyStats(true)
+    this.hands.pose('left', 'idle')
