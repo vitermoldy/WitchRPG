@@ -660,6 +660,7 @@ export class Spells {
     return false
   }
 
+  private updateWarps(dt: number) {
   private burst() {
     const g = this.g
     const s = SPELL.burst
