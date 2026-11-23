@@ -151,3 +151,4 @@ export class Ledger {
             <p class="node-meta">${open ? 'Terbuka' : `Lv ${s.unlock}`}</p>
             <p class="node-effect">${s.effect}</p>
             ${up}
+          </li>`
