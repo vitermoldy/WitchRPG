@@ -521,6 +521,5 @@ export function buildModel(kind: UnitKind, team: Team): UnitModel {
 
 /** Only the body material is the model's own; geometry and the other materials are shared. */
 export function disposeModel(m: UnitModel) {
-  for (const mesh of m.meshes) mesh.geometry.dispose()
   m.bodyMat.dispose()
 }
