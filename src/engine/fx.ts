@@ -353,6 +353,7 @@ export class Warnings {
   }
 
   show(at: { x: number; y: number; z: number }, radius: number, seconds: number) {
+    const w = this.pool.find((p) => !p.group.visible) ?? this.pool[0]
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
