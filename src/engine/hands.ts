@@ -322,3 +322,4 @@ export class Hands {
         h.orb.getWorldPosition(this.tmp)
         this.particles.emit({
           pos: this.tmp,
+          count: 1,
