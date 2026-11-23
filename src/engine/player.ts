@@ -89,3 +89,4 @@ export class Player {
       const boost = MOVE.sprint * this.speedMult * MOVE.slideBoost
       this.vel.x = this.forward.x * boost
       this.vel.z = this.forward.z * boost
+    }
