@@ -107,3 +107,4 @@ export class Game {
       glow: this.glow,
       smoke: this.smoke,
       propBlockers: [],
+      hurtPlayer: (dmg, from) => this.hurtPlayer(dmg, from),
