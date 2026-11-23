@@ -239,3 +239,4 @@ export class Game {
     if (!b.alive) return
     this.colliders.remove(b)
     if (b.mesh) b.mesh.visible = false
+    this.brokenCover.push(b)
