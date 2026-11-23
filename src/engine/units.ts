@@ -741,6 +741,7 @@ export class UnitSystem {
     const baseLean = (P.spine.userData.lean as number) ?? 0.42
     const { legL, legR, armL, armR } = P
     const slammer = !!u.spec.slam
+    let armX = 0
       }
     }
   }
