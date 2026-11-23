@@ -13,3 +13,5 @@ npm install
 npm run dev      # http://localhost:5197
 npm test         # tes progresi dan rumus
 npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
+```
+
