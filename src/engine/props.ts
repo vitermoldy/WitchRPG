@@ -34,3 +34,4 @@ export interface PropHost {
 const CAR_COLORS = [0x5a2a2a, 0x2c3a44, 0x6b6457, 0x1f1f22, 0x3d3a2a]
 let nextId = 1
 
+function carMesh(color: number) {
