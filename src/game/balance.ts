@@ -119,3 +119,5 @@ export interface UnitSpec {
   cooldown: number
   lungeSpeed?: number
   lungeTime?: number
+}
+
