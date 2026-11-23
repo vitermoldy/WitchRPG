@@ -409,3 +409,4 @@ export class Game {
   leaveRift() {
     this.units.clear()
     this.spells.reset()
+    this.umbra.reset()
