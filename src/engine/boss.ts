@@ -121,3 +121,4 @@ export class BossFight {
           g.units.remove(o)
           eaten++
         }
+        if (eaten) u.hp = Math.min(u.maxHp * BOSS.phase3At, u.hp + u.maxHp * 0.015 * eaten)
