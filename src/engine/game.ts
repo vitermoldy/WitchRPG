@@ -546,3 +546,4 @@ export class Game {
       return
     }
 
+    this.spells.update(dt, !wheel)
