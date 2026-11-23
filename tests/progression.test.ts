@@ -105,3 +105,4 @@ describe('upgrades and shadows', () => {
     expect(addShadow(p, 'hound', 1)).toBeNull()
   })
   it('shares 30% of XP with shadows and keeps them at or below your level', () => {
+    const p = newProfile()
