@@ -212,3 +212,5 @@ export function createApi(getPool, database) {
       [client, ...row],
     )
     res.json({ ok: true, id: r.insertId })
+  })
+
