@@ -151,3 +151,4 @@ export class UnitSystem {
     return this.units.filter((u) => u.team === 'shadow' && u.alive)
   }
 
+  knock(u: Unit, impulse: THREE.Vector3) {
