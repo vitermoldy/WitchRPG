@@ -111,3 +111,4 @@ export class ShadowCrowd {
       this.s.setScalar(u.scale)
       this.m.compose(this.p, this.q, this.s)
       b.mesh.setMatrixAt(b.used++, this.m)
+    }
