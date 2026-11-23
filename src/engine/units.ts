@@ -325,3 +325,4 @@ export class UnitSystem {
   }
 
   private hit(u: Unit, tgt: Target) {
+    let dmg = u.damage
