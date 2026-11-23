@@ -404,3 +404,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
         p.x * 1.2 + (across === 'x' ? off : (R() - 0.5) * 3),
         s * 0.5,
         p.z * 1.2 + (across === 'z' ? off : (R() - 0.5) * 3),
+      )
