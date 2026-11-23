@@ -435,3 +435,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const b = solid(new THREE.Mesh(new THREE.BoxGeometry(w, 0.9, d), concrete))
     b.position.set(x, 0.45, z)
     const s = new THREE.Mesh(new THREE.BoxGeometry(w + 0.02, 0.12, d + 0.02), stripe)
+    s.position.set(x, 0.62, z)
