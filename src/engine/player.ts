@@ -131,3 +131,4 @@ export class Player {
     this.floating = wantsFloat
     if (this.floating) {
       this.vel.y += (-MOVE.floatSink - this.vel.y) * Math.min(1, dt * 8)
+      this.stamina = Math.max(0, this.stamina - MOVE.floatDrain * dt)
