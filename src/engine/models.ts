@@ -496,6 +496,7 @@ function bombard(team: Team): UnitModel {
       meshes.push(muzzle)
       p.muzzle = muzzle
       for (const side of [-1, 1]) {
+        const plate = box(0.3, 0.5, 0.12, m.bone, meshes, 0.45)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
