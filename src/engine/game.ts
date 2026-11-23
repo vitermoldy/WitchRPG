@@ -163,6 +163,7 @@ export class Game {
         return game.colliders
       },
       units: this.units,
+      player: {
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
