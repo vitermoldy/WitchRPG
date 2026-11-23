@@ -577,6 +577,7 @@ export class Game {
     this.projectiles.clear()
     this.hud.banner('The Hollow Warden tumbang', 'Jantung Rift berhenti berdetak. Retakan keluar terbuka di pilar tengah.')
     this.sfx.levelUp()
+    this.sfx.collapse()
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
