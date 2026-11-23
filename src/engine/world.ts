@@ -454,3 +454,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   }
 
   // Bus shelters.
+  for (const [x, z] of [[-28, 9], [28, -7]] as const) {
