@@ -133,3 +133,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Tahan R',
     unlock: 9,
     effect: 'Bisa membangkitkan boss Rift.',
+    upgrade: 'Belum dirancang.',
