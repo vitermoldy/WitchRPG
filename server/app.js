@@ -115,3 +115,4 @@ function cleanRun(run) {
     int(run.shadowsRaised, 0, 200),
     int(run.seconds, 0, 86_400),
     at,
+  ]
