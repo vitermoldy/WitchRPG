@@ -655,6 +655,7 @@ export class Spells {
   }
 
   /** True while `at` is inside a Reality Warp field. */
+  inWarp(at: THREE.Vector3): boolean {
   private burst() {
     const g = this.g
     const s = SPELL.burst
