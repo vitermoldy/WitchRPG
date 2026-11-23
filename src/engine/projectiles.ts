@@ -28,3 +28,4 @@ export interface ShotHost {
   smoke: Particles
   hurtPlayer(dmg: number, from: THREE.Vector3): void
   hurtUnit(u: Unit, dmg: number, from: THREE.Vector3, by: DamageSource): void
+  /** Inside an active Reality Warp field: rift shots turn around there. */
