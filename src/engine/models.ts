@@ -311,6 +311,7 @@ function riftlord(team: Team): UnitModel {
       core.position.set(0, 0.62, -0.3)
       core.castShadow = false
       p.spine.add(core)
+      meshes.push(core)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
