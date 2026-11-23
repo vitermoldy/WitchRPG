@@ -7,3 +7,4 @@ import type { DamageSource, Unit, UnitSystem } from './units'
 export type ShotTeam = 'rift' | 'witch'
 
 interface Shot {
+  pos: THREE.Vector3
