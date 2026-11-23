@@ -194,6 +194,7 @@ export class Hud {
     if (!show || !u) return
     this.set('boss-name', 'text', u.spec.name)
     this.set('boss-fill', 'transform', `scaleX(${Math.max(0, u.hp / u.maxHp).toFixed(3)})`)
+    const boss = this.g.rift.boss
   private updateArmy() {
     const g = this.g
     const slots = g.derived.slots
