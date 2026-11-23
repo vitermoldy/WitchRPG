@@ -159,3 +159,4 @@ function hound(team: Team): UnitModel {
     const knee = pivot(hip, 0, -0.34, 0)
     knee.add(box(0.08, 0.3, 0.09, bodyMat, meshes, -0.14))
     hip.userData.knee = knee
+    parts[name] = hip
