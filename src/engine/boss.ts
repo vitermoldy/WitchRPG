@@ -131,3 +131,4 @@ export class BossFight {
     for (const [o, at] of [...this.feed]) {
       if (!o.alive) {
         this.feed.delete(o)
+        continue
