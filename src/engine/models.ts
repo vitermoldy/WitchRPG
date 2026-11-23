@@ -188,6 +188,7 @@ interface BipedSize {
 
 type Mats = (typeof shared)['rift'] & { body: THREE.MeshStandardMaterial }
 
+/**
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
