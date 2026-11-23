@@ -563,3 +563,4 @@ button:disabled {
 }
 
 .feed-item.fade {
+  opacity: 0;
