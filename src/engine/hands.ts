@@ -68,3 +68,4 @@ function sigilShape(): THREE.BufferGeometry {
   const pos: number[] = []
   const idx: number[] = []
   let off = 0
+  for (const p of parts) {
