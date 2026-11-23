@@ -123,3 +123,4 @@ export class BossFight {
         }
         if (eaten) u.hp = Math.min(u.maxHp * BOSS.phase3At, u.hp + u.maxHp * 0.015 * eaten)
         g.sfx.roar()
+        g.hud.banner('Fase 3', eaten ? `Ia menelan ${eaten} anak buahnya dan cangkangnya menutup. Hanya Reality Warp yang membukanya.` : 'Cangkangnya menutup. Hanya Reality Warp yang membukanya.')
