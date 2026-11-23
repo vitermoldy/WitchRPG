@@ -429,3 +429,4 @@ export class UnitSystem {
         if (!b.alive || b.state === 'held' || b.state === 'air') continue
         const dx = a.pos.x - b.pos.x
         const dz = a.pos.z - b.pos.z
+        const min = a.radius + b.radius
