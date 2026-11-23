@@ -262,3 +262,4 @@ export class Umbra {
     const g = this.g
     if (u.record) {
       this.down.add(u.record.id)
+      g.hud.message(`${u.record.name} tumbang. Ia kembali utuh di Rift berikutnya.`, 'umbra')
