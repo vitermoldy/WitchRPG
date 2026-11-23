@@ -629,11 +629,7 @@ export class UnitSystem {
         const d2 = dx * dx + dz * dz
         if (d2 >= min * min || d2 < 1e-8) continue
         const d = Math.sqrt(d2)
-        const push = (min - d) * 0.5
-        a.pos.x += (dx / d) * push
-        a.pos.z += (dz / d) * push
-        b.pos.x -= (dx / d) * push
-        b.pos.z -= (dz / d) * push
+        const share = a.mass / (a.mass + b.mass)
       }
       // Keep clear of the witch.
       const p = host.player
