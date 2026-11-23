@@ -21,3 +21,4 @@ const shared = {
   },
   shadow: {
     accent: new THREE.MeshStandardMaterial({ color: 0x080410, emissive: COLOR.umbra, emissiveIntensity: 1.8 }),
+    eye: new THREE.MeshStandardMaterial({ color: 0x000000, emissive: COLOR.umbraHot, emissiveIntensity: 3.4 }),
