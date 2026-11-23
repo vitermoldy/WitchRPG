@@ -240,3 +240,4 @@ export class Umbra {
       if (!rec) {
         g.hud.message('Slot bayangan penuh. Lepas satu di Ledger (Tab).', 'umbra')
         return
+      }
