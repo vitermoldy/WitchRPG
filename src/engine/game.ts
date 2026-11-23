@@ -497,3 +497,4 @@ export class Game {
       this.camera.fov = CAMERA.fov
       this.camera.updateProjectionMatrix()
     }
+    this.embers(dt, new THREE.Vector3(0, 0, 0), 30)
