@@ -329,3 +329,4 @@ export class Spells {
       if (wall) hitAt = wall.point
       const ray = new THREE.Ray(b.prev, dir)
       const sphere = new THREE.Sphere()
+      const p = new THREE.Vector3()
