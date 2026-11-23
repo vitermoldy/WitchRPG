@@ -84,3 +84,5 @@ function facadeMaterial() {
         } else {
           diffuseColor.rgb *= 0.7;
         }`,
+      )
+  }
