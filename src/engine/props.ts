@@ -72,3 +72,4 @@ const crateEdge = new THREE.MeshStandardMaterial({ color: 0x2b2119, roughness: 0
 const chunkMat = new THREE.MeshStandardMaterial({ color: 0x3b3236, roughness: 0.8, metalness: 0.3, flatShading: true })
 
 function crateMesh() {
+  const g = new THREE.Group()
