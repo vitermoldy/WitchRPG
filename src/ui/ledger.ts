@@ -106,6 +106,7 @@ export class Ledger {
     } catch {
       box.innerHTML = '<p class="room-empty">Riwayat belum bisa dimuat dari server. Witch dan progresmu tetap aman di browser ini.</p>'
       return
+    }
   close() {
     if (this.dlg.open) this.dlg.close()
   }
