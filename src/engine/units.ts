@@ -272,6 +272,7 @@ export class UnitSystem {
     u.yaw += diff * Math.min(1, dt * rate)
   }
 
+  private follow(u: Unit, speed: number, dt: number) {
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
