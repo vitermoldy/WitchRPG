@@ -52,3 +52,5 @@ function facadeMaterial() {
   const mat = new THREE.MeshStandardMaterial({ color: 0x2a2528, roughness: 0.88, metalness: 0.05 })
   mat.onBeforeCompile = (shader) => {
     shader.vertexShader = shader.vertexShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vWp;\nvarying vec3 vWn;')
+      .replace(
