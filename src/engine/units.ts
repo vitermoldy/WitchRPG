@@ -657,6 +657,7 @@ export class UnitSystem {
   update(dt: number, t: number) {
     const host = this.host
     this.riftAlive = this.units.filter((u) => u.team === 'rift' && u.alive)
+    this.shadowAlive = this.units.filter((u) => u.team === 'shadow' && u.alive)
     for (const u of [...this.units]) {
       u.t += dt
       u.cd = Math.max(0, u.cd - dt)
