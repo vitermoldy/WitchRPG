@@ -368,3 +368,4 @@ export class Game {
     this.hands.pose('right', 'idle')
     this.rift.start()
     this.setState('playing')
+    this.umbra.summonAll()
