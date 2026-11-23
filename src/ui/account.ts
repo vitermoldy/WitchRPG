@@ -256,3 +256,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   onAuth((state) => render(state))
   setMode('in')
   render()
+  void checkAccount()
