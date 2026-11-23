@@ -75,6 +75,7 @@ export class RiftDirector {
       g.scene.add(group)
       return { group, mat }
     }
+    const e = tear(9.3, 2.2, 3.6, COLOR.umbra)
   }
 
   start() {
