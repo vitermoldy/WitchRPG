@@ -243,7 +243,7 @@ export class UnitSystem {
     for (const o of this.units) {
       if (o.team !== 'rift' || !o.alive || o.state === 'spawn') continue
       const d = u.pos.distanceTo(o.pos)
-      if (d < bestD && o.pos.distanceTo(anchor) < (u.command === 'hold' ? range : SHADOW.leash) && d < range + 6) {
+      if (d < bestD && o.pos.distanceTo(anchor) < (u.command === 'hold' ? range : SHADOW.leash + (u.spec.shot ? 8 : 0)) && d < range + 6) {
         best = o
         bestD = d
       }
