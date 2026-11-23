@@ -170,3 +170,4 @@ export class UnitSystem {
     let bestD = Infinity
     if (u.team === 'rift') {
       if (p.alive) {
+        best = p
