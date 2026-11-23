@@ -19,3 +19,4 @@ export class Umbra {
   private wheelX = 0
   private wheelY = 0
   private chargeTick = 0
+  /** Records of shadows that fell this Rift; they come back whole next Rift. */
