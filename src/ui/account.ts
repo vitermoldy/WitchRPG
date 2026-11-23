@@ -174,3 +174,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   game.historySource = async () => (authState().status === 'signed-in' ? await listRifts() : null)
 
   form.addEventListener('submit', async (event) => {
+    event.preventDefault()
