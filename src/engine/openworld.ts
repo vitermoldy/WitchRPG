@@ -12,3 +12,5 @@ import { makeTearMaterial } from './world'
  */
 export const OW = { half: 250, pitch: 80, road: 7, ceiling: 90 } as const
 
+export interface Gate {
+  tier: TierId
