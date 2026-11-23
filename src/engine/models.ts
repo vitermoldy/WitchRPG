@@ -109,3 +109,4 @@ function husk(team: Team): UnitModel {
   return { root, body, parts, bodyMat, eyeMat: s.eye, meshes }
 }
 
+/** Low, fast, many-eyed, with a ridge of bone spikes. */
