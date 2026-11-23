@@ -289,6 +289,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     windup: 1.3,
     recover: 1,
     cooldown: 5.5,
+    // A slow, high arc (about 12 m at 26 m range) clears street cover and gives time to step out of the circle.
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
