@@ -1430,6 +1430,7 @@ dialog::backdrop {
   font-size: 1rem;
 }
 
+.gate-field input:hover {
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
