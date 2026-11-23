@@ -210,3 +210,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     }
   }
   const inst = new THREE.InstancedMesh(new THREE.BoxGeometry(1, 1, 1), facadeMaterial(), boxes.length)
+  const m = new THREE.Matrix4()
+  boxes.forEach((b, i) => {
