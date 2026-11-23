@@ -354,6 +354,7 @@ export class Hud {
       ;(el.firstChild as HTMLElement).style.transform = `scaleX(${k.toFixed(3)})`
       el.classList.toggle('weak', u.vulnerable > 0)
       const label = u.elite ? ELITE.label[u.elite] : ''
+      if (el.dataset.label !== label) el.dataset.label = label
       n++
     }
     for (let i = n; i < this.pool.length; i++) this.pool[i].hidden = true
