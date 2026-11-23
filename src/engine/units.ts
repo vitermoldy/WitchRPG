@@ -17,3 +17,4 @@ export interface Target {
   team: Team
 }
 
+export interface UnitHost {
