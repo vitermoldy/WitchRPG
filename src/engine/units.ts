@@ -711,6 +711,7 @@ export class UnitSystem {
       m.bodyMat.emissiveIntensity = 0.55
     }
     if (P.shards) P.shards.rotation.y += dt * (u.alive ? 0.7 : 0.1)
+    if (P.core) (P.core as THREE.Mesh).rotation.y += dt * 2
 
     if (u.state === 'spawn') {
       const k = Math.min(1, u.t / 0.7)
