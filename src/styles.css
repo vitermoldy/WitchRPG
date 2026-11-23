@@ -404,3 +404,4 @@ button:disabled {
 }
 
 .setting-check {
+  grid-template-columns: auto 1fr;
