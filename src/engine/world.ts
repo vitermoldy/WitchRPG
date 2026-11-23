@@ -140,3 +140,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
         if (pass === 1) g.stroke()
       }
     }
+  }
