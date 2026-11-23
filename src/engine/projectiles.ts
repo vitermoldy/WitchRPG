@@ -58,3 +58,4 @@ export class Projectiles {
     const t = Math.max(0.25, flat / spec.speed)
     const vel = new THREE.Vector3((to.x - from.x) / t, (to.y - from.y) / t + 0.5 * spec.gravity * t, (to.z - from.z) / t)
     const mesh = new THREE.Mesh(geo, source?.team === 'shadow' ? MATS.shadow : MATS.rift)
+    mesh.scale.setScalar(spec.radius)
