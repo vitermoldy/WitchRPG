@@ -67,6 +67,7 @@ Motion: bob tangan, recoil saat cast, guncangan kamera, banner gelombang, dan fe
 
 Pemilik meminta database "seperti yang lain" dengan akun pemilik `vmk`. Bentuknya sama dengan proyek database lain di MyRepo:
 
+- Express 5 + mysql2 di port 8813 (port Vite 5197 + 3616), database `witch_rpg`. Akun MySQL di `.env` disalin dari SongPlaylist-ForLearning dan tidak ikut ke git.
 ## Cara mengecek
 
 - `npm test`: kurva XP (80 dan 2.160), peluang Umbra Rite (contoh GDD 58%), slot, upgrade, bagi XP bayangan, damage lempar.
