@@ -245,3 +245,4 @@ export const TEAR_FRAG = /* glsl */ `
     vec2 u = f * f * (3.0 - 2.0 * f);
     return mix(mix(hash(i), hash(i + vec2(1, 0)), u.x), mix(hash(i + vec2(0, 1)), hash(i + vec2(1, 1)), u.x), u.y);
   }
+  float fbm(vec2 p) { float v = 0.0, a = 0.5; for (int i = 0; i < 4; i++) { v += a * noise(p); p *= 2.03; a *= 0.5; } return v; }
