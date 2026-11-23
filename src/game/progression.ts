@@ -94,3 +94,4 @@ export interface Derived {
   damageMult: number
   speedMult: number
   floatTime: number
+  slots: number
