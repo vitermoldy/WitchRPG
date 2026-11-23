@@ -161,3 +161,4 @@ export class BossFight {
   }
 
   private beginLanding() {
+    this.landT = 0
