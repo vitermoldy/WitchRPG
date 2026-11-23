@@ -59,3 +59,4 @@ export class Ledger {
     this.dlg.addEventListener('close', () => this.onClose?.())
     this.dlg.addEventListener('click', (e) => {
       const t = (e.target as HTMLElement).closest('button')
+      if (!t) return
