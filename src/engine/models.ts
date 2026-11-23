@@ -174,6 +174,7 @@ function hound(team: Team): UnitModel {
   return { root, body, parts, bodyMat, eyeMat: s.eye, meshes }
 }
 
+interface BipedSize {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
