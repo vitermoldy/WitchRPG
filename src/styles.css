@@ -111,3 +111,4 @@ button:disabled {
 }
 
 .btn:hover {
+  background: var(--surface-2);
