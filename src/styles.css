@@ -680,3 +680,4 @@ button:disabled {
   display: grid;
   grid-template-columns: 3.9rem 1fr 4.6rem;
   align-items: center;
+  gap: 0.6rem;
