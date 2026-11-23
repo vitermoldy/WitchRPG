@@ -347,3 +347,4 @@ export class Spells {
         if (pr.held || pr.kind === 'chunk') continue
         sphere.set(pr.pos, pr.radius)
         if (ray.intersectSphere(sphere, p)) {
+          const d = p.distanceTo(b.prev)
