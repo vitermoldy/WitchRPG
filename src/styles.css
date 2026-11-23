@@ -1278,3 +1278,4 @@ dialog::backdrop {
 
 .room-empty {
   grid-column: 1 / -1;
+  margin: 0;
