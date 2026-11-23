@@ -31,3 +31,5 @@ export interface UnitHost {
   growl(): void
 }
 
+let nextId = 1
+
