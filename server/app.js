@@ -120,3 +120,4 @@ function cleanRun(run) {
   return { row: values }
 }
 
+/** The pool appears once MySQL answers; until then the API says so instead of hanging. */
