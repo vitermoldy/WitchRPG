@@ -886,3 +886,4 @@ button:disabled {
   position: absolute;
   display: grid;
   place-items: center;
+  width: 8rem;
