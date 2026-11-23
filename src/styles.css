@@ -122,3 +122,5 @@ button:disabled {
 .btn:disabled {
   opacity: 0.45;
   transform: none;
+}
+
