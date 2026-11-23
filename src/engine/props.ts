@@ -53,3 +53,4 @@ function carMesh(color: number) {
     w.position.set(x, -0.42, z)
     g.add(w)
   }
+  for (const x of [-0.5, 0.5]) {
