@@ -28,6 +28,7 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
     ...base,
     ...data,
     stats: { ...base.stats, ...data.stats },
+    settings: { ...DEFAULT_SETTINGS, ...data.settings },
   try {
     localStorage.setItem(KEY, JSON.stringify(p))
     return true
