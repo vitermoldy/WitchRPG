@@ -103,3 +103,4 @@ export class Projectiles {
 
       let hit = false
       if (s.team === 'rift') {
+        // The witch: a capsule from her feet to her eyes.
