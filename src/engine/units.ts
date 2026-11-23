@@ -231,6 +231,7 @@ export class UnitSystem {
     u.detailed = on
     if (on) {
       u.model.root.position.copy(u.pos)
+      u.model.root.rotation.y = u.yaw
   }
 
   clear() {
