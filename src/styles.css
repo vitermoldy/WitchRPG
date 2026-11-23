@@ -394,3 +394,4 @@ button:disabled {
 }
 
 .setting {
+  display: grid;
