@@ -166,6 +166,7 @@ export class Game {
           this.sfx.impact(0.5)
           return
         }
+        this.projectiles.fire(from, to, u.team === 'rift' ? 'rift' : 'witch', u.damage, shot, u)
         this.sfx.spit()
       },
       slamFx: (at, radius, team) => this.slamFx(at, radius, team),
