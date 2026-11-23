@@ -157,3 +157,4 @@ export class Hud {
     this.updateBars()
   }
 
+  private updateArmy() {
