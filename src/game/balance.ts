@@ -317,4 +317,5 @@ export const RIFT = {
 export const BOSS = {
   /** HP shares where the fight moves to phase 2 and phase 3. */
   phase2At: 0.66,
+  phase3At: 0.33,
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
