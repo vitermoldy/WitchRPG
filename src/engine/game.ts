@@ -395,3 +395,4 @@ export class Game {
   }
 
   private afterLedger() {
+    saveProfile(this.profile)
