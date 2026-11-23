@@ -49,3 +49,4 @@ async function boot() {
     return
   }
   const debug = new URLSearchParams(location.search).has('debug')
+  let game: Game
