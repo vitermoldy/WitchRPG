@@ -205,3 +205,4 @@ export class BossFight {
       u.vel.set(0, 0, 0)
       if (goal) g.units.face(u, goal, dt, 3)
       if (this.landT < 0) this.volley(dt, BOSS.volleyShots)
+      return true
