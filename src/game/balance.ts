@@ -8,3 +8,4 @@ export const MOVE = {
   jumpHeight: 1.2,
   gravity: 22,
   groundAccel: 60,
+  airAccel: 16,
