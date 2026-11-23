@@ -26,3 +26,4 @@ export interface SkillDef {
 }
 
 export const SKILLS: SkillDef[] = [
+  {
