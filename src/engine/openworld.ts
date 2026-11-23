@@ -317,6 +317,7 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
           : c.band === 3
             ? { husk: 3, hound: 2, warden: 1, harrier: 2 }
             : c.elite
+              ? { riftlord: 1, husk: 3, warden: 1 }
   })
 
   // A few wrecks near the square to lift and throw.
