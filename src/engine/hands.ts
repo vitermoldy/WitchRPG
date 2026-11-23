@@ -300,3 +300,5 @@ export class Hands {
         f.joints[2].rotation.x = -p.curl * 1.0
       }
       h.thumb[0].rotation.set(-0.3 - p.curl * 0.7, 0, 0.5 - p.spread * 0.2)
+      h.thumb[1].rotation.x = -p.curl * 0.9
+
