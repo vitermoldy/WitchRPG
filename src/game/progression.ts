@@ -133,3 +133,4 @@ export function spendStat(p: Profile, key: StatKey): boolean {
   return true
 }
 
+export interface XpResult {
