@@ -279,8 +279,8 @@ export class Hud {
   /** A summary that stays the same size whether the army is three shadows or three hundred. */
   private updateArmy() {
     const g = this.g
-    const slots = g.derived.slots
-    const live = new Map(g.units.shadows().map((u) => [u.record?.id, u]))
+    const field = g.umbra.field()
+    const total = g.profile.shadows.length
     const rows: string[] = []
     // Every raised shadow gets a row; empty slots share one line so a big army stays compact.
     const empty = Math.max(0, slots - g.profile.shadows.length)
