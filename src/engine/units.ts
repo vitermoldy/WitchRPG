@@ -248,3 +248,4 @@ export class UnitSystem {
             this.steer(u, tmp2, far ? speed * 1.6 : speed, dt, 0.8)
           }
         } else this.steer(u, u.pos, 0, dt)
+        return
