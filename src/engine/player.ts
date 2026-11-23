@@ -142,3 +142,4 @@ export class Player {
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
     world.pushCircle(this.pos, this.radius, this.pos.y, MOVE.step)
+    for (const b of blockers) {
