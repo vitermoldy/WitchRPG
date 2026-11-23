@@ -245,6 +245,7 @@ export class Game {
     // The lair is hidden until Tier III; show it for a moment so its shaders build now too.
     this.lair.group.visible = true
     await this.renderer.compileAsync(this.scene, this.camera)
+    this.lair.group.visible = false
     this.renderer.compile(this.hands.scene, this.hands.camera)
     this.composer.render(0.016)
     for (const s of samples) this.units.remove(s)
