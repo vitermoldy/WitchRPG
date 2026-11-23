@@ -96,3 +96,5 @@ export class Hud {
     if (this.hitTimer <= 0) this.hitmark.setAttribute('class', 'hitmark')
     this.hurt = Math.max(0, this.hurt - dt * 1.4)
     this.hurtVeil.style.opacity = String(this.hurt)
+    this.manaFlash = Math.max(0, this.manaFlash - dt)
+
