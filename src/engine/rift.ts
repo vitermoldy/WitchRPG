@@ -206,6 +206,7 @@ export class RiftDirector {
           this.phase = 'gate'
           this.gate.position.copy(this.cityExit)
           this.gate.visible = true
+          g.hud.banner('Jantung Rift terbuka', 'The Hollow Warden menunggu di dalam. Dekati retakan di monumen, lalu tekan F.')
         }
       }
       return
