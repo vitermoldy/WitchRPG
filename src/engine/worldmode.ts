@@ -113,3 +113,5 @@ export class WorldDirector {
     this.leashT -= dt
     if (this.leashT <= 0) {
       this.leashT = 1
+      for (const u of g.umbra.field()) {
+        if (u.state === 'rising' || u.pos.distanceTo(p.pos) < LEASH) continue
