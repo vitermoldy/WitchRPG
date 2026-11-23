@@ -101,3 +101,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       const b = document.createElement('b')
       b.textContent = state.account.username
       text.append(b, note ? `. ${note}` : '.')
+      button.textContent = 'Keluar'
