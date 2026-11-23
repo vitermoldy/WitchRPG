@@ -62,7 +62,7 @@ Akun pemilik: `vmk`.
 | C | Menunduk; slide saat lari |
 | F | Interaksi: masuk gerbang Rift, keluar dari Rift |
 | Tab | Ledger |
-| Esc | Jeda dan pengaturan |
+| Esc | Jeda dan pengaturan, termasuk batas bayangan di medan (bawaan 50) |
 
 ## Struktur
 
