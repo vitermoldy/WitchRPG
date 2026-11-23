@@ -97,3 +97,4 @@ export class Ledger {
     this.render()
     // Keep keyboard focus on the control that was used, or the next useful one.
     if (focusKey) {
+      const sel = focusKey.startsWith('up-') ? `[data-upgrade="${focusKey.slice(3)}"]` : `[data-stat="${focusKey}"]`
