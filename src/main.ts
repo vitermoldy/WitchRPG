@@ -165,3 +165,4 @@ async function boot() {
     else $('btn-resume').focus()
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
+    game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
