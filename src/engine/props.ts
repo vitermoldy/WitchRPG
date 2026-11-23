@@ -295,3 +295,4 @@ export class PropSystem {
   private slam(p: Prop, fall: number) {
     const c = SPELL.impact
     for (const u of this.host.units.units) {
+      if (!u.alive || u.team !== 'rift' || p.hitUnits.has(u.id)) continue
