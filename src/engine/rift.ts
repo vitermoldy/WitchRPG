@@ -135,6 +135,7 @@ export class RiftDirector {
   }
 
   /** A free scaffold top for a Spitter, or null when all are taken. */
+  private freePerch(): THREE.Vector3 | null {
   }
 
   update(dt: number) {
