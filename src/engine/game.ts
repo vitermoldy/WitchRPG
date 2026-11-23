@@ -548,3 +548,4 @@ export class Game {
 
     this.spells.update(dt, !wheel)
     this.umbra.update(dt, true)
+    this.units.update(dt, this.t)
