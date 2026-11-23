@@ -603,6 +603,7 @@ export class Game {
     const col = team === 'rift' ? COLOR.chaos : COLOR.umbra
     this.glow.emit({ pos: at.clone().setY(at.y + 1), count: 18, color: col, intensity: 2.2, life: 0.6, size: 0.2, speed: 2.5, jitter: 0.4 })
     this.smoke.emit({ pos: at, count: 6, color: team === 'rift' ? 0x120608 : 0x170a28, life: 1, size: 1.1, sizeEnd: 1.8, speed: 1, jitter: 0.5, alpha: 0.8 })
+    return u
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
