@@ -153,3 +153,4 @@ export function createApi(getPool, database) {
       nextShadowId: w.next_shadow_id,
       clears: w.clears,
       settings: typeof w.settings === 'string' ? JSON.parse(w.settings) : w.settings,
+      updatedAt: new Date(w.updated_at).toISOString(),
