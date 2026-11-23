@@ -679,3 +679,4 @@ export class Spells {
     const g = this.g
     const s = SPELL.barrier
     this.barrierCd = s.cooldown
+    this.barrierT = s.duration
