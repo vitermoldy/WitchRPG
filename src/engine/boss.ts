@@ -178,3 +178,4 @@ export class BossFight {
   private brain(u: Unit, dt: number): boolean {
     const g = this.g
     const goal = this.targetFor()
+    if (this.collapseT >= 0) {
