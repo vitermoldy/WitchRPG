@@ -524,6 +524,7 @@ button:disabled {
 
 .boss-hp i {
   display: block;
+  height: 100%;
 .banner {
   position: absolute;
   top: 24%;
