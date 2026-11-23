@@ -21,3 +21,5 @@ const LEASH = 45
 
 /** Runs the open world: camps that wake and clear, the altar, gates, and keeping the army close. */
 export class WorldDirector {
+  private readonly g: Game
+  camps: Camp[] = []
