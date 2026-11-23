@@ -333,3 +333,4 @@ export class Game {
     this.spells.addChaos(chaosFromDamage(0, left))
     this.umbra.interrupt()
     // A little shove away from the hit.
+    const push = p.pos.clone().sub(from).setY(0).normalize().multiplyScalar(3)
