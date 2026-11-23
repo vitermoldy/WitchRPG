@@ -7,6 +7,7 @@ import type { Unit } from './units'
 
 export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
 
+/** Soldiers of one call that each get their own pool; the rest rise out of the wide spill. */
 interface Call {
   at: number
   rec: ShadowRecord
