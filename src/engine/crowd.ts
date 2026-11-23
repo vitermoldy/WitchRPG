@@ -64,3 +64,5 @@ export class ShadowCrowd {
     mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
     this.group.add(mesh)
     return mesh
+  }
+
