@@ -19,3 +19,4 @@ export interface Target {
 
 export interface UnitHost {
   colliders: Colliders
+  player: Target & { yaw: number }
