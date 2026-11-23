@@ -27,6 +27,8 @@ export const MOVE = {
   flySpeed: 13,
   flyBoost: 26,
   flyClimb: 8,
+  flyAccel: 30,
+  flyDrain: 6,
   interactRange: 3,
 } as const
 
