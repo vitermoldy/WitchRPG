@@ -202,3 +202,4 @@ export class Hud {
     }
   }
 
+  private updateBars() {
