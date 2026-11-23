@@ -74,3 +74,4 @@ async function boot() {
       p.level === 1 &&
       p.xp === 0 &&
       p.shadows.length === 0 &&
+      p.clears === 0 &&
