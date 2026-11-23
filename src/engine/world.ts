@@ -330,3 +330,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const gt = groundTextures(2048, 50, crackSpots)
   const groundMat = new THREE.MeshStandardMaterial({
     map: gt.map,
+    emissiveMap: gt.emissive,
