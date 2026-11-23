@@ -55,6 +55,8 @@ export class Game {
   inLair = false
   /** 'rift': an arena Rift (city or lair). 'world': the open city. */
   mode: 'rift' | 'world' = 'rift'
+  map: 'city' | 'lair' | 'world' = 'city'
+  readonly ow: OpenWorldBuild
   /** The tier of the Rift in progress (or the last one played). */
   tier: TierId = 1
   readonly warnings: Warnings
