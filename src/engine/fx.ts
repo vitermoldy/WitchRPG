@@ -334,6 +334,7 @@ interface Warn {
 export class Warnings {
   private readonly pool: Warn[] = []
 
+  constructor(scene: THREE.Object3D, count = 6) {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
