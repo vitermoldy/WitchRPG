@@ -579,3 +579,4 @@ export class UnitSystem {
       for (let i = 0; i < 4; i++) {
         const hip = P[legs[i]]
         const s = Math.sin(u.walk + phase[i])
+        hip.rotation.x = stretch ? (i < 2 ? -1.1 : 1.1) : s * 0.75 * amp + crouch * (i < 2 ? -0.5 : 0.6)
