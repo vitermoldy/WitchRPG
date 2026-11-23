@@ -113,3 +113,5 @@ export async function checkAccount(): Promise<void> {
     // 401: the server works and nobody is signed in. Anything else: the server or MySQL is down.
     setAuth({ status: err instanceof ApiError && err.status === 401 ? 'signed-out' : 'unavailable', account: null })
   }
+}
+
