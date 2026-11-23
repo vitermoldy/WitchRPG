@@ -800,6 +800,7 @@ export class UnitSystem {
     P.head.rotation.x = u.kind === 'husk' ? -0.25 : -baseLean * 0.6
   }
 
+  private animateHound(u: Unit, amp: number, t: number) {
     }
   }
 }
