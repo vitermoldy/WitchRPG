@@ -520,3 +520,4 @@ export class Spells {
         const p = gb.prop
         p.held = false
         p.awake = true
+        p.vel.copy(v)
