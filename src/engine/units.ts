@@ -187,6 +187,8 @@ const tmp = new THREE.Vector3()
 const tmp2 = new THREE.Vector3()
 const BIPEDS = new Set<UnitKind>(['husk', 'spitter', 'warden', 'riftlord', 'hollow', 'bombard'])
 /** Ember colours of the elite traits, so a trait reads before its label does. */
+const ELITE_COLOR: Record<EliteTrait, number> = { berlapis: 0xe8d8c0, gesit: 0xffd24a, meledak: COLOR.chaos, penjaga: COLOR.rift }
+
 
 export class UnitSystem {
   readonly units: Unit[] = []
