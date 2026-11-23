@@ -176,3 +176,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   wrist.add(light)
 
   const base = new THREE.Vector3(0.235 * mirror, -0.235, -0.5)
+  const baseRot = new THREE.Euler(-0.5, -0.3 * mirror, 0.5 * mirror)
