@@ -607,3 +607,4 @@ export class Spells {
         if (Math.hypot(cx - at.x, cz - at.z) > r + 1) continue
         g.breakCover(b, at)
       }
+    }
