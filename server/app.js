@@ -71,3 +71,4 @@ function cleanProfile(p) {
     if (stats[k] === null) return { error: `Stat ${k} di luar batas.` }
   }
   const upgrades = Object.keys(p.upgrades ?? {}).filter((k) => p.upgrades[k] === true && SKILLS.has(k))
+  if (!Array.isArray(p.shadows) || p.shadows.length > MAX_SHADOWS) return { error: 'Daftar bayangan tidak sah.' }
