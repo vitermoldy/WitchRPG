@@ -175,3 +175,4 @@ button:disabled {
   position: absolute;
   inset: 0;
   z-index: 20;
+  overflow-y: auto;
