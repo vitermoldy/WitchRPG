@@ -436,6 +436,7 @@ function harrier(team: Team): UnitModel {
   meshes.push(beak)
   const jaw = pivot(head, 0, -0.07, -0.1)
   jaw.add(box(0.12, 0.03, 0.16, s.bone, meshes))
+  parts.jaw = jaw
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
