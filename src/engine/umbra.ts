@@ -228,3 +228,4 @@ export class Umbra {
   private complete(u: Unit) {
     const g = this.g
     this.casting = null
+    this.progress = 0
