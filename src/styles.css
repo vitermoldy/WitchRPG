@@ -1478,6 +1478,7 @@ dialog::backdrop {
 
 .epilogue {
   max-width: 38rem;
+  margin: 0 0 1.4rem;
 /* Account */
 .account-row {
   display: flex;
