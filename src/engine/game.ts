@@ -253,3 +253,4 @@ export class Game {
     this.smoke.emit({ pos: new THREE.Vector3(cx, 0.8, cz), count: 12, color: 0x2a2224, life: 1.4, size: 1.4, sizeEnd: 2.4, speed: 2, jitter: 0.6, alpha: 0.7 })
   }
 
+  impactFx(at: THREE.Vector3, strength: number) {
