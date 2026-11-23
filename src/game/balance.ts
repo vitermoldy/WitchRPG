@@ -72,3 +72,4 @@ export const RITE = {
   castTimeUpgraded: 1,
   mana: 40,
   baseSlots: 3,
+  umbPerSlot: 5,
