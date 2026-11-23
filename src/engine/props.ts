@@ -97,3 +97,5 @@ export class PropSystem {
 
   constructor(host: PropHost) {
     this.host = host
+  }
+
