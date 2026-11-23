@@ -171,7 +171,7 @@ export class Hud {
     if (g.rift.nearExit()) promptHtml = '<kbd>F</kbd> Keluar dari Rift'
     else if (g.rift.nearGate()) promptHtml = '<kbd>F</kbd> Masuk ke Jantung Rift'
     else if (c) {
-      const why = g.umbra.blocker()
+      const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
       else if (g.umbra.casting) promptHtml = `Membangkitkan ${name}`
