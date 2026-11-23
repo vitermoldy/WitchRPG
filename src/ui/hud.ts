@@ -289,6 +289,8 @@ export class Hud {
     // The strongest few on the field, with their health.
     const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
     const top = [...field].sort((a, b) => order[a.spec.rank] - order[b.spec.rank] || b.level - a.level).slice(0, 3)
+    for (const u of top) {
+      const hp = Math.max(0, u.hp / u.maxHp)
     }
     if (empty) rows.push(`<li class="army-slot empty"><span class="pip"></span><span>${empty} slot kosong</span><span></span></li>`)
     const html = rows.join('')
