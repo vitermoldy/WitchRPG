@@ -48,3 +48,4 @@ export const PLAYER = {
 
 export const CHAOS = {
   max: 100,
+  perDamageDealt: 0.05,
