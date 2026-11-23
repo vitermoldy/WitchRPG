@@ -1322,3 +1322,4 @@ dialog::backdrop {
 @media (max-width: 560px) {
   .controls,
   .tree-cols {
+    grid-template-columns: 1fr;
