@@ -295,3 +295,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       depthWrite: false,
       fog: false,
     }),
+  )
