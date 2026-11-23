@@ -330,4 +330,5 @@ export const BOSS = {
   /** Each new phase gives the witch a breath: a share of HP and some mana back. */
   phaseHeal: 0.25,
   phaseMana: 30,
+  /** Phase 3: slower volleys, and the husks it swallows heal it a little. */
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
