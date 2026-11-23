@@ -319,6 +319,7 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
             : c.elite
               ? { riftlord: 1, husk: 3, warden: 1 }
               : { husk: 3, hound: 2, spitter: 1, warden: 2 }
+    return { id: i, pos: new THREE.Vector3(c.x, 0, c.z), levels: lv, pack, elite: c.elite, elites: c.band === 3 ? 2 : 0, mat }
   })
 
   // A few wrecks near the square to lift and throw.
