@@ -45,3 +45,4 @@ export class ShadowCrowd {
       const list = byMat.get(mat)
       if (list) list.push(g)
       else byMat.set(mat, [g])
+    }
