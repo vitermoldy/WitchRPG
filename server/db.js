@@ -70,7 +70,7 @@ const TABLES = [
     xp_gained INT UNSIGNED NOT NULL,
     levels_gained TINYINT UNSIGNED NOT NULL,
     level_after TINYINT UNSIGNED NOT NULL,
-    shadows_raised TINYINT UNSIGNED NOT NULL,
+    shadows_raised SMALLINT UNSIGNED NOT NULL,
     seconds INT UNSIGNED NOT NULL,
     boss TINYINT UNSIGNED NOT NULL DEFAULT 0,
     finished_at DATETIME NOT NULL,
