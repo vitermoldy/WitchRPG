@@ -92,6 +92,7 @@ async function boot() {
     2: 'Ditambah Spitter yang menembak dari perancah. Lv 4 sampai 6.',
     3: 'Ditambah Warden berperisai dan Rift Lord. Lv 7 sampai 9. Di ujungnya, Jantung Rift dan The Hollow Warden.',
   }
+  const renderTiers = () => {
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
