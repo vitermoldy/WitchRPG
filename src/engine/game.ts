@@ -305,3 +305,4 @@ export class Game {
       this.lights.flash(this.player.eyePos, COLOR.rift, 8, 10, 0.6)
     }
     for (const sl of r.shadowLevels) {
+      const live = this.units.units.find((x) => x.record?.id === sl.id && x.alive)
