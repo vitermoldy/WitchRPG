@@ -13,3 +13,4 @@ export const MOVE = {
   radius: 0.38,
   eye: 1.62,
   crouchEye: 1.05,
+  step: 0.5,
