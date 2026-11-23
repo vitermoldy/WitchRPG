@@ -717,3 +717,5 @@ export class Spells {
     mat.uniforms.uFade.value = Math.min(1, (SPELL.barrier.duration - this.barrierT) * 6) * Math.min(1, this.barrierT * 4 + 0.3)
     this.shield.position.copy(this.g.camera.position)
     if (this.barrierT <= 0) this.endBarrier()
+  }
+
