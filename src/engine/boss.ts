@@ -112,3 +112,4 @@ export class BossFight {
         this.phase = 3
         this.breathe()
         this.volleyT = 3
+        this.summonT = 10
