@@ -135,3 +135,4 @@ export const SKILLS: SkillDef[] = [
     effect: 'Bisa membangkitkan boss Rift.',
     upgrade: 'Belum dirancang.',
     built: false,
+  },
