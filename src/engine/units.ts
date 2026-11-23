@@ -533,3 +533,4 @@ export class UnitSystem {
         lean = 0.7
       } else if (u.state === 'held' || u.state === 'air') {
         armX = Math.sin(t * 18 + u.id) * 1.2 - 1
+        lean = 0.1
