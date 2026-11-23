@@ -19,3 +19,4 @@ import { SPELL } from '../src/game/balance'
 
 const ALL = SKILLS.map((s) => s.id)
 
+describe('XP curve from the GDD', () => {
