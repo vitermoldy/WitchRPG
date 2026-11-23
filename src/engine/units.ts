@@ -410,3 +410,4 @@ export class UnitSystem {
       for (const b of host.propBlockers) {
         const dx = u.pos.x - b.pos.x
         const dz = u.pos.z - b.pos.z
+        const min = u.radius + b.radius
