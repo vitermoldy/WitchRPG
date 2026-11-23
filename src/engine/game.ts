@@ -115,6 +115,7 @@ export class Game {
     const game = this
     const host: UnitHost = {
       get colliders() {
+        return game.colliders
       player: {
         get pos() {
           return game.player.pos
