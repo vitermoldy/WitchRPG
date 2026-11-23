@@ -286,3 +286,4 @@ export class Game {
     if (u.team === 'shadow') {
       this.umbra.shadowFell(u)
       return
+    }
