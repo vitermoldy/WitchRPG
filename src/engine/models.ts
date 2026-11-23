@@ -252,6 +252,7 @@ function spitter(team: Team): UnitModel {
       sac.scale.set(1, 0.8, 1.1)
       p.head.add(sac)
       meshes.push(sac)
+      p.sac = sac
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
