@@ -138,3 +138,4 @@ async function boot() {
   }
 
   // Title.
+  $('btn-enter').addEventListener('click', () => void game.enterRift())
