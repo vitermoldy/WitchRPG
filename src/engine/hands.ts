@@ -61,3 +61,4 @@ function sigilShape(): THREE.BufferGeometry {
   const parts = [
     new THREE.BoxGeometry(0.006, 0.07, 0.002),
     new THREE.BoxGeometry(0.045, 0.006, 0.002).translate(0, 0.012, 0),
+    new THREE.BoxGeometry(0.004, 0.03, 0.002).rotateZ(0.7).translate(-0.012, -0.02, 0),
