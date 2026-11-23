@@ -61,3 +61,4 @@ export class Colliders {
         const pen = [pos.x - b.minX, b.maxX - pos.x, pos.z - b.minZ, b.maxZ - pos.z]
         const m = pen.indexOf(Math.min(...pen))
         if (m === 0) pos.x = b.minX - r
+        else if (m === 1) pos.x = b.maxX + r
