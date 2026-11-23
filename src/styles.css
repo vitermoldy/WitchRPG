@@ -308,3 +308,4 @@ button:disabled {
 }
 
 @media (pointer: coarse) {
+  .touch-note {
