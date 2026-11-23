@@ -123,3 +123,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     const tip = new THREE.Mesh(new THREE.ConeGeometry(size * 0.55, 8, 5), stone)
     tip.position.set(x, top - depth - 4, z)
     tip.rotation.x = Math.PI
+    group.add(tip)
