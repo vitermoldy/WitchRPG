@@ -420,3 +420,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const plinth = solid(new THREE.Mesh(new THREE.BoxGeometry(7, 1.1, 7), concrete))
   plinth.position.set(0, 0.55, 0)
   colliders.add(0, 0, 7, 7, 1.1)
+  const obelisk = solid(new THREE.Mesh(new THREE.CylinderGeometry(0.6, 1.1, 8, 4, 1), concrete))
