@@ -178,3 +178,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     if (busy) return
     showError('')
     const name = user.value.trim()
+    const password = pass.value
