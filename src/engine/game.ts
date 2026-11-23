@@ -166,3 +166,4 @@ export class Game {
     this.composer.addPass(new OutputPass())
 
     this.input.onKey = (code) => {
+      if (code === 'Tab' && this.state === 'playing') this.openLedger()
