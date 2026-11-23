@@ -110,6 +110,8 @@ Catatan untuk laptop dengan dua GPU: Chrome headless di mesin ini berjalan di GP
 
 ## Rift Tier IV dan V (23 Nov 2026)
 
+Pemilik meminta "lanjutkan fitur berikutnya sesuai GDD". Semua yang ada di GDD untuk versi pertama sudah jadi, jadi yang berikutnya adalah baris terakhir tabel tier: "IV sampai V, level musuh 10+, 12 sampai 15 menit, kombinasi elit". GDD juga berkata "tiap tier memperkenalkan satu jenis musuh baru yang memaksa pemain memakai skill berbeda". Selebihnya GDD tidak merinci, jadi bagian di bawah ini keputusan saya.
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
