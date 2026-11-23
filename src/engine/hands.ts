@@ -195,3 +195,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     pose: { ...POSES.idle },
     target: 'idle',
     hold: 0,
+    kick: 0,
