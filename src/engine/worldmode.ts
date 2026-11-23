@@ -71,3 +71,5 @@ export class WorldDirector {
   update(dt: number) {
     const g = this.g
     const p = g.player
+    this.time += dt
+    for (const c of this.camps) {
