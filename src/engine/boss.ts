@@ -196,3 +196,4 @@ export class BossFight {
       }
       return false
     }
+    if (this.phase === 2 || (this.landT >= 0 && this.landT < 2.2)) {
