@@ -520,3 +520,4 @@ export class UnitSystem {
     }
     m.root.scale.setScalar(1)
 
+    if (u.kind === 'husk') {
