@@ -161,3 +161,4 @@ function hound(team: Team): UnitModel {
     hip.userData.knee = knee
     parts[name] = hip
   }
+  const tail = pivot(body, 0, 0.08, 0.52)
