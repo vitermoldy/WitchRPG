@@ -504,3 +504,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     { kind: 'crate', x: 27, z: -29, yaw: 1.1, stack: 3 },
     { kind: 'crate', x: 11, z: 29, yaw: 0.5, stack: 2 },
     { kind: 'crate', x: -11, z: -29, yaw: 0.9, stack: 2 },
+    { kind: 'crate', x: 15, z: 13, yaw: 0.4, stack: 1 },
