@@ -516,6 +516,8 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     rail.position.set(x, top + 0.3, z + (z > 0 ? 1.45 : -1.45))
     colliders.add(x, z, 3, 3, top)
     perches.push(new THREE.Vector3(x, top, z))
+  }
+
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
