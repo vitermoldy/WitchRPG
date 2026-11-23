@@ -440,3 +440,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     colliders.add(x, z, w, d, 0.9)
   }
 
+  // Thin cover panels that Chaos Burst knocks over.
