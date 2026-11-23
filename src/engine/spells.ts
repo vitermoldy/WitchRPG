@@ -687,3 +687,4 @@ export class Spells {
     g.sfx.barrier(true)
   }
 
+  /** Damage meant for the witch: the barrier eats what it can and returns the rest. */
