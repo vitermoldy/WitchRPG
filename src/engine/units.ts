@@ -45,3 +45,4 @@ export class Unit implements Target {
   speed: number
   readonly radius: number
   readonly mass: number
+  readonly pos = new THREE.Vector3()
