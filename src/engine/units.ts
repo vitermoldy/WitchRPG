@@ -542,3 +542,4 @@ export class UnitSystem {
         m.body.rotation.x = -k * 1.45
         m.body.position.y = 0.95 - k * 0.72
         legL.rotation.x = k * 0.3
+        legR.rotation.x = k * 0.5
