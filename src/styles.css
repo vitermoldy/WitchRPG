@@ -545,6 +545,7 @@ button:disabled {
 }
 
 .fade.on {
+  animation: fade-through 1.4s ease-out;
 .banner {
   position: absolute;
   top: 24%;
