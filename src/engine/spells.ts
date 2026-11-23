@@ -248,3 +248,4 @@ export class Spells {
       if (input.pressed('KeyE')) this.cast('snare')
       if (input.pressed('KeyX')) this.cast('barrier')
     }
+    if (this.grabbed.length) {
