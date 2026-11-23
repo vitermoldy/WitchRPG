@@ -328,7 +328,7 @@ function riftlord(team: Team): UnitModel {
       meshes.push(core)
       p.core = core
       for (const [x, tilt, h] of [[-0.16, -0.5, 0.5], [0.16, 0.5, 0.5], [-0.05, -0.15, 0.36], [0.05, 0.15, 0.36]] as const) {
-        const horn = new THREE.Mesh(new THREE.ConeGeometry(0.06, h, 5), m.bone)
+        const horn = new THREE.Mesh(shape(`Cone:${[0.06, h, 5].join(',')}`, () => new THREE.ConeGeometry(0.06, h, 5)), m.bone)
         horn.position.set(x, 0.42 + h / 2, 0)
         horn.rotation.z = tilt
         p.head.add(horn)
