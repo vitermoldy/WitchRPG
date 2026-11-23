@@ -228,3 +228,4 @@ export class UnitSystem {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
       u.target = this.pickTarget(u)
+      u.retarget = 0.4 + Math.random() * 0.3
