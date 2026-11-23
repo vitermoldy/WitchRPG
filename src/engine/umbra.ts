@@ -166,3 +166,4 @@ export class Umbra {
         else if (a > Math.PI * 0.25 && a <= Math.PI * 0.75) this.wheelChoice = 'hold'
         else this.wheelChoice = 'swap'
       }
+      if (!g.input.held('KeyZ')) {
