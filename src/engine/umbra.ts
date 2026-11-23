@@ -172,6 +172,8 @@ export class Umbra {
     const out = this.field()
     this.calls = []
     if (!out.length) return
+    for (const u of out) {
+      g.pools.open(u.pos, 0.9 + u.radius * 1.6, 0.6)
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
