@@ -99,6 +99,8 @@ export class Player {
     if (canAct && input.pressed('Space')) {
       if (this.clock - this.lastSpace < MOVE.doubleTap) {
         this.flying = !this.flying && (this.flightFree || this.stamina > 10)
+        if (this.flying) {
+          this.vel.y = Math.max(this.vel.y, 3)
     const crouchHeld = canAct && input.held('KeyC')
     this.sprinting = canAct && input.held('ShiftLeft') && fwd > 0 && !this.crouching && this.sliding <= 0
     if (canAct && input.pressed('KeyC') && this.onGround && this.sprinting) {
