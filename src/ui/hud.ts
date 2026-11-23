@@ -7,6 +7,7 @@ import type { Game } from '../engine/game'
 const TRAIT_HINT: Record<EliteTrait, string> = {
   berlapis: 'Berlapis: bolt dan ledakan nyaris tidak melukai. Lempar benda atau makhluk ke arahnya.',
   gesit: 'Gesit: bergerak dan menyerang lebih cepat.',
+  meledak: 'Meledak: saat tumbang, ia meledak di dalam lingkaran amber. Menjauh.',
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
 type Tone = 'info' | 'chaos' | 'umbra' | 'level'
