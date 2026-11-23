@@ -307,3 +307,4 @@ export class PropSystem {
     }
     this.host.impactFx(p.pos, 1)
   }
+}
