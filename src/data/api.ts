@@ -206,3 +206,4 @@ export async function flushQueue(): Promise<number> {
     }
   }
   writeQueue(list.slice(sent))
+  return sent
