@@ -483,3 +483,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const m = new THREE.Mesh(new THREE.IcosahedronGeometry(s, 0), rockMat)
     const a = R() * Math.PI * 2
     const r = 14 + R() * 40
+    const base = 16 + R() * 30
