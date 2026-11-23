@@ -159,3 +159,4 @@ export class Hud {
 
   private updateArmy() {
     const g = this.g
+    const slots = g.derived.slots
