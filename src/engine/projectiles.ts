@@ -52,3 +52,4 @@ export class Projectiles {
     this.host = host
   }
 
+  /** Lobs a glob from `from` so it lands on `to`; gravity bends it into an arc. */
