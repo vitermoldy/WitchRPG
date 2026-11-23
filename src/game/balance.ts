@@ -167,3 +167,4 @@ export interface WaveSpec {
 export const RIFT_TIER_1 = {
   name: 'Rift Tier I',
   waves: [
+    { husk: 6, hound: 0, levels: [1, 1] },
