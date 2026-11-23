@@ -560,3 +560,4 @@ export class Spells {
     const hit = this.aim(s.range, { props: false })
     const at = hit.unit ? hit.unit.pos.clone() : hit.point.clone()
     // A shot into open air bursts on the floor below the end of its reach.
+    if (!hit.unit && hit.dist >= s.range - 0.01) at.y = g.colliders.groundAt(at.x, at.z, 0.2, at.y, 0.3)
