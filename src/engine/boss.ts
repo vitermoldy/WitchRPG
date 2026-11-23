@@ -195,3 +195,4 @@ export class BossFight {
         this.summonT = s.every
       }
       return false
+    }
