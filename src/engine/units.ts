@@ -915,6 +915,7 @@ export class UnitSystem {
     if (P.core) (P.core as THREE.Mesh).rotation.y += dt * 2
 
     if (u.elite && u.alive && Math.random() < dt * 14) {
+      const r = u.radius * 1.4
     if (u.state === 'spawn') {
       const k = Math.min(1, u.t / 0.7)
       m.root.scale.setScalar(0.3 + 0.7 * k)
