@@ -260,3 +260,4 @@ export class PropSystem {
         const share = o.mass / (p.mass + o.mass)
         p.pos.x += (dx / d) * (min - d) * share
         p.pos.z += (dz / d) * (min - d) * share
+        if (speed > 5) {
