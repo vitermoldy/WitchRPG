@@ -116,3 +116,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   wrist.add(mark)
 
   const fingers: Finger[] = []
+  const lengths = [0.95, 1, 0.94, 0.78]
