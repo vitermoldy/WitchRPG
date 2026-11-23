@@ -1094,6 +1094,8 @@ dialog::backdrop {
   grid-area: hist;
   padding: 1.2rem 1.4rem 1.4rem;
   border-top: 1px solid var(--line);
+}
+
 .stat-list {
   display: grid;
   gap: 0.35rem;
