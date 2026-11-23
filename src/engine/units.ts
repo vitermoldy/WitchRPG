@@ -612,6 +612,7 @@ export class UnitSystem {
         const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.y + 0.9 - (u.pos.y + 0.5), tgt.pos.z - u.pos.z)
         if (d < u.radius + tgt.radius + 0.7) {
           u.hitThisLunge = true
+          this.hit(u, tgt)
     }
   }
 
