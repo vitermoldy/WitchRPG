@@ -140,6 +140,7 @@ export class RiftDirector {
     this.wave = i + 1
     this.phase = 'wave'
     this.spawnT = 0.5
+    this.straggle = 0
     const last = i === this.totalWaves - 1
     this.g.hud.banner(
       lord.length ? 'Rift Lord' : `Gelombang ${i + 1} dari ${this.totalWaves}`,
