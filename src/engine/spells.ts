@@ -609,6 +609,7 @@ export class Spells {
     const g = this.g
     const s = SPELL.warp
     this.warpCd = s.cooldown
+    const hit = this.aim(s.range, { props: false })
   private burst() {
     const g = this.g
     const s = SPELL.burst
