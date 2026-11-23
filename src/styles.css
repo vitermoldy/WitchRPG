@@ -1825,3 +1825,5 @@ dialog::backdrop {
 /* Shadow Room: one row per rank and kind; open a row to see and release its members. */
 .room-group {
   grid-column: 1 / -1;
+  border: 1px solid rgba(143, 85, 255, 0.4);
+  border-radius: var(--radius);
