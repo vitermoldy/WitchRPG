@@ -503,6 +503,7 @@ function bombard(team: Team): UnitModel {
         const fist = box(0.3, 0.3, 0.3, m.bone, meshes, -0.62)
         ;(side < 0 ? p.foreL : p.foreR).add(fist)
       }
+      const jaw = box(0.26, 0.07, 0.28, m.bone, meshes, -0.02)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
