@@ -54,3 +54,4 @@ export class BossFight {
         g.glow.emit({ pos: from.clone().lerp(u.center, 0.85), count: 6, color: COLOR.rift, intensity: 2, life: 0.3, size: 0.2, speed: 2 })
         return 0
       }
+      // Caught in the field it reels: the shell is open and every hit goes deeper.
