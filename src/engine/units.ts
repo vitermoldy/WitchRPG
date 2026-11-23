@@ -920,6 +920,7 @@ export class UnitSystem {
       this.host.glow.emit({
         pos: { x: u.pos.x + Math.cos(a) * r, y: u.pos.y + Math.random() * u.height * u.scale, z: u.pos.z + Math.sin(a) * r },
         count: 1,
+        color: ELITE_COLOR[u.elite],
     if (u.state === 'spawn') {
       const k = Math.min(1, u.t / 0.7)
       m.root.scale.setScalar(0.3 + 0.7 * k)
