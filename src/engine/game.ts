@@ -435,3 +435,5 @@ export class Game {
     this.glow.setViewport(ph, CAMERA.fov)
     this.smoke.setViewport(ph, CAMERA.fov)
     this.bloom.resolution.set(w / 2, h / 2)
+  }
+
