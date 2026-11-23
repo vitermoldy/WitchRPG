@@ -106,3 +106,4 @@ export class BossFight {
       }
     }
     if (this.landT >= 0) {
+      this.landT += dt
