@@ -65,3 +65,5 @@ async function boot() {
   }
 
   const hud = $('hud')
+  const resumeHint = $('resume-hint')
+
