@@ -559,3 +559,4 @@ export class Spells {
     this.burstCd = s.cooldown
     const hit = this.aim(s.range, { props: false })
     const at = hit.unit ? hit.unit.pos.clone() : hit.point.clone()
+    // A shot into open air bursts on the floor below the end of its reach.
