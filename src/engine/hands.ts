@@ -246,3 +246,4 @@ export class Hands {
 
   kick(side: Side, amount = 1) {
     const h = this.hand(side)
+    h.kick = Math.max(h.kick, amount)
