@@ -176,3 +176,4 @@ button:disabled {
   inset: 0;
   z-index: 20;
   overflow-y: auto;
+  padding: var(--gutter);
