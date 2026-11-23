@@ -264,3 +264,4 @@ export class UnitSystem {
         this.steer(u, goal, speed, dt, 0)
       } else {
         if (d < spec.attackRange - 0.2 && u.cd <= 0) {
+          u.setState('windup')
