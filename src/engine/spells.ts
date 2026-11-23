@@ -22,3 +22,4 @@ interface Snare {
   radius: number
   t: number
   duration: number
+  mesh: THREE.Mesh
