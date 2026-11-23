@@ -318,3 +318,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const sc = key.shadow.camera
   sc.left = sc.bottom = -46
   sc.right = sc.top = 46
+  sc.near = 1
