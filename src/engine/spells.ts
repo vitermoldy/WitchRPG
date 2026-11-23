@@ -554,6 +554,7 @@ export class Spells {
     for (const gb of this.grabbed) {
       const mass = gb.unit ? gb.unit.mass : gb.prop!.mass
       const speed = mass >= 300 ? SPELL.grip.heavyThrowSpeed : mass > 200 ? SPELL.grip.throwSpeed * 0.6 : SPELL.grip.throwSpeed
+      const from = gb.unit ? gb.unit.center : gb.prop!.pos
       if (gb.unit) {
         const u = gb.unit
         if (u.alive) {
