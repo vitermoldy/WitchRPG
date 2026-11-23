@@ -1455,6 +1455,7 @@ dialog::backdrop {
 .tier-roman {
   font-family: var(--font-display);
   font-size: 1.15rem;
+  font-weight: 500;
 /* Account */
 .account-row {
   display: flex;
