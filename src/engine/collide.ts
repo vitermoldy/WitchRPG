@@ -127,3 +127,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
     let s = -1
     if (t1 > t2) {
       const tmp = t1
+      t1 = t2
