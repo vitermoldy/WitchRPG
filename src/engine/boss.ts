@@ -18,3 +18,4 @@ export class BossFight {
   private readonly g: Game
   private summonT = 6
   private volleyT = 4
+  private collapseT = -1
