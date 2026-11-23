@@ -294,3 +294,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       side: THREE.BackSide,
       depthWrite: false,
       fog: false,
+    }),
