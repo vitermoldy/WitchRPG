@@ -77,3 +77,4 @@ function crateMesh() {
   g.add(b)
   for (const y of [-0.36, 0.36]) {
     const band = new THREE.Mesh(new THREE.BoxGeometry(0.84, 0.08, 0.84), crateEdge)
+    band.position.y = y
