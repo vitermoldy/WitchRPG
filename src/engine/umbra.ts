@@ -320,3 +320,4 @@ export class Umbra {
             if (d < bd && e.pos.distanceTo(target.pos) < 8) {
               bd = d
               mine = e
+            }
