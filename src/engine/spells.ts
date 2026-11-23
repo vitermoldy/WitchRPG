@@ -408,3 +408,4 @@ export class Spells {
       let second: Unit | null = null
       let sd = 4
       for (const u of g.units.units) {
+        if (u === first.unit || !this.grippable(u)) continue
