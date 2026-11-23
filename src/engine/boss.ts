@@ -25,3 +25,4 @@ export class BossFight {
   private readonly feed = new Map<Unit, number>()
   private immuneNote = 0
 
+  constructor(g: Game, u: Unit, home: THREE.Vector3) {
