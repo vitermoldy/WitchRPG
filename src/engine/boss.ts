@@ -182,3 +182,4 @@ export class BossFight {
       u.vel.set(0, 0, 0)
       return true
     }
+    if (this.phase === 1 && this.landT < 0) {
