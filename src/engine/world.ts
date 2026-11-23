@@ -469,3 +469,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     pole.position.set(x, 2.5, z)
     const tilt = R() < 0.4 ? (R() - 0.5) * 0.5 : 0
     pole.rotation.z = tilt
+    const head = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.15, 0.25), R() < 0.3 ? darkMetal : lampGlow)
