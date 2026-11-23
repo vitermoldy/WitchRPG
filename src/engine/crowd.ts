@@ -109,3 +109,4 @@ export class ShadowCrowd {
       }
       this.q.setFromAxisAngle(UP, u.yaw)
       this.s.setScalar(u.scale)
+      this.m.compose(this.p, this.q, this.s)
