@@ -73,3 +73,4 @@ export class BossFight {
     const share = u.hp / u.maxHp
     if (this.phase === 1 && share <= BOSS.phase2At + 0.001 && this.collapseT < 0) this.beginCollapse()
     if (this.phase === 2 && share <= BOSS.phase3At + 0.001 && this.landT < 0) this.beginLanding()
+    // From phase 2 on it never leaves the middle pillar.
