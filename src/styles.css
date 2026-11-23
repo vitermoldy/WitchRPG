@@ -645,3 +645,4 @@ button:disabled {
 .prompt {
   position: absolute;
   left: 50%;
+  top: calc(50% + 58px);
