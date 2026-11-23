@@ -5,6 +5,7 @@ import './styles.css'
 import { Game, type GameState } from './engine/game'
 import { RANKS, UNITS } from './game/balance'
 import { isFresh, newProfile } from './game/progression'
+import { clearProfile } from './game/save'
 import { confirmDialog } from './ui/ledger'
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
