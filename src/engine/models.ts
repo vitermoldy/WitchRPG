@@ -425,6 +425,7 @@ function harrier(team: Team): UnitModel {
   line.castShadow = false
   body.add(line)
   const head = pivot(body, 0, 0.06, -0.46)
+  parts.head = head
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
