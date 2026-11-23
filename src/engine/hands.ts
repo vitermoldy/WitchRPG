@@ -241,3 +241,4 @@ export class Hands {
   pose(side: Side, name: PoseName, hold = 0) {
     const h = this.hand(side)
     h.target = name
+    h.hold = hold
