@@ -16,3 +16,4 @@ export interface Prop {
   radius: number
   halfH: number
   mass: number
+  held: boolean
