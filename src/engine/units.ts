@@ -367,3 +367,4 @@ export class UnitSystem {
       }
       if (u.state === 'held') continue
 
+      if (u.state === 'air') {
