@@ -525,6 +525,7 @@ button:disabled {
 .boss-hp i {
   display: block;
   height: 100%;
+  background: linear-gradient(90deg, #c77a1d, var(--rift));
 .banner {
   position: absolute;
   top: 24%;
