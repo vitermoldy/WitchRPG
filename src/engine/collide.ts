@@ -47,3 +47,4 @@ export class Colliders {
       let dx = pos.x - cx
       let dz = pos.z - cz
       const d2 = dx * dx + dz * dz
+      if (d2 >= r * r) continue
