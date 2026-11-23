@@ -105,3 +105,4 @@ async function boot() {
   }
 
   const renderPause = () => {
+    const s = game.profile.settings
