@@ -318,4 +318,5 @@ export const BOSS = {
   /** HP shares where the fight moves to phase 2 and phase 3. */
   phase2At: 0.66,
   phase3At: 0.33,
+  /** Phase 2: bolts barely scratch the shell; thrown bodies do full damage. */
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
