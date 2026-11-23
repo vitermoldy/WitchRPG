@@ -545,3 +545,4 @@ button:disabled {
   content: 'Ledger';
   margin-right: 0.55em;
   color: var(--ink-3);
+  font-family: var(--font-mono);
