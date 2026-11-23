@@ -382,3 +382,4 @@ export class Spells {
     }
     const hit = this.aim(SPELL.grip.range)
     let first: Grabbed | null = null
+    if (hit.unit && this.grippable(hit.unit)) first = { unit: hit.unit }
