@@ -230,3 +230,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       skipped = false
       void checkAccount()
       return
+    }
