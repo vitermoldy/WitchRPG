@@ -37,3 +37,4 @@ function canvas(w: number, h: number) {
   return { c, g: c.getContext('2d')! }
 }
 
+/** Asphalt with two crossing roads, sidewalks, cracks and the glowing rift fractures. */
