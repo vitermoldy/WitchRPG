@@ -640,7 +640,6 @@ export class Game {
   enterLair() {
     this.setMap('lair')
     this.lair.setFloor(true)
-    this.activeColliders = this.lair.colliders
     this.props.clear()
     this.projectiles.clear()
     this.warnings.clear()
