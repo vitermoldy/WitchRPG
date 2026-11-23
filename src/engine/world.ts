@@ -144,3 +144,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   const map = new THREE.CanvasTexture(c)
   map.colorSpace = THREE.SRGBColorSpace
   map.anisotropy = 8
+  const emissive = new THREE.CanvasTexture(ec)
