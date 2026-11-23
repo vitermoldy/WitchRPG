@@ -1832,3 +1832,5 @@ dialog::backdrop {
 
 .room-group summary {
   display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
