@@ -85,3 +85,4 @@ export class ShadowCrowd {
   }
 
   update(units: Unit[], t: number) {
+    const counts = new Map<UnitKind, number>()
