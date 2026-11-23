@@ -145,3 +145,4 @@ async function boot() {
   })
   $('btn-reset').addEventListener('click', async () => {
     const ok = await confirmDialog('Hapus semua progres?', 'Level, stat, skill, dan semua bayangan di Ruang Bayangan akan hilang. Pengaturan kontrol tetap.', 'Hapus progres')
+    if (!ok) return
