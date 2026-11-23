@@ -77,3 +77,4 @@ describe('stats and slots', () => {
     expect(d.maxHp).toBe(150)
     expect(d.maxMana).toBe(125)
     expect(d.damageMult).toBe(1)
+    expect(d.floatTime).toBe(5)
