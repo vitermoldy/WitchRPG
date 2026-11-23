@@ -158,6 +158,7 @@ export class Umbra {
     if (feet.y < -50 || feet.y < p.pos.y - 6) feet.y = p.pos.y
     const base = this.field().length
     // The darkness spreads as far as the outer rank stands; a big army rises within about 2.5 seconds.
+    const spill = Math.min(60, Math.max(5 + Math.sqrt(n) * 2.4, ringRadius(base + n) + 3))
     g.pools.open(feet, spill, 1.4 + n * stagger)
     g.pools.open(feet, spill * 0.45, 1.6 + n * stagger, 0.1)
     for (let i = 0; i < n; i++) {
