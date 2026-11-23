@@ -374,3 +374,4 @@ export class Spells {
   }
 
   private tryGrip() {
+    const g = this.g
