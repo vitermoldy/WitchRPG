@@ -1681,3 +1681,6 @@ dialog::backdrop {
 
 /* Calling the army: the screen edges darken violet for a breath. */
 .veil-umbra {
+  background: radial-gradient(ellipse at 50% 85%, transparent 25%, rgba(36, 10, 78, 0.6) 100%);
+}
+
