@@ -52,3 +52,4 @@ const RUNE_FRAG = /* glsl */ `
   }
 `
 const RUNE_VERT = /* glsl */ `
+  varying vec2 vUv;
