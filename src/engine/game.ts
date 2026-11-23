@@ -319,7 +319,7 @@ export class Game {
     for (const b of this.brokenCover) {
       b.alive = true
       if (b.mesh) b.mesh.visible = true
-      this.colliders.boxes.push(b)
+      this.world.colliders.boxes.push(b)
     }
     this.brokenCover.length = 0
   }
