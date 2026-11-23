@@ -81,3 +81,4 @@ async function boot() {
       Object.entries(p.stats).every(([k, v]) => base.stats[k as keyof typeof base.stats] === v)
     $('profile-line').innerHTML = fresh
       ? '<span>Witch baru di Lv 1. Belum ada bayangan.</span>'
+      : `<span>Lv <b>${p.level}</b></span><span><b>${p.shadows.length}</b> bayangan</span><span><b>${p.clears}</b> Rift ditutup</span>${
