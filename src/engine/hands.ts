@@ -242,3 +242,5 @@ export class Hands {
     const h = this.hand(side)
     h.target = name
     h.hold = hold
+  }
+
