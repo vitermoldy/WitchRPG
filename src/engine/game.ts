@@ -476,7 +476,7 @@ export class Game {
     this.applyStats(true)
     this.hands.pose('left', 'idle')
     this.hands.pose('right', 'idle')
-    this.rift.start()
+    this.rift.start(spec)
     this.setState('playing')
     this.umbra.summonAll()
     this.hud.banner('Rift Tier I', 'Bertahan lima gelombang, lalu keluar lewat retakan di monumen.')
