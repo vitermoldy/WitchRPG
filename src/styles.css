@@ -708,3 +708,4 @@ button:disabled {
 .bar i {
   position: absolute;
   inset: 0;
+  transform-origin: left;
