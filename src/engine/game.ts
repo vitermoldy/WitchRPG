@@ -325,3 +325,4 @@ export class Game {
       this.sfx.barrier(true)
       return
     }
+    p.hp -= left
