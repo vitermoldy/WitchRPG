@@ -18,3 +18,4 @@ describe('Player.update', () => {
     expect(p.pos.z).toBeCloseTo(14)
   })
 
+  it('stays finite with a zero frame time', () => {
