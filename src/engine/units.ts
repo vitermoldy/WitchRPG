@@ -811,6 +811,7 @@ export class UnitSystem {
       else grid.set(k, [a])
     }
     for (const a of this.units) {
+      if (!free(a)) continue
       }
       // Keep clear of the witch.
       const p = host.player
