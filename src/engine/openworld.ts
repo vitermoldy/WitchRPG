@@ -171,3 +171,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const reserved: { x: number; z: number; r: number }[] = [{ x: 0, z: 0, r: 34 }]
   for (const [, x, z] of gateSpots) reserved.push({ x, z, r: 16 })
   const campSpots: { x: number; z: number; band: 0 | 1 | 2; elite: boolean }[] = []
+  campDefs.forEach((c, i) => {
+    const b = bands[c.band]
