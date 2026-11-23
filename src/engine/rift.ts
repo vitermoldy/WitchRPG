@@ -150,6 +150,7 @@ export class RiftDirector {
         : lord.length
           ? 'Penguasa retakan ini keluar sendiri. Ia memanggil husk dan menghantam tanah.'
           : last
+            ? 'Gelombang terakhir. Rift mulai runtuh.'
     )
   }
 
