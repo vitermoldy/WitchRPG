@@ -10,3 +10,4 @@ export default defineConfig({
   // Relative asset paths, so the built game runs from any folder or static host.
   base: './',
   server: { port: 5197 },
+  preview: { port: 4197 },
