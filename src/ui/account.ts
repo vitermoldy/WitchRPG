@@ -144,3 +144,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
         adopt(remote)
         setNote(`Witch Lv ${remote.level} dimuat dari server`)
       } else {
+        const r = await pushProfile(local)
