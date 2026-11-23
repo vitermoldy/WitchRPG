@@ -11,3 +11,4 @@ import { AUTH_TABLES } from './auth.js'
  * Times are stored in UTC.
  */
 const TABLES = [
+  `CREATE TABLE IF NOT EXISTS clients (
