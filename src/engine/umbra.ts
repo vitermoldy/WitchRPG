@@ -198,7 +198,7 @@ export class Umbra {
     const p = g.player
     const feet = new THREE.Vector3(p.pos.x, g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5), p.pos.z)
     if (feet.y < -50) feet.y = p.pos.y
-    g.pools.open(feet, Math.min(18, 4 + Math.sqrt(out.length) * 1.8), 0.7, 0.4)
+    g.pools.open(feet, Math.min(60, Math.max(4 + Math.sqrt(out.length) * 1.8, out.length > POOLS_PER_CALL ? ringRadius(out.length) + 3 : 0)), 0.7, 0.4)
     for (const u of out.slice(0, 40)) g.streamTo(u.center, feet.clone().setY(feet.y + 0.3), COLOR.umbra)
     g.hands.pose('right', 'command', 0.6)
     g.sfx.dismiss()
