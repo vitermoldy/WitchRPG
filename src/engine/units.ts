@@ -420,3 +420,4 @@ export class UnitSystem {
       }
     }
 
+    // Separation so crowds spread instead of stacking.
