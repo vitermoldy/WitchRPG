@@ -374,6 +374,7 @@ export class Warnings {
     }
   }
 
+  clear() {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
