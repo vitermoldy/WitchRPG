@@ -105,3 +105,4 @@ export class Colliders {
     dir.divideScalar(len)
     for (const box of this.boxes) if (rayBox(a, dir, box, len - 0.05)) return false
     return true
+  }
