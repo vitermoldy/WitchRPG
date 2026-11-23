@@ -132,3 +132,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
       seg.position.y = len / 2
       j.add(seg)
       if (s === 2) {
+        const tip = new THREE.Mesh(new THREE.ConeGeometry(0.0075, 0.016, 6), nail)
