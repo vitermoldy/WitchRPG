@@ -192,3 +192,4 @@ export function createApi(getPool, database) {
         ])
       }
       await conn.commit()
+      res.json({ ok: true, updatedAt: p.updatedAt.toISOString() })
