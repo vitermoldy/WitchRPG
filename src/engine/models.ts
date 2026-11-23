@@ -485,6 +485,7 @@ function bombard(team: Team): UnitModel {
     (p, m, meshes) => {
       const tube = new THREE.Mesh(shape(`Cylinder:${[0.24, 0.3, 1.05, 8].join(',')}`, () => new THREE.CylinderGeometry(0.24, 0.3, 1.05, 8)), m.bone)
       tube.position.set(0, 0.9, 0.2)
+      tube.rotation.x = -0.75
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
