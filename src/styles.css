@@ -414,3 +414,4 @@ button:disabled {
 }
 
 .setting input[type='checkbox'] {
+  width: 20px;
