@@ -183,6 +183,8 @@ export class Player {
     const step = MOVE.flyAccel * dt
     const diff = goal.sub(this.vel)
     const len = diff.length()
+    if (len > step && len > 1e-6) this.vel.addScaledVector(diff, step / len)
+    else this.vel.add(diff)
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
