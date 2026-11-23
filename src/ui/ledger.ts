@@ -167,3 +167,4 @@ export class Ledger {
           <button class="btn btn-small" type="button" data-release="${s.id}" aria-label="Lepas ${s.name}">Lepas</button>
         </li>`,
           )
+          .join('')
