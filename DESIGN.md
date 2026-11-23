@@ -69,6 +69,10 @@ Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama
 
 Hasil bot uji (`?debug`, waktu game): Tier II dari Lv 4 berakhir di Lv 8 sebelum jumlah musuhnya dikurangi sekitar 25%, supaya level tengah butuh lebih dari satu Rift seperti di GDD. Tier III dari Lv 7 sampai Lv 10 dalam satu Rift, dan gerbang Jantung Rift terbuka. Bot boss yang hanya membidik, menghindari lingkaran hantaman, dan bergeser di atas pilar menang dalam sekitar 2,5 menit dengan 80 HP tersisa.
 
+## Terbang, dunia terbuka, dan pasukan tanpa batas (23 Nov 2026)
+
+Pemilik meminta: witch bisa terbang, ada mode dunia terbuka, bayangan bisa dibangkitkan sebanyak-banyaknya, satu tombol untuk memanggil dan mengembalikan pasukan, dan efek pemanggilan yang terasa seperti pasukan bayangan bangkit dari tanah. Efeknya dibuat sendiri; tidak ada nama, kalimat, atau aset dari karya sumber.
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
