@@ -86,3 +86,4 @@ export class Player {
     this.sprinting = canAct && input.held('ShiftLeft') && fwd > 0 && !this.crouching && this.sliding <= 0
     if (canAct && input.pressed('KeyC') && this.onGround && this.sprinting) {
       this.sliding = MOVE.slideTime
+      const boost = MOVE.sprint * this.speedMult * MOVE.slideBoost
