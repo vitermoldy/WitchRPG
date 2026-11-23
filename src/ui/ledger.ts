@@ -102,6 +102,7 @@ export class Ledger {
     box.innerHTML = '<p class="room-empty">Memuat riwayat Rift...</p>'
     let runs: SavedRift[] | null
     try {
+      runs = await this.host.history()
   close() {
     if (this.dlg.open) this.dlg.close()
   }
