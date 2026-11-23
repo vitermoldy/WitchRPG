@@ -397,3 +397,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   for (const p of portals) {
     const across = Math.abs(p.x) > 1 ? 'z' : 'x'
     for (let i = 0; i < 9; i++) {
+      const s = 1.5 + R() * 2.5
