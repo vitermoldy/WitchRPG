@@ -82,3 +82,4 @@ export function onAuth(fn: (state: AuthState) => void): () => void {
   return () => listeners.delete(fn)
 }
 
+async function call<T>(path: string, init?: RequestInit): Promise<T> {
