@@ -175,6 +175,7 @@ export class RiftDirector {
       at.y = UNITS[next.kind].fly ? 4.5 : 0
     }
     const u = g.units.spawn(next.kind, 'rift', next.level, at)
+    if (next.elite) u.makeElite(next.elite)
     if (next.kind === 'riftlord') {
       this.bossUnit = u
       g.sfx.roar()
