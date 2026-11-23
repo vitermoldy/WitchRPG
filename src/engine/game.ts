@@ -49,3 +49,4 @@ export class Game {
   readonly spells: Spells
   readonly umbra: Umbra
   readonly rift: RiftDirector
+  readonly hud: Hud
