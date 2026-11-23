@@ -107,3 +107,4 @@ export class RiftDirector {
       p.open += (want - p.open) * Math.min(1, dt * 1.5)
       p.mat.uniforms.uTime.value = t
       p.mat.uniforms.uOpen.value = p.open
+      p.mesh.visible = p.open > 0.02
