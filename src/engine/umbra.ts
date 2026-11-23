@@ -65,6 +65,8 @@ export class Umbra {
     return this.g.units.units.filter((u) => u.team === 'shadow' && u.record && u.alive && u.state !== 'sinking')
   }
 
+  get fieldCap() {
+    return this.g.profile.settings.fieldCap
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
