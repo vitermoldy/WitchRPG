@@ -99,3 +99,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   root.add(arm)
   const sleeve = new THREE.Mesh(new THREE.CylinderGeometry(0.068, 0.082, 0.3, 12, 1, true), cloth)
   sleeve.material.side = THREE.DoubleSide
+  sleeve.position.set(0, -0.31, 0.1)
