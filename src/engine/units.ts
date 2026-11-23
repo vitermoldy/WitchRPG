@@ -147,3 +147,4 @@ export class UnitSystem {
     return this.units.filter((u) => u.team === 'rift' && u.alive)
   }
 
+  shadows() {
