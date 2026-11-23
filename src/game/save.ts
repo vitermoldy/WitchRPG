@@ -15,3 +15,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
     const data = JSON.parse(raw) as Partial<Profile>
     if (data.version !== 1 || typeof data.level !== 'number' || !data.stats) throw new Error('shape')
     const base = newProfile()
+    const profile: Profile = {
