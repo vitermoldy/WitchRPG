@@ -103,3 +103,4 @@ export class Player {
       this.vel.x *= damp
       this.vel.z *= damp
       if (!this.onGround) this.sliding = 0
+    } else {
