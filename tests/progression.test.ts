@@ -82,3 +82,4 @@ describe('stats and slots', () => {
   it('spends stat points only when there are some', () => {
     const p = newProfile()
     expect(spendStat(p, 'hex')).toBe(false)
+    p.statPoints = 1
