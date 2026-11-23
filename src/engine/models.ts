@@ -427,6 +427,7 @@ function harrier(team: Team): UnitModel {
   const head = pivot(body, 0, 0.06, -0.46)
   parts.head = head
   const skull = box(0.2, 0.18, 0.26, bodyMat, meshes)
+  skull.position.z = -0.08
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
