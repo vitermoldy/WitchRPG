@@ -128,3 +128,4 @@ function hound(team: Team): UnitModel {
     spike.rotation.x = 0.5
     body.add(spike)
     meshes.push(spike)
+  }
