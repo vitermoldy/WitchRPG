@@ -149,3 +149,4 @@ function hound(team: Team): UnitModel {
   }
   const legs: [string, number, number][] = [
     ['legFL', -0.22, -0.4],
+    ['legFR', 0.22, -0.4],
