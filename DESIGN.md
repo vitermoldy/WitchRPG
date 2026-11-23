@@ -77,6 +77,8 @@ Pemilik meminta: witch bisa terbang, ada mode dunia terbuka, bayangan bisa diban
 | --- | --- | --- |
 | Terbang | Ketuk Spasi dua kali (jeda 0,32 detik) untuk mulai dan berhenti. Spasi naik 8 m/dtk, C turun, Shift mempercepat dari 13 ke 26 m/dtk. C di dekat tanah mendarat | Spasi sekali tetap lompat dan tahan Spasi tetap Crimson Float, jadi kontrol lama tidak berubah. |
 | Biaya terbang | Gratis di dunia terbuka. Di dalam Rift memakai stamina (6 per detik, 12 saat cepat) dan berhenti saat stamina habis. Plafon 90 m di dunia, 22 m di kota Rift, 30 m di Jantung Rift | Di dunia terbuka terbang adalah cara berkeliling. Di Rift, terbang bebas akan membuat musuh darat dan fase 2 boss tidak berarti. |
+| Dunia terbuka | Kota 500 × 500 m, jalan setiap 80 m, gedung instanced. Altar di alun-alun menyembuhkan 12% HP dan mana per detik dan menjadi tempat bangkit. Jauh dari altar, HP pulih 3% per detik setelah 6 detik tanpa terkena serangan | Kota yang sama dengan Rift, diperluas, supaya dunia terasa satu. Tanpa pemulihan, pemain harus terbang bolak-balik ke altar setelah setiap kamp. |
+| Kamp | 19 kamp. Semakin jauh dari pusat, semakin tinggi levelnya: Lv 1 sampai 3, 4 sampai 6, 7 sampai 9. Dua kamp elite membawa Rift Lord. Kamp bangun saat witch berjarak 80 m, tidur lagi kalau ditinggal lebih dari 170 m, dan hidup kembali 120 detik setelah ditaklukkan | Mengikuti pita level Tier I sampai III dari GDD. Kompas memberi warna titik kamp: merah kalau levelnya di atas witch, amber kalau setara, abu-abu kalau mudah. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
