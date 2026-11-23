@@ -236,3 +236,4 @@ export class PropSystem {
         const snap = p.kind === 'car' ? Math.PI : Math.PI / 2
         const rx = Math.round(p.mesh.rotation.x / snap) * snap
         const rz = Math.round(p.mesh.rotation.z / snap) * snap
+        p.mesh.rotation.x += (rx - p.mesh.rotation.x) * Math.min(1, dt * 8)
