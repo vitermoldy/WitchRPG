@@ -312,3 +312,4 @@ export class Game {
       live.level = sl.level
       live.maxHp = st.hp
       live.hp = st.hp * ratio
+      live.damage = st.damage
