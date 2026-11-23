@@ -219,6 +219,7 @@ export class RiftDirector {
         this.spawnT = RIFT.spawnInterval * (0.6 + Math.random() * 0.8)
         this.spawnNext()
       }
+      // The last few come to her after a while, so a wave never waits on a Spitter left on a far scaffold.
       if (!this.queue.length && g.units.enemies().length === 0) {
         if (this.wave < this.totalWaves) {
           this.phase = 'breather'
