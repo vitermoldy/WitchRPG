@@ -165,3 +165,4 @@ export class Spells {
   }
 
   /** Spends mana unless Overload makes skills free. */
+  private pay(cost: number): boolean {
