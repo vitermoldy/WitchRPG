@@ -290,3 +290,4 @@ export class UnitSystem {
             if (d < spec.attackRange + 0.45 && tmp.dot(tmp2) > 0.3) this.hit(u, tgt)
           }
         }
+      }
