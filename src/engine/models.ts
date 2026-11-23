@@ -235,6 +235,7 @@ function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3
 function eyes(head: THREE.Object3D, m: Mats, meshes: THREE.Mesh[], spots: [number, number][], size: [number, number], z: number) {
   for (const [x, y] of spots) {
     const e = box(size[0], size[1], 0.02, m.eye, meshes, y)
+    e.position.set(x, y, z)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
