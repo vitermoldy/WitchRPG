@@ -109,3 +109,5 @@ export class WorldDirector {
     }
     this.lastHp = p.hp
 
+    // Shadows left far behind (she flew off) are pulled back to her side.
+    this.leashT -= dt
