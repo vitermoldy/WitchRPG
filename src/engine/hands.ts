@@ -60,3 +60,4 @@ function sigilShape(): THREE.BufferGeometry {
   // A small crossing mark on the back of the hand. Thin boxes merged by hand.
   const parts = [
     new THREE.BoxGeometry(0.006, 0.07, 0.002),
+    new THREE.BoxGeometry(0.045, 0.006, 0.002).translate(0, 0.012, 0),
