@@ -77,6 +77,7 @@ export class RiftDirector {
     }
     const e = tear(9.3, 2.2, 3.6, COLOR.umbra)
     this.exit = e.group
+    this.exitMat = e.mat
   }
 
   start() {
