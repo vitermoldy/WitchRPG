@@ -66,3 +66,4 @@ export class RiftDirector {
     this.elapsed = 0
     this.kills = 0
     this.xpGained = 0
+    this.levelsGained = 0
