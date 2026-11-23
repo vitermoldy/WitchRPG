@@ -160,3 +160,4 @@ async function boot() {
   $('btn-resume').addEventListener('click', () => void game.resume())
   $('btn-ledger-pause').addEventListener('click', () => game.openLedger('paused'))
   $('btn-leave').addEventListener('click', async () => {
+    const ok = await confirmDialog('Tinggalkan Rift?', 'XP dan bayangan yang sudah didapat tetap tersimpan. Gelombang di Rift ini harus diulang dari awal.', 'Tinggalkan Rift')
