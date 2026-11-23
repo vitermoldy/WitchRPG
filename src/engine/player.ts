@@ -95,6 +95,8 @@ export class Player {
 
     // Double-tap Space: take to the air, or stop flying.
     this.clock += dt
+    this.flightSpent = false
+    if (canAct && input.pressed('Space')) {
     const crouchHeld = canAct && input.held('KeyC')
     this.sprinting = canAct && input.held('ShiftLeft') && fwd > 0 && !this.crouching && this.sliding <= 0
     if (canAct && input.pressed('KeyC') && this.onGround && this.sprinting) {
