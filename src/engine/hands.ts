@@ -70,3 +70,4 @@ function sigilShape(): THREE.BufferGeometry {
   let off = 0
   for (const p of parts) {
     const pa = p.getAttribute('position')
+    for (let i = 0; i < pa.count; i++) pos.push(pa.getX(i), pa.getY(i), pa.getZ(i))
