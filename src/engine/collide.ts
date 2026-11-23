@@ -74,7 +74,7 @@ export class Colliders {
 
   /** Height of the floor under a circle: the highest box top within reach, or 0. */
   groundAt(x: number, z: number, r: number, feetY: number, step: number): number {
-    let g = 0
+    let g = this.floor
     for (const b of this.boxes) {
       if (b.top > feetY + step || b.top <= g) continue
       if (x + r * 0.6 < b.minX || x - r * 0.6 > b.maxX || z + r * 0.6 < b.minZ || z - r * 0.6 > b.maxZ) continue
