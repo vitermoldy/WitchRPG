@@ -242,6 +242,7 @@ export class Game {
     for (const kind of Object.keys(UNITS) as UnitKind[]) for (const team of ['rift', 'shadow'] as const) samples.push(this.units.spawn(kind, team, 1, new THREE.Vector3(0, -20, 0)))
     this.camera.position.set(0, 8, 24)
     this.camera.lookAt(0, 2, 0)
+    // The lair is hidden until Tier III; show it for a moment so its shaders build now too.
     await this.renderer.compileAsync(this.scene, this.camera)
     this.renderer.compile(this.hands.scene, this.hands.camera)
     this.composer.render(0.016)
