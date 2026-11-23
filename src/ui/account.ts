@@ -97,3 +97,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     const button = $<HTMLButtonElement>('btn-account')
     if (state.status === 'signed-in' && state.account) {
       text.innerHTML = ''
+      text.append('Masuk sebagai ')
