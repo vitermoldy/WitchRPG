@@ -200,3 +200,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
           if (Math.abs(cx) > H - 8 || Math.abs(cz) > H - 8) continue
           const w = lot - 2 - R() * 5
           const d = lot - 2 - R() * 5
+          if (reserved.some((r) => Math.abs(r.x - cx) < r.r + w / 2 && Math.abs(r.z - cz) < r.r + d / 2)) continue
+          // Taller toward the middle ring, low and broken at the edges.
