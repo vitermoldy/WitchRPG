@@ -8,3 +8,4 @@ import { connect } from './db.js'
  * new password (there is no reset by email, so this is the reset). A new account takes over the
  * witch saved before accounts existed: the newest unowned browser's witch, plus the Rift history
  * of every other browser nobody owns yet.
+ */
