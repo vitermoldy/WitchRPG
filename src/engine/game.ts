@@ -545,6 +545,7 @@ export class Game {
     this.returnToWorld = null
     this.units.clear()
     this.projectiles.clear()
+    this.pools.clear()
     this.spells.reset()
     this.umbra.reset()
     this.useCity()
