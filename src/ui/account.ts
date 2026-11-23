@@ -167,3 +167,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
         /* the browser keeps the save; the next one tries again */
       }
     }, 1200)
+  }
+
