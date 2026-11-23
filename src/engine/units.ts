@@ -424,3 +424,4 @@ export class UnitSystem {
     for (let i = 0; i < this.units.length; i++) {
       const a = this.units[i]
       if (!a.alive || a.state === 'held' || a.state === 'air') continue
+      for (let j = i + 1; j < this.units.length; j++) {
