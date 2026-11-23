@@ -604,3 +604,4 @@ export class Spells {
         if (!b.alive) continue
         const cx = (b.minX + b.maxX) / 2
         const cz = (b.minZ + b.maxZ) / 2
+        if (Math.hypot(cx - at.x, cz - at.z) > r + 1) continue
