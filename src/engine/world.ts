@@ -163,3 +163,4 @@ function facadeTextures(seed: number) {
     g.fillStyle = R() < 0.5 ? 'rgba(0,0,0,0.12)' : 'rgba(255,255,255,0.025)'
     g.fillRect(R() * 256, R() * 512, 2, 2)
   }
+  const cols = 4
