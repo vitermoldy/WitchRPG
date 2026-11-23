@@ -13,3 +13,4 @@ export interface PropSpot {
 export interface WorldBuild {
   colliders: Colliders
   portals: THREE.Vector3[]
+  playerStart: THREE.Vector3
