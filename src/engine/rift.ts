@@ -145,3 +145,4 @@ export class RiftDirector {
           this.phase = 'breather'
           this.timer = RIFT_TIER_1.breather
           const heal = Math.round(g.player.maxHp * RIFT_TIER_1.breatherHeal)
+          g.player.hp = Math.min(g.player.maxHp, g.player.hp + heal)
