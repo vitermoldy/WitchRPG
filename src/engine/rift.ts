@@ -123,3 +123,4 @@ export class RiftDirector {
     }
     if (this.phase === 'wave') {
       this.spawnT -= dt
+      if (this.queue.length && this.spawnT <= 0 && g.units.enemies().length < RIFT_TIER_1.maxAlive) {
