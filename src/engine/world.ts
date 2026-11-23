@@ -272,3 +272,5 @@ export function makeTearMaterial(seed: number) {
     depthWrite: false,
     side: THREE.DoubleSide,
   })
+}
+
