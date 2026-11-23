@@ -169,7 +169,7 @@ async function boot() {
   }
 
   // Title.
-  $('btn-enter').addEventListener('click', () => void game.enterRift())
+  $('btn-enter').addEventListener('click', () => void game.enterRift(game.tier))
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
