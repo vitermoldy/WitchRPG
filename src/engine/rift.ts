@@ -70,3 +70,5 @@ export class RiftDirector {
     this.raised = []
     this.exit.visible = false
     for (const p of this.portals) p.open = 0
+  }
+
