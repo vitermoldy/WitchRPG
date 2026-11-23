@@ -179,6 +179,7 @@ export class Game {
       reflectDamage: SPELL.warp.reflectDamage,
       onReflect: () => this.sfx.reflect(),
     })
+    this.scene.add(this.projectiles.group)
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
