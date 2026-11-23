@@ -261,3 +261,4 @@ export class PropSystem {
         p.pos.x += (dx / d) * (min - d) * share
         p.pos.z += (dz / d) * (min - d) * share
         if (speed > 5) {
+          o.awake = true
