@@ -57,6 +57,7 @@ export class Projectiles {
   }
 
   /** Lobs a glob from `from` so it lands on `to`; gravity bends it into an arc. Returns the flight time. */
+  fire(from: THREE.Vector3, to: THREE.Vector3, team: ShotTeam, damage: number, spec: { speed: number; gravity: number; radius: number; blast?: number }, source: Unit | null): number {
     const flat = Math.hypot(to.x - from.x, to.z - from.z)
     const t = Math.max(0.25, flat / spec.speed)
     const vel = new THREE.Vector3((to.x - from.x) / t, (to.y - from.y) / t + 0.5 * spec.gravity * t, (to.z - from.z) / t)
