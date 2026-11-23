@@ -441,6 +441,7 @@ function harrier(team: Team): UnitModel {
     const eye = box(0.035, 0.03, 0.02, s.eye, meshes, y)
     eye.position.set(x, y, -0.215)
     eye.castShadow = false
+    head.add(eye)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
