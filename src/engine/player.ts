@@ -19,3 +19,4 @@ export class Player {
   crouching = false
   sliding = 0
   floating = false
+  sprinting = false
