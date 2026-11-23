@@ -59,3 +59,4 @@ export class RiftDirector {
   }
 
   start() {
+    this.phase = 'intro'
