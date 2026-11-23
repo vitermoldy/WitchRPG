@@ -674,6 +674,7 @@ export class Game {
     this.units.clear()
     this.projectiles.clear()
     this.warnings.clear()
+    this.fuses.length = 0
     this.pools.clear()
     this.props.clear()
     for (const c of this.ow.cars) this.props.spawnCar(c.x, c.z, c.yaw)
