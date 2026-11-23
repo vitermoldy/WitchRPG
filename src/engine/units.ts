@@ -203,6 +203,7 @@ export class UnitSystem {
     }
   }
 
+  /** Reality Warp: the unit floats up and cannot act until the field lets go. */
   private pickTarget(u: Unit): Target | null {
     const p = this.host.player
     let best: Target | null = null
