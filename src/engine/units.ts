@@ -95,3 +95,4 @@ export class Unit implements Target {
   }
 
   get height() {
+    return this.spec.height
