@@ -27,3 +27,4 @@ const POSES: Record<PoseName, Pose> = {
   lowered: { curl: 0.5, spread: 0, reach: -0.05, lift: -0.34, twist: 0, palmDown: 0.3, tremble: 0, glow: 0.15 },
 }
 
+interface Finger {
