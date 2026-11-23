@@ -50,3 +50,4 @@ export class Player {
 
   reset(at: THREE.Vector3, yaw: number) {
     this.pos.copy(at)
+    this.lastGood.copy(at)
