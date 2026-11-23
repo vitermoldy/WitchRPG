@@ -588,6 +588,7 @@ export class Game {
   }
 
   /** Particles running from one point to another: the boss swallowing, a shadow returning. */
+  streamTo(from: THREE.Vector3, to: THREE.Vector3, color: number) {
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
