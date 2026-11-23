@@ -219,3 +219,4 @@ export class PropSystem {
           if (p.thrown && speed > SPELL.impact.minSpeed) this.host.impactFx(p.pos, Math.min(1, (p.mass * speed) / 6000))
           p.vel.addScaledVector(n, -into * 1.35)
           p.vel.multiplyScalar(0.6)
+        }
