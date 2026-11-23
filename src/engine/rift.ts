@@ -177,7 +177,7 @@ export class RiftDirector {
     const u = g.units.spawn(next.kind, 'rift', next.level, at)
     if (next.elite) u.makeElite(next.elite)
     if (next.kind === 'riftlord') {
-      this.bossUnit = u
+      if (!this.bossUnit) this.bossUnit = u
       g.sfx.roar()
       g.player.addTrauma(0.3)
     }
