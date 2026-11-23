@@ -230,3 +230,4 @@ export class Umbra {
     this.casting = null
     this.progress = 0
     if (!g.spells.overloaded) g.player.mana -= RITE.mana
+    u.riteTried = true
