@@ -7,3 +7,5 @@ import { makeTearMaterial } from './world'
 
 /**
  * The open city around the Rifts: roads every 80 m, about two hundred buildings drawn as one
+ * instanced mesh, an altar at the central square, three Rift gates, and creature camps whose level
+ * grows with the distance from the square. A curtain of Rift light closes it in.
