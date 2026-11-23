@@ -274,6 +274,7 @@ export class UnitSystem {
 
   private follow(u: Unit, speed: number, dt: number) {
     if (u.command === 'hold') {
+      this.steer(u, u.holdPos, speed, dt, 0.6)
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
