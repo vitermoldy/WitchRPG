@@ -795,5 +795,6 @@ export class Game {
       const back = this.lair.nearestTop(p.pos)
       p.reset(back, p.yaw)
       p.addTrauma(0.4)
+      this.hud.hurtFlash(0.6)
   }
 }
