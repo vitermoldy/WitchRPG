@@ -61,3 +61,4 @@ export class Unit implements Target {
   thrown = false
   hitThisLunge = false
   lungeDir = new THREE.Vector3()
+  walk = Math.random() * 6
