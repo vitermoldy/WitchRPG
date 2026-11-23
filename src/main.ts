@@ -76,3 +76,4 @@ async function boot() {
       p.shadows.length === 0 &&
       p.clears === 0 &&
       p.statPoints === 0 &&
+      p.skillPoints === 0 &&
