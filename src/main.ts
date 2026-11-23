@@ -150,3 +150,4 @@ async function boot() {
     clearProfile()
     const fresh = newProfile()
     fresh.settings = settings
+    Object.assign(game.profile, fresh)
