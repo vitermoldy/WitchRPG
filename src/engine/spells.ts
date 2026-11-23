@@ -285,3 +285,4 @@ export class Spells {
       mesh.position.copy(from)
       g.scene.add(mesh)
       this.bolts.push({
+        pos: from.clone(),
