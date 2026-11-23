@@ -138,6 +138,8 @@ export class Hud {
       if (!shown) return
       el.className = `cm ${m.cls}`
       if (el.textContent !== m.label) el.textContent = m.label
+      el.style.transform = `translateX(${(-d / span + 0.5) * width}px)`
+    })
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
