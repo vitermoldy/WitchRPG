@@ -179,3 +179,4 @@ export function buildModel(kind: UnitKind, team: Team): UnitModel {
 }
 
 export function disposeModel(m: UnitModel) {
+  for (const mesh of m.meshes) mesh.geometry.dispose()
