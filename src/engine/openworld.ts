@@ -204,3 +204,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
           // Taller toward the middle ring, low and broken at the edges.
           const tall = ring < 180 ? 1 : 0.55
           const h = (10 + R() * R() * 60) * tall + 6
+          boxes.push({ x: cx, z: cz, w, d, h })
+        }
