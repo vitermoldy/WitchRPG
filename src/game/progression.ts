@@ -103,3 +103,4 @@ export function derive(stats: Stats): Derived {
   return {
     maxHp: PLAYER.baseHp + PLAYER.hpPerVit * stats.vit,
     maxMana: PLAYER.baseMana + PLAYER.manaPerSpr * stats.spr,
+    manaRegen: PLAYER.manaRegen * (1 + PLAYER.manaRegenPerSpr * above('spr')),
