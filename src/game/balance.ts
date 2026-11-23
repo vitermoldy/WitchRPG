@@ -65,3 +65,4 @@ export const SPELL = {
   barrier: { mana: 20, cooldown: 15, duration: 3, absorb: 150, absorbUpgrade: 50, blastRadius: 6, blastDamage: 25, push: 12 },
 } as const
 
+export const RITE = {
