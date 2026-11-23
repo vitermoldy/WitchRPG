@@ -136,3 +136,4 @@ export class PropSystem {
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), chunkMat)
     mesh.castShadow = true
     const p = this.add('chunk', mesh, at, Math.max(w, d) * 0.5, h * 0.5, 40, Math.random() * 3)
+    p.vel.copy(vel)
