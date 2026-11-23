@@ -444,3 +444,4 @@ export class UnitSystem {
       const dx = a.pos.x - p.pos.x
       const dz = a.pos.z - p.pos.z
       const min = a.radius + p.radius
+      const d2 = dx * dx + dz * dz
