@@ -124,3 +124,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     let parent: THREE.Object3D = wrist
     let y = 0.092
     for (let s = 0; s < 3; s++) {
+      const j = new THREE.Group()
