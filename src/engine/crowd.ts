@@ -71,3 +71,4 @@ export class ShadowCrowd {
     if (need > b.cap) {
       let cap = b.cap
       while (cap < need) cap *= 2
+      this.group.remove(b.mesh)
