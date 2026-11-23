@@ -57,3 +57,4 @@ export class Colliders {
         pos.z = cz + dz * r
         outNormal?.set(dx, 0, dz)
       } else {
+        // Centre inside the box: leave along the shortest axis.
