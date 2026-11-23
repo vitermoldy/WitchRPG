@@ -543,6 +543,8 @@ export class UnitSystem {
       if (u.state === 'rising') {
         if (u.t > 1.2) {
           u.setState('move')
+          // The eyes light last.
+          if (u.team === 'shadow') host.glow.emit({ pos: u.center.setY(u.pos.y + u.height * 0.92), count: 5, color: COLOR.umbraHot, intensity: 4, life: 0.4, size: 0.3 + u.height * 0.08, sizeEnd: 0.05, speed: 0.6 })
         continue
       }
       if (u.state === 'held') continue
