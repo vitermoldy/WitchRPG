@@ -83,3 +83,5 @@ export class WorldDirector {
         if (!alive.length) {
           c.state = 'cleared'
           c.respawnAt = this.time + RESPAWN
+          g.hud.message(`Kamp Lv ${c.spot.levels[0]} sampai ${c.spot.levels[1]} ditaklukkan. Retakannya meredup.`, 'info')
+          g.sfx.levelUp()
