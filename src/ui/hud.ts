@@ -134,6 +134,8 @@ export class Hud {
       while (d > Math.PI) d -= Math.PI * 2
       while (d < -Math.PI) d += Math.PI * 2
       const shown = Math.abs(d) < span / 2
+      el.hidden = !shown
+      if (!shown) return
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
