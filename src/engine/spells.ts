@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import { CHAOS, SPELL } from '../game/balance'
 import { hasUpgrade, isUnlocked } from '../game/progression'
-import type { SkillId } from '../game/skills'
+import { skillById, type SkillId } from '../game/skills'
 import type { Game } from './game'
 import { COLOR } from './palette'
 import type { Prop } from './props'
