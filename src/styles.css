@@ -466,3 +466,4 @@ button:disabled {
   top: var(--gutter);
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
