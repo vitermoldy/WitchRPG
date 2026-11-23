@@ -86,3 +86,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   }
   // Grain.
   for (let i = 0; i < size * size * 0.05; i++) {
+    const v = R()
