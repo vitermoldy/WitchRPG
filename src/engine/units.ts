@@ -585,6 +585,7 @@ export class UnitSystem {
       this.steer(u, tmp2, speed, dt, 0)
       this.face(u, tgt.pos, dt, 6)
       if (u.cd <= 0 && sees && u.pos.distanceTo(tgt.pos) < spec.attackRange) {
+        u.setState('windup')
     }
   }
 
