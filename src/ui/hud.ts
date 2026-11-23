@@ -77,3 +77,4 @@ export class Hud {
     this.hitmark.setAttribute('class', kill ? 'hitmark kill' : 'hitmark on')
   }
 
+  riteResult(ok: boolean, name: string) {
