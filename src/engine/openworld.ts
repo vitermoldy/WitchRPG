@@ -132,3 +132,5 @@ const CURTAIN_FRAG = /* glsl */ `
     float fade = smoothstep(1.0, 0.0, vUv.y) * smoothstep(0.0, 0.06, vUv.y);
     vec3 col = mix(vec3(0.5, 0.03, 0.08), vec3(1.2, 0.2, 0.3), band * 0.6);
     float a = fade * (0.35 + 0.3 * band);
+    gl_FragColor = vec4(col * a, a);
+  }
