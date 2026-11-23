@@ -64,3 +64,4 @@ async function boot() {
     console.error(e)
   }
 
+  const hud = $('hud')
