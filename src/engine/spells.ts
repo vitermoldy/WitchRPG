@@ -449,3 +449,4 @@ export class Spells {
     const cam = g.camera
     const o = this.tmp2.copy(g.player.eyePos)
     const f = g.player.viewDir()
+    const right = new THREE.Vector3().crossVectors(f, new THREE.Vector3(0, 1, 0)).normalize()
