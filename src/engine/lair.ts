@@ -146,3 +146,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   for (let i = 0; i < 18; i++) {
     const a = (i / 18) * Math.PI * 2
     const h = 3 + ((i * 37) % 11)
+    const col = new THREE.Mesh(new THREE.CylinderGeometry(0.8, 1, h, 6), stone)
