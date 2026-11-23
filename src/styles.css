@@ -835,3 +835,4 @@ button:disabled {
 .army-slot .pip {
   width: 0.55rem;
   height: 0.55rem;
+  border: 1.5px solid var(--umbra);
