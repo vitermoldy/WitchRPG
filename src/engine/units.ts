@@ -149,3 +149,5 @@ export class UnitSystem {
 
   shadows() {
     return this.units.filter((u) => u.team === 'shadow' && u.alive)
+  }
+
