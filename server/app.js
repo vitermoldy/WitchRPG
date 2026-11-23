@@ -222,3 +222,5 @@ export function createApi(getPool, database) {
       [req.user.device],
     )
     res.json({ runs: rows })
+  })
+
