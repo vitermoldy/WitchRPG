@@ -298,3 +298,4 @@ export class UnitSystem {
       u.vel.x = u.lungeDir.x * ls
       u.vel.z = u.lungeDir.z * ls
       if (tgt && tgt.alive && !u.hitThisLunge) {
+        const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z)
