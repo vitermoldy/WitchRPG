@@ -1304,3 +1304,4 @@ dialog::backdrop {
   color: var(--ink-2);
 }
 
+@media (max-width: 900px) {
