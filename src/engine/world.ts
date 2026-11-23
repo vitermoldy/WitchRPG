@@ -190,3 +190,4 @@ function facadeTextures(seed: number) {
         g.lineTo(x + 40, y + 42 * R())
         g.fill()
       }
+    }
