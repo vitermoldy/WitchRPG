@@ -42,3 +42,5 @@ export class Player {
 
   // Tuned from stats each Rift.
   speedMult = 1
+  floatMax: number = MOVE.floatMax
+
