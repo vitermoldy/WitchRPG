@@ -555,3 +555,4 @@ export class Spells {
 
   private burst() {
     const g = this.g
+    const s = SPELL.burst
