@@ -160,3 +160,4 @@ export class Spells {
     return isUnlocked(this.g.profile, id)
   }
 
+  private upgraded(id: SkillId) {
