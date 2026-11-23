@@ -604,6 +604,7 @@ export class UnitSystem {
         u.hitThisLunge = false
         u.setState('lunge')
       }
+      return
     }
   }
 
