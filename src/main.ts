@@ -160,7 +160,7 @@ async function boot() {
     resumeHint.hidden = true
     if (s === 'title') {
       // Start on the highest tier this witch can enter, until the player picks one.
-      if (!pickedTier) game.tier = tierUnlocked(game.profile, 3) ? 3 : tierUnlocked(game.profile, 2) ? 2 : 1
+      if (!pickedTier) game.tier = [...TIER_IDS].reverse().find((t) => tierUnlocked(game.profile, t)) ?? 1
       renderTitle()
       account?.refresh()
       showScreen('title')
