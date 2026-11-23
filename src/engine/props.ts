@@ -107,3 +107,4 @@ export class PropSystem {
       id: nextId++,
       kind,
       mesh,
+      pos: pos.clone(),
