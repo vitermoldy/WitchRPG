@@ -355,3 +355,4 @@ export class Game {
   async enterRift() {
     this.sfx.start()
     this.units.clear()
+    this.respawnProps()
