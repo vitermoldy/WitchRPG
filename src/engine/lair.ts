@@ -85,3 +85,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   const group = new THREE.Group()
   group.name = 'lair'
   group.visible = false
+  const colliders = new Colliders()
