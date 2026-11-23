@@ -76,3 +76,4 @@ describe('stats and slots', () => {
     const d = derive(newProfile().stats)
     expect(d.maxHp).toBe(150)
     expect(d.maxMana).toBe(125)
+    expect(d.damageMult).toBe(1)
