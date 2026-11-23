@@ -81,3 +81,5 @@ export class WorldDirector {
       else if (c.state === 'active') {
         const alive = c.units.filter((u) => u.alive)
         if (!alive.length) {
+          c.state = 'cleared'
+          c.respawnAt = this.time + RESPAWN
