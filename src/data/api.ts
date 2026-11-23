@@ -6,3 +6,4 @@
 import type { Profile } from '../game/progression'
 
 const CODE_KEY = 'crimson-sovereign:client'
+const QUEUE_KEY = 'crimson-sovereign:unsent-rifts'
