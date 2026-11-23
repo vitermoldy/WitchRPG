@@ -466,6 +466,7 @@ function harrier(team: Team): UnitModel {
     body.add(leg)
   }
   const tail = pivot(body, 0, 0, 0.4)
+  let seg: THREE.Object3D = tail
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
