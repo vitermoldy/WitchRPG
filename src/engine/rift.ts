@@ -176,6 +176,7 @@ export class RiftDirector {
       p.mesh.visible = p.open > 0.02
     }
     this.exitMat.uniforms.uTime.value = t
+    this.gateMat.uniforms.uTime.value = t
 
     if (this.phase === 'intro') {
       this.timer -= dt
