@@ -148,3 +148,4 @@ export class Spells {
     this.g.hands.overload = false
   }
 
+  get overloaded() {
