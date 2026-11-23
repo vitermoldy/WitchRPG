@@ -44,7 +44,7 @@ export class Game {
   readonly sfx = new Sfx()
   readonly player = new Player()
   readonly world: WorldBuild
-  readonly colliders: Colliders
+  readonly lair: LairBuild
   readonly glow = new Particles(4000, 'glow')
   readonly smoke = new Particles(900, 'smoke')
   readonly lights: LightPool
