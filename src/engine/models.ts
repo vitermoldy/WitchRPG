@@ -123,3 +123,4 @@ function hound(team: Team): UnitModel {
   chest.position.z = -0.36
   body.add(chest)
   for (let i = 0; i < 5; i++) {
+    const spike = new THREE.Mesh(new THREE.ConeGeometry(0.05, 0.22 - i * 0.02, 4), s.bone)
