@@ -177,6 +177,7 @@ export class RiftDirector {
     }
     this.exitMat.uniforms.uTime.value = t
     this.gateMat.uniforms.uTime.value = t
+    if (this.bossUnit && !this.bossUnit.alive) this.bossUnit = null
 
     if (this.phase === 'intro') {
       this.timer -= dt
