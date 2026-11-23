@@ -57,3 +57,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   g.fill()
   // Paving joints on the sidewalks.
   g.strokeStyle = 'rgba(0,0,0,0.22)'
+  g.lineWidth = 1
