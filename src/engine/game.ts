@@ -207,3 +207,4 @@ export class Game {
     if (refill) {
       p.hp = p.maxHp
       p.mana = p.maxMana
+    } else {
