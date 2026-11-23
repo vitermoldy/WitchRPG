@@ -690,3 +690,4 @@ button:disabled {
 
 .vital-value {
   text-align: right;
+  color: var(--ink);
