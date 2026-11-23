@@ -860,6 +860,8 @@ export class Game {
         const prompt = this.worldDir.gatePrompt(gate)
         if (!prompt.ok) this.hud.message(prompt.text + '.', 'info')
         else {
+          this.returnToWorld = gate.pos.clone().add(new THREE.Vector3(0, 0, 0)).addScaledVector(gate.pos.clone().normalize().negate(), 10 + gate.tier)
+          void this.enterRift(gate.tier, true)
       this.finishRift()
       return
     }
