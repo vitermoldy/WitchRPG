@@ -209,6 +209,8 @@ export class UnitSystem {
     if (u.lifted <= 0) u.liftFrom = u.pos.y
     u.lifted = Math.max(u.lifted, seconds)
     if (u.state !== 'air') u.setState('air')
+  }
+
   private pickTarget(u: Unit): Target | null {
     const p = this.host.player
     let best: Target | null = null
