@@ -254,7 +254,7 @@ export class Hud {
       if (why) promptHtml = `<span class="blocked">${why}</span>`
       else if (g.umbra.casting.length) promptHtml = `Membangkitkan ${name}`
       else promptHtml = `<kbd>Tahan R</kbd> Bangkitkan ${name} <span class="chance">${Math.round(g.umbra.chance(c) * 100)}%</span>`
-    }
+    } else if (g.mode === 'world' && g.worldDir.nearAltar() && (p.hp < p.maxHp || p.mana < p.maxMana)) promptHtml = 'Altar memulihkan HP dan mana'
     if (this.cache.get('prompt') !== promptHtml) {
       this.cache.set('prompt', promptHtml)
       this.prompt.innerHTML = promptHtml
