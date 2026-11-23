@@ -625,6 +625,7 @@ export class Game {
     this.rings.spawn(at, col, 0.4, radius, 0.5)
     this.glow.emit({ pos: at.clone().setY(at.y + 0.3), count: 50, color: col, intensity: 2.6, life: 0.6, size: 0.25, sizeEnd: 0.04, speed: radius * 1.3, drag: 3, gravity: 4 })
     this.smoke.emit({ pos: at.clone().setY(at.y + 0.2), count: 16, color: 0x2a2224, life: 1.3, size: 1.6, sizeEnd: 2.8, speed: radius * 0.7, drag: 2.5, alpha: 0.7 })
+    this.sfx.slam(radius > 6)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
