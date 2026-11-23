@@ -8,3 +8,4 @@ import { AUTH_TABLES } from './auth.js'
  * - witch_upgrades: the skill upgrades bought in the Ledger, one row each;
  * - shadows: the Shadow Room, one row per raised shadow;
  * - rift_runs: every Rift that ended (cleared, fallen or left) with what happened in it.
+ * Times are stored in UTC.
