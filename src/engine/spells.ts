@@ -226,7 +226,7 @@ export class Spells {
     const hit = new THREE.Vector3()
     if (opts.units !== false) {
       for (const u of this.g.units.units) {
-        if (!u.alive || (opts.team && u.team !== opts.team) || (!opts.team && u.team !== 'rift')) continue
+        if (!u.alive || u.state === 'held' || (opts.team && u.team !== opts.team) || (!opts.team && u.team !== 'rift')) continue
         sphere.set(u.center, Math.max(u.radius, u.height * 0.42))
         if (ray.intersectSphere(sphere, hit)) {
           const d = hit.distanceTo(o)
