@@ -32,3 +32,4 @@ const conn = await pool.getConnection()
 try {
   await conn.beginTransaction()
   const [free] = await conn.query('SELECT c.id FROM clients c LEFT JOIN users u ON u.device_id = c.id WHERE u.id IS NULL ORDER BY c.last_seen DESC')
+  const client = free[0]?.id ?? Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHABET.length)]).join('')
