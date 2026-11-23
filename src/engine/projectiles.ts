@@ -97,3 +97,4 @@ export class Projectiles {
         s.vel.copy(back.normalize().multiplyScalar(speed))
         s.life = 3
         h.glow.emit({ pos: s.pos, count: 14, color: COLOR.chaosHot, intensity: 3, life: 0.4, size: 0.2, speed: 3 })
+        h.onReflect()
