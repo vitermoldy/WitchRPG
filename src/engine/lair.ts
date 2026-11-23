@@ -129,3 +129,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
       edge.position.set(x + ex, top + 0.01, z + ez)
       group.add(edge)
     }
+    const box = colliders.add(x, z, size, size, top)
