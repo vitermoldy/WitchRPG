@@ -173,3 +173,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
       colliders.floor = solid ? 0 : -1000
     },
     nearestTop(at: THREE.Vector3) {
+      let best = platforms[0]
