@@ -638,3 +638,4 @@ button:disabled {
 }
 
 .hitmark.kill line {
+  stroke: var(--chaos-ink);
