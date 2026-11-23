@@ -66,6 +66,7 @@ export class Projectiles {
     mesh.position.copy(from)
     this.group.add(mesh)
     this.shots.push({ pos: from.clone(), prev: from.clone(), vel, gravity: spec.gravity, radius: spec.radius, damage, team, life: 4, mesh, source, reflected: false, blast: spec.blast ?? 0 })
+    return t
   }
 
   clear() {
