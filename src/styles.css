@@ -541,6 +541,7 @@ button:disabled {
   inset: 0;
   background: #000;
   opacity: 0;
+  pointer-events: none;
 .banner {
   position: absolute;
   top: 24%;
