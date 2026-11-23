@@ -87,6 +87,8 @@ export class Hud {
     el.classList.remove('on')
     void el.offsetWidth
     el.classList.add('on')
+  }
+
   clearFeed() {
     this.feed.replaceChildren()
     this.bannerEl.classList.remove('show')
