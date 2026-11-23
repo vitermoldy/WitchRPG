@@ -396,3 +396,4 @@ export class Spells {
         if (d > SPELL.grip.range) continue
         const a = f.angleTo(to)
         if (a < bestA && g.colliders.clear(o, u.center)) {
+          bestA = a
