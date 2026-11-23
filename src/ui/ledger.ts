@@ -91,3 +91,4 @@ export class Ledger {
     if (this.dlg.open) this.dlg.close()
   }
 
+  private after(focusKey?: string) {
