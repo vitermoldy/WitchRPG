@@ -287,6 +287,8 @@ export class Hud {
     rows.push(`<li class="army-row"><span>Ruang Bayangan</span><b class="num">${total}</b></li>`)
     if (reform.count) rows.push(`<li class="army-row dim"><span>Terbentuk kembali</span><b class="num">${reform.count}, ${reform.next} dtk</b></li>`)
     // The strongest few on the field, with their health.
+    const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
+    const top = [...field].sort((a, b) => order[a.spec.rank] - order[b.spec.rank] || b.level - a.level).slice(0, 3)
     }
     if (empty) rows.push(`<li class="army-slot empty"><span class="pip"></span><span>${empty} slot kosong</span><span></span></li>`)
     const html = rows.join('')
