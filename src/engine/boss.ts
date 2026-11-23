@@ -200,3 +200,4 @@ export class BossFight {
       // Hover over the middle pillar; sink back down while landing.
       const hover = this.landT >= 0 ? this.home.y + BOSS.hoverHeight * (1 - this.landT / 2.2) : this.home.y + BOSS.hoverHeight + Math.sin(performance.now() / 700) * 0.4
       u.pos.x += (this.home.x - u.pos.x) * Math.min(1, dt * 2)
+      u.pos.z += (this.home.z - u.pos.z) * Math.min(1, dt * 2)
