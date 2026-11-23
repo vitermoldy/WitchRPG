@@ -38,3 +38,5 @@ function box(w: number, h: number, d: number, mat: THREE.Material, meshes: THREE
   m.castShadow = true
   meshes.push(m)
   return m
+}
+
