@@ -74,6 +74,9 @@ export class Umbra {
     const out = new Set(this.g.units.units.filter((u) => u.team === 'shadow' && u.record).map((u) => u.record!.id))
     const pending = new Set(this.calls.map((c) => c.rec.id))
     return this.g.profile.shadows.filter((s) => !out.has(s.id) && !pending.has(s.id) && (this.downUntil.get(s.id) ?? 0) <= this.time)
+  }
+
+  reforming(): { count: number; next: number } {
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
