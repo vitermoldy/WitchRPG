@@ -329,6 +329,7 @@ export const ELITE = {
   ward: { radius: 9, share: 0.65 },
 } as const
 
+/** `elites`: how many of the wave come out elite. `eliteLords`: every Rift Lord of the wave is one. */
 
 export type TierId = 1 | 2 | 3
 
