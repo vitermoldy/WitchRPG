@@ -30,3 +30,5 @@ const POSES: Record<PoseName, Pose> = {
 interface Finger {
   joints: THREE.Object3D[]
   baseSpread: number
+}
+
