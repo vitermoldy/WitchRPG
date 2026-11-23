@@ -395,7 +395,8 @@ export class Umbra {
     if (!g.spells.overloaded) g.player.mana -= this.cost(list.length)
     g.hands.pose('right', 'push', 0.4)
     g.hands.kick('right', 1.4)
-    if (roll < p) {
+    const raised: ShadowRecord[] = []
+    let faded = 0
       const rec = addShadow(g.profile, u.kind, u.level)
       if (!rec) {
         g.hud.message('Slot bayangan penuh. Lepas satu di Ledger (Tab).', 'umbra')
