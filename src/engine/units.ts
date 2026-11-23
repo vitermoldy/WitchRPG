@@ -111,3 +111,4 @@ export class Unit implements Target {
 const tmp = new THREE.Vector3()
 const tmp2 = new THREE.Vector3()
 
+export class UnitSystem {
