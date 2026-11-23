@@ -192,6 +192,7 @@ type Mats = (typeof shared)['rift'] & { body: THREE.MeshStandardMaterial }
  * A standing body with the same joints as the husk (spine, head, jaw, arms, forearms, legs, knees),
  * so one walk and strike animation fits every humanoid creature. `dress` adds what makes each one.
  */
+function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3D>, m: Mats, meshes: THREE.Mesh[]) => void): UnitModel {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
