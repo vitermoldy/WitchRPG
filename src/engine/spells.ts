@@ -456,3 +456,4 @@ export class Spells {
       return
     }
     this.grabbed.forEach((gb, i) => {
+      const heavy = (gb.unit ? gb.unit.mass : gb.prop!.mass) > 200
