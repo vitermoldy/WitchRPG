@@ -50,3 +50,4 @@ export class Game {
   readonly umbra: Umbra
   readonly rift: RiftDirector
   readonly hud: Hud
+  readonly ledger: Ledger
