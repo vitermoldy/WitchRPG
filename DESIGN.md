@@ -63,6 +63,8 @@ Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sine
 
 Motion: bob tangan, recoil saat cast, guncangan kamera, banner gelombang, dan feed yang memudar. Semua animasi CSS berhenti di `prefers-reduced-motion`; head bob dan guncangan kamera punya tombol sendiri di layar jeda.
 
+## Database dan akun (23 Nov 2026)
+
 ## Cara mengecek
 
 - `npm test`: kurva XP (80 dan 2.160), peluang Umbra Rite (contoh GDD 58%), slot, upgrade, bagi XP bayangan, damage lempar.
