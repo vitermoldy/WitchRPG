@@ -623,6 +623,7 @@ export class UnitSystem {
     }
     // Recovering, or back on its feet after a fall: pull up to cruising height.
     u.vel.x *= Math.exp(-2.5 * dt)
+    u.vel.z *= Math.exp(-2.5 * dt)
   }
 
   /** A slam hits every target of the other side inside its circle. */
