@@ -209,3 +209,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     user.focus()
   })
 
+  // A required sign-in has no "close": Escape does nothing while the server waits for a password,
