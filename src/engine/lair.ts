@@ -179,3 +179,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
         const d = Math.hypot(p.center.x - at.x, p.center.z - at.z)
         if (d < bd) {
           bd = d
+          best = p
