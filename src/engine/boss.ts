@@ -152,3 +152,4 @@ export class BossFight {
     this.g.hud.message(`Perjanjian menahanmu: HP pulih ${heal}, mana pulih ${BOSS.phaseMana}.`, 'umbra')
   }
 
+  private beginCollapse() {
