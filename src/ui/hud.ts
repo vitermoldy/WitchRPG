@@ -134,3 +134,5 @@ export class Hud {
     this.set('sk-overload', 'class', `skill skill-overload${full || g.spells.overloaded ? ' ready-full' : ''}`)
     const ocd = $('sk-overload').querySelector('.cd') as HTMLElement
     const ov = `scaleY(${g.spells.overloaded ? 0 : (1 - g.spells.chaos / CHAOS.max).toFixed(3)})`
+    if (ocd.style.transform !== ov) ocd.style.transform = ov
+
