@@ -183,3 +183,6 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       reserved.push({ x, z, r: 18 })
       campSpots.push({ x, z, band: c.band, elite: !!c.elite })
       break
+    }
+  })
+
