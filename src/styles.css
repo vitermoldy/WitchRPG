@@ -934,3 +934,4 @@ button:disabled {
   margin: 1rem 0 0;
   width: max-content;
   color: var(--ink-2);
+  font-size: 0.85rem;
