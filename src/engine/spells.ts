@@ -553,3 +553,4 @@ export class Spells {
     else this.raiseBarrier()
   }
 
+  private burst() {
