@@ -9,3 +9,4 @@ export interface Circle {
   top: number
 }
 
+/** The witch's body: movement, Crimson Float, slide, camera, bob and shake. */
