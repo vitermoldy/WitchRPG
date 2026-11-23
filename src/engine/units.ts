@@ -270,3 +270,4 @@ export class UnitSystem {
         }
         this.steer(u, tgt.pos, speed, dt, spec.attackRange - 0.4)
       }
+      return
