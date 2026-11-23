@@ -31,6 +31,7 @@ export interface UnitHost {
   growl(): void
   /** A glob from a ranged unit. */
   fire(from: THREE.Vector3, to: THREE.Vector3, u: Unit): void
+  /** A slam lands: dust, a ring, a shake for the witch if she is close. */
 }
 
 let nextId = 1
