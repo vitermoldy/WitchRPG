@@ -185,3 +185,4 @@ export class Game {
     this.camera.lookAt(0, 2, 0)
     await this.renderer.compileAsync(this.scene, this.camera)
     this.renderer.compile(this.hands.scene, this.hands.camera)
+    this.composer.render(0.016)
