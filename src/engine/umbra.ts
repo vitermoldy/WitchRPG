@@ -294,3 +294,4 @@ export class Umbra {
       const focusOn = isUnlocked(g.profile, 'focus')
       const hit = g.spells.aim(60, { props: false })
       let target = hit.unit
+      if (!target) {
