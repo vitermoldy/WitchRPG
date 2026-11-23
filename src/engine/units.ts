@@ -330,6 +330,8 @@ export class UnitSystem {
       host.slamFx(u.pos, p.radius, 'shadow')
       u.skillCd = p.every
     }
+  }
+
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
