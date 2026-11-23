@@ -89,3 +89,4 @@ export class Colliders {
       if (t > 0 && t < maxDist) best = { dist: t, point: o.clone().addScaledVector(dir, t), normal: new THREE.Vector3(0, 1, 0), box: null }
     }
     for (const b of this.boxes) {
+      const t = rayBox(o, dir, b, best ? best.dist : maxDist)
