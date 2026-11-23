@@ -200,3 +200,4 @@ export class Sfx {
   }
 
   riteCharge(k: number) {
+    if (!this.ok()) return
