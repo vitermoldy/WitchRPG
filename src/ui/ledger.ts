@@ -93,6 +93,8 @@ export class Ledger {
         void confirmDialog(`Lepas ${rec.name}?`, `${rec.name} kembali menjadi debu. Bayangan yang dilepas tidak bisa dipanggil lagi.`, 'Lepas bayangan').then((ok) => {
           if (ok && releaseShadow(p, id)) this.after()
           if (!this.dlg.open) this.dlg.showModal()
+          // The pressed button may be gone; keep focus in the Ledger, on the group or the close button.
+          const back = ok ? this.dlg.querySelector<HTMLElement>(`details[data-group="${group}"] summary`) : t
         })
       }
     })
