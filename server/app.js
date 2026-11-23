@@ -118,3 +118,5 @@ function cleanRun(run) {
   ]
   if (values.includes(null)) return { error: 'Angka Rift di luar batas.' }
   return { row: values }
+}
+
