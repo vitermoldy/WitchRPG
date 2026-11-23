@@ -133,7 +133,7 @@ export class Ledger {
     box.innerHTML = `<ol class="history-list">${runs
       .map(
         (r) => `<li class="history-item ${r.result}">
-          <p class="history-result">${RESULT[r.result]}<span class="num">Tier ${'I'.repeat(Math.min(3, r.tier))}</span></p>
+          <p class="history-result">${RESULT[r.result]}<span class="num">Tier ${TIERS[r.tier as TierId]?.roman ?? r.tier}</span></p>
           <p class="history-meta">Gelombang ${r.wave} dari ${r.waves}, ${fmt(r.kills)} musuh, +${fmt(r.xpGained)} XP${r.levelsGained ? `, naik ${r.levelsGained} level ke Lv ${r.levelAfter}` : ''}${r.shadowsRaised ? `, ${r.shadowsRaised} bayangan baru` : ''}</p>
           <p class="history-when num">${new Date(r.finishedAt).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}<span>${duration(r.seconds)}</span></p>
         </li>`,
