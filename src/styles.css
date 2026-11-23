@@ -538,6 +538,7 @@ button:disabled {
 
 .fade {
   position: absolute;
+  inset: 0;
 .banner {
   position: absolute;
   top: 24%;
