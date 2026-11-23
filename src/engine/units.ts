@@ -812,6 +812,7 @@ export class UnitSystem {
     }
     for (const a of this.units) {
       if (!free(a)) continue
+      const cx = Math.floor(a.pos.x / CELL)
       }
       // Keep clear of the witch.
       const p = host.player
