@@ -89,3 +89,4 @@ export class Projectiles {
       if (s.team === 'rift' && h.inWarp(s.pos)) {
         s.team = 'witch'
         s.reflected = true
+        s.damage *= h.reflectDamage
