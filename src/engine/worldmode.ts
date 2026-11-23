@@ -45,3 +45,6 @@ export class WorldDirector {
     }
     this.lastHp = this.g.player.hp
     this.calm = 0
+  }
+
+  private wake(c: Camp) {
