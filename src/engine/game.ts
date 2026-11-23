@@ -186,3 +186,4 @@ export class Game {
     await this.renderer.compileAsync(this.scene, this.camera)
     this.renderer.compile(this.hands.scene, this.hands.camera)
     this.composer.render(0.016)
+    for (const s of samples) this.units.remove(s)
