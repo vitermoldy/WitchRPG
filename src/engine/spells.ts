@@ -109,3 +109,4 @@ export class Spells {
   private readonly tmp2 = new THREE.Vector3()
 
   constructor(g: Game) {
+    this.g = g
