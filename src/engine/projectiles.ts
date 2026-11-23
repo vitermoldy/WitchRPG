@@ -135,3 +135,4 @@ export class Projectiles {
     const h = this.host
     for (const u of h.units.units) {
       if (u.team !== team || !u.alive || u === s.source) continue
+      const c = u.center
