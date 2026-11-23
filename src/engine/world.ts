@@ -19,3 +19,5 @@ export interface WorldBuild {
   update: (t: number) => void
   keyLight: THREE.DirectionalLight
   riftDir: THREE.Vector3
+}
+
