@@ -778,6 +778,7 @@ export class UnitSystem {
       armR.rotation.x = -k * 2.2
       return
     }
+    m.body.rotation.x = 0
     }
   }
 }
