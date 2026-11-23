@@ -256,6 +256,7 @@ export class Sfx {
   }
 
   slam(big = false) {
+    if (!this.ok()) return
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
