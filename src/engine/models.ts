@@ -366,6 +366,7 @@ function hollow(team: Team): UnitModel {
         const pad = box(0.6, 0.3, 0.6, m.bone, meshes, 1.42)
         pad.position.x = side * 0.88
         pad.rotation.z = side * -0.35
+        p.spine.add(pad)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
