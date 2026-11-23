@@ -11,3 +11,4 @@ import {
   onAuth,
   pushProfile,
   queuedRifts,
+  saveRift,
