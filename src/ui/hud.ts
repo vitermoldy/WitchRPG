@@ -243,6 +243,8 @@ export class Hud {
     } else if (c && many >= 2) {
       const why = g.umbra.blocker(undefined, many)
       const chances = g.umbra.targets.map((u) => Math.round(g.umbra.chance(u) * 100))
+      const lo = Math.min(...chances)
+      const hi = Math.max(...chances)
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
