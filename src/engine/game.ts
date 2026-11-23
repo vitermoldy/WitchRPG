@@ -233,3 +233,5 @@ export class Game {
       this.colliders.boxes.push(b)
     }
     this.brokenCover.length = 0
+  }
+
