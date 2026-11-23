@@ -497,3 +497,4 @@ export class Spells {
     }
     if (Math.random() < 0.5) {
       const s = Math.random()
+      g.glow.emit({ pos: this.tendrilPts[Math.floor(s * 15)], count: 1, color: COLOR.chaosHot, intensity: 2.5, life: 0.25, size: 0.1, speed: 0.6 })
