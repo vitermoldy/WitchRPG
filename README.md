@@ -43,6 +43,7 @@ Akun pemilik: `vmk`.
 | Q | Chaos Burst (Lv 3) |
 | E | Hex Snare (Lv 5) |
 | X | Hex Barrier (Lv 7) |
+| V | Reality Warp (Lv 10) |
 | G | Crimson Overload saat meter Chaos penuh |
 
 | Tangan kanan, Umbra | |
