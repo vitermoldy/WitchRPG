@@ -121,3 +121,4 @@ export class ShadowCrowd {
   clear() {
     for (const b of this.batches.values()) b.mesh.count = 0
   }
+}
