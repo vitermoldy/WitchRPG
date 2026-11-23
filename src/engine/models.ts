@@ -4,3 +4,4 @@ import { COLOR } from './palette'
 
 export type Team = 'rift' | 'shadow'
 
+export interface UnitModel {
