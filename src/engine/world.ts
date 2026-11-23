@@ -199,3 +199,5 @@ function facadeTextures(seed: number) {
   emissive.colorSpace = THREE.SRGBColorSpace
   emissive.wrapS = emissive.wrapT = THREE.RepeatWrapping
   return { map, emissive }
+}
+
