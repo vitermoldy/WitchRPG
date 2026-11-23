@@ -49,3 +49,4 @@ export class Unit implements Target {
   readonly vel = new THREE.Vector3()
   readonly lastGood = new THREE.Vector3()
   yaw = 0
+  state: UnitState = 'move'
