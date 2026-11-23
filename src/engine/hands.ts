@@ -199,3 +199,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     flash: 0,
     color: new THREE.Color(color),
     overloadColor: new THREE.Color(COLOR.chaos),
+  }
