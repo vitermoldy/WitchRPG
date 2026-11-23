@@ -1686,3 +1686,6 @@ dialog::backdrop {
 
 .veil-umbra.on {
   animation: umbra-breath 1.7s ease-out;
+}
+
+@keyframes umbra-breath {
