@@ -131,3 +131,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
         g.moveTo(cx, cy)
         for (let k = 0; k < len; k++) {
           ca += (R2() - 0.5) * 0.9
+          cx += Math.cos(ca) * 7
