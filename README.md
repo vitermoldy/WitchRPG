@@ -8,6 +8,7 @@ Ini versi pertama dari [Game Design Document](./Game%20Design%20Document%20RPG%2
 | --- | --- | --- |
 | Tier I | Lv 1 | Husk dan Rift Hound, lima gelombang |
 | Tier II | Lv 4 | Ditambah Spitter yang menembak dari perancah |
+| Tier III | Lv 7 | Ditambah Warden berperisai dan Rift Lord; di ujungnya Jantung Rift (Lv 10) |
 
 ## Menjalankan
 
