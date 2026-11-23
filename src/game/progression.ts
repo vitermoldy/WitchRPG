@@ -64,3 +64,5 @@ export function newProfile(): Profile {
     clears: 0,
     settings: { ...DEFAULT_SETTINGS },
   }
+}
+
