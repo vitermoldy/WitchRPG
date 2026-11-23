@@ -25,3 +25,6 @@ export class WorldDirector {
   camps: Camp[] = []
   private time = 0
   private lastHp = 0
+  private calm = 0
+  private leashT = 0
+
