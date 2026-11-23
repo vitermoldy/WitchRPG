@@ -82,3 +82,4 @@ export class Player {
     const moving = wish.lengthSq() > 0
     if (moving) wish.normalize()
 
+    const crouchHeld = canAct && input.held('KeyC')
