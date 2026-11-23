@@ -94,6 +94,8 @@ Pemilik meminta: witch bisa terbang, ada mode dunia terbuka, bayangan bisa diban
 
 ## Semua bayangan keluar (23 Nov 2026)
 
+Pemilik meminta "bayangannya bisa dikeluarkan tanpa kecuali". Saya membacanya sebagai: T memanggil seluruh Ruang Bayangan, tanpa batas 50 dari bagian sebelumnya.
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
