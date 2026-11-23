@@ -180,3 +180,4 @@ export class BossFight {
     const goal = this.targetFor()
     if (this.collapseT >= 0) {
       u.vel.set(0, 0, 0)
+      return true
