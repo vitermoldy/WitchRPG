@@ -219,3 +219,5 @@ export class Game {
 
   saveSoon() {
     this.saveTimer = 0.4
+  }
+
