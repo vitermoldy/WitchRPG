@@ -457,3 +457,4 @@ export class Spells {
     }
     this.grabbed.forEach((gb, i) => {
       const heavy = (gb.unit ? gb.unit.mass : gb.prop!.mass) > 200
+      const dist = SPELL.grip.holdDistance + (heavy ? 2 : 0)
