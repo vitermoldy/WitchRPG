@@ -28,3 +28,4 @@ export const MOVE = {
 
 export const CAMERA = {
   fov: 80,
+  sprintFov: 90,
