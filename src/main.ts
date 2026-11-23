@@ -163,3 +163,4 @@ async function boot() {
     const ok = await confirmDialog('Tinggalkan Rift?', 'XP dan bayangan yang sudah didapat tetap tersimpan. Gelombang di Rift ini harus diulang dari awal.', 'Tinggalkan Rift')
     if (ok) game.leaveRift()
     else $('btn-resume').focus()
+  })
