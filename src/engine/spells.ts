@@ -435,3 +435,4 @@ export class Spells {
     this.tendrilLight = g.lights.acquire(COLOR.chaos, 5, 8)
   }
 
+  private holdGrip(dt: number) {
