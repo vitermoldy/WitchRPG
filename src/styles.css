@@ -672,3 +672,4 @@ button:disabled {
   gap: 0.35rem;
   width: min(22rem, 40vw);
   padding: 0.7rem 0.8rem 0.8rem;
+  border-radius: var(--radius);
