@@ -683,3 +683,4 @@ export class Spells {
     this.barrierAbsorb = s.absorb + (this.upgraded('barrier') ? s.absorbUpgrade : 0)
     this.shield.visible = true
     g.hands.pose('left', 'block', s.duration)
+    g.hands.pose('right', 'block', s.duration)
