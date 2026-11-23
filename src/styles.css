@@ -558,3 +558,4 @@ button:disabled {
 }
 
 .feed-item.level::before {
+  content: 'Level';
