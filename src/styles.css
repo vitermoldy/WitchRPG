@@ -496,3 +496,4 @@ button:disabled {
   transform: translate(-50%, 8px);
   width: min(90vw, 40rem);
   text-align: center;
+  opacity: 0;
