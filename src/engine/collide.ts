@@ -39,6 +39,7 @@ export class Colliders {
     const ix1 = Math.floor((x + r) / CELL)
     const iz0 = Math.floor((z - r) / CELL)
     const iz1 = Math.floor((z + r) / CELL)
+    if (ix0 === ix1 && iz0 === iz1) return this.cells.get(cellKey(ix0, iz0)) ?? NONE
 
   add(cx: number, cz: number, w: number, d: number, top: number, extra: Partial<Box> = {}): Box {
     const b: Box = { minX: cx - w / 2, maxX: cx + w / 2, minZ: cz - d / 2, maxZ: cz + d / 2, top, alive: true, ...extra }
