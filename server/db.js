@@ -93,3 +93,4 @@ export async function connect(db) {
 
 /** Brings a database made before version 1 (Tier I only) up to date. Safe to run every start. */
 async function migrate(pool) {
+  const has = async (table, column) => {
