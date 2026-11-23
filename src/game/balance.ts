@@ -47,3 +47,4 @@ export const PLAYER = {
 } as const
 
 export const CHAOS = {
+  max: 100,
