@@ -328,3 +328,4 @@ export class Game {
     p.hp -= left
     p.hurtTimer = 0.3
     this.hud.hurtFlash(Math.min(0.8, left / 30))
+    p.addTrauma(Math.min(0.5, 0.12 + left / 60))
