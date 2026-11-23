@@ -60,3 +60,4 @@ export class RiftDirector {
 
   start() {
     this.phase = 'intro'
+    this.wave = 0
