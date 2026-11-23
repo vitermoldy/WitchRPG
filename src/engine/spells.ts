@@ -536,3 +536,5 @@ export class Spells {
       g.hands.kick('left', 1.2)
       g.player.addTrauma(0.12)
     } else g.hands.pose('left', 'idle')
+  }
+
