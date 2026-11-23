@@ -54,6 +54,7 @@ Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama
 | --- | --- | --- |
 | Kunci tier | Tier II terbuka di Lv 4, Tier III di Lv 7 | GDD memberi level musuh per tier (1 sampai 3, 4 sampai 6, 7 sampai 9) tanpa syarat masuk; kuncinya mengikuti level musuh itu. |
 | Gerbang Jantung Rift | Terbuka di akhir Tier III hanya untuk witch Lv 10 | Fase 3 boss hanya bisa dilukai di dalam Reality Warp, dan GDD membuka Reality Warp di Lv 10. Tanpa syarat ini fase 3 tidak bisa dimenangkan. Witch di bawah Lv 10 keluar biasa dan diberi tahu syaratnya. |
+| Spitter | Muncul di atas perancah setinggi 4 sampai 5 m dan menembak gumpalan berbusur | GDD: "menembak dari tempat tinggi", dijawab dengan Telekinesis (tarik jatuh) dan Crimson Float. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
