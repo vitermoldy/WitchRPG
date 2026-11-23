@@ -175,3 +175,4 @@ export class PropSystem {
       const dz = o.pos.z - p.pos.z
       const r = (o.radius + p.radius) * 0.65
       if (dx * dx + dz * dz < r * r) floor = Math.max(floor, o.pos.y + o.halfH)
+    }
