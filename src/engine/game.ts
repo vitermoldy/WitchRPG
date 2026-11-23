@@ -297,3 +297,4 @@ export class Game {
       this.rift.levelsGained += r.levelsGained
       this.applyStats(false)
       this.sfx.levelUp()
+      this.hud.message(`Lv ${this.profile.level}. ${this.profile.statPoints} poin stat dan ${this.profile.skillPoints} poin skill menunggu di Ledger (Tab).`, 'level')
