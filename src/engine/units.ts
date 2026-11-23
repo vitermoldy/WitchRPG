@@ -74,3 +74,5 @@ export class Unit implements Target {
   holdPos = new THREE.Vector3()
   slot = 0
   focus: Unit | null = null
+  focusBonus = 0
+
