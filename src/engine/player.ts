@@ -171,3 +171,4 @@ export class Player {
       if (this.staminaDelay <= 0) this.stamina = Math.min(MOVE.staminaMax, this.stamina + MOVE.staminaRegen * dt)
     }
 
+    // Last line of defence: a bad number here would spread to every enemy chasing the witch.
