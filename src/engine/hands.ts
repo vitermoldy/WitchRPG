@@ -67,3 +67,4 @@ function sigilShape(): THREE.BufferGeometry {
   const geo = new THREE.BufferGeometry()
   const pos: number[] = []
   const idx: number[] = []
+  let off = 0
