@@ -572,6 +572,7 @@ export class Game {
     this.player.addTrauma(0.5)
   }
 
+  onBossDefeated() {
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
