@@ -112,3 +112,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
           ? 'Server mati, jadi progres hanya tersimpan di browser ini.'
           : 'Belum masuk. Progres hanya tersimpan di browser ini.'
       button.textContent = 'Masuk'
+      button.hidden = false
