@@ -10,3 +10,4 @@ export interface PropSpot {
   stack?: number
 }
 
+export interface WorldBuild {
