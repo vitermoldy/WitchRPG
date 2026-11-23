@@ -48,3 +48,4 @@ export class Colliders {
       let dz = pos.z - cz
       const d2 = dx * dx + dz * dz
       if (d2 >= r * r) continue
+      hit = true
