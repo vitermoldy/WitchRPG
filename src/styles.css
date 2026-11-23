@@ -1339,3 +1339,4 @@ dialog::backdrop {
     grid-row: 2;
   }
   .setting-check {
+    grid-template-columns: auto 1fr;
