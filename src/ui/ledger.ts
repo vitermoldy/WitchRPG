@@ -168,3 +168,4 @@ export class Ledger {
         </li>`,
           )
           .join('')
+      : `<li class="room-empty">${
