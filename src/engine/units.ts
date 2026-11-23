@@ -132,6 +132,7 @@ export class Unit implements Target {
   get model(): UnitModel {
     if (!this.built) {
       this.built = buildModel(this.kind, this.team)
+      // A shadow army casts no shadows: half the draw cost per soldier, and they are shadow already.
   get alive() {
     return this.state !== 'dead'
   }
