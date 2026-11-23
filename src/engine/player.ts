@@ -145,3 +145,4 @@ export class Player {
     for (const b of blockers) {
       const dx = this.pos.x - b.pos.x
       const dz = this.pos.z - b.pos.z
+      const min = this.radius + b.radius
