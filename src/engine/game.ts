@@ -496,3 +496,4 @@ export class Game {
     if (this.camera.fov !== CAMERA.fov) {
       this.camera.fov = CAMERA.fov
       this.camera.updateProjectionMatrix()
+    }
