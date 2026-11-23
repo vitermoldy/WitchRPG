@@ -301,3 +301,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   // The great tear in the sky.
   const tearMat = makeTearMaterial(3.1)
   ;(tearMat as THREE.ShaderMaterial & { fog: boolean }).fog = false
+  const tear = new THREE.Mesh(new THREE.PlaneGeometry(70, 150), tearMat)
