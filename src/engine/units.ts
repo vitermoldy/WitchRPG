@@ -297,6 +297,7 @@ export class UnitSystem {
       if (mine < s.max && u.target) {
         for (let i = 0; i < s.count; i++) {
           const a = u.yaw + (i - (s.count - 1) / 2) * 0.9 + Math.PI
+          host.summon('husk', u.level, tmp.set(u.pos.x + Math.sin(a) * 2.6, u.pos.y, u.pos.z + Math.cos(a) * 2.6).clone(), 'rift', u)
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
