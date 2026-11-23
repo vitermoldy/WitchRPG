@@ -10,3 +10,4 @@ import { AUTH_TABLES } from './auth.js'
  * - rift_runs: every Rift that ended (cleared, fallen or left) with what happened in it.
  * Times are stored in UTC.
  */
+const TABLES = [
