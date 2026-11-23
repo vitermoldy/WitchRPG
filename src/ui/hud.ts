@@ -137,6 +137,7 @@ export class Hud {
         : r.phase === 'breather'
           ? 'Jeda antar gelombang'
           : r.phase === 'cleared'
+            ? g.inLair
 
     // Skills.
     const cds = g.spells.cooldowns()
