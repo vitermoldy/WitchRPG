@@ -5,6 +5,7 @@ import {
   buyUpgrade,
   derive,
   isFresh,
+  riteBlock,
   gainXp,
   impactDamage,
   newProfile,
