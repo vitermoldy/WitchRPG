@@ -4,3 +4,5 @@ import type { Particles } from './fx'
 import { COLOR } from './palette'
 import type { DamageSource, Unit, UnitSystem } from './units'
 
+export type ShotTeam = 'rift' | 'witch'
+
