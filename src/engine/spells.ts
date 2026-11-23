@@ -305,3 +305,5 @@ export class Spells {
     this.g.scene.remove(b.mesh)
     this.g.lights.release(b.light)
     b.light = null
+  }
+
