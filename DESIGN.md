@@ -57,3 +57,4 @@ Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sine
 | Tangan bersarung gelap dengan sigil bercahaya | Tangan pucat terlihat seperti kertas datar di adegan gelap. Sarung gelap membuat sigil dan cahaya telapak membawa warnanya, dan siluet jari tetap terbaca. |
 | Glow hanya di sihir, sigil, retakan, dan tombol Overload saat siap | Bloom adalah bahasa sihir di game ini. Panel HUD tetap datar supaya glow tetap berarti "ada kekuatan di sini". |
 | HUD di tepi layar, panel semi-transparan, radius 4 px | Tengah layar milik tangan dan pertarungan (pilar 1 GDD). Radius kecil menjaga kesan tegas, tidak ada bentuk pil. |
+| Pesan Ledger di kiri tengah, diberi label kecil "Ledger" | GDD menyebut identitas witch dibawa lewat pesan Ledger. Label memberi suara itu tanpa jendela sistem bergaya game sumber. |
