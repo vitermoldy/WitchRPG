@@ -207,6 +207,7 @@ export class Game {
       inWarp: (at) => this.spells.inWarp(at),
       reflectDamage: SPELL.warp.reflectDamage,
       onReflect: () => this.sfx.reflect(),
+      blast: (at, radius, damage, team, reflected) => this.blast(at, radius, damage, team === 'rift' ? 'rift' : 'witch', team === 'rift' ? 'rift' : reflected ? 'player' : 'shadow'),
     })
     this.scene.add(this.projectiles.group)
     this.spells = new Spells(this)
