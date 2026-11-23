@@ -485,3 +485,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const r = 14 + R() * 40
     const base = 16 + R() * 30
     m.position.set(Math.cos(a) * r, base, Math.sin(a) * r)
+    m.castShadow = true
