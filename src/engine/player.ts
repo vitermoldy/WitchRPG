@@ -93,6 +93,8 @@ export class Player {
     const moving = wish.lengthSq() > 0
     if (moving) wish.normalize()
 
+    // Double-tap Space: take to the air, or stop flying.
+    this.clock += dt
     const crouchHeld = canAct && input.held('KeyC')
     this.sprinting = canAct && input.held('ShiftLeft') && fwd > 0 && !this.crouching && this.sliding <= 0
     if (canAct && input.pressed('KeyC') && this.onGround && this.sprinting) {
