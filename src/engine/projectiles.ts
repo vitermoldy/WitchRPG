@@ -137,3 +137,4 @@ export class Projectiles {
       if (u.team !== team || !u.alive || u === s.source) continue
       const c = u.center
       const reach = s.radius + Math.max(u.radius, u.height * 0.42)
+      if (c.distanceToSquared(s.pos) > reach * reach) continue
