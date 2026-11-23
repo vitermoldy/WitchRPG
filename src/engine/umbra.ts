@@ -61,3 +61,4 @@ export class Umbra {
     const u = g.units.spawn(rec.kind, 'shadow', rec.level, at, true)
     u.record = rec
     u.slot = g.profile.shadows.indexOf(rec)
+    u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
