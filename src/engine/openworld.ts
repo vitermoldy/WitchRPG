@@ -56,3 +56,5 @@ function facadeMaterial() {
       .replace(
         '#include <worldpos_vertex>',
         `#include <worldpos_vertex>
+        #ifdef USE_INSTANCING
+          vec4 wp4 = modelMatrix * instanceMatrix * vec4(transformed, 1.0);
