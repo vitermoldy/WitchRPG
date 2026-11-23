@@ -334,3 +334,4 @@ export class UnitSystem {
   update(dt: number, t: number) {
     const host = this.host
     for (const u of this.units) {
+      u.t += dt
