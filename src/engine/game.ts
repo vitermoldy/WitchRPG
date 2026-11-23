@@ -169,3 +169,4 @@ export class Game {
       if (code === 'Tab' && this.state === 'playing') this.openLedger()
     }
     this.input.onLockChange = (locked) => {
+      if (!locked && this.state === 'playing') this.setState('paused')
