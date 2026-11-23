@@ -143,3 +143,4 @@ export class Ledger {
           if (!s.built) up = `<p class="node-up">Belum ada di prototype ini</p>`
           else if (bought) up = `<p class="node-up bought">Upgrade terpasang: ${s.upgrade}</p>`
           else
+            up = `<p class="node-up"><span>Upgrade: ${s.upgrade}</span><button class="btn btn-small ${branch === 'umbra' ? 'btn-umbra' : ''}" type="button" data-upgrade="${s.id}" ${
