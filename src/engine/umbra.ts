@@ -70,6 +70,8 @@ export class Umbra {
   }
 
   /** Records that could be called right now: not out, not reforming. */
+  ready(): ShadowRecord[] {
+    const out = new Set(this.g.units.units.filter((u) => u.team === 'shadow' && u.record).map((u) => u.record!.id))
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
