@@ -199,3 +199,4 @@ export class Umbra {
     const g = this.g
     const u = this.candidate
     if (!u) return
+    const why = this.blocker()
