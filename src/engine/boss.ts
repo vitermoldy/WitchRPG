@@ -78,3 +78,4 @@ export class BossFight {
       const off = Math.hypot(u.pos.x - this.home.x, u.pos.z - this.home.z)
       if (off > 2.8) {
         u.pos.x = this.home.x + ((u.pos.x - this.home.x) / off) * 2.8
+        u.pos.z = this.home.z + ((u.pos.z - this.home.z) / off) * 2.8
