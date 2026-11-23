@@ -337,3 +337,4 @@ export function glowTexture(): THREE.Texture {
   const tex = new THREE.CanvasTexture(c)
   tex.colorSpace = THREE.SRGBColorSpace
   return tex
+}
