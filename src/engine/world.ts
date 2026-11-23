@@ -308,3 +308,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.add(tear)
 
   // Light: dim crimson sky fill, a red key light from the tear, cold violet bounce.
+  scene.add(new THREE.HemisphereLight(0x5c3a42, 0x140c12, 1.1))
