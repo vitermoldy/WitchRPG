@@ -504,3 +504,4 @@ export class Spells {
   private dropAll(throwIt: boolean) {
     const g = this.g
     if (!this.grabbed.length) return
+    const f = g.player.viewDir()
