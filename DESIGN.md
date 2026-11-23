@@ -64,6 +64,7 @@ Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama
 | Lemparan Telekinesis | Terbang hampir lurus selama 0,9 detik menuju titik bidik | Dengan gravitasi penuh, batu jatuh sekitar 5 m sebelum mencapai boss yang melayang 20 m jauhnya. |
 | XP per rank | Prajurit ×1, Ksatria ×2, Jenderal ×5, Marsekal ×10 (boss Lv 10 = 1.500 XP) | GDD: "Hadiah: XP besar". Rumus 10 XP per level musuh tetap dipakai sebagai dasar. |
 | Pertumbuhan | Musuh +15% HP dan +10% damage per level (sebelumnya +25% dan +15%); witch +5% damage dan +8 HP per level | Tanpa ini husk Lv 9 butuh tiga kali lebih banyak bolt dari husk Lv 1 sementara witch tidak bertambah kuat. Dikunci tes. |
+| Upgrade Hex Bolt | 3 peluru × 6 damage (sebelumnya × 9) | Versi lama hampir melipattigakan DPS dan menghabisi fase 1 boss dalam 8 detik. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
