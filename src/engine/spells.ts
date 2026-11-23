@@ -29,3 +29,4 @@ type Grabbed = { unit: Unit; prop?: undefined } | { prop: Prop; unit?: undefined
 
 export interface AimHit {
   point: THREE.Vector3
+  dist: number
