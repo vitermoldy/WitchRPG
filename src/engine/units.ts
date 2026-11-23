@@ -422,3 +422,4 @@ export class UnitSystem {
 
     // Separation so crowds spread instead of stacking.
     for (let i = 0; i < this.units.length; i++) {
+      const a = this.units[i]
