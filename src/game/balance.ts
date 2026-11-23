@@ -403,6 +403,7 @@ export const TIERS: Record<TierId, TierSpec> = {
     maxAlive: 18,
     waves: [
       { husk: 7, hound: 3, harrier: 3, levels: [10, 10], elites: 1 },
+      { husk: 7, hound: 3, spitter: 2, harrier: 4, levels: [10, 11], elites: 2 },
 }
 
 export const RIFT = {
