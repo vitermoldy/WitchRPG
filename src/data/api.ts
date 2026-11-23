@@ -137,3 +137,4 @@ export async function signOut(): Promise<void> {
   try {
     localStorage.removeItem(CODE_KEY)
     localStorage.removeItem(QUEUE_KEY)
+  } catch {
