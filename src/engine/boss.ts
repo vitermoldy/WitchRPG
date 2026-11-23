@@ -168,3 +168,4 @@ export class BossFight {
 
   private targetFor(): THREE.Vector3 | null {
     const g = this.g
+    const p = g.player
