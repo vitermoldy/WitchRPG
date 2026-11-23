@@ -241,6 +241,8 @@ export class Hud {
       const gp = g.worldDir.gatePrompt(gate)
       promptHtml = gp.ok ? `<kbd>F</kbd> ${gp.text}` : `<span class="blocked">${gp.text}</span>`
     } else if (c && many >= 2) {
+      const why = g.umbra.blocker(undefined, many)
+      const chances = g.umbra.targets.map((u) => Math.round(g.umbra.chance(u) * 100))
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
