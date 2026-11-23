@@ -26,3 +26,4 @@ export interface ShotHost {
   player: { pos: THREE.Vector3; alive: boolean }
   glow: Particles
   smoke: Particles
+  hurtPlayer(dmg: number, from: THREE.Vector3): void
