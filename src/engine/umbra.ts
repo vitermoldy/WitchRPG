@@ -26,3 +26,4 @@ export class Umbra {
     this.g = g
   }
 
+  reset() {
