@@ -146,3 +146,4 @@ export class Player {
       const dx = this.pos.x - b.pos.x
       const dz = this.pos.z - b.pos.z
       const min = this.radius + b.radius
+      const d2 = dx * dx + dz * dz
