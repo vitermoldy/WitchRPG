@@ -168,3 +168,4 @@ export class Umbra {
       }
       if (!g.input.held('KeyZ')) {
         this.wheelOpen = false
+        g.hands.pose('right', 'idle')
