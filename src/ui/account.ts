@@ -37,3 +37,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   const submit = $<HTMLButtonElement>('gate-submit')
   const error = $('gate-error')
   let mode: 'in' | 'up' = 'in'
+  let busy = false
