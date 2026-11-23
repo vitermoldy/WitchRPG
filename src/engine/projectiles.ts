@@ -25,3 +25,4 @@ export interface ShotHost {
   units: UnitSystem
   player: { pos: THREE.Vector3; alive: boolean }
   glow: Particles
+  smoke: Particles
