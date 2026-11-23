@@ -135,6 +135,8 @@ export class Umbra {
       g.hud.message(r.count ? `Semua bayangan sedang terbentuk kembali. Yang pertama siap dalam ${r.next} detik.` : 'Tidak ada bayangan yang bisa dipanggil.', 'umbra')
       return
     }
+    // Strongest first: Marsekal, Jenderal, Ksatria, then by level.
+    const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
