@@ -76,6 +76,7 @@ const WARP_FRAG = /* glsl */ `
     vec3 col = mix(vec3(0.56, 0.33, 1.0), vec3(1.0, 0.16, 0.24), vUv.y) * 1.6;
     float a = k * (0.25 + 0.5 * bands) * uFade;
     gl_FragColor = vec4(col * a, a);
+  }
 const RUNE_VERT = /* glsl */ `
   varying vec2 vUv;
   void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }
