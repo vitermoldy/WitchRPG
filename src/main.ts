@@ -186,6 +186,7 @@ async function boot() {
       const i = open.indexOf(el)
       const next = open[(i + (e.key === 'ArrowRight' ? 1 : open.length - 1)) % open.length]
       game.tier = Number(next.dataset.tier) as TierId
+      pickedTier = true
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
