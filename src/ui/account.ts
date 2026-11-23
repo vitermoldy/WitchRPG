@@ -246,3 +246,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       setNote(!sent ? 'Witch belum terkirim ke server, jadi belum bisa keluar. Coba lagi sebentar lagi' : `${queuedRifts()} Rift belum terkirim. Coba keluar lagi sebentar lagi`)
       button.disabled = false
       button.textContent = 'Keluar'
+      return
