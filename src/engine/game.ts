@@ -580,6 +580,7 @@ export class Game {
           : tier === 3
             ? 'Warden menahan bolt dengan perisai, lempar mereka. Di akhir, Rift Lord keluar sendiri.'
             : tier === 4
+              ? 'Harrier menukik dari udara: tarik turun dengan Telekinesis atau terbang menyusul. Makhluk elite membawa satu sifat.'
     )
     if (tier === 1 && this.profile.level === 1 && this.profile.clears === 0) {
       this.hud.message('Klik kiri untuk Hex Bolt. Tahan klik kanan untuk mengangkat, lepas untuk melempar.', 'chaos')
