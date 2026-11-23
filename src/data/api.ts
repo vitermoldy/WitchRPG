@@ -164,3 +164,5 @@ function readQueue(): RiftRecord[] {
   } catch {
     return []
   }
+}
+
