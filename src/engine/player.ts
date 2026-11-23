@@ -228,7 +228,7 @@ export class Player {
     } else if (this.pos.y > floor + 0.05) {
       this.onGround = false
     }
-    if (this.onGround) {
+    if (this.onGround && !this.flying) {
       this.floatLeft = this.floatMax
       this.staminaDelay -= dt
       if (this.staminaDelay <= 0) this.stamina = Math.min(MOVE.staminaMax, this.stamina + MOVE.staminaRegen * dt)
