@@ -3,3 +3,5 @@
 // its own (localStorage), offered on sign-up so the witch it already has becomes the account's.
 // Finished Rifts wait in a local queue while nobody is signed in or the server is off.
 
+import type { Profile } from '../game/progression'
+
