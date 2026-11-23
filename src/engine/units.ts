@@ -88,6 +88,7 @@ export class Unit implements Target {
   /** A temporary shadow (called by a Rift Lord shadow) dissolves when this runs out. */
   temp = 0
   /** Where a slam will land, fixed at the start of the windup. */
+  readonly slamAt = new THREE.Vector3()
   // Corpse.
   deadT = 0
   riteTried = false
