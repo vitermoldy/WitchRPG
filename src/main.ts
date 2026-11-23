@@ -96,3 +96,4 @@ async function boot() {
       ['Waktu', fmtTime(r.elapsed)],
       ['Musuh dikalahkan', String(r.kills)],
       ['XP didapat', String(r.xpGained)],
+      ['Level sekarang', `Lv ${game.profile.level}${r.levelsGained ? `, naik ${r.levelsGained}` : ''}`],
