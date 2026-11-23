@@ -291,7 +291,7 @@ export class Hud {
     const total = g.profile.shadows.length
     const reform = g.umbra.reforming()
     const rows: string[] = []
-    rows.push(`<li class="army-row"><span>Di medan</span><b class="num">${field.length} / ${Math.min(total, g.umbra.fieldCap)}</b></li>`)
+    rows.push(`<li class="army-row"><span>Di medan</span><b class="num">${field.length} / ${total}</b></li>`)
     rows.push(`<li class="army-row"><span>Ruang Bayangan</span><b class="num">${total}</b></li>`)
     if (reform.count) rows.push(`<li class="army-row dim"><span>Terbentuk kembali</span><b class="num">${reform.count}, ${reform.next} dtk</b></li>`)
     // The strongest few on the field, with their health.
