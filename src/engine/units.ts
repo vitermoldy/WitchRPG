@@ -80,6 +80,7 @@ export class Unit implements Target {
   flight = 0
   /** Seconds left floating in a Reality Warp field. */
   lifted = 0
+  liftFrom = 0
   // Corpse.
   deadT = 0
   riteTried = false
