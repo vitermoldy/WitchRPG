@@ -573,3 +573,4 @@ export class UnitSystem {
       let crouch = 0
       let stretch = 0
       if (u.state === 'windup') crouch = Math.min(1, u.t / u.spec.windup)
+      if (u.state === 'lunge') stretch = 1
