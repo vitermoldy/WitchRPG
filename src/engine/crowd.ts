@@ -9,3 +9,4 @@ interface Batch {
   geo: THREE.BufferGeometry
   mats: THREE.Material[]
   cap: number
+  used: number
