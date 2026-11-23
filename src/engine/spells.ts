@@ -471,3 +471,4 @@ export class Spells {
         const p = gb.prop!
         const np = p.pos.clone().lerp(goal, k)
         p.vel.copy(np).sub(p.pos).divideScalar(Math.max(dt, 1e-4))
+        p.pos.copy(np)
