@@ -419,3 +419,4 @@ export class Game {
     this.spells.reset()
     this.umbra.cancel()
     saveProfile(this.profile)
+    this.input.unlock()
