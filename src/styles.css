@@ -1098,6 +1098,7 @@ dialog::backdrop {
 
 .history-list {
   display: grid;
+  gap: 0.4rem;
 .stat-list {
   display: grid;
   gap: 0.35rem;
