@@ -359,3 +359,4 @@ export class UnitSystem {
       }
       if (u.state === 'spawn') {
         if (u.t > 0.7) u.setState('move')
+        continue
