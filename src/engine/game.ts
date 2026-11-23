@@ -467,3 +467,4 @@ export class Game {
     }
     else if (s === 'title' || s === 'loading' || s === 'result') this.orbit(dt)
 
+    if (s !== 'paused' && s !== 'ledger') {
