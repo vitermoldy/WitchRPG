@@ -319,3 +319,4 @@ export class Umbra {
             const d = e.pos.distanceTo(target.pos) + e.pos.distanceTo(s.pos) * 0.3
             if (d < bd && e.pos.distanceTo(target.pos) < 8) {
               bd = d
+              mine = e
