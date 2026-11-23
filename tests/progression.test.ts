@@ -195,3 +195,5 @@ describe('version 1: tiers, ranks and growth', () => {
     expect(isFresh(p)).toBe(false)
   })
 })
+
+describe('Tier IV and V', () => {
