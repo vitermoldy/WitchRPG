@@ -112,3 +112,4 @@ function husk(team: Team): UnitModel {
 /** Low, fast, many-eyed, with a ridge of bone spikes. */
 function hound(team: Team): UnitModel {
   const meshes: THREE.Mesh[] = []
+  const bodyMat = bodyMaterial(team)
