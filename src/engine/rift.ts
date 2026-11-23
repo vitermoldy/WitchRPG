@@ -116,3 +116,4 @@ export class RiftDirector {
       if (this.timer <= 0) this.startWave(0)
       return
     }
+    if (this.phase === 'breather') {
