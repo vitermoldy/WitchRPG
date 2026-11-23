@@ -121,3 +121,6 @@ export class WorldDirector {
         g.pools.open(u.pos, 1 + u.radius * 1.5, 1.2)
       }
     }
+  }
+
+  nearGate(): Gate | null {
