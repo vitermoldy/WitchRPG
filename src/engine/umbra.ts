@@ -189,3 +189,4 @@ export class Umbra {
   /** Why a cast on this corpse cannot start right now, or null when it can. */
   blocker(): string | null {
     const g = this.g
+    if (!this.riteOpen) return 'Umbra Rite terbuka di Lv 2.'
