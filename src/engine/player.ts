@@ -98,3 +98,4 @@ export class Player {
     target *= this.speedMult
 
     if (this.sliding > 0) {
+      this.sliding -= dt
