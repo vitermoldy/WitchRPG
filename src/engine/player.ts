@@ -177,3 +177,4 @@ export class Player {
       this.vel.set(0, 0, 0)
     } else this.lastGood.copy(this.pos)
 
+    this.hurtTimer = Math.max(0, this.hurtTimer - dt)
