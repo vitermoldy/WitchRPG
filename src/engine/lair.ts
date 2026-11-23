@@ -53,3 +53,4 @@ function crackTexture(size: number) {
     g.stroke()
   }
   for (let i = 0; i < 16; i++) {
+    const a = (i / 16) * Math.PI * 2 + R() * 0.2
