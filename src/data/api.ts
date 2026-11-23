@@ -20,6 +20,7 @@ export interface RiftRecord {
   levelAfter: number
   shadowsRaised: number
   seconds: number
+  /** The Hollow Warden fell in this Rift. */
   finishedAt: string
 }
 
