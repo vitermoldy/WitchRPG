@@ -36,3 +36,4 @@ export class Colliders {
 
   /**
    * Pushes a circle out of every box that blocks it. A box blocks when its top is above
+   * feetY + step; lower boxes are walked onto instead. Returns true on any contact.
