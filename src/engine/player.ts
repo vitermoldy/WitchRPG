@@ -26,3 +26,4 @@ export class Player {
   private eye: number = MOVE.eye
   private bob = 0
   private bobAmount = 0
+  private trauma = 0
