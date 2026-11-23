@@ -509,3 +509,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   ]
 
   const update = (t: number) => {
+    tearMat.uniforms.uTime.value = t
