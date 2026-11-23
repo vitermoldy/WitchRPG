@@ -102,6 +102,8 @@ export class Umbra {
     const a = p.yaw + Math.PI + (index - (inRing - 1) / 2) * (spread / inRing)
     const d = 3.4 + ring * 1.8
     const at = new THREE.Vector3(p.pos.x - Math.sin(a) * d, p.pos.y, p.pos.z - Math.cos(a) * d)
+    at.y = this.g.colliders.groundAt(at.x, at.z, 0.5, p.pos.y + 1.5, 2.5)
+    // Over the void (or while she flies high) they rise where she can stand.
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
