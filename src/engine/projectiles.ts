@@ -34,3 +34,4 @@ export interface ShotHost {
   onReflect(): void
 }
 
+const geo = new THREE.IcosahedronGeometry(1, 1)
