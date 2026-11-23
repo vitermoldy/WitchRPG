@@ -15,3 +15,4 @@ export interface Platform {
 
 export interface LairBuild {
   group: THREE.Group
+  colliders: Colliders
