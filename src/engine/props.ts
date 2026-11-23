@@ -148,3 +148,4 @@ export class PropSystem {
     this.props.length = 0
   }
 
+  wakeNear(at: THREE.Vector3, r: number) {
