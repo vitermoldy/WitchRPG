@@ -106,3 +106,4 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Cooldown 10 jadi 6 detik.',
     built: true,
   },
+  {
