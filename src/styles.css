@@ -502,6 +502,7 @@ button:disabled {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 }
 
+.bossbar.on {
 .banner {
   position: absolute;
   top: 24%;
