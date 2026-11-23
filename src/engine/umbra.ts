@@ -45,7 +45,8 @@ export class Umbra {
 
   reset() {
     this.candidate = null
-    this.casting = null
+    this.targets = []
+    this.casting = []
     this.progress = 0
     this.swapCd = 0
     this.wheelOpen = false
