@@ -532,7 +532,7 @@ export class UnitSystem {
       }
       if (u.t >= (spec.lungeTime ?? 0.4)) {
         u.setState('recover')
-        u.cd = spec.cooldown
+        u.cd = spec.cooldown * u.tempo
       }
       return
     }
