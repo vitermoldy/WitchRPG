@@ -553,6 +553,7 @@ export class Game {
     this.lair.setFloor(true)
     this.activeColliders = this.lair.colliders
     this.props.clear()
+    this.projectiles.clear()
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
