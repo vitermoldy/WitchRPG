@@ -118,3 +118,4 @@ export class PropSystem {
       awake: false,
       life: kind === 'chunk' ? 9 : Infinity,
       hitUnits: new Set(),
+      hitCooldown: 0,
