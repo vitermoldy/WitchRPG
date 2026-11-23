@@ -557,6 +557,8 @@ export class Game {
   private setMap(map: 'city' | 'lair' | 'world') {
     this.map = map
     this.inLair = map === 'lair'
+    this.world.city.visible = map === 'city'
+    this.lair.group.visible = map === 'lair'
   /** The city map: shown, colliding, with its props back in place. */
   private useCity() {
     if (!this.inLair && this.world.city.visible) return
