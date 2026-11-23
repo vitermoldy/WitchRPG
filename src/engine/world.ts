@@ -390,3 +390,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
         const cap = new THREE.Mesh(new THREE.BoxGeometry(3 + R() * 4, 2 + R() * 3, 3 + R() * 3), darkMetal)
         cap.position.set(sx + (R() - 0.5) * 4, h + 1, sz + (R() - 0.5) * 4)
         scene.add(cap)
+      }
