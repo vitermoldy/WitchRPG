@@ -106,3 +106,4 @@ export type UnitKind = 'husk' | 'hound'
 
 export interface UnitSpec {
   name: string
+  rank: RankId
