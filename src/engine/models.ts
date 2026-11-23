@@ -80,3 +80,4 @@ function husk(team: Team): UnitModel {
     const eye = box(0.06, 0.03, 0.02, s.eye, meshes, 0.13)
     eye.position.set(x, 0.13, -0.135)
     eye.castShadow = false
+    head.add(eye)
