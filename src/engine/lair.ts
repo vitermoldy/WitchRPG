@@ -181,3 +181,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
           bd = d
           best = p
         }
+      }
