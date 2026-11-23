@@ -163,3 +163,4 @@ export class Ledger {
           .map(
             (s) => `<li class="room-item">
           <p class="room-name">${s.name}</p>
+          <p class="room-meta">${RANKS[s.rank].label} dari ${UNITS[s.kind].name}, Lv ${s.level}${live.has(s.id) ? ', sedang bertarung' : ''}</p>
