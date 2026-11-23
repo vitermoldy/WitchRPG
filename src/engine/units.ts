@@ -419,6 +419,7 @@ export class UnitSystem {
           const from = u.center.add(u.facing.multiplyScalar(u.radius + 0.3))
           from.y += u.height * 0.25
           this.host.fire(from, new THREE.Vector3(tgt.pos.x, tgt.pos.y + 1, tgt.pos.z), u)
+          u.setState('strike')
         } else {
           u.setState('strike')
           if (tgt && tgt.alive) {
