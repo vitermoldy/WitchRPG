@@ -784,5 +784,6 @@ export class Game {
     if (this.spells.overloaded && Math.random() < 0.5) this.hands.gather('right', 0.5)
 
     // Safety net: anything that leaves the city is pulled back.
+    if (!this.inLair && p.pos.y < -5) p.reset(this.world.playerStart, p.yaw)
   }
 }
