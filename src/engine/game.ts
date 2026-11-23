@@ -435,6 +435,7 @@ export class Game {
     this.detailT -= dt
     if (this.detailT > 0) return
     this.detailT = 0.25
+    const cam = this.camera.position
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
