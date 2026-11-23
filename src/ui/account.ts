@@ -52,3 +52,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   }
 
   function setMode(next: 'in' | 'up'): void {
+    mode = next
