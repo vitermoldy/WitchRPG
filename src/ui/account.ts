@@ -158,3 +158,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   function schedulePush(): void {
     if (authState().status !== 'signed-in') return
     window.clearTimeout(pushTimer)
+    pushTimer = window.setTimeout(async () => {
