@@ -452,3 +452,4 @@ export class Spells {
     const right = new THREE.Vector3().crossVectors(f, new THREE.Vector3(0, 1, 0)).normalize()
     this.grabbed = this.grabbed.filter((gb) => (gb.unit ? gb.unit.alive : true))
     if (!this.grabbed.length) {
+      this.dropAll(false)
