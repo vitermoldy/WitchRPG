@@ -174,3 +174,4 @@ export const RIFT_TIER_1 = {
     { husk: 14, hound: 6, levels: [2, 3] },
   ] as WaveSpec[],
   maxAlive: 16,
+  spawnInterval: 0.8,
