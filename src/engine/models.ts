@@ -142,3 +142,4 @@ function hound(team: Team): UnitModel {
   jaw.add(jm)
   parts.jaw = jaw
   for (const [x, y] of [[-0.09, 0.06], [0.09, 0.06], [-0.05, 0.11], [0.05, 0.11]] as const) {
+    const eye = box(0.035, 0.03, 0.02, s.eye, meshes)
