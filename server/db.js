@@ -96,3 +96,4 @@ async function migrate(pool) {
   const has = async (table, column) => {
     const [rows] = await pool.query('SELECT DATA_TYPE AS t FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = ? AND COLUMN_NAME = ?', [table, column])
     return rows[0]?.t ?? null
+  }
