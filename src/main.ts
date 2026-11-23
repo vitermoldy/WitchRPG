@@ -56,3 +56,4 @@ async function boot() {
     fail(`Renderer gagal dibuat: ${(e as Error).message}`)
     return
   }
+  if (debug) (window as unknown as { __game: Game }).__game = game
