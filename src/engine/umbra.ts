@@ -53,6 +53,7 @@ export class Umbra {
     this.wheelOpen = false
     this.downUntil.clear()
     this.calls = []
+    this.time = 0
   }
 
   get riteOpen() {
