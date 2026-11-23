@@ -192,6 +192,7 @@ export class Hud {
     const show = !!u && u.alive
     this.set('bossbar', 'class', show ? 'bossbar on' : 'bossbar')
     if (!show || !u) return
+    this.set('boss-name', 'text', u.spec.name)
   private updateArmy() {
     const g = this.g
     const slots = g.derived.slots
