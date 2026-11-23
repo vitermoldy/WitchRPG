@@ -162,3 +162,4 @@ export function createApi(getPool, database) {
   })
 
   api.put('/profile', async (req, res) => {
+    const client = req.user.device
