@@ -116,3 +116,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     body.castShadow = true
     body.receiveShadow = true
     group.add(body)
+    const cap = new THREE.Mesh(new THREE.BoxGeometry(size + 0.3, 0.3, size + 0.3), dark)
