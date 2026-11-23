@@ -264,3 +264,4 @@ export class Umbra {
       this.down.add(u.record.id)
       g.hud.message(`${u.record.name} tumbang. Ia kembali utuh di Rift berikutnya.`, 'umbra')
     }
+    g.smoke.emit({ pos: u.pos, count: 18, color: 0x170a28, life: 1.3, size: 1, sizeEnd: 1.8, speed: 1.2, vel: { x: 0, y: 1.2, z: 0 }, jitter: 0.5, alpha: 0.8 })
