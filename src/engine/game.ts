@@ -477,3 +477,4 @@ export class Game {
     this.hands.scene.visible = fighting
     if (fighting) {
       const p = this.player
+      if (s === 'playing' || s === 'dead') this.hands.update(dt, this.input.dx, this.input.dy, p.bobPhase, p.bobWeight, { left: 0, right: 0 })
