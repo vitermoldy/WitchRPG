@@ -31,3 +31,5 @@ export class Player {
   private fov: number = CAMERA.fov
   private landKick = 0
   readonly radius = MOVE.radius
+  readonly height = 1.75
+
