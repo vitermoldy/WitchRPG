@@ -99,3 +99,4 @@ export class Game {
           return game.player.yaw
         },
         radius: MOVE.radius,
+        get alive() {
