@@ -906,3 +906,4 @@ button:disabled {
   top: 9.5rem;
 }
 
+.wheel-opt[data-opt='hold'] {
