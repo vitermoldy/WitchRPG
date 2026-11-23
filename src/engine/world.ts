@@ -373,3 +373,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const inset = half + 1.5 + R() * 2.5 + depth / 2
       const f = facades[Math.floor(R() * 4)]
       const mapW = f.map.clone()
+      mapW.repeat.set(w / 12, h / 24)
