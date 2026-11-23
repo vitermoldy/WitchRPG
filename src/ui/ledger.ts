@@ -123,6 +123,7 @@ export class Ledger {
           <p class="history-when num">${new Date(r.finishedAt).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}<span>${duration(r.seconds)}</span></p>
         </li>`,
       )
+      .join('')}</ol>`
   close() {
     if (this.dlg.open) this.dlg.close()
   }
