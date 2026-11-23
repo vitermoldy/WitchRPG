@@ -70,3 +70,4 @@ export class ShadowCrowd {
     const b = this.batches.get(kind) ?? this.build(kind)
     if (need > b.cap) {
       let cap = b.cap
+      while (cap < need) cap *= 2
