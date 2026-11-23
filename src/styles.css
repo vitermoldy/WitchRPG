@@ -1080,3 +1080,4 @@ dialog::backdrop {
 }
 
 .ledger-tree {
+  grid-area: tree;
