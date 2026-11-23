@@ -725,6 +725,7 @@ export class Game {
     this.pools.clear()
     this.projectiles.clear()
     this.warnings.clear()
+    this.fuses.length = 0
     this.spells.reset()
     for (const u of [...this.units.units]) if (u.team === 'rift' || !u.alive) this.units.remove(u)
     this.player.reset(this.lair.playerStart, 0)
