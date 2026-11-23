@@ -1121,6 +1121,7 @@ dialog::backdrop {
 }
 
 .history-result {
+  display: flex;
 .stat-list {
   display: grid;
   gap: 0.35rem;
