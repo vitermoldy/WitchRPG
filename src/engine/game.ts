@@ -827,5 +827,6 @@ export class Game {
           }
         }
       }
+    }
   }
 }
