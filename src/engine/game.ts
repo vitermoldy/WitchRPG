@@ -161,6 +161,7 @@ export class Game {
         if (shot.blast) {
           // A Bombard aims at the ground under its target and marks where the charge will land.
           to.y = this.colliders.groundAt(to.x, to.z, 0.3, to.y, 0.5)
+          const t = this.projectiles.fire(from, to, u.team === 'rift' ? 'rift' : 'witch', u.damage, shot, u)
         this.sfx.spit()
       },
       slamFx: (at, radius, team) => this.slamFx(at, radius, team),
