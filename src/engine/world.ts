@@ -344,3 +344,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const far = new THREE.Mesh(new THREE.PlaneGeometry(700, 700), new THREE.MeshStandardMaterial({ color: 0x141011, roughness: 1 }))
   far.rotation.x = -Math.PI / 2
   far.position.y = -0.02
+  scene.add(far)
+
