@@ -144,3 +144,4 @@ export class Player {
     world.pushCircle(this.pos, this.radius, this.pos.y, MOVE.step)
     for (const b of blockers) {
       const dx = this.pos.x - b.pos.x
+      const dz = this.pos.z - b.pos.z
