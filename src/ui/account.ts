@@ -68,3 +68,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     pass.removeAttribute('aria-invalid')
   }
 
+  /** The gate only covers the title screen; a fight in progress is never interrupted by it. */
