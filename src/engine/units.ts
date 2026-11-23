@@ -357,3 +357,4 @@ export class UnitSystem {
         }
         continue
       }
+      if (u.state === 'spawn') {
