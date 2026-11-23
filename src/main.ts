@@ -125,3 +125,4 @@ async function boot() {
     else if (s === 'paused') {
       renderPause()
       showScreen('paused')
+      $('btn-resume').focus()
