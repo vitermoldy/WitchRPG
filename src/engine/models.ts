@@ -507,6 +507,7 @@ function bombard(team: Team): UnitModel {
       jaw.position.z = -0.05
       p.jaw.add(jaw)
       eyes(p.head, m, meshes, [[-0.08, 0.13], [0.08, 0.13]], [0.05, 0.03], -0.19)
+    },
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
