@@ -199,3 +199,5 @@ async function boot() {
     if (game.state === 'paused') {
       showScreen('paused')
     }
+  })
+
