@@ -574,6 +574,7 @@ export class UnitSystem {
       if (!tgt) {
         if (u.team === 'shadow') {
           u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
+          this.follow(u, speed, dt)
     }
   }
 
