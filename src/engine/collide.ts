@@ -52,3 +52,4 @@ export class Colliders {
       if (d2 > 1e-8) {
         const d = Math.sqrt(d2)
         dx /= d
+        dz /= d
