@@ -58,6 +58,7 @@ Akun pemilik: `vmk`.
 | --- | --- |
 | WASD, Shift | Jalan, lari |
 | Spasi | Lompat; tahan di udara untuk melayang |
+| Spasi dua kali | Terbang: Spasi naik, C turun, Shift lebih cepat. Gratis di dunia terbuka, memakai stamina di Rift |
 | C | Menunduk; slide saat lari |
 | F | Interaksi (keluar dari Rift) |
 | Tab | Ledger |
