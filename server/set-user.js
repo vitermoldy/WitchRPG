@@ -50,3 +50,4 @@ try {
 } finally {
   conn.release()
   await pool.end()
+}
