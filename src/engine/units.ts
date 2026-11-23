@@ -428,7 +428,7 @@ export class UnitSystem {
           if (tgt && tgt.alive) {
             const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) - tgt.radius
             tmp2.set(tgt.pos.x - u.pos.x, 0, tgt.pos.z - u.pos.z).normalize()
-            if (d < spec.attackRange + 0.45 && tmp.dot(tmp2) > 0.3) this.hit(u, tgt)
+            if (d < spec.attackRange + 0.45 && u.facing.dot(tmp2) > 0.3) this.hit(u, tgt)
           }
         }
       }
