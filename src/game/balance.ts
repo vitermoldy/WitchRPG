@@ -73,3 +73,4 @@ export const RITE = {
   mana: 40,
   baseSlots: 3,
   umbPerSlot: 5,
+  shadowXpShare: 0.3,
