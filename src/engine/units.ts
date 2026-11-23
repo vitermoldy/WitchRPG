@@ -474,6 +474,7 @@ export class UnitSystem {
       if (p.alive && Math.hypot(p.pos.x - at.x, p.pos.z - at.z) < radius + p.radius && p.pos.y < at.y + 2.5) host.hurtPlayer(damage, at)
     }
     for (const o of this.units) {
+      if (o.team === u.team || !o.alive || o === u) continue
   private hit(u: Unit, tgt: Target) {
     let dmg = u.damage
     if (u.team === 'shadow' && u.focus && tgt === u.focus) dmg *= 1 + u.focusBonus
