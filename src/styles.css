@@ -1417,6 +1417,8 @@ dialog::backdrop {
   gap: 0.3rem;
   font-size: 0.9rem;
   color: var(--ink-2);
+}
+
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
