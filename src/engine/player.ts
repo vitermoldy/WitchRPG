@@ -188,3 +188,4 @@ export class Player {
   applyCamera(cam: THREE.PerspectiveCamera, dt: number, headBob: boolean, shake: boolean) {
     const bobY = headBob ? Math.sin(this.bob * 2) * 0.035 * this.bobAmount : 0
     const bobX = headBob ? Math.cos(this.bob) * 0.025 * this.bobAmount : 0
+    this.landKick = Math.max(0, this.landKick - dt * 0.6)
