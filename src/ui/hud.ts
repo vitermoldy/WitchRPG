@@ -139,3 +139,4 @@ export class Hud {
     // Prompt under the crosshair.
     let promptHtml = ''
     const c = g.umbra.candidate
+    if (g.rift.nearExit()) promptHtml = '<kbd>F</kbd> Keluar dari Rift'
