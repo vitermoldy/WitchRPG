@@ -245,6 +245,8 @@ export class Hud {
       const chances = g.umbra.targets.map((u) => Math.round(g.umbra.chance(u) * 100))
       const lo = Math.min(...chances)
       const hi = Math.max(...chances)
+      if (why) promptHtml = `<span class="blocked">${why}</span>`
+      else if (g.umbra.casting.length) promptHtml = `Membangkitkan ${g.umbra.casting.length} tubuh`
       const why = g.umbra.blocker(c)
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
