@@ -631,3 +631,5 @@ button:disabled {
   stroke: var(--ink);
   stroke-width: 2;
   opacity: 0;
+}
+
