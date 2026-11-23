@@ -146,6 +146,8 @@ async function boot() {
     const world = game.mode === 'world'
     const gate = !world && !!game.returnToWorld
     $('btn-leave').textContent = world ? 'Ke layar judul' : gate ? 'Kembali ke dunia terbuka' : 'Tinggalkan Rift'
+    $('pause-note').textContent = world
+      ? 'XP, bayangan, dan kamp yang ditaklukkan tersimpan saat kamu kembali ke layar judul. Kamp hidup lagi saat dunia dibuka ulang.'
   }
 
   game.onState = (s: GameState) => {
