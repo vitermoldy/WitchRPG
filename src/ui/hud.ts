@@ -126,6 +126,8 @@ export class Hud {
       const el = document.createElement('span')
       box.appendChild(el)
       this.compassMarks.push(el)
+    }
+    marks.forEach((m, i) => {
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
