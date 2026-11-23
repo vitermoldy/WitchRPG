@@ -587,6 +587,7 @@ export class UnitSystem {
       if (u.cd <= 0 && sees && u.pos.distanceTo(tgt.pos) < spec.attackRange) {
         u.setState('windup')
         host.growl()
+      }
     }
   }
 
