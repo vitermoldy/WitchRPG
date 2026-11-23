@@ -238,6 +238,7 @@ export class Game {
 
   private endRift(result: RiftRecord['result']) {
     const r = this.rift
+    this.onRiftEnd?.({
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
