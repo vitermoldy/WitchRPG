@@ -49,3 +49,4 @@ export class Umbra {
         const a = (i / Math.max(1, g.profile.shadows.length)) * Math.PI * 2
         const at = g.player.pos.clone().add(new THREE.Vector3(Math.cos(a) * 2.4, 0, Math.sin(a) * 2.4))
         at.y = 0
+        this.spawnShadow(rec.id, at)
