@@ -594,7 +594,7 @@ export class Spells {
       g.hud.message(`${def.name} terbuka di Lv ${def.unlock}.`, 'info')
       return
     }
-    const cd = id === 'burst' ? this.burstCd : id === 'snare' ? this.snareCd : this.barrierCd
+    const cd = { burst: this.burstCd, snare: this.snareCd, barrier: this.barrierCd, warp: this.warpCd }[id]
     if (cd > 0) return
     const spec = SPELL[id]
     if (!this.pay(spec.mana)) return
