@@ -494,3 +494,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
     { kind: 'car', x: 9, z: -3.5, yaw: 1.4 },
+    { kind: 'car', x: 22, z: 2.5, yaw: -0.15 },
