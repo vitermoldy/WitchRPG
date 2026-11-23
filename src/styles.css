@@ -1420,6 +1420,7 @@ dialog::backdrop {
 }
 
 .gate-field input {
+  min-height: 44px;
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
