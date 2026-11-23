@@ -196,3 +196,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     target: 'idle',
     hold: 0,
     kick: 0,
+    flash: 0,
