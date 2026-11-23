@@ -9,3 +9,4 @@ import {
   UNITS,
   XP,
   type RankId,
+  type UnitKind,
