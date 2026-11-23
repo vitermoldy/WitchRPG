@@ -14,3 +14,4 @@ import {
   saveRift,
   signIn,
   signOut,
+  signUp,
