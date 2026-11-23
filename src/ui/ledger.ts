@@ -82,3 +82,4 @@ export class Ledger {
   }
 
   open() {
+    this.render()
