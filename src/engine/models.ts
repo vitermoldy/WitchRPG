@@ -135,3 +135,4 @@ function hound(team: Team): UnitModel {
   const neck = pivot(body, 0, 0.08, -0.58)
   parts.head = neck
   neck.add(box(0.32, 0.28, 0.44, bodyMat, meshes, 0))
+  neck.children[0].position.z = -0.16
