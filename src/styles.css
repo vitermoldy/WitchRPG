@@ -855,3 +855,4 @@ button:disabled {
   color: var(--ink-3);
 }
 
+.army-slot.empty .pip {
