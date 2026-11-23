@@ -55,3 +55,4 @@ export class Game {
   derived: Derived
   readonly saveError: string | null
   state: GameState = 'loading'
+  private ledgerReturn: GameState = 'title'
