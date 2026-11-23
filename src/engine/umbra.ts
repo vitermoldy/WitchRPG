@@ -23,6 +23,7 @@ export class Umbra {
   candidate: Unit | null = null
   /** Every body the next cast would raise: the one under the crosshair, or all glowing ones in reach. */
   targets: Unit[] = []
+  casting: Unit[] = []
   progress = 0
   swapCd = 0
   wheelOpen = false
