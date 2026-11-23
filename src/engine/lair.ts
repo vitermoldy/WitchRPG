@@ -49,3 +49,4 @@ function crackTexture(size: number) {
   for (const r of [0.18, 0.34, 0.48]) {
     g.lineWidth = 3
     g.beginPath()
+    g.arc(size / 2, size / 2, r * size, 0, Math.PI * 2)
