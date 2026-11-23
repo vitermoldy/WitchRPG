@@ -7,3 +7,4 @@ export const MOVE = {
   crouch: 2.6,
   jumpHeight: 1.2,
   gravity: 22,
+  groundAccel: 60,
