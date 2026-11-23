@@ -672,3 +672,4 @@ export class Spells {
         s.mesh.geometry.dispose()
         this.snares.splice(i, 1)
       }
+    }
