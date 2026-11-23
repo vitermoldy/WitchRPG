@@ -105,3 +105,4 @@ export class BossFight {
         g.hud.banner('Fase 2', 'Lantai runtuh. Lempar batu ke cangkangnya dengan Telekinesis, melayang antar pilar dengan Crimson Float.')
       }
     }
+    if (this.landT >= 0) {
