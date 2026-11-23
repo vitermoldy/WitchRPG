@@ -472,6 +472,8 @@ export class Game {
   async enterRift(tier: TierId = this.tier, fromWorld = false) {
     if (!tierUnlocked(this.profile, tier)) tier = 1
     this.tier = tier
+    if (!fromWorld) this.returnToWorld = null
+    this.mode = 'rift'
     const spec = TIERS[tier]
     this.sfx.start()
     this.useCity()
