@@ -91,3 +91,4 @@ export class RiftDirector {
       const k = Math.floor(Math.random() * (n + 1))
       ;[q[n], q[k]] = [q[k], q[n]]
     }
+    this.queue = q
