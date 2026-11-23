@@ -385,6 +385,7 @@ function hollow(team: Team): UnitModel {
         meshes.push(sh)
       }
       p.shards = shards
+      // Shards circle the body, not the spine, so they stay level while it moves.
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
