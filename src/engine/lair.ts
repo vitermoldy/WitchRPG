@@ -59,3 +59,4 @@ function crackTexture(size: number) {
     let ang = a
     eg.strokeStyle = 'rgba(255,120,60,0.9)'
     eg.lineWidth = 2
+    g.lineWidth = 3
