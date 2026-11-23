@@ -289,3 +289,5 @@ export class PropSystem {
       this.host.units.knock(u, dir)
       p.vel.multiplyScalar(Math.max(0.3, 1 - u.mass / (p.mass + u.mass)))
     }
+  }
+
