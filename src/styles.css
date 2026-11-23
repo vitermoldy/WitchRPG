@@ -524,3 +524,4 @@ button:disabled {
   left: var(--gutter);
   top: 34%;
   display: flex;
+  flex-direction: column;
