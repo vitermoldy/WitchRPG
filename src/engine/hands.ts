@@ -221,3 +221,4 @@ export class Hands {
     this.right = buildHand('right', COLOR.umbra, tex)
     this.scene.add(this.left.root, this.right.root, this.camera)
     this.scene.add(new THREE.AmbientLight(0x4a3a44, 1.2))
+    const rim = new THREE.DirectionalLight(0xffd8cc, 2.2)
