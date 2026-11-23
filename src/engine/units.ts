@@ -595,6 +595,7 @@ export class UnitSystem {
         u.vel.y = 0
         host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3)
         const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
+        // Walking off an edge over the void is a fall, not a glide.
       for (const b of host.propBlockers) {
         const dx = u.pos.x - b.pos.x
         const dz = u.pos.z - b.pos.z
