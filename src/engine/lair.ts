@@ -72,3 +72,4 @@ function crackTexture(size: number) {
       g.lineTo(x, y)
     }
     eg.stroke()
+    g.stroke()
