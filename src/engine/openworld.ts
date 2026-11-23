@@ -7,8 +7,7 @@ import { makeTearMaterial } from './world'
 
 /**
  * The open city around the Rifts: roads every 80 m, about two hundred buildings drawn as one
- * instanced mesh, an altar at the central square, three Rift gates, and creature camps whose level
- * grows with the distance from the square. A curtain of Rift light closes it in.
+ * instanced mesh, an altar at the central square, five Rift gates, and creature camps whose level
  */
 export const OW = { half: 250, pitch: 80, road: 7, ceiling: 90 } as const
 
