@@ -104,6 +104,7 @@ async function boot() {
       el.setAttribute('aria-checked', String(t === game.tier))
       el.tabIndex = t === game.tier ? 0 : -1
       const why = tierLock(p, t)
+      el.setAttribute('aria-label', open ? `Rift Tier ${TIERS[t].roman}` : `Rift Tier ${TIERS[t].roman}, terkunci: ${why}`)
       const lock = el.querySelector('.tier-lock') as HTMLElement
       lock.textContent = open ? (p.tierClears[t] ? `${p.tierClears[t]} kali ditutup` : 'Terbuka') : `Lv ${TIERS[t].unlock}`
     }
