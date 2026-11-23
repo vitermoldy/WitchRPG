@@ -158,6 +158,7 @@ export class Game {
       growl: () => this.sfx.growl(),
       fire: (from, to, u) => {
         const shot = u.spec.shot!
+        if (shot.blast) {
         this.sfx.spit()
       },
       slamFx: (at, radius, team) => this.slamFx(at, radius, team),
