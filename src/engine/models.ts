@@ -174,3 +174,4 @@ function hound(team: Team): UnitModel {
   return { root, body, parts, bodyMat, eyeMat: s.eye, meshes }
 }
 
+export function buildModel(kind: UnitKind, team: Team): UnitModel {
