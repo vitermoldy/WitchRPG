@@ -16,3 +16,4 @@ export class Player {
   yaw = 0
   pitch = 0
   onGround = true
+  crouching = false
