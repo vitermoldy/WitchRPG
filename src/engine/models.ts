@@ -413,6 +413,7 @@ function hollow(team: Team): UnitModel {
 function harrier(team: Team): UnitModel {
   const meshes: THREE.Mesh[] = []
   const bodyMat = bodyMaterial(team)
+  const s = shared[team]
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
