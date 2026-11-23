@@ -7,3 +7,4 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getEleme
 
 type Tone = 'info' | 'chaos' | 'umbra' | 'level'
 
+/** The in-fight overlay. Writes to the DOM only when a value changes. */
