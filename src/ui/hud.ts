@@ -144,3 +144,4 @@ export class Hud {
       const why = g.umbra.blocker()
       const name = `${UNITS[c.kind].name} Lv ${c.level}`
       if (why) promptHtml = `<span class="blocked">${why}</span>`
+      else if (g.umbra.casting) promptHtml = `Membangkitkan ${name}`
