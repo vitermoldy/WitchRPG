@@ -856,6 +856,8 @@ export class Game {
 
     if (this.mode === 'world') {
       const gate = this.worldDir.nearGate()
+      if (gate && input.pressed('KeyF')) {
+        const prompt = this.worldDir.gatePrompt(gate)
       this.finishRift()
       return
     }
