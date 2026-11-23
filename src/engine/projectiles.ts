@@ -42,3 +42,4 @@ const MATS: Record<'rift' | 'shadow' | 'reflected', THREE.MeshBasicMaterial> = {
 }
 
 /** Arcing globs from Spitters, the boss, and shadow Spitters. */
+export class Projectiles {
