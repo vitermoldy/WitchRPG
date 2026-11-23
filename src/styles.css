@@ -1335,3 +1335,4 @@ dialog::backdrop {
     grid-template-columns: 1fr 3rem;
   }
   .setting input[type='range'] {
+    grid-column: 1 / -1;
