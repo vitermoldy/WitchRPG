@@ -319,6 +319,7 @@ export class UnitSystem {
       const p = SHADOW_SKILL.pull
       const caught = enemiesNear.filter((o) => o.pos.distanceTo(u.pos) < p.radius && !o.spec.anchored)
       if (!caught.length) return
+      for (const o of caught) {
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
