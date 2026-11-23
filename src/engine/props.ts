@@ -207,6 +207,7 @@ export class PropSystem {
       if (p.pos.y < -30) {
         this.group.remove(p.mesh)
         this.props.splice(this.props.indexOf(p), 1)
+        continue
       if (p.kind === 'chunk') {
         p.life -= dt
         if (p.life < 1) p.mesh.position.y = p.pos.y - (1 - p.life) * p.halfH * 2
