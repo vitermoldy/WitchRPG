@@ -835,6 +835,7 @@ export class UnitSystem {
             b.pos.x -= (dx / d) * push * share
             b.pos.z -= (dz / d) * push * share
           }
+        }
       }
       // Keep clear of the witch.
       const p = host.player
