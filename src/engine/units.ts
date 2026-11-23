@@ -584,6 +584,7 @@ export class UnitSystem {
       tmp2.set(tgt.pos.x + Math.cos(a) * r, 0, tgt.pos.z + Math.sin(a) * r)
       this.steer(u, tmp2, speed, dt, 0)
       this.face(u, tgt.pos, dt, 6)
+      if (u.cd <= 0 && sees && u.pos.distanceTo(tgt.pos) < spec.attackRange) {
     }
   }
 
