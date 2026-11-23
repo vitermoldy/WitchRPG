@@ -291,6 +291,7 @@ export class UnitSystem {
     u.skillCd -= dt
     if (u.skillCd > 0 || u.state === 'air' || u.stun > 0) return
     const host = this.host
+    if (u.team === 'rift' && u.spec.summon && u.kind !== 'hollow') {
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
