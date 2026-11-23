@@ -75,3 +75,4 @@ export const RITE = {
   umbPerSlot: 5,
   shadowXpShare: 0.3,
   minChance: 0.1,
+  maxChance: 0.9,
