@@ -32,3 +32,5 @@ export interface ShotHost {
   inWarp(at: THREE.Vector3): boolean
   reflectDamage: number
   onReflect(): void
+}
+
