@@ -187,8 +187,7 @@ export function createApi(getPool, database) {
         return res.json({ stale: true, profile: await readProfile(getPool(), client) })
       }
       await conn.query(
-        `INSERT INTO witches (client_id, level, xp, stat_points, skill_points, hex, spr, vit, agi, umb, next_shadow_id, clears, settings, updated_at)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `INSERT INTO witches (client_id, level, xp, stat_points, skill_points, hex, spr, vit, agi, umb, next_shadow_id, clears, boss_kills, settings, updated_at)
          ON DUPLICATE KEY UPDATE level = VALUES(level), xp = VALUES(xp), stat_points = VALUES(stat_points), skill_points = VALUES(skill_points),
            hex = VALUES(hex), spr = VALUES(spr), vit = VALUES(vit), agi = VALUES(agi), umb = VALUES(umb),
            next_shadow_id = VALUES(next_shadow_id), clears = VALUES(clears), settings = VALUES(settings), updated_at = VALUES(updated_at)`,
