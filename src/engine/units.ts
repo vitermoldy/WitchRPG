@@ -82,6 +82,7 @@ export class Unit implements Target {
   lifted = 0
   liftFrom = 0
   /** Seconds until a summon or a shadow skill is ready again. */
+  skillCd = 0
   // Corpse.
   deadT = 0
   riteTried = false
