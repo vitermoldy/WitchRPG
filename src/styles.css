@@ -788,3 +788,5 @@ button:disabled {
 .skill.ready-full {
   border-color: var(--chaos);
   color: var(--ink);
+}
+
