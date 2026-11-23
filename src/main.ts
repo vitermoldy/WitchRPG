@@ -72,16 +72,7 @@ async function boot() {
 
   const renderTitle = () => {
     const p = game.profile
-    const base = newProfile()
-    const fresh =
-      p.level === 1 &&
-      p.xp === 0 &&
-      p.shadows.length === 0 &&
-      p.clears === 0 &&
-      p.statPoints === 0 &&
-      p.skillPoints === 0 &&
-      Object.keys(p.upgrades).length === 0 &&
-      Object.entries(p.stats).every(([k, v]) => base.stats[k as keyof typeof base.stats] === v)
+    const fresh = isFresh(p)
     $('profile-line').innerHTML = fresh
       ? '<span>Witch baru di Lv 1. Belum ada bayangan.</span>'
       : `<span>Lv <b>${p.level}</b></span><span><b>${p.shadows.length}</b> bayangan</span><span><b>${p.clears}</b> Rift ditutup</span>${
