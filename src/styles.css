@@ -503,6 +503,7 @@ button:disabled {
 }
 
 .bossbar.on {
+  opacity: 1;
 .banner {
   position: absolute;
   top: 24%;
