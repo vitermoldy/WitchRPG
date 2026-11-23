@@ -53,6 +53,7 @@ export class Umbra {
   /** Shadows waiting to rise during a call, in order. */
   private calls: Call[] = []
   /** The army has been called and not sent back: shadows that reform rise again by themselves. */
+  armyOut = false
 
   constructor(g: Game) {
     this.g = g
