@@ -36,3 +36,4 @@ function box(w: number, h: number, d: number, mat: THREE.Material, meshes: THREE
   const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat)
   m.position.y = y
   m.castShadow = true
+  meshes.push(m)
