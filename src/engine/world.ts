@@ -549,4 +549,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const city = new THREE.Group()
   city.name = 'city'
   const floaterMeshes = new Set(floaters.map((f) => f.m))
+  for (const o of [...scene.children]) if (!shared.has(o) && !floaterMeshes.has(o as THREE.Mesh)) city.add(o)
 }
