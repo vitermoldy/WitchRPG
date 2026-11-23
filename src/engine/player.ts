@@ -113,3 +113,4 @@ export class Player {
       const maxStep = accel * dt
       if (len > maxStep && len > 1e-6) {
         this.vel.x += (dx / len) * maxStep
+        this.vel.z += (dz / len) * maxStep
