@@ -75,3 +75,4 @@ export class BossFight {
     if (this.phase === 2 && share <= BOSS.phase3At + 0.001 && this.landT < 0) this.beginLanding()
     // From phase 2 on it never leaves the middle pillar.
     if (this.phase === 3) {
+      const off = Math.hypot(u.pos.x - this.home.x, u.pos.z - this.home.z)
