@@ -647,6 +647,7 @@ export class Spells {
     g.hands.pose('left', 'push', 0.5)
     g.hands.pose('right', 'push', 0.5)
     g.hands.kick('left', 1.4)
+    g.hands.kick('right', 1.4)
   private burst() {
     const g = this.g
     const s = SPELL.burst
