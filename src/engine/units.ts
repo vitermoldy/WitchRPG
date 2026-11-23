@@ -563,3 +563,4 @@ export class UnitSystem {
     } else {
       const legs = ['legFL', 'legFR', 'legBL', 'legBR']
       const phase = [0, Math.PI, Math.PI * 0.5, Math.PI * 1.5]
+      if (u.state === 'dead') {
