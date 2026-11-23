@@ -67,6 +67,7 @@ function cleanProfile(p) {
   const clears = int(p.clears, 0, 1_000_000)
   const bossKills = int(p.bossKills ?? 0, 0, 1_000_000)
   if ([level, xp, statPoints, skillPoints, nextShadowId, clears, bossKills].includes(null)) return { error: 'Angka witch di luar batas.' }
+  const tierClears = {}
   const stats = {}
   for (const k of STATS) {
     stats[k] = int(p.stats?.[k], 1, 999)
