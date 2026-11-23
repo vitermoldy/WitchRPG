@@ -179,3 +179,4 @@ export class PropSystem {
     return floor
   }
 
+  update(dt: number) {
