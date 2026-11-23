@@ -56,3 +56,4 @@ export class Game {
   readonly saveError: string | null
   state: GameState = 'loading'
   private ledgerReturn: GameState = 'title'
+  private readonly timer = new THREE.Timer()
