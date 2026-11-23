@@ -139,3 +139,5 @@ export class WorldDirector {
     return Math.hypot(p.x - this.g.ow.altar.x, p.z - this.g.ow.altar.z) < 10
   }
 
+  /** The closest camp still to clear, for the status line. */
+  nearestCamp(): { camp: Camp; dist: number } | null {
