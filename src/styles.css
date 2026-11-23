@@ -465,3 +465,4 @@ button:disabled {
   position: absolute;
   top: var(--gutter);
   left: 50%;
+  transform: translateX(-50%);
