@@ -159,6 +159,8 @@ export class Umbra {
     g.hands.pose('right', 'rite', 0.9)
     g.hands.kick('right', 1.6)
     g.player.addTrauma(0.35)
+    g.lights.flash(feet.clone().setY(feet.y + 2), COLOR.umbra, 30, spill * 1.5, 1.2)
+    g.hud.umbraPulse()
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
