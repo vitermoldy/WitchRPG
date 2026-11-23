@@ -188,3 +188,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     }
     busy = true
     submit.disabled = true
+    submit.textContent = mode === 'in' ? 'Memeriksa...' : 'Membuat akun...'
