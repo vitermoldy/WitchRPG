@@ -373,6 +373,7 @@ export class UnitSystem {
         }
         // Keep a gap: back off when close, close in when it cannot see or is too far.
         if (d < spec.shot.keepAway) {
+          tmp2.set(u.pos.x * 2 - tgt.pos.x, 0, u.pos.z * 2 - tgt.pos.z)
       if (u.kind === 'hound') {
         if (d < spec.attackRange && u.cd <= 0 && this.host.colliders.clear(u.center, tmp.set(tgt.pos.x, 0.8, tgt.pos.z))) {
           u.setState('windup')
