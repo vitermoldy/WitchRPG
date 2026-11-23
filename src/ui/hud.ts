@@ -12,3 +12,4 @@ export class Hud {
   private readonly g: Game
   private readonly root = $('hud')
   private readonly feed = $('feed')
+  private readonly bannerEl = $('banner')
