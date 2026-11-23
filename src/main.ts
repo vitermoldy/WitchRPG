@@ -119,6 +119,7 @@ async function boot() {
     ep.textContent =
       game.profile.bossKills <= 1
         ? 'Jantung Rift berhenti berdetak. Untuk pertama kalinya sejak coven-ku runtuh, kota ini diam. Perjanjian itu masih berbisik di tanganku, dan di belakangku berdiri pasukan yang dulu memburuku. Rift lain akan terbuka. Kali ini aku yang menunggu mereka. Kamu menamatkan Crimson Sovereign. Tier III bisa diulang untuk mencoba membangkitkan The Hollow Warden sebagai Marsekal.'
+        : 'The Hollow Warden tumbang lagi. Retakan itu akan tumbuh kembali, dan Ilyra akan kembali menunggunya.'
     const rows: [string, string, string?][] = [
       ['Waktu', fmtTime(r.elapsed)],
       ['Musuh dikalahkan', String(r.kills)],
