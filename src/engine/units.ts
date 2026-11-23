@@ -982,6 +982,7 @@ export class UnitSystem {
     m.body.position.y = 0.5 + flap * 0.06
     // Tips up is negative on the left wing and positive on the right.
     P.wingL.rotation.set(0, fold, -flap * 0.6)
+    P.wingR.rotation.set(0, -fold, flap * 0.6)
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
