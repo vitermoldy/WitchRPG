@@ -174,3 +174,4 @@ export class UnitSystem {
         bestD = u.pos.distanceTo(p.pos) * 0.8
       }
       for (const o of this.units) {
+        if (o.team !== 'shadow' || !o.alive || o.state === 'rising') continue
