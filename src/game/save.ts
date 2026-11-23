@@ -36,3 +36,4 @@ export function saveProfile(p: Profile): boolean {
     return true
   } catch {
     return false
+  }
