@@ -163,3 +163,4 @@ function readQueue(): RiftRecord[] {
     return Array.isArray(list) ? list : []
   } catch {
     return []
+  }
