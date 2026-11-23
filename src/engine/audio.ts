@@ -100,3 +100,4 @@ export class Sfx {
     this.tone(t, 'sine', strong ? 160 : 240, 60, 0.12, strong ? 0.3 : 0.12)
   }
 
+  burst() {
