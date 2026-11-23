@@ -513,3 +513,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     groundMat.emissiveIntensity = 0.5 + Math.sin(t * 1.7) * 0.18
     for (const f of floaters) {
       f.m.rotation.x += f.spin.x * 0.016
+      f.m.rotation.y += f.spin.y * 0.016
