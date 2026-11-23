@@ -88,3 +88,5 @@ export class Unit implements Target {
     this.radius = this.spec.radius
     this.mass = this.spec.mass
     this.model = buildModel(kind, team)
+  }
+
