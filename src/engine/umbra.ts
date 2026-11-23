@@ -182,6 +182,8 @@ export class Umbra {
     if (feet.y < -50) feet.y = p.pos.y
     g.pools.open(feet, Math.min(18, 4 + Math.sqrt(out.length) * 1.8), 0.7, 0.4)
     for (const u of out.slice(0, 40)) g.streamTo(u.center, feet.clone().setY(feet.y + 0.3), COLOR.umbra)
+    g.hands.pose('right', 'command', 0.6)
+    g.sfx.dismiss()
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
