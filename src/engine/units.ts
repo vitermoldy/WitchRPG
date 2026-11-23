@@ -192,3 +192,4 @@ export class UnitSystem {
     }
     const anchor = u.command === 'hold' ? u.holdPos : p.pos
     const range = u.command === 'hold' ? 6 : SHADOW.engageRange
+    for (const o of this.units) {
