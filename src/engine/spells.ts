@@ -92,3 +92,4 @@ export class Spells {
   readonly snares: Snare[] = []
   boltCd = 0
   burstCd = 0
+  snareCd = 0
