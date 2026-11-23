@@ -154,3 +154,5 @@ async function boot() {
     saveProfile(game.profile)
     game.applyStats(true)
     renderTitle()
+  })
+
