@@ -340,3 +340,4 @@ export class UnitSystem {
       u.barShown = Math.max(0, u.barShown - dt)
       u.vulnerable = Math.max(0, u.vulnerable - dt)
 
+      if (u.state === 'dead') {
