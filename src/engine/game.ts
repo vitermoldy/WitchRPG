@@ -849,6 +849,7 @@ export class Game {
     }
     this.pools.update(dt)
     this.pickDetail(dt)
+    this.crowd.update(this.units.units, this.t)
     if (this.saveTimer > 0) {
       this.saveTimer -= dt
       if (this.saveTimer <= 0) this.persist()
