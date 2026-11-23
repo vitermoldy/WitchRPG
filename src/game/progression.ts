@@ -4,3 +4,4 @@ import {
   MOVE,
   PLAYER,
   RANKS,
+  RITE,
