@@ -219,3 +219,4 @@ const SKY_FRAG = /* glsl */ `
     vec3 low = vec3(0.07, 0.03, 0.035);
     vec3 col = mix(low, mid, smoothstep(-0.05, 0.12, h));
     col = mix(col, top, smoothstep(0.15, 0.75, h));
+    float r = max(0.0, dot(vDir, normalize(uRift)));
