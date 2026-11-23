@@ -97,3 +97,4 @@ export class Colliders {
     return best
   }
 
+  /** True when nothing blocks the straight line between two points. */
