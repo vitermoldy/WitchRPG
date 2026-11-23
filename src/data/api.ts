@@ -20,3 +20,4 @@ export interface RiftRecord {
   levelAfter: number
   shadowsRaised: number
   seconds: number
+  finishedAt: string
