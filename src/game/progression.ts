@@ -92,3 +92,4 @@ export interface Derived {
   maxMana: number
   manaRegen: number
   damageMult: number
+  speedMult: number
