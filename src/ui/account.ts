@@ -169,3 +169,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     }, 1200)
   }
 
+  game.onSaved = schedulePush
