@@ -274,3 +274,4 @@ export class PropSystem {
   private hitUnits(p: Prop, speed: number) {
     const c = SPELL.impact
     for (const u of this.host.units.units) {
+      if (!u.alive || u.team !== 'rift' || u.state === 'held' || p.hitUnits.has(u.id)) continue
