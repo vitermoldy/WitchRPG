@@ -331,3 +331,4 @@ export class Umbra {
       g.rings.spawn(target.pos, COLOR.umbra, 0.2, 1.6, 0.5)
     } else if (choice === 'swap') {
       if (!isUnlocked(g.profile, 'swap')) {
+        g.hud.message('Tukar Tempat terbuka di Lv 4.', 'umbra')
