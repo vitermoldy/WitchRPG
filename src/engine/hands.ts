@@ -156,3 +156,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
       if (s > 0) {
         j.position.y = 0.032
         parent.add(j)
+      }
