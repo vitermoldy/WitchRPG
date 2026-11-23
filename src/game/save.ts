@@ -18,3 +18,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
     const profile: Profile = {
       ...base,
       ...data,
+      stats: { ...base.stats, ...data.stats },
