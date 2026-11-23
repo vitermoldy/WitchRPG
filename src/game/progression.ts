@@ -206,3 +206,4 @@ export function addShadow(p: Profile, kind: UnitKind, level: number): ShadowReco
   return rec
 }
 
+export function releaseShadow(p: Profile, id: number): boolean {
