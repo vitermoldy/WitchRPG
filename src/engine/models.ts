@@ -286,6 +286,7 @@ function warden(team: Team): UnitModel {
       p.head.add(visor)
       const crest = box(0.05, 0.12, 0.3, m.bone, meshes, 0.39)
       p.head.add(crest)
+      const shield = box(0.1, 1.35, 0.9, m.bone, meshes, -0.25)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
