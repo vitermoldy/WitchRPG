@@ -629,3 +629,4 @@ button:disabled {
 
 .hitmark line {
   stroke: var(--ink);
+  stroke-width: 2;
