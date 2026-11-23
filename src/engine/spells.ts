@@ -352,3 +352,4 @@ export class Spells {
             best = d
             hitAt = p.clone()
             hitProp = pr
+            hitUnit = null
