@@ -394,3 +394,4 @@ export class Spells {
         const to = u.center.sub(o)
         const d = to.length()
         if (d > SPELL.grip.range) continue
+        const a = f.angleTo(to)
