@@ -450,3 +450,5 @@ export class UnitSystem {
         a.pos.x = p.pos.x + (dx / d) * min
         a.pos.z = p.pos.z + (dz / d) * min
       }
+    }
+
