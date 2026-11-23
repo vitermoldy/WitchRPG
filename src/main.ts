@@ -107,3 +107,4 @@ async function boot() {
   const renderPause = () => {
     const s = game.profile.settings
     $<HTMLInputElement>('set-sens').value = String(s.sensitivity)
+    $('out-sens').textContent = s.sensitivity.toFixed(2)
