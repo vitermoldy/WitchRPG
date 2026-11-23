@@ -289,3 +289,4 @@ export class Umbra {
         s.focus = null
         s.target = null
       }
+      g.hud.message('Perintah: tahan posisi.', 'umbra')
