@@ -163,3 +163,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   scene.add(group)
 
   return {
+    group,
