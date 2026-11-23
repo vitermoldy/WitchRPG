@@ -6,6 +6,7 @@ import {
   derive,
   isFresh,
   riteBlock,
+  tierLock,
   tierUnlocked,
   xpForUnit,
   gainXp,
