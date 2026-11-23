@@ -25,3 +25,5 @@ interface Snare {
   mesh: THREE.Mesh
 }
 
+type Grabbed = { unit: Unit; prop?: undefined } | { prop: Prop; unit?: undefined }
+
