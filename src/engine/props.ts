@@ -216,3 +216,4 @@ export class PropSystem {
       if (this.host.colliders.pushCircle(p.pos, p.radius * 0.85, p.pos.y - p.halfH, 0.45, n)) {
         const into = p.vel.dot(n)
         if (into < 0) {
+          if (p.thrown && speed > SPELL.impact.minSpeed) this.host.impactFx(p.pos, Math.min(1, (p.mass * speed) / 6000))
