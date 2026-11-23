@@ -1096,6 +1096,7 @@ dialog::backdrop {
   border-top: 1px solid var(--line);
 }
 
+.history-list {
 .stat-list {
   display: grid;
   gap: 0.35rem;
