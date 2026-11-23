@@ -978,6 +978,7 @@ export class UnitSystem {
       pitch = Math.asin(Math.max(-1, Math.min(1, u.lungeDir.y)))
     } else if (u.state === 'recover') flap = Math.sin(t * 17 + u.id) * 1.2
     else if (u.state === 'held' || u.state === 'air') flap = Math.sin(t * 26 + u.id) * 1.3
+    m.body.rotation.set(pitch, 0, 0)
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
