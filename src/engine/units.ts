@@ -288,3 +288,4 @@ export class UnitSystem {
             tmp.set(-Math.sin(u.yaw), 0, -Math.cos(u.yaw))
             tmp2.set(tgt.pos.x - u.pos.x, 0, tgt.pos.z - u.pos.z).normalize()
             if (d < spec.attackRange + 0.45 && tmp.dot(tmp2) > 0.3) this.hit(u, tgt)
+          }
