@@ -174,3 +174,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     },
     nearestTop(at: THREE.Vector3) {
       let best = platforms[0]
+      let bd = Infinity
