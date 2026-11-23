@@ -6,3 +6,4 @@ import {
   gainXp,
   impactDamage,
   newProfile,
+  riteChance,
