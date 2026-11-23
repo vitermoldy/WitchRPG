@@ -64,3 +64,4 @@ export class RiftDirector {
     this.queue = []
     this.timer = 3
     this.elapsed = 0
+    this.kills = 0
