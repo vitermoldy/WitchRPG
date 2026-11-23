@@ -415,6 +415,7 @@ export class UnitSystem {
           u.lungeDir.set(tgt.pos.x - u.pos.x, 0, tgt.pos.z - u.pos.z).normalize()
           u.hitThisLunge = false
           u.setState('lunge')
+        } else if (spec.shot && tgt && tgt.alive) {
         } else {
           u.setState('strike')
           if (tgt && tgt.alive) {
