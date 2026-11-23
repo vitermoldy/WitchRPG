@@ -665,6 +665,8 @@ export class UnitSystem {
     if (u.pos.y > -8 || !u.alive) return
     if (u.team === 'shadow') this.host.recall(u)
     else this.host.hurtUnit(u, 1e6, u.pos, 'impact')
+  }
+
   private impact(u: Unit, speed: number, other: Unit | null) {
     const c = SPELL.impact
     const dmg = impactDamage(u.mass, speed, c.coefficient, c.exponent)
