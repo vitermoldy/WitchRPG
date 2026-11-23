@@ -7,6 +7,7 @@ import {
   RITE,
   SHADOW,
   UNITS,
+  TIERS,
   XP,
   type RankId,
   type UnitKind,
