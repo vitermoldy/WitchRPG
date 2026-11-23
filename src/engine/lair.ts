@@ -81,3 +81,4 @@ function crackTexture(size: number) {
   return { map, em }
 }
 
+export function buildLair(scene: THREE.Scene): LairBuild {
