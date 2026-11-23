@@ -633,6 +633,7 @@ export class Spells {
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 } },
       vertexShader: WARP_VERT,
       fragmentShader: WARP_FRAG,
+      transparent: true,
   private burst() {
     const g = this.g
     const s = SPELL.burst
