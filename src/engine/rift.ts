@@ -134,6 +134,7 @@ export class RiftDirector {
     )
   }
 
+  /** A free scaffold top for a Spitter, or null when all are taken. */
   }
 
   update(dt: number) {
