@@ -171,3 +171,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
 
   game.onSaved = schedulePush
   game.onRiftEnd = (run) => void saveRift(run)
+  game.historySource = async () => (authState().status === 'signed-in' ? await listRifts() : null)
+
