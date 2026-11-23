@@ -11,3 +11,4 @@ type Tone = 'info' | 'chaos' | 'umbra' | 'level'
 export class Hud {
   private readonly g: Game
   private readonly root = $('hud')
+  private readonly feed = $('feed')
