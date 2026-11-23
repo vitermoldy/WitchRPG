@@ -17,3 +17,4 @@ interface Shot {
   life: number
   mesh: THREE.Mesh
   source: Unit | null
+  reflected: boolean
