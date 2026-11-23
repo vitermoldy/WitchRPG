@@ -341,3 +341,4 @@ export class Spells {
             hitUnit = u
             hitProp = null
           }
+        }
