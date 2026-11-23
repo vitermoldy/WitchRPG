@@ -176,6 +176,8 @@ export class Umbra {
       g.pools.open(u.pos, 0.9 + u.radius * 1.6, 0.6)
       u.setState('sinking')
       u.vel.set(0, 0, 0)
+    }
+    const p = g.player
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
