@@ -133,3 +133,4 @@ export class Projectiles {
 
   private hitUnits(s: Shot, team: 'rift' | 'shadow'): boolean {
     const h = this.host
+    for (const u of h.units.units) {
