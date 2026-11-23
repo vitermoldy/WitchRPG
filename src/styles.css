@@ -852,3 +852,4 @@ button:disabled {
 }
 
 .army-slot.empty {
+  color: var(--ink-3);
