@@ -22,3 +22,4 @@ export interface UnitHost {
   player: Target & { yaw: number }
   glow: Particles
   smoke: Particles
+  propBlockers: { pos: THREE.Vector3; radius: number; top: number }[]
