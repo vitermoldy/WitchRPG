@@ -356,3 +356,4 @@ export class Spells {
           }
         }
       }
+      if (hitAt || b.life <= 0) {
