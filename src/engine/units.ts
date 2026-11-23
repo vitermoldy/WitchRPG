@@ -483,3 +483,4 @@ export class UnitSystem {
     const P = m.parts
     m.root.position.copy(u.pos)
     m.root.rotation.y = u.yaw
+    const speed = Math.hypot(u.vel.x, u.vel.z)
