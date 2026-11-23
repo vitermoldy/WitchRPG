@@ -161,6 +161,8 @@ export class Umbra {
     g.player.addTrauma(0.35)
     g.lights.flash(feet.clone().setY(feet.y + 2), COLOR.umbra, 30, spill * 1.5, 1.2)
     g.hud.umbraPulse()
+    g.sfx.summon(n)
+    const waiting = g.profile.shadows.length - this.field().length - n
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
