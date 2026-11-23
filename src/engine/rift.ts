@@ -51,3 +51,4 @@ export class RiftDirector {
     this.exit.add(tear)
     const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTexture(), color: new THREE.Color(COLOR.umbra).multiplyScalar(1.4), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }))
     halo.scale.set(6, 6, 1)
+    halo.position.y = 1.8
