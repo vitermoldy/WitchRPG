@@ -166,6 +166,8 @@ export class Umbra {
     g.hud.message(waiting > 0 ? `${n} bayangan dipanggil. ${waiting} lainnya menunggu di Ruang Bayangan.` : `${n} bayangan dipanggil.`, 'umbra')
   }
 
+  /** T again: every shadow on the field sinks into a pool and the darkness pulls back under the witch. */
+  dismiss() {
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
