@@ -167,3 +167,4 @@ export class UnitSystem {
   private pickTarget(u: Unit): Target | null {
     const p = this.host.player
     let best: Target | null = null
+    let bestD = Infinity
