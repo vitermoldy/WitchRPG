@@ -122,6 +122,7 @@ export class PropSystem {
       life: kind === 'chunk' ? 9 : Infinity,
       hitUnits: new Set(),
       hitCooldown: 0,
+      flight: 0,
     }
     this.props.push(p)
     return p
