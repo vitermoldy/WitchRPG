@@ -471,3 +471,4 @@ export class Game {
       this.glow.update(dt)
       this.smoke.update(dt)
       this.lights.update(dt)
+      this.rings.update(dt)
