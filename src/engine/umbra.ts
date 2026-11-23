@@ -118,3 +118,4 @@ export class Umbra {
         mat.color.lerp(new THREE.Color(0x4a4446), 0.1)
         mat.emissiveIntensity = 0
         u.model.root.position.y = u.pos.y - k * 0.6
+        if (k >= 1) g.units.remove(u)
