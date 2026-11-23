@@ -420,6 +420,7 @@ export class UnitSystem {
     if (u.stun > 0) {
       u.vel.x *= Math.exp(-5 * dt)
       u.vel.z *= Math.exp(-5 * dt)
+      if (u.spec.fly) u.vel.y = Math.max(u.vel.y - 9 * dt, -6)
       return
     }
     const spec = u.spec
