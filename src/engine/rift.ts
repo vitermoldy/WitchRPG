@@ -84,6 +84,7 @@ export class RiftDirector {
   }
 
   start(tier: TierSpec) {
+    this.tier = tier
     this.phase = 'intro'
     this.wave = 0
     this.queue = []
