@@ -289,6 +289,7 @@ export class UnitSystem {
   /** Abilities that run beside the normal fight: summons and the big shadows' skills. */
   private skills(u: Unit, dt: number) {
     u.skillCd -= dt
+    if (u.skillCd > 0 || u.state === 'air' || u.stun > 0) return
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
