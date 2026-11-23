@@ -97,3 +97,4 @@ async function boot() {
       ['Musuh dikalahkan', String(r.kills)],
       ['XP didapat', String(r.xpGained)],
       ['Level sekarang', `Lv ${game.profile.level}${r.levelsGained ? `, naik ${r.levelsGained}` : ''}`],
+      ['Pasukan bayangan', game.profile.shadows.length ? game.profile.shadows.map((s) => `${s.name} (${RANKS[s.rank].label}, ${UNITS[s.kind].name})`).join(', ') : 'Belum ada', 'umbra'],
