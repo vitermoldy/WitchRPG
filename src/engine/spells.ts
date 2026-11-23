@@ -279,6 +279,7 @@ export class Spells {
       if (input.pressed('KeyQ')) this.cast('burst')
       if (input.pressed('KeyE')) this.cast('snare')
       if (input.pressed('KeyX')) this.cast('barrier')
+      if (input.pressed('KeyV')) this.cast('warp')
     }
     if (this.grabbed.length) {
       if (!canAct || input.released('Mouse2') || !input.held('Mouse2')) this.dropAll(canAct)
