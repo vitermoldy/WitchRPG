@@ -19,3 +19,4 @@ export class RiftDirector {
   private readonly g: Game
   phase: RiftPhase = 'intro'
   wave = 0
+  private queue: { kind: UnitKind; level: number }[] = []
