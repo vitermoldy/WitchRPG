@@ -458,3 +458,4 @@ export class Game {
       if (this.saveTimer <= 0) saveProfile(this.profile)
     }
 
+    if (s === 'playing') {
