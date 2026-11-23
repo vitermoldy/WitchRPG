@@ -33,3 +33,4 @@ export class BossFight {
   }
 
   get label(): string {
+    if (this.phase === 1) return 'Fase 1 dari 3'
