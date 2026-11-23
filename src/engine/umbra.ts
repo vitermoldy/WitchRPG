@@ -49,6 +49,7 @@ export class Umbra {
     this.casting = []
     this.progress = 0
     this.swapCd = 0
+    this.summonCd = 0
     this.wheelOpen = false
     this.down.clear()
   }
