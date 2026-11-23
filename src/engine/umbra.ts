@@ -254,3 +254,4 @@ export class Umbra {
       g.sfx.riteResult(false)
       g.hud.message(`Esensi ${UNITS[u.kind].name} pudar. Peluangnya ${Math.round(p * 100)}%, dan setiap tubuh hanya bisa dicoba sekali.`, 'umbra')
       g.hud.riteResult(false, '')
+    }
