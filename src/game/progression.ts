@@ -63,3 +63,4 @@ export function newProfile(): Profile {
     nextShadowId: 1,
     clears: 0,
     settings: { ...DEFAULT_SETTINGS },
+  }
