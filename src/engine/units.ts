@@ -285,8 +285,7 @@ export class UnitSystem {
         // Harriers and Bombards hunt the witch herself; the army does not soak them up.
         bestD = u.pos.distanceTo(p.pos) * (u.spec.fly || u.spec.shot?.blast ? 0.35 : 0.8)
       }
-      for (const o of this.units) {
-        if (o.team !== 'shadow' || !o.alive || o.state === 'rising' || o.state === 'sinking') continue
+      const walker = !u.spec.fly && !u.spec.shot
         // A shadow Warden draws attention to itself.
         const d = u.pos.distanceTo(o.pos) * (o.kind === 'warden' ? 0.6 : 1)
         if (d < bestD) {
