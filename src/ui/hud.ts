@@ -5,3 +5,5 @@ import type { Game } from '../engine/game'
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
+type Tone = 'info' | 'chaos' | 'umbra' | 'level'
+
