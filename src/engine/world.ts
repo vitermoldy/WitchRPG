@@ -251,3 +251,4 @@ export const TEAR_FRAG = /* glsl */ `
     float width = (1.0 - p.y * p.y) * 0.42 * uOpen;
     float edge = fbm(vec2(p.y * 6.0, uTime * 0.35)) * 0.28 - 0.14;
     float d = abs(p.x + edge * 0.6) - width;
+    float rim = smoothstep(0.09, 0.0, abs(d)) ;
