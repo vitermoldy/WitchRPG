@@ -7,3 +7,4 @@ import { COLOR } from './palette'
  * Phase 1: a stone disc with raised slabs. Phase 2: the disc falls away and the slabs turn out to be
  * pillars over a void; the witch floats between them. Phase 3 keeps the pillars.
  */
+export interface Platform {
