@@ -253,6 +253,7 @@ export class Game {
 
   setState(s: GameState) {
     // The title screen always looks over the city.
+    if (s === 'title' && this.inLair) this.useCity()
     this.state = s
     this.input.capture = s === 'playing'
     if (s === 'paused' || s === 'ledger' || s === 'title') this.sfx.resume()
