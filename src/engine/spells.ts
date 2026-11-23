@@ -326,3 +326,4 @@ export class Spells {
       const dir = seg.clone().divideScalar(len || 1)
       const wall = g.colliders.raycast(b.prev, dir, len)
       let best = wall ? wall.dist : Infinity
+      if (wall) hitAt = wall.point
