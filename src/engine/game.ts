@@ -75,3 +75,4 @@ export class Game {
     this.renderer.toneMappingExposure = 1.15
     this.renderer.outputColorSpace = THREE.SRGBColorSpace
 
+    const loaded = loadProfile()
