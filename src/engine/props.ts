@@ -248,3 +248,4 @@ export class PropSystem {
         p.mesh.rotation.y += p.spin.y * dt * 0.5
         p.mesh.rotation.z += p.spin.z * dt
       }
+      // Bodies push each other apart.
