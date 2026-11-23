@@ -65,3 +65,4 @@ function crackTexture(size: number) {
     eg.moveTo(x, y)
     g.moveTo(x, y)
     for (let k = 0; k < 26; k++) {
+      ang += (R() - 0.5) * 0.6
