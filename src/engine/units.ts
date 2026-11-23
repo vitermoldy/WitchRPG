@@ -23,3 +23,4 @@ export interface UnitHost {
   glow: Particles
   smoke: Particles
   propBlockers: { pos: THREE.Vector3; radius: number; top: number }[]
+  /** Damage from a unit to the witch. */
