@@ -215,3 +215,5 @@ export class Game {
 
   applySettings() {
     this.sfx.setVolume(this.profile.settings.volume)
+  }
+
