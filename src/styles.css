@@ -967,3 +967,4 @@ button:disabled {
 }
 
 .resume-hint {
+  position: absolute;
