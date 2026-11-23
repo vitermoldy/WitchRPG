@@ -338,3 +338,4 @@ export class Game {
     if (p.hp <= 0) this.die()
   }
 
+  private die() {
