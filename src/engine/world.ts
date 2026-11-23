@@ -405,3 +405,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
         s * 0.5,
         p.z * 1.2 + (across === 'z' ? off : (R() - 0.5) * 3),
       )
+      rock.rotation.set(R() * 3, R() * 3, R() * 3)
