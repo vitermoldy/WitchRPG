@@ -141,3 +141,4 @@ export class Projectiles {
       h.hurtUnit(u, s.damage, s.prev, s.team === 'witch' ? (s.reflected ? 'player' : 'shadow') : 'rift')
       return true
     }
+    return false
