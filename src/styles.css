@@ -741,3 +741,4 @@ button:disabled {
 .xp i {
   display: block;
   height: 100%;
+  background: var(--rift);
