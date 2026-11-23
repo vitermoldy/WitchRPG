@@ -112,3 +112,5 @@ export function derive(stats: Stats): Derived {
 }
 
 export const isUnlocked = (p: Profile, id: SkillId) => p.level >= skillById(id).unlock
+export const hasUpgrade = (p: Profile, id: SkillId) => !!p.upgrades[id] && isUnlocked(p, id)
+
