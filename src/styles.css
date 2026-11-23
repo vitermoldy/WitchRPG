@@ -643,3 +643,4 @@ button:disabled {
 }
 
 .prompt {
+  position: absolute;
