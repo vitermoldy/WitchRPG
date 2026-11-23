@@ -677,3 +677,4 @@ button:disabled {
 }
 
 .vital {
+  display: grid;
