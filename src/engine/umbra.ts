@@ -292,3 +292,4 @@ export class Umbra {
       g.hud.message('Perintah: tahan posisi.', 'umbra')
     } else if (choice === 'attack') {
       const focusOn = isUnlocked(g.profile, 'focus')
+      const hit = g.spells.aim(60, { props: false })
