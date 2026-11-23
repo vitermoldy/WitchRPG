@@ -224,3 +224,4 @@ export class BossFight {
         if (goal) g.units.face(u, goal, dt, 4)
         this.volley(dt, BOSS.volleyShots)
         // Stay on the pillar.
+        if (Math.hypot(u.pos.x - this.home.x, u.pos.z - this.home.z) > 2.5) u.pos.lerp(this.home.clone().setY(u.pos.y), Math.min(1, dt * 2))
