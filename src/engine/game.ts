@@ -317,3 +317,4 @@ export class Game {
     this.saveSoon()
   }
 
+  hurtPlayer(dmg: number, from: THREE.Vector3) {
