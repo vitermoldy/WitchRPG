@@ -158,3 +158,4 @@ export class UnitSystem {
     if (impulse.y > 0.5) {
       u.vel.y = Math.max(u.vel.y, impulse.y * Math.min(1.4, scale))
       u.pos.y = Math.max(u.pos.y, 0.05)
+      u.setState('air')
