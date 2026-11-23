@@ -412,11 +412,8 @@ export class Umbra {
       raised.push(rec)
       const at = u.pos.clone()
       g.units.remove(u)
-      const s = this.spawnShadow(rec.id, at)
-      if (s) s.slot = g.profile.shadows.length - 1
-      g.player.addTrauma(0.2)
-      g.hud.message(`Bayangan baru: ${rec.name}, ${RANKS[rec.rank].label} dari ${UNITS[rec.kind].name} Lv ${rec.level}.`, 'umbra')
-      g.hud.riteResult(true, rec.name)
+      g.pools.open(at, 0.9 + UNITS[rec.kind].radius * 1.6, 1.3)
+      // Room on the field: it stands up here. No room: it sinks straight into the Shadow Room.
       g.rift.raised.push(rec.name)
       g.saveSoon()
     } else {
