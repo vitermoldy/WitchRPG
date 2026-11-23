@@ -13,3 +13,4 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getEleme
 const screens: Record<string, HTMLElement> = {
   loading: $('screen-loading'),
   error: $('screen-error'),
+  title: $('screen-start'),
