@@ -211,3 +211,4 @@ export function createApi(getPool, database) {
        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [client, ...row],
     )
+    res.json({ ok: true, id: r.insertId })
