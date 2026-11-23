@@ -30,3 +30,5 @@ function bodyMaterial(team: Team) {
   return team === 'rift'
     ? new THREE.MeshStandardMaterial({ color: 0x7a6e6c, roughness: 0.8, flatShading: true, emissive: 0x000000 })
     : new THREE.MeshStandardMaterial({ color: 0x150c24, roughness: 0.5, flatShading: true, emissive: COLOR.umbraDeep, emissiveIntensity: 0.55 })
+}
+
