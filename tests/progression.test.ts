@@ -90,3 +90,4 @@ describe('stats and slots', () => {
 })
 
 describe('upgrades and shadows', () => {
+  it('needs the skill unlocked, built and a point', () => {
