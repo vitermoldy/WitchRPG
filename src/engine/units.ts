@@ -206,3 +206,4 @@ export class UnitSystem {
   private steer(u: Unit, goal: THREE.Vector3, speed: number, dt: number, stopAt = 0) {
     tmp.set(goal.x - u.pos.x, 0, goal.z - u.pos.z)
     const d = tmp.length()
+    const want = d > stopAt ? speed : 0
