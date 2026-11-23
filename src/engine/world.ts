@@ -315,3 +315,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   key.position.copy(riftDir.clone().multiplyScalar(60))
   key.castShadow = true
   key.shadow.mapSize.set(2048, 2048)
+  const sc = key.shadow.camera
