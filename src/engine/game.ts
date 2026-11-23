@@ -91,6 +91,7 @@ export class Game {
   private readonly brokenCover: Box[] = []
   /** Shadows beyond the nearest few, drawn as instanced crowds. */
   readonly crowd = new ShadowCrowd()
+  private detailT = 0
   private readonly unitHost: UnitHost
   onState: ((s: GameState) => void) | null = null
   /** After every save of the witch; the account layer sends it to the server. */
