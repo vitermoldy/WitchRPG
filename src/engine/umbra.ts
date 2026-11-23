@@ -327,3 +327,4 @@ export class Umbra {
         s.target = mine
         s.focusBonus = focusOn && hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
       }
+      g.hud.message(focusOn ? `Perintah Fokus: semua bayangan menyerang ${UNITS[target.kind].name}.` : 'Perintah: serang di titik bidik.', 'umbra')
