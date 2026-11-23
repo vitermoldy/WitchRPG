@@ -46,3 +46,4 @@ export class Umbra {
       window.setTimeout(() => {
         if (g.state !== 'playing' && g.state !== 'paused' && g.state !== 'ledger') return
         if (g.units.units.some((u) => u.record?.id === rec.id)) return
+        const a = (i / Math.max(1, g.profile.shadows.length)) * Math.PI * 2
