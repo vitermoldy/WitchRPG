@@ -161,3 +161,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
       seg.position.y = 0.016
       j.add(seg)
       thumb.push(j)
+      parent = j
