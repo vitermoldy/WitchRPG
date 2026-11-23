@@ -273,3 +273,4 @@ export class Hands {
       if (h.hold > 0) {
         h.hold -= dt
         if (h.hold <= 0) h.target = 'idle'
+      }
