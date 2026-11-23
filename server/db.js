@@ -101,3 +101,4 @@ async function migrate(pool) {
   if ((await has('shadows', 'kind')) === 'enum') await pool.query('ALTER TABLE shadows MODIFY kind VARCHAR(16) NOT NULL')
   if (!(await has('witches', 'boss_kills'))) await pool.query('ALTER TABLE witches ADD COLUMN boss_kills INT UNSIGNED NOT NULL DEFAULT 0 AFTER clears')
   if (!(await has('rift_runs', 'boss'))) await pool.query('ALTER TABLE rift_runs ADD COLUMN boss TINYINT UNSIGNED NOT NULL DEFAULT 0 AFTER seconds')
+}
