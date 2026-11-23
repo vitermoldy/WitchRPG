@@ -636,7 +636,7 @@ export class UnitSystem {
     // Separation so crowds spread instead of stacking. The big ones push, they are not pushed.
     for (let i = 0; i < this.units.length; i++) {
       const a = this.units[i]
-      if (!a.alive || a.state === 'held' || a.state === 'air') continue
+      if (!a.alive || a.state === 'held' || a.state === 'air' || a.state === 'sinking') continue
       for (let j = i + 1; j < this.units.length; j++) {
         const b = this.units[j]
         if (!b.alive || b.state === 'held' || b.state === 'air') continue
