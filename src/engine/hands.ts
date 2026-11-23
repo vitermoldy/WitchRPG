@@ -251,3 +251,4 @@ export class Hands {
   }
 
   /** Palm position in world space, for effects that start at a hand. */
+  palmWorld(side: Side, worldCam: THREE.Camera, out = new THREE.Vector3()): THREE.Vector3 {
