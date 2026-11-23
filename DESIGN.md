@@ -36,3 +36,5 @@ Belum dibuat (ditandai "Belum ada di prototype ini" di Ledger): Reality Warp, Ke
 | Slot bayangan "3 di awal, +1 tiap 5 poin Umbra" | 3 + floor((UMB − 5) / 5) | UMB awal 5 memberi tepat 3 slot. |
 | Rift Tier I sekitar 8 menit | Bot uji menyelesaikannya dalam sekitar 3 menit waktu game | Bot membidik sempurna. Pemain manusia diperkirakan 4 sampai 6 menit. Jumlah gelombang bisa ditambah di `RIFT_TIER_1`. |
 
+## Angka tuning yang berubah setelah playtest bot
+
