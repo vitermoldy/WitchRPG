@@ -141,3 +141,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
       }
     }
   }
+  const map = new THREE.CanvasTexture(c)
