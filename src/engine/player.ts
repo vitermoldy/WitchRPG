@@ -218,3 +218,5 @@ export class Player {
 
   get moveSpeed() {
     return Math.hypot(this.vel.x, this.vel.z)
+  }
+
