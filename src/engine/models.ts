@@ -10,3 +10,4 @@ export interface UnitModel {
   parts: Record<string, THREE.Object3D>
   bodyMat: THREE.MeshStandardMaterial
   eyeMat: THREE.MeshStandardMaterial
+  meshes: THREE.Mesh[]
