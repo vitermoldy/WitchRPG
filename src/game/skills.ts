@@ -124,3 +124,4 @@ export const SKILLS: SkillDef[] = [
     unlock: 8,
     effect: 'Bisa membangkitkan Rift Lord.',
     upgrade: 'Belum dirancang.',
+    built: false,
