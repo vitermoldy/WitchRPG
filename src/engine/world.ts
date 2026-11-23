@@ -215,3 +215,4 @@ const SKY_FRAG = /* glsl */ `
   void main() {
     float h = vDir.y;
     vec3 top = vec3(0.025, 0.012, 0.03);
+    vec3 mid = vec3(0.085, 0.02, 0.03);
