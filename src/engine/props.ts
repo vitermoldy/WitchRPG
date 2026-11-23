@@ -7,3 +7,4 @@ import type { Unit, UnitSystem } from './units'
 export type PropKind = 'car' | 'crate' | 'chunk'
 
 export interface Prop {
+  id: number
