@@ -68,3 +68,5 @@ export type AuthStatus = 'checking' | 'signed-in' | 'signed-out' | 'unavailable'
 export interface AuthState {
   status: AuthStatus
   account: Account | null
+}
+
