@@ -447,3 +447,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   ]
   for (const [x, z, rot] of panelSpots) {
     const w = rot ? 0.22 : 2.9
+    const d = rot ? 2.9 : 0.22
