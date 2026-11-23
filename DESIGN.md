@@ -92,6 +92,8 @@ Pemilik meminta: witch bisa terbang, ada mode dunia terbuka, bayangan bisa diban
 | Ledger | Ruang Bayangan dikelompokkan per rank dan jenis, terkuat di atas. Kelompok dibuka untuk melihat anggotanya (60 teratas) dan melepas satu per satu | Ratusan kartu sejajar tidak terbaca. |
 | Server | Batas bayangan 40 menjadi 2.000, batas body JSON 64 KB menjadi 1 MB, kolom `shadows.slot` dan `rift_runs.shadows_raised` menjadi SMALLINT. Migrasi otomatis saat server menyala | Ruang Bayangan penuh sekitar 200 KB JSON. |
 
+## Semua bayangan keluar (23 Nov 2026)
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
