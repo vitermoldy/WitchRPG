@@ -59,6 +59,8 @@ export class Game {
   readonly ow: OpenWorldBuild
   readonly worldDir: WorldDirector
   readonly pools: ShadowPools
+  /** Where to put the witch back in the open world after a Rift entered from one of its gates. */
+  returnToWorld: THREE.Vector3 | null = null
   /** The tier of the Rift in progress (or the last one played). */
   tier: TierId = 1
   readonly warnings: Warnings
