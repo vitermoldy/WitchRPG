@@ -259,3 +259,4 @@ export class UnitSystem {
         }
         // Circle in from the side instead of running straight at the target.
         tmp2.set(tgt.pos.x - u.pos.x, 0, tgt.pos.z - u.pos.z).normalize()
+        const side = new THREE.Vector3(-tmp2.z, 0, tmp2.x).multiplyScalar(u.flank * Math.min(5, d * 0.5))
