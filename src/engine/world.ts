@@ -331,3 +331,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const groundMat = new THREE.MeshStandardMaterial({
     map: gt.map,
     emissiveMap: gt.emissive,
+    emissive: new THREE.Color(1, 1, 1),
