@@ -163,3 +163,4 @@ export class Hud {
     const live = new Map(g.units.shadows().map((u) => [u.record?.id, u]))
     const rows: string[] = []
     // Every raised shadow gets a row; empty slots share one line so a big army stays compact.
+    const empty = Math.max(0, slots - g.profile.shadows.length)
