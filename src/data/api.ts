@@ -45,3 +45,4 @@ function clientCode(): string {
   } catch {
     memoryCode ??= makeCode()
     return memoryCode
+  }
