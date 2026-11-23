@@ -75,3 +75,4 @@ function sigilShape(): THREE.BufferGeometry {
     for (let i = 0; i < ia.count; i++) idx.push(ia.getX(i) + off)
     off += pa.count
   }
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3))
