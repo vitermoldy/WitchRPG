@@ -232,3 +232,4 @@ export class Game {
       if (b.mesh) b.mesh.visible = true
       this.colliders.boxes.push(b)
     }
+    this.brokenCover.length = 0
