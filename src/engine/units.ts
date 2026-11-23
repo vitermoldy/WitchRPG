@@ -764,6 +764,7 @@ export class UnitSystem {
     } else if (u.state === 'recover') {
       armX = 0.6 * (1 - Math.min(1, u.t / 0.4))
     }
+    if (u.stun > 0) {
     }
   }
 }
