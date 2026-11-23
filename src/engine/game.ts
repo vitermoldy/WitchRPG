@@ -238,3 +238,4 @@ export class Game {
   breakCover(b: Box, from: THREE.Vector3) {
     if (!b.alive) return
     this.colliders.remove(b)
+    if (b.mesh) b.mesh.visible = false
