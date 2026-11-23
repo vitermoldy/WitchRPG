@@ -130,3 +130,4 @@ function hound(team: Team): UnitModel {
     meshes.push(spike)
   }
   const glowLine = box(0.04, 0.03, 0.9, s.accent, meshes, 0.215)
+  glowLine.castShadow = false
