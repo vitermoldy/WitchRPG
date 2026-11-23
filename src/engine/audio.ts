@@ -320,6 +320,8 @@ export class Sfx {
       filter.Q.value = 0.8
       const gain = ctx.createGain()
       gain.gain.value = 0.0001
+      src.connect(filter).connect(gain).connect(this.master!)
+      src.start()
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
