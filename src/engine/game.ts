@@ -461,6 +461,7 @@ export class Game {
     this.tier = tier
     const spec = TIERS[tier]
     this.sfx.start()
+    this.useCity()
     this.units.clear()
     this.respawnProps()
     this.glow.clear()
