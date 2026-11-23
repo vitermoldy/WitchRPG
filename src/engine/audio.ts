@@ -255,6 +255,7 @@ export class Sfx {
     this.noise(t, 0.06, 'highpass', 3000, 0.1)
   }
 
+  slam(big = false) {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
