@@ -123,6 +123,7 @@ Pemilik meminta "lanjutkan fitur berikutnya sesuai GDD". Semua yang ada di GDD u
 | Sasaran Harrier dan Bombard | Keduanya memilih Ilyra jauh lebih sering daripada bayangan terdekat | Bot dengan 15 bayangan hanya terkena 22 damage sepanjang Tier IV karena pasukan menarik semua serangan. Dua musuh baru ini ada untuk dijawab dengan skill witch, jadi pasukan tidak boleh menelannya. |
 | Puncak | Tier IV berakhir dengan Rift Lord elite, Tier V dengan dua Rift Lord elite sekaligus. Bar boss pindah ke Rift Lord yang masih berdiri | GDD hanya punya satu boss untuk versi pertama. Dua Rift Lord adalah "kombinasi elit" untuk puncak tanpa boss baru. |
 | Dunia terbuka | Gerbang Tier IV dan V di tepi utara dan timur. Keempat sudut kota mendapat kamp Lv 10 sampai 12 dengan dua elite dan dua Harrier | Sudut kota sebelumnya kosong, dan jaraknya dari pusat paling jauh. |
+| Sisa gelombang | Kalau tinggal tiga makhluk atau kurang selama 20 detik, mereka mendatangi Ilyra; Spitter turun dari perancah. Berlaku di semua tier | Bot Tier V macet karena satu Spitter tertinggal di perancah 80 m jauhnya dan membidik bayangan. Pasukan hanya bertarung dalam 22 m dari witch, dan layar tidak menunjukkan di mana musuh terakhir. Pemain bisa terjebak hal yang sama di Tier II dan III. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
