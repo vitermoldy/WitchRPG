@@ -432,3 +432,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   for (const [x, z, rot] of barrierSpots) {
     const w = rot ? 0.7 : 3.2
     const d = rot ? 3.2 : 0.7
+    const b = solid(new THREE.Mesh(new THREE.BoxGeometry(w, 0.9, d), concrete))
