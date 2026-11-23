@@ -32,3 +32,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | Tahan Z | Roda perintah: Ikuti, Serang, Tahan, Tukar Tempat |
 
 | Gerak | |
+| --- | --- |
