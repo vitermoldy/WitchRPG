@@ -447,6 +447,7 @@ export class Game {
    * her shadows; a witch-side burst (shadow Bombard, or a charge sent back by Reality Warp) hits rift creatures.
    */
   blast(at: THREE.Vector3, radius: number, damage: number, team: 'rift' | 'witch', by: DamageSource) {
+    this.slamFx(at, radius, team === 'rift' ? 'rift' : 'shadow')
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
