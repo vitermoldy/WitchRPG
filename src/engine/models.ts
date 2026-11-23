@@ -103,3 +103,4 @@ function husk(team: Team): UnitModel {
     const foot = box(0.13, 0.06, 0.24, s.bone, meshes, -0.44)
     foot.position.z = -0.05
     knee.add(foot)
+    parts[side < 0 ? 'legL' : 'legR'] = hip
