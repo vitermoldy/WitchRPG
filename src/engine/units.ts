@@ -614,6 +614,7 @@ export class UnitSystem {
           u.hitThisLunge = true
           this.hit(u, tgt)
         }
+      }
     }
   }
 
