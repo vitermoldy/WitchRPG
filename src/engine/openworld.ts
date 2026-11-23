@@ -314,3 +314,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     group,
     colliders,
     // Inside the altar's healing ring (10 m), just off its steps.
+    start: new THREE.Vector3(0, 0.8, 8),
+    altar,
