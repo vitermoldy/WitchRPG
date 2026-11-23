@@ -231,3 +231,4 @@ export class UnitSystem {
       u.retarget = 0.4 + Math.random() * 0.3
     }
     const spec = u.spec
+    const speed = u.speed * u.slow
