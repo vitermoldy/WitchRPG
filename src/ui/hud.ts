@@ -175,3 +175,4 @@ export class Hud {
           down ? '<span class="num">tumbang</span>' : `<span class="hp"><i style="transform:scaleX(${hp.toFixed(2)})"></i></span>`
         }</li>`,
       )
+    }
