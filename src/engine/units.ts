@@ -512,6 +512,7 @@ export class UnitSystem {
             const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) - tgt.radius
             tmp2.set(tgt.pos.x - u.pos.x, 0, tgt.pos.z - u.pos.z).normalize()
             // A claw only reaches what is beside it, not a witch flying overhead.
+            const level = Math.abs(tgt.pos.y - u.pos.y) < u.height + 0.8
           }
         }
       }
