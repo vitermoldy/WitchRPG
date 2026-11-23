@@ -1267,3 +1267,4 @@ dialog::backdrop {
 
 .room-meta {
   grid-column: 1;
+  color: var(--ink-3);
