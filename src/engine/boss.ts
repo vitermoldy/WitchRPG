@@ -9,3 +9,4 @@ export type BossPhase = 1 | 2 | 3
 /**
  * The Hollow Warden, in three phases (GDD):
  * 1. Open floor: it slams and calls waves of husks.
+ * 2. The floor falls away; it hovers over the void inside a shell that only thrown bodies crack.
