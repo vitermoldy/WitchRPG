@@ -30,3 +30,4 @@ if (rows.length === 0) {
       'rift dimainkan': Number(r.rifts),
     })),
   )
+}
