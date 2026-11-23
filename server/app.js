@@ -76,3 +76,4 @@ function cleanProfile(p) {
   const shadows = []
   for (const s of p.shadows) {
     const id = int(s?.id, 1, 1_000_000)
+    const lv = int(s?.level, 1, MAX_LEVEL)
