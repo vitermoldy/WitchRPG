@@ -21,3 +21,4 @@ export interface WorldBuild {
   riftDir: THREE.Vector3
 }
 
+function rand(seed: number) {
