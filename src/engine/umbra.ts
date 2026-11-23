@@ -51,3 +51,4 @@ export class Umbra {
         at.y = 0
         this.spawnShadow(rec.id, at)
       }, 600 + i * 260)
+    })
