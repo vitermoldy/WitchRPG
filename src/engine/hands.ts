@@ -302,3 +302,4 @@ export class Hands {
       h.thumb[0].rotation.set(-0.3 - p.curl * 0.7, 0, 0.5 - p.spread * 0.2)
       h.thumb[1].rotation.x = -p.curl * 0.9
 
+      const col = this.overload ? h.overloadColor : h.color
