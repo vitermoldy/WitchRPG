@@ -547,4 +547,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   }
 
   const city = new THREE.Group()
+  city.name = 'city'
 }
