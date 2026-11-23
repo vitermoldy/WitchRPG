@@ -30,7 +30,7 @@ export class RiftDirector {
   tier: TierSpec = TIERS[1]
   phase: RiftPhase = 'intro'
   wave = 0
-  private queue: { kind: UnitKind; level: number }[] = []
+  private queue: Spawn[] = []
   private timer = 0
   private spawnT = 0
   private readonly portals: Portal[] = []
