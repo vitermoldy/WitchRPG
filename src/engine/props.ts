@@ -84,3 +84,4 @@ function crateMesh() {
     if ((o as THREE.Mesh).isMesh) {
       o.castShadow = true
       o.receiveShadow = true
+    }
