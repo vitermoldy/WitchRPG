@@ -412,3 +412,4 @@ export class Spells {
         const d = u.pos.distanceTo(at)
         if (d < sd) {
           sd = d
+          second = u
