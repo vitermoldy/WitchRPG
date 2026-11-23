@@ -317,3 +317,4 @@ export class Umbra {
           let bd = Infinity
           for (const e of g.units.enemies()) {
             const d = e.pos.distanceTo(target.pos) + e.pos.distanceTo(s.pos) * 0.3
+            if (d < bd && e.pos.distanceTo(target.pos) < 8) {
