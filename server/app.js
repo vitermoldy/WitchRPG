@@ -74,3 +74,4 @@ function cleanProfile(p) {
   if (!Array.isArray(p.shadows) || p.shadows.length > MAX_SHADOWS) return { error: 'Daftar bayangan tidak sah.' }
   const seen = new Set()
   const shadows = []
+  for (const s of p.shadows) {
