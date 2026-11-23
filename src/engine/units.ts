@@ -314,6 +314,7 @@ export class UnitSystem {
         const h = host.summon('husk', u.level, tmp.set(u.pos.x + Math.sin(a) * 2, u.pos.y, u.pos.z + Math.cos(a) * 2).clone(), 'shadow', u)
         if (h) h.temp = c.lasts
       }
+      u.skillCd = c.every
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
