@@ -302,6 +302,7 @@ export class Hud {
     }
     const first = field[0]
     const cmd = !first ? (total ? 'Di Ruang Bayangan' : 'Tanpa pasukan') : first.command === 'attack' ? 'Serang' : first.command === 'hold' ? 'Tahan' : 'Ikuti'
+    this.set('army-order', 'text', cmd)
   }
 
   private updateWheel() {
