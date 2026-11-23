@@ -763,6 +763,8 @@ export class Game {
     if (this.inLair) this.lair.update(this.t)
     if (this.map === 'world') {
       this.ow.update(this.t)
+      if (s === 'playing') this.lightAt(this.player.pos)
+    }
     if (this.saveTimer > 0) {
       this.saveTimer -= dt
       if (this.saveTimer <= 0) this.persist()
