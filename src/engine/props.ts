@@ -271,3 +271,4 @@ export class PropSystem {
     }
   }
 
+  private hitUnits(p: Prop, speed: number) {
