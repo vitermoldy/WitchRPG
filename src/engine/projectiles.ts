@@ -10,3 +10,4 @@ interface Shot {
   pos: THREE.Vector3
   prev: THREE.Vector3
   vel: THREE.Vector3
+  gravity: number
