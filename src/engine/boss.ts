@@ -99,3 +99,4 @@ export class BossFight {
         }
         this.collapseT = -1
         this.phase = 2
+        this.breathe()
