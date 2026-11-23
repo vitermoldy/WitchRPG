@@ -701,7 +701,7 @@ export class UnitSystem {
       if (u.team === 'shadow') m.bodyMat.emissiveIntensity = 0
     } else if (u.team === 'shadow') {
       m.bodyMat.emissive.set(COLOR.umbraDeep)
-      m.bodyMat.emissiveIntensity = 0.55 + Math.sin(t * 3 + u.id) * 0.15
+      m.bodyMat.emissiveIntensity = (u.temp > 0 ? 0.35 : 0.55) + Math.sin(t * 3 + u.id) * 0.15
     } else {
       // A faint inner ember so rift bodies read against the dark streets.
       m.bodyMat.emissive.set(0x3a1606)
