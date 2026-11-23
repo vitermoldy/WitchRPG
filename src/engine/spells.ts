@@ -387,3 +387,4 @@ export class Spells {
     else {
       // A little aim help: the closest body to the crosshair inside a narrow cone.
       const o = g.player.eyePos
+      const f = g.player.viewDir()
