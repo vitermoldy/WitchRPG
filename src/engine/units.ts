@@ -569,6 +569,7 @@ export class UnitSystem {
     const climb = (goal: number, rate: number) => {
       u.vel.y += ((goal - u.pos.y) * rate - u.vel.y) * Math.min(1, dt * 4)
     }
+    if (u.state === 'move') {
     }
   }
 
