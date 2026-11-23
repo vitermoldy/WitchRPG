@@ -148,3 +148,4 @@ export class Player {
       const min = this.radius + b.radius
       const d2 = dx * dx + dz * dz
       if (d2 < min * min && d2 > 1e-6 && this.pos.y < b.top - 0.1) {
+        const d = Math.sqrt(d2)
