@@ -99,6 +99,7 @@ export class Ledger {
 
   private async renderHistory() {
     const box = $('history-body')
+    box.innerHTML = '<p class="room-empty">Memuat riwayat Rift...</p>'
   close() {
     if (this.dlg.open) this.dlg.close()
   }
