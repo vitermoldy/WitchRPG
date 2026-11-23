@@ -243,6 +243,7 @@ function eyes(head: THREE.Object3D, m: Mats, meshes: THREE.Mesh[], spots: [numbe
 
 /** Crouched and bloated; the amber throat sac is what it spits from. */
 function spitter(team: Team): UnitModel {
+  return biped(
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
