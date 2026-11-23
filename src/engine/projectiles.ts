@@ -27,3 +27,4 @@ export interface ShotHost {
   glow: Particles
   smoke: Particles
   hurtPlayer(dmg: number, from: THREE.Vector3): void
+  hurtUnit(u: Unit, dmg: number, from: THREE.Vector3, by: DamageSource): void
