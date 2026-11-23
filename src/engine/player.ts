@@ -55,3 +55,4 @@ export class Player {
     this.yaw = yaw
     this.pitch = 0
     this.onGround = true
+    this.sliding = 0
