@@ -8,3 +8,4 @@ Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Docu
 | --- | --- |
 | Engine | Three.js di browser (Vite + TypeScript), seperti proyek lain di MyRepo |
 | Gaya visual | Stylized gelap: geometri sederhana, cahaya merah dan ungu yang kuat |
+| Arti "membangkitkan" | Membangkitkan musuh yang kalah menjadi pasukan bayangan (asumsi GDD, belum diubah pemilik) |
