@@ -166,6 +166,7 @@ export class Unit implements Target {
 
   /** Tougher, bigger, worth more, and one trait on top. */
   makeElite(trait: EliteTrait) {
+    this.elite = trait
 }
 
 const tmp = new THREE.Vector3()
