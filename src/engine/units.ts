@@ -245,3 +245,4 @@ export class UnitSystem {
             const a = p.yaw + Math.PI + (u.slot - (n - 1) / 2) * 0.7
             tmp2.set(p.pos.x - Math.sin(a) * SHADOW.followDistance, 0, p.pos.z - Math.cos(a) * SHADOW.followDistance)
             const far = u.pos.distanceTo(p.pos) > 9
+            this.steer(u, tmp2, far ? speed * 1.6 : speed, dt, 0.8)
