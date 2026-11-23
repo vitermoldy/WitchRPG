@@ -463,3 +463,4 @@ button:disabled {
 
 .rift-status {
   position: absolute;
+  top: var(--gutter);
