@@ -229,3 +229,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     if (authState().status !== 'signed-in') {
       skipped = false
       void checkAccount()
+      return
