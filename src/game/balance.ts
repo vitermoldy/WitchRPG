@@ -258,6 +258,7 @@ export interface TierSpec {
   waves: WaveSpec[]
   maxAlive: number
   /** Tier III ends in the Hollow Warden's lair. */
+  boss?: { level: number; unlock: number }
 }
 
 export const RIFT_TIER_1 = {
