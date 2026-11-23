@@ -819,5 +819,6 @@ export class Game {
             this.glow.emit({ pos: spot, count: 16, color: COLOR.rift, intensity: 2, life: 0.6, size: 0.18, speed: 2 })
           }
         }
+        if (rocks.length > 10) {
   }
 }
