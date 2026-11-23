@@ -273,6 +273,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2.6,
     lungeSpeed: 19,
     lungeTime: 0.9,
+    fly: { height: 7 },
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
