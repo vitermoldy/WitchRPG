@@ -732,6 +732,8 @@ export class UnitSystem {
 
     if (BIPEDS.has(u.kind)) this.animateBiped(u, sw, amp, t)
     else this.animateHound(u, amp, t)
+  }
+
       }
     }
   }
