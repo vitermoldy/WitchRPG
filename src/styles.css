@@ -1764,3 +1764,5 @@ dialog::backdrop {
 
 /* Camps are dots along the bottom edge: red when they outlevel her, amber when even, grey when easy. */
 .compass .cm-camp {
+  top: 1.85rem;
+  width: 0.38rem;
