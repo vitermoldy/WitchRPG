@@ -160,3 +160,5 @@ export function buildLair(scene: THREE.Scene): LairBuild {
 
   const rockSpots = platforms.slice(1, 9).map((p) => p.center.clone().setY(p.center.y + 0.7))
 
+  scene.add(group)
+
