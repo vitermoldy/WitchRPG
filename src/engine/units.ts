@@ -443,7 +443,7 @@ export class UnitSystem {
       const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) - tgt.radius
       if (spec.shot) {
         const sees = this.host.colliders.clear(u.center, tmp.set(tgt.pos.x, tgt.pos.y + 1, tgt.pos.z))
-        if (d < spec.attackRange && u.cd <= 0 && sees) {
+        // A Bombard lobs over cover, so it fires on range alone; it still walks in until it can see its target.
           u.setState('windup')
           return
         }
