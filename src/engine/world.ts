@@ -508,6 +508,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     for (const y of [top * 0.35, top * 0.7]) {
       const brace = solid(new THREE.Mesh(new THREE.BoxGeometry(2.8, 0.08, 0.08), scaffoldMetal))
       brace.position.set(x, y, z - 1.3)
+      brace.rotation.z = 0.5
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
