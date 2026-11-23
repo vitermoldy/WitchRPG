@@ -411,3 +411,4 @@ export class Game {
     this.spells.reset()
     this.umbra.reset()
     saveProfile(this.profile)
+    this.setState('title')
