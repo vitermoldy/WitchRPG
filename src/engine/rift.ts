@@ -7,3 +7,4 @@ import { glowTexture } from './fx'
 
 export type RiftPhase = 'intro' | 'wave' | 'breather' | 'cleared'
 
+interface Portal {
