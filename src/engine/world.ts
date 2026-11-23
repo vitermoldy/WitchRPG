@@ -181,3 +181,4 @@ function facadeTextures(seed: number) {
         eg.globalAlpha = 1
         g.fillStyle = '#3a2a22'
         g.fillRect(x + 2, y + 2, 36, 38)
+      } else if (v < 0.22) {
