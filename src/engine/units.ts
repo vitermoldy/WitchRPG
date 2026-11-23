@@ -583,6 +583,7 @@ export class UnitSystem {
           if (u.alive && u.kind === 'warden' && speed > SPELL.impact.minSpeed) u.stun = Math.max(u.stun, 2)
           if (u.alive) u.setState('recover', 0.2)
         }
+        this.fellOut(u)
         continue
       }
 
