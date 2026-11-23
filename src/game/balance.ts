@@ -23,3 +23,4 @@ export const MOVE = {
   staminaRegenDelay: 0.5,
   slideTime: 1,
   slideBoost: 1.45,
+  interactRange: 3,
