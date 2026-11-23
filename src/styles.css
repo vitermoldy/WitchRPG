@@ -646,3 +646,4 @@ button:disabled {
   position: absolute;
   left: 50%;
   top: calc(50% + 58px);
+  transform: translateX(-50%);
