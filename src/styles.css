@@ -158,3 +158,4 @@ button:disabled {
   background: none;
   color: var(--ink-3);
   text-decoration: underline;
+  text-underline-offset: 3px;
