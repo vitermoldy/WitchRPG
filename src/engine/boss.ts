@@ -183,3 +183,4 @@ export class BossFight {
       return true
     }
     if (this.phase === 1 && this.landT < 0) {
+      this.summonT -= dt
