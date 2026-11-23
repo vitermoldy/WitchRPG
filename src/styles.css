@@ -696,3 +696,4 @@ button:disabled {
 .bar {
   position: relative;
   height: 10px;
+  border-radius: 2px;
