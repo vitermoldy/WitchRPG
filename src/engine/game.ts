@@ -384,3 +384,5 @@ export class Game {
       this.setState('playing')
     }
     return ok
+  }
+
