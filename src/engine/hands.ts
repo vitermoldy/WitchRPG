@@ -351,3 +351,4 @@ export class Hands {
         pos: from,
         count: 1,
         color: col,
+        intensity: 2.2 + k,
