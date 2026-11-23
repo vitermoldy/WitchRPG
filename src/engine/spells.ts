@@ -549,7 +549,7 @@ export class Spells {
   private dropAll(throwIt: boolean) {
     const g = this.g
     if (!this.grabbed.length) return
-    const f = g.player.viewDir()
+    // A throw flies at what the crosshair is on, nearly straight for its first moment.
     for (const gb of this.grabbed) {
       const mass = gb.unit ? gb.unit.mass : gb.prop!.mass
       const speed = mass > 200 ? SPELL.grip.throwSpeed * 0.6 : SPELL.grip.throwSpeed
