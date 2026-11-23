@@ -500,6 +500,7 @@ function bombard(team: Team): UnitModel {
         plate.position.set(side * 0.3, 0.45, 0.36)
         plate.rotation.y = side * 0.3
         p.spine.add(plate)
+        const fist = box(0.3, 0.3, 0.3, m.bone, meshes, -0.62)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
