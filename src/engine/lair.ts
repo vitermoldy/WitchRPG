@@ -45,3 +45,4 @@ function crackTexture(size: number) {
     g.fillRect(R() * size, R() * size, 2, 2)
   }
   // Rings of carved stone and the cracks that will open in phase 2.
+  g.strokeStyle = 'rgba(0,0,0,0.5)'
