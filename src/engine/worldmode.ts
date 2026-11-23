@@ -141,3 +141,5 @@ export class WorldDirector {
 
   /** The closest camp still to clear, for the status line. */
   nearestCamp(): { camp: Camp; dist: number } | null {
+    const p = this.g.player.pos
+    let best: { camp: Camp; dist: number } | null = null
