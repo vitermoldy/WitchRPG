@@ -1,2 +1,4 @@
 # DESIGN.md: Crimson Sovereign (prototype Fase 1 dan 2)
 
+Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Document%20RPG%203D%20First-Person%20Witch.md). Dokumen ini mencatat keputusan pemilik, cara GDD diterjemahkan ke game, dan alasan tiap pilihan visual.
+
