@@ -139,6 +139,7 @@ export class Unit implements Target {
   }
 
   get hasModel() {
+    return !!this.built
   get alive() {
     return this.state !== 'dead'
   }
