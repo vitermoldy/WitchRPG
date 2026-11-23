@@ -60,3 +60,4 @@ const SHIELD_FRAG = /* glsl */ `
   varying vec3 vView;
   varying vec2 vUv;
   uniform float uTime;
+  uniform float uHit;
