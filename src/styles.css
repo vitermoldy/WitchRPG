@@ -618,3 +618,4 @@ button:disabled {
   fill: none;
   stroke: var(--umbra-ink);
   stroke-width: 3;
+  stroke-dasharray: 0 100;
