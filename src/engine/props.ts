@@ -230,3 +230,4 @@ export class PropSystem {
         p.vel.y = fall > 3 ? fall * 0.18 : 0
         const fr = Math.exp(-6 * dt)
         p.vel.x *= fr
+        p.vel.z *= fr
