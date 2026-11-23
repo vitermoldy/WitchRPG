@@ -706,3 +706,4 @@ button:disabled {
 }
 
 .bar i {
+  position: absolute;
