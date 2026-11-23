@@ -172,3 +172,5 @@ function writeQueue(list: RiftRecord[]): void {
   } catch {
     /* the record is lost if storage is blocked; the history is a convenience */
   }
+}
+
