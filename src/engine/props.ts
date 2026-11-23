@@ -286,3 +286,4 @@ export class PropSystem {
       this.host.impactFx(u.center, Math.min(1, dmg / 60))
       const dir = this.tmp.copy(p.vel).setY(0).normalize().multiplyScalar(Math.min(12, speed * 0.5))
       dir.y = 3
+      this.host.units.knock(u, dir)
