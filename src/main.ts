@@ -140,3 +140,4 @@ async function boot() {
   // Title.
   $('btn-enter').addEventListener('click', () => void game.enterRift())
   $('btn-ledger-start').addEventListener('click', () => {
+    game.sfx.start()
