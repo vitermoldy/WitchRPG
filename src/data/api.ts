@@ -154,3 +154,5 @@ export async function pushProfile(profile: Profile): Promise<{ stale: boolean; p
   return { stale: !!body.stale, profile: body.profile }
 }
 
+// ---------------------------------------------------------------- Rift history
+
