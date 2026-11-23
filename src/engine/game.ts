@@ -565,6 +565,9 @@ export class Game {
     this.player.ceiling = map === 'world' ? OW.ceiling : map === 'lair' ? 30 : 22
     ;(this.scene.fog as THREE.FogExp2).density = map === 'world' ? 0.0085 : 0.0135
     if (map !== 'world') this.lightAt(new THREE.Vector3())
+  }
+
+  /** The key light and its shadow box follow the witch, so shadows reach wherever she is. */
   /** The city map: shown, colliding, with its props back in place. */
   private useCity() {
     if (!this.inLair && this.world.city.visible) return
