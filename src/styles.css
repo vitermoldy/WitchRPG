@@ -1426,6 +1426,7 @@ dialog::backdrop {
 }
 
 .tier {
+  display: grid;
 /* Account */
 .account-row {
   display: flex;
