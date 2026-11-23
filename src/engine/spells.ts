@@ -7,3 +7,4 @@ import { COLOR } from './palette'
 import type { Prop } from './props'
 import { Unit } from './units'
 
+interface Bolt {
