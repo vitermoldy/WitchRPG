@@ -195,6 +195,8 @@ export class Player {
         this.flying = false
         this.flightSpent = true
       }
+    }
+    // Holding C on the ground lands her.
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
