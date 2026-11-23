@@ -109,3 +109,4 @@ export class Player {
       const desiredZ = wish.z * target
       const dx = desiredX - this.vel.x
       const dz = desiredZ - this.vel.z
+      const len = Math.hypot(dx, dz)
