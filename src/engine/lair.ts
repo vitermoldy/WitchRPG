@@ -60,3 +60,4 @@ function crackTexture(size: number) {
     eg.strokeStyle = 'rgba(255,120,60,0.9)'
     eg.lineWidth = 2
     g.lineWidth = 3
+    eg.beginPath()
