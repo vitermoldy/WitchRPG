@@ -52,3 +52,4 @@ export class Game {
   readonly hud: Hud
   readonly ledger: Ledger
   profile: Profile
+  derived: Derived
