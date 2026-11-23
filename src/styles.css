@@ -650,3 +650,4 @@ button:disabled {
   margin: 0;
   max-width: 90vw;
   color: var(--ink);
+  font-size: 0.95rem;
