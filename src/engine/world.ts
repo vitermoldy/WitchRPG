@@ -392,3 +392,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
         scene.add(cap)
       }
     }
+  }
