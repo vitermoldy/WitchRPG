@@ -652,3 +652,4 @@ export class Spells {
       const s = this.snares[i]
       s.t += dt
       const mat = s.mesh.material as THREE.ShaderMaterial
+      mat.uniforms.uTime.value = s.t
