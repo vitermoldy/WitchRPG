@@ -158,6 +158,7 @@ export class Game {
       impactFx: (at, s) => this.impactFx(at, s),
     })
     this.scene.add(this.props.group)
+    this.projectiles = new Projectiles({
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
