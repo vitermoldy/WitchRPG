@@ -1706,3 +1706,5 @@ dialog::backdrop {
   position: absolute;
   top: var(--gutter);
   left: 50%;
+  width: min(30rem, 72vw);
+  height: 2.3rem;
