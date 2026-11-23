@@ -203,6 +203,7 @@ export class RiftDirector {
           g.player.hp = Math.min(g.player.maxHp, g.player.hp + heal)
           g.hud.message(`Gelombang ${this.wave} habis. Jeda ${RIFT.breather} detik, HP pulih ${heal}.`, 'info')
         } else if (this.tier.boss && bossUnlocked(g.profile)) {
+          this.phase = 'gate'
         }
       }
       return
