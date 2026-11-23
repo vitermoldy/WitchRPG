@@ -18,3 +18,4 @@ export class Player {
   onGround = true
   crouching = false
   sliding = 0
+  floating = false
