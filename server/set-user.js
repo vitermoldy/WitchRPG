@@ -34,3 +34,4 @@ try {
   const [free] = await conn.query('SELECT c.id FROM clients c LEFT JOIN users u ON u.device_id = c.id WHERE u.id IS NULL ORDER BY c.last_seen DESC')
   const client = free[0]?.id ?? Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHABET.length)]).join('')
   // Only one witch per account: the newest browser's stays, the others' Rift history joins it.
+  for (const { id: other } of free.slice(1)) await conn.query('UPDATE rift_runs SET client_id = ? WHERE client_id = ?', [client, other])
