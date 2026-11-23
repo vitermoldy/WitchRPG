@@ -273,6 +273,7 @@ async function boot() {
   $('btn-result-ledger').addEventListener('click', () => game.openLedger('result'))
   // A Rift entered from a world gate keeps its way back while the player retries it.
   $('btn-again').addEventListener('click', () => void game.enterRift(game.tier, !!game.returnToWorld))
+  $('btn-result-world').addEventListener('click', () => void game.backToWorld())
   $('btn-title').addEventListener('click', () => game.setState('title'))
   $('btn-retry').addEventListener('click', () => void game.enterRift())
   $('btn-dead-title').addEventListener('click', () => {
