@@ -28,3 +28,4 @@ Belum dibuat (ditandai "Belum ada di prototype ini" di Ledger): Reality Warp, Ke
 | GDD | Di prototype | Alasan |
 | --- | --- | --- |
 | Menunduk / slide di Ctrl | C | Di browser, Ctrl+W dan Ctrl+Shift+W menutup tab. Pemain yang sedang lari (W) lalu slide akan menutup game. |
+| Hex Barrier di C | X | C dipakai slide. |
