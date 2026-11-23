@@ -380,6 +380,7 @@ export class Game {
     this.hands.pose('right', 'lowered')
     this.input.unlock()
     this.persist()
+    this.endRift('fallen')
     this.setState('dead')
   }
 
