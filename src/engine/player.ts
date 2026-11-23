@@ -171,6 +171,8 @@ export class Player {
     this.finish(dt, world, blockers)
   }
 
+  /** Flight: level movement from WASD, Space up, C down, Shift for speed. */
+  private fly(dt: number, input: Input, wish: THREE.Vector3, moving: boolean, canAct: boolean, world: Colliders) {
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
