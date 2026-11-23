@@ -337,3 +337,5 @@ button:disabled {
 .controls h2 + dl + h2,
 .controls dl + h2 {
   margin-top: 1.2rem;
+}
+
