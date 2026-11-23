@@ -109,3 +109,4 @@ export class BossFight {
       this.landT += dt
       if (this.landT >= 2.2) {
         this.landT = -1
+        this.phase = 3
