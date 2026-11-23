@@ -141,3 +141,6 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   group.name = 'openworld'
   group.visible = false
   const colliders = new Colliders()
+  const R = rand(2026)
+  const H = OW.half
+
