@@ -250,3 +250,4 @@ export class UnitSystem {
         } else this.steer(u, u.pos, 0, dt)
         return
       }
+      const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) - tgt.radius
