@@ -52,3 +52,4 @@ export class Player {
     this.pos.copy(at)
     this.lastGood.copy(at)
     this.vel.set(0, 0, 0)
+    this.yaw = yaw
