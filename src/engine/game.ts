@@ -621,6 +621,7 @@ export class Game {
   }
 
   slamFx(at: THREE.Vector3, radius: number, team: Team) {
+    const col = team === 'rift' ? COLOR.rift : COLOR.umbra
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
