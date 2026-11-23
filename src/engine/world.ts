@@ -239,3 +239,4 @@ export const TEAR_FRAG = /* glsl */ `
   uniform float uTime;
   uniform float uOpen;
   uniform float uSeed;
+  float hash(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7)) + uSeed) * 43758.5453); }
