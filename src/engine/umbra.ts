@@ -233,3 +233,4 @@ export class Umbra {
     u.riteTried = true
     const p = this.chance(u)
     const roll = Math.random()
+    g.hands.pose('right', 'push', 0.4)
