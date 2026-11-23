@@ -256,3 +256,4 @@ export class PropSystem {
         const min = (p.radius + o.radius) * 0.8
         const d2 = dx * dx + dz * dz
         if (d2 >= min * min || d2 < 1e-6 || Math.abs(p.pos.y - o.pos.y) > p.halfH + o.halfH) continue
+        const d = Math.sqrt(d2)
