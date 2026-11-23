@@ -130,3 +130,4 @@ export class Umbra {
     if (this.casting) {
       const castTime = hasUpgrade(g.profile, 'rite') ? RITE.castTimeUpgraded : RITE.castTime
       this.progress += dt / castTime
+      const from = g.hands.palmWorld('right', cam)
