@@ -29,3 +29,4 @@ function fail(message: string) {
 }
 
 function webglOk() {
+  try {
