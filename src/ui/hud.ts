@@ -3,6 +3,7 @@ import { CHAOS, ELITE, TIERS, UNITS, type EliteTrait } from '../game/balance'
 import { xpToNext } from '../game/progression'
 import type { Game } from '../engine/game'
 
+/** What to do about an elite's trait, under its name on the big bar. */
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
 type Tone = 'info' | 'chaos' | 'umbra' | 'level'
