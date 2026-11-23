@@ -468,3 +468,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const pole = solid(new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.1, 5, 6), darkMetal))
     pole.position.set(x, 2.5, z)
     const tilt = R() < 0.4 ? (R() - 0.5) * 0.5 : 0
+    pole.rotation.z = tilt
