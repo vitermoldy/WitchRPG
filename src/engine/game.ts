@@ -104,6 +104,7 @@ export class Game {
 
     this.world = buildWorld(this.scene)
     this.lair = buildLair(this.scene)
+    this.activeColliders = this.world.colliders
     this.scene.add(this.glow.points, this.smoke.points)
     this.lights = new LightPool(this.scene, 6)
     this.rings = new Rings(this.scene)
