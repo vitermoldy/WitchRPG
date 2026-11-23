@@ -295,3 +295,4 @@ button:disabled {
   margin: 0 0 1rem;
   padding: 0.6rem 0.8rem;
   border: 1px solid rgba(255, 165, 61, 0.45);
+  border-radius: var(--radius);
