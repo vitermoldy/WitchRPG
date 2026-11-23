@@ -49,3 +49,4 @@ export class Player {
   readonly right = new THREE.Vector3()
 
   reset(at: THREE.Vector3, yaw: number) {
+    this.pos.copy(at)
