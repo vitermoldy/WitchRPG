@@ -1391,6 +1391,7 @@ dialog::backdrop {
 }
 
 .gate-note {
+  margin: 0 0 1.1rem;
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
