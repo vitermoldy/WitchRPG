@@ -607,6 +607,7 @@ export class UnitSystem {
       return
     }
     if (u.state === 'lunge') {
+      u.vel.copy(u.lungeDir).multiplyScalar((spec.lungeSpeed ?? 16) * u.slow)
     }
   }
 
