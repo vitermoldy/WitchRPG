@@ -23,6 +23,7 @@ Selama server menyala, game dibuka dengan masuk akun (username dan kata sandi). 
 
 ```bash
 npm run users                              # daftar akun, level, bayangan, Rift
+npm run set-user -- <username> <kata sandi> # buat akun atau ganti kata sandinya
 ## Kontrol
 
 | Tangan kiri, Chaos | |
