@@ -353,3 +353,4 @@ export class Game {
 
   /** Starts a fresh Tier I Rift with the current witch. */
   async enterRift() {
+    this.sfx.start()
