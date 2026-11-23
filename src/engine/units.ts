@@ -6,7 +6,7 @@ import { buildModel, disposeModel, type Team, type UnitModel } from './models'
 import type { Particles } from './fx'
 import { COLOR } from './palette'
 
-export type UnitState = 'spawn' | 'rising' | 'move' | 'windup' | 'strike' | 'lunge' | 'recover' | 'held' | 'air' | 'dead'
+export type UnitState = 'spawn' | 'rising' | 'sinking' | 'move' | 'windup' | 'strike' | 'lunge' | 'recover' | 'held' | 'air' | 'dead'
 export type Command = 'follow' | 'attack' | 'hold'
 export type DamageSource = 'player' | 'shadow' | 'impact' | 'rift'
 
