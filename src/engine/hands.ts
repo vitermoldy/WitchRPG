@@ -250,3 +250,4 @@ export class Hands {
     h.flash = Math.max(h.flash, amount)
   }
 
+  /** Palm position in world space, for effects that start at a hand. */
