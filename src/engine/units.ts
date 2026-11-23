@@ -333,6 +333,7 @@ export class UnitSystem {
   }
 
   private brain(u: Unit, dt: number) {
+    if (u.brainHook && u.brainHook(u, dt)) return
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
       u.target = this.pickTarget(u)
