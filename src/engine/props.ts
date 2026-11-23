@@ -90,3 +90,4 @@ function crateMesh() {
 }
 
 export class PropSystem {
+  readonly props: Prop[] = []
