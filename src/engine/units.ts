@@ -985,6 +985,7 @@ export class UnitSystem {
     P.wingR.rotation.set(0, -fold, flap * 0.6)
     P.tipL.rotation.z = -flap * 0.4
     P.tipR.rotation.z = flap * 0.4
+    P.jaw.rotation.x = u.state === 'windup' ? 0.6 : 0.05
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
