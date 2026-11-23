@@ -64,3 +64,4 @@ export class Colliders {
         else if (m === 1) pos.x = b.maxX + r
         else if (m === 2) pos.z = b.minZ - r
         else pos.z = b.maxZ + r
+        outNormal?.set(m === 0 ? -1 : m === 1 ? 1 : 0, 0, m === 2 ? -1 : m === 3 ? 1 : 0)
