@@ -82,3 +82,4 @@ export class Projectiles {
       s.pos.addScaledVector(s.vel, dt)
       s.life -= dt
       s.mesh.position.copy(s.pos)
+      const color = s.reflected ? COLOR.chaos : s.source?.team === 'shadow' ? COLOR.umbra : COLOR.rift
