@@ -449,3 +449,4 @@ export class UnitSystem {
         const d = Math.sqrt(d2)
         a.pos.x = p.pos.x + (dx / d) * min
         a.pos.z = p.pos.z + (dz / d) * min
+      }
