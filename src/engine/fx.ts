@@ -408,6 +408,8 @@ const POOL_FRAG = /* glsl */ `
 
 interface Pool {
   mesh: THREE.Mesh
+  mat: THREE.ShaderMaterial
+  radius: number
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
