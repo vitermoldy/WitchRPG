@@ -111,3 +111,4 @@ export class BossFight {
         this.landT = -1
         this.phase = 3
         this.breathe()
+        this.volleyT = 3
