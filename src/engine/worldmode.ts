@@ -98,3 +98,5 @@ export class WorldDirector {
 
     // The altar heals quickly; away from it, HP comes back slowly once the fighting stops.
     if (p.hp < this.lastHp - 0.01) this.calm = 0
+    else this.calm += dt
+    const atAltar = Math.hypot(p.pos.x - g.ow.altar.x, p.pos.z - g.ow.altar.z) < 10
