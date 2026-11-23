@@ -17,3 +17,4 @@ export class BossFight {
   phase: BossPhase = 1
   private readonly g: Game
   private summonT = 6
+  private volleyT = 4
