@@ -114,3 +114,4 @@ async function boot() {
     $<HTMLInputElement>('set-shake').checked = s.shake
   }
 
+  game.onState = (s: GameState) => {
