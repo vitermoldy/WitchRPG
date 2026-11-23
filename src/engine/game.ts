@@ -106,3 +106,4 @@ export class Game {
       },
       glow: this.glow,
       smoke: this.smoke,
+      propBlockers: [],
