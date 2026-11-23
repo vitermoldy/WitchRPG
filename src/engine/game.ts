@@ -205,3 +205,4 @@ export class Game {
     p.speedMult = this.derived.speedMult
     p.floatMax = this.derived.floatTime
     if (refill) {
+      p.hp = p.maxHp
