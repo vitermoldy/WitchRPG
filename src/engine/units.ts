@@ -615,6 +615,7 @@ export class UnitSystem {
           this.hit(u, tgt)
         }
       }
+      if (u.hitThisLunge || u.t >= (spec.lungeTime ?? 0.8) || u.pos.y <= floor + 0.5) {
     }
   }
 
