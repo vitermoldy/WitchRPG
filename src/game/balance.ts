@@ -226,6 +226,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     // A long windup and a circle that fits on a pillar: the slam is there to be stepped out of.
     windup: 1.3,
     recover: 1,
+    cooldown: 2.6,
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
