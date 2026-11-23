@@ -4,3 +4,5 @@ import { SKILLS } from '../game/skills'
 
 import type { Profile } from '../game/progression'
 
+const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
+
