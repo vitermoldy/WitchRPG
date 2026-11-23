@@ -14,3 +14,4 @@ interface Portal {
   open: number
 }
 
+/** Runs one Rift: waves out of the four tears, then the exit at the monument. */
