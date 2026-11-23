@@ -274,3 +274,4 @@ export class Game {
         this.spells.addChaos(chaosFromDamage(amount, 0))
         this.hud.hit(false)
       }
+    }
