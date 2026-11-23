@@ -116,6 +116,7 @@ async function boot() {
     $('result-title').textContent = r.bossDefeated ? 'Jantung Rift ditutup' : `${r.tier.name} ditutup`
     const ep = $('result-epilogue')
     ep.hidden = !r.bossDefeated
+    ep.textContent =
     const rows: [string, string, string?][] = [
       ['Waktu', fmtTime(r.elapsed)],
       ['Musuh dikalahkan', String(r.kills)],
