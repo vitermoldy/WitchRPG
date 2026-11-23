@@ -320,6 +320,7 @@ export class UnitSystem {
       const caught = enemiesNear.filter((o) => o.pos.distanceTo(u.pos) < p.radius && !o.spec.anchored)
       if (!caught.length) return
       for (const o of caught) {
+        tmp.copy(u.pos).sub(o.pos).setY(0)
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
