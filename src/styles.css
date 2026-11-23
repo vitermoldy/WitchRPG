@@ -1211,3 +1211,4 @@ dialog::backdrop {
 
 .node-meta {
   margin: 0;
+  color: var(--ink-3);
