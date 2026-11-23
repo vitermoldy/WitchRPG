@@ -429,6 +429,7 @@ export class UnitSystem {
     if (spec.fly) {
       this.flyer(u, dt, tgt, speed)
       return
+    }
     const perched = u.spec.shot && u.pos.y > 2.5
     if (u.state === 'move') {
       if (!tgt) {
