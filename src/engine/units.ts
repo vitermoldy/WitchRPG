@@ -294,6 +294,7 @@ export class UnitSystem {
     if (u.team === 'rift' && u.spec.summon && u.kind !== 'hollow') {
       const s = u.spec.summon
       const mine = this.units.filter((o) => o.owner === u && o.alive).length
+      if (mine < s.max && u.target) {
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
