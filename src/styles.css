@@ -805,3 +805,4 @@ button:disabled {
 }
 
 .army-head {
+  display: flex;
