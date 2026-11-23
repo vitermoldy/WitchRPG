@@ -469,3 +469,4 @@ export class Spells {
         gb.unit.yaw += dt * 2
       } else {
         const p = gb.prop!
+        const np = p.pos.clone().lerp(goal, k)
