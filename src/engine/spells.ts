@@ -532,3 +532,4 @@ export class Spells {
     this.tendrilLight = null
     g.sfx.gripStop(throwIt)
     if (throwIt) {
+      g.hands.pose('left', 'push', 0.3)
