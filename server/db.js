@@ -94,3 +94,4 @@ export async function connect(db) {
 /** Brings a database made before version 1 (Tier I only) up to date. Safe to run every start. */
 async function migrate(pool) {
   const has = async (table, column) => {
+    const [rows] = await pool.query('SELECT DATA_TYPE AS t FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = ? AND COLUMN_NAME = ?', [table, column])
