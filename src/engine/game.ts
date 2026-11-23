@@ -346,3 +346,4 @@ export class Game {
     this.umbra.cancel()
     this.hands.pose('left', 'lowered')
     this.hands.pose('right', 'lowered')
+    this.input.unlock()
