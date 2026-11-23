@@ -643,6 +643,7 @@ export class Spells {
     wall.renderOrder = 7
     group.add(wall)
     g.scene.add(group)
+    this.warps.push({ pos: at, radius: s.radius, t: 0, duration: s.duration + (this.upgraded('warp') ? s.durationUpgrade : 0), group, ruleMat, wallMat })
   private burst() {
     const g = this.g
     const s = SPELL.burst
