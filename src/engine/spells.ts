@@ -297,3 +297,4 @@ export class Spells {
     g.hands.pose('left', 'cast', 0.25)
     g.hands.kick('left', 0.8)
     g.player.addTrauma(0.04)
+    g.sfx.bolt()
