@@ -29,3 +29,4 @@ export class Colliders {
     return b
   }
 
+  remove(b: Box) {
