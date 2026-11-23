@@ -267,3 +267,4 @@ export class Game {
     // Chaos and feedback count only the damage that landed, not overkill.
     const amount = Math.min(u.hp, u.team === 'rift' && u.vulnerable > 0 ? dmg * 1.25 : dmg)
     u.hp -= amount
+    u.flash = 1
