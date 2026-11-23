@@ -558,3 +558,4 @@ export class Spells {
     const s = SPELL.burst
     this.burstCd = s.cooldown
     const hit = this.aim(s.range, { props: false })
+    const at = hit.unit ? hit.unit.pos.clone() : hit.point.clone()
