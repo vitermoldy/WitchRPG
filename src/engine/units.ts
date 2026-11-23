@@ -282,7 +282,7 @@ export class UnitSystem {
       if (u.hunt && p.alive) return p
       if (p.alive) {
         best = p
-        bestD = u.pos.distanceTo(p.pos) * 0.8
+        // Harriers and Bombards hunt the witch herself; the army does not soak them up.
       }
       for (const o of this.units) {
         if (o.team !== 'shadow' || !o.alive || o.state === 'rising' || o.state === 'sinking') continue
