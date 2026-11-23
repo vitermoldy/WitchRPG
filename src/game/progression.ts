@@ -136,7 +136,7 @@ const RANK_XP: Record<RankId, number> = { prajurit: 1, ksatria: 2, jenderal: 5, 
 
 export function xpForUnit(kind: UnitKind, level: number, elite = false): number {
   const rank = UNITS[kind].rank
-  return xpForKill(level, rank === 'marsekal') * RANK_XP[rank]
+  return xpForKill(level, rank === 'marsekal') * RANK_XP[rank] * (elite ? ELITE.xp : 1)
 }
 
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v))
