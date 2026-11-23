@@ -422,6 +422,7 @@ export class UnitSystem {
           u.setState('strike')
         } else if (spec.slam) {
           this.slam(u)
+          u.setState('strike')
         } else {
           u.setState('strike')
           if (tgt && tgt.alive) {
