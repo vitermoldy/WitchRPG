@@ -29,6 +29,7 @@ export interface UnitHost {
   hurtUnit(u: Unit, dmg: number, from: THREE.Vector3, by: DamageSource): void
   impactFx(at: THREE.Vector3, strength: number): void
   growl(): void
+  /** A glob from a ranged unit. */
 }
 
 let nextId = 1
