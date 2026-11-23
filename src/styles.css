@@ -328,3 +328,4 @@ button:disabled {
 
 .controls h2 {
   margin: 0 0 0.6rem;
+  font-family: var(--font-display);
