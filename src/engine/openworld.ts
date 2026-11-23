@@ -254,3 +254,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   shrine.position.y = 3.6
   group.add(shrine)
   for (let i = 0; i < 6; i++) {
+    const a = (i / 6) * Math.PI * 2
+    const pillar = new THREE.Mesh(new THREE.CylinderGeometry(0.35, 0.45, 4.5, 6), stone)
