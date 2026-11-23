@@ -62,3 +62,4 @@ export class ApiError extends Error {
 export interface Account {
   username: string
   createdAt: string
+}
