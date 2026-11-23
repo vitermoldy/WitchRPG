@@ -48,3 +48,4 @@ try {
   await conn.rollback()
   throw err
 } finally {
+  conn.release()
