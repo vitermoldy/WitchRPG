@@ -179,3 +179,4 @@ export class Hud {
     if (empty) rows.push(`<li class="army-slot empty"><span class="pip"></span><span>${empty} slot kosong</span><span></span></li>`)
     const html = rows.join('')
     if (this.cache.get('army') !== html) {
+      this.cache.set('army', html)
