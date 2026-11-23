@@ -80,3 +80,4 @@ export class Umbra {
     let best: Unit | null = null
     let bestScore = Infinity
 
+    for (const u of [...g.units.units]) {
