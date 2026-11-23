@@ -1423,6 +1423,8 @@ dialog::backdrop {
   grid-template-columns: repeat(3, minmax(0, 6.5rem));
   gap: 0.5rem;
   margin: 0 0 0.6rem;
+}
+
 /* Account */
 .account-row {
   display: flex;
