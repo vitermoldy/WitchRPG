@@ -87,6 +87,7 @@ export function tierLock(p: Profile, tier: TierId): string | null {
   if (t.needsBoss && p.bossKills === 0) return p.level >= t.unlock ? 'Kalahkan The Hollow Warden dulu' : `Lv ${t.unlock} dan The Hollow Warden kalah`
   if (p.level < t.unlock) return `Lv ${t.unlock}`
   return null
+}
 
 /** The lair at the end of Tier III opens once Reality Warp can break the boss's last shell. */
 export const bossUnlocked = (p: Profile) => p.level >= (TIERS[3].boss?.unlock ?? 10)
