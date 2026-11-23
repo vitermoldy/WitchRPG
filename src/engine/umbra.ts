@@ -125,3 +125,4 @@ export class Umbra {
 
     // Casting.
     const holding = canAct && g.input.held('KeyR')
+    if (this.casting && (!holding || this.casting.riteTried || this.casting.ash)) this.cancel()
