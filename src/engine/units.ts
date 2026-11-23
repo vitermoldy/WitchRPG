@@ -71,3 +71,4 @@ export class Unit implements Target {
   // Shadows.
   record: ShadowRecord | null = null
   command: Command = 'follow'
+  holdPos = new THREE.Vector3()
