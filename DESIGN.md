@@ -106,6 +106,8 @@ Pemilik meminta "bayangannya bisa dikeluarkan tanpa kecuali". Saya membacanya se
 
 Diukur di RTX 5070 Ti laptop dengan 20 musuh (median per frame): tanpa bayangan 5,6 ms, 200 bayangan 8,3 ms, 500 bayangan 9,9 ms, 1.000 bayangan 12,8 ms, 2.000 bayangan (batas Ruang Bayangan) 15 ms setelah indeks tabrakan. Di dunia terbuka, 606 bayangan sekaligus 5 ms.
 
+Catatan untuk laptop dengan dua GPU: Chrome headless di mesin ini berjalan di GPU Intel dan butuh 39,6 ms per frame untuk kota kosong, dibanding 2,6 ms di GPU NVIDIA. Game sudah meminta `powerPreference: 'high-performance'`, tapi Chrome di Windows bisa mengabaikannya. Kalau game terasa berat, atur Chrome ke "High performance" di Settings, System, Display, Graphics.
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
