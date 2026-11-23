@@ -175,6 +175,8 @@ export class Player {
   private fly(dt: number, input: Input, wish: THREE.Vector3, moving: boolean, canAct: boolean, world: Colliders) {
     const boost = canAct && input.held('ShiftLeft') && moving
     this.sprinting = boost
+    this.floating = false
+    this.crouching = false
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
