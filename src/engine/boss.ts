@@ -32,3 +32,4 @@ export class BossFight {
     u.brainHook = (unit, dt) => this.brain(unit, dt)
   }
 
+  get label(): string {
