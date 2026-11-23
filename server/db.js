@@ -103,4 +103,5 @@ async function migrate(pool) {
   if (!(await has('rift_runs', 'boss'))) await pool.query('ALTER TABLE rift_runs ADD COLUMN boss TINYINT UNSIGNED NOT NULL DEFAULT 0 AFTER seconds')
   // The Shadow Room has no slot limit any more, and one cast can raise a whole pile of bodies.
   if ((await has('shadows', 'slot')) === 'tinyint') await pool.query('ALTER TABLE shadows MODIFY slot SMALLINT UNSIGNED NOT NULL')
+  if ((await has('rift_runs', 'shadows_raised')) === 'tinyint') await pool.query('ALTER TABLE rift_runs MODIFY shadows_raised SMALLINT UNSIGNED NOT NULL')
 }
