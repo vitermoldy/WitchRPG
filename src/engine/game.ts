@@ -90,3 +90,4 @@ export class Game {
 
     const game = this
     const host: UnitHost = {
+      colliders: this.colliders,
