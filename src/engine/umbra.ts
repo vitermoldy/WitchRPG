@@ -240,6 +240,7 @@ export class Umbra {
         if (at > this.time) continue
         this.downUntil.delete(id)
         const rec = g.profile.shadows.find((s) => s.id === id)
+        if (!rec || g.units.units.some((u) => u.record === rec && u.alive)) continue
     // Shadows of a call rise one after another.
     while (this.calls.length && this.calls[0].at <= this.time) {
       const c = this.calls.shift()!
