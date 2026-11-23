@@ -22,3 +22,4 @@ export class Hud {
   private readonly hurtVeil = $('hurt-veil')
   private readonly cache = new Map<string, string>()
   private bannerTimer = 0
+  private hitTimer = 0
