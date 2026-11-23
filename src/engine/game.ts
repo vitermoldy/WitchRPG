@@ -287,3 +287,4 @@ export class Game {
       this.umbra.shadowFell(u)
       return
     }
+    if (by === 'player' || by === 'impact') this.hud.hit(true)
