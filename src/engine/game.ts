@@ -113,3 +113,4 @@ export class Game {
       growl: () => this.sfx.growl(),
     }
     this.unitHost = host
+    this.units = new UnitSystem(host)
