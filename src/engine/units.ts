@@ -342,3 +342,4 @@ export class UnitSystem {
 
       if (u.state === 'dead') {
         u.deadT += dt
+        // A body killed in mid-air still falls to the floor.
