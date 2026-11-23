@@ -535,3 +535,4 @@ button:disabled {
   border-radius: var(--radius-sm);
   background: rgba(12, 8, 9, 0.78);
   color: var(--ink);
+  font-size: 0.9rem;
