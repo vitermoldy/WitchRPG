@@ -139,3 +139,5 @@ const CURTAIN_FRAG = /* glsl */ `
 export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const group = new THREE.Group()
   group.name = 'openworld'
+  group.visible = false
+  const colliders = new Colliders()
