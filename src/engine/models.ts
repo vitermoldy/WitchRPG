@@ -392,7 +392,7 @@ function hollow(team: Team): UnitModel {
       const shards = new THREE.Group()
       shards.position.y = 3
       for (let i = 0; i < 7; i++) {
-        const sh = new THREE.Mesh(new THREE.OctahedronGeometry(0.22 + (i % 3) * 0.06, 0), i % 2 ? m.accent : m.bone)
+        const sh = new THREE.Mesh(shape(`Octahedron:${[0.22 + (i % 3) * 0.06, 0].join(',')}`, () => new THREE.OctahedronGeometry(0.22 + (i % 3) * 0.06, 0)), i % 2 ? m.accent : m.bone)
         const a = (i / 7) * Math.PI * 2
         sh.position.set(Math.cos(a) * 2.4, Math.sin(i * 1.7) * 0.6, Math.sin(a) * 2.4)
         shards.add(sh)
