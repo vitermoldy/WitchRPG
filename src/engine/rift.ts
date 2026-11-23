@@ -23,3 +23,4 @@ export class RiftDirector {
   private timer = 0
   private spawnT = 0
   private readonly portals: Portal[] = []
+  private readonly exit: THREE.Group
