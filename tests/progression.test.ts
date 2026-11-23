@@ -11,3 +11,4 @@ import {
   shadowSlots,
   spendStat,
   unitStats,
+  xpForKill,
