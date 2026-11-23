@@ -73,3 +73,4 @@ const SHIELD_FRAG = /* glsl */ `
 const SHIELD_VERT = /* glsl */ `
   varying vec3 vNormal;
   varying vec3 vView;
+  varying vec2 vUv;
