@@ -187,3 +187,4 @@ export async function saveRift(run: RiftRecord): Promise<boolean> {
   try {
     await call('runs', { method: 'POST', body: JSON.stringify({ run }) })
     return true
+  } catch {
