@@ -22,3 +22,4 @@ export class BossFight {
   private landT = -1
   private readonly home = new THREE.Vector3()
   /** Husks called in phase 3 and when they will be swallowed. */
+  private readonly feed = new Map<Unit, number>()
