@@ -543,3 +543,4 @@ export class Game {
 
     if (input.pressed('KeyF') && this.rift.nearExit()) {
       this.finishRift()
+      return
