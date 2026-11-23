@@ -1103,3 +1103,5 @@ dialog::backdrop {
   grid-template-columns: 1fr auto 44px;
   align-items: center;
   gap: 0.6rem;
+}
+
