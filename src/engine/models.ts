@@ -332,6 +332,7 @@ function riftlord(team: Team): UnitModel {
           const claw = new THREE.Mesh(new THREE.ConeGeometry(0.04, 0.3, 4), m.bone)
           claw.position.set(c * 0.07, -0.98, -0.04)
           claw.rotation.x = Math.PI
+          fore.add(claw)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
