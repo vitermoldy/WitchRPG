@@ -43,3 +43,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 ## Struktur
 
 ```
+src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan
