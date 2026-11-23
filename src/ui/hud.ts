@@ -109,3 +109,4 @@ export class Hud {
 
     const chaos = g.spells.overloaded ? (g.spells.overloadT / CHAOS.overloadTime) * 100 : g.spells.chaos
     this.set('chaos-ring', 'dash', `${chaos.toFixed(1)} 100`)
+    this.chaosRing.classList.toggle('full', g.spells.chaos >= CHAOS.max || g.spells.overloaded)
