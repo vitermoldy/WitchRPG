@@ -197,3 +197,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     hold: 0,
     kick: 0,
     flash: 0,
+    color: new THREE.Color(color),
