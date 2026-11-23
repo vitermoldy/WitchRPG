@@ -27,3 +27,4 @@ describe('Player.update', () => {
 
   it('falls back to the last good position if a number breaks anyway', () => {
     const p = new Player()
+    p.reset(new THREE.Vector3(5, 0, 5), 0)
