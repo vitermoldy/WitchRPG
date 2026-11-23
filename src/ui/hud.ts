@@ -136,6 +136,8 @@ export class Hud {
       const shown = Math.abs(d) < span / 2
       el.hidden = !shown
       if (!shown) return
+      el.className = `cm ${m.cls}`
+      if (el.textContent !== m.label) el.textContent = m.label
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
