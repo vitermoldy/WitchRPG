@@ -113,6 +113,7 @@ async function boot() {
 
   const renderResult = () => {
     const r = game.rift
+    $('result-title').textContent = r.bossDefeated ? 'Jantung Rift ditutup' : `${r.tier.name} ditutup`
     const rows: [string, string, string?][] = [
       ['Waktu', fmtTime(r.elapsed)],
       ['Musuh dikalahkan', String(r.kills)],
