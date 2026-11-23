@@ -193,3 +193,4 @@ export function shadowName(id: number): string {
     return h
   }
   const parts = 2 + (next() % 2)
+  let name = ''
