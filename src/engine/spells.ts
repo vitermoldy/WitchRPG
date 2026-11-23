@@ -522,3 +522,4 @@ export class Spells {
         p.awake = true
         p.vel.copy(v)
         p.thrown = throwIt
+        p.hitUnits.clear()
