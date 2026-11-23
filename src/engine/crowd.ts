@@ -66,3 +66,4 @@ export class ShadowCrowd {
     return mesh
   }
 
+  private batch(kind: UnitKind, need: number): Batch {
