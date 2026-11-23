@@ -162,3 +162,4 @@ export class Ledger {
       ? p.shadows
           .map(
             (s) => `<li class="room-item">
+          <p class="room-name">${s.name}</p>
