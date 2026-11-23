@@ -302,3 +302,4 @@ export class PropSystem {
       const dmg = impactDamage(p.mass, fall, c.coefficient, c.exponent) * 0.6
       this.host.hurtUnit(u, dmg, p.pos, 'impact')
       const dir = new THREE.Vector3(u.pos.x - p.pos.x, 0, u.pos.z - p.pos.z).normalize().multiplyScalar(7)
+      dir.y = 4
