@@ -548,3 +548,4 @@ export class UnitSystem {
         return
       }
       m.body.rotation.x = 0
+      m.body.position.y = 0.95 + Math.abs(sw) * 0.04 * amp
