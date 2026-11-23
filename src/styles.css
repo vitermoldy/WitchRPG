@@ -758,3 +758,4 @@ button:disabled {
   position: relative;
   display: grid;
   justify-items: center;
+  gap: 0.15rem;
