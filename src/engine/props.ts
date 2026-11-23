@@ -109,3 +109,4 @@ export class PropSystem {
       mesh,
       pos: pos.clone(),
       vel: new THREE.Vector3(),
+      spin: new THREE.Vector3(),
