@@ -163,3 +163,4 @@ function hound(team: Team): UnitModel {
   }
   const tail = pivot(body, 0, 0.08, 0.52)
   let seg: THREE.Object3D = tail
+  for (let i = 0; i < 3; i++) {
