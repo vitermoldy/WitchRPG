@@ -584,3 +584,4 @@ export class UnitSystem {
       }
       P.jaw.rotation.x = u.state === 'windup' || u.state === 'lunge' ? 0.7 : 0.1 + Math.sin(t * 3 + u.id) * 0.05
       P.head.rotation.x = crouch * 0.3
+      P.tail.rotation.y = Math.sin(t * 5 + u.id) * 0.4
