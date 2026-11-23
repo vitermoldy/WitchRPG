@@ -1102,6 +1102,8 @@ dialog::backdrop {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
 .stat-list {
   display: grid;
   gap: 0.35rem;
