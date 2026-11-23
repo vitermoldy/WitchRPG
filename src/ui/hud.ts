@@ -283,19 +283,8 @@ export class Hud {
     const total = g.profile.shadows.length
     const reform = g.umbra.reforming()
     const rows: string[] = []
-    // Every raised shadow gets a row; empty slots share one line so a big army stays compact.
-    const empty = Math.max(0, slots - g.profile.shadows.length)
-    for (let i = 0; i < g.profile.shadows.length; i++) {
-      const rec = g.profile.shadows[i]
-      const u = live.get(rec.id)
-      const down = g.umbra.down.has(rec.id)
-      const cls = down ? 'down' : u ? 'up' : ''
-      const hp = u ? Math.max(0, u.hp / u.maxHp) : 0
-      rows.push(
-        `<li class="army-slot ${cls}"><span class="pip"></span><span>${rec.name} <span class="num">Lv ${rec.level}</span></span>${
-          down ? '<span class="num">tumbang</span>' : `<span class="hp"><i style="transform:scaleX(${hp.toFixed(2)})"></i></span>`
-        }</li>`,
-      )
+    rows.push(`<li class="army-row"><span>Di medan</span><b class="num">${field.length} / ${Math.min(total, g.umbra.fieldCap)}</b></li>`)
+    rows.push(`<li class="army-row"><span>Ruang Bayangan</span><b class="num">${total}</b></li>`)
     }
     if (empty) rows.push(`<li class="army-slot empty"><span class="pip"></span><span>${empty} slot kosong</span><span></span></li>`)
     const html = rows.join('')
