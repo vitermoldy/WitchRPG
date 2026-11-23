@@ -570,3 +570,4 @@ export class UnitSystem {
         return
       }
       m.body.rotation.z = 0
+      let crouch = 0
