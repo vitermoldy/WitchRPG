@@ -11,3 +11,4 @@ export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
 export class Umbra {
   private readonly g: Game
   candidate: Unit | null = null
+  casting: Unit | null = null
