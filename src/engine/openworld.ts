@@ -301,3 +301,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
 
   // A few wrecks near the square to lift and throw.
   const cars = [
+    { x: 18, z: -12, yaw: 0.4 },
+    { x: -22, z: 9, yaw: 1.2 },
