@@ -85,6 +85,7 @@ export class Hud {
   fade() {
     const el = $('fade')
     el.classList.remove('on')
+    void el.offsetWidth
   clearFeed() {
     this.feed.replaceChildren()
     this.bannerEl.classList.remove('show')
