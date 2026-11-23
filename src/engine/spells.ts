@@ -691,3 +691,4 @@ export class Spells {
   absorb(dmg: number): number {
     if (this.barrierT <= 0) return dmg
     const taken = Math.min(this.barrierAbsorb, dmg)
+    this.barrierAbsorb -= taken
