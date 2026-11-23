@@ -108,3 +108,4 @@ export class Ledger {
     const p = this.host.profile
     const d = derive(p.stats)
     const need = xpToNext(p.level)
+    $('ledger-lv').textContent = `Lv ${p.level}`
