@@ -51,3 +51,4 @@ function crackTexture(size: number) {
     g.beginPath()
     g.arc(size / 2, size / 2, r * size, 0, Math.PI * 2)
     g.stroke()
+  }
