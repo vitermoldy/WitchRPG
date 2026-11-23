@@ -28,3 +28,4 @@ if (rows.length === 0) {
       bayangan: Number(r.shadows),
       'rift ditutup': r.clears ?? 0,
       'rift dimainkan': Number(r.rifts),
+    })),
