@@ -1397,6 +1397,7 @@ dialog::backdrop {
 }
 
 .gate-state {
+  margin: 0 0 0.8rem;
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
