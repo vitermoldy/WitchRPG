@@ -9,3 +9,4 @@ export interface UnitModel {
   body: THREE.Group
   parts: Record<string, THREE.Object3D>
   bodyMat: THREE.MeshStandardMaterial
+  eyeMat: THREE.MeshStandardMaterial
