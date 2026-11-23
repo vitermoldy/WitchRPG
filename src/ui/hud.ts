@@ -124,6 +124,7 @@ export class Hud {
     // Rift status.
     const r = g.rift
     this.set('rift-name', 'text', g.inLair ? 'Jantung Rift' : r.tier.name)
+    this.set(
 
     // Skills.
     const cds = g.spells.cooldowns()
