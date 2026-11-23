@@ -99,3 +99,4 @@ describe('upgrades and shadows', () => {
     p.level = 10
     expect(buyUpgrade(p, 'warp')).toBe(false)
   })
+  it('fills slots, then refuses', () => {
