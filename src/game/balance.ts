@@ -332,4 +332,5 @@ export const BOSS = {
   phaseMana: 30,
   /** Phase 3: slower volleys, and the husks it swallows heal it a little. */
   volleyEvery3: 4.2,
+  /** Damage taken while caught in Reality Warp in phase 3. */
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
