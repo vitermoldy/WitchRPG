@@ -556,6 +556,7 @@ export class UnitSystem {
    */
   private flyer(u: Unit, dt: number, tgt: Target | null, speed: number) {
     const host = this.host
+    const spec = u.spec
     }
   }
 
