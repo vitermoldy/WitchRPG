@@ -210,3 +210,4 @@ export class Umbra {
     g.hands.pose('right', 'rite')
   }
 
+  cancel() {
