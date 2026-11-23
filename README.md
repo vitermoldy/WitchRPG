@@ -26,6 +26,8 @@ npm run users                              # daftar akun, level, bayangan, Rift
 npm run set-user -- <username> <kata sandi> # buat akun atau ganti kata sandinya
 ```
 
+Akun pemilik: `vmk`.
+
 ## Kontrol
 
 | Tangan kiri, Chaos | |
