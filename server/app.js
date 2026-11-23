@@ -224,3 +224,4 @@ export function createApi(getPool, database) {
     res.json({ runs: rows })
   })
 
+  api.use((err, _req, res, _next) => {
