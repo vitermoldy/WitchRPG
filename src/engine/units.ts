@@ -139,3 +139,4 @@ export class UnitSystem {
     disposeModel(u.model)
   }
 
+  clear() {
