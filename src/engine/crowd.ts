@@ -34,3 +34,4 @@ export class ShadowCrowd {
   /** One standing shadow of this kind, merged by material so it draws in a handful of calls. */
   private build(kind: UnitKind): Batch {
     const model = buildModel(kind, 'shadow')
+    model.root.updateMatrixWorld(true)
