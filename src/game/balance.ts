@@ -6,3 +6,4 @@ export const MOVE = {
   sprint: 8,
   crouch: 2.6,
   jumpHeight: 1.2,
+  gravity: 22,
