@@ -25,3 +25,6 @@ export interface CampSpot {
   pack: Partial<Record<Exclude<UnitKind, 'hollow'>, number>>
   elite: boolean
   mat: THREE.ShaderMaterial
+}
+
+export interface OpenWorldBuild {
