@@ -187,3 +187,4 @@ export class PropSystem {
       for (let i = 0; i < awake.length - WORLD.maxPhysicsProps; i++) {
         awake[i].awake = false
         awake[i].vel.set(0, 0, 0)
+      }
