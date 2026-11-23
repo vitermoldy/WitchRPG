@@ -98,3 +98,4 @@ export class Hud {
     this.hurtVeil.style.opacity = String(this.hurt)
     this.manaFlash = Math.max(0, this.manaFlash - dt)
 
+    this.set('hp-fill', 'transform', `scaleX(${Math.max(0, p.hp / p.maxHp).toFixed(3)})`)
