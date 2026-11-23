@@ -399,6 +399,8 @@ export class Umbra {
     let faded = 0
     for (const u of list) {
       u.riteTried = true
+      if (Math.random() >= this.chance(u)) {
+        this.turnToAsh(u)
       const rec = addShadow(g.profile, u.kind, u.level)
       if (!rec) {
         g.hud.message('Slot bayangan penuh. Lepas satu di Ledger (Tab).', 'umbra')
