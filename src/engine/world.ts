@@ -478,3 +478,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   // Reality is bent here: chunks of street float above the plaza.
   const floaters: { m: THREE.Mesh; base: number; spin: THREE.Vector3; phase: number }[] = []
   const rockMat = new THREE.MeshStandardMaterial({ color: 0x3a3234, roughness: 0.9, flatShading: true })
+  for (let i = 0; i < 26; i++) {
