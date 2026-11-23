@@ -521,3 +521,4 @@ export class Game {
     const input = this.input
     const p = this.player
     const wheel = this.umbra.wheelOpen
+    // While the command wheel is open, mouse movement picks an order instead of turning.
