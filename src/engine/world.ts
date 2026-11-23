@@ -473,3 +473,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     head.position.set(x + Math.sin(-tilt) * 2.5, 5, z)
     scene.add(head)
     colliders.add(x, z, 0.3, 0.3, 5)
+  }
+
