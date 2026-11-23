@@ -41,3 +41,4 @@ interface Hand {
   orb: THREE.Sprite
   light: THREE.PointLight
   sigil: THREE.MeshStandardMaterial
+  cuff: THREE.MeshStandardMaterial
