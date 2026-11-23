@@ -262,3 +262,4 @@ export class BossFight {
       const side = new THREE.Vector3(-(goal.z - from.z), 0, goal.x - from.x).normalize().multiplyScalar(spread)
       const to = goal.clone().add(side)
       to.y += 1
+      g.projectiles.fire(from, to, 'rift', u.damage * BOSS.volleyDamage, BOSS.shot, u)
