@@ -204,6 +204,7 @@ function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3
   const spine = pivot(body, 0, z.pelvis[1] * 0.4, 0)
   spine.rotation.x = z.lean
   spine.userData.lean = z.lean
+  parts.spine = spine
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
