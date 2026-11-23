@@ -281,3 +281,4 @@ button:disabled {
   flex-wrap: wrap;
   gap: 0.4rem 1.4rem;
   margin: 0 0 1.4rem;
+  color: var(--ink-2);
