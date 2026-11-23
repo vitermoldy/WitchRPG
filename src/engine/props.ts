@@ -201,3 +201,4 @@ export class PropSystem {
         }
       }
       p.hitCooldown = Math.max(0, p.hitCooldown - dt)
+      if (p.held) {
