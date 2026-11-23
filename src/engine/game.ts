@@ -463,6 +463,7 @@ export class Game {
     this.sfx.start()
     this.useCity()
     this.units.clear()
+    this.projectiles.clear()
     this.respawnProps()
     this.glow.clear()
     this.smoke.clear()
