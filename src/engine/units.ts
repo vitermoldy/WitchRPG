@@ -177,6 +177,7 @@ export class Unit implements Target {
     }
   }
 
+  /** Hovering out of reach of anything that fights on foot. */
 }
 
 const tmp = new THREE.Vector3()
