@@ -40,3 +40,4 @@ export class ShadowCrowd {
       let g = mesh.geometry.index ? mesh.geometry.toNonIndexed() : mesh.geometry.clone()
       g.applyMatrix4(mesh.matrixWorld)
       // Only what the materials read; built-in shapes do not all agree on the rest.
+      for (const name of Object.keys(g.attributes)) if (name !== 'position' && name !== 'normal') g.deleteAttribute(name)
