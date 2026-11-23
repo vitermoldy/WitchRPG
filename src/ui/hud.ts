@@ -191,6 +191,7 @@ export class Hud {
     const u = this.g.rift.bossUnit
     const show = !!u && u.alive
     this.set('bossbar', 'class', show ? 'bossbar on' : 'bossbar')
+    if (!show || !u) return
   private updateArmy() {
     const g = this.g
     const slots = g.derived.slots
