@@ -193,3 +193,4 @@ export async function saveRift(run: RiftRecord): Promise<boolean> {
   }
 }
 
+export async function flushQueue(): Promise<number> {
