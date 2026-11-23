@@ -209,3 +209,4 @@ export class Hands {
   readonly particles = new Particles(500, 'glow')
   private readonly left: Hand
   private readonly right: Hand
+  private t = 0
