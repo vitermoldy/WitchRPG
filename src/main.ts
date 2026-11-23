@@ -184,6 +184,7 @@ async function boot() {
       e.preventDefault()
       const open = tierButtons.filter((b) => !b.disabled)
       const i = open.indexOf(el)
+      const next = open[(i + (e.key === 'ArrowRight' ? 1 : open.length - 1)) % open.length]
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
