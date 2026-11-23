@@ -137,3 +137,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
           g.lineTo(cx, cy)
         }
         eg.stroke()
+        if (pass === 1) g.stroke()
