@@ -307,6 +307,7 @@ function riftlord(team: Team): UnitModel {
     team,
     { hip: 1.45, pelvis: [0.62, 0.32, 0.4], torso: [0.98, 1.05, 0.58], lean: 0.22, head: [0.42, 0.42, 0.42], shoulderX: 0.62, arm: [0.2, 0.82, 0.88], hipX: 0.22, leg: [0.26, 0.7, 0.72] },
     (p, m, meshes) => {
+      const core = new THREE.Mesh(new THREE.IcosahedronGeometry(0.2, 0), m.accent)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
