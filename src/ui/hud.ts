@@ -83,3 +83,4 @@ export class Hud {
 
   clearFeed() {
     this.feed.replaceChildren()
+    this.bannerEl.classList.remove('show')
