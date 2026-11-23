@@ -85,3 +85,4 @@ function husk(team: Team): UnitModel {
   for (const side of [-1, 1]) {
     const sh = pivot(spine, side * 0.3, 0.52, 0)
     sh.add(box(0.12, 0.44, 0.12, bodyMat, meshes, -0.2))
+    const el = pivot(sh, 0, -0.42, 0)
