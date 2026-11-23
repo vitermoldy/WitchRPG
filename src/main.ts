@@ -48,3 +48,4 @@ async function boot() {
     fail('Browser ini tidak menyediakan WebGL 2.')
     return
   }
+  const debug = new URLSearchParams(location.search).has('debug')
