@@ -319,3 +319,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   sc.left = sc.bottom = -46
   sc.right = sc.top = 46
   sc.near = 1
+  sc.far = 160
