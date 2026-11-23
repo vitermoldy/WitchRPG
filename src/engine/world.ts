@@ -336,3 +336,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     roughness: 0.93,
     metalness: 0,
   })
+  const ground = new THREE.Mesh(new THREE.PlaneGeometry(100, 100), groundMat)
