@@ -132,3 +132,4 @@ function hound(team: Team): UnitModel {
   const glowLine = box(0.04, 0.03, 0.9, s.accent, meshes, 0.215)
   glowLine.castShadow = false
   body.add(glowLine)
+  const neck = pivot(body, 0, 0.08, -0.58)
