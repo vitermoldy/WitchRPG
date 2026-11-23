@@ -127,3 +127,4 @@ export class Player {
       this.onGround = false
       this.sliding = 0
     }
+    const wantsFloat = !this.onGround && space && this.vel.y <= 0.5 && this.stamina > 0 && this.floatLeft > 0
