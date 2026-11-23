@@ -148,6 +148,7 @@ export interface UnitSpec {
   lungeSpeed?: number
   lungeTime?: number
   /** Fires globs instead of hitting in melee. `blast`: the glob bursts over this radius where it lands. */
+  shot?: { speed: number; gravity: number; radius: number; keepAway: number; blast?: number }
   /** Share of damage a raised shield stops when hit from the front. */
   shield?: number
   /** Ground slam: everything of the other side inside this radius is hit. */
