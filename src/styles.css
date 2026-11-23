@@ -1466,6 +1466,8 @@ dialog::backdrop {
 
 .tier[aria-checked='true'] .tier-lock {
   color: var(--ink-2);
+}
+
 /* Account */
 .account-row {
   display: flex;
