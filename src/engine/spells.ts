@@ -447,3 +447,4 @@ export class Spells {
       }
     }
     const cam = g.camera
+    const o = this.tmp2.copy(g.player.eyePos)
