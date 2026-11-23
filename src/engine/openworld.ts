@@ -167,3 +167,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     { min: 70, max: 125, levels: [1, 3] as [number, number] },
     { min: 135, max: 185, levels: [4, 6] as [number, number] },
     { min: 195, max: 232, levels: [7, 9] as [number, number] },
+  ]
+  const reserved: { x: number; z: number; r: number }[] = [{ x: 0, z: 0, r: 34 }]
