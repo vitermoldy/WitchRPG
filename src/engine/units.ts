@@ -498,3 +498,4 @@ export class UnitSystem {
       m.bodyMat.emissive.set(COLOR.umbraDeep)
       m.bodyMat.emissiveIntensity = 0.55 + Math.sin(t * 3 + u.id) * 0.15
     } else {
+      // A faint inner ember so rift bodies read against the dark streets.
