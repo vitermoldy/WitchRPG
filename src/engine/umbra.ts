@@ -167,3 +167,4 @@ export class Umbra {
         else this.wheelChoice = 'swap'
       }
       if (!g.input.held('KeyZ')) {
+        this.wheelOpen = false
