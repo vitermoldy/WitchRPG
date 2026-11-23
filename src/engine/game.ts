@@ -263,3 +263,4 @@ export class Game {
   }
 
   hurtUnit(u: Unit, dmg: number, from: THREE.Vector3, by: DamageSource) {
+    if (!u.alive || dmg <= 0) return
