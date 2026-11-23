@@ -65,3 +65,4 @@ const TABLES = [
     shadows_raised TINYINT UNSIGNED NOT NULL,
     seconds INT UNSIGNED NOT NULL,
     finished_at DATETIME NOT NULL,
+    INDEX runs_by_client (client_id, finished_at),
