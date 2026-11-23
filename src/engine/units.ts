@@ -630,6 +630,7 @@ export class UnitSystem {
         if (d2 >= min * min || d2 < 1e-8) continue
         const d = Math.sqrt(d2)
         const share = a.mass / (a.mass + b.mass)
+        const push = min - d
       }
       // Keep clear of the witch.
       const p = host.player
