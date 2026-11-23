@@ -213,21 +213,7 @@ export class Ledger {
     }
 
     const live = this.host.liveShadows()
-    $('room-count').textContent = `${p.shadows.length} dari ${d.slots} slot`
-    $('room-list').innerHTML = p.shadows.length
-      ? p.shadows
-          .map(
-            (s) => `<li class="room-item">
-          <p class="room-name">${s.name}</p>
-          <p class="room-meta">${RANKS[s.rank].label} dari ${UNITS[s.kind].name}, Lv ${s.level}${live.has(s.id) ? ', sedang bertarung' : ''}</p>
-          <button class="btn btn-small" type="button" data-release="${s.id}" aria-label="Lepas ${s.name}">Lepas</button>
-        </li>`,
-          )
-          .join('')
-      : `<li class="room-empty">${
-          isUnlocked(p, 'rite')
-            ? 'Belum ada bayangan. Kalahkan musuh, bidik tubuhnya yang bersinar ungu, lalu tahan R.'
-            : 'Belum ada bayangan. Umbra Rite terbuka di Lv 2: setelah itu tubuh musuh yang kalah bisa dibangkitkan.'
-        }</li>`
+    $('room-count').textContent = p.shadows.length ? `${p.shadows.length} bayangan, ${live.size} di medan` : ''
+    if (!p.shadows.length) {
   }
 }
