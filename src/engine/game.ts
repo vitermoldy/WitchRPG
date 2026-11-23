@@ -551,3 +551,5 @@ export class Game {
     this.units.update(dt, this.t)
     this.props.update(dt)
     this.rift.update(dt)
+    this.embers(dt, p.pos, 18)
+
