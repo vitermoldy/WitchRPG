@@ -585,3 +585,4 @@ export class Spells {
         dir.y = lift * k
         g.units.knock(u, dir)
       } else if (!u.alive) {
+        const dir = new THREE.Vector3(u.pos.x - at.x, 0, u.pos.z - at.z).normalize().multiplyScalar(push * 0.5 * k)
