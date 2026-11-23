@@ -258,3 +258,4 @@ export class Game {
     this.smoke.emit({ pos: at, count: Math.round(3 + strength * 8), color: 0x2a2224, life: 1, size: 0.8 + strength, sizeEnd: 1.6 + strength, speed: 1 + strength * 2, alpha: 0.6 })
     if (strength > 0.25) {
       this.sfx.impact(strength)
+      this.player.addTrauma(Math.max(0, strength * 0.35 - this.player.pos.distanceTo(at) * 0.01))
