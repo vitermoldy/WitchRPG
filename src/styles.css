@@ -1155,3 +1155,4 @@ dialog::backdrop {
 }
 
 .tree {
+  display: grid;
