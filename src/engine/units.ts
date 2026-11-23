@@ -72,3 +72,4 @@ export class Unit implements Target {
   record: ShadowRecord | null = null
   command: Command = 'follow'
   holdPos = new THREE.Vector3()
+  slot = 0
