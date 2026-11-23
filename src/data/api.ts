@@ -183,3 +183,4 @@ export async function saveRift(run: RiftRecord): Promise<boolean> {
   if (auth.status !== 'signed-in') {
     writeQueue([...readQueue(), run])
     return false
+  }
