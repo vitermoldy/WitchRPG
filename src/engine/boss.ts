@@ -177,3 +177,4 @@ export class BossFight {
   /** Returns true when it moved the boss itself this frame; false hands over to the normal brain. */
   private brain(u: Unit, dt: number): boolean {
     const g = this.g
+    const goal = this.targetFor()
