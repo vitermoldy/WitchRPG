@@ -228,6 +228,7 @@ export class PropSystem {
       }
       if (!p.awake) continue
       p.flight = Math.max(0, p.flight - dt)
+      p.vel.y -= 22 * dt * (p.flight > 0 ? SPELL.grip.flightGravity : 1)
       p.pos.addScaledVector(p.vel, dt)
       const n = this.tmp
       n.set(0, 0, 0)
