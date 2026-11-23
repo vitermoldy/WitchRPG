@@ -271,3 +271,4 @@ export class Game {
     if (u.team === 'rift') {
       u.barShown = 3
       if (by === 'player' || by === 'impact') {
+        this.spells.addChaos(chaosFromDamage(amount, 0))
