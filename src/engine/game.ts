@@ -98,3 +98,4 @@ export class Game {
         get yaw() {
           return game.player.yaw
         },
+        radius: MOVE.radius,
