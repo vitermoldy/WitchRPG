@@ -92,6 +92,7 @@ async function boot() {
     2: 'Ditambah Spitter yang menembak dari perancah. Lv 4 sampai 6.',
     3: 'Ditambah Warden berperisai dan Rift Lord. Lv 7 sampai 9. Di ujungnya, Jantung Rift dan The Hollow Warden.',
     4: 'Harrier menukik dari udara, dan sebagian makhluk keluar sebagai elite. Lv 10 sampai 12. Di akhir, Rift Lord elite.',
+    5: 'Ditambah Bombard yang menembak ke lingkaran amber. Lv 13 sampai 15. Di akhir, dua Rift Lord elite sekaligus.',
   }
   const renderTiers = () => {
     const p = game.profile
