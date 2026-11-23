@@ -365,3 +365,4 @@ export class Game {
     this.player.reset(this.world.playerStart, 0)
     this.applyStats(true)
     this.hands.pose('left', 'idle')
+    this.hands.pose('right', 'idle')
