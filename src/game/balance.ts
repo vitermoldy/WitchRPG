@@ -36,3 +36,4 @@ export const CAMERA = {
 
 export const PLAYER = {
   baseHp: 100,
+  hpPerVit: 10,
