@@ -81,3 +81,4 @@ export class RiftDirector {
   }
 
   private startWave(i: number) {
+    const spec = RIFT_TIER_1.waves[i]
