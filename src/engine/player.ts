@@ -193,3 +193,4 @@ export class Player {
     cam.position.addScaledVector(this.right, bobX)
     this.shakeT += dt * 38
     this.trauma = Math.max(0, this.trauma - dt * 1.6)
+    const s = shake ? this.trauma * this.trauma : 0
