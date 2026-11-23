@@ -273,3 +273,4 @@ export class PropSystem {
 
   private hitUnits(p: Prop, speed: number) {
     const c = SPELL.impact
+    for (const u of this.host.units.units) {
