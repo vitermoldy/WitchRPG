@@ -1702,3 +1702,5 @@ dialog::backdrop {
 
 /* Open world: a compass strip at the top, the status line under it. Directions ride the top row, places the bottom one. */
 .compass {
+  display: none;
+  position: absolute;
