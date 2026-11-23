@@ -93,3 +93,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   const sigil = new THREE.MeshStandardMaterial({ color: 0x000000, emissive: color, emissiveIntensity: 1.2 })
 
   // Forearm and sleeve, running back toward the camera.
+  const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.036, 0.05, 0.42, 10), skin)
