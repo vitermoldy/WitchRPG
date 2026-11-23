@@ -443,6 +443,7 @@ function harrier(team: Team): UnitModel {
     eye.castShadow = false
     head.add(eye)
   }
+  for (const side of [-1, 1]) {
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
