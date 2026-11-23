@@ -115,6 +115,7 @@ export const XP = {
   startStat: 5,
   maxLevel: 30,
   /**
+   * The GDD's curve covers Lv 1 to 9. Above that each level costs this much more per level past 9,
 } as const
 
 export type RankId = 'prajurit' | 'ksatria' | 'jenderal' | 'marsekal'
