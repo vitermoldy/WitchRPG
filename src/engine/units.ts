@@ -539,3 +539,4 @@ export class UnitSystem {
       }
       if (u.state === 'dead') {
         const k = Math.min(1, u.deadT / 0.5)
+        m.body.rotation.x = -k * 1.45
