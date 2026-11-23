@@ -21,7 +21,7 @@ interface Portal {
   open: number
 }
 
-/** Runs one Rift: waves out of the four tears, then the exit at the monument. */
+type Spawn = { kind: Exclude<UnitKind, 'hollow'>; level: number }
 export class RiftDirector {
   private readonly g: Game
   phase: RiftPhase = 'intro'
