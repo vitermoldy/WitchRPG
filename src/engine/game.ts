@@ -459,6 +459,7 @@ export class Game {
       if (d > radius + o.radius || Math.abs(o.pos.y - at.y) > 3.5) continue
       this.hurtUnit(o, damage * (1 - 0.4 * (d / radius)), at, by)
       if (o.alive) this.units.knock(o, new THREE.Vector3(o.pos.x - at.x, 0, o.pos.z - at.z).normalize().multiplyScalar(5).setY(3.5))
+    }
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
