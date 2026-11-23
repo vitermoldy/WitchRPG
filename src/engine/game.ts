@@ -392,3 +392,5 @@ export class Game {
     this.setState('ledger')
     this.input.unlock()
     this.ledger.open()
+  }
+
