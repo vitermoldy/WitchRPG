@@ -363,3 +363,4 @@ export class Game {
     this.umbra.reset()
     this.hud.clearFeed()
     this.player.reset(this.world.playerStart, 0)
+    this.applyStats(true)
