@@ -299,3 +299,5 @@ export class Spells {
     g.player.addTrauma(0.04)
     g.sfx.bolt()
     g.glow.emit({ pos: from, count: 8, color: COLOR.chaosHot, intensity: 3, life: 0.2, size: 0.12, speed: 2.5, jitter: 0.03 })
+  }
+
