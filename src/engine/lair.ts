@@ -19,3 +19,4 @@ export interface LairBuild {
   platforms: Platform[]
   /** Where the witch steps in, on an outer pillar facing the middle. */
   playerStart: THREE.Vector3
+  /** Rocks the witch can throw at the boss's shell in phase 2. */
