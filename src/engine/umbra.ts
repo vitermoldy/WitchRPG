@@ -43,3 +43,4 @@ export class Umbra {
   summonAll() {
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
+      window.setTimeout(() => {
