@@ -97,6 +97,7 @@ async function boot() {
     if (!tierUnlocked(p, game.tier)) game.tier = 1
     for (const el of document.querySelectorAll<HTMLButtonElement>('.tier')) {
       const t = Number(el.dataset.tier) as TierId
+      const open = tierUnlocked(p, t)
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
