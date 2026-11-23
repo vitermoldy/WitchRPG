@@ -121,3 +121,4 @@ export class Game {
       hurtUnit: (u, dmg, from, by) => this.hurtUnit(u, dmg, from, by),
       impactFx: (at, s) => this.impactFx(at, s),
     })
+    this.scene.add(this.props.group)
