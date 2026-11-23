@@ -107,3 +107,4 @@ export class Umbra {
             if (score < bestScore) {
               bestScore = score
               best = u
+            }
