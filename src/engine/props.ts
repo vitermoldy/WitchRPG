@@ -152,3 +152,4 @@ export class PropSystem {
     for (const p of this.props) if (!p.held && p.pos.distanceTo(at) < r + p.radius) p.awake = true
   }
 
+  push(p: Prop, impulse: THREE.Vector3, spin = 4) {
