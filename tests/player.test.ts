@@ -19,3 +19,4 @@ describe('Player.update', () => {
   })
 
   it('stays finite with a zero frame time', () => {
+    const p = new Player()
