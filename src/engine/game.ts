@@ -225,3 +225,4 @@ export class Game {
     this.props.clear()
     for (const s of this.world.props) {
       if (s.kind === 'car') this.props.spawnCar(s.x, s.z, s.yaw)
+      else for (let i = 0; i < (s.stack ?? 1); i++) this.props.spawnCrate(s.x + (Math.random() - 0.5) * 0.1, s.z + (Math.random() - 0.5) * 0.1, s.yaw + (Math.random() - 0.5) * 0.4, i)
