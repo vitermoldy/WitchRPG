@@ -15,3 +15,4 @@ import {
   signIn,
   signOut,
   signUp,
+  type AuthState,
