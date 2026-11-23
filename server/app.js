@@ -149,6 +149,7 @@ export function createApi(getPool, database) {
     if (!w) return null
     const [ups] = await db.query('SELECT skill FROM witch_upgrades WHERE client_id = ?', [client])
     const [sh] = await db.query('SELECT shadow_id, name, kind, `rank`, level, xp FROM shadows WHERE client_id = ? ORDER BY slot', [client])
+    const [tc] = await db.query('SELECT tier, clears FROM tier_clears WHERE client_id = ?', [client])
     return {
       version: 1,
       level: w.level,
