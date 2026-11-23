@@ -161,3 +161,4 @@ export class Ledger {
     $('room-list').innerHTML = p.shadows.length
       ? p.shadows
           .map(
+            (s) => `<li class="room-item">
