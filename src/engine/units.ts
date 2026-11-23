@@ -47,3 +47,4 @@ export class Unit implements Target {
   readonly mass: number
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
+  readonly lastGood = new THREE.Vector3()
