@@ -796,5 +796,6 @@ export class Game {
       p.reset(back, p.yaw)
       p.addTrauma(0.4)
       this.hud.hurtFlash(0.6)
+      this.hud.message(`Jatuh ke kehampaan: ${loss} HP hilang. Tahan Spasi di udara untuk melayang antar pilar.`, 'chaos')
   }
 }
