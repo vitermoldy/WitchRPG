@@ -112,3 +112,4 @@ export class ShadowCrowd {
       this.m.compose(this.p, this.q, this.s)
       b.mesh.setMatrixAt(b.used++, this.m)
     }
+    for (const b of this.batches.values()) {
