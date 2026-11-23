@@ -202,3 +202,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   }
 }
 
+/** The two hands, drawn in their own scene after the world so walls never cut through them. */
