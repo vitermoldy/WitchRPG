@@ -201,3 +201,4 @@ export async function flushQueue(): Promise<number> {
     try {
       await call('runs', { method: 'POST', body: JSON.stringify({ run }) })
       sent++
+    } catch {
