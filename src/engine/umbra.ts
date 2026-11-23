@@ -280,3 +280,4 @@ export class Umbra {
         s.command = 'follow'
         s.focus = null
         s.target = null
+      }
