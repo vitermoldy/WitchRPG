@@ -104,3 +104,4 @@ export class Game {
         },
         team: 'shadow',
       },
+      glow: this.glow,
