@@ -421,3 +421,4 @@ export class Spells {
       if (gb.unit) {
         gb.unit.setState('held')
         gb.unit.vel.set(0, 0, 0)
+        gb.unit.target = null
