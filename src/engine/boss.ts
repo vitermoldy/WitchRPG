@@ -45,3 +45,4 @@ export class BossFight {
     let dmg = amount
     if (this.collapseT >= 0 || this.landT >= 0) return 0
     if (this.phase === 2) dmg *= by === 'impact' ? 1.5 : BOSS.shellBoltShare
+    if (this.phase === 3) {
