@@ -149,6 +149,7 @@ export class RiftDirector {
         ? 'Dua penguasa retakan sekaligus, keduanya elite. Jatuhkan satu dulu.'
         : lord.length
           ? 'Penguasa retakan ini keluar sendiri. Ia memanggil husk dan menghantam tanah.'
+          : last
     )
   }
 
