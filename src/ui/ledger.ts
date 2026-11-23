@@ -231,5 +231,7 @@ export class Ledger {
       if (list) list.push(s)
       else groups.set(key, [s])
     }
+    const keys = [...groups.keys()].sort((a, b) => order[a.split(':')[0]] - order[b.split(':')[0]] || a.localeCompare(b))
+    $('room-list').innerHTML = keys
   }
 }
