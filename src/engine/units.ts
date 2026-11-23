@@ -200,3 +200,4 @@ export class UnitSystem {
         bestD = d
       }
     }
+    return best
