@@ -277,3 +277,4 @@ button:disabled {
 }
 
 .profile-line {
+  display: flex;
