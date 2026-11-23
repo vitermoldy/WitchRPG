@@ -61,3 +61,5 @@ Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sine
 | Semua suara disintesis dengan WebAudio | Tidak ada file audio berlisensi yang perlu dicari. |
 | Favicon dua lingkaran merah dan ungu | Penanda sementara, bukan logo. Logo dan ikon menunggu arahan pemilik. |
 
+Motion: bob tangan, recoil saat cast, guncangan kamera, banner gelombang, dan feed yang memudar. Semua animasi CSS berhenti di `prefers-reduced-motion`; head bob dan guncangan kamera punya tombol sendiri di layar jeda.
+
