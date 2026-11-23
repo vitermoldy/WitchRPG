@@ -115,3 +115,4 @@ export class BossFight {
         this.summonT = 10
         // It swallows every creature still standing.
         let eaten = 0
+        for (const o of g.units.enemies()) {
