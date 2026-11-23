@@ -1347,3 +1347,4 @@ dialog::backdrop {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  *,
