@@ -430,6 +430,8 @@ export class ShadowPools {
       const mat = new THREE.ShaderMaterial({
         uniforms: { uTime: { value: 0 }, uOpen: { value: 0 }, uSeed: { value: Math.random() * 10 } },
         vertexShader: POOL_VERT,
+        fragmentShader: POOL_FRAG,
+        transparent: true,
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
