@@ -40,3 +40,4 @@ export class Umbra {
   }
 
   /** Calls every saved shadow out of the Shadow Room at the start of a Rift. */
+  summonAll() {
