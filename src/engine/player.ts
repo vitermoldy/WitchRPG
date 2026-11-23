@@ -54,3 +54,4 @@ export class Player {
     this.vel.set(0, 0, 0)
     this.yaw = yaw
     this.pitch = 0
+    this.onGround = true
