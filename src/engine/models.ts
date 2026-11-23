@@ -246,6 +246,7 @@ function spitter(team: Team): UnitModel {
   return biped(
     team,
     { hip: 0.62, pelvis: [0.4, 0.2, 0.3], torso: [0.5, 0.48, 0.46], lean: 0.8, head: [0.3, 0.22, 0.36], shoulderX: 0.28, arm: [0.08, 0.3, 0.3], hipX: 0.14, leg: [0.12, 0.33, 0.32] },
+    (p, m, meshes) => {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
