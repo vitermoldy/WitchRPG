@@ -345,6 +345,8 @@ export class Umbra {
     return RITE.mana + RITE.massManaPerExtra * Math.max(0, n - 1)
   }
 
+  /** Why a cast on these bodies cannot start right now, or null when it can. */
+  blocker(u?: Unit, n = 1): string | null {
     const g = this.g
     if (!this.riteOpen) return 'Umbra Rite terbuka di Lv 2.'
     const rank = u ? riteBlock(g.profile, u.kind) : null
