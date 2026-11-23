@@ -197,3 +197,4 @@ export class Umbra {
 
   private begin() {
     const g = this.g
+    const u = this.candidate
