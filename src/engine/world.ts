@@ -363,3 +363,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const facades = [0, 1, 2, 3].map((i) => facadeTextures(10 + i))
   for (let side = 0; side < 4; side++) {
     let along = -60
+    while (along < 60) {
