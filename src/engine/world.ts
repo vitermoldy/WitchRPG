@@ -83,3 +83,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   for (const s of [-1, 1]) {
     g.fillRect(px(s * road) - 2, 0, 4, size)
     g.fillRect(0, px(s * road) - 2, size, 4)
+  }
