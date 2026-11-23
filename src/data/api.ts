@@ -41,3 +41,4 @@ function clientCode(): string {
       code = makeCode()
       localStorage.setItem(CODE_KEY, code)
     }
+    return code
