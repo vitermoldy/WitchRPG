@@ -280,6 +280,7 @@ export class UnitSystem {
     const p = this.host.player
     const n = Math.max(1, this.units.filter((o) => o.team === 'shadow').length)
     const a = p.yaw + Math.PI + (u.slot - (n - 1) / 2) * 0.7
+    const dist = SHADOW.followDistance + u.radius
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
