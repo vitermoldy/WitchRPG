@@ -540,6 +540,7 @@ export class Game {
     if (!this.inLair && this.world.city.visible) return
     this.inLair = false
     this.world.city.visible = true
+    this.lair.group.visible = false
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
