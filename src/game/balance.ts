@@ -31,3 +31,4 @@ export const CAMERA = {
   sprintFov: 90,
   near: 0.05,
   far: 400,
+  sensitivity: 0.0022,
