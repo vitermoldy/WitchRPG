@@ -191,3 +191,4 @@ export class Game {
 
   setState(s: GameState) {
     this.state = s
+    this.input.capture = s === 'playing'
