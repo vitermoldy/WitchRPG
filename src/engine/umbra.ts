@@ -351,8 +351,8 @@ export class Umbra {
     if (!this.riteOpen) return 'Umbra Rite terbuka di Lv 2.'
     const rank = u ? riteBlock(g.profile, u.kind) : null
     if (rank) return rank
-    if (g.profile.shadows.length >= g.derived.slots) return 'Slot bayangan penuh. Lepas satu di Ledger (Tab).'
-    if (!g.spells.overloaded && g.player.mana < RITE.mana) return `Mana kurang: butuh ${RITE.mana}.`
+    if (g.profile.shadows.length >= RITE.maxShadows) return 'Ruang Bayangan sudah penuh sekali. Lepas sebagian di Ledger (Tab).'
+    const need = this.cost(n)
     return null
   }
 
