@@ -95,3 +95,4 @@ export class ShadowCrowd {
     for (const u of units) {
       if (u.team !== 'shadow' || u.detailed || u.state === 'dead') continue
       const b = this.batches.get(u.kind)!
+      this.p.copy(u.pos)
