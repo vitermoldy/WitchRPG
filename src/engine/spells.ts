@@ -637,6 +637,7 @@ export class Spells {
       depthWrite: false,
       side: THREE.DoubleSide,
       blending: THREE.AdditiveBlending,
+    })
   private burst() {
     const g = this.g
     const s = SPELL.burst
