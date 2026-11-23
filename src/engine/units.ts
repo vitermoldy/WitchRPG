@@ -509,3 +509,4 @@ export class UnitSystem {
       return
     }
     if (u.state === 'rising') {
+      const k = Math.min(1, u.t / 1.2)
