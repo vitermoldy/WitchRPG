@@ -241,3 +241,4 @@ export class BossFight {
     return false
   }
 
+  private callHusk(at: THREE.Vector3): Unit | null {
