@@ -831,6 +831,7 @@ export class UnitSystem {
             const share = a.mass / (a.mass + b.mass)
             const push = min - d
             a.pos.x += (dx / d) * push * (1 - share)
+            a.pos.z += (dz / d) * push * (1 - share)
       }
       // Keep clear of the witch.
       const p = host.player
