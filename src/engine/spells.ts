@@ -320,3 +320,4 @@ export class Spells {
       let hitAt: THREE.Vector3 | null = null
       let hitUnit: Unit | null = null
       let hitProp: Prop | null = null
+      // Sweep the segment so fast bolts never tunnel through a thin body.
