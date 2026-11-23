@@ -193,3 +193,4 @@ export class Game {
     this.state = s
     this.input.capture = s === 'playing'
     if (s === 'paused' || s === 'ledger' || s === 'title') this.sfx.resume()
+    this.onState?.(s)
