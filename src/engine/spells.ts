@@ -672,6 +672,7 @@ export class Spells {
       w.wallMat.uniforms.uFade.value = fade
       const left = w.duration - w.t
       for (const u of g.units.units) {
+        if (u.team !== 'rift' || !u.alive || u.state === 'spawn') continue
   private burst() {
     const g = this.g
     const s = SPELL.burst
