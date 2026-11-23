@@ -480,3 +480,4 @@ export class Spells {
     const to = first.unit ? first.unit.center : first.prop!.pos
     const mid = from.clone().lerp(to, 0.5).add(new THREE.Vector3(0, 0.6, 0))
     const t = performance.now() / 1000
+    for (let i = 0; i < this.tendrilPts.length; i++) {
