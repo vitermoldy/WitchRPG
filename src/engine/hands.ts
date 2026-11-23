@@ -165,3 +165,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     }
   }
 
+  const orb = new THREE.Sprite(
