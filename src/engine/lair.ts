@@ -142,3 +142,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     pillar(Math.cos(a) * 20.5, Math.sin(a) * 20.5, 5, 0.6)
   }
 
+  // A ring of broken columns at the rim, and the rim itself as the wall of the arena.
