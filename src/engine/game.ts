@@ -38,3 +38,4 @@ export class Game {
   readonly input: Input
   readonly sfx = new Sfx()
   readonly player = new Player()
+  readonly world: WorldBuild
