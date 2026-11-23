@@ -114,3 +114,4 @@ export class BossFight {
         this.volleyT = 3
         this.summonT = 10
         // It swallows every creature still standing.
+        let eaten = 0
