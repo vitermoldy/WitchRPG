@@ -36,3 +36,4 @@ export interface Settings {
 
 export interface Profile {
   version: 1
+  level: number
