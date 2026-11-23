@@ -283,6 +283,7 @@ export class UnitSystem {
     const dist = SHADOW.followDistance + u.radius
     tmp2.set(p.pos.x - Math.sin(a) * dist, 0, p.pos.z - Math.cos(a) * dist)
     const far = u.pos.distanceTo(p.pos) > 9
+    this.steer(u, tmp2, far ? speed * 1.6 : speed, dt, 0.8)
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
