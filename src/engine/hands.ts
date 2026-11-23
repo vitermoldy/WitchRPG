@@ -340,3 +340,4 @@ export class Hands {
 
   /** Particles drawn inward to a palm while a cast charges. */
   gather(side: Side, k: number) {
+    const h = this.hand(side)
