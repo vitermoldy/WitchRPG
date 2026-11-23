@@ -104,6 +104,8 @@ Pemilik meminta "bayangannya bisa dikeluarkan tanpa kecuali". Saya membacanya se
 | Pemanggilan besar | Selesai dalam sekitar 2,5 detik berapa pun jumlahnya. Sembilan puluh prajurit pertama mendapat kolam sendiri, sisanya naik dari kolam lebar yang menutupi seluruh barisan (sampai 60 m) | Satu kolam per prajurit untuk dua ribu prajurit akan berkedip karena kolamnya habis dipakai ulang. |
 | Biaya simulasi | Geometri dipakai bersama oleh semua makhluk sejenis. Dorongan antarmakhluk memakai grid 3 m, dan tabrakan dengan dinding dan lantai memakai indeks sel 8 m, bukan memeriksa setiap kotak di peta | Dengan dua ribu makhluk, memeriksa setiap pasangan berarti dua juta pemeriksaan per frame, dan setiap makhluk memeriksa setiap gedung. |
 
+Diukur di RTX 5070 Ti laptop dengan 20 musuh (median per frame): tanpa bayangan 5,6 ms, 200 bayangan 8,3 ms, 500 bayangan 9,9 ms, 1.000 bayangan 12,8 ms, 2.000 bayangan (batas Ruang Bayangan) 15 ms setelah indeks tabrakan. Di dunia terbuka, 606 bayangan sekaligus 5 ms.
+
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
