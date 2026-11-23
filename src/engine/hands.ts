@@ -10,3 +10,4 @@ interface Pose {
   spread: number
   reach: number
   lift: number
+  twist: number
