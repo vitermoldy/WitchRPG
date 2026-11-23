@@ -298,3 +298,4 @@ export class Game {
       this.applyStats(false)
       this.sfx.levelUp()
       this.hud.message(`Lv ${this.profile.level}. ${this.profile.statPoints} poin stat dan ${this.profile.skillPoints} poin skill menunggu di Ledger (Tab).`, 'level')
+      for (const id of r.unlocked) {
