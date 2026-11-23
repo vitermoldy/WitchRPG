@@ -12,3 +12,4 @@ import {
   spendStat,
   unitStats,
   xpForKill,
+  xpToNext,
