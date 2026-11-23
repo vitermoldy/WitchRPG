@@ -64,7 +64,7 @@ Akun pemilik: `vmk`.
 
 ```
 src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan
-src/engine/   dunia 3D, pemain, tangan, musuh, sihir, Umbra, Rift, suara
+src/engine/   dunia 3D, Jantung Rift (lair.ts), pemain, tangan, makhluk, sihir, proyektil, Umbra, Rift, boss, suara
 src/ui/       HUD, Ledger, layar masuk akun
 src/data/     panggilan ke API: akun, witch, riwayat Rift
 server/       Express + MySQL: akun (auth.js), tabel (db.js), API (app.js), perintah users dan set-user
