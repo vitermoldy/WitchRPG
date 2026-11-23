@@ -27,6 +27,7 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
   const profile: Profile = {
     ...base,
     ...data,
+    stats: { ...base.stats, ...data.stats },
   try {
     localStorage.setItem(KEY, JSON.stringify(p))
     return true
