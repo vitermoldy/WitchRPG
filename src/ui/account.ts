@@ -221,3 +221,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     render()
     $('btn-enter').focus()
   }
+  $('gate-skip').addEventListener('click', skip)
