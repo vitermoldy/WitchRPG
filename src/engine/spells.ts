@@ -35,3 +35,4 @@ export interface AimHit {
 }
 
 const RUNE_FRAG = /* glsl */ `
+  varying vec2 vUv;
