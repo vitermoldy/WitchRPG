@@ -178,3 +178,4 @@ export class Game {
   }
 
   /** Builds every shader once behind the loading screen so the first fight does not stutter. */
+  async warmUp() {
