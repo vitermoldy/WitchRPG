@@ -367,3 +367,4 @@ button:disabled {
 .result-list {
   display: grid;
   grid-template-columns: auto auto;
+  gap: 0.5rem 2rem;
