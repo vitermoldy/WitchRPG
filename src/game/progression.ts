@@ -45,3 +45,4 @@ export interface Profile {
   shadows: ShadowRecord[]
   nextShadowId: number
   clears: number
+  settings: Settings
