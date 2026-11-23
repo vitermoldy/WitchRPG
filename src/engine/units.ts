@@ -86,6 +86,7 @@ export class Unit implements Target {
   /** Who called this unit up; summoners keep count of their helpers. */
   owner: Unit | null = null
   /** A temporary shadow (called by a Rift Lord shadow) dissolves when this runs out. */
+  temp = 0
   // Corpse.
   deadT = 0
   riteTried = false
