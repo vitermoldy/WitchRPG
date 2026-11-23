@@ -235,3 +235,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     button.textContent = 'Keluar...'
     // The witch and waiting Rifts belong to this account: they go out before the browser forgets them.
     window.clearTimeout(pushTimer)
+    let sent = true
