@@ -280,9 +280,8 @@ export class UnitSystem {
       return
     }
     const p = this.host.player
-    const n = Math.max(1, this.units.filter((o) => o.team === 'shadow').length)
-    const a = p.yaw + Math.PI + (u.slot - (n - 1) / 2) * 0.7
-    const dist = SHADOW.followDistance + u.radius
+    // Rings behind the witch: 8 in the first, 4 more in each ring after it.
+    let ring = 0
     tmp2.set(p.pos.x - Math.sin(a) * dist, 0, p.pos.z - Math.cos(a) * dist)
     const far = u.pos.distanceTo(p.pos) > 9
     this.steer(u, tmp2, far ? speed * 1.6 : speed, dt, 0.8)
