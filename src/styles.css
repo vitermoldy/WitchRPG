@@ -307,3 +307,4 @@ button:disabled {
   font-size: 0.9rem;
 }
 
+@media (pointer: coarse) {
