@@ -230,6 +230,7 @@ export class UnitSystem {
     if (u.detailed === on) return
     u.detailed = on
     if (on) {
+      u.model.root.position.copy(u.pos)
   }
 
   clear() {
