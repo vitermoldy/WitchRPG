@@ -474,3 +474,4 @@ export class Spells {
         p.pos.copy(np)
       }
     })
+    // Tendril from the left palm to the first body.
