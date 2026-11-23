@@ -277,6 +277,8 @@ async function boot() {
   $('btn-title').addEventListener('click', () => game.setState('title'))
   $('btn-retry').addEventListener('click', () => {
     if (game.mode === 'world') void game.enterWorld(undefined, true)
+    else void game.enterRift(game.tier, !!game.returnToWorld)
+  })
   $('btn-dead-title').addEventListener('click', () => {
     game.leaveRift()
   })
