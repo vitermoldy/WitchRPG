@@ -44,3 +44,4 @@ export class RiftDirector {
       g.scene.add(mesh)
       this.portals.push({ pos: p.clone(), mesh, mat, open: 0 })
     })
+    this.exit = new THREE.Group()
