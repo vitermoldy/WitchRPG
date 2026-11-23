@@ -295,3 +295,4 @@ export class UnitSystem {
     }
     if (u.state === 'lunge') {
       const ls = (spec.lungeSpeed ?? 12) * u.slow
+      u.vel.x = u.lungeDir.x * ls
