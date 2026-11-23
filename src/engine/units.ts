@@ -187,3 +187,4 @@ export class UnitSystem {
     if (u.command === 'attack') {
       if (u.focus && u.focus.alive) return u.focus
       // The marked enemy is down: go back to guarding the witch.
+      u.command = 'follow'
