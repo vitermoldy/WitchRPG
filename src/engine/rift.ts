@@ -128,3 +128,4 @@ export class RiftDirector {
         const next = this.queue.shift()!
         // Prefer a tear the witch is not standing next to.
         const choices = this.portals.filter((p) => p.pos.distanceTo(g.player.pos) > 12)
+        const portal = (choices.length ? choices : this.portals)[Math.floor(Math.random() * (choices.length || this.portals.length))]
