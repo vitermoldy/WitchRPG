@@ -60,3 +60,4 @@ export class Game {
   private t = 0
   private saveTimer = -1
   private readonly debug: boolean
+  debugSpeed = 1
