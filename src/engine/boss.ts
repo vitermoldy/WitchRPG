@@ -189,3 +189,4 @@ export class BossFight {
         const mine = g.units.units.filter((o) => o.owner === u && o.alive).length
         for (let i = 0; i < Math.min(s.count, s.max - mine); i++) {
           const a = (i / s.count) * Math.PI * 2
+          if (g.units.units.length < 60) this.callHusk(new THREE.Vector3(Math.cos(a) * 9, 0, Math.sin(a) * 9))
