@@ -84,3 +84,4 @@ describe('stats and slots', () => {
     expect(spendStat(p, 'hex')).toBe(false)
     p.statPoints = 1
     expect(spendStat(p, 'hex')).toBe(true)
+    expect(p.stats.hex).toBe(6)
