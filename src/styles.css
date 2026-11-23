@@ -1326,3 +1326,4 @@ dialog::backdrop {
   }
   .ledger-level {
     grid-template-columns: 1fr;
+    gap: 0.4rem;
