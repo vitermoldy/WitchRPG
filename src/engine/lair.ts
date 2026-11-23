@@ -13,3 +13,4 @@ export interface Platform {
   size: number
 }
 
+export interface LairBuild {
