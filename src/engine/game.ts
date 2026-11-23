@@ -489,3 +489,4 @@ export class Game {
     this.input.endFrame()
   }
 
+  private orbit(dt: number) {
