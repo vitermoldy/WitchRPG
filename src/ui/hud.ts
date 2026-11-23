@@ -93,3 +93,4 @@ export class Hud {
     this.bannerTimer -= dt
     if (this.bannerTimer <= 0) this.bannerEl.classList.remove('show')
     this.hitTimer -= dt
+    if (this.hitTimer <= 0) this.hitmark.setAttribute('class', 'hitmark')
