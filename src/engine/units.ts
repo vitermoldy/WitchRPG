@@ -818,6 +818,7 @@ export class UnitSystem {
         for (let iz = cz - 1; iz <= cz + 1; iz++) {
           const cell = grid.get(cellKey(ix, iz))
           if (!cell) continue
+          for (const b of cell) {
       }
       // Keep clear of the witch.
       const p = host.player
