@@ -898,8 +898,8 @@ export class Game {
     if (p.floating) this.hands.gather('left', 0.2)
     if (this.spells.overloaded && Math.random() < 0.5) this.hands.gather('right', 0.5)
 
-    // Safety net: anything that leaves the city is pulled back.
-    if (!this.inLair && p.pos.y < -5) p.reset(this.world.playerStart, p.yaw)
+    // Safety net: anything that leaves the map is pulled back.
+    if (!this.inLair && p.pos.y < -5) p.reset(this.map === 'world' ? this.ow.start : this.world.playerStart, p.yaw)
   }
 
   /** The void under the lair, and rocks for phase 2. */
