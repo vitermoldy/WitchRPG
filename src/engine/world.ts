@@ -305,3 +305,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   tear.position.copy(riftDir.clone().multiplyScalar(250))
   tear.lookAt(0, 0, 0)
   tear.rotateZ(0.35)
+  scene.add(tear)
+
