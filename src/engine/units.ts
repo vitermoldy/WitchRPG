@@ -366,6 +366,7 @@ export class UnitSystem {
           return
         }
         if (perched) {
+          // A Spitter on a ledge holds it and turns to watch.
       if (u.kind === 'hound') {
         if (d < spec.attackRange && u.cd <= 0 && this.host.colliders.clear(u.center, tmp.set(tgt.pos.x, 0.8, tgt.pos.z))) {
           u.setState('windup')
