@@ -5,3 +5,4 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js'
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js'
 import { CAMERA, MOVE } from '../game/balance'
+import { chaosFromDamage, derive, gainXp, unitStats, xpForKill, type Derived, type Profile } from '../game/progression'
