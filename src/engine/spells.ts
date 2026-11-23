@@ -596,3 +596,4 @@ export class Spells {
       if (d > r) continue
       const k = 1 - 0.5 * (d / r)
       const dir = new THREE.Vector3(p.pos.x - at.x, 0, p.pos.z - at.z).normalize().multiplyScalar(push * k)
+      dir.y = lift * k
