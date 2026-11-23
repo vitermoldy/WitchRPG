@@ -32,3 +32,4 @@ describe('Player.update', () => {
     p.update(1 / 60, idle, new Colliders(), 1, [], true)
     expect(finite(p)).toBe(true)
     expect(p.pos.x).toBeCloseTo(5)
+  })
