@@ -109,6 +109,7 @@ export class Ledger {
     }
     if (runs === null) {
       box.innerHTML = '<p class="room-empty">Masuk dengan akun untuk mencatat dan melihat riwayat Rift.</p>'
+      return
   close() {
     if (this.dlg.open) this.dlg.close()
   }
