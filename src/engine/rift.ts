@@ -28,3 +28,4 @@ export class RiftDirector {
   // On the ground south of the monument, in view from where the witch enters.
   private readonly exitPos = new THREE.Vector3(0, 0, 5.4)
   elapsed = 0
+  kills = 0
