@@ -130,3 +130,5 @@ export class PropSystem {
 
   spawnCrate(x: number, z: number, yaw: number, level: number) {
     return this.add('crate', crateMesh(), new THREE.Vector3(x, 0.4 + level * 0.8, z), 0.48, 0.4, 30, yaw)
+  }
+
