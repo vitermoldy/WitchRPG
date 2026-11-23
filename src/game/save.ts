@@ -41,3 +41,4 @@ export function saveProfile(p: Profile): boolean {
 
 export function clearProfile(): void {
   try {
+    localStorage.removeItem(KEY)
