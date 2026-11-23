@@ -101,3 +101,4 @@ export class BossFight {
         this.phase = 2
         this.breathe()
         this.volleyT = 2
+        g.spawnRocks()
