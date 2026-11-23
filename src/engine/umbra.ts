@@ -346,3 +346,4 @@ export class Umbra {
       const fwd = g.player.viewDir()
       let pick = shadows[0]
       let ba = Infinity
+      for (const s of shadows) {
