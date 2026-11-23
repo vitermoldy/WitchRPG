@@ -71,3 +71,4 @@ export class Player {
     // Look.
     const sens = CAMERA.sensitivity * sensitivity
     this.yaw -= input.dx * sens
+    this.pitch = Math.max(-1.52, Math.min(1.52, this.pitch - input.dy * sens))
