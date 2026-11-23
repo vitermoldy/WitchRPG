@@ -345,6 +345,7 @@ function hollow(team: Team): UnitModel {
   return biped(
     team,
     { hip: 2.05, pelvis: [0.8, 0.4, 0.5], torso: [0.5, 1.5, 0.4], lean: 0.12, head: [0.6, 0.66, 0.36], shoulderX: 0.98, arm: [0.3, 1.15, 1.25], hipX: 0.3, leg: [0.34, 0.98, 1.02] },
+    (p, m, meshes) => {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
