@@ -1134,6 +1134,8 @@ dialog::backdrop {
 
 .history-item.cleared .history-result {
   color: var(--umbra-ink);
+}
+
 .stat-list {
   display: grid;
   gap: 0.35rem;
