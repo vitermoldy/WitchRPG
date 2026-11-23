@@ -68,3 +68,4 @@ export class Unit implements Target {
   deadT = 0
   riteTried = false
   ash = false
+  // Shadows.
