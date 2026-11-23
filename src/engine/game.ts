@@ -54,3 +54,4 @@ export class Game {
   profile: Profile
   derived: Derived
   readonly saveError: string | null
+  state: GameState = 'loading'
