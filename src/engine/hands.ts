@@ -231,3 +231,5 @@ export class Hands {
     fill.position.set(0, -0.3, 1)
     this.scene.add(fill)
     this.scene.add(this.particles.points)
+  }
+
