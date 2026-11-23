@@ -203,3 +203,4 @@ function facadeTextures(seed: number) {
 
 const SKY_VERT = /* glsl */ `
   varying vec3 vDir;
+  void main() {
