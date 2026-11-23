@@ -1811,3 +1811,5 @@ dialog::backdrop {
   color: var(--umbra-ink);
 }
 
+.prompt .num {
+  color: var(--ink-3);
