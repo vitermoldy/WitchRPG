@@ -35,3 +35,4 @@ export class Umbra {
     this.down.clear()
   }
 
+  get riteOpen() {
