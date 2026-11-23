@@ -400,3 +400,4 @@ export class Spells {
           first = { unit: u }
         }
       }
+    }
