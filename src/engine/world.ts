@@ -179,3 +179,4 @@ function facadeTextures(seed: number) {
         eg.globalAlpha = 0.35 + R() * 0.5
         eg.fillRect(x + 2, y + 2, 36, 38)
         eg.globalAlpha = 1
+        g.fillStyle = '#3a2a22'
