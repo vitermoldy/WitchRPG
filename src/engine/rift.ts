@@ -263,5 +263,6 @@ export class RiftDirector {
     return this.phase === 'cleared' && this.near(this.exitPos, 3)
   }
 
+  nearGate() {
   }
 }
