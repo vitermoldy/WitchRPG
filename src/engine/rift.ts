@@ -157,3 +157,4 @@ export class RiftDirector {
     }
   }
 
+  /** The exit is open and the witch is close enough to use it. */
