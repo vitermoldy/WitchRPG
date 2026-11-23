@@ -389,3 +389,4 @@ export class UnitSystem {
         }
         const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
         if (u.pos.y <= floor) {
+          u.pos.y = floor
