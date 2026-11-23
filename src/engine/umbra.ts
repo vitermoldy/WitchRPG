@@ -148,7 +148,7 @@ export class Umbra {
       g.hud.message(r.count ? `Semua bayangan sedang terbentuk kembali. Yang pertama siap dalam ${r.next} detik.` : 'Tidak ada bayangan yang bisa dipanggil.', 'umbra')
       return
     }
-    // Strongest first: Marsekal, Jenderal, Ksatria, then by level.
+    // Every shadow that is ready comes out, strongest first: Marsekal, Jenderal, Ksatria, then by level.
     const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
     const pick = [...ready].sort((a, b) => order[a.rank] - order[b.rank] || b.level - a.level).slice(0, Math.max(0, this.fieldCap - this.field().length))
     const n = pick.length
