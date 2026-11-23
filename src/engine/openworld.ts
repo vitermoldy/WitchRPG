@@ -296,3 +296,6 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     const lv = bands[c.band].levels
     const pack: CampSpot['pack'] =
       c.band === 0 ? { husk: 4, hound: 2 } : c.band === 1 ? { husk: 4, hound: 2, spitter: 2 } : c.elite ? { riftlord: 1, husk: 3, warden: 1 } : { husk: 3, hound: 2, spitter: 1, warden: 2 }
+    return { id: i, pos: new THREE.Vector3(c.x, 0, c.z), levels: lv, pack, elite: c.elite, mat }
+  })
+
