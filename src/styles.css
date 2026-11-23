@@ -1225,3 +1225,4 @@ dialog::backdrop {
 }
 
 .node-up {
+  display: grid;
