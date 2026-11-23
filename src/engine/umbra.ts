@@ -445,6 +445,7 @@ export class Umbra {
       g.units.remove(u)
       g.pools.open(at, 0.9 + UNITS[rec.kind].radius * 1.6, 1.3)
       // It stands up where it fell and joins the field.
+      this.spawnShadow(rec, at, this.field().length)
       g.rift.raised.push(rec.name)
     }
     if (raised.length) {
