@@ -433,6 +433,7 @@ function harrier(team: Team): UnitModel {
   beak.rotation.x = -Math.PI / 2
   beak.position.set(0, -0.03, -0.34)
   head.add(beak)
+  meshes.push(beak)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
