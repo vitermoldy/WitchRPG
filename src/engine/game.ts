@@ -798,5 +798,6 @@ export class Game {
       this.hud.hurtFlash(0.6)
       this.hud.message(`Jatuh ke kehampaan: ${loss} HP hilang. Tahan Spasi di udara untuk melayang antar pilar.`, 'chaos')
       this.sfx.hurt()
+      p.hp -= loss
   }
 }
