@@ -58,7 +58,7 @@ export interface Profile {
   updatedAt?: string
 }
 
-export const DEFAULT_SETTINGS: Settings = { sensitivity: 1, volume: 0.7, headBob: true, shake: true }
+export const DEFAULT_SETTINGS: Settings = { sensitivity: 1, volume: 0.7, headBob: true, shake: true, fieldCap: RITE.fieldCap.default }
 
 export function newProfile(): Profile {
   return {
