@@ -5,3 +5,4 @@ import { buildModel } from './models'
 import type { Unit } from './units'
 
 interface Batch {
+  mesh: THREE.InstancedMesh
