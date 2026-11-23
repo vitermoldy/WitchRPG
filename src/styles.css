@@ -386,3 +386,4 @@ button:disabled {
 }
 
 .settings {
+  display: grid;
