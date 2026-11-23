@@ -152,6 +152,7 @@ export class RiftDirector {
       at = portal.pos.clone().add(new THREE.Vector3((Math.random() - 0.5) * 2.5, 0, (Math.random() - 0.5) * 2.5))
       at.y = 0
     }
+    const u = g.units.spawn(next.kind, 'rift', next.level, at)
   }
 
   update(dt: number) {
