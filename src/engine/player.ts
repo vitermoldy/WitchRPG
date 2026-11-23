@@ -83,3 +83,4 @@ export class Player {
     if (moving) wish.normalize()
 
     const crouchHeld = canAct && input.held('KeyC')
+    this.sprinting = canAct && input.held('ShiftLeft') && fwd > 0 && !this.crouching && this.sliding <= 0
