@@ -196,3 +196,4 @@ export class Game {
     this.onState?.(s)
   }
 
+  applyStats(refill: boolean) {
