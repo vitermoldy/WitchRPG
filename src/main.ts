@@ -164,3 +164,4 @@ async function boot() {
     if (ok) game.leaveRift()
     else $('btn-resume').focus()
   })
+  $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
