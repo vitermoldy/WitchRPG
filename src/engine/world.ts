@@ -68,3 +68,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
     g.lineTo(size, px(m))
     g.stroke()
   }
+  g.fillStyle = '#1a1617'
