@@ -1464,6 +1464,7 @@ dialog::backdrop {
   font-size: 0.75rem;
 }
 
+.tier[aria-checked='true'] .tier-lock {
 /* Account */
 .account-row {
   display: flex;
