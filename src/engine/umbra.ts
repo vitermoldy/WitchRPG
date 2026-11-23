@@ -299,6 +299,8 @@ export class Umbra {
       if (this.progress >= 1) this.complete([...this.casting])
     }
 
+    if (canAct && g.input.pressed('KeyT')) this.toggle()
+
     // Command wheel.
     if (canAct && g.input.pressed('KeyZ')) {
       this.wheelOpen = true
