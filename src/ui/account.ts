@@ -124,3 +124,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   /** Puts a witch from the server in place of the one in this browser. */
   function adopt(remote: Profile): void {
     const p = normalizeProfile(remote)
+    if (!p) return
