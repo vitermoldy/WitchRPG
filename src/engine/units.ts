@@ -558,3 +558,4 @@ export class UnitSystem {
       armR.rotation.x = armX + (armX === 0 ? sw * 0.4 * amp : 0)
       armL.rotation.z = -0.15
       armR.rotation.z = 0.15
+      P.jaw.rotation.x = u.state === 'windup' ? 0.5 : Math.sin(t * 2 + u.id) * 0.08 + 0.1
