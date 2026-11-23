@@ -30,3 +30,4 @@ function fail(message: string) {
 
 function webglOk() {
   try {
+    const c = document.createElement('canvas')
