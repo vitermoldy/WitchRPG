@@ -1787,3 +1787,5 @@ dialog::backdrop {
   top: calc(var(--gutter) + 7.4rem);
 }
 
+/* The army panel is a summary now: counts, then the strongest few on the field. */
+.army-row {
