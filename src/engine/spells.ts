@@ -122,3 +122,4 @@ export class Spells {
         blending: THREE.AdditiveBlending,
       }),
     )
+    this.shield.visible = false
