@@ -168,3 +168,4 @@ export class UnitSystem {
     const p = this.host.player
     let best: Target | null = null
     let bestD = Infinity
+    if (u.team === 'rift') {
