@@ -43,6 +43,8 @@ export class Colliders {
     const out = new Set<Box>()
     for (let ix = ix0; ix <= ix1; ix++) for (let iz = iz0; iz <= iz1; iz++) for (const b of this.cells.get(cellKey(ix, iz)) ?? NONE) out.add(b)
     return [...out]
+  }
+
 
   add(cx: number, cz: number, w: number, d: number, top: number, extra: Partial<Box> = {}): Box {
     const b: Box = { minX: cx - w / 2, maxX: cx + w / 2, minZ: cz - d / 2, maxZ: cz + d / 2, top, alive: true, ...extra }
