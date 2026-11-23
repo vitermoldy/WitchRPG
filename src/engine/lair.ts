@@ -38,3 +38,4 @@ function crackTexture(size: number) {
   g.fillRect(0, 0, size, size)
   eg.fillStyle = '#000'
   eg.fillRect(0, 0, size, size)
+  let seed = 41
