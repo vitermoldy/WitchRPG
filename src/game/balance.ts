@@ -196,6 +196,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     cooldown: 2,
     shield: 0.85,
   },
+  riftlord: {
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
