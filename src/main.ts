@@ -108,3 +108,4 @@ async function boot() {
     const s = game.profile.settings
     $<HTMLInputElement>('set-sens').value = String(s.sensitivity)
     $('out-sens').textContent = s.sensitivity.toFixed(2)
+    $<HTMLInputElement>('set-vol').value = String(s.volume)
