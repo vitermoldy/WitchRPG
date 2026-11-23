@@ -15,3 +15,5 @@ import {
   xpToNext,
 } from '../src/game/progression'
 import { SKILLS } from '../src/game/skills'
+import { SPELL } from '../src/game/balance'
+
