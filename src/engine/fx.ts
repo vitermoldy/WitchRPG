@@ -421,6 +421,9 @@ interface Pool {
  * witch, and one under each shadow that rises out of it or sinks back into it.
  */
 export class ShadowPools {
+  private readonly pools: Pool[] = []
+
+  constructor(scene: THREE.Object3D, count = 140) {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
