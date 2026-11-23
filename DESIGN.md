@@ -161,5 +161,5 @@ Pemilik meminta database "seperti yang lain" dengan akun pemilik `vmk`. Bentukny
 
 ## Cara mengecek
 
-- `npm test`: kurva XP (80 dan 2.160), peluang Umbra Rite (contoh GDD 58%), kekuatan bayangan dari UMB, Ruang Bayangan tanpa batas slot, upgrade, bagi XP bayangan, damage lempar.
+- `npm test`: kurva XP (80 dan 2.160), peluang Umbra Rite (contoh GDD 58%), kekuatan bayangan dari UMB, Ruang Bayangan tanpa batas slot, upgrade, bagi XP bayangan, damage lempar, kunci dan pita level Tier IV dan V, kurva XP setelah Lv 9, XP elite.
 - `npm run dev` lalu buka `http://localhost:5197/?debug` untuk uji otomatis: `window.__game` terbuka, pointer lock tidak dibutuhkan, dan `__game.debugSpeed = 3` mempercepat pertarungan.
