@@ -142,6 +142,8 @@ async function boot() {
     $<HTMLInputElement>('set-shake').checked = s.shake
     $<HTMLInputElement>('set-cap').value = String(s.fieldCap)
     $('out-cap').textContent = String(s.fieldCap)
+    // In the open world, leaving goes to the title; in a Rift from a world gate, back out of the gate.
+    const world = game.mode === 'world'
   }
 
   game.onState = (s: GameState) => {
