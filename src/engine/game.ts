@@ -88,3 +88,4 @@ export class Game {
     this.input = new Input(canvas)
     this.input.virtualLock = debug
 
+    const game = this
