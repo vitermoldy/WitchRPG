@@ -480,3 +480,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const rockMat = new THREE.MeshStandardMaterial({ color: 0x3a3234, roughness: 0.9, flatShading: true })
   for (let i = 0; i < 26; i++) {
     const s = 0.8 + R() * 3.2
+    const m = new THREE.Mesh(new THREE.IcosahedronGeometry(s, 0), rockMat)
