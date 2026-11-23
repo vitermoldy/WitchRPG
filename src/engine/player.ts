@@ -70,3 +70,4 @@ export class Player {
   update(dt: number, input: Input, world: Colliders, sensitivity: number, blockers: Circle[], canAct: boolean) {
     // Look.
     const sens = CAMERA.sensitivity * sensitivity
+    this.yaw -= input.dx * sens
