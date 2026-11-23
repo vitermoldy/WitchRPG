@@ -44,3 +44,4 @@ export interface LedgerHost {
   changed(): void
   sfxUi(): void
   /** Shadows that are standing in the current Rift, by record id. */
+  liveShadows(): Set<number>
