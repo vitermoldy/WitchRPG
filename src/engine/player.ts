@@ -107,3 +107,4 @@ export class Player {
       const accel = this.onGround ? MOVE.groundAccel : MOVE.airAccel
       const desiredX = wish.x * target
       const desiredZ = wish.z * target
+      const dx = desiredX - this.vel.x
