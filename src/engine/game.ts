@@ -344,3 +344,4 @@ export class Game {
     p.alive = false
     this.spells.reset()
     this.umbra.cancel()
+    this.hands.pose('left', 'lowered')
