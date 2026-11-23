@@ -168,3 +168,4 @@ function readQueue(): RiftRecord[] {
 
 function writeQueue(list: RiftRecord[]): void {
   try {
+    localStorage.setItem(QUEUE_KEY, JSON.stringify(list.slice(-50)))
