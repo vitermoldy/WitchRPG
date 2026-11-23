@@ -56,3 +56,4 @@ export class Colliders {
         pos.x = cx + dx * r
         pos.z = cz + dz * r
         outNormal?.set(dx, 0, dz)
+      } else {
