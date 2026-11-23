@@ -58,3 +58,4 @@ const TABLES = [
     result ENUM('cleared','fallen','left') NOT NULL,
     wave TINYINT UNSIGNED NOT NULL,
     waves TINYINT UNSIGNED NOT NULL,
+    kills SMALLINT UNSIGNED NOT NULL,
