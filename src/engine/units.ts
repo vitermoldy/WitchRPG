@@ -118,3 +118,5 @@ export class UnitSystem {
 
   constructor(host: UnitHost) {
     this.host = host
+  }
+
