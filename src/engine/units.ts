@@ -286,6 +286,7 @@ export class UnitSystem {
         bestD = u.pos.distanceTo(p.pos) * (u.spec.fly || u.spec.shot?.blast ? 0.35 : 0.8)
       }
       const walker = !u.spec.fly && !u.spec.shot
+      for (const o of this.shadowAlive) {
         // A shadow Warden draws attention to itself.
         const d = u.pos.distanceTo(o.pos) * (o.kind === 'warden' ? 0.6 : 1)
         if (d < bestD) {
