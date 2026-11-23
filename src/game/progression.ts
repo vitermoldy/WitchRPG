@@ -49,6 +49,7 @@ export interface Profile {
   /** Rifts closed in total, and per tier. */
   clears: number
   tierClears: Record<TierId, number>
+  /** Times The Hollow Warden has fallen. */
   settings: Settings
   /** When this witch last changed; with an account, the newer copy wins. */
   updatedAt?: string
