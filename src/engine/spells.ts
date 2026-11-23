@@ -551,3 +551,5 @@ export class Spells {
     if (id === 'burst') this.burst()
     else if (id === 'snare') this.snare()
     else this.raiseBarrier()
+  }
+
