@@ -416,3 +416,4 @@ export class Spells {
         }
       }
       if (second) this.grabbed.push({ unit: second })
+    }
