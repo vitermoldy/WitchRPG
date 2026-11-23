@@ -105,3 +105,4 @@ export class Umbra {
           if (ang < 0.5) {
             const score = ang * 10 + dist * 0.1
             if (score < bestScore) {
+              bestScore = score
