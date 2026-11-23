@@ -134,3 +134,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
     if (t1 > tmin) {
       tmin = t1
       axis = i
+      sign = s
