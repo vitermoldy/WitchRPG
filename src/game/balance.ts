@@ -213,6 +213,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 14, count: 3, max: 6 },
     anchored: true,
   },
+  hollow: {
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
