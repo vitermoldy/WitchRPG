@@ -764,6 +764,7 @@ export class Game {
       this.finishRift()
       return
     }
+    if (input.pressed('KeyF') && this.rift.nearGate()) {
 
     this.spells.update(dt, !wheel)
     this.umbra.update(dt, true)
