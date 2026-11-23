@@ -168,3 +168,4 @@ export class Hud {
       const rec = g.profile.shadows[i]
       const u = live.get(rec.id)
       const down = g.umbra.down.has(rec.id)
+      const cls = down ? 'down' : u ? 'up' : ''
