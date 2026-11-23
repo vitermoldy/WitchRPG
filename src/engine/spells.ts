@@ -324,3 +324,4 @@ export class Spells {
       const seg = this.tmp.copy(b.pos).sub(b.prev)
       const len = seg.length()
       const dir = seg.clone().divideScalar(len || 1)
+      const wall = g.colliders.raycast(b.prev, dir, len)
