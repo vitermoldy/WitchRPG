@@ -7,3 +7,4 @@ import { AUTH_TABLES } from './auth.js'
  * - witches: the progress of that key: level, XP, points, the five stats, settings;
  * - witch_upgrades: the skill upgrades bought in the Ledger, one row each;
  * - shadows: the Shadow Room, one row per raised shadow;
+ * - rift_runs: every Rift that ended (cleared, fallen or left) with what happened in it.
