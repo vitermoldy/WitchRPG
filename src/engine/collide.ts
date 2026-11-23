@@ -100,3 +100,4 @@ export class Colliders {
   /** True when nothing blocks the straight line between two points. */
   clear(a: THREE.Vector3, b: THREE.Vector3): boolean {
     const dir = b.clone().sub(a)
+    const len = dir.length()
