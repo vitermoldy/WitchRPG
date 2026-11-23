@@ -573,6 +573,7 @@ export class UnitSystem {
       climb(cruise, 1.5)
       if (!tgt) {
         if (u.team === 'shadow') {
+          u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
     }
   }
 
