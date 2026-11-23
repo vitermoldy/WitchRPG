@@ -199,3 +199,4 @@ export async function flushQueue(): Promise<number> {
   let sent = 0
   for (const run of list) {
     try {
+      await call('runs', { method: 'POST', body: JSON.stringify({ run }) })
