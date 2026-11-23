@@ -147,3 +147,4 @@ function hound(team: Team): UnitModel {
     eye.castShadow = false
     neck.add(eye)
   }
+  const legs: [string, number, number][] = [
