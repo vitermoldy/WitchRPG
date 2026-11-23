@@ -717,3 +717,4 @@ button:disabled {
 }
 
 .bar-mana i {
+  background: linear-gradient(90deg, #6a3ad8, var(--umbra));
