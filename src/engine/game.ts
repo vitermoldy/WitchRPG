@@ -437,3 +437,4 @@ export class Game {
     this.bloom.resolution.set(w / 2, h / 2)
   }
 
+  start() {
