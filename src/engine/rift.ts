@@ -22,6 +22,8 @@ interface Portal {
 }
 
 type Spawn = { kind: Exclude<UnitKind, 'hollow'>; level: number }
+const ORDER: Spawn['kind'][] = ['husk', 'hound', 'spitter', 'warden', 'riftlord']
+
 export class RiftDirector {
   private readonly g: Game
   phase: RiftPhase = 'intro'
