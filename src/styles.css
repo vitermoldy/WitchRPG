@@ -1693,3 +1693,5 @@ dialog::backdrop {
     opacity: 0;
   }
   15% {
+    opacity: 1;
+  }
