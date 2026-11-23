@@ -73,3 +73,4 @@ export class Hud {
   }
 
   hit(kill: boolean) {
+    this.hitTimer = kill ? 0.25 : 0.1
