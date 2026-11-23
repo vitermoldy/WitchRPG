@@ -66,6 +66,7 @@ export class RiftDirector {
       const mat = makeTearMaterial(seed)
       const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), mat)
       m.position.y = h / 2
+      group.add(m)
   }
 
   start() {
