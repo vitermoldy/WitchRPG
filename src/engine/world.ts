@@ -293,3 +293,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       fragmentShader: SKY_FRAG,
       side: THREE.BackSide,
       depthWrite: false,
+      fog: false,
