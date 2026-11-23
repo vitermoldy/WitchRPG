@@ -1034,3 +1034,4 @@ dialog::backdrop {
 .ledger-xp {
   height: 6px;
   background: rgba(239, 230, 223, 0.1);
+  border-radius: 2px;
