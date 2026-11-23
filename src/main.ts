@@ -129,3 +129,4 @@ async function boot() {
     } else if (s === 'result') {
       renderResult()
       showScreen('result')
+      $('btn-result-ledger').focus()
