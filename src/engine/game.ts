@@ -103,3 +103,4 @@ export class Game {
           return game.player.alive && game.state === 'playing'
         },
         team: 'shadow',
+      },
