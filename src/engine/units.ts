@@ -518,3 +518,5 @@ export class UnitSystem {
       }
       return
     }
+    m.root.scale.setScalar(1)
+
