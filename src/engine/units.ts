@@ -155,3 +155,4 @@ export class UnitSystem {
     if (!u.alive || u.state === 'held') return
     const scale = 70 / u.mass
     u.vel.addScaledVector(impulse, Math.min(1.6, scale))
+    if (impulse.y > 0.5) {
