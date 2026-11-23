@@ -161,3 +161,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     ...Array.from({ length: 6 }, () => ({ band: 1 as const })),
     ...Array.from({ length: 5 }, () => ({ band: 2 as const })),
     { band: 2, elite: true },
+    { band: 2, elite: true },
+  ]
