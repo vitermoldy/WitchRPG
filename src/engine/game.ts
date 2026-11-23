@@ -221,3 +221,4 @@ export class Game {
     this.saveTimer = 0.4
   }
 
+  private respawnProps() {
