@@ -756,6 +756,7 @@ export class UnitSystem {
     } else if (u.state === 'strike') {
       const k = Math.min(1, u.t / 0.12)
       armX = u.spec.shot ? 0 : (slammer ? -3 : -2.4) + k * (slammer ? 3.6 : 3.1)
+      lean = u.spec.shot ? baseLean + 0.3 : baseLean + 0.3
     }
   }
 }
