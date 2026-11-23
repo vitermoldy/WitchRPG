@@ -465,6 +465,7 @@ export class UnitSystem {
     }
   }
 
+  /** A slam hits every target of the other side inside its circle. */
   private hit(u: Unit, tgt: Target) {
     let dmg = u.damage
     if (u.team === 'shadow' && u.focus && tgt === u.focus) dmg *= 1 + u.focusBonus
