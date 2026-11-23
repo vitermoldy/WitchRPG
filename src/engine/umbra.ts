@@ -12,3 +12,4 @@ export class Umbra {
   private readonly g: Game
   candidate: Unit | null = null
   casting: Unit | null = null
+  progress = 0
