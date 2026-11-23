@@ -212,3 +212,4 @@ export class PropSystem {
       p.pos.addScaledVector(p.vel, dt)
       const n = this.tmp
       n.set(0, 0, 0)
+      const speed = p.vel.length()
