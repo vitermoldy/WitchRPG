@@ -309,3 +309,4 @@ export class Umbra {
         g.hud.message('Tidak ada musuh di dekat titik bidik.', 'umbra')
         return
       }
+      for (const s of shadows) {
