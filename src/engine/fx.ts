@@ -451,6 +451,8 @@ export class ShadowPools {
     p.mesh.position.set(at.x, at.y + 0.04, at.z)
     p.mesh.scale.setScalar(radius)
     p.mesh.visible = true
+    p.radius = radius
+    p.t = -delay
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
