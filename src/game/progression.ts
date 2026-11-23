@@ -75,3 +75,5 @@ export function xpForKill(enemyLevel: number, boss = false): number {
   return enemyLevel * (boss ? XP.perBossLevel : XP.perEnemyLevel)
 }
 
+const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v))
+
