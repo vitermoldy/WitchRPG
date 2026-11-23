@@ -187,7 +187,7 @@ export class Umbra {
     g.hud.message(`${out.length} bayangan kembali ke Ruang Bayangan.`, 'umbra')
   }
 
-  private spawnShadow(recordId: number, at: THREE.Vector3) {
+  private spawnShadow(rec: ShadowRecord, at: THREE.Vector3, slot: number) {
     const g = this.g
     const rec = g.profile.shadows.find((s) => s.id === recordId)
     if (!rec) return null
