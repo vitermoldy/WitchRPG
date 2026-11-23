@@ -109,3 +109,4 @@ export class Colliders {
 }
 
 function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: number; n: THREE.Vector3 } | null {
+  let tmin = 0
