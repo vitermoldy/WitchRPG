@@ -89,3 +89,4 @@ function cleanProfile(p) {
     volume: num(st.volume, 0, 1, 0.7),
     headBob: st.headBob !== false,
     shake: st.shake !== false,
+  }
