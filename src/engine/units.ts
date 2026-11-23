@@ -282,3 +282,4 @@ export class UnitSystem {
           u.hitThisLunge = false
           u.setState('lunge')
         } else {
+          u.setState('strike')
