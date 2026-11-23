@@ -58,3 +58,4 @@ const num = (v, lo, hi, fallback) => (typeof v === 'number' && Number.isFinite(v
 /** Checks a witch from the browser; returns what to store or a reason. */
 function cleanProfile(p) {
   if (!p || typeof p !== 'object' || p.version !== 1) return { error: 'Data witch tidak dikenali.' }
+  const level = int(p.level, 1, MAX_LEVEL)
