@@ -92,6 +92,8 @@ export class Umbra {
   private spot(i: number): THREE.Vector3 {
     const p = this.g.player
     let ring = 0
+    let index = i
+    while (index >= 8 + ring * 4) {
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
