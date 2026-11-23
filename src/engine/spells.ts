@@ -327,3 +327,4 @@ export class Spells {
       const wall = g.colliders.raycast(b.prev, dir, len)
       let best = wall ? wall.dist : Infinity
       if (wall) hitAt = wall.point
+      const ray = new THREE.Ray(b.prev, dir)
