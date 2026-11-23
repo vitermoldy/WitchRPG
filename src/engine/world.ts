@@ -450,3 +450,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const d = rot ? 2.9 : 0.22
     const mesh = solid(new THREE.Mesh(new THREE.BoxGeometry(w, 1.8, d), panelMat))
     mesh.position.set(x, 0.9, z)
+    breakables.push(colliders.add(x, z, w, d, 1.8, { breakable: true, mesh }))
