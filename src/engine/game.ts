@@ -880,7 +880,8 @@ export class Game {
     this.props.update(dt)
     this.projectiles.update(dt)
     this.warnings.update(dt)
-    this.rift.update(dt)
+    if (this.mode === 'world') this.worldDir.update(dt)
+    else this.rift.update(dt)
     if (this.inLair) this.lairUpdate(dt)
     this.embers(dt, p.pos, 18)
 
