@@ -72,3 +72,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Hex Barrier',
     key: 'X',
     unlock: 7,
+    effect: 'Perisai 3 detik yang menyerap 150 damage, lalu meledak dan mendorong musuh.',
