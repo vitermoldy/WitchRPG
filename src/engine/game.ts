@@ -302,3 +302,4 @@ export class Game {
         const s = SKILLS.find((k) => k.id === id)!
         this.hud.message(`Skill baru terbuka: ${s.name} (${s.key}).`, s.branch === 'chaos' ? 'chaos' : 'umbra')
       }
+      this.lights.flash(this.player.eyePos, COLOR.rift, 8, 10, 0.6)
