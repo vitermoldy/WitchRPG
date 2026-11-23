@@ -1472,6 +1472,7 @@ dialog::backdrop {
   max-width: 34rem;
   min-height: 2.8em;
   margin: 0 0 1rem;
+  color: var(--ink-2);
 /* Account */
 .account-row {
   display: flex;
