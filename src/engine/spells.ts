@@ -226,3 +226,4 @@ export class Spells {
 
     // Overload, then Backlash.
     if (this.overloadT > 0) {
+      this.overloadT -= dt
