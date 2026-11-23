@@ -22,3 +22,4 @@ export class Umbra {
   /** Records of shadows that fell this Rift; they come back whole next Rift. */
   readonly down = new Set<number>()
 
+  constructor(g: Game) {
