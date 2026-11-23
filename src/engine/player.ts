@@ -27,3 +27,4 @@ export class Player {
   private bob = 0
   private bobAmount = 0
   private trauma = 0
+  private shakeT = 0
