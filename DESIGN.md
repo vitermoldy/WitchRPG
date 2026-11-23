@@ -100,6 +100,7 @@ Pemilik meminta "bayangannya bisa dikeluarkan tanpa kecuali". Saya membacanya se
 | --- | --- | --- |
 | T | Memanggil setiap bayangan yang siap, terkuat dulu. Yang sedang terbentuk kembali menyusul sendiri begitu siap, selama pasukan masih di luar. Bayangan yang baru dibangkitkan selalu berdiri di tempatnya dan bergabung | "Tanpa kecuali": tidak ada lagi bayangan yang tertahan di Ruang Bayangan karena batas, dan bayangan yang tumbang tidak perlu dipanggil ulang dengan mengembalikan seluruh pasukan dulu. |
 | Pengaturan | "Bayangan di medan" diganti "Bayangan detail penuh" (10 sampai 120, bawaan 40): berapa bayangan terdekat yang digambar dengan model dan gerakan lengkap. Semua bayangan tetap bertarung | Batas lama ada hanya karena biaya gambar. Sekarang angka itu hanya mengatur kualitas, bukan jumlah. |
+| Kerumunan | Bayangan di luar yang terdekat digambar sebagai satu InstancedMesh per jenis, satu gambar per material, dengan posisi, arah, ayunan langkah kecil, naik dari kolam dan tenggelam. Model lengkap dibuat hanya saat pertama kali dibutuhkan | Seratus dua puluh model lengkap sudah memakan 26 ms per frame. |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
