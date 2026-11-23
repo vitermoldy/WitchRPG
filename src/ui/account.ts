@@ -225,3 +225,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   $('gate-retry').addEventListener('click', () => void checkAccount())
 
   $('btn-account').addEventListener('click', async () => {
+    const button = $<HTMLButtonElement>('btn-account')
