@@ -9,3 +9,4 @@ const CODE_KEY = 'crimson-sovereign:client'
 const QUEUE_KEY = 'crimson-sovereign:unsent-rifts'
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
 
+export interface RiftRecord {
