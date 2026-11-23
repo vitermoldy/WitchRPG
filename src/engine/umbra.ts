@@ -188,6 +188,7 @@ export class Umbra {
     const g = this.g
     const out = this.field()
     this.calls = []
+    this.armyOut = false
     if (!out.length) return
     for (const u of out) {
       g.pools.open(u.pos, 0.9 + u.radius * 1.6, 0.6)
