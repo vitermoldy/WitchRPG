@@ -137,6 +137,7 @@ export class PropSystem {
   }
 
   /** A loose rock on a lair pillar: phase 2 ammunition against the boss's shell. */
+  spawnRock(at: THREE.Vector3) {
   spawnChunk(at: THREE.Vector3, vel: THREE.Vector3, w: number, h: number, d: number) {
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), chunkMat)
     mesh.castShadow = true
