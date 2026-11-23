@@ -437,3 +437,4 @@ button:disabled {
 .veil {
   position: absolute;
   inset: 0;
+  opacity: 0;
