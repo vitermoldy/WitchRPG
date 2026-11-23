@@ -446,3 +446,4 @@ export class Spells {
         return
       }
     }
+    const cam = g.camera
