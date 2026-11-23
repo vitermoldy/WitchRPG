@@ -785,6 +785,7 @@ export class UnitSystem {
     legR.rotation.x = -sw * 0.65 * amp
     P.kneeL.rotation.x = Math.max(0, -sw) * 0.8 * amp
     P.kneeR.rotation.x = Math.max(0, sw) * 0.8 * amp
+    armL.rotation.x = armX + (armX === 0 ? -sw * 0.4 * amp : 0)
     }
   }
 }
