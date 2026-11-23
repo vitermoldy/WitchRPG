@@ -638,9 +638,7 @@ export class Game {
 
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
-    this.inLair = true
-    this.world.city.visible = false
-    this.lair.group.visible = true
+    this.setMap('lair')
     this.lair.setFloor(true)
     this.activeColliders = this.lair.colliders
     this.props.clear()
