@@ -249,6 +249,7 @@ async function boot() {
     else game.leaveRift()
   })
   $<HTMLInputElement>('set-detail').addEventListener('input', (e) => {
+    game.profile.settings.detail = Number((e.target as HTMLInputElement).value)
     game.saveSoon()
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
