@@ -276,3 +276,4 @@ export class UnitSystem {
       u.vel.x *= Math.exp(-10 * dt)
       u.vel.z *= Math.exp(-10 * dt)
       if (tgt) this.face(u, tgt.pos, dt, 12)
+      if (u.t >= spec.windup / Math.max(0.4, u.slow)) {
