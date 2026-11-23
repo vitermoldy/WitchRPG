@@ -97,6 +97,7 @@ export class RiftDirector {
     this.bossUnit = null
     this.boss = null
     this.bossDefeated = false
+    this.exitPos.copy(this.cityExit)
     this.exit.visible = false
     for (const p of this.portals) p.open = 0
   }
