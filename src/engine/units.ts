@@ -14,3 +14,4 @@ export interface Target {
   pos: THREE.Vector3
   radius: number
   alive: boolean
+  team: Team
