@@ -93,3 +93,4 @@ export class Game {
       colliders: this.colliders,
       player: {
         get pos() {
+          return game.player.pos
