@@ -279,3 +279,5 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const colliders = new Colliders()
   const R = rand(1234)
   const riftDir = new THREE.Vector3(0.25, 0.42, -1).normalize()
+  const portals = [new THREE.Vector3(0, 0, -33), new THREE.Vector3(33, 0, 0), new THREE.Vector3(0, 0, 33), new THREE.Vector3(-33, 0, 0)]
+
