@@ -341,3 +341,4 @@ export class UnitSystem {
       u.vulnerable = Math.max(0, u.vulnerable - dt)
 
       if (u.state === 'dead') {
+        u.deadT += dt
