@@ -74,3 +74,5 @@ function facadeMaterial() {
           float u = abs(vWn.x) > 0.5 ? vWp.z : vWp.x;
           vec2 cell = vec2(floor(u / 2.9), floor((vWp.y - 1.0) / 3.3));
           vec2 f = vec2(fract(u / 2.9), fract((vWp.y - 1.0) / 3.3));
+          float win = step(0.18, f.x) * step(f.x, 0.82) * step(0.22, f.y) * step(f.y, 0.78) * step(2.0, vWp.y);
+          float h = h21(cell + floor(vWp.xz / 37.0));
