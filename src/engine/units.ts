@@ -13,3 +13,4 @@ export type DamageSource = 'player' | 'shadow' | 'impact' | 'rift'
 export interface Target {
   pos: THREE.Vector3
   radius: number
+  alive: boolean
