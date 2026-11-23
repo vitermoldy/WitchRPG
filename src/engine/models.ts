@@ -13,3 +13,4 @@ export interface UnitModel {
   meshes: THREE.Mesh[]
 }
 
+const shared = {
