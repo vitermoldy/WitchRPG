@@ -76,3 +76,4 @@ function setAuth(next: AuthState): void {
   auth = next
   listeners.forEach((fn) => fn(auth))
 }
+export const authState = (): AuthState => auth
