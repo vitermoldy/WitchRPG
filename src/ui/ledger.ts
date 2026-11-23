@@ -169,3 +169,4 @@ export class Ledger {
           )
           .join('')
       : `<li class="room-empty">${
+          isUnlocked(p, 'rite')
