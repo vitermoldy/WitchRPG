@@ -12,6 +12,7 @@ export interface PropSpot {
 
 export interface WorldBuild {
   /** Everything that belongs to the city, so the lair can take its place. */
+  city: THREE.Group
   colliders: Colliders
   portals: THREE.Vector3[]
   playerStart: THREE.Vector3
