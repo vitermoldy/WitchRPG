@@ -59,3 +59,4 @@ export class Game {
   private readonly timer = new THREE.Timer()
   private t = 0
   private saveTimer = -1
+  private readonly debug: boolean
