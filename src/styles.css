@@ -1528,6 +1528,7 @@ dialog::backdrop {
   .history-item {
     grid-template-columns: 1fr;
   }
+  .history-when {
 }
 
 @media (prefers-reduced-motion: reduce) {
