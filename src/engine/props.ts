@@ -149,3 +149,4 @@ export class PropSystem {
   }
 
   wakeNear(at: THREE.Vector3, r: number) {
+    for (const p of this.props) if (!p.held && p.pos.distanceTo(at) < r + p.radius) p.awake = true
