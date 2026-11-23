@@ -51,3 +51,4 @@ export class Unit implements Target {
   yaw = 0
   state: UnitState = 'move'
   t = 0
+  cd = 0
