@@ -98,6 +98,7 @@ export class Ledger {
   }
 
   private async renderHistory() {
+    const box = $('history-body')
   close() {
     if (this.dlg.open) this.dlg.close()
   }
