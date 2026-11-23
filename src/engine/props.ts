@@ -208,3 +208,4 @@ export class PropSystem {
         continue
       }
       if (!p.awake) continue
+      p.vel.y -= 22 * dt
