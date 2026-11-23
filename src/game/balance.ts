@@ -20,3 +20,4 @@ export const MOVE = {
   staminaMax: 100,
   floatDrain: 20,
   staminaRegen: 35,
+  staminaRegenDelay: 0.5,
