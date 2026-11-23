@@ -132,3 +132,4 @@ async function boot() {
       $('btn-result-ledger').focus()
     } else if (s === 'dead') {
       $('dead-text').textContent = `XP dan bayangan yang sudah didapat tetap tersimpan (Lv ${game.profile.level}). Rift harus diulang dari gelombang pertama.`
+      showScreen('dead')
