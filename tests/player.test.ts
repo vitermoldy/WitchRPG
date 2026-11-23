@@ -4,3 +4,4 @@ import { Colliders } from '../src/engine/collide'
 import { Player } from '../src/engine/player'
 import type { Input } from '../src/engine/input'
 
+// Only the parts of Input that Player.update reads.
