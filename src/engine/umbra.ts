@@ -246,3 +246,4 @@ export class Umbra {
       const s = this.spawnShadow(rec.id, at)
       if (s) s.slot = g.profile.shadows.length - 1
       g.player.addTrauma(0.2)
+      g.hud.message(`Bayangan baru: ${rec.name}, ${RANKS[rec.rank].label} dari ${UNITS[rec.kind].name} Lv ${rec.level}.`, 'umbra')
