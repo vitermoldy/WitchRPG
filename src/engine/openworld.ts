@@ -45,3 +45,6 @@ function rand(seed: number) {
     s = Math.imul(s ^ (s >>> 13), 3266489909) >>> 0
     return ((s ^ (s >>> 16)) >>> 0) / 4294967296
   }
+}
+
+/** Windows drawn from world position, so a facade of any size gets the same grid and lit panes. */
