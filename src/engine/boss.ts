@@ -120,3 +120,4 @@ export class BossFight {
           g.streamTo(o.center, u.center, COLOR.rift)
           g.units.remove(o)
           eaten++
+        }
