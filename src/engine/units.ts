@@ -503,3 +503,4 @@ export class UnitSystem {
       m.bodyMat.emissiveIntensity = 0.55
     }
 
+    if (u.state === 'spawn') {
