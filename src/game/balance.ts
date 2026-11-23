@@ -315,6 +315,7 @@ export const SHADOW_SKILL = {
 export type EliteTrait = 'berlapis' | 'gesit' | 'meledak' | 'penjaga'
 
 export const ELITE = {
+  traits: ['berlapis', 'gesit', 'meledak', 'penjaga'] as EliteTrait[],
 
 export type TierId = 1 | 2 | 3
 
