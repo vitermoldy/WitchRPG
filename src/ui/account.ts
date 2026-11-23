@@ -238,3 +238,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     let sent = true
     try {
       await pushProfile(game.profile)
+    } catch {
