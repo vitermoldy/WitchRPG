@@ -78,3 +78,4 @@ function sigilShape(): THREE.BufferGeometry {
   geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3))
   geo.setIndex(idx)
   geo.computeVertexNormals()
+  return geo
