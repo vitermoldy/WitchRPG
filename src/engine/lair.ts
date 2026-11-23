@@ -133,3 +133,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     platforms.push({ box, center: new THREE.Vector3(x, top, z), size })
   }
   pillar(0, 0, 9, 0.2)
+  for (let i = 0; i < 8; i++) {
