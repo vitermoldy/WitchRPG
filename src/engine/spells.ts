@@ -638,6 +638,7 @@ export class Spells {
       side: THREE.DoubleSide,
       blending: THREE.AdditiveBlending,
     })
+    const wall = new THREE.Mesh(new THREE.CylinderGeometry(s.radius, s.radius, 7, 48, 1, true), wallMat)
   private burst() {
     const g = this.g
     const s = SPELL.burst
