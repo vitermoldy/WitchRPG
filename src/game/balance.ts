@@ -320,4 +320,5 @@ export const BOSS = {
   phase3At: 0.33,
   /** Phase 2: bolts barely scratch the shell; thrown bodies do full damage. */
   shellBoltShare: 0.1,
+  volleyEvery: 3.6,
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
