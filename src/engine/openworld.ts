@@ -188,3 +188,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
 
   // Buildings: each block between roads splits into a 3x3 grid of lots; most lots get a building.
   const boxes: { x: number; z: number; w: number; d: number; h: number }[] = []
+  const lot = (OW.pitch - (OW.road + 3) * 2) / 3
+  for (let bx = -H + OW.pitch / 2; bx < H; bx += OW.pitch) {
