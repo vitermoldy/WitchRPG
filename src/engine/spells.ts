@@ -685,3 +685,5 @@ export class Spells {
     g.hands.pose('left', 'block', s.duration)
     g.hands.pose('right', 'block', s.duration)
     g.sfx.barrier(true)
+  }
+
