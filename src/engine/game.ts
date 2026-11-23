@@ -189,3 +189,4 @@ export class Game {
     for (const s of samples) this.units.remove(s)
   }
 
+  setState(s: GameState) {
