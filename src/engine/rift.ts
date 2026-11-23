@@ -131,6 +131,7 @@ export class RiftDirector {
     this.g.hud.banner(
       lord.length ? 'Rift Lord' : `Gelombang ${i + 1} dari ${this.totalWaves}`,
       lord.length ? 'Penguasa retakan ini keluar sendiri. Ia memanggil husk dan menghantam tanah.' : last ? 'Gelombang terakhir. Rift mulai runtuh.' : `${q.length} makhluk keluar dari retakan.`,
+    )
   }
 
   update(dt: number) {
