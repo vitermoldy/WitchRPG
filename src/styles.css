@@ -1445,6 +1445,7 @@ dialog::backdrop {
 
 .tier[aria-checked='true'] {
   border-color: var(--chaos);
+  background: rgba(158, 16, 32, 0.35);
 /* Account */
 .account-row {
   display: flex;
