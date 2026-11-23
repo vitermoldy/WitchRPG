@@ -501,6 +501,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const scaffoldMetal = new THREE.MeshStandardMaterial({ color: 0x3a3436, roughness: 0.55, metalness: 0.6, flatShading: true })
   const plank = new THREE.MeshStandardMaterial({ color: 0x4a3a2c, roughness: 0.9, flatShading: true })
   for (const [x, z, top] of [[-30, -15, 4.6], [30, 15, 4.6], [-15, 30, 4.2], [15, -30, 4.2], [-31, 18, 5], [31, -18, 5]] as const) {
+    for (const [dx, dz] of [[-1.3, -1.3], [1.3, -1.3], [-1.3, 1.3], [1.3, 1.3]]) {
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
