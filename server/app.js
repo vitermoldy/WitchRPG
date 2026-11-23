@@ -120,7 +120,7 @@ function cleanRun(run) {
     int(run.xpGained, 0, 10_000_000),
     int(run.levelsGained, 0, MAX_LEVEL),
     int(run.levelAfter, 1, MAX_LEVEL),
-    int(run.shadowsRaised, 0, 200),
+    int(run.shadowsRaised, 0, MAX_SHADOWS),
     int(run.seconds, 0, 86_400),
     run.boss ? 1 : 0,
     at,
