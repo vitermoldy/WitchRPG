@@ -201,7 +201,7 @@ export class Umbra {
     return u
   }
 
-  /** Corpse glow, ash and clean-up; picks the corpse under the crosshair. */
+  /** Corpse glow, ash and clean-up; finds what a cast would raise; runs a call in progress. */
   update(dt: number, canAct: boolean) {
     const g = this.g
     this.swapCd = Math.max(0, this.swapCd - dt)
