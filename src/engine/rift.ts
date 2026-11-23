@@ -20,3 +20,4 @@ export class RiftDirector {
   phase: RiftPhase = 'intro'
   wave = 0
   private queue: { kind: UnitKind; level: number }[] = []
+  private timer = 0
