@@ -21,3 +21,4 @@ describe('Player.update', () => {
   it('stays finite with a zero frame time', () => {
     const p = new Player()
     p.reset(new THREE.Vector3(3, 0, 2), 1)
+    p.update(0, idle, new Colliders(), 1, [], true)
