@@ -113,6 +113,7 @@ async function boot() {
     resumeHint.hidden = true
     if (s === 'title') {
       renderTitle()
+      account?.refresh()
       showScreen('title')
       $('btn-enter').focus()
     } else if (s === 'playing' || s === 'ledger') showScreen(null)
