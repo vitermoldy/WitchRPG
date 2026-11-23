@@ -51,3 +51,5 @@ export interface LedgerHost {
 export class Ledger {
   private readonly dlg = $<HTMLDialogElement>('ledger')
   private readonly host: LedgerHost
+  onClose: (() => void) | null = null
+
