@@ -493,7 +493,7 @@ export class UnitSystem {
       u.vel.x *= Math.exp(-10 * dt)
       u.vel.z *= Math.exp(-10 * dt)
       if (tgt && !spec.slam) this.face(u, tgt.pos, dt, 12)
-      if (u.t >= spec.windup / Math.max(0.4, u.slow)) {
+      if (u.t >= (spec.windup * u.tempo) / Math.max(0.4, u.slow)) {
         if (u.kind === 'hound' && tgt) {
           u.lungeDir.set(tgt.pos.x - u.pos.x, 0, tgt.pos.z - u.pos.z).normalize()
           u.hitThisLunge = false
