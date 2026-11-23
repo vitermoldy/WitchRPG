@@ -587,7 +587,7 @@ export class Spells {
     } else g.hands.pose('left', 'idle')
   }
 
-  private cast(id: 'burst' | 'snare' | 'barrier') {
+  private cast(id: 'burst' | 'snare' | 'barrier' | 'warp') {
     const g = this.g
     if (!this.unlocked(id)) {
       g.hud.message(`${id === 'burst' ? 'Chaos Burst' : id === 'snare' ? 'Hex Snare' : 'Hex Barrier'} terbuka di Lv ${id === 'burst' ? 3 : id === 'snare' ? 5 : 7}.`, 'info')
