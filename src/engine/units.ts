@@ -54,3 +54,4 @@ export class Unit implements Target {
   cd = 0
   target: Target | null = null
   retarget = 0
+  readonly model: UnitModel
