@@ -167,6 +167,7 @@ export class RiftDirector {
     const g = this.g
     this.elapsed += dt
     const t = this.elapsed
+    const inCity = this.phase !== 'lair' && !(this.phase === 'cleared' && this.boss)
     for (const p of this.portals) {
       const want = this.phase === 'wave' || this.phase === 'intro' ? 1 : this.phase === 'breather' ? 0.45 : 0
       p.open += (want - p.open) * Math.min(1, dt * 1.5)
