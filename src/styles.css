@@ -828,3 +828,4 @@ button:disabled {
   display: grid;
   grid-template-columns: 0.55rem 1fr auto;
   align-items: center;
+  gap: 0.5rem;
