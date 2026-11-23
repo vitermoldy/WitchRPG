@@ -494,3 +494,4 @@ export class Game {
     this.camera.position.set(Math.sin(a) * 26, 7.5 + Math.sin(this.t * 0.2) * 0.8, Math.cos(a) * 26)
     this.camera.lookAt(0, 3.5, 0)
     if (this.camera.fov !== CAMERA.fov) {
+      this.camera.fov = CAMERA.fov
