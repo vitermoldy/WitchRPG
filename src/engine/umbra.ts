@@ -283,8 +283,8 @@ export class Umbra {
       const castTime = hasUpgrade(g.profile, 'rite') ? RITE.castTimeUpgraded : RITE.castTime
       this.progress += dt / castTime
       const from = g.hands.palmWorld('right', cam)
-      const c = this.casting.pos
-      for (let i = 0; i < 2; i++) {
+      for (const target of this.casting.slice(0, 14)) {
+        const c = target.pos
         const s = Math.random()
         const p = from.clone().lerp(c, s)
         g.glow.emit({ pos: p, count: 1, color: COLOR.umbra, intensity: 2.4, life: 0.3, size: 0.1, vel: { x: (c.x - from.x) * 0.8, y: (c.y - from.y) * 0.8, z: (c.z - from.z) * 0.8 } })
