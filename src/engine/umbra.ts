@@ -344,3 +344,4 @@ export class Umbra {
       }
       const eye = g.player.eyePos
       const fwd = g.player.viewDir()
+      let pick = shadows[0]
