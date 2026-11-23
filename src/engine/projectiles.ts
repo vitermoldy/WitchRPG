@@ -16,3 +16,4 @@ interface Shot {
   team: ShotTeam
   life: number
   mesh: THREE.Mesh
+  source: Unit | null
