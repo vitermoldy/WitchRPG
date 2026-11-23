@@ -43,3 +43,5 @@ export class WorldDirector {
       this.camps = this.g.ow.camps.map((spot) => ({ spot, state: 'idle', units: [], respawnAt: 0, open: 1 }))
       this.time = 0
     }
+    this.lastHp = this.g.player.hp
+    this.calm = 0
