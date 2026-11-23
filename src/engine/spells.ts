@@ -550,3 +550,4 @@ export class Spells {
     if (!this.pay(spec.mana)) return
     if (id === 'burst') this.burst()
     else if (id === 'snare') this.snare()
+    else this.raiseBarrier()
