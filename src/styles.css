@@ -992,3 +992,5 @@ dialog::backdrop {
   border-radius: var(--radius);
   background: var(--surface);
   overflow: auto;
+}
+
