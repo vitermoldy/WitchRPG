@@ -309,3 +309,4 @@ export class Spells {
 
   private updateBolts(dt: number) {
     const g = this.g
+    for (let i = this.bolts.length - 1; i >= 0; i--) {
