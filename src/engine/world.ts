@@ -149,3 +149,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   return { map, emissive }
 }
 
+/** Facade with a window grid. A few windows still burn: the city was emptied, not dead. */
