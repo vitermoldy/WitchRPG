@@ -240,6 +240,7 @@ export class Game {
     const r = this.rift
     this.onRiftEnd?.({
       tier: 1,
+      result,
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
