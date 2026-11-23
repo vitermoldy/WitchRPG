@@ -858,3 +858,5 @@ button:disabled {
 .army-slot.empty .pip {
   border-style: dashed;
   border-color: var(--ink-3);
+}
+
