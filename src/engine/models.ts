@@ -337,6 +337,7 @@ function riftlord(team: Team): UnitModel {
         }
       }
     },
+  )
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
