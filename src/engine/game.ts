@@ -300,3 +300,4 @@ export class Game {
       this.hud.message(`Lv ${this.profile.level}. ${this.profile.statPoints} poin stat dan ${this.profile.skillPoints} poin skill menunggu di Ledger (Tab).`, 'level')
       for (const id of r.unlocked) {
         const s = SKILLS.find((k) => k.id === id)!
+        this.hud.message(`Skill baru terbuka: ${s.name} (${s.key}).`, s.branch === 'chaos' ? 'chaos' : 'umbra')
