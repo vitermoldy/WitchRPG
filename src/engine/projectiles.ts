@@ -69,3 +69,4 @@ export class Projectiles {
     this.shots.length = 0
   }
 
+  get count() {
