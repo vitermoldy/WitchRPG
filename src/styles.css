@@ -660,3 +660,4 @@ button:disabled {
   color: var(--umbra-ink);
 }
 
+.prompt .blocked {
