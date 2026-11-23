@@ -220,6 +220,7 @@ function biped(team: Team, z: BipedSize, dress: (p: Record<string, THREE.Object3
     parts[side < 0 ? 'foreL' : 'foreR'] = el
     const hip = pivot(body, side * z.hipX, -z.pelvis[1] * 0.3, 0)
     hip.add(box(z.leg[0], z.leg[1], z.leg[0] * 1.05, bodyMat, meshes, -z.leg[1] / 2))
+    const knee = pivot(hip, 0, -z.leg[1], 0)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
