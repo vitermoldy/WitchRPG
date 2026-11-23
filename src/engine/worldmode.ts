@@ -131,3 +131,6 @@ export class WorldDirector {
   /** Text for the gate prompt: enter, or why not yet. */
   gatePrompt(gt: Gate): { ok: boolean; text: string } {
     const t = TIERS[gt.tier]
+    return tierUnlocked(this.g.profile, gt.tier) ? { ok: true, text: `Masuk ${t.name}` } : { ok: false, text: `${t.name} terbuka di Lv ${t.unlock}` }
+  }
+
