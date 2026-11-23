@@ -179,3 +179,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       const x = Math.cos(a) * d
       const z = Math.sin(a) * d
       if (Math.abs(x) > H - 14 || Math.abs(z) > H - 14) continue
+      if (reserved.some((r) => Math.hypot(r.x - x, r.z - z) < r.r + 18)) continue
+      reserved.push({ x, z, r: 18 })
