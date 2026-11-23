@@ -520,6 +520,7 @@ export class UnitSystem {
       }
       if (u.temp > 0) {
         u.temp -= dt
+        if (u.temp <= 0) {
       if (u.state === 'spawn') {
         if (u.t > 0.7) u.setState('move')
         continue
