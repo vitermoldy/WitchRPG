@@ -268,3 +268,4 @@ button:disabled {
   font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(2.6rem, 7.5vw, 6rem);
+  line-height: 0.95;
