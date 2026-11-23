@@ -117,3 +117,4 @@ export class BossFight {
         let eaten = 0
         for (const o of g.units.enemies()) {
           if (o === u) continue
+          g.streamTo(o.center, u.center, COLOR.rift)
