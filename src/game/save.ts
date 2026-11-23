@@ -39,3 +39,4 @@ export function saveProfile(p: Profile): boolean {
   }
 }
 
+export function clearProfile(): void {
