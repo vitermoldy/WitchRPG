@@ -28,6 +28,8 @@ import { Umbra } from './umbra'
 import { Unit, UnitSystem, type DamageSource, type UnitHost } from './units'
 import type { Team } from './models'
 import { buildWorld, type WorldBuild } from './world'
+import { buildOpenWorld, OW, type OpenWorldBuild } from './openworld'
+import { WorldDirector } from './worldmode'
 
 export type GameState = 'loading' | 'title' | 'playing' | 'paused' | 'ledger' | 'result' | 'dead'
 
