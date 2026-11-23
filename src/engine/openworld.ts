@@ -250,3 +250,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   base.receiveShadow = true
   group.add(base)
   colliders.add(0, 0, 11, 11, 0.8)
+  const shrine = new THREE.Mesh(new THREE.OctahedronGeometry(1.1, 0), new THREE.MeshStandardMaterial({ color: 0x120818, emissive: COLOR.umbra, emissiveIntensity: 2.2 }))
+  shrine.position.y = 3.6
