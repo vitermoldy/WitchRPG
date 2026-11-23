@@ -206,6 +206,7 @@ export class Umbra {
     const g = this.g
     this.time += dt
     this.swapCd = Math.max(0, this.swapCd - dt)
+    this.summonCd = Math.max(0, this.summonCd - dt)
     const t = performance.now() / 1000
     const open = this.riteOpen
     const cam = g.camera
