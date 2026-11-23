@@ -25,3 +25,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
     } as Profile
     for (const k of STAT_KEYS) if (typeof profile.stats[k] !== 'number') profile.stats[k] = base.stats[k]
     return { profile, error: null }
+  } catch {
