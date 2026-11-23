@@ -73,3 +73,4 @@ export class Unit implements Target {
   command: Command = 'follow'
   holdPos = new THREE.Vector3()
   slot = 0
+  focus: Unit | null = null
