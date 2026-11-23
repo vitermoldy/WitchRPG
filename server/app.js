@@ -112,3 +112,4 @@ function cleanRun(run) {
     int(run.xpGained, 0, 10_000_000),
     int(run.levelsGained, 0, MAX_LEVEL),
     int(run.levelAfter, 1, MAX_LEVEL),
+    int(run.shadowsRaised, 0, 200),
