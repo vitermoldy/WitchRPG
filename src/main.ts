@@ -228,9 +228,8 @@ async function boot() {
   $('btn-resume').addEventListener('click', () => void game.resume())
   $('btn-ledger-pause').addEventListener('click', () => game.openLedger('paused'))
   $('btn-leave').addEventListener('click', async () => {
-    const ok = await confirmDialog('Tinggalkan Rift?', 'XP dan bayangan yang sudah didapat tetap tersimpan. Gelombang di Rift ini harus diulang dari awal.', 'Tinggalkan Rift')
-    if (ok) game.leaveRift()
-    else $('btn-resume').focus()
+    if (game.mode === 'world') {
+      const ok = await confirmDialog('Kembali ke layar judul?', 'XP dan bayangan tersimpan. Kamp yang sudah ditaklukkan hidup lagi saat dunia terbuka dimasuki lagi.', 'Ke layar judul')
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
     game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
