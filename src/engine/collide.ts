@@ -54,3 +54,4 @@ export class Colliders {
         dx /= d
         dz /= d
         pos.x = cx + dx * r
+        pos.z = cz + dz * r
