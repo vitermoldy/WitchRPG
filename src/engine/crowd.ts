@@ -99,3 +99,4 @@ export class ShadowCrowd {
       if (u.state === 'rising') {
         const k = Math.min(1, u.t / 1.2)
         this.p.y -= (1 - k) * (1 - k) * u.spec.height
+      } else if (u.state === 'sinking') {
