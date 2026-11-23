@@ -214,3 +214,4 @@ button:disabled {
 
 .loading-title {
   margin: 0;
+  font-family: var(--font-display);
