@@ -18,3 +18,5 @@ interface Shot {
   mesh: THREE.Mesh
   source: Unit | null
   reflected: boolean
+}
+
