@@ -285,3 +285,4 @@ export class Game {
     if (u.vel.lengthSq() < 1) u.vel.copy(u.pos).sub(from).setY(0).normalize().multiplyScalar(2)
     if (u.team === 'shadow') {
       this.umbra.shadowFell(u)
+      return
