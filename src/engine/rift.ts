@@ -151,3 +151,4 @@ export class RiftDirector {
       }
       return
     }
+    if (this.phase === 'cleared') {
