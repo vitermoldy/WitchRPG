@@ -128,6 +128,7 @@ export class Unit implements Target {
     this.skillCd = this.spec.summon ? this.spec.summon.every * 0.5 : 6
   }
 
+  /** Built the first time it is needed: a shadow at the back of a big army may never need one. */
   get alive() {
     return this.state !== 'dead'
   }
