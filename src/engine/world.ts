@@ -6,3 +6,4 @@ export interface PropSpot {
   kind: 'car' | 'crate'
   x: number
   z: number
+  yaw: number
