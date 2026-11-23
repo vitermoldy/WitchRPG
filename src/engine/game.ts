@@ -145,3 +145,4 @@ export class Game {
     this.composer.addPass(handPass)
     // One NaN pixel blurred by bloom turns the whole screen black. Zero any that slip through.
     this.composer.addPass(
+      new ShaderPass({
