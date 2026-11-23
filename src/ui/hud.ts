@@ -108,6 +108,8 @@ export class Hud {
     const p = g.player
     const span = 110 * (Math.PI / 180)
     const width = box.clientWidth || 420
+    const marks: { label: string; cls: string; x: number; z: number }[] = [
+      { label: 'U', cls: 'cm-cardinal', x: p.pos.x, z: p.pos.z - 1000 },
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
