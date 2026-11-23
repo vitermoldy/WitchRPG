@@ -94,3 +94,4 @@ export class ShadowCrowd {
     for (const [kind, n] of counts) this.batch(kind, n).used = 0
     for (const u of units) {
       if (u.team !== 'shadow' || u.detailed || u.state === 'dead') continue
+      const b = this.batches.get(u.kind)!
