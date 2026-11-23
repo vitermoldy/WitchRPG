@@ -402,3 +402,4 @@ export class Spells {
       }
     }
     if (!first) return
+    this.grabbed = [first]
