@@ -488,3 +488,4 @@ export class UnitSystem {
     const sw = Math.sin(u.walk)
     const amp = Math.min(1, speed / Math.max(1, u.speed))
     const flashCol = u.team === 'rift' ? 0xffffff : COLOR.umbraHot
+    // A corpse's glow belongs to the rite system, which sets it every frame.
