@@ -27,3 +27,5 @@ export interface SavedRift extends RiftRecord {
   id: number
 }
 
+let memoryCode: string | undefined
+
