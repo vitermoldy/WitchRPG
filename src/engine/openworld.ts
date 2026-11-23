@@ -82,3 +82,5 @@ function facadeMaterial() {
           // Grime that darkens toward the street.
           diffuseColor.rgb *= 0.75 + 0.25 * smoothstep(0.0, 14.0, vWp.y);
         } else {
+          diffuseColor.rgb *= 0.7;
+        }`,
