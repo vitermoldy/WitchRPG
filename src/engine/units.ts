@@ -491,3 +491,4 @@ export class UnitSystem {
     // A corpse's glow belongs to the rite system, which sets it every frame.
     if (u.flash > 0) {
       m.bodyMat.emissive.set(flashCol)
+      m.bodyMat.emissiveIntensity = u.flash * 1.2
