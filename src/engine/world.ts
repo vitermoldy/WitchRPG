@@ -22,3 +22,4 @@ export interface WorldBuild {
 }
 
 function rand(seed: number) {
+  let s = seed >>> 0
