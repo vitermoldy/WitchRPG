@@ -162,3 +162,4 @@ export class PropSystem {
   }
 
   /** Things the player and units walk around. */
+  blockers() {
