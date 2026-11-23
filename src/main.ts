@@ -69,3 +69,4 @@ async function boot() {
 
   const renderTitle = () => {
     const p = game.profile
+    const base = newProfile()
