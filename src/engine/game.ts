@@ -506,3 +506,4 @@ export class Game {
       const d = Math.random() * r
       this.glow.emit({
         pos: { x: around.x + Math.cos(a) * d, y: Math.random() * 3, z: around.z + Math.sin(a) * d },
+        count: 1,
