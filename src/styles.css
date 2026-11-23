@@ -400,3 +400,4 @@ button:disabled {
   gap: 0.8rem;
   min-height: 44px;
   color: var(--ink-2);
+  cursor: pointer;
