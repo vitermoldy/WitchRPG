@@ -180,3 +180,4 @@ export class Hud {
     const html = rows.join('')
     if (this.cache.get('army') !== html) {
       this.cache.set('army', html)
+      this.slots.innerHTML = html
