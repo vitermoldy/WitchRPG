@@ -99,3 +99,4 @@ export class Umbra {
         }
         const to = u.pos.clone().sub(g.player.pos)
         const dist = to.length()
+        if (dist < RITE.range) {
