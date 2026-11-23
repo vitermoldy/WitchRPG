@@ -123,3 +123,4 @@ export class Ledger {
       </li>`
     }).join('')
 
+    $('derived-list').innerHTML = [
