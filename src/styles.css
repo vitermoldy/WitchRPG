@@ -1846,3 +1846,5 @@ dialog::backdrop {
   outline-offset: -2px;
 }
 
+.room-group summary .room-name {
+  font-weight: 500;
