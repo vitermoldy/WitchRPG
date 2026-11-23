@@ -51,6 +51,7 @@ Semua di `src/game/balance.ts`.
 Pemilik meminta "lanjut sampai gamenya jadi". Jadi di sini berarti versi pertama menurut GDD: Tier I sampai III dan satu Rift lengkap dengan boss.
 
 | Bagian | Keputusan | Alasan |
+| --- | --- | --- |
 ## Arah desain
 
 Reading this as: game aksi first-person untuk pemain PC, bahasa visual noir-sinematik dengan sihir dua warna, dial ENERGY 3 / RHYTHM 2 / MOTION 3.
