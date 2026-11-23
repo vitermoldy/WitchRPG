@@ -381,7 +381,7 @@ export class Umbra {
 
   /** Taking damage breaks the cast (GDD). */
   interrupt() {
-    if (this.casting) {
+    if (this.casting.length) {
       this.g.hud.message('Cast terputus karena kamu terkena serangan.', 'umbra')
       this.cancel()
     }
