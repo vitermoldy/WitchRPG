@@ -434,6 +434,7 @@ export class Spells {
           first = { unit: u }
         }
       }
+      // Objects too: a rock on a pillar top is easy to miss by the width of the pillar's edge.
     }
     if (!first) return
     this.grabbed = [first]
