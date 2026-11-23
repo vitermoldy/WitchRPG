@@ -254,3 +254,4 @@ export class Game {
   }
 
   impactFx(at: THREE.Vector3, strength: number) {
+    this.glow.emit({ pos: at, count: Math.round(8 + strength * 30), color: COLOR.chaosHot, intensity: 2.4, life: 0.4, size: 0.18, sizeEnd: 0.02, speed: 3 + strength * 5, gravity: 6 })
