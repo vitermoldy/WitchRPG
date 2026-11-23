@@ -131,6 +131,7 @@ export class Hud {
     )
     this.set(
       'rift-left',
+      'text',
 
     // Skills.
     const cds = g.spells.cooldowns()
