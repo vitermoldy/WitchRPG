@@ -78,3 +78,4 @@ function setAuth(next: AuthState): void {
 }
 export const authState = (): AuthState => auth
 export function onAuth(fn: (state: AuthState) => void): () => void {
+  listeners.add(fn)
