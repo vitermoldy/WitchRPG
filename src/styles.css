@@ -1436,6 +1436,8 @@ dialog::backdrop {
 
 .gate-field input[aria-invalid='true'] {
   border-color: var(--chaos);
+}
+
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
