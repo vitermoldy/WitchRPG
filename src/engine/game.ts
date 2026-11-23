@@ -320,3 +320,4 @@ export class Game {
   hurtPlayer(dmg: number, from: THREE.Vector3) {
     const p = this.player
     if (!p.alive || this.state !== 'playing') return
+    const left = this.spells.absorb(dmg)
