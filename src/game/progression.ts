@@ -164,3 +164,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
   return result
 }
 
+export function unitStats(kind: UnitKind, level: number, shadow: boolean) {
