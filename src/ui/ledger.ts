@@ -184,7 +184,7 @@ export class Ledger {
       ['Damage Chaos', `${fmt(d.damageMult * 100)}%`],
       ['Waktu melayang', `${fmt(d.floatTime, 1)} detik`],
       ['Kekuatan bayangan', `${fmt(d.shadowPower * 100)}%`],
-      ['Bayangan di medan', `maks ${fmt(p.settings.fieldCap)}`],
+      ['Bayangan detail penuh', fmt(p.settings.detail)],
     ]
       .map(([a, b]) => `<dt>${a}</dt><dd class="num">${b}</dd>`)
       .join('')
