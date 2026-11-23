@@ -428,3 +428,4 @@ button:disabled {
 /* HUD */
 .hud {
   position: absolute;
+  inset: 0;
