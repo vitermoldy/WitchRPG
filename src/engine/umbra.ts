@@ -339,3 +339,4 @@ export class Umbra {
         return
       }
       if (!shadows.length) {
+        g.hud.message('Belum ada bayangan untuk bertukar tempat.', 'umbra')
