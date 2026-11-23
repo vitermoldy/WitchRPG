@@ -16,3 +16,6 @@ export interface Gate {
   tier: TierId
   pos: THREE.Vector3
   mat: THREE.ShaderMaterial
+}
+
+export interface CampSpot {
