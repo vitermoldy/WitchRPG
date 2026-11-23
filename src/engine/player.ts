@@ -122,3 +122,4 @@ export class Player {
 
     // Jump and Crimson Float.
     const space = canAct && input.held('Space')
+    if (canAct && input.pressed('Space') && this.onGround) {
