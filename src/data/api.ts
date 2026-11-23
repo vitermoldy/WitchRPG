@@ -14,3 +14,4 @@ export interface RiftRecord {
   result: 'cleared' | 'fallen' | 'left'
   wave: number
   waves: number
+  kills: number
