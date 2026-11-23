@@ -94,3 +94,4 @@ function husk(team: Team): UnitModel {
       el.add(claw)
       meshes.push(claw)
     }
+    parts[side < 0 ? 'armL' : 'armR'] = sh
