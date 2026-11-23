@@ -106,3 +106,5 @@ export class Colliders {
     for (const box of this.boxes) if (rayBox(a, dir, box, len - 0.05)) return false
     return true
   }
+}
+
