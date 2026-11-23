@@ -128,3 +128,4 @@ export class Hud {
       if (el.style.transform !== v) el.style.transform = v
     }
     skill('sk-burst', 3, cds.burst)
+    skill('sk-snare', 5, cds.snare)
