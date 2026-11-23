@@ -622,6 +622,9 @@ export class Game {
   /** Reminds that the army waits in the Shadow Room, unless it was already called. */
   private hintArmy() {
     if (this.state !== 'playing' || this.umbra.field().length || !this.profile.shadows.length) return
+    this.hud.message(`Tekan T untuk memanggil ${this.profile.shadows.length} bayangan dari Ruang Bayangan.`, 'umbra')
+  }
+
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
