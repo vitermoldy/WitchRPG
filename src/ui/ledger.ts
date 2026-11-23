@@ -229,5 +229,7 @@ export class Ledger {
       const key = `${s.rank}:${s.kind}`
       const list = groups.get(key)
       if (list) list.push(s)
+      else groups.set(key, [s])
+    }
   }
 }
