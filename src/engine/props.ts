@@ -180,3 +180,4 @@ export class PropSystem {
   }
 
   update(dt: number) {
+    const awake = this.props.filter((p) => p.awake && !p.held)
