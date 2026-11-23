@@ -193,6 +193,7 @@ export class RiftDirector {
       this.spawnT -= dt
       if (this.queue.length && this.spawnT <= 0 && g.units.enemies().length < this.tier.maxAlive) {
         this.spawnT = RIFT.spawnInterval * (0.6 + Math.random() * 0.8)
+        this.spawnNext()
       }
       if (!this.queue.length && g.units.enemies().length === 0) {
         if (this.wave >= this.totalWaves) {
