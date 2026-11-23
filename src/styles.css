@@ -1440,6 +1440,7 @@ dialog::backdrop {
 
 .gate-hint {
   margin: -0.3rem 0 0;
+  color: var(--ink-3);
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
