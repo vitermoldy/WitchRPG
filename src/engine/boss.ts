@@ -91,3 +91,4 @@ export class BossFight {
       if (this.collapseT >= 3) {
         g.lair.setFloor(false)
         g.sfx.collapse()
+        g.player.addTrauma(0.8)
