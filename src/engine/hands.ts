@@ -328,3 +328,4 @@ export class Hands {
           life: 0.5,
           size: 0.012,
           sizeEnd: 0.002,
+          speed: 0.05,
