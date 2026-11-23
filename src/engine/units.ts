@@ -75,6 +75,7 @@ export class Unit implements Target {
   flank = Math.random() < 0.5 ? -1 : 1
   barShown = 0
   /** Seconds unable to act (Marsekal's pull, a Warden's guard break). */
+  stun = 0
   // Corpse.
   deadT = 0
   riteTried = false
