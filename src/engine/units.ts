@@ -457,3 +457,4 @@ export class UnitSystem {
       if (!Number.isFinite(u.pos.x + u.pos.y + u.pos.z + u.vel.x + u.vel.y + u.vel.z + u.yaw)) {
         u.pos.copy(u.lastGood)
         u.vel.set(0, 0, 0)
+        if (!Number.isFinite(u.yaw)) u.yaw = 0
