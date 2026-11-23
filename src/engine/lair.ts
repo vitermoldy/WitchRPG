@@ -151,3 +151,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
     col.rotation.z = ((i % 5) - 2) * 0.06
     col.castShadow = true
     group.add(col)
+  }
