@@ -35,8 +35,7 @@ export interface Settings {
   volume: number
   headBob: boolean
   shake: boolean
-  /** Shadows on the field at once; the rest wait in the Shadow Room. */
-  fieldCap: number
+  /** Shadows drawn in full detail; every shadow still fights, the far ones are drawn as a crowd. */
 }
 
 export interface Profile {
