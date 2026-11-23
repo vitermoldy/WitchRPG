@@ -237,3 +237,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     c.rotation.y = s % 2 ? Math.PI / 2 : 0
     group.add(c)
   }
+  const wall = H + 2
+  colliders.add(0, -wall, wall * 2 + 2, 1, 200)
