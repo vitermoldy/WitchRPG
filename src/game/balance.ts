@@ -160,3 +160,4 @@ export const SHADOW = { hpMult: 2.2, damageMult: 1.2, speedMult: 1.15, followDis
 
 export interface WaveSpec {
   husk: number
+  hound: number
