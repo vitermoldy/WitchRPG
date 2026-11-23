@@ -592,3 +592,4 @@ export class Spells {
     }
     for (const p of g.props.props) {
       if (p.held) continue
+      const d = p.pos.distanceTo(at)
