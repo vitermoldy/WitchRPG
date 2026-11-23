@@ -24,3 +24,5 @@ export class Umbra {
 
   constructor(g: Game) {
     this.g = g
+  }
+
