@@ -350,3 +350,4 @@ export class Spells {
           const d = p.distanceTo(b.prev)
           if (d <= len && d < best) {
             best = d
+            hitAt = p.clone()
