@@ -122,3 +122,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
       if (os[i] < mins[i] || os[i] > maxs[i]) return null
       continue
     }
+    let t1 = (mins[i] - os[i]) / ds[i]
