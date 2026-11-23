@@ -46,3 +46,5 @@ export interface Profile {
   nextShadowId: number
   clears: number
   settings: Settings
+}
+
