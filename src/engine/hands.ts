@@ -38,3 +38,4 @@ interface Hand {
   wrist: THREE.Group
   fingers: Finger[]
   thumb: THREE.Object3D[]
+  orb: THREE.Sprite
