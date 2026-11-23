@@ -32,3 +32,4 @@ interface Finger {
   baseSpread: number
 }
 
+interface Hand {
