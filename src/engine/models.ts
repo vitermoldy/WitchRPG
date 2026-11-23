@@ -409,7 +409,7 @@ function hollow(team: Team): UnitModel {
   )
 }
 
-const BUILDERS: Record<UnitKind, (team: Team) => UnitModel> = { husk, hound, spitter, warden, riftlord, hollow }
+/** A gaunt flier with wide leather wings and a hooked beak. It hangs in the air, then drops on its prey. */
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
