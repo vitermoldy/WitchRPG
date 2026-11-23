@@ -34,3 +34,4 @@ export interface UnitHost {
 let nextId = 1
 
 export class Unit implements Target {
+  readonly id = nextId++
