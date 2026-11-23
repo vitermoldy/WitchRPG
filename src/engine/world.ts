@@ -267,3 +267,4 @@ export function makeTearMaterial(seed: number) {
   return new THREE.ShaderMaterial({
     uniforms: { uTime: { value: 0 }, uOpen: { value: 1 }, uSeed: { value: seed } },
     vertexShader: TEAR_VERT,
+    fragmentShader: TEAR_FRAG,
