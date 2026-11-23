@@ -191,3 +191,4 @@ function facadeTextures(seed: number) {
         g.fill()
       }
     }
+  }
