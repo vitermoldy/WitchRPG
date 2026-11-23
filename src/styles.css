@@ -541,3 +541,4 @@ button:disabled {
   transition: opacity 0.6s;
 }
 
+.feed-item::before {
