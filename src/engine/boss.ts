@@ -238,3 +238,4 @@ export class BossFight {
         return true
       }
     }
+    return false
