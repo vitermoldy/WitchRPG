@@ -133,3 +133,4 @@ function hound(team: Team): UnitModel {
   glowLine.castShadow = false
   body.add(glowLine)
   const neck = pivot(body, 0, 0.08, -0.58)
+  parts.head = neck
