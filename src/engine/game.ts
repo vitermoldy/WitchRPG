@@ -81,3 +81,4 @@ export class Game {
     this.derived = derive(this.profile.stats)
 
     this.world = buildWorld(this.scene)
+    this.colliders = this.world.colliders
