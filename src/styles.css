@@ -378,3 +378,4 @@ button:disabled {
 
 .result-list dd {
   margin: 0;
+  color: var(--ink);
