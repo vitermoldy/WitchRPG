@@ -232,3 +232,4 @@ export class BossFight {
             const h = this.callHusk(new THREE.Vector3(this.home.x + Math.cos(a) * 3, this.home.y, this.home.z + Math.sin(a) * 3))
             if (h) this.feed.set(h, performance.now() / 1000 + 9)
           }
+          g.hud.message('Ia memanggil husk ke pilarnya. Habisi sebelum ditelan.', 'info')
