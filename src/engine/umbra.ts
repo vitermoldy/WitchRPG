@@ -70,6 +70,7 @@ export class Umbra {
     this.downUntil.clear()
     this.calls = []
     this.time = 0
+    this.armyOut = false
   }
 
   get riteOpen() {
