@@ -108,3 +108,4 @@ export class Unit implements Target {
   }
 }
 
+const tmp = new THREE.Vector3()
