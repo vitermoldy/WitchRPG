@@ -60,3 +60,4 @@ export class BossFight {
     // A phase cannot be skipped: damage stops just under the next threshold until the phase turns.
     if (this.phase < 3) {
       const floorHp = u.maxHp * (this.phase === 1 ? BOSS.phase2At : BOSS.phase3At) - 1
+      dmg = Math.min(dmg, Math.max(0, u.hp - floorHp))
