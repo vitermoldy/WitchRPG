@@ -61,3 +61,4 @@ function husk(team: Team): UnitModel {
   parts.spine = spine
   const torso = box(0.46, 0.56, 0.3, bodyMat, meshes, 0.3)
   spine.add(torso)
+  const crack = box(0.07, 0.44, 0.02, s.accent, meshes, 0.32)
