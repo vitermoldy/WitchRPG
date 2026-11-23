@@ -818,3 +818,4 @@ button:disabled {
 
 .army-slots {
   display: grid;
+  gap: 0.3rem;
