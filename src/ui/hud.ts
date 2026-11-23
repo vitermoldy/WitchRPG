@@ -75,3 +75,5 @@ export class Hud {
   hit(kill: boolean) {
     this.hitTimer = kill ? 0.25 : 0.1
     this.hitmark.setAttribute('class', kill ? 'hitmark kill' : 'hitmark on')
+  }
+
