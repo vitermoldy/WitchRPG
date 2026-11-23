@@ -399,3 +399,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     for (let i = 0; i < 9; i++) {
       const s = 1.5 + R() * 2.5
       const rock = new THREE.Mesh(new THREE.DodecahedronGeometry(s, 0), concrete)
+      const off = (R() - 0.5) * 16
