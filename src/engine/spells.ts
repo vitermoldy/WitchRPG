@@ -34,3 +34,4 @@ export interface AimHit {
   prop: Prop | null
 }
 
+const RUNE_FRAG = /* glsl */ `
