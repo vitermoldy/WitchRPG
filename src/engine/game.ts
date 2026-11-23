@@ -884,6 +884,8 @@ export class Game {
     else this.rift.update(dt)
     if (p.flightSpent) this.hud.message('Stamina habis, terbang berhenti. Di dalam Rift, terbang memakai stamina.', 'info')
     // Flight: wisps trail from both palms; the wind grows with speed.
+    if (p.flying) {
+      this.hands.pose('left', 'fly', 0.2)
     if (this.inLair) this.lairUpdate(dt)
     this.embers(dt, p.pos, 18)
 
