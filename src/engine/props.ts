@@ -210,3 +210,4 @@ export class PropSystem {
       if (!p.awake) continue
       p.vel.y -= 22 * dt
       p.pos.addScaledVector(p.vel, dt)
+      const n = this.tmp
