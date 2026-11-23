@@ -21,3 +21,4 @@ export class Player {
   floating = false
   sprinting = false
   stamina: number = MOVE.staminaMax
+  floatLeft: number = MOVE.floatMax
