@@ -561,6 +561,7 @@ export class UnitSystem {
     const ref = tgt ?? host.player
     const sees = !tgt || host.colliders.clear(u.center, tmp.set(tgt.pos.x, tgt.pos.y + 1, tgt.pos.z))
     u.blind = sees ? 0 : u.blind + dt
+    const lost = u.blind > 1.5
     }
   }
 
