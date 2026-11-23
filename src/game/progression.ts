@@ -164,7 +164,7 @@ export function derive(stats: Stats, level = 1): Derived {
     damageMult: 1 + PLAYER.damagePerHex * above('hex') + PLAYER.damagePerLevel * grown,
     speedMult: 1 + PLAYER.speedPerAgi * above('agi'),
     floatTime: MOVE.floatMax + MOVE.floatPerAgi * above('agi'),
-    slots: shadowSlots(stats.umb),
+    shadowPower: shadowPower(stats.umb),
   }
 }
 
