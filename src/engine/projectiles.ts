@@ -18,6 +18,7 @@ interface Shot {
   mesh: THREE.Mesh
   source: Unit | null
   reflected: boolean
+  /** Bursts over this radius where it lands instead of hitting one thing; 0 for a plain glob. */
 }
 
 export interface ShotHost {
