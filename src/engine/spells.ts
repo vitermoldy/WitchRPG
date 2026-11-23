@@ -557,3 +557,4 @@ export class Spells {
     const g = this.g
     const s = SPELL.burst
     this.burstCd = s.cooldown
+    const hit = this.aim(s.range, { props: false })
