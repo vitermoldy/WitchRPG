@@ -216,6 +216,7 @@ export class Player {
         this.pos.z = b.pos.z + (dz / d) * min
       }
     }
+    // Walls get the last word: a crowd of shadows pressing her into a thin wall must not push her through it.
 
     // Vertical.
     const floor = world.groundAt(this.pos.x, this.pos.z, this.radius, this.pos.y, MOVE.step)
