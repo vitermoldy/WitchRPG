@@ -97,6 +97,7 @@ export class Ledger {
     $('btn-ledger-close').focus()
   }
 
+  private async renderHistory() {
   close() {
     if (this.dlg.open) this.dlg.close()
   }
