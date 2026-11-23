@@ -445,3 +445,4 @@ export class Spells {
         this.dropAll(false)
         return
       }
+    }
