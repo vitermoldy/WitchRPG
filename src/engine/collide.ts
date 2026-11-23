@@ -76,3 +76,4 @@ export class Colliders {
     for (const b of this.boxes) {
       if (b.top > feetY + step || b.top <= g) continue
       if (x + r * 0.6 < b.minX || x - r * 0.6 > b.maxX || z + r * 0.6 < b.minZ || z - r * 0.6 > b.maxZ) continue
+      g = b.top
