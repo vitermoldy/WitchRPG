@@ -194,3 +194,4 @@ export class Spells {
     const ray = new THREE.Ray(o, dir)
     const hit = new THREE.Vector3()
     if (opts.units !== false) {
+      for (const u of this.g.units.units) {
