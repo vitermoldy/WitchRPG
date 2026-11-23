@@ -185,3 +185,4 @@ export class PropSystem {
     if (awake.length > WORLD.maxPhysicsProps) {
       awake.sort((a, b) => a.vel.lengthSq() - b.vel.lengthSq())
       for (let i = 0; i < awake.length - WORLD.maxPhysicsProps; i++) {
+        awake[i].awake = false
