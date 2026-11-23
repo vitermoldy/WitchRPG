@@ -226,3 +226,4 @@ export class Hands {
     this.scene.add(rim)
     const back = new THREE.DirectionalLight(0xff6a70, 0.7)
     back.position.set(-0.4, 0.3, 1)
+    this.scene.add(back)
