@@ -24,3 +24,4 @@ export interface LairBuild {
   setFloor(solid: boolean): void
   /** The top of the pillar nearest to a point: where someone who fell comes back. */
   nearestTop(at: THREE.Vector3): THREE.Vector3
+  update(t: number): void
