@@ -288,3 +288,4 @@ export class Umbra {
         s.holdPos.copy(s.pos)
         s.focus = null
         s.target = null
+      }
