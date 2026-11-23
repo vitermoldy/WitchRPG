@@ -267,3 +267,4 @@ export class Sfx {
     lfo.start()
     const wg = ctx.createGain()
     wg.gain.value = 0.5
+    wind.connect(wf).connect(wg).connect(g)
