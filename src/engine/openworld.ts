@@ -23,3 +23,5 @@ export interface CampSpot {
   pos: THREE.Vector3
   levels: [number, number]
   pack: Partial<Record<Exclude<UnitKind, 'hollow'>, number>>
+  elite: boolean
+  mat: THREE.ShaderMaterial
