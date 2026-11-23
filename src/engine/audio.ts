@@ -310,6 +310,8 @@ export class Sfx {
   wind(level: number) {
     if (!this.ctx || !this.noiseBuf) return
     const ctx = this.ctx
+    if (!this.windNodes) {
+      if (level <= 0) return
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
