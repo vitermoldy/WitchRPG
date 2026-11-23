@@ -26,7 +26,7 @@ const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
 const STATS = ['hex', 'spr', 'vit', 'agi', 'umb']
 const RESULTS = new Set(['cleared', 'fallen', 'left'])
 const MAX_LEVEL = 30
-const MAX_SHADOWS = 40
+const MAX_SHADOWS = 2000
 
 /** Writes come as JSON from this site only: no form posts, no other origin. */
 function sameOriginWrites(req, res, next) {
