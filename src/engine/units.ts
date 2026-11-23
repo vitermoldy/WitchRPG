@@ -171,3 +171,4 @@ export class UnitSystem {
     if (u.team === 'rift') {
       if (p.alive) {
         best = p
+        bestD = u.pos.distanceTo(p.pos) * 0.8
