@@ -184,3 +184,5 @@ export class Umbra {
   chance(u: Unit) {
     const g = this.g
     return riteChance(UNITS[u.kind].rank, g.profile.level, u.level, g.profile.stats.umb)
+  }
+
