@@ -50,3 +50,4 @@ export class BossFight {
         if (this.immuneNote <= 0) {
           g.hud.message('Cangkangnya menutup. Kurung dia dengan Reality Warp (V) dulu.', 'chaos')
           this.immuneNote = 6
+        }
