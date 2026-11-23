@@ -960,6 +960,7 @@ export class UnitSystem {
     const P = m.parts
     if (u.state === 'dead') {
       const k = Math.min(1, u.deadT / 0.5)
+      m.body.rotation.set(0, 0, k * 1.2)
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
