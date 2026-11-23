@@ -106,3 +106,4 @@ button:disabled {
   border-radius: var(--radius);
   background: var(--surface);
   color: var(--ink);
+  font-weight: 500;
