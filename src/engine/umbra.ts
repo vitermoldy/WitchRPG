@@ -132,3 +132,4 @@ export class Umbra {
       this.progress += dt / castTime
       const from = g.hands.palmWorld('right', cam)
       const c = this.casting.pos
+      for (let i = 0; i < 2; i++) {
