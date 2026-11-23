@@ -220,3 +220,4 @@ export function createApi(getPool, database) {
         shadows_raised AS shadowsRaised, seconds, finished_at AS finishedAt
        FROM rift_runs WHERE client_id = ? ORDER BY finished_at DESC, id DESC LIMIT 20`,
       [req.user.device],
+    )
