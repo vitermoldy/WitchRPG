@@ -27,6 +27,7 @@ if (rows.length === 0) {
       level: r.level ?? 1,
       bayangan: Number(r.shadows),
       'rift ditutup': r.clears ?? 0,
+      'boss tumbang': r.boss_kills ?? 0,
       'rift dimainkan': Number(r.rifts),
     })),
   )
