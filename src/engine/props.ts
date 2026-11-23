@@ -51,3 +51,4 @@ function carMesh(color: number) {
     const w = new THREE.Mesh(new THREE.CylinderGeometry(0.33, 0.33, 0.24, 10), tyre)
     w.rotation.z = Math.PI / 2
     w.position.set(x, -0.42, z)
+    g.add(w)
