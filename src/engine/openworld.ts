@@ -320,3 +320,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     camps,
     cars,
     update(t: number) {
+      curtainMat.uniforms.uTime.value = t
+      shrine.rotation.y = t * 0.6
