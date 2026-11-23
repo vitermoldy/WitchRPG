@@ -7,3 +7,4 @@ export interface Box {
   maxZ: number
   top: number
   /** Thin cover that Chaos Burst knocks down. */
+  breakable?: boolean
