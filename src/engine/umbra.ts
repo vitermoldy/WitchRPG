@@ -139,6 +139,8 @@ export class Umbra {
     const order = { marsekal: 0, jenderal: 1, ksatria: 2, prajurit: 3 }
     const pick = [...ready].sort((a, b) => order[a.rank] - order[b.rank] || b.level - a.level).slice(0, Math.max(0, this.fieldCap - this.field().length))
     const n = pick.length
+    const p = g.player
+    const feet = new THREE.Vector3(p.pos.x, g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5), p.pos.z)
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
