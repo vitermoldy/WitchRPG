@@ -65,3 +65,4 @@ export class Unit implements Target {
   flank = Math.random() < 0.5 ? -1 : 1
   barShown = 0
   // Corpse.
+  deadT = 0
