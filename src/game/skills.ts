@@ -86,7 +86,7 @@ export const SKILLS: SkillDef[] = [
     unlock: 10,
     effect: 'Medan 10 m selama 5 detik: musuh terangkat, proyektil musuh dipantulkan, dan cangkang boss terbuka.',
     upgrade: 'Durasi +2 detik.',
-    built: false,
+    built: true,
   },
   {
     id: 'rite',
