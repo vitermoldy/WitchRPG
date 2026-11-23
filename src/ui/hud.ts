@@ -171,3 +171,4 @@ export class Hud {
       const cls = down ? 'down' : u ? 'up' : ''
       const hp = u ? Math.max(0, u.hp / u.maxHp) : 0
       rows.push(
+        `<li class="army-slot ${cls}"><span class="pip"></span><span>${rec.name} <span class="num">Lv ${rec.level}</span></span>${
