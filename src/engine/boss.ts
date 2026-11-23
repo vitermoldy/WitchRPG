@@ -14,3 +14,4 @@ export type BossPhase = 1 | 2 | 3
  */
 export class BossFight {
   readonly u: Unit
+  phase: BossPhase = 1
