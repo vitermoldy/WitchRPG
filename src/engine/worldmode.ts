@@ -100,3 +100,5 @@ export class WorldDirector {
     if (p.hp < this.lastHp - 0.01) this.calm = 0
     else this.calm += dt
     const atAltar = Math.hypot(p.pos.x - g.ow.altar.x, p.pos.z - g.ow.altar.z) < 10
+    if (p.alive) {
+      if (atAltar) {
