@@ -551,6 +551,7 @@ export class UnitSystem {
           continue
         }
         u.flight = Math.max(0, u.flight - dt)
+        u.vel.y -= 22 * dt * (u.flight > 0 ? SPELL.grip.flightGravity : 1)
         u.pos.addScaledVector(u.vel, dt)
         const n = new THREE.Vector3()
         const wall = host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3, n)
