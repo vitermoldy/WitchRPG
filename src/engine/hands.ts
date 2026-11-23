@@ -254,3 +254,4 @@ export class Hands {
   palmWorld(side: Side, worldCam: THREE.Camera, out = new THREE.Vector3()): THREE.Vector3 {
     const h = this.hand(side)
     h.orb.getWorldPosition(this.tmp)
+    // Hand-camera space equals world-camera space (both look down -Z from the origin).
