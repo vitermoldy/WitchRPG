@@ -213,3 +213,4 @@ export class UnitSystem {
     const k = Math.min(1, dt * 8)
     u.vel.x += ax * k
     u.vel.z += az * k
+    if (d > 0.3) this.face(u, goal, dt)
