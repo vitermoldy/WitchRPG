@@ -124,3 +124,4 @@ export class PropSystem {
     return p
   }
 
+  spawnCar(x: number, z: number, yaw: number) {
