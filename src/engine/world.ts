@@ -513,6 +513,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     const deck = solid(new THREE.Mesh(new THREE.BoxGeometry(3, 0.16, 3), plank))
     deck.position.set(x, top - 0.08, z)
     const rail = solid(new THREE.Mesh(new THREE.BoxGeometry(3, 0.6, 0.06), scaffoldMetal))
+    rail.position.set(x, top + 0.3, z + (z > 0 ? 1.45 : -1.45))
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
