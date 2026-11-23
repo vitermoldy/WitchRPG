@@ -67,3 +67,4 @@ export class Player {
     this.trauma = Math.min(1, this.trauma + amount)
   }
 
+  update(dt: number, input: Input, world: Colliders, sensitivity: number, blockers: Circle[], canAct: boolean) {
