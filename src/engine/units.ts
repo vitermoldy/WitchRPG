@@ -803,6 +803,7 @@ export class UnitSystem {
   private animateHound(u: Unit, amp: number, t: number) {
     const m = u.model
     const P = m.parts
+    const legs = ['legFL', 'legFR', 'legBL', 'legBR']
     }
   }
 }
