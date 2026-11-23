@@ -251,3 +251,5 @@ export class Game {
       this.props.spawnChunk(at, away, wide ? 0.7 : 0.18, 0.5 + Math.random() * 0.4, wide ? 0.18 : 0.7)
     }
     this.smoke.emit({ pos: new THREE.Vector3(cx, 0.8, cz), count: 12, color: 0x2a2224, life: 1.4, size: 1.4, sizeEnd: 2.4, speed: 2, jitter: 0.6, alpha: 0.7 })
+  }
+
