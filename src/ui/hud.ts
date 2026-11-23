@@ -105,3 +105,5 @@ export class Hud {
     this.set('mana-row', 'class', this.manaFlash > 0 ? 'vital short' : 'vital')
     this.set('stamina-fill', 'transform', `scaleX(${(p.stamina / 100).toFixed(3)})`)
     this.set('level-text', 'text', `Lv ${pr.level}`)
+    this.set('xp-fill', 'transform', `scaleX(${Math.min(1, pr.xp / xpToNext(pr.level)).toFixed(3)})`)
+
