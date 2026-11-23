@@ -8,3 +8,4 @@ import {
   newProfile,
   riteChance,
   shadowName,
+  shadowSlots,
