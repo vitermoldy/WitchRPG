@@ -326,3 +326,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       for (const g of gates) g.mat.uniforms.uTime.value = t
       for (const c of camps) c.mat.uniforms.uTime.value = t
     },
+  }
+}
