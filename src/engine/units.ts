@@ -143,3 +143,4 @@ export class UnitSystem {
     for (const u of [...this.units]) this.remove(u)
   }
 
+  enemies() {
