@@ -256,3 +256,4 @@ export class BossFight {
     this.volleyT = this.phase === 3 ? BOSS.volleyEvery3 : BOSS.volleyEvery
     const goal = this.targetFor()
     if (!goal) return
+    const from = u.center.add(new THREE.Vector3(0, u.height * 0.25, 0))
