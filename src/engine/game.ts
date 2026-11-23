@@ -526,3 +526,4 @@ export class Game {
     const lookDy = input.dy
     if (wheel) {
       input.dx = 0
+      input.dy = 0
