@@ -62,6 +62,7 @@ export class RiftDirector {
       this.portals.push({ pos: p.clone(), mesh, mat, open: 0 })
     })
     const tear = (seed: number, w: number, h: number, halo: number) => {
+      const group = new THREE.Group()
   }
 
   start() {
