@@ -33,6 +33,7 @@ export interface UnitHost {
   fire(from: THREE.Vector3, to: THREE.Vector3, u: Unit): void
   /** A slam lands: dust, a ring, a shake for the witch if she is close. */
   slamFx(at: THREE.Vector3, radius: number, team: Team): void
+  /** A warning circle on the floor while a slam winds up. */
 }
 
 let nextId = 1
