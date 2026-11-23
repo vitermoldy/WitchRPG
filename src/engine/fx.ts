@@ -357,6 +357,7 @@ export class Warnings {
     w.group.visible = true
     w.group.position.set(at.x, at.y + 0.07, at.z)
     w.edge.scale.setScalar(radius)
+    w.t = 0
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
