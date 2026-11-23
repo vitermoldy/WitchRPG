@@ -575,3 +575,4 @@ export class UnitSystem {
       if (u.state === 'windup') crouch = Math.min(1, u.t / u.spec.windup)
       if (u.state === 'lunge') stretch = 1
       m.body.position.y = 0.72 - crouch * 0.22 + Math.abs(Math.sin(u.walk)) * 0.05 * amp
+      m.body.rotation.x = crouch * 0.12 - stretch * 0.15
