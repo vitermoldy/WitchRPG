@@ -328,3 +328,4 @@ export class UnitSystem {
     let dmg = u.damage
     if (u.team === 'shadow' && u.focus && tgt === u.focus) dmg *= 1 + u.focusBonus
     if (tgt === this.host.player) this.host.hurtPlayer(dmg, u.pos)
+    else if (tgt instanceof Unit) this.host.hurtUnit(tgt, dmg, u.pos, u.team === 'shadow' ? 'shadow' : 'rift')
