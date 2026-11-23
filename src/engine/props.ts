@@ -64,3 +64,4 @@ function carMesh(color: number) {
       o.receiveShadow = true
     }
   })
+  return g
