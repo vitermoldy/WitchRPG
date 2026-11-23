@@ -20,3 +20,4 @@ export class BossFight {
   private volleyT = 4
   private collapseT = -1
   private landT = -1
+  private readonly home = new THREE.Vector3()
