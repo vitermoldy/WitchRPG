@@ -589,3 +589,4 @@ export class Spells {
         dir.y = lift * 0.5 * k
         u.vel.copy(dir)
       }
+    }
