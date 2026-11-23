@@ -187,3 +187,4 @@ export class Hud {
     this.set('army-order', 'text', order)
   }
 
+  private updateWheel() {
