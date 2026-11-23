@@ -237,3 +237,4 @@ export class Hands {
     return side === 'left' ? this.left : this.right
   }
 
+  /** Holds a pose for `hold` seconds, then drifts back to idle. 0 means until set again. */
