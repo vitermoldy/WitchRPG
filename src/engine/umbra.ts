@@ -237,3 +237,4 @@ export class Umbra {
     g.hands.kick('right', 1.4)
     if (roll < p) {
       const rec = addShadow(g.profile, u.kind, u.level)
+      if (!rec) {
