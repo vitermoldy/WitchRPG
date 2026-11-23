@@ -5,3 +5,4 @@ export interface Box {
   maxX: number
   minZ: number
   maxZ: number
+  top: number
