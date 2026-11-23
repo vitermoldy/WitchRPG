@@ -564,6 +564,7 @@ export class Game {
     const home = this.lair.platforms[0].center.clone()
     const boss = this.units.spawn('hollow', 'rift', TIERS[3].boss!.level, home.clone())
     boss.setState('rising')
+    const fight = new BossFight(this, boss, home)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
