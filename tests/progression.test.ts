@@ -106,6 +106,7 @@ describe('upgrades and shadows', () => {
     expect(buyUpgrade(p, 'warp')).toBe(true)
     p.skillPoints = 1
     expect(buyUpgrade(p, 'general')).toBe(false)
+    expect(buyUpgrade(p, 'marshal')).toBe(false)
   })
   it('fills slots, then refuses', () => {
     const p = newProfile()
