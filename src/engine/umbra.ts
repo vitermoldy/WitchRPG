@@ -36,6 +36,8 @@ export class Umbra {
   private time = 0
   /** Fallen shadows and when they can be called again. */
   readonly downUntil = new Map<number, number>()
+  /** Shadows waiting to rise during a call, in order. */
+  private calls: Call[] = []
 
   constructor(g: Game) {
     this.g = g
