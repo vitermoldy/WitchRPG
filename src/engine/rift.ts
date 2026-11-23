@@ -41,3 +41,4 @@ export class RiftDirector {
       mesh.position.set(p.x, 3, p.z)
       mesh.lookAt(0, 3, 0)
       mesh.renderOrder = 6
+      g.scene.add(mesh)
