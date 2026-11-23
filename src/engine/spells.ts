@@ -437,6 +437,7 @@ export class Spells {
       // Objects too: a rock on a pillar top is easy to miss by the width of the pillar's edge.
       for (const p of g.props.props) {
         if (p.held || p.kind === 'chunk' || p.mass > SPELL.grip.maxMass) continue
+        const to = p.pos.clone().sub(o)
     }
     if (!first) return
     this.grabbed = [first]
