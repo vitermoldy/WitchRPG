@@ -442,6 +442,7 @@ function harrier(team: Team): UnitModel {
     eye.position.set(x, y, -0.215)
     eye.castShadow = false
     head.add(eye)
+  }
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
