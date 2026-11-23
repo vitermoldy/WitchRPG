@@ -462,3 +462,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     colliders.add(x + (x < 0 ? -0.85 : 0.85), z, 0.3, 4.4, 2.6)
   }
 
+  // Street lamps, the only warm light left. Emissive only; real lights stay in the pool.
