@@ -600,3 +600,4 @@ export class Spells {
       g.props.push(p, dir)
     }
     if (breakCover) {
+      for (const b of [...g.world.breakables]) {
