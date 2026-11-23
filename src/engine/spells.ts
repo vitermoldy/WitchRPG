@@ -632,6 +632,7 @@ export class Spells {
     const wallMat = new THREE.ShaderMaterial({
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 } },
       vertexShader: WARP_VERT,
+      fragmentShader: WARP_FRAG,
   private burst() {
     const g = this.g
     const s = SPELL.burst
