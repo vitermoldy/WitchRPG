@@ -34,3 +34,4 @@ npm run build    # hasil di dist/, bisa dibuka dari host statis mana pun
 | Gerak | |
 | --- | --- |
 | WASD, Shift | Jalan, lari |
+| Spasi | Lompat; tahan di udara untuk melayang |
