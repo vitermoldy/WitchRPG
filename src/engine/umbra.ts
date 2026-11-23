@@ -343,3 +343,4 @@ export class Umbra {
         return
       }
       const eye = g.player.eyePos
+      const fwd = g.player.viewDir()
