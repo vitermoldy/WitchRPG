@@ -445,6 +445,7 @@ export class Game {
   /**
    * A burst over an area: a Bombard charge or a fallen meledak elite. A rift burst hits the witch and
    * her shadows; a witch-side burst (shadow Bombard, or a charge sent back by Reality Warp) hits rift creatures.
+   */
   private kill(u: Unit, from: THREE.Vector3, by: DamageSource) {
     u.setState('dead')
     u.deadT = 0
