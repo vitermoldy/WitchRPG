@@ -26,6 +26,7 @@ import { RiftDirector } from './rift'
 import { Spells } from './spells'
 import { Umbra } from './umbra'
 import { Unit, UnitSystem, type DamageSource, type UnitHost } from './units'
+import type { Team } from './models'
 import { buildWorld, type WorldBuild } from './world'
 
 export type GameState = 'loading' | 'title' | 'playing' | 'paused' | 'ledger' | 'result' | 'dead'
