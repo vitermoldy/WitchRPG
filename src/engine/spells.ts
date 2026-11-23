@@ -699,3 +699,4 @@ export class Spells {
 
   private endBarrier() {
     const g = this.g
+    const s = SPELL.barrier
