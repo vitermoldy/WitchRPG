@@ -126,3 +126,4 @@ export class Projectiles {
         h.glow.emit({ pos: s.pos, count: 16, color, intensity: 2.4, life: 0.45, size: 0.22, sizeEnd: 0.03, speed: 3.2, gravity: 6 })
         h.smoke.emit({ pos: s.pos, count: 4, color: 0x1e1a10, life: 0.8, size: 0.6, sizeEnd: 1.1, speed: 0.8, alpha: 0.5 })
         this.group.remove(s.mesh)
+        this.shots.splice(i, 1)
