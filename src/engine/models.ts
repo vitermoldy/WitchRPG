@@ -495,6 +495,7 @@ function bombard(team: Team): UnitModel {
       tube.add(muzzle)
       meshes.push(muzzle)
       p.muzzle = muzzle
+      for (const side of [-1, 1]) {
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
