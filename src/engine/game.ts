@@ -49,6 +49,7 @@ export class Game {
   private activeColliders: Colliders
   get colliders(): Colliders {
     return this.activeColliders
+  }
   readonly glow = new Particles(4000, 'glow')
   readonly smoke = new Particles(900, 'smoke')
   readonly lights: LightPool
