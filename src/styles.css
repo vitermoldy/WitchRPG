@@ -1720,3 +1720,5 @@ dialog::backdrop {
 }
 
 .compass::after {
+  content: '';
+  position: absolute;
