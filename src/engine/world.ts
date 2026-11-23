@@ -496,6 +496,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     floaters.push({ m, base, spin: new THREE.Vector3(R() - 0.5, R() - 0.5, R() - 0.5).multiplyScalar(0.25), phase: R() * 6 })
   }
 
+  // Scaffolds left by the evacuation: the only high ground, where Spitters perch.
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
