@@ -290,3 +290,4 @@ export class Spells {
         vel: d.multiplyScalar(SPELL.bolt.speed),
         life: SPELL.bolt.life,
         damage: dmg,
+        mesh,
