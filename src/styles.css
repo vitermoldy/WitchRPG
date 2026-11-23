@@ -958,3 +958,4 @@ button:disabled {
 .hpbar i {
   display: block;
   height: 100%;
+  background: var(--rift);
