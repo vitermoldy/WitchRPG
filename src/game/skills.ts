@@ -91,3 +91,4 @@ export const SKILLS: SkillDef[] = [
     branch: 'umbra',
     name: 'Umbra Rite',
     key: 'Tahan R',
+    unlock: 2,
