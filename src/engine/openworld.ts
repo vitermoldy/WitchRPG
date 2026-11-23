@@ -252,3 +252,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   colliders.add(0, 0, 11, 11, 0.8)
   const shrine = new THREE.Mesh(new THREE.OctahedronGeometry(1.1, 0), new THREE.MeshStandardMaterial({ color: 0x120818, emissive: COLOR.umbra, emissiveIntensity: 2.2 }))
   shrine.position.y = 3.6
+  group.add(shrine)
+  for (let i = 0; i < 6; i++) {
