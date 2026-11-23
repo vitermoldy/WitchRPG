@@ -1352,6 +1352,7 @@ dialog::backdrop {
 /* Account */
 .account-row {
   display: flex;
+  flex-wrap: wrap;
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
