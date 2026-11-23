@@ -55,3 +55,4 @@ export class ShadowCrowd {
   }
 
   private makeMesh(geo: THREE.BufferGeometry, mats: THREE.Material[], cap: number) {
+    const mesh = new THREE.InstancedMesh(geo, mats, cap)
