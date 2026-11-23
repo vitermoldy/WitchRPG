@@ -64,3 +64,4 @@ export class Hud {
     this.bannerTimer = 3.2
   }
 
+  flashMana() {
