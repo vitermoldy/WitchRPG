@@ -117,3 +117,5 @@ function groundMaterial() {
         col = mix(col, vec3(0.24, 0.22, 0.21), curb * 0.8);
         col = mix(col, vec3(0.55, 0.5, 0.45), dash * 0.5);
         float crack = smoothstep(0.03, 0.0, abs(n2(vWp.xz * 0.35) - 0.5)) * 0.6;
+        col *= 1.0 - crack * 0.5;
+        diffuseColor.rgb = col;`,
