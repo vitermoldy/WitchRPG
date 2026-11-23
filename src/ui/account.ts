@@ -62,3 +62,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     $('gate-lead').textContent =
       next === 'in'
         ? 'Level, stat, skill, Ruang Bayangan, dan riwayat Rift tersimpan di akunmu, jadi bisa dilanjutkan dari browser mana pun.'
+        : 'Witch yang sudah ada di browser ini ikut masuk ke akun barumu.'
