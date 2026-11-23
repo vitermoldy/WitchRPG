@@ -509,3 +509,4 @@ export class Game {
         count: 1,
         color: Math.random() < 0.8 ? COLOR.chaosHot : COLOR.umbra,
         intensity: 1.8,
+        life: 4,
