@@ -85,3 +85,4 @@ export class BossFight {
 
     if (this.collapseT >= 0) {
       this.collapseT += dt
+      // Three seconds of warning: the cracks burn, the floor shakes, then it goes.
