@@ -557,3 +557,4 @@ button:disabled {
   color: var(--umbra-ink);
 }
 
+.feed-item.level::before {
