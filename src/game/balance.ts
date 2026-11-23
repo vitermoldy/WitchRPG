@@ -314,6 +314,7 @@ export const SHADOW_SKILL = {
  */
 export type EliteTrait = 'berlapis' | 'gesit' | 'meledak' | 'penjaga'
 
+export const ELITE = {
 
 export type TierId = 1 | 2 | 3
 
