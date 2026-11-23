@@ -553,6 +553,7 @@ button:disabled {
     opacity: 1;
   }
   100% {
+    opacity: 0;
 .banner {
   position: absolute;
   top: 24%;
