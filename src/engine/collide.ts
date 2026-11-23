@@ -92,3 +92,4 @@ export class Colliders {
       const t = rayBox(o, dir, b, best ? best.dist : maxDist)
       if (t === null) continue
       const point = o.clone().addScaledVector(dir, t.t)
+      best = { dist: t.t, point, normal: t.n, box: b }
