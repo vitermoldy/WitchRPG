@@ -119,3 +119,4 @@ function hound(team: Team): UnitModel {
   const parts: Record<string, THREE.Object3D> = {}
   const torso = box(0.5, 0.42, 1.05, bodyMat, meshes)
   body.add(torso)
+  const chest = box(0.56, 0.48, 0.4, bodyMat, meshes, 0.03)
