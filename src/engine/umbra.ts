@@ -298,3 +298,4 @@ export class Umbra {
         // Nearest enemy to where the crosshair lands.
         let bd = 10
         for (const e of g.units.enemies()) {
+          const d = e.pos.distanceTo(hit.point)
