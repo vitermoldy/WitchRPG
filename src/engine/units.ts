@@ -772,6 +772,7 @@ export class UnitSystem {
       const k = Math.min(1, u.deadT / 0.6)
       m.body.rotation.x = -k * 1.45
       m.body.position.y = hip - k * hip * 0.72
+      legL.rotation.x = k * 0.3
     }
   }
 }
