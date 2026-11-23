@@ -117,3 +117,4 @@ export class Projectiles {
         hit = this.hitUnits(s, 'rift')
       }
       if (!hit) {
+        const len = this.seg.copy(s.pos).sub(s.prev).length()
