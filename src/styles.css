@@ -232,3 +232,4 @@ button:disabled {
 
 @keyframes loading {
   from {
+    transform: scaleX(0.2);
