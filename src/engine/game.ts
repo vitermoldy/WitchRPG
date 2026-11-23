@@ -50,6 +50,7 @@ export class Game {
   get colliders(): Colliders {
     return this.activeColliders
   }
+  inLair = false
   readonly glow = new Particles(4000, 'glow')
   readonly smoke = new Particles(900, 'smoke')
   readonly lights: LightPool
