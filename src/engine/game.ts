@@ -118,3 +118,4 @@ export class Game {
     this.props = new PropSystem({
       colliders: this.colliders,
       units: this.units,
+      hurtUnit: (u, dmg, from, by) => this.hurtUnit(u, dmg, from, by),
