@@ -181,3 +181,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       if (Math.abs(x) > H - 14 || Math.abs(z) > H - 14) continue
       if (reserved.some((r) => Math.hypot(r.x - x, r.z - z) < r.r + 18)) continue
       reserved.push({ x, z, r: 18 })
+      campSpots.push({ x, z, band: c.band, elite: !!c.elite })
+      break
