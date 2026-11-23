@@ -131,3 +131,4 @@ export const signIn = (username: string, password: string): Promise<void> => ent
 /** A new account. The witch and Rifts this browser has become the account's. */
 export const signUp = (username: string, password: string): Promise<void> => enter('auth/register', { username, password, device: clientCode() })
 
+/** Ends the session and forgets this browser's code and waiting Rifts; the caller clears the witch and reloads. */
