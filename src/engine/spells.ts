@@ -517,3 +517,4 @@ export class Spells {
           u.setState('air')
         }
       } else {
+        const p = gb.prop
