@@ -56,3 +56,4 @@ const TABLES = [
     client_id CHAR(12) NOT NULL,
     tier TINYINT UNSIGNED NOT NULL,
     result ENUM('cleared','fallen','left') NOT NULL,
+    wave TINYINT UNSIGNED NOT NULL,
