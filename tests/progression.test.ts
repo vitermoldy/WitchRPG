@@ -72,3 +72,4 @@ describe('stats and slots', () => {
     expect(shadowSlots(10)).toBe(4)
     expect(shadowSlots(20)).toBe(6)
   })
+  it('derives HP and mana from VIT and SPR', () => {
