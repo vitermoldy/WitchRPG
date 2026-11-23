@@ -619,6 +619,7 @@ export class Spells {
     const ruleMat = new THREE.ShaderMaterial({
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 }, uColor: { value: new THREE.Color(COLOR.umbra).lerp(new THREE.Color(COLOR.chaos), 0.35) } },
       vertexShader: RUNE_VERT,
+      fragmentShader: RUNE_FRAG,
   private burst() {
     const g = this.g
     const s = SPELL.burst
