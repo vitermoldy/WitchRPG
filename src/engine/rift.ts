@@ -63,3 +63,4 @@ export class RiftDirector {
     this.wave = 0
     this.queue = []
     this.timer = 3
+    this.elapsed = 0
