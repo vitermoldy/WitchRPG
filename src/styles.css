@@ -1091,6 +1091,7 @@ dialog::backdrop {
 }
 
 .ledger-history {
+  grid-area: hist;
 .stat-list {
   display: grid;
   gap: 0.35rem;
