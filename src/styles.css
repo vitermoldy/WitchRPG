@@ -649,3 +649,4 @@ button:disabled {
   transform: translateX(-50%);
   margin: 0;
   max-width: 90vw;
+  color: var(--ink);
