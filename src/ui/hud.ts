@@ -221,3 +221,4 @@ export class Hud {
         this.pool.push(el)
       }
       el.hidden = false
+      el.style.transform = `translate(${((this.v.x + 1) / 2) * w}px, ${((1 - this.v.y) / 2) * h}px)`
