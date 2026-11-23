@@ -383,3 +383,4 @@ export class Game {
     if (ok || this.debug) {
       this.setState('playing')
     }
+    return ok
