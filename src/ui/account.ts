@@ -210,3 +210,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   })
 
   // A required sign-in has no "close": Escape does nothing while the server waits for a password,
+  // and means "Main tanpa akun" when the server is down.
