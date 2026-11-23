@@ -69,3 +69,5 @@ function carMesh(color: number) {
 
 const crateMat = new THREE.MeshStandardMaterial({ color: 0x4d3c2e, roughness: 0.85, flatShading: true })
 const crateEdge = new THREE.MeshStandardMaterial({ color: 0x2b2119, roughness: 0.9 })
+const chunkMat = new THREE.MeshStandardMaterial({ color: 0x3b3236, roughness: 0.8, metalness: 0.3, flatShading: true })
+
