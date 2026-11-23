@@ -112,3 +112,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   palm.position.set(0, 0.046, 0)
   wrist.add(palm)
   const mark = new THREE.Mesh(sigilShape(), sigil)
+  mark.position.set(0, 0.048, 0.0162)
