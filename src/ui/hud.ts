@@ -126,3 +126,4 @@ export class Hud {
       const el = $(id).querySelector('.cd') as HTMLElement
       const v = `scaleY(${locked ? 0 : cd.toFixed(3)})`
       if (el.style.transform !== v) el.style.transform = v
+    }
