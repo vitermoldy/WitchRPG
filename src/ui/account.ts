@@ -13,3 +13,4 @@ import {
   queuedRifts,
   saveRift,
   signIn,
+  signOut,
