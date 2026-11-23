@@ -33,3 +33,4 @@ describe('Player.update', () => {
     expect(finite(p)).toBe(true)
     expect(p.pos.x).toBeCloseTo(5)
   })
+})
