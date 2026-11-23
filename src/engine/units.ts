@@ -548,6 +548,7 @@ export class UnitSystem {
       u.vel.z *= Math.exp(-6 * dt)
       if (u.t >= spec.recover * u.tempo) u.setState('move')
     }
+    }
   }
 
   /** A slam hits every target of the other side inside its circle. */
