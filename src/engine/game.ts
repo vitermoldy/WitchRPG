@@ -335,3 +335,4 @@ export class Game {
     // A little shove away from the hit.
     const push = p.pos.clone().sub(from).setY(0).normalize().multiplyScalar(3)
     p.vel.add(push)
+    if (p.hp <= 0) this.die()
