@@ -153,3 +153,4 @@ export class RiftDirector {
     }
     if (this.phase === 'cleared') {
       this.exit.rotation.y = Math.atan2(g.player.pos.x - this.exitPos.x, g.player.pos.z - this.exitPos.z)
+      if (Math.random() < dt * 20) g.glow.emit({ pos: this.exitPos.clone().setY(this.exitPos.y + 0.3), count: 1, color: COLOR.umbra, intensity: 2.4, life: 1.4, size: 0.14, vel: { x: 0, y: 1.6, z: 0 }, jitter: 0.8 })
