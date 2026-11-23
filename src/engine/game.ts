@@ -230,6 +230,7 @@ export class Game {
   }
 
   /** Saves the witch in this browser now and lets the account layer know. */
+  persist() {
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
