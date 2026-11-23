@@ -244,6 +244,8 @@ async function boot() {
     else if (gate) void game.leaveToWorld()
     else game.leaveRift()
   })
+  $<HTMLInputElement>('set-cap').addEventListener('input', (e) => {
+    game.profile.settings.fieldCap = Number((e.target as HTMLInputElement).value)
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
     game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
