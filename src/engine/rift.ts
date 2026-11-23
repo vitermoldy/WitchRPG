@@ -157,6 +157,7 @@ export class RiftDirector {
       this.bossUnit = u
       g.sfx.roar()
       g.player.addTrauma(0.3)
+    }
   }
 
   update(dt: number) {
