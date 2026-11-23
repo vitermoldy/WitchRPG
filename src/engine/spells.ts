@@ -506,3 +506,4 @@ export class Spells {
     if (!this.grabbed.length) return
     const f = g.player.viewDir()
     for (const gb of this.grabbed) {
+      const mass = gb.unit ? gb.unit.mass : gb.prop!.mass
