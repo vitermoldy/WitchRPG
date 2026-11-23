@@ -4,3 +4,4 @@ import type { UnitKind } from '../game/balance'
 import { buildModel } from './models'
 import type { Unit } from './units'
 
+interface Batch {
