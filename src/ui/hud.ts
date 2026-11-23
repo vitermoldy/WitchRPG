@@ -85,6 +85,8 @@ export class Hud {
   umbraPulse() {
     const el = $('umbra-veil')
     el.classList.remove('on')
+    void el.offsetWidth
+    el.classList.add('on')
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
