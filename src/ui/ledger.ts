@@ -106,3 +106,4 @@ export class Ledger {
 
   render() {
     const p = this.host.profile
+    const d = derive(p.stats)
