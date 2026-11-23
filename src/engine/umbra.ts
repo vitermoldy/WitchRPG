@@ -127,3 +127,4 @@ export class Umbra {
     const holding = canAct && g.input.held('KeyR')
     if (this.casting && (!holding || this.casting.riteTried || this.casting.ash)) this.cancel()
     if (canAct && g.input.pressed('KeyR')) this.begin()
+    if (this.casting) {
