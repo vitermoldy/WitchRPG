@@ -103,3 +103,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       text.append(b, note ? `. ${note}` : '.')
       button.textContent = 'Keluar'
       button.hidden = false
+    } else if (state.status === 'checking') {
