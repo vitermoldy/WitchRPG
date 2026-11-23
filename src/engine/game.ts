@@ -269,3 +269,4 @@ export class Game {
     u.hp -= amount
     u.flash = 1
     if (u.team === 'rift') {
+      u.barShown = 3
