@@ -255,6 +255,7 @@ export class RiftDirector {
 
   private near(at: THREE.Vector3, r: number) {
     const p = this.g.player.pos
+    return Math.hypot(p.x - at.x, p.z - at.z) < r && Math.abs(p.y - at.y) < 3
   /** The exit is open and the witch is close enough to use it. */
   nearExit() {
     return this.phase === 'cleared' && Math.hypot(this.g.player.pos.x - this.exitPos.x, this.g.player.pos.z - this.exitPos.z) < 3
