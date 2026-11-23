@@ -129,3 +129,4 @@ export class Ledger {
       ['Regen mana', `${fmt(d.manaRegen, 1)} per detik`],
       ['Damage Chaos', `${fmt(d.damageMult * 100)}%`],
       ['Waktu melayang', `${fmt(d.floatTime, 1)} detik`],
+      ['Slot bayangan', fmt(d.slots)],
