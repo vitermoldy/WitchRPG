@@ -109,6 +109,9 @@ export class Player {
     }
     if (this.flying) {
       this.fly(dt, input, wish, moving, canAct, world)
+      return this.finish(dt, world, blockers)
+    }
+
     const crouchHeld = canAct && input.held('KeyC')
     this.sprinting = canAct && input.held('ShiftLeft') && fwd > 0 && !this.crouching && this.sliding <= 0
     if (canAct && input.pressed('KeyC') && this.onGround && this.sprinting) {
