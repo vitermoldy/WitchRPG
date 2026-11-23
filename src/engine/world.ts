@@ -67,3 +67,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
     g.moveTo(0, px(m))
     g.lineTo(size, px(m))
     g.stroke()
+  }
