@@ -1,5 +1,5 @@
 import * as THREE from 'three'
-import { SHADOW, SHADOW_SKILL, SPELL, UNITS, type UnitKind, type UnitSpec } from '../game/balance'
+import { ELITE, SHADOW, SHADOW_SKILL, SPELL, UNITS, type EliteTrait, type UnitKind, type UnitSpec } from '../game/balance'
 import { impactDamage, unitStats, type ShadowRecord } from '../game/progression'
 import type { Colliders } from './collide'
 import { buildModel, disposeModel, type Team, type UnitModel } from './models'
