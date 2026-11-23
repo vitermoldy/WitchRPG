@@ -371,3 +371,4 @@ export class Game {
     this.umbra.summonAll()
     this.hud.banner('Rift Tier I', 'Bertahan lima gelombang, lalu keluar lewat retakan di monumen.')
     if (this.profile.level === 1 && this.profile.clears === 0) {
+      this.hud.message('Klik kiri untuk Hex Bolt. Tahan klik kanan untuk mengangkat, lepas untuk melempar.', 'chaos')
