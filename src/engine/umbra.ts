@@ -392,10 +392,7 @@ export class Umbra {
     const g = this.g
     this.casting = []
     this.progress = 0
-    if (!g.spells.overloaded) g.player.mana -= RITE.mana
-    u.riteTried = true
-    const p = this.chance(u)
-    const roll = Math.random()
+    if (!g.spells.overloaded) g.player.mana -= this.cost(list.length)
     g.hands.pose('right', 'push', 0.4)
     g.hands.kick('right', 1.4)
     if (roll < p) {
