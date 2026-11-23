@@ -410,3 +410,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     }
   }
   // The arena edge itself.
+  const wall = half + 0.5
