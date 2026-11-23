@@ -105,3 +105,4 @@ export function derive(stats: Stats): Derived {
     maxMana: PLAYER.baseMana + PLAYER.manaPerSpr * stats.spr,
     manaRegen: PLAYER.manaRegen * (1 + PLAYER.manaRegenPerSpr * above('spr')),
     damageMult: 1 + PLAYER.damagePerHex * above('hex'),
+    speedMult: 1 + PLAYER.speedPerAgi * above('agi'),
