@@ -800,5 +800,6 @@ export class Game {
       this.sfx.hurt()
       p.hp -= loss
       if (p.hp <= 0) this.die()
+    }
   }
 }
