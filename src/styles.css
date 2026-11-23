@@ -522,3 +522,4 @@ button:disabled {
 .feed {
   position: absolute;
   left: var(--gutter);
+  top: 34%;
