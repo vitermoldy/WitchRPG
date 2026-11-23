@@ -142,3 +142,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
   if (axis < 0) return null
   const n = new THREE.Vector3()
   n.setComponent(axis, sign)
+  return { t: tmin, n }
