@@ -74,3 +74,4 @@ function sigilShape(): THREE.BufferGeometry {
     const ia = p.getIndex()!
     for (let i = 0; i < ia.count; i++) idx.push(ia.getX(i) + off)
     off += pa.count
+  }
