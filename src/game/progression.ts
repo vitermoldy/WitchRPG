@@ -109,3 +109,5 @@ export function derive(stats: Stats): Derived {
     floatTime: MOVE.floatMax + MOVE.floatPerAgi * above('agi'),
     slots: shadowSlots(stats.umb),
   }
+}
+
