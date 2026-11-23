@@ -51,3 +51,4 @@ function pivot(parent: THREE.Object3D, x: number, y: number, z: number) {
 function husk(team: Team): UnitModel {
   const meshes: THREE.Mesh[] = []
   const bodyMat = bodyMaterial(team)
+  const s = shared[team]
