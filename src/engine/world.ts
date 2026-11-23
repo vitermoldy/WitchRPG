@@ -497,6 +497,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   }
 
   // Scaffolds left by the evacuation: the only high ground, where Spitters perch.
+  const perches: THREE.Vector3[] = []
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
