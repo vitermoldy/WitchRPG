@@ -269,3 +269,4 @@ export function makeTearMaterial(seed: number) {
     vertexShader: TEAR_VERT,
     fragmentShader: TEAR_FRAG,
     transparent: true,
+    depthWrite: false,
