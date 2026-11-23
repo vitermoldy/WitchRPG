@@ -187,3 +187,4 @@ export class Spells {
   aim(maxDist: number, opts: { units?: boolean; props?: boolean; team?: 'rift' | 'shadow' } = {}): AimHit {
     const o = this.g.player.eyePos
     const dir = this.g.player.viewDir()
+    let best: AimHit = { point: o.clone().addScaledVector(dir, maxDist), dist: maxDist, unit: null, prop: null }
