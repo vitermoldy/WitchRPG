@@ -1450,6 +1450,8 @@ dialog::backdrop {
 
 .tier:disabled {
   opacity: 0.5;
+}
+
 /* Account */
 .account-row {
   display: flex;
