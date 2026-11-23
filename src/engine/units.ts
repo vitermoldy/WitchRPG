@@ -810,6 +810,7 @@ export class UnitSystem {
       if (cell) cell.push(a)
       else grid.set(k, [a])
     }
+    for (const a of this.units) {
       }
       // Keep clear of the witch.
       const p = host.player
