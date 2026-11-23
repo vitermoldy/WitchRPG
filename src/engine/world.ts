@@ -441,3 +441,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   }
 
   // Thin cover panels that Chaos Burst knocks over.
+  const breakables: Box[] = []
