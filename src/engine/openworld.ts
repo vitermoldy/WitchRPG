@@ -64,3 +64,5 @@ function facadeMaterial() {
           vWn = normalize(mat3(modelMatrix) * objectNormal);
         #endif
         vWp = wp4.xyz;`,
+      )
+    shader.fragmentShader = shader.fragmentShader
