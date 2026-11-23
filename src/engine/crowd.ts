@@ -97,3 +97,4 @@ export class ShadowCrowd {
       const b = this.batches.get(u.kind)!
       this.p.copy(u.pos)
       if (u.state === 'rising') {
+        const k = Math.min(1, u.t / 1.2)
