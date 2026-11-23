@@ -48,3 +48,4 @@ export class Game {
   readonly props: PropSystem
   readonly spells: Spells
   readonly umbra: Umbra
+  readonly rift: RiftDirector
