@@ -282,3 +282,4 @@ export class Game {
     u.setState('dead')
     u.deadT = 0
     u.hp = 0
+    if (u.vel.lengthSq() < 1) u.vel.copy(u.pos).sub(from).setY(0).normalize().multiplyScalar(2)
