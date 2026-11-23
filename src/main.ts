@@ -90,3 +90,4 @@ async function boot() {
     warn.textContent = game.saveError ?? ''
   }
 
+  const renderResult = () => {
