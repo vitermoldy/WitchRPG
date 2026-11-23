@@ -420,6 +420,7 @@ export class UnitSystem {
           from.y += u.height * 0.25
           this.host.fire(from, new THREE.Vector3(tgt.pos.x, tgt.pos.y + 1, tgt.pos.z), u)
           u.setState('strike')
+        } else if (spec.slam) {
         } else {
           u.setState('strike')
           if (tgt && tgt.alive) {
