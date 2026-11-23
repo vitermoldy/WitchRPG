@@ -132,3 +132,4 @@ export class BossFight {
       if (!o.alive) {
         this.feed.delete(o)
         continue
+      }
