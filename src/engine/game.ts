@@ -377,3 +377,4 @@ export class Game {
     await this.input.lock()
   }
 
+  async resume() {
