@@ -283,3 +283,4 @@ export class PropSystem {
       p.hitUnits.add(u.id)
       const dmg = impactDamage(p.mass, speed, c.coefficient, c.exponent)
       this.host.hurtUnit(u, dmg, p.pos, 'impact')
+      this.host.impactFx(u.center, Math.min(1, dmg / 60))
