@@ -622,6 +622,7 @@ export class Spells {
       fragmentShader: RUNE_FRAG,
       transparent: true,
       depthWrite: false,
+      blending: THREE.AdditiveBlending,
   private burst() {
     const g = this.g
     const s = SPELL.burst
