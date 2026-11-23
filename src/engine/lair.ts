@@ -17,3 +17,4 @@ export interface LairBuild {
   group: THREE.Group
   colliders: Colliders
   platforms: Platform[]
+  /** Where the witch steps in, on an outer pillar facing the middle. */
