@@ -1816,3 +1816,5 @@ dialog::backdrop {
   font-size: 0.85rem;
 }
 
+.setting-note {
+  margin: -0.5rem 0 0;
