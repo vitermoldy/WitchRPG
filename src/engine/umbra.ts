@@ -32,8 +32,8 @@ export class Umbra {
   private wheelX = 0
   private wheelY = 0
   private chargeTick = 0
-  /** Records of shadows that fell this Rift; they come back whole next Rift. */
-  readonly down = new Set<number>()
+  /** Game seconds since the fight began; fallen shadows reform against this clock. */
+  private time = 0
 
   constructor(g: Game) {
     this.g = g
