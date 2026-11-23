@@ -111,3 +111,5 @@ export class WorldDirector {
 
     // Shadows left far behind (she flew off) are pulled back to her side.
     this.leashT -= dt
+    if (this.leashT <= 0) {
+      this.leashT = 1
