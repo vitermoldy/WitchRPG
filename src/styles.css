@@ -544,6 +544,7 @@ button:disabled {
   pointer-events: none;
 }
 
+.fade.on {
 .banner {
   position: absolute;
   top: 24%;
