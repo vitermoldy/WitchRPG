@@ -148,6 +148,7 @@ export class RiftDirector {
     if (!at) {
       const choices = this.portals.filter((p) => p.pos.distanceTo(g.player.pos) > 12)
       const pool = choices.length ? choices : this.portals
+      const portal = pool[Math.floor(Math.random() * pool.length)]
   }
 
   update(dt: number) {
