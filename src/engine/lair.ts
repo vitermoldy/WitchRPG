@@ -40,3 +40,4 @@ function crackTexture(size: number) {
   eg.fillRect(0, 0, size, size)
   let seed = 41
   const R = () => ((seed = (seed * 16807) % 2147483647) / 2147483647)
+  for (let i = 0; i < size * 6; i++) {
