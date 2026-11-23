@@ -553,3 +553,4 @@ export class Game {
     this.rift.update(dt)
     this.embers(dt, p.pos, 18)
 
+    // Hands follow what the witch is doing when no skill holds them.
