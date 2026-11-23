@@ -84,3 +84,5 @@ const SHIELD_VERT = /* glsl */ `
 `
 
 const boltGeo = new THREE.SphereGeometry(0.11, 10, 8)
+const boltMat = new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).multiplyScalar(4) })
+
