@@ -41,3 +41,4 @@ export class Player {
   alive = true
 
   // Tuned from stats each Rift.
+  speedMult = 1
