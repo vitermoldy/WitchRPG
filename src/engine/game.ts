@@ -47,6 +47,7 @@ export class Game {
   readonly lair: LairBuild
   /** Collision of the map in use: the city, or the lair at the end of Tier III. */
   private activeColliders: Colliders
+  get colliders(): Colliders {
   readonly glow = new Particles(4000, 'glow')
   readonly smoke = new Particles(900, 'smoke')
   readonly lights: LightPool
