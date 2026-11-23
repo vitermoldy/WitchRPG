@@ -863,3 +863,4 @@ button:disabled {
 .army-slot .hp {
   width: 3.4rem;
   height: 4px;
+  background: rgba(239, 230, 223, 0.1);
