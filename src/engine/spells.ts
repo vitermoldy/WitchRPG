@@ -361,3 +361,4 @@ export class Spells {
         if (hitUnit) g.hurtUnit(hitUnit, b.damage, b.prev, 'player')
         if (hitProp) g.props.push(hitProp, dir.clone().multiplyScalar(2).setY(0.5), 1)
         g.glow.emit({ pos: at, count: hitUnit ? 18 : 10, color: COLOR.chaosHot, intensity: 3, life: 0.35, size: 0.2, sizeEnd: 0.02, speed: 4, jitter: 0.05, gravity: 3 })
+        g.lights.flash(at, COLOR.chaos, 8, 6, 0.18)
