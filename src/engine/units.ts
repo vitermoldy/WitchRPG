@@ -561,3 +561,4 @@ export class UnitSystem {
       P.jaw.rotation.x = u.state === 'windup' ? 0.5 : Math.sin(t * 2 + u.id) * 0.08 + 0.1
       P.head.rotation.x = -0.25
     } else {
+      const legs = ['legFL', 'legFR', 'legBL', 'legBR']
