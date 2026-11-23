@@ -167,3 +167,4 @@ function hound(team: Team): UnitModel {
     const t = box(0.07 - i * 0.015, 0.07 - i * 0.015, 0.22, i === 2 ? s.accent : bodyMat, meshes)
     t.position.z = 0.11
     seg.add(t)
+    const next = pivot(seg, 0, 0, 0.22)
