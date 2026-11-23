@@ -341,6 +341,7 @@ export class UnitSystem {
     }
     this.skills(u, dt)
     if (u.stun > 0) {
+      u.vel.x *= Math.exp(-5 * dt)
     const spec = u.spec
     const speed = u.speed * u.slow
     const tgt = u.target
