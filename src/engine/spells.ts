@@ -653,3 +653,4 @@ export class Spells {
       s.t += dt
       const mat = s.mesh.material as THREE.ShaderMaterial
       mat.uniforms.uTime.value = s.t
+      mat.uniforms.uFade.value = Math.min(1, s.t * 4) * Math.min(1, (s.duration - s.t) * 2)
