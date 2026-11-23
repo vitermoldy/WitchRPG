@@ -556,6 +556,7 @@ export class Game {
     this.projectiles.clear()
     this.warnings.clear()
     this.spells.reset()
+    for (const u of [...this.units.units]) if (u.team === 'rift' || !u.alive) this.units.remove(u)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
