@@ -88,3 +88,5 @@ async function boot() {
     const warn = $('save-warning')
     warn.hidden = !game.saveError
     warn.textContent = game.saveError ?? ''
+  }
+
