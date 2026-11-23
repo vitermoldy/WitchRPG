@@ -72,6 +72,8 @@ export class Umbra {
   /** Records that could be called right now: not out, not reforming. */
   ready(): ShadowRecord[] {
     const out = new Set(this.g.units.units.filter((u) => u.team === 'shadow' && u.record).map((u) => u.record!.id))
+    const pending = new Set(this.calls.map((c) => c.rec.id))
+    return this.g.profile.shadows.filter((s) => !out.has(s.id) && !pending.has(s.id) && (this.downUntil.get(s.id) ?? 0) <= this.time)
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
