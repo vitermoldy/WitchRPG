@@ -221,3 +221,4 @@ export function createApi(getPool, database) {
        FROM rift_runs WHERE client_id = ? ORDER BY finished_at DESC, id DESC LIMIT 20`,
       [req.user.device],
     )
+    res.json({ runs: rows })
