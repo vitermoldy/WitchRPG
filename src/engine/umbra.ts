@@ -217,6 +217,8 @@ export class Umbra {
     const near: Unit[] = []
 
     // Shadows of a call rise one after another.
+    while (this.calls.length && this.calls[0].at <= this.time) {
+      const c = this.calls.shift()!
 
     for (const u of [...g.units.units]) {
       if (u.alive) continue
