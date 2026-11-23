@@ -455,8 +455,7 @@ export class Game {
     this.setState('dead')
   }
 
-  /** Starts a fresh Tier I Rift with the current witch. */
-  async enterRift() {
+  /** Starts a fresh Rift of the given tier with the current witch. */
     this.sfx.start()
     this.units.clear()
     this.respawnProps()
