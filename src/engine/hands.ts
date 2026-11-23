@@ -359,3 +359,4 @@ export class Hands {
         vel: { x: (this.tmp.x - from.x) * 4, y: (this.tmp.y - from.y) * 4, z: (this.tmp.z - from.z) * 4 },
         drag: 0,
       })
+    }
