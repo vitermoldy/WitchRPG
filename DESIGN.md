@@ -42,3 +42,5 @@ Semua di `src/game/balance.ts`.
 
 - Husk: damage 8 → 10, kecepatan 2,4 → 3,1 m/dtk. Rift Hound: damage 9 → 12, cooldown terjang 2,2 → 1,8 dtk. Jeda spawn 0,9 → 0,8 dtk. Dengan angka awal, bot yang membidik sempurna tidak pernah terkena serangan sepanjang satu Rift.
 - Jeda antar gelombang memulihkan 20% HP maksimum. GDD belum punya cara menyembuhkan diri, dan bot yang membidik meleset tumbang di gelombang 5 tanpanya.
+- Bayangan: HP ×1,5 → ×2,2 dari musuh asalnya, dan pulih 4% HP per detik saat tidak bertarung. Sebelumnya ketiga bayangan tumbang di gelombang 3, sehingga fantasi "pasukan" hilang di tengah Rift.
+
