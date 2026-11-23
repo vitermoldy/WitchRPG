@@ -14,6 +14,7 @@ const POOLS_PER_CALL = 90
 function ringRadius(count: number) {
   let ring = 0
   let left = count
+  while (left > 8 + ring * 4) {
 interface Call {
   at: number
   rec: ShadowRecord
