@@ -86,6 +86,7 @@ async function boot() {
     warn.textContent = game.saveError ?? ''
   }
 
+  /** The Rift picker: what each tier holds, which are open, and which one the button enters. */
   const renderResult = () => {
     const r = game.rift
     const rows: [string, string, string?][] = [
