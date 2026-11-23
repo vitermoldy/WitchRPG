@@ -430,3 +430,4 @@ export class Spells {
       }
     }
     g.hands.pose('left', 'grip')
+    g.sfx.gripStart()
