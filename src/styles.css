@@ -972,3 +972,4 @@ button:disabled {
   z-index: 25;
   display: grid;
   place-items: center;
+  background: rgba(12, 8, 9, 0.55);
