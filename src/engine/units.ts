@@ -516,3 +516,4 @@ export class UnitSystem {
         this.host.smoke.emit({ pos: u.pos, count: 2, color: 0x1a0a2e, life: 1.2, size: 0.9, sizeEnd: 1.6, speed: 0.6, vel: { x: 0, y: 1.4, z: 0 }, jitter: 0.5, alpha: 0.8 })
         this.host.glow.emit({ pos: u.pos, count: 1, color: COLOR.umbra, intensity: 2.5, life: 0.8, size: 0.1, speed: 1, vel: { x: 0, y: 2.5, z: 0 }, jitter: 0.4 })
       }
+      return
