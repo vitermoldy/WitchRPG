@@ -9,3 +9,4 @@ const [rows] = await pool.query(
   `SELECT u.username, u.created_at, u.last_login_at, u.last_seen_at, u.login_count, w.level, w.clears,
      (SELECT COUNT(*) FROM shadows s WHERE s.client_id = u.device_id) AS shadows,
      (SELECT COUNT(*) FROM rift_runs r WHERE r.client_id = u.device_id) AS rifts
+   FROM users u LEFT JOIN witches w ON w.client_id = u.device_id ORDER BY u.created_at`,
