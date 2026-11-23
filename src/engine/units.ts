@@ -517,3 +517,4 @@ export class UnitSystem {
         this.host.glow.emit({ pos: u.pos, count: 1, color: COLOR.umbra, intensity: 2.5, life: 0.8, size: 0.1, speed: 1, vel: { x: 0, y: 2.5, z: 0 }, jitter: 0.4 })
       }
       return
+    }
