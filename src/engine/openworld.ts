@@ -223,3 +223,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   // The edge: a wall of Rift light and an invisible wall behind it.
   const curtainMat = new THREE.ShaderMaterial({
     uniforms: { uTime: { value: 0 } },
+    vertexShader: 'varying vec2 vUv; void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
+    fragmentShader: CURTAIN_FRAG,
