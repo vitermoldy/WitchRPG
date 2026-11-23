@@ -119,3 +119,5 @@ export class WorldDirector {
         g.pools.open(u.pos, 1 + u.radius * 1.5, 0.4)
         g.recall(u)
         g.pools.open(u.pos, 1 + u.radius * 1.5, 1.2)
+      }
+    }
