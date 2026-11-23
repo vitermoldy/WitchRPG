@@ -902,3 +902,4 @@ button:disabled {
 }
 
 .wheel-opt[data-opt='attack'] {
+  right: 0;
