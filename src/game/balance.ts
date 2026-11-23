@@ -164,3 +164,4 @@ export interface WaveSpec {
   levels: [number, number]
 }
 
+export const RIFT_TIER_1 = {
