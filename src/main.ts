@@ -128,3 +128,4 @@ async function boot() {
       $('btn-resume').focus()
     } else if (s === 'result') {
       renderResult()
+      showScreen('result')
