@@ -560,3 +560,4 @@ export class Game {
     // Safety net: anything that leaves the arena is pulled back.
     if (p.pos.y < -5) p.reset(this.world.playerStart, p.yaw)
   }
+}
