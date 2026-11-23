@@ -1747,3 +1747,5 @@ dialog::backdrop {
   color: var(--ink);
 }
 
+.compass .cm-gate,
+.compass .cm-altar {
