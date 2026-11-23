@@ -485,3 +485,4 @@ export class UnitSystem {
     m.root.rotation.y = u.yaw
     const speed = Math.hypot(u.vel.x, u.vel.z)
     u.walk += dt * speed * (u.kind === 'hound' ? 2.6 : 3.4)
+    const sw = Math.sin(u.walk)
