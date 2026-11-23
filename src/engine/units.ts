@@ -734,6 +734,7 @@ export class UnitSystem {
     else this.animateHound(u, amp, t)
   }
 
+  private animateBiped(u: Unit, sw: number, amp: number, t: number) {
       }
     }
   }
