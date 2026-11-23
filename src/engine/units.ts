@@ -278,6 +278,7 @@ export class UnitSystem {
       return
     }
     const p = this.host.player
+    const n = Math.max(1, this.units.filter((o) => o.team === 'shadow').length)
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
