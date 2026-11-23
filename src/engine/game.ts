@@ -555,3 +555,5 @@ export class Game {
 
     // Hands follow what the witch is doing when no skill holds them.
     if (p.floating) this.hands.gather('left', 0.2)
+    if (this.spells.overloaded && Math.random() < 0.5) this.hands.gather('right', 0.5)
+
