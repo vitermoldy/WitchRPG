@@ -737,6 +737,7 @@ export class UnitSystem {
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
+    const hip = (m.body.userData.hip as number) ?? 0.95
       }
     }
   }
