@@ -359,6 +359,7 @@ function hollow(team: Team): UnitModel {
       const hole = new THREE.Mesh(new THREE.CircleGeometry(0.6, 24), voidMat)
       hole.position.set(0, 0.86, -0.02)
       hole.rotation.y = Math.PI
+      p.spine.add(hole)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
