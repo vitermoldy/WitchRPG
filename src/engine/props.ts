@@ -155,3 +155,4 @@ export class PropSystem {
   push(p: Prop, impulse: THREE.Vector3, spin = 4) {
     if (p.held) return
     p.vel.addScaledVector(impulse, Math.min(2, 60 / p.mass))
+    p.spin.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).multiplyScalar(spin * Math.min(1, 60 / p.mass) + 1)
