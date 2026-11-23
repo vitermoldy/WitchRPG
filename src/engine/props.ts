@@ -19,3 +19,4 @@ export interface Prop {
   held: boolean
   thrown: boolean
   awake: boolean
+  life: number
