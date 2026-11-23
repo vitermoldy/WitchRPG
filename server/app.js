@@ -107,3 +107,4 @@ function cleanRun(run) {
     int(run.tier, 1, 5),
     run.result,
     int(run.wave, 0, 50),
+    int(run.waves, 1, 50),
