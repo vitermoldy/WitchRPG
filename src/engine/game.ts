@@ -169,6 +169,7 @@ export class Game {
         },
         get alive() {
           return game.player.alive && game.state === 'playing'
+        },
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
