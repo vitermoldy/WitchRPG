@@ -71,6 +71,7 @@ export class RiftDirector {
       glow.scale.set(w * 2.7, w * 2.7, 1)
       glow.position.y = h / 2
       group.add(glow)
+      group.visible = false
   }
 
   start() {
