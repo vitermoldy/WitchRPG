@@ -256,6 +256,7 @@ export interface TierSpec {
   roman: string
   unlock: number
   waves: WaveSpec[]
+  maxAlive: number
 }
 
 export const RIFT_TIER_1 = {
