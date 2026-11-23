@@ -46,3 +46,4 @@ export class Unit implements Target {
   readonly radius: number
   readonly mass: number
   readonly pos = new THREE.Vector3()
+  readonly vel = new THREE.Vector3()
