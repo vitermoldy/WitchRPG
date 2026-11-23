@@ -377,3 +377,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       mapW.needsUpdate = true
       const em = f.emissive.clone()
       em.repeat.copy(mapW.repeat)
+      em.needsUpdate = true
