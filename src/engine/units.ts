@@ -69,3 +69,4 @@ export class Unit implements Target {
   riteTried = false
   ash = false
   // Shadows.
+  record: ShadowRecord | null = null
