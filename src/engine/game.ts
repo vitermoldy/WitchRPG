@@ -68,6 +68,7 @@ export class Game {
   /** After every save of the witch; the account layer sends it to the server. */
   onSaved: (() => void) | null = null
   /** When a Rift ends: cleared, fallen, or left from the pause menu. */
+  onRiftEnd: ((run: RiftRecord) => void) | null = null
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
