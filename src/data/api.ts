@@ -24,3 +24,4 @@ export interface RiftRecord {
 }
 
 export interface SavedRift extends RiftRecord {
+  id: number
