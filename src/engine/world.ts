@@ -511,6 +511,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       brace.rotation.z = 0.5
     }
     const deck = solid(new THREE.Mesh(new THREE.BoxGeometry(3, 0.16, 3), plank))
+    deck.position.set(x, top - 0.08, z)
   // Props for the physics layer.
   const props: PropSpot[] = [
     { kind: 'car', x: -14, z: 3, yaw: 0.2 },
