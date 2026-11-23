@@ -32,3 +32,4 @@ export class Hud {
     this.g = g
   }
 
+  show(on: boolean) {
