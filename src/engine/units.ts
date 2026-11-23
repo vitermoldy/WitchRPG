@@ -747,6 +747,7 @@ export class UnitSystem {
     if (u.state === 'windup') {
       const k = Math.min(1, u.t / u.spec.windup)
       if (u.spec.shot) {
+        lean = baseLean - 0.5 * k
       }
     }
   }
