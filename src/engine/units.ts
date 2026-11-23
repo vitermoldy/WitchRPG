@@ -129,6 +129,7 @@ export class Unit implements Target {
   }
 
   /** Built the first time it is needed: a shadow at the back of a big army may never need one. */
+  get model(): UnitModel {
   get alive() {
     return this.state !== 'dead'
   }
