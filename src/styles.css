@@ -1332,3 +1332,4 @@ dialog::backdrop {
     flex-direction: column;
   }
   .setting {
+    grid-template-columns: 1fr 3rem;
