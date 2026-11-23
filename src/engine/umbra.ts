@@ -156,3 +156,4 @@ export class Umbra {
     }
     if (this.wheelOpen) {
       this.wheelX += g.input.dx
+      this.wheelY += g.input.dy
