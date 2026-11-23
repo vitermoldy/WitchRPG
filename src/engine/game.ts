@@ -348,3 +348,4 @@ export class Game {
     this.hands.pose('right', 'lowered')
     this.input.unlock()
     saveProfile(this.profile)
+    this.setState('dead')
