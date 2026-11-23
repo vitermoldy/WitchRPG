@@ -1715,3 +1715,5 @@ dialog::backdrop {
   mask-image: linear-gradient(90deg, transparent, #000 12% 88%, transparent);
 }
 
+.hud.world .compass {
+  display: block;
