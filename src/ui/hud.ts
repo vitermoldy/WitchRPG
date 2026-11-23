@@ -185,8 +185,8 @@ export class Hud {
 
     // Rift status, or where things are in the open world.
     const r = g.rift
-    this.set('rift-name', 'text', g.inLair ? 'Jantung Rift' : r.tier.name)
-    this.set(
+    this.root.classList.toggle('world', g.mode === 'world')
+    if (g.mode === 'world') this.updateWorld()
       'rift-wave',
       'text',
       r.phase === 'intro' ? 'Rift terbuka' : r.phase === 'cleared' ? 'Rift ditaklukkan' : r.phase === 'gate' ? 'Jantung Rift terbuka' : r.phase === 'lair' ? 'The Hollow Warden' : `Gelombang ${r.wave} dari ${r.totalWaves}`,
