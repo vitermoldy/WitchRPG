@@ -320,6 +320,7 @@ function riftlord(team: Team): UnitModel {
         p.head.add(horn)
         meshes.push(horn)
       }
+      eyes(p.head, m, meshes, [[-0.1, 0.24], [0.1, 0.24]], [0.08, 0.035], -0.215)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
