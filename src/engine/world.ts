@@ -339,3 +339,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const ground = new THREE.Mesh(new THREE.PlaneGeometry(100, 100), groundMat)
   ground.rotation.x = -Math.PI / 2
   ground.receiveShadow = true
+  scene.add(ground)
