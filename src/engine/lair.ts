@@ -48,3 +48,4 @@ function crackTexture(size: number) {
   g.strokeStyle = 'rgba(0,0,0,0.5)'
   for (const r of [0.18, 0.34, 0.48]) {
     g.lineWidth = 3
+    g.beginPath()
