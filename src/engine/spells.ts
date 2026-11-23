@@ -715,3 +715,4 @@ export class Spells {
     const mat = this.shield.material as THREE.ShaderMaterial
     mat.uniforms.uHit.value = this.barrierHit
     mat.uniforms.uFade.value = Math.min(1, (SPELL.barrier.duration - this.barrierT) * 6) * Math.min(1, this.barrierT * 4 + 0.3)
+    this.shield.position.copy(this.g.camera.position)
