@@ -119,3 +119,4 @@ export function canUpgrade(p: Profile, id: SkillId): boolean {
   return def.built && isUnlocked(p, id) && !p.upgrades[id] && p.skillPoints > 0
 }
 
+export function buyUpgrade(p: Profile, id: SkillId): boolean {
