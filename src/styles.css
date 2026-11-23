@@ -1154,6 +1154,8 @@ dialog::backdrop {
   justify-items: end;
   color: var(--ink-3);
   text-align: right;
+}
+
 .stat-list {
   display: grid;
   gap: 0.35rem;
