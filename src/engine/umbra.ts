@@ -73,3 +73,4 @@ export class Umbra {
     const g = this.g
     this.swapCd = Math.max(0, this.swapCd - dt)
     const t = performance.now() / 1000
+    const open = this.riteOpen
