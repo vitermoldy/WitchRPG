@@ -116,6 +116,8 @@ export class Hud {
     ]
     // The altar is left off while she stands at it, where its bearing is meaningless.
     if (!g.worldDir.nearAltar()) marks.push({ label: 'Altar', cls: 'cm-altar', x: g.ow.altar.x, z: g.ow.altar.z })
+    for (const gt of g.ow.gates) marks.push({ label: `Rift ${['I', 'II', 'III'][gt.tier - 1]}`, cls: 'cm-gate', x: gt.pos.x, z: gt.pos.z })
+    for (const c of g.worldDir.camps) {
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
