@@ -619,3 +619,4 @@ export class Spells {
   }
 
   private snare() {
+    const g = this.g
