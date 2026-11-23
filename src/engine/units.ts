@@ -36,3 +36,4 @@ let nextId = 1
 export class Unit implements Target {
   readonly id = nextId++
   readonly kind: UnitKind
+  readonly team: Team
