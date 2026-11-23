@@ -29,6 +29,7 @@ export const pickTrait = (): EliteTrait => ELITE.traits[Math.floor(Math.random()
 
 /** Marks `count` random entries of a spawn list elite (Rift Lords are left to `eliteLords`). */
 export function markElites<T extends { kind: string; elite?: EliteTrait }>(list: T[], count: number) {
+  const pool = list.filter((s) => s.kind !== 'riftlord' && !s.elite)
 
 /** Runs one Rift: waves out of the four tears, then the exit, or the lair at the end of Tier III. */
 export class RiftDirector {
