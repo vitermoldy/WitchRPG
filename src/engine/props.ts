@@ -112,3 +112,4 @@ export class PropSystem {
       spin: new THREE.Vector3(),
       radius,
       halfH,
+      mass,
