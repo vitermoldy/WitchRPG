@@ -125,3 +125,4 @@ export class PropSystem {
   }
 
   spawnCar(x: number, z: number, yaw: number) {
+    return this.add('car', carMesh(CAR_COLORS[this.props.length % CAR_COLORS.length]), new THREE.Vector3(x, 0.75, z), 1.45, 0.75, 450, yaw)
