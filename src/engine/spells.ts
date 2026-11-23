@@ -254,6 +254,7 @@ export class Spells {
     this.burstCd = Math.max(0, this.burstCd - dt)
     this.snareCd = Math.max(0, this.snareCd - dt)
     this.barrierCd = Math.max(0, this.barrierCd - dt)
+    this.warpCd = Math.max(0, this.warpCd - dt)
 
     // Overload, then Backlash.
     if (this.overloadT > 0) {
