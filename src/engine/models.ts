@@ -14,6 +14,7 @@ export interface UnitModel {
 }
 
 /**
+ * Geometry is shared by every creature of a kind, keyed by its shape and size: an army of two thousand
 const shared = {
   rift: {
     accent: new THREE.MeshStandardMaterial({ color: 0x120806, emissive: COLOR.rift, emissiveIntensity: 1.6 }),
