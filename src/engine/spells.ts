@@ -145,3 +145,4 @@ export class Spells {
     this.chaos = 0
     this.overloadT = this.backlashT = this.barrierT = 0
     this.shield.visible = false
+    this.g.hands.overload = false
