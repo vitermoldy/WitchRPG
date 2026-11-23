@@ -1806,3 +1806,5 @@ dialog::backdrop {
   color: var(--ink-3);
 }
 
+.army-row.key {
+  margin-top: 0.2rem;
