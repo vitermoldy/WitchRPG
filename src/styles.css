@@ -765,3 +765,4 @@ button:disabled {
   border-radius: var(--radius);
   background: rgba(12, 8, 9, 0.65);
   font-size: 0.72rem;
+  color: var(--ink-2);
