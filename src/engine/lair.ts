@@ -107,3 +107,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   abyss.position.y = -38
   group.add(abyss)
 
+  // Pillars: a wide one in the middle, a ring of eight, four at the edge.
