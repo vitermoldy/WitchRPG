@@ -159,3 +159,4 @@ export class Player {
     this.pos.y += this.vel.y * dt
     if (this.pos.y <= floor) {
       if (!this.onGround && this.vel.y < -6) this.landKick = Math.min(0.12, -this.vel.y * 0.01)
+      this.pos.y = floor
