@@ -410,3 +410,4 @@ button:disabled {
 .setting input[type='range'] {
   width: 100%;
   accent-color: var(--chaos);
+  cursor: pointer;
