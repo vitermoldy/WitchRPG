@@ -135,3 +135,4 @@ export class Player {
       this.floatLeft -= dt
       this.staminaDelay = MOVE.staminaRegenDelay
     } else {
+      this.vel.y -= MOVE.gravity * dt
