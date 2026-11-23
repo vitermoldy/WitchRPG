@@ -28,3 +28,4 @@ export interface UnitHost {
   /** Any damage to a unit goes through the host so XP, chaos and death stay in one place. */
   hurtUnit(u: Unit, dmg: number, from: THREE.Vector3, by: DamageSource): void
   impactFx(at: THREE.Vector3, strength: number): void
+  growl(): void
