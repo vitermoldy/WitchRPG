@@ -156,8 +156,7 @@ export class Umbra {
     const p = g.player
     const feet = new THREE.Vector3(p.pos.x, g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5), p.pos.z)
     if (feet.y < -50 || feet.y < p.pos.y - 6) feet.y = p.pos.y
-    const spill = Math.min(26, 5 + Math.sqrt(n) * 2.4)
-    const stagger = Math.min(0.06, 1.6 / Math.max(1, n))
+    const base = this.field().length
     g.pools.open(feet, spill, 1.4 + n * stagger)
     g.pools.open(feet, spill * 0.45, 1.6 + n * stagger, 0.1)
     for (let i = 0; i < n; i++) {
