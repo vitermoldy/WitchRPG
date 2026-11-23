@@ -339,3 +339,4 @@ export class Game {
   }
 
   private die() {
+    const p = this.player
