@@ -1237,3 +1237,4 @@ dialog::backdrop {
 }
 
 .room-list {
+  display: grid;
