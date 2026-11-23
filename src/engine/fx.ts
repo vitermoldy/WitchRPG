@@ -403,6 +403,9 @@ const POOL_FRAG = /* glsl */ `
     float alpha = max(inside * 0.94, rim);
     if (alpha < 0.01) discard;
     gl_FragColor = vec4(col, alpha);
+  }
+`
+
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
