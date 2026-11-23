@@ -66,3 +66,4 @@ function crackTexture(size: number) {
     g.moveTo(x, y)
     for (let k = 0; k < 26; k++) {
       ang += (R() - 0.5) * 0.6
+      x += Math.cos(ang) * size * 0.017
