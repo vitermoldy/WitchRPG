@@ -60,3 +60,4 @@ export class Unit implements Target {
   vulnerable = 0
   thrown = false
   hitThisLunge = false
+  lungeDir = new THREE.Vector3()
