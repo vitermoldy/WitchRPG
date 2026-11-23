@@ -541,7 +541,8 @@ export class Game {
 
   leaveRift() {
     // From the pause menu the Rift was still running; from the fallen screen it was already recorded.
-    if (this.state === 'paused' || this.state === 'playing') this.endRift('left')
+    if (this.mode === 'rift' && (this.state === 'paused' || this.state === 'playing')) this.endRift('left')
+    this.returnToWorld = null
     this.units.clear()
     this.projectiles.clear()
     this.spells.reset()
