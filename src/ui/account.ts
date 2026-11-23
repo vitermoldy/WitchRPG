@@ -110,3 +110,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       text.textContent =
         state.status === 'unavailable'
           ? 'Server mati, jadi progres hanya tersimpan di browser ini.'
+          : 'Belum masuk. Progres hanya tersimpan di browser ini.'
