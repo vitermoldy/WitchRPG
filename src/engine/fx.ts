@@ -366,6 +366,7 @@ export class Warnings {
     for (const w of this.pool) {
       if (!w.group.visible) continue
       w.t += dt
+      const k = Math.min(1, w.t / w.dur)
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
