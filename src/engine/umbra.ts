@@ -72,3 +72,4 @@ export class Umbra {
   update(dt: number, canAct: boolean) {
     const g = this.g
     this.swapCd = Math.max(0, this.swapCd - dt)
+    const t = performance.now() / 1000
