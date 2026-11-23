@@ -38,3 +38,4 @@ try {
   await conn.query('INSERT INTO users (username, password_hash, device_id, created_at) VALUES (?, ?, ?, UTC_TIMESTAMP())', [username, hash, client])
   await conn.commit()
   const [[w]] = await pool.query('SELECT level FROM witches WHERE client_id = ?', [client])
+  const [[runs]] = await pool.query('SELECT COUNT(*) AS n FROM rift_runs WHERE client_id = ?', [client])
