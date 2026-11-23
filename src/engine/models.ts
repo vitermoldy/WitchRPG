@@ -115,3 +115,4 @@ function hound(team: Team): UnitModel {
   const bodyMat = bodyMaterial(team)
   const s = shared[team]
   const root = new THREE.Group()
+  const body = pivot(root, 0, 0.72, 0)
