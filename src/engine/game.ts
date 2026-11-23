@@ -361,6 +361,7 @@ export class Game {
       if (u.facing.dot(to) > 0.35) {
         raw *= 1 - guard
         this.glow.emit({ pos: u.center.add(u.facing.multiplyScalar(u.radius + 0.2)), count: 8, color: COLOR.rift, intensity: 2.6, life: 0.25, size: 0.12, speed: 3 })
+        if (Math.random() < 0.5) this.sfx.clank()
     // Chaos and feedback count only the damage that landed, not overkill.
     const amount = Math.min(u.hp, u.team === 'rift' && u.vulnerable > 0 ? dmg * 1.25 : dmg)
     u.hp -= amount
