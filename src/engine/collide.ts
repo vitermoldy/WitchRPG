@@ -116,3 +116,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
   const mins = [b.minX, 0, b.minZ]
   const maxs = [b.maxX, b.top, b.maxZ]
   const os = [o.x, o.y, o.z]
+  const ds = [d.x, d.y, d.z]
