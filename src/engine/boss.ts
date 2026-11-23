@@ -47,3 +47,4 @@ export class BossFight {
     if (this.phase === 2) dmg *= by === 'impact' ? 1.5 : BOSS.shellBoltShare
     if (this.phase === 3) {
       if (!g.spells.inWarp(u.center) && !g.spells.inWarp(u.pos)) {
+        if (this.immuneNote <= 0) {
