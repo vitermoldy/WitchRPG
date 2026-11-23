@@ -89,7 +89,8 @@ export class Ledger {
         const id = Number(t.dataset.release)
         const rec = p.shadows.find((s) => s.id === id)
         if (!rec) return
-        void confirmDialog(`Lepas ${rec.name}?`, `${rec.name} kembali menjadi debu dan slotnya kosong. Bayangan yang dilepas tidak bisa dipanggil lagi.`, 'Lepas bayangan').then((ok) => {
+        const group = `${rec.rank}:${rec.kind}`
+        void confirmDialog(`Lepas ${rec.name}?`, `${rec.name} kembali menjadi debu. Bayangan yang dilepas tidak bisa dipanggil lagi.`, 'Lepas bayangan').then((ok) => {
           if (ok && releaseShadow(p, id)) this.after()
           if (!this.dlg.open) this.dlg.showModal()
         })
