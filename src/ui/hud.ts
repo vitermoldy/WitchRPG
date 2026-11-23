@@ -111,3 +111,5 @@ export class Hud {
     this.set('chaos-ring', 'dash', `${chaos.toFixed(1)} 100`)
     this.chaosRing.classList.toggle('full', g.spells.chaos >= CHAOS.max || g.spells.overloaded)
     this.set('rite-ring', 'dash', `${(g.umbra.progress * 100).toFixed(1)} 100`)
+    this.root.classList.toggle('overloaded', g.spells.overloaded)
+
