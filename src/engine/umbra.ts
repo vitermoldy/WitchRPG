@@ -58,3 +58,4 @@ export class Umbra {
     const g = this.g
     const rec = g.profile.shadows.find((s) => s.id === recordId)
     if (!rec) return null
+    const u = g.units.spawn(rec.kind, 'shadow', rec.level, at, true)
