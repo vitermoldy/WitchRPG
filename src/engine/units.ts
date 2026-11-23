@@ -806,6 +806,7 @@ export class UnitSystem {
     for (const a of this.units) {
       if (!free(a)) continue
       const k = cellKey(Math.floor(a.pos.x / CELL), Math.floor(a.pos.z / CELL))
+      const cell = grid.get(k)
       }
       // Keep clear of the witch.
       const p = host.player
