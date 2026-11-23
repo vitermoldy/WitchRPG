@@ -598,6 +598,7 @@ export class Game {
 
   summonUnit(kind: UnitKind, level: number, at: THREE.Vector3, team: Team, owner: Unit): Unit | null {
     if (this.units.units.length > 70) return null
+    const u = this.units.spawn(kind, team, level, at, team === 'shadow')
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
