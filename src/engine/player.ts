@@ -20,6 +20,8 @@ export class Player {
   sliding = 0
   floating = false
   sprinting = false
+  /** True flight (double-tap Space), as opposed to Crimson Float. */
+  flying = false
   stamina: number = MOVE.staminaMax
   floatLeft: number = MOVE.floatMax
   private staminaDelay = 0
