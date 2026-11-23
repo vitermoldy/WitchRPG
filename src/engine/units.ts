@@ -170,6 +170,7 @@ export class Unit implements Target {
     this.maxHp = Math.round(this.maxHp * ELITE.hp)
     this.hp = this.maxHp
     this.damage = Math.round(this.damage * ELITE.damage * 10) / 10
+    this.scale = ELITE.scale
 }
 
 const tmp = new THREE.Vector3()
