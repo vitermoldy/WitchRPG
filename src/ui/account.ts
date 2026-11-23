@@ -55,3 +55,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     mode = next
     $('gate-h').textContent = next === 'in' ? 'Masuk ke Crimson Sovereign' : 'Buat akun Crimson Sovereign'
     submit.textContent = label()
+    pass.autocomplete = next === 'in' ? 'current-password' : 'new-password'
