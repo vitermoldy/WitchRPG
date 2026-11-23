@@ -329,3 +329,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const crackSpots = [...portals, new THREE.Vector3(0, 0, 0)]
   const gt = groundTextures(2048, 50, crackSpots)
   const groundMat = new THREE.MeshStandardMaterial({
+    map: gt.map,
