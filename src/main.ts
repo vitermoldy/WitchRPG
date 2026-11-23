@@ -188,6 +188,7 @@ async function boot() {
       game.tier = Number(next.dataset.tier) as TierId
       pickedTier = true
       renderTiers()
+      next.focus()
   $('btn-ledger-start').addEventListener('click', () => {
     game.sfx.start()
     game.openLedger('title')
