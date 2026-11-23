@@ -489,6 +489,7 @@ function bombard(team: Team): UnitModel {
       p.spine.add(tube)
       meshes.push(tube)
       const muzzle = new THREE.Mesh(shape(`Torus:${[0.22, 0.06, 6, 14].join(',')}`, () => new THREE.TorusGeometry(0.22, 0.06, 6, 14)), m.accent)
+      muzzle.position.y = 0.53
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
