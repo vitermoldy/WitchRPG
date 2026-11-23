@@ -106,3 +106,4 @@ export class RiftDirector {
       const want = this.phase === 'wave' || this.phase === 'intro' ? 1 : this.phase === 'breather' ? 0.45 : 0
       p.open += (want - p.open) * Math.min(1, dt * 1.5)
       p.mat.uniforms.uTime.value = t
+      p.mat.uniforms.uOpen.value = p.open
