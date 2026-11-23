@@ -39,3 +39,5 @@ export class WorldDirector {
         c.units = []
         if (c.state === 'active') c.state = 'idle'
       }
+    } else {
+      this.camps = this.g.ow.camps.map((spot) => ({ spot, state: 'idle', units: [], respawnAt: 0, open: 1 }))
