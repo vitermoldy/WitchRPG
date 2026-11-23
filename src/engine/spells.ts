@@ -258,3 +258,4 @@ export class Spells {
     this.updateBarrier(dt)
   }
 
+  private startOverload() {
