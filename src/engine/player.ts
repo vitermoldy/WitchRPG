@@ -25,3 +25,4 @@ export class Player {
   private staminaDelay = 0
   private eye: number = MOVE.eye
   private bob = 0
+  private bobAmount = 0
