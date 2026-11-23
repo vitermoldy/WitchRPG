@@ -257,6 +257,7 @@ function spitter(team: Team): UnitModel {
       jaw.position.z = -0.06
       p.jaw.add(jaw)
       eyes(p.head, m, meshes, [[-0.08, 0.15], [0.08, 0.15], [0, 0.18]], [0.04, 0.03], -0.182)
+      for (let i = 0; i < 3; i++) {
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
