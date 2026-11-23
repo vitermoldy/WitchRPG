@@ -1731,3 +1731,5 @@ dialog::backdrop {
 
 .compass .cm {
   position: absolute;
+  top: 0.3rem;
+  left: 0;
