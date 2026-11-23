@@ -143,6 +143,7 @@ export class Unit implements Target {
 
 const tmp = new THREE.Vector3()
 const tmp2 = new THREE.Vector3()
+const BIPEDS = new Set<UnitKind>(['husk', 'spitter', 'warden', 'riftlord', 'hollow'])
 
 export class UnitSystem {
   readonly units: Unit[] = []
