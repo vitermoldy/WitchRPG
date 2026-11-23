@@ -1091,3 +1091,4 @@ dialog::backdrop {
 }
 
 .stat-list {
+  display: grid;
