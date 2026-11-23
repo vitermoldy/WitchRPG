@@ -663,6 +663,7 @@ export class UnitSystem {
   /** Below the platforms of the lair: enemies are lost, shadows come back to the witch. */
   private fellOut(u: Unit) {
     if (u.pos.y > -8 || !u.alive) return
+    if (u.team === 'shadow') this.host.recall(u)
   private impact(u: Unit, speed: number, other: Unit | null) {
     const c = SPELL.impact
     const dmg = impactDamage(u.mass, speed, c.coefficient, c.exponent)
