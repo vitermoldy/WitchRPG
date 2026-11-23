@@ -26,3 +26,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
     for (const k of STAT_KEYS) if (typeof profile.stats[k] !== 'number') profile.stats[k] = base.stats[k]
     return { profile, error: null }
   } catch {
+    return { profile: newProfile(), error: 'Data simpanan rusak, jadi witch dimulai dari Lv 1.' }
