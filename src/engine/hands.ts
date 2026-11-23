@@ -265,3 +265,4 @@ export class Hands {
     this.particles.setViewport(heightPx, this.camera.fov)
   }
 
+  update(dt: number, lookDx: number, lookDy: number, bobPhase: number, bobWeight: number, charge: { left: number; right: number }) {
