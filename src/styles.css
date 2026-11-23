@@ -553,3 +553,4 @@ button:disabled {
   color: var(--chaos-ink);
 }
 
+.feed-item.umbra::before {
