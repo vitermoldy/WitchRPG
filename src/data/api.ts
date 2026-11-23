@@ -17,3 +17,4 @@ export interface RiftRecord {
   kills: number
   xpGained: number
   levelsGained: number
+  levelAfter: number
