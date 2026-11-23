@@ -227,3 +227,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     fragmentShader: CURTAIN_FRAG,
     transparent: true,
     depthWrite: false,
+    side: THREE.DoubleSide,
+    blending: THREE.AdditiveBlending,
