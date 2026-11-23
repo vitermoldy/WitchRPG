@@ -126,3 +126,4 @@ export class Player {
       this.vel.y = Math.sqrt(2 * MOVE.gravity * MOVE.jumpHeight)
       this.onGround = false
       this.sliding = 0
+    }
