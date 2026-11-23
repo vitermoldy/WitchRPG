@@ -502,3 +502,4 @@ export class Game {
 
   private embers(dt: number, around: THREE.Vector3, r: number) {
     if (Math.random() < dt * 40) {
+      const a = Math.random() * Math.PI * 2
