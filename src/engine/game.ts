@@ -790,5 +790,6 @@ export class Game {
   /** The void under the lair, and rocks for phase 2. */
   private lairUpdate(dt: number) {
     const p = this.player
+    if (p.pos.y < -6 && p.alive) {
   }
 }
