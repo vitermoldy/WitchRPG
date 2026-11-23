@@ -381,3 +381,4 @@ export class Game {
     if (this.state !== 'paused') return
     const ok = await this.input.lock()
     if (ok || this.debug) {
+      this.setState('playing')
