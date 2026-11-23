@@ -60,3 +60,4 @@ export class Umbra {
     if (!rec) return null
     const u = g.units.spawn(rec.kind, 'shadow', rec.level, at, true)
     u.record = rec
+    u.slot = g.profile.shadows.indexOf(rec)
