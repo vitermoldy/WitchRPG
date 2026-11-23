@@ -81,3 +81,4 @@ function husk(team: Team): UnitModel {
     eye.position.set(x, 0.13, -0.135)
     eye.castShadow = false
     head.add(eye)
+  }
