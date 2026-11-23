@@ -161,3 +161,4 @@ export class RiftDirector {
   nearExit() {
     return this.phase === 'cleared' && Math.hypot(this.g.player.pos.x - this.exitPos.x, this.g.player.pos.z - this.exitPos.z) < 3
   }
+}
