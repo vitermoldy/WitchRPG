@@ -543,6 +543,7 @@ export class UnitSystem {
           const goal = u.liftFrom + SPELL.warp.liftHeight
           u.vel.y += ((goal - u.pos.y) * 3 - u.vel.y) * Math.min(1, dt * 4)
           u.vel.x *= Math.exp(-3 * dt)
+          u.vel.z *= Math.exp(-3 * dt)
         u.pos.addScaledVector(u.vel, dt)
         const n = new THREE.Vector3()
         const wall = host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3, n)
