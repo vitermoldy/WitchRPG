@@ -355,6 +355,7 @@ function hollow(team: Team): UnitModel {
       rim.castShadow = false
       p.spine.add(rim)
       meshes.push(rim)
+      const voidMat = new THREE.MeshBasicMaterial({ color: team === 'rift' ? 0x020001 : 0x08020f })
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
