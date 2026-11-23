@@ -361,3 +361,4 @@ export class Game {
     this.lights.reset()
     this.spells.reset()
     this.umbra.reset()
+    this.hud.clearFeed()
