@@ -145,3 +145,5 @@ export class WorldDirector {
     let best: { camp: Camp; dist: number } | null = null
     for (const c of this.camps) {
       if (c.state === 'cleared') continue
+      const d = Math.hypot(p.x - c.spot.pos.x, p.z - c.spot.pos.z)
+      if (!best || d < best.dist) best = { camp: c, dist: d }
