@@ -299,6 +299,8 @@ function warden(team: Team): UnitModel {
       p.foreR.add(mace)
     },
   )
+}
+
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
