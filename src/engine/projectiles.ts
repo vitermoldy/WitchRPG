@@ -105,3 +105,4 @@ export class Projectiles {
       if (s.team === 'rift') {
         // The witch: a capsule from her feet to her eyes.
         const p = h.player
+        if (p.alive) {
