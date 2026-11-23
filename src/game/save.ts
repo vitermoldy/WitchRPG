@@ -13,6 +13,7 @@ export function loadProfile(): { profile: Profile; error: string | null } {
   if (!raw) return { profile: newProfile(), error: null }
   try {
     const profile = normalizeProfile(JSON.parse(raw))
+    if (!profile) throw new Error('shape')
     return { profile, error: null }
   } catch {
     return { profile: newProfile(), error: 'Data simpanan rusak, jadi witch dimulai dari Lv 1.' }
