@@ -204,6 +204,7 @@ export class PropSystem {
     }
     for (const p of [...this.props]) {
       // Whatever drops into the void under the lair is gone.
+      if (p.pos.y < -30) {
       if (p.kind === 'chunk') {
         p.life -= dt
         if (p.life < 1) p.mesh.position.y = p.pos.y - (1 - p.life) * p.halfH * 2
