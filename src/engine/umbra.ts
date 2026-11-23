@@ -155,3 +155,4 @@ export class Umbra {
       g.hands.pose('right', 'command')
     }
     if (this.wheelOpen) {
+      this.wheelX += g.input.dx
