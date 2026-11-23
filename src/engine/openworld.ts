@@ -198,6 +198,7 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
       break
     }
   })
+  for (const [x, z] of corners) campSpots.push({ x, z, band: 3, elite: false })
 
   // Buildings: each block between roads splits into a 3x3 grid of lots; most lots get a building.
   const boxes: { x: number; z: number; w: number; d: number; h: number }[] = []
