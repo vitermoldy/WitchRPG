@@ -167,3 +167,4 @@ export class Player {
     }
     if (this.onGround) {
       this.floatLeft = this.floatMax
+      this.staminaDelay -= dt
