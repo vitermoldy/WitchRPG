@@ -83,3 +83,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     else if (!wanted && gate.open) gate.close()
     // Focus moves only when what the screen asks for changes, never on every update.
     if (gate.open && shown !== state.status) {
+      if (state.status === 'signed-out') user.focus()
