@@ -58,3 +58,4 @@ export class ShadowCrowd {
     const mesh = new THREE.InstancedMesh(geo, mats, cap)
     mesh.count = 0
     // Instances spread over the whole map; the merged model's own bounds would cull them wrongly.
+    mesh.frustumCulled = false
