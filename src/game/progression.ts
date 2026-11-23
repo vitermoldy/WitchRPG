@@ -136,3 +136,4 @@ export function spendStat(p: Profile, key: StatKey): boolean {
 export interface XpResult {
   levelsGained: number
   unlocked: SkillId[]
+  shadowLevels: { id: number; level: number }[]
