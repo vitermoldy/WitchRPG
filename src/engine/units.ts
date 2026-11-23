@@ -80,3 +80,4 @@ export class Unit implements Target {
     this.kind = kind
     this.team = team
     this.spec = UNITS[kind]
+    this.level = level
