@@ -154,6 +154,7 @@ export class RiftDirector {
     }
     const u = g.units.spawn(next.kind, 'rift', next.level, at)
     if (next.kind === 'riftlord') {
+      this.bossUnit = u
   }
 
   update(dt: number) {
