@@ -542,3 +542,4 @@ button:disabled {
 }
 
 .feed-item::before {
+  content: 'Ledger';
