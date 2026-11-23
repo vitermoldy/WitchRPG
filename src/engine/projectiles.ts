@@ -19,6 +19,7 @@ interface Shot {
   source: Unit | null
   reflected: boolean
   /** Bursts over this radius where it lands instead of hitting one thing; 0 for a plain glob. */
+  blast: number
 }
 
 export interface ShotHost {
