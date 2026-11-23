@@ -164,3 +164,4 @@ export class Player {
       this.onGround = true
     } else if (this.pos.y > floor + 0.05) {
       this.onGround = false
+    }
