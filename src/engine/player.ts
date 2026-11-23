@@ -17,3 +17,4 @@ export class Player {
   pitch = 0
   onGround = true
   crouching = false
+  sliding = 0
