@@ -98,3 +98,4 @@ function cleanProfile(p) {
 }
 
 /** Checks one finished Rift; returns the row values or a reason. */
+function cleanRun(run) {
