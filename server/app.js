@@ -103,3 +103,4 @@ function cleanRun(run) {
   if (!RESULTS.has(run.result)) return { error: 'Hasil Rift tidak dikenal.' }
   const at = new Date(run.finishedAt)
   if (Number.isNaN(at.getTime()) || Math.abs(Date.now() - at.getTime()) > 400 * 86_400_000) return { error: 'Waktu Rift tidak masuk akal.' }
+  const values = [
