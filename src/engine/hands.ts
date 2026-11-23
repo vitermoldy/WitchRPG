@@ -277,3 +277,4 @@ export class Hands {
       const goal = POSES[h.target]
       const rate = Math.min(1, dt * 14)
       for (const k of Object.keys(goal) as (keyof Pose)[]) h.pose[k] += (goal[k] - h.pose[k]) * rate
+      h.kick = Math.max(0, h.kick - dt * 7)
