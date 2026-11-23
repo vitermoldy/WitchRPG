@@ -165,3 +165,4 @@ export interface WaveSpec {
 }
 
 export const RIFT_TIER_1 = {
+  name: 'Rift Tier I',
