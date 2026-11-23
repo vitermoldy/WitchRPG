@@ -94,3 +94,4 @@ export class Umbra {
         const end = Math.min(1, (window - u.deadT) / 3)
         mat.emissive.set(COLOR.umbra)
         mat.emissiveIntensity = pulse * end * (u === this.casting ? 1.35 : 0.8)
+        if (Math.random() < dt * 6) {
