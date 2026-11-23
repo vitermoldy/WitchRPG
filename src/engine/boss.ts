@@ -83,3 +83,4 @@ export class BossFight {
       u.pos.y = this.home.y
     }
 
+    if (this.collapseT >= 0) {
