@@ -53,3 +53,4 @@ export class Unit implements Target {
   t = 0
   cd = 0
   target: Target | null = null
+  retarget = 0
