@@ -586,3 +586,4 @@ export class UnitSystem {
       P.head.rotation.x = crouch * 0.3
       P.tail.rotation.y = Math.sin(t * 5 + u.id) * 0.4
       if (u.state === 'held' || u.state === 'air') {
+        for (let i = 0; i < 4; i++) P[legs[i]].rotation.x = Math.sin(t * 20 + i) * 0.9
