@@ -34,3 +34,4 @@ export class Player {
   readonly height = 1.75
 
   hp = 150
+  maxHp = 150
