@@ -188,3 +188,4 @@ export class PropSystem {
         awake[i].awake = false
         awake[i].vel.set(0, 0, 0)
       }
+    }
