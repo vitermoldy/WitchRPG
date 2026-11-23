@@ -106,7 +106,7 @@ describe('upgrades and shadows', () => {
     expect(buyUpgrade(p, 'general')).toBe(false)
     expect(buyUpgrade(p, 'marshal')).toBe(false)
   })
-  it('fills slots, then refuses', () => {
+  it('keeps raising without a slot limit', () => {
     const p = newProfile()
     for (let i = 0; i < 3; i++) expect(addShadow(p, 'husk', 1)).not.toBeNull()
     expect(addShadow(p, 'hound', 1)).toBeNull()
