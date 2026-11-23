@@ -521,3 +521,4 @@ export class UnitSystem {
     m.root.scale.setScalar(1)
 
     if (u.kind === 'husk') {
+      const legL = P.legL, legR = P.legR, armL = P.armL, armR = P.armR
