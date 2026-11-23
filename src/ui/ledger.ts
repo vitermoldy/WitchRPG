@@ -183,7 +183,8 @@ export class Ledger {
       ['Regen mana', `${fmt(d.manaRegen, 1)} per detik`],
       ['Damage Chaos', `${fmt(d.damageMult * 100)}%`],
       ['Waktu melayang', `${fmt(d.floatTime, 1)} detik`],
-      ['Slot bayangan', fmt(d.slots)],
+      ['Kekuatan bayangan', `${fmt(d.shadowPower * 100)}%`],
+      ['Bayangan di medan', `maks ${fmt(p.settings.fieldCap)}`],
     ]
       .map(([a, b]) => `<dt>${a}</dt><dd class="num">${b}</dd>`)
       .join('')
