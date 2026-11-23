@@ -208,3 +208,4 @@ export class Spells {
         if (p.held || p.kind === 'chunk') continue
         sphere.set(p.pos, p.radius)
         if (ray.intersectSphere(sphere, hit)) {
+          const d = hit.distanceTo(o)
