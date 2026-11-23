@@ -89,3 +89,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   const skin = skinMat()
   const cloth = new THREE.MeshStandardMaterial({ color: COLOR.cloth, roughness: 0.85 })
   const cuff = new THREE.MeshStandardMaterial({ color: 0x1a0d12, emissive: color, emissiveIntensity: 0.6, roughness: 0.5 })
+  const nail = new THREE.MeshStandardMaterial({ color: 0x120c0f, roughness: 0.25, metalness: 0.6 })
