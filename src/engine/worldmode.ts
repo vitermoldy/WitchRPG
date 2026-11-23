@@ -28,3 +28,5 @@ export class WorldDirector {
   private calm = 0
   private leashT = 0
 
+  constructor(g: Game) {
+    this.g = g
