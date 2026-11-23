@@ -768,6 +768,7 @@ export class UnitSystem {
         u.pos.y += u.vel.y * dt
         host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3)
         const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
+        if (u.pos.y < floor + 0.15) {
         u.vel.y = 0
         host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3)
         const floor = host.colliders.groundAt(u.pos.x, u.pos.z, u.radius, u.pos.y, 0.3)
