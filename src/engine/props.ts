@@ -244,3 +244,4 @@ export class PropSystem {
           if (Math.abs(p.mesh.rotation.x - rx) < 0.01 && Math.abs(p.mesh.rotation.z - rz) < 0.01) p.awake = false
         }
       } else {
+        p.mesh.rotation.x += p.spin.x * dt
