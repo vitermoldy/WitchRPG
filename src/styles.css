@@ -1051,3 +1051,4 @@ dialog::backdrop {
 }
 
 .ledger-body {
+  display: grid;
