@@ -410,6 +410,7 @@ function hollow(team: Team): UnitModel {
 }
 
 /** A gaunt flier with wide leather wings and a hooked beak. It hangs in the air, then drops on its prey. */
+function harrier(team: Team): UnitModel {
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
