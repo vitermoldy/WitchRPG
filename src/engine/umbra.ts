@@ -57,3 +57,4 @@ export class Umbra {
   private spawnShadow(recordId: number, at: THREE.Vector3) {
     const g = this.g
     const rec = g.profile.shadows.find((s) => s.id === recordId)
+    if (!rec) return null
