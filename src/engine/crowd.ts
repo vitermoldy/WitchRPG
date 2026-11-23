@@ -61,3 +61,4 @@ export class ShadowCrowd {
     mesh.frustumCulled = false
     mesh.castShadow = false
     mesh.receiveShadow = false
+    mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
