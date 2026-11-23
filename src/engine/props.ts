@@ -268,3 +268,4 @@ export class PropSystem {
       }
       if (p.thrown && speed > SPELL.impact.minSpeed) this.hitUnits(p, speed)
       p.mesh.position.copy(p.pos)
+    }
