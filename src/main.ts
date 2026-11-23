@@ -20,3 +20,4 @@ const screens: Record<string, HTMLElement> = {
 }
 
 function showScreen(name: keyof typeof screens | null) {
+  for (const [k, el] of Object.entries(screens)) el.hidden = k !== name
