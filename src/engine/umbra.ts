@@ -217,3 +217,4 @@ export class Umbra {
     this.g.hands.pose('right', 'idle')
   }
 
+  /** Taking damage breaks the cast (GDD). */
