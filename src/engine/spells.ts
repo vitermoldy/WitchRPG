@@ -102,3 +102,4 @@ export class Spells {
   barrierAbsorb = 0
   private barrierHit = 0
   private readonly shield: THREE.Mesh
+  private readonly tendril: THREE.Line
