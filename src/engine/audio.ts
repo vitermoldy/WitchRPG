@@ -247,6 +247,7 @@ export class Sfx {
     this.tone(t, 'square', 260, 120, 0.12, 0.05)
   }
 
+  clank() {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
