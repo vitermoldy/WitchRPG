@@ -661,3 +661,4 @@ export class Spells {
           u.vulnerable = 0.2
         }
       }
+      if (Math.random() < dt * 30) {
