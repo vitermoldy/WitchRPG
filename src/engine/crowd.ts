@@ -7,3 +7,4 @@ import type { Unit } from './units'
 interface Batch {
   mesh: THREE.InstancedMesh
   geo: THREE.BufferGeometry
+  mats: THREE.Material[]
