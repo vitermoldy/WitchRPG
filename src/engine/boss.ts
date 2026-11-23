@@ -84,3 +84,4 @@ export class BossFight {
     }
 
     if (this.collapseT >= 0) {
+      this.collapseT += dt
