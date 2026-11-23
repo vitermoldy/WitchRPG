@@ -475,6 +475,7 @@ export class UnitSystem {
     }
     for (const o of this.units) {
       if (o.team === u.team || !o.alive || o === u) continue
+      const d = Math.hypot(o.pos.x - at.x, o.pos.z - at.z)
   private hit(u: Unit, tgt: Target) {
     let dmg = u.damage
     if (u.team === 'shadow' && u.focus && tgt === u.focus) dmg *= 1 + u.focusBonus
