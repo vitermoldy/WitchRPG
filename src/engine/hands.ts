@@ -334,3 +334,4 @@ export class Hands {
           drag: 2,
         })
       }
+    }
