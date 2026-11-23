@@ -761,6 +761,8 @@ export class Game {
     const s = this.state
     this.world.update(this.t)
     if (this.inLair) this.lair.update(this.t)
+    if (this.map === 'world') {
+      this.ow.update(this.t)
     if (this.saveTimer > 0) {
       this.saveTimer -= dt
       if (this.saveTimer <= 0) this.persist()
