@@ -2,3 +2,5 @@
 
 RPG aksi 3D first-person di browser. Kamu bermain sebagai Ilyra, witch terakhir dari coven yang dihancurkan Rift: tangan kirinya membengkokkan realitas dengan sihir Chaos, tangan kanannya membangkitkan musuh yang kalah menjadi pasukan bayangan.
 
+Ini prototype Fase 1 dan 2 dari [Game Design Document](./Game%20Design%20Document%20RPG%203D%20First-Person%20Witch.md): satu Rift Tier I lengkap dengan lima gelombang. Keputusan desain dan penyesuaian dari GDD ada di [DESIGN.md](./DESIGN.md).
+
