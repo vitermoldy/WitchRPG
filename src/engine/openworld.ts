@@ -149,3 +149,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   ground.receiveShadow = true
   group.add(ground)
 
+  // Places that stay open: the square, the gates and the camps.
+  const altar = new THREE.Vector3(0, 0, 0)
