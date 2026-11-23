@@ -127,3 +127,4 @@ export class Game {
     this.rift = new RiftDirector(this)
     this.hud = new Hud(this)
     this.ledger = new Ledger({
+      profile: this.profile,
