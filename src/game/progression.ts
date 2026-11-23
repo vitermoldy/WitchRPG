@@ -30,3 +30,4 @@ export interface ShadowRecord {
 export interface Settings {
   sensitivity: number
   volume: number
+  headBob: boolean
