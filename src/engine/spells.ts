@@ -463,3 +463,4 @@ export class Spells {
       const k = Math.min(1, dt * (heavy ? 5 : 9))
       if (gb.unit) {
         const c = gb.unit.center
+        const nc = c.clone().lerp(goal, k)
