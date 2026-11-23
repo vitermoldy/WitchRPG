@@ -204,3 +204,4 @@ export class Spells {
       }
     }
     if (opts.props !== false) {
+      for (const p of this.g.props.props) {
