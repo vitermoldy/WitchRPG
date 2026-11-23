@@ -146,6 +146,7 @@ async function boot() {
     hud.hidden = !(s === 'playing' || s === 'paused' || s === 'ledger')
     resumeHint.hidden = true
     if (s === 'title') {
+      // Start on the highest tier this witch can enter, until the player picks one.
       renderTitle()
       account?.refresh()
       showScreen('title')
