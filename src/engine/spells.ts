@@ -142,3 +142,4 @@ export class Spells {
     this.snares.length = 0
     this.dropAll(false)
     this.boltCd = this.burstCd = this.snareCd = this.barrierCd = 0
+    this.chaos = 0
