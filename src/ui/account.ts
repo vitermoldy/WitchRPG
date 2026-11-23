@@ -218,3 +218,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
 
   function skip(): void {
     skipped = true
+    render()
