@@ -280,3 +280,4 @@ export class Hands {
       h.kick = Math.max(0, h.kick - dt * 7)
       h.flash = Math.max(0, h.flash - dt * 5)
       const p = h.pose
+      const mirror = h.side === 'left' ? -1 : 1
