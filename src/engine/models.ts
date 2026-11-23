@@ -335,7 +335,7 @@ function riftlord(team: Team): UnitModel {
         meshes.push(horn)
       }
       eyes(p.head, m, meshes, [[-0.1, 0.24], [0.1, 0.24]], [0.08, 0.035], -0.215)
-      const cloak = new THREE.Mesh(new THREE.ConeGeometry(0.85, 1.9, 7, 1, true), m.body)
+      const cloak = new THREE.Mesh(shape(`Cone:${[0.85, 1.9, 7, 1, true].join(',')}`, () => new THREE.ConeGeometry(0.85, 1.9, 7, 1, true)), m.body)
       cloak.material.side = THREE.DoubleSide
       cloak.position.set(0, 0.2, 0.3)
       cloak.rotation.x = 0.12
