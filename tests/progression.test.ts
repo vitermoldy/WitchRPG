@@ -122,3 +122,5 @@ describe('upgrades and shadows', () => {
     expect(s.hp).toBeGreaterThan(e.hp)
     expect(s.damage).toBeGreaterThan(e.damage)
   })
+})
+
