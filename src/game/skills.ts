@@ -135,9 +135,7 @@ export const SKILLS: SkillDef[] = [
     name: 'Kebangkitan Marsekal',
     key: 'Tahan R',
     unlock: 9,
-    effect: 'Bisa membangkitkan boss Rift.',
-    upgrade: 'Belum dirancang.',
-    built: false,
+    effect: 'Bisa membangkitkan The Hollow Warden, satu kali. Sebagai bayangan, ia menarik dan membekukan musuh di sekitarnya.',
   },
 ]
 
