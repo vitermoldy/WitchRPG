@@ -137,3 +137,4 @@ export class RiftDirector {
       }
       if (!this.queue.length && g.units.enemies().length === 0) {
         if (this.wave >= this.totalWaves) {
+          this.phase = 'cleared'
