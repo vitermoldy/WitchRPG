@@ -40,3 +40,4 @@ try {
   const [[w]] = await pool.query('SELECT level FROM witches WHERE client_id = ?', [client])
   const [[runs]] = await pool.query('SELECT COUNT(*) AS n FROM rift_runs WHERE client_id = ?', [client])
   console.log(
+    w || runs.n
