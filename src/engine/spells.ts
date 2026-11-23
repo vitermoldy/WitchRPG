@@ -688,3 +688,4 @@ export class Spells {
   }
 
   /** Damage meant for the witch: the barrier eats what it can and returns the rest. */
+  absorb(dmg: number): number {
