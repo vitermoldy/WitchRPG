@@ -331,3 +331,4 @@ export class Hands {
           speed: 0.05,
           vel: { x: 0, y: this.overload ? 0.12 : 0.05, z: 0 },
           jitter: 0.02,
+          drag: 2,
