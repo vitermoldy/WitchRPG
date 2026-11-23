@@ -30,3 +30,4 @@ if (found) {
 
 const conn = await pool.getConnection()
 try {
+  await conn.beginTransaction()
