@@ -104,3 +104,4 @@ async function boot() {
     $('btn-result-ledger').textContent = pts ? `Bagikan ${pts} poin di Ledger` : 'Buka Ledger'
   }
 
+  const renderPause = () => {
