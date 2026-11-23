@@ -64,3 +64,4 @@ const TABLES = [
     level_after TINYINT UNSIGNED NOT NULL,
     shadows_raised TINYINT UNSIGNED NOT NULL,
     seconds INT UNSIGNED NOT NULL,
+    finished_at DATETIME NOT NULL,
