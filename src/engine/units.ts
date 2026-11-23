@@ -224,3 +224,4 @@ export class UnitSystem {
     u.yaw += diff * Math.min(1, dt * rate)
   }
 
+  private brain(u: Unit, dt: number) {
