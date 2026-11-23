@@ -232,3 +232,4 @@ export class PropSystem {
         p.vel.x *= fr
         p.vel.z *= fr
         p.spin.multiplyScalar(Math.exp(-5 * dt))
+        // Settle onto a flat face.
