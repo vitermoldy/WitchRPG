@@ -534,3 +534,4 @@ export class UnitSystem {
       } else if (u.state === 'held' || u.state === 'air') {
         armX = Math.sin(t * 18 + u.id) * 1.2 - 1
         lean = 0.1
+      } else if (u.state === 'recover') {
