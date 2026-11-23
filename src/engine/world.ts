@@ -80,3 +80,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   }
   // Curbs.
   g.fillStyle = '#39332f'
+  for (const s of [-1, 1]) {
