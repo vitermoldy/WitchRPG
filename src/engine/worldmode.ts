@@ -136,3 +136,6 @@ export class WorldDirector {
 
   nearAltar() {
     const p = this.g.player.pos
+    return Math.hypot(p.x - this.g.ow.altar.x, p.z - this.g.ow.altar.z) < 10
+  }
+
