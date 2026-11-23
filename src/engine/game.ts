@@ -356,6 +356,7 @@ export class Game {
     let raw = u.team === 'rift' && u.vulnerable > 0 ? dmg * 1.25 : dmg
     // A Warden's shield stops most of what comes at it from the front; a throw goes through.
     const guard = u.spec.shield
+    if (guard && by !== 'impact' && u.stun <= 0 && u.state !== 'air' && u.state !== 'held') {
     // Chaos and feedback count only the damage that landed, not overkill.
     const amount = Math.min(u.hp, u.team === 'rift' && u.vulnerable > 0 ? dmg * 1.25 : dmg)
     u.hp -= amount
