@@ -172,6 +172,7 @@ export class Game {
         },
       },
       glow: this.glow,
+      smoke: this.smoke,
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.rift = new RiftDirector(this)
