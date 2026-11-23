@@ -19,3 +19,4 @@ export class BossFight {
   private summonT = 6
   private volleyT = 4
   private collapseT = -1
+  private landT = -1
