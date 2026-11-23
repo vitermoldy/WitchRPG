@@ -55,3 +55,4 @@ async function boot() {
   } catch (e) {
     fail(`Renderer gagal dibuat: ${(e as Error).message}`)
     return
+  }
