@@ -473,7 +473,7 @@ export class Game {
     }
     if (by === 'player' || by === 'impact') this.hud.hit(true)
     this.glow.emit({ pos: u.center, count: 16, color: COLOR.rift, intensity: 2, life: 0.6, size: 0.12, speed: 2.5, gravity: 2 })
-    const xp = xpForUnit(u.kind, u.level)
+    const xp = xpForUnit(u.kind, u.level, !!u.elite)
     if (u === this.rift.bossUnit && u.kind === 'riftlord') this.hud.banner('Rift Lord tumbang', 'Tubuhnya bisa dibangkitkan dengan Kebangkitan Jenderal (Lv 8).')
     this.rift.kills++
     this.rift.xpGained += xp
