@@ -116,3 +116,4 @@ export class PropSystem {
       held: false,
       thrown: false,
       awake: false,
+      life: kind === 'chunk' ? 9 : Infinity,
