@@ -113,3 +113,4 @@ export class BossFight {
         this.breathe()
         this.volleyT = 3
         this.summonT = 10
+        // It swallows every creature still standing.
