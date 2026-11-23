@@ -26,6 +26,7 @@ export interface CampSpot {
   /** A Rift Lord leads this camp. */
   elite: boolean
   /** How many of the pack wake up as elites. */
+  elites: number
   mat: THREE.ShaderMaterial
 }
 
