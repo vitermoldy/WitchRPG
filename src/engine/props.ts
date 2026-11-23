@@ -15,3 +15,4 @@ export interface Prop {
   spin: THREE.Vector3
   radius: number
   halfH: number
+  mass: number
