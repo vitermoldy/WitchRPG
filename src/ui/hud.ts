@@ -166,3 +166,4 @@ export class Hud {
     const empty = Math.max(0, slots - g.profile.shadows.length)
     for (let i = 0; i < g.profile.shadows.length; i++) {
       const rec = g.profile.shadows[i]
+      const u = live.get(rec.id)
