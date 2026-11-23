@@ -42,3 +42,4 @@ interface Hand {
   light: THREE.PointLight
   sigil: THREE.MeshStandardMaterial
   cuff: THREE.MeshStandardMaterial
+  base: THREE.Vector3
