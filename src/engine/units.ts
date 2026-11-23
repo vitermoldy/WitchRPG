@@ -241,3 +241,4 @@ export class UnitSystem {
           if (u.command === 'hold') this.steer(u, u.holdPos, speed, dt, 0.6)
           else {
             const p = this.host.player
+            const n = Math.max(1, this.units.filter((o) => o.team === 'shadow').length)
