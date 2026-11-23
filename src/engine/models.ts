@@ -18,6 +18,7 @@ export interface UnitModel {
  * shadows costs one set of buffers per part, not one per soldier.
  */
 const SHAPES = new Map<string, THREE.BufferGeometry>()
+function shape(key: string, make: () => THREE.BufferGeometry): THREE.BufferGeometry {
 const shared = {
   rift: {
     accent: new THREE.MeshStandardMaterial({ color: 0x120806, emissive: COLOR.rift, emissiveIntensity: 1.6 }),
