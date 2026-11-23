@@ -1444,6 +1444,7 @@ dialog::backdrop {
   font-size: 0.82rem;
 }
 
+.gate-error {
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
