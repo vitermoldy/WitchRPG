@@ -170,3 +170,4 @@ export class BossFight {
     const g = this.g
     const p = g.player
     if (p.alive) return p.pos
+    const s = g.units.shadows()[0]
