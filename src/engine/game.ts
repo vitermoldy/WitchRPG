@@ -140,3 +140,4 @@ export class Game {
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
     const handPass = new RenderPass(this.hands.scene, this.hands.camera)
+    handPass.clear = false
