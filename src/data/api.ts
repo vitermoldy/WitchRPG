@@ -23,3 +23,4 @@ export interface RiftRecord {
   finishedAt: string
 }
 
+export interface SavedRift extends RiftRecord {
