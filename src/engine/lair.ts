@@ -99,3 +99,4 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   group.add(floor)
 
   // The void under it: a deep red glow that the fog swallows.
+  const abyss = new THREE.Mesh(
