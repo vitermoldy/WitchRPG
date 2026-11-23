@@ -172,3 +172,5 @@ function hound(team: Team): UnitModel {
   }
   parts.tail = tail
   return { root, body, parts, bodyMat, eyeMat: s.eye, meshes }
+}
+
