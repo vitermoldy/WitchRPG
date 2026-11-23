@@ -241,3 +241,4 @@ export class Umbra {
         g.hud.message('Slot bayangan penuh. Lepas satu di Ledger (Tab).', 'umbra')
         return
       }
+      const at = u.pos.clone()
