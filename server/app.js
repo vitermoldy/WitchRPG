@@ -130,3 +130,4 @@ export function createApi(getPool, database) {
   api.use((req, res, next) => (getPool() ? next() : res.status(503).json({ error: 'Database belum terhubung.' })))
 
   const auth = createAuth({ getPool, cookie: 'witch_rpg_session', lang: 'id', deviceCode: CODE, newDevice: newCode })
+  api.use('/auth', auth.router)
