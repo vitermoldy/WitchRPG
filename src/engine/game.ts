@@ -94,3 +94,4 @@ export class Game {
       player: {
         get pos() {
           return game.player.pos
+        },
