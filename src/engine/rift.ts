@@ -212,6 +212,7 @@ export class RiftDirector {
           this.openExit(this.cityExit)
           g.hud.banner('Rift ditaklukkan', 'Retakan di monumen terbuka. Dekati lalu tekan F untuk keluar.')
           if (this.tier.boss) g.hud.message(`Di balik Rift ini ada Jantung Rift. Gerbangnya terbuka untukmu di Lv ${this.tier.boss.unlock}, saat Reality Warp bisa dipakai.`, 'chaos')
+          g.sfx.levelUp()
         }
       }
       return
