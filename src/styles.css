@@ -1744,3 +1744,6 @@ dialog::backdrop {
 
 .compass .cm-cardinal {
   top: 0.25rem;
+  color: var(--ink);
+}
+
