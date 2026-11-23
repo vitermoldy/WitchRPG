@@ -95,3 +95,4 @@ export class Game {
         get pos() {
           return game.player.pos
         },
+        get yaw() {
