@@ -56,3 +56,5 @@ export class RiftDirector {
     this.exit.position.copy(this.exitPos)
     this.exit.visible = false
     g.scene.add(this.exit)
+  }
+
