@@ -19,3 +19,4 @@ const screens: Record<string, HTMLElement> = {
   dead: $('screen-dead'),
 }
 
+function showScreen(name: keyof typeof screens | null) {
