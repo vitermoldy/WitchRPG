@@ -580,6 +580,7 @@ export class UnitSystem {
       }
       // Circle the target at dive distance; close in tight when a wall or roof hides it.
       const r = lost ? 3 : 9
+      const a = Math.atan2(u.pos.z - tgt.pos.z, u.pos.x - tgt.pos.x) + u.flank * 0.8
     }
   }
 
