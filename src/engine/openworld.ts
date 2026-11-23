@@ -39,3 +39,5 @@ export interface OpenWorldBuild {
 }
 
 function rand(seed: number) {
+  let s = seed >>> 0
+  return () => {
