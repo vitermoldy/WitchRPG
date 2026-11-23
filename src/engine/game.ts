@@ -180,3 +180,4 @@ export class Game {
   /** Builds every shader once behind the loading screen so the first fight does not stutter. */
   async warmUp() {
     const samples: Unit[] = []
+    for (const kind of ['husk', 'hound'] as const) for (const team of ['rift', 'shadow'] as const) samples.push(this.units.spawn(kind, team, 1, new THREE.Vector3(0, -20, 0)))
