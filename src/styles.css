@@ -756,3 +756,4 @@ button:disabled {
 
 .skill {
   position: relative;
+  display: grid;
