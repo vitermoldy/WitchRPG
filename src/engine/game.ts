@@ -249,3 +249,4 @@ export class Game {
       const away = at.clone().sub(from).setY(0).normalize().multiplyScalar(7 + Math.random() * 5)
       away.y = 4 + Math.random() * 3
       this.props.spawnChunk(at, away, wide ? 0.7 : 0.18, 0.5 + Math.random() * 0.4, wide ? 0.18 : 0.7)
+    }
