@@ -249,6 +249,7 @@ function spitter(team: Team): UnitModel {
     (p, m, meshes) => {
       const sac = new THREE.Mesh(new THREE.SphereGeometry(0.2, 10, 8), m.accent)
       sac.position.set(0, -0.02, -0.16)
+      sac.scale.set(1, 0.8, 1.1)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
