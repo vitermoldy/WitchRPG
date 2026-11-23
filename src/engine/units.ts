@@ -468,3 +468,4 @@ export class UnitSystem {
     const dmg = impactDamage(u.mass, speed, c.coefficient, c.exponent)
     this.host.impactFx(u.center, Math.min(1, dmg / 60))
     this.host.hurtUnit(u, dmg, u.pos, 'impact')
+    if (other) {
