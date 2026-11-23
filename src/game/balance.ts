@@ -175,3 +175,4 @@ export const RIFT_TIER_1 = {
   ] as WaveSpec[],
   maxAlive: 16,
   spawnInterval: 0.8,
+  breather: 6,
