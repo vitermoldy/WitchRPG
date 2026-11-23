@@ -48,3 +48,4 @@ export class ShadowCrowd {
     }
     const mats = [...byMat.keys()]
     const parts = mats.map((mat) => mergeGeometries(byMat.get(mat)!, false)!)
+    const geo = mergeGeometries(parts, true)!
