@@ -40,3 +40,4 @@ interface Hand {
   thumb: THREE.Object3D[]
   orb: THREE.Sprite
   light: THREE.PointLight
+  sigil: THREE.MeshStandardMaterial
