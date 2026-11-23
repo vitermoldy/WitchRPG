@@ -596,6 +596,7 @@ export class UnitSystem {
       climb(cruise + 1.2, 2)
       if (tgt) this.face(u, tgt.pos, dt, 12)
       if (u.t >= (spec.windup * u.tempo) / Math.max(0.4, u.slow)) {
+        if (!tgt || !tgt.alive) {
     }
   }
 
