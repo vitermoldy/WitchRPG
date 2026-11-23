@@ -51,3 +51,5 @@ interface Hand {
   flash: number
   color: THREE.Color
   overloadColor: THREE.Color
+}
+
