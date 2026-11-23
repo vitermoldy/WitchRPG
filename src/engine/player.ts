@@ -195,3 +195,4 @@ export class Player {
     this.trauma = Math.max(0, this.trauma - dt * 1.6)
     const s = shake ? this.trauma * this.trauma : 0
     const sy = Math.sin(this.shakeT * 1.1) * 0.035 * s
+    const sp = Math.sin(this.shakeT * 1.37 + 2) * 0.035 * s
