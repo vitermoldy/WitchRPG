@@ -53,6 +53,7 @@ const RESULT: Record<SavedRift['result'], string> = { cleared: 'Ditutup', fallen
 
 function duration(s: number): string {
   const m = Math.floor(s / 60)
+  return m ? `${m} menit ${s % 60} detik` : `${s} detik`
 }
 
 /** Status, stats, skill tree and the Shadow Room. */
