@@ -634,6 +634,7 @@ export class Spells {
       vertexShader: WARP_VERT,
       fragmentShader: WARP_FRAG,
       transparent: true,
+      depthWrite: false,
   private burst() {
     const g = this.g
     const s = SPELL.burst
