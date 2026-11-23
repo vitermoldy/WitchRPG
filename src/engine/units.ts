@@ -497,3 +497,4 @@ export class UnitSystem {
     } else if (u.team === 'shadow') {
       m.bodyMat.emissive.set(COLOR.umbraDeep)
       m.bodyMat.emissiveIntensity = 0.55 + Math.sin(t * 3 + u.id) * 0.15
+    } else {
