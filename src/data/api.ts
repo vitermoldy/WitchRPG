@@ -145,3 +145,4 @@ export async function signOut(): Promise<void> {
 // ---------------------------------------------------------------- the witch
 
 export async function fetchProfile(): Promise<Profile | null> {
+  return (await call<{ profile: Profile | null }>('profile')).profile
