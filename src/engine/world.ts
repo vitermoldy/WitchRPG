@@ -383,3 +383,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       const sx = side === 1 ? inset : side === 3 ? -inset : centre
       const sz = side === 0 ? -inset : side === 2 ? inset : centre
       m.position.set(sx, h / 2, sz)
+      m.receiveShadow = true
