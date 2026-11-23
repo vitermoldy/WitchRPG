@@ -35,3 +35,5 @@ function canvas(w: number, h: number) {
   c.width = w
   c.height = h
   return { c, g: c.getContext('2d')! }
+}
+
