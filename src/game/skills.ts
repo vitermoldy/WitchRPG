@@ -81,3 +81,4 @@ export const SKILLS: SkillDef[] = [
     branch: 'chaos',
     name: 'Reality Warp',
     key: 'V',
+    unlock: 10,
