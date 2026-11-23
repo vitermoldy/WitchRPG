@@ -35,3 +35,5 @@ export class WorldDirector {
   /** `keep` leaves cleared camps cleared (their clock keeps running); packs that were awake go back to sleep. */
   start(keep = false) {
     if (keep && this.camps.length) {
+      for (const c of this.camps) {
+        c.units = []
