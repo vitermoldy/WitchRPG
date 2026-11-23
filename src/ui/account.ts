@@ -42,3 +42,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   let skipped = false
   let shown: AuthState['status'] | null = null
   let last: AuthState['status'] = authState().status
+  let pushTimer = 0
