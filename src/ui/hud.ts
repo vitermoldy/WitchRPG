@@ -57,3 +57,4 @@ export class Hud {
     window.setTimeout(() => p.remove(), 5900)
   }
 
+  banner(title: string, sub: string) {
