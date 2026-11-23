@@ -132,7 +132,8 @@ function cleanRun(run) {
 /** The pool appears once MySQL answers; until then the API says so instead of hanging. */
 export function createApi(getPool, database) {
   const api = express.Router()
-  api.use(express.json({ limit: '64kb' }))
+  // A full Shadow Room (2000 records) is about 200 KB of JSON.
+  api.use(express.json({ limit: '1mb' }))
   api.use(sameOriginWrites)
   api.use(rateLimit(120))
   api.get('/health', (_req, res) => res.status(getPool() ? 200 : 503).json({ ok: !!getPool(), database }))
