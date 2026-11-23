@@ -375,6 +375,7 @@ function hollow(team: Team): UnitModel {
       const mouth = box(0.24, 0.03, 0.02, m.eye, meshes, 0.16)
       mouth.position.z = -0.245
       p.head.add(mouth)
+      const shards = new THREE.Group()
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
