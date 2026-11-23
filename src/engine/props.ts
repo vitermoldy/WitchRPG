@@ -200,3 +200,4 @@ export class PropSystem {
           continue
         }
       }
+      p.hitCooldown = Math.max(0, p.hitCooldown - dt)
