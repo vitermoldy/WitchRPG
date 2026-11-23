@@ -196,3 +196,4 @@ export class Player {
     const s = shake ? this.trauma * this.trauma : 0
     const sy = Math.sin(this.shakeT * 1.1) * 0.035 * s
     const sp = Math.sin(this.shakeT * 1.37 + 2) * 0.035 * s
+    const sr = Math.sin(this.shakeT * 0.93 + 4) * 0.05 * s
