@@ -28,3 +28,4 @@ const shared = {
 
 function bodyMaterial(team: Team) {
   return team === 'rift'
+    ? new THREE.MeshStandardMaterial({ color: 0x7a6e6c, roughness: 0.8, flatShading: true, emissive: 0x000000 })
