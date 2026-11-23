@@ -539,7 +539,7 @@ export class UnitSystem {
     if (u.state === 'strike') {
       if (u.t >= 0.18) {
         u.setState('recover')
-        u.cd = spec.cooldown
+        u.cd = spec.cooldown * u.tempo
       }
       return
     }
