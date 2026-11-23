@@ -1492,7 +1492,7 @@ dialog::backdrop {
   }
   .ledger-body {
     grid-template-columns: 1fr;
-    grid-template-areas: 'stats' 'tree' 'room';
+    grid-template-areas: 'stats' 'tree' 'room' 'hist';
   }
   .ledger-stats {
     border-right: 0;
