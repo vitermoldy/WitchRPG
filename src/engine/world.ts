@@ -182,3 +182,4 @@ function facadeTextures(seed: number) {
         g.fillStyle = '#3a2a22'
         g.fillRect(x + 2, y + 2, 36, 38)
       } else if (v < 0.22) {
+        // Broken pane.
