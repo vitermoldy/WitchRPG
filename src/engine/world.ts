@@ -134,3 +134,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
           cx += Math.cos(ca) * 7
           cy += Math.sin(ca) * 7
           eg.lineTo(cx, cy)
+          g.lineTo(cx, cy)
