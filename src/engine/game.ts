@@ -812,5 +812,6 @@ export class Game {
         if (reach.length < 3) {
           const spots = [...this.lair.rockSpots]
             .filter((s) => !rocks.some((r) => r.pos.distanceTo(s) < 1.5))
+            .sort((a, b) => a.distanceTo(p.pos) - b.distanceTo(p.pos))
   }
 }
