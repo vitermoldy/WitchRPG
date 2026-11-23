@@ -534,3 +534,4 @@ button:disabled {
   padding: 0.35rem 0.7rem;
   border-radius: var(--radius-sm);
   background: rgba(12, 8, 9, 0.78);
+  color: var(--ink);
