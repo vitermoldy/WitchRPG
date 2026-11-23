@@ -1386,6 +1386,7 @@ dialog::backdrop {
   font-family: var(--font-display);
   font-weight: 500;
   font-size: 1.45rem;
+  letter-spacing: -0.035em;
 .confirm {
   width: min(28rem, calc(100vw - 32px));
   padding: 1.4rem;
