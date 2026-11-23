@@ -337,3 +337,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     metalness: 0,
   })
   const ground = new THREE.Mesh(new THREE.PlaneGeometry(100, 100), groundMat)
+  ground.rotation.x = -Math.PI / 2
