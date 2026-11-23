@@ -88,3 +88,4 @@ export class ShadowCrowd {
     const counts = new Map<UnitKind, number>()
     for (const u of units) if (u.team === 'shadow' && !u.detailed && u.state !== 'dead') counts.set(u.kind, (counts.get(u.kind) ?? 0) + 1)
     for (const [kind, b] of this.batches) {
+      b.used = 0
