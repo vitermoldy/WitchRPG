@@ -455,3 +455,4 @@ export class Spells {
       this.dropAll(false)
       return
     }
+    this.grabbed.forEach((gb, i) => {
