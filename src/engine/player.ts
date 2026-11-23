@@ -110,3 +110,4 @@ export class Player {
       const dx = desiredX - this.vel.x
       const dz = desiredZ - this.vel.z
       const len = Math.hypot(dx, dz)
+      const maxStep = accel * dt
