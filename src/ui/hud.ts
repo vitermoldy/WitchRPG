@@ -47,3 +47,4 @@ export class Hud {
     else el.className = value
   }
 
+  message(text: string, tone: Tone = 'info') {
