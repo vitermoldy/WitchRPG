@@ -787,5 +787,6 @@ export class Game {
     if (!this.inLair && p.pos.y < -5) p.reset(this.world.playerStart, p.yaw)
   }
 
+  /** The void under the lair, and rocks for phase 2. */
   }
 }
