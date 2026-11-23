@@ -28,3 +28,4 @@ export class ShadowCrowd {
   private readonly s = new THREE.Vector3()
 
   constructor() {
+    this.group.name = 'shadow-crowd'
