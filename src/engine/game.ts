@@ -36,3 +36,4 @@ export class Game {
   private readonly bloom: UnrealBloomPass
   readonly hands = new Hands()
   readonly input: Input
+  readonly sfx = new Sfx()
