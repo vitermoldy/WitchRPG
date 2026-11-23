@@ -329,6 +329,7 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.add(key)
   scene.add(key.target)
   // Everything added from here on belongs to the city (the floaters excepted, they hang over both maps).
+  const shared = new Set(scene.children)
 
   // Ground.
   const crackSpots = [...portals, new THREE.Vector3(0, 0, 0)]
