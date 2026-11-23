@@ -244,3 +244,4 @@ export class Umbra {
       const at = u.pos.clone()
       g.units.remove(u)
       const s = this.spawnShadow(rec.id, at)
+      if (s) s.slot = g.profile.shadows.length - 1
