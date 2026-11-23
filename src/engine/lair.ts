@@ -36,3 +36,4 @@ function crackTexture(size: number) {
   const eg = e.getContext('2d')!
   g.fillStyle = '#1c1719'
   g.fillRect(0, 0, size, size)
+  eg.fillStyle = '#000'
