@@ -35,3 +35,4 @@ export class RiftDirector {
 
   constructor(g: Game) {
     this.g = g
+    g.world.portals.forEach((p, i) => {
