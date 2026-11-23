@@ -88,3 +88,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     }
     shown = gate.open ? state.status : null
     renderRow(state)
+    if (state.status === 'signed-in' && last !== 'signed-in') void sync()
