@@ -342,6 +342,9 @@ export class Umbra {
 
   /** Mana for raising `n` bodies in one cast. */
   cost(n: number) {
+    return RITE.mana + RITE.massManaPerExtra * Math.max(0, n - 1)
+  }
+
     const g = this.g
     if (!this.riteOpen) return 'Umbra Rite terbuka di Lv 2.'
     const rank = u ? riteBlock(g.profile, u.kind) : null
