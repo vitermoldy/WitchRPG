@@ -194,7 +194,7 @@ export class Umbra {
       if (i < POOLS_PER_CALL) g.pools.open(u.pos, 0.9 + u.radius * 1.6, 0.6)
       u.setState('sinking')
       u.vel.set(0, 0, 0)
-    }
+    })
     const p = g.player
     const feet = new THREE.Vector3(p.pos.x, g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5), p.pos.z)
     if (feet.y < -50) feet.y = p.pos.y
