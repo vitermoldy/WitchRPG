@@ -249,3 +249,4 @@ export const TEAR_FRAG = /* glsl */ `
   void main() {
     vec2 p = vUv * 2.0 - 1.0;
     float width = (1.0 - p.y * p.y) * 0.42 * uOpen;
+    float edge = fbm(vec2(p.y * 6.0, uTime * 0.35)) * 0.28 - 0.14;
