@@ -321,3 +321,4 @@ export class Game {
     const p = this.player
     if (!p.alive || this.state !== 'playing') return
     const left = this.spells.absorb(dmg)
+    if (left <= 0) {
