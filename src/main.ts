@@ -110,3 +110,4 @@ async function boot() {
     $('out-sens').textContent = s.sensitivity.toFixed(2)
     $<HTMLInputElement>('set-vol').value = String(s.volume)
     $('out-vol').textContent = `${Math.round(s.volume * 100)}%`
+    $<HTMLInputElement>('set-bob').checked = s.headBob
