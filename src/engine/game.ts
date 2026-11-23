@@ -343,3 +343,4 @@ export class Game {
     p.hp = 0
     p.alive = false
     this.spells.reset()
+    this.umbra.cancel()
