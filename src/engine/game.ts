@@ -587,6 +587,7 @@ export class Game {
     for (const at of this.lair.rockSpots) this.props.spawnRock(at)
   }
 
+  /** Particles running from one point to another: the boss swallowing, a shadow returning. */
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
