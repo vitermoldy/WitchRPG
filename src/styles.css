@@ -221,3 +221,4 @@ button:disabled {
 
 .loading-title::after {
   content: '';
+  display: block;
