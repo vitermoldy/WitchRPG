@@ -117,6 +117,9 @@ export class Umbra {
     if (this.field().length || this.calls.length) this.dismiss()
     else this.summon()
     this.summonCd = RITE.summonCooldown
+  }
+
+  /**
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
