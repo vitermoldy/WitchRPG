@@ -615,6 +615,7 @@ export class Spells {
     // Over the void the field hangs at the height of whatever it caught, or the witch's feet.
     if (at.y < -50) at.y = hit.unit ? hit.unit.pos.y : g.player.pos.y
     const group = new THREE.Group()
+    group.position.copy(at)
   private burst() {
     const g = this.g
     const s = SPELL.burst
