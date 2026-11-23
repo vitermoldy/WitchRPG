@@ -374,3 +374,4 @@ export class UnitSystem {
         const wall = host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3, n)
         const speed = u.vel.length()
         if (wall && u.thrown && speed > SPELL.impact.minSpeed) {
+          this.impact(u, speed, null)
