@@ -527,6 +527,7 @@ export class Game {
     // From the pause menu the Rift was still running; from the fallen screen it was already recorded.
     if (this.state === 'paused' || this.state === 'playing') this.endRift('left')
     this.units.clear()
+    this.projectiles.clear()
     this.spells.reset()
     this.umbra.reset()
     this.persist()
