@@ -105,6 +105,7 @@ export class Unit implements Target {
   focus: Unit | null = null
   focusBonus = 0
   // Elites (Tier IV and up).
+  elite: EliteTrait | null = null
 
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
