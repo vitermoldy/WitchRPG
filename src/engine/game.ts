@@ -807,5 +807,6 @@ export class Game {
       this.rockT -= dt
       if (this.rockT <= 0) {
         this.rockT = 2
+        const rocks = this.props.props.filter((r) => r.kind === 'rock' && !r.held)
   }
 }
