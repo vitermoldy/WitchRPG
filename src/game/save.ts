@@ -17,3 +17,4 @@ export function loadProfile(): { profile: Profile; error: string | null } {
     const base = newProfile()
     const profile: Profile = {
       ...base,
+      ...data,
