@@ -275,3 +275,4 @@ export class Umbra {
       g.hud.message('Belum ada bayangan yang berdiri di Rift ini.', 'umbra')
       return
     }
+    if (choice === 'follow') {
