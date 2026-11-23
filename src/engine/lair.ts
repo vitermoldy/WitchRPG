@@ -22,3 +22,4 @@ export interface LairBuild {
   /** Rocks the witch can throw at the boss's shell in phase 2. */
   rockSpots: THREE.Vector3[]
   setFloor(solid: boolean): void
+  /** The top of the pillar nearest to a point: where someone who fell comes back. */
