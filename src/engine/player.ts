@@ -190,3 +190,4 @@ export class Player {
     const bobX = headBob ? Math.cos(this.bob) * 0.025 * this.bobAmount : 0
     this.landKick = Math.max(0, this.landKick - dt * 0.6)
     cam.position.set(this.pos.x, this.pos.y + this.eye + bobY - this.landKick, this.pos.z)
+    cam.position.addScaledVector(this.right, bobX)
