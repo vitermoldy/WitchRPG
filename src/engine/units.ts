@@ -302,3 +302,4 @@ export class UnitSystem {
         if (d < u.radius + tgt.radius + 0.35) {
           u.hitThisLunge = true
           this.hit(u, tgt)
+        }
