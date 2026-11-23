@@ -214,3 +214,5 @@ export class UnitSystem {
     u.vel.x += ax * k
     u.vel.z += az * k
     if (d > 0.3) this.face(u, goal, dt)
+  }
+
