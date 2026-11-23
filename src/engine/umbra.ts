@@ -364,3 +364,4 @@ export class Umbra {
         g.glow.emit({ pos: at.clone().setY(1), count: 24, color: COLOR.umbra, intensity: 2.6, life: 0.5, size: 0.12, speed: 3 })
       }
       g.sfx.swap()
+      g.player.addTrauma(0.2)
