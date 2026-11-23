@@ -177,3 +177,4 @@ export class Game {
     this.respawnProps()
   }
 
+  /** Builds every shader once behind the loading screen so the first fight does not stutter. */
