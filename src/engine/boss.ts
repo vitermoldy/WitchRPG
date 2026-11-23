@@ -181,3 +181,4 @@ export class BossFight {
     if (this.collapseT >= 0) {
       u.vel.set(0, 0, 0)
       return true
+    }
