@@ -618,3 +618,4 @@ export class Spells {
     g.player.addTrauma(Math.max(0.15, 0.6 - near * 0.02))
   }
 
+  private snare() {
