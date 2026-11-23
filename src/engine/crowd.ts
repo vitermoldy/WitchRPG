@@ -103,3 +103,4 @@ export class ShadowCrowd {
         const k = Math.min(1, u.t / 0.8)
         this.p.y -= k * k * u.spec.height
       } else {
+        // A small step bob while it moves, so a marching crowd does not look frozen.
