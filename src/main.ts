@@ -168,3 +168,4 @@ async function boot() {
     game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
     $('out-sens').textContent = game.profile.settings.sensitivity.toFixed(2)
     game.saveSoon()
+  })
