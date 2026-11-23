@@ -526,3 +526,4 @@ export class UnitSystem {
       let lean = 0.42
       if (u.state === 'windup') {
         const k = Math.min(1, u.t / u.spec.windup)
+        armX = -2.4 * k
