@@ -329,4 +329,5 @@ export const BOSS = {
   shot: { speed: 15, gravity: 6, radius: 0.45, keepAway: 0 },
   /** Each new phase gives the witch a breath: a share of HP and some mana back. */
   phaseHeal: 0.25,
+  phaseMana: 30,
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
