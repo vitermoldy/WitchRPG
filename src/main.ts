@@ -147,3 +147,4 @@ async function boot() {
     const ok = await confirmDialog('Hapus semua progres?', 'Level, stat, skill, dan semua bayangan di Ruang Bayangan akan hilang. Pengaturan kontrol tetap.', 'Hapus progres')
     if (!ok) return
     const settings = game.profile.settings
+    clearProfile()
