@@ -149,6 +149,8 @@ export class Umbra {
     for (let i = 0; i < n; i++) {
       const pos = this.spot(this.field().length + i)
       const at = this.time + 0.35 + i * stagger
+      this.calls.push({ at, rec: pick[i], pos, slot: this.field().length + i })
+      g.pools.open(pos, 0.9 + UNITS[pick[i].kind].radius * 1.6, 1.4, 0.3 + i * stagger)
   }
 
   private spawnShadow(recordId: number, at: THREE.Vector3) {
