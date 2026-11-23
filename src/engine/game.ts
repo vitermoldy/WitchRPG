@@ -332,3 +332,4 @@ export class Game {
     this.sfx.hurt()
     this.spells.addChaos(chaosFromDamage(0, left))
     this.umbra.interrupt()
+    // A little shove away from the hit.
