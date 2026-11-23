@@ -137,8 +137,8 @@ export function riteChance(rank: RankId, playerLevel: number, enemyLevel: number
   return Math.round(clamp(p, RITE.minChance, RITE.maxChance) * 1000) / 1000
 }
 
-export function shadowSlots(umb: number): number {
-  return RITE.baseSlots + Math.floor(Math.max(0, umb - XP.startStat) / RITE.umbPerSlot)
+/** How much stronger every shadow is for this witch's UMB. */
+export function shadowPower(umb: number): number {
 }
 
 export interface Derived {
