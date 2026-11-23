@@ -45,3 +45,4 @@ interface Hand {
   base: THREE.Vector3
   baseRot: THREE.Euler
   pose: Pose
+  target: PoseName
