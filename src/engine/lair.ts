@@ -41,3 +41,4 @@ function crackTexture(size: number) {
   let seed = 41
   const R = () => ((seed = (seed * 16807) % 2147483647) / 2147483647)
   for (let i = 0; i < size * 6; i++) {
+    g.fillStyle = R() < 0.5 ? 'rgba(0,0,0,0.25)' : 'rgba(255,240,230,0.04)'
