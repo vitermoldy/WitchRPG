@@ -252,3 +252,4 @@ export class BossFight {
     const g = this.g
     const u = this.u
     this.volleyT -= dt
+    if (this.volleyT > 0) return
