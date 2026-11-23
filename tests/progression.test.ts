@@ -4,6 +4,7 @@ import {
   bossUnlocked,
   buyUpgrade,
   derive,
+  isFresh,
   gainXp,
   impactDamage,
   newProfile,
