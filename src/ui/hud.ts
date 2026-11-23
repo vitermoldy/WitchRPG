@@ -224,3 +224,4 @@ export class Hud {
       el.style.transform = `translate(${((this.v.x + 1) / 2) * w}px, ${((1 - this.v.y) / 2) * h}px)`
       const k = Math.max(0, u.hp / u.maxHp)
       ;(el.firstChild as HTMLElement).style.transform = `scaleX(${k.toFixed(3)})`
+      el.classList.toggle('weak', u.vulnerable > 0)
