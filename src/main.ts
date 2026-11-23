@@ -169,3 +169,4 @@ async function boot() {
     $('out-sens').textContent = game.profile.settings.sensitivity.toFixed(2)
     game.saveSoon()
   })
+  $<HTMLInputElement>('set-vol').addEventListener('input', (e) => {
