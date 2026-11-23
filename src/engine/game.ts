@@ -167,3 +167,4 @@ export class Game {
 
     this.input.onKey = (code) => {
       if (code === 'Tab' && this.state === 'playing') this.openLedger()
+    }
