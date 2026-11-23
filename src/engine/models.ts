@@ -418,6 +418,7 @@ function harrier(team: Team): UnitModel {
   const body = pivot(root, 0, 0.5, 0)
   const parts: Record<string, THREE.Object3D> = {}
   body.add(box(0.28, 0.24, 0.78, bodyMat, meshes))
+  const chest = box(0.34, 0.3, 0.3, bodyMat, meshes, -0.02)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
