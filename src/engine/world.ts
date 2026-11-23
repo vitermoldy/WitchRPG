@@ -413,3 +413,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const wall = half + 0.5
   colliders.add(0, -wall, wall * 2 + 2, 1, 60)
   colliders.add(0, wall, wall * 2 + 2, 1, 60)
+  colliders.add(-wall, 0, 1, wall * 2 + 2, 60)
