@@ -261,3 +261,4 @@ export class Umbra {
   shadowFell(u: Unit) {
     const g = this.g
     if (u.record) {
+      this.down.add(u.record.id)
