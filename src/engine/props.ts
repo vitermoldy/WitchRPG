@@ -62,3 +62,4 @@ function carMesh(color: number) {
     if ((o as THREE.Mesh).isMesh) {
       o.castShadow = true
       o.receiveShadow = true
+    }
