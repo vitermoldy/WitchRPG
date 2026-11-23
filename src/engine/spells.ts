@@ -719,3 +719,4 @@ export class Spells {
     if (this.barrierT <= 0) this.endBarrier()
   }
 
+  cooldowns() {
