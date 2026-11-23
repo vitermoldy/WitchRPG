@@ -63,3 +63,5 @@ export class BossFight {
       dmg = Math.min(dmg, Math.max(0, u.hp - floorHp))
     }
     return dmg
+  }
+
