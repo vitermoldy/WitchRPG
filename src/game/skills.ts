@@ -25,3 +25,4 @@ export interface SkillDef {
   built: boolean
 }
 
+export const SKILLS: SkillDef[] = [
