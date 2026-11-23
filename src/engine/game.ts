@@ -360,3 +360,4 @@ export class Game {
     this.smoke.clear()
     this.lights.reset()
     this.spells.reset()
+    this.umbra.reset()
