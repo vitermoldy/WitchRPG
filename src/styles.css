@@ -605,3 +605,4 @@ button:disabled {
 
 .ring-chaos.full {
   stroke-width: 3.5;
+  animation: pulse-ring 0.6s ease-in-out infinite alternate;
