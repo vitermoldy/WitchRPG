@@ -20,3 +20,4 @@ const UP = new THREE.Vector3(0, 1, 0)
  * the instance into and out of the ground. The nearest shadows keep their own animated models.
  */
 export class ShadowCrowd {
+  readonly group = new THREE.Group()
