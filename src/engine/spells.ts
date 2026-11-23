@@ -516,3 +516,4 @@ export class Spells {
           u.thrown = throwIt
           u.setState('air')
         }
+      } else {
