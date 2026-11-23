@@ -453,3 +453,4 @@ export class Spells {
     this.grabbed = this.grabbed.filter((gb) => (gb.unit ? gb.unit.alive : true))
     if (!this.grabbed.length) {
       this.dropAll(false)
+      return
