@@ -273,3 +273,4 @@ export class Game {
       if (by === 'player' || by === 'impact') {
         this.spells.addChaos(chaosFromDamage(amount, 0))
         this.hud.hit(false)
+      }
