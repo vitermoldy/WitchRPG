@@ -15,3 +15,4 @@ const screens: Record<string, HTMLElement> = {
   error: $('screen-error'),
   title: $('screen-start'),
   paused: $('screen-pause'),
+  result: $('screen-result'),
