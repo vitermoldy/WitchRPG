@@ -354,15 +354,7 @@ export class UnitSystem {
         if (u.team === 'shadow') {
           // Out of the fight, shadows knit back together.
           u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
-          if (u.command === 'hold') this.steer(u, u.holdPos, speed, dt, 0.6)
-          else {
-            const p = this.host.player
-            const n = Math.max(1, this.units.filter((o) => o.team === 'shadow').length)
-            const a = p.yaw + Math.PI + (u.slot - (n - 1) / 2) * 0.7
-            tmp2.set(p.pos.x - Math.sin(a) * SHADOW.followDistance, 0, p.pos.z - Math.cos(a) * SHADOW.followDistance)
-            const far = u.pos.distanceTo(p.pos) > 9
-            this.steer(u, tmp2, far ? speed * 1.6 : speed, dt, 0.8)
-          }
+          this.follow(u, speed, dt)
         } else this.steer(u, u.pos, 0, dt)
         return
       }
