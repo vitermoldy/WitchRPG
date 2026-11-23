@@ -38,3 +38,4 @@ const geo = new THREE.IcosahedronGeometry(1, 1)
 const MATS: Record<'rift' | 'shadow' | 'reflected', THREE.MeshBasicMaterial> = {
   rift: new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.rift).multiplyScalar(2.6) }),
   shadow: new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.umbra).multiplyScalar(2.6) }),
+  reflected: new THREE.MeshBasicMaterial({ color: new THREE.Color(COLOR.chaos).multiplyScalar(3) }),
