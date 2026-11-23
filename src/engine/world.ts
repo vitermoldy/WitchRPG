@@ -114,3 +114,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
     for (let i = 0; i < 9; i++) {
       const x = px(at.x)
       const y = px(at.z)
+      const a = (i / 9) * Math.PI * 2 + R() * 0.5
