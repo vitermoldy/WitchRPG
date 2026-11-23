@@ -155,3 +155,4 @@ function hound(team: Team): UnitModel {
   ]
   for (const [name, x, z] of legs) {
     const hip = pivot(body, x, -0.12, z)
+    hip.add(box(0.11, 0.36, 0.13, bodyMat, meshes, -0.16))
