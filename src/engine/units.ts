@@ -251,3 +251,4 @@ export class UnitSystem {
         return
       }
       const d = Math.hypot(tgt.pos.x - u.pos.x, tgt.pos.z - u.pos.z) - tgt.radius
+      if (u.kind === 'hound') {
