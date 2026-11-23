@@ -241,6 +241,7 @@ export class Game {
     this.onRiftEnd?.({
       tier: 1,
       result,
+      wave: r.wave,
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
