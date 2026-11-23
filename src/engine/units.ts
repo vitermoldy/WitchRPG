@@ -441,3 +441,4 @@ export class UnitSystem {
       }
       // Keep clear of the witch.
       const p = host.player
+      const dx = a.pos.x - p.pos.x
