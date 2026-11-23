@@ -216,3 +216,4 @@ export class BossFight {
       if (u.state === 'windup') u.setState('recover')
       return true
     }
+    const d = goal ? Math.hypot(goal.x - u.pos.x, goal.z - u.pos.z) : 99
