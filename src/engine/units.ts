@@ -589,3 +589,4 @@ export class UnitSystem {
         for (let i = 0; i < 4; i++) P[legs[i]].rotation.x = Math.sin(t * 20 + i) * 0.9
       }
     }
+  }
