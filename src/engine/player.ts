@@ -179,6 +179,8 @@ export class Player {
     this.crouching = false
     const speed = (boost ? MOVE.flyBoost : MOVE.flySpeed) * this.speedMult
     const up = (canAct && input.held('Space') ? 1 : 0) - (canAct && input.held('KeyC') ? 1 : 0)
+    const goal = new THREE.Vector3(wish.x * speed, up * MOVE.flyClimb * (boost ? 1.5 : 1), wish.z * speed)
+    const step = MOVE.flyAccel * dt
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
