@@ -13,3 +13,4 @@ Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Docu
 
 ## Yang sudah bisa dimainkan
 
+- Gerak FPS: jalan, lari, lompat, Crimson Float (tahan Spasi di udara, stamina), menunduk dan slide, head bob dan guncangan kamera yang bisa dimatikan.
