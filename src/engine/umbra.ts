@@ -242,6 +242,7 @@ export class Umbra {
         const rec = g.profile.shadows.find((s) => s.id === id)
         if (!rec || g.units.units.some((u) => u.record === rec && u.alive)) continue
         const slot = this.field().length
+        const pos = this.spot(slot)
     // Shadows of a call rise one after another.
     while (this.calls.length && this.calls[0].at <= this.time) {
       const c = this.calls.shift()!
