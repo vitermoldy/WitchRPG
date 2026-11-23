@@ -71,6 +71,7 @@ function cleanProfile(p) {
   for (const t of TIERS) {
     tierClears[t] = int(p.tierClears?.[t] ?? 0, 0, 1_000_000)
     if (tierClears[t] === null) return { error: 'Jumlah Rift per tier di luar batas.' }
+  }
   const stats = {}
   for (const k of STATS) {
     stats[k] = int(p.stats?.[k], 1, 999)
