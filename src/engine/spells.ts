@@ -407,3 +407,4 @@ export class Spells {
       const at = first.unit ? first.unit.pos : first.prop!.pos
       let second: Unit | null = null
       let sd = 4
+      for (const u of g.units.units) {
