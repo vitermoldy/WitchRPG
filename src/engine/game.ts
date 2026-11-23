@@ -77,3 +77,4 @@ export class Game {
 
     const loaded = loadProfile()
     this.profile = loaded.profile
+    this.saveError = loaded.error
