@@ -43,3 +43,4 @@ function fmtTime(s: number) {
   return `${m} menit ${r} detik`
 }
 
+async function boot() {
