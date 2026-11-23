@@ -19,3 +19,4 @@ export interface RayHit {
   box: Box | null
 }
 
+/** Static world: axis-aligned boxes standing on the ground at y = 0. */
