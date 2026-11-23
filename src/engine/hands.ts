@@ -208,3 +208,4 @@ export class Hands {
   readonly camera = new THREE.PerspectiveCamera(62, 1, 0.01, 10)
   readonly particles = new Particles(500, 'glow')
   private readonly left: Hand
+  private readonly right: Hand
