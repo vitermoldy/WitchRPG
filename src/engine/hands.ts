@@ -294,3 +294,4 @@ export class Hands {
       h.root.rotation.set(h.baseRot.x - p.palmDown * 0.2 - h.kick * 0.2, h.baseRot.y - mirror * p.twist * 0.5, h.baseRot.z)
       h.wrist.rotation.x = -p.palmDown * 0.85
       // Fingers: curl bends toward the palm (forward), spread fans them out.
+      for (const f of h.fingers) {
