@@ -25,6 +25,8 @@ export const MOVE = {
   slideBoost: 1.45,
   /** Flight: double-tap Space. Free in the open world; in a Rift it burns stamina. */
   flySpeed: 13,
+  flyBoost: 26,
+  flyClimb: 8,
   interactRange: 3,
 } as const
 
