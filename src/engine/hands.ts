@@ -352,3 +352,4 @@ export class Hands {
         count: 1,
         color: col,
         intensity: 2.2 + k,
+        life: 0.25,
