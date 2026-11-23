@@ -115,10 +115,7 @@ export class RiftDirector {
     const spec = this.tier.waves[i]
     const q: Spawn[] = []
     const lv = () => spec.levels[0] + Math.floor(Math.random() * (spec.levels[1] - spec.levels[0] + 1))
-    for (let n = 0; n < spec.husk; n++) q.push({ kind: 'husk', level: lv() })
-    for (let n = 0; n < spec.hound; n++) q.push({ kind: 'hound', level: lv() })
-    // Shuffle so hounds arrive mixed in with the husks.
-    for (let n = q.length - 1; n > 0; n--) {
+    for (const kind of ORDER) for (let n = 0; n < (spec[kind] ?? 0); n++) q.push({ kind, level: lv() })
       const k = Math.floor(Math.random() * (n + 1))
       ;[q[n], q[k]] = [q[k], q[n]]
     }
