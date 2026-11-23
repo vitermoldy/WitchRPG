@@ -130,3 +130,4 @@ function rayBox(o: THREE.Vector3, d: THREE.Vector3, b: Box, maxT: number): { t: 
       t1 = t2
       t2 = tmp
       s = 1
+    }
