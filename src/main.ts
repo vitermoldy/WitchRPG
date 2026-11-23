@@ -234,6 +234,8 @@ async function boot() {
       else $('btn-resume').focus()
       return
     }
+    const gate = !!game.returnToWorld
+    const ok = await confirmDialog(
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
     game.profile.settings.sensitivity = Number((e.target as HTMLInputElement).value)
