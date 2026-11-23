@@ -63,3 +63,4 @@ export class Ledger {
       const p = this.host.profile
       if (t.dataset.stat) {
         if (spendStat(p, t.dataset.stat as StatKey)) this.after(t.dataset.stat)
+      } else if (t.dataset.upgrade) {
