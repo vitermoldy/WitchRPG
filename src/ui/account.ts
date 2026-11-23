@@ -28,3 +28,4 @@ export interface AccountHooks {
   onProfileChanged: () => void
 }
 
+/** Returns `refresh`, for when the title screen comes back after a Rift or the Ledger. */
