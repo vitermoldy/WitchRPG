@@ -223,6 +223,7 @@ export class UnitSystem {
       for (const o of this.units) {
         if (o.team !== 'shadow' || !o.alive || o.state === 'rising') continue
         // A shadow Warden draws attention to itself.
+        const d = u.pos.distanceTo(o.pos) * (o.kind === 'warden' ? 0.6 : 1)
         if (d < bestD) {
           best = o
           bestD = d
