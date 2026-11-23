@@ -429,3 +429,4 @@ export class Spells {
         g.props.wakeNear(gb.prop.pos, 2)
       }
     }
+    g.hands.pose('left', 'grip')
