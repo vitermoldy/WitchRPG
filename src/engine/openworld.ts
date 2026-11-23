@@ -121,3 +121,6 @@ function groundMaterial() {
         diffuseColor.rgb = col;`,
       )
   }
+  return mat
+}
+
