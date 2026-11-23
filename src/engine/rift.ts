@@ -158,6 +158,7 @@ export class RiftDirector {
       g.sfx.roar()
       g.player.addTrauma(0.3)
     }
+    const big = UNITS[next.kind].height / 1.8
   }
 
   update(dt: number) {
