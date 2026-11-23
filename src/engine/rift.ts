@@ -49,3 +49,4 @@ export class RiftDirector {
     const tear = new THREE.Mesh(new THREE.PlaneGeometry(2.2, 3.6), this.exitMat)
     tear.position.y = 1.8
     this.exit.add(tear)
+    const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTexture(), color: new THREE.Color(COLOR.umbra).multiplyScalar(1.4), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }))
