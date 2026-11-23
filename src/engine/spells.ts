@@ -542,3 +542,4 @@ export class Spells {
     const g = this.g
     if (!this.unlocked(id)) {
       g.hud.message(`${id === 'burst' ? 'Chaos Burst' : id === 'snare' ? 'Hex Snare' : 'Hex Barrier'} terbuka di Lv ${id === 'burst' ? 3 : id === 'snare' ? 5 : 7}.`, 'info')
+      return
