@@ -1860,3 +1860,5 @@ dialog::backdrop {
 }
 
 .room-members .room-item {
+  border-color: var(--line);
+}
