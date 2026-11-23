@@ -200,3 +200,4 @@ export class Player {
     cam.rotation.set(this.pitch + sp, this.yaw + sy, sr + (this.sliding > 0 ? 0.04 : 0), 'YXZ')
     const fovTarget = this.sprinting || this.sliding > 0 ? CAMERA.sprintFov : CAMERA.fov
     this.fov += (fovTarget - this.fov) * Math.min(1, dt * 6)
+    if (Math.abs(cam.fov - this.fov) > 0.01) {
