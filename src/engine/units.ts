@@ -415,3 +415,4 @@ export class UnitSystem {
         if (d2 < min * min && d2 > 1e-6 && u.pos.y < b.top - 0.1) {
           const d = Math.sqrt(d2)
           u.pos.x = b.pos.x + (dx / d) * min
+          u.pos.z = b.pos.z + (dz / d) * min
