@@ -353,3 +353,4 @@ export class Umbra {
           pick = s
         }
       }
+      const mine = g.player.pos.clone()
