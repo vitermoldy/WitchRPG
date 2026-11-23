@@ -23,6 +23,7 @@ export interface Prop {
   hitUnits: Set<number>
   hitCooldown: number
   /** Seconds of near-straight flight left after a Telekinesis throw. */
+  flight: number
 }
 
 export interface PropHost {
