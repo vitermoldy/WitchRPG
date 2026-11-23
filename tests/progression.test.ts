@@ -89,3 +89,4 @@ describe('stats and slots', () => {
   })
 })
 
+describe('upgrades and shadows', () => {
