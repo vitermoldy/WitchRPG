@@ -95,3 +95,5 @@ export interface Derived {
   speedMult: number
   floatTime: number
   slots: number
+}
+
