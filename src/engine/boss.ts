@@ -39,3 +39,4 @@ export class BossFight {
   }
 
   /** Damage after the shell has had its say. Also stops a phase from being skipped in one hit. */
+  filter(amount: number, by: DamageSource, from: THREE.Vector3): number {
