@@ -578,6 +578,7 @@ export class UnitSystem {
         } else this.steer(u, u.pos, 0, dt)
         return
       }
+      // Circle the target at dive distance; close in tight when a wall or roof hides it.
     }
   }
 
