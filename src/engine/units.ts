@@ -555,3 +555,4 @@ export class UnitSystem {
       ;(P.kneeL as THREE.Object3D).rotation.x = Math.max(0, -sw) * 0.8 * amp
       ;(P.kneeR as THREE.Object3D).rotation.x = Math.max(0, sw) * 0.8 * amp
       armL.rotation.x = armX + (armX === 0 ? -sw * 0.4 * amp : 0)
+      armR.rotation.x = armX + (armX === 0 ? sw * 0.4 * amp : 0)
