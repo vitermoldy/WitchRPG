@@ -491,3 +491,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   }
 
   // Props for the physics layer.
+  const props: PropSpot[] = [
