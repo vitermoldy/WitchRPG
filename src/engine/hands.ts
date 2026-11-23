@@ -46,3 +46,4 @@ interface Hand {
   baseRot: THREE.Euler
   pose: Pose
   target: PoseName
+  hold: number
