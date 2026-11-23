@@ -210,6 +210,7 @@ export class RiftDirector {
           g.sfx.roar()
         } else {
           this.openExit(this.cityExit)
+          g.hud.banner('Rift ditaklukkan', 'Retakan di monumen terbuka. Dekati lalu tekan F untuk keluar.')
         }
       }
       return
