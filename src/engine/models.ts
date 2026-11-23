@@ -480,6 +480,7 @@ function harrier(team: Team): UnitModel {
 /** A squat brute with a stone mortar grown out of its back; the muzzle burns brighter before it fires. */
 function bombard(team: Team): UnitModel {
   return biped(
+    team,
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
