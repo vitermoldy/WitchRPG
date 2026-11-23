@@ -24,6 +24,7 @@ export function loadProfile(): { profile: Profile; error: string | null } {
 export function normalizeProfile(data: Partial<Profile> | null | undefined): Profile | null {
   if (!data || data.version !== 1 || typeof data.level !== 'number' || !data.stats) return null
   const base = newProfile()
+  const profile: Profile = {
   try {
     localStorage.setItem(KEY, JSON.stringify(p))
     return true
