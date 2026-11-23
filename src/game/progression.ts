@@ -41,3 +41,4 @@ export interface Profile {
   statPoints: number
   skillPoints: number
   stats: Stats
+  upgrades: Partial<Record<SkillId, boolean>>
