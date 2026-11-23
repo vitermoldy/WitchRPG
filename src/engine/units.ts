@@ -393,3 +393,4 @@ export class UnitSystem {
           if (u.thrown && speed > SPELL.impact.minSpeed) this.impact(u, speed, null)
           u.vel.y = 0
           u.vel.x *= 0.3
+          u.vel.z *= 0.3
