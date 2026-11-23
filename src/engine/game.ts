@@ -47,3 +47,4 @@ export class Game {
   readonly units: UnitSystem
   readonly props: PropSystem
   readonly spells: Spells
+  readonly umbra: Umbra
