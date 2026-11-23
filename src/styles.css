@@ -273,3 +273,4 @@ button:disabled {
   background: linear-gradient(90deg, var(--chaos-ink) 0%, var(--ink) 48%, var(--umbra-ink) 100%);
   -webkit-background-clip: text;
   background-clip: text;
+  color: transparent;
