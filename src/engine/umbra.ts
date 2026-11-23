@@ -77,3 +77,4 @@ export class Umbra {
     const cam = g.camera
     const eye = g.player.eyePos
     const fwd = g.player.viewDir()
+    let best: Unit | null = null
