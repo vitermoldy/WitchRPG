@@ -74,3 +74,4 @@ export class ShadowCrowd {
       this.group.remove(b.mesh)
       b.mesh.dispose()
       b.mesh = this.makeMesh(b.geo, b.mats, cap)
+      b.cap = cap
