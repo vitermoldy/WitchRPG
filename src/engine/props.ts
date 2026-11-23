@@ -220,3 +220,4 @@ export class PropSystem {
           p.vel.addScaledVector(n, -into * 1.35)
           p.vel.multiplyScalar(0.6)
         }
+      }
