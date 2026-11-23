@@ -127,3 +127,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
         const R2 = rand(i * 31 + Math.round(at.x * 7 + at.z * 13))
         eg.beginPath()
         g.beginPath()
+        eg.moveTo(cx, cy)
