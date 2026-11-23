@@ -19,6 +19,7 @@ Prototype yang bisa dimainkan dari [Game Design Document](./Game%20Design%20Docu
 - Umbra: Umbra Rite (tahan R di tubuh yang bersinar, satu lemparan peluang per tubuh), slot bayangan, roda perintah Z (Ikuti, Serang, Tahan, Tukar Tempat), Perintah Fokus, bayangan ikut naik level dan kembali utuh di Rift berikutnya.
 - Tiga tier Rift di kota yang dikepung retakan: Tier I (Husk, Rift Hound), Tier II (ditambah Spitter yang menembak dari perancah), Tier III (ditambah Warden berperisai dan Rift Lord sebagai mini-boss).
 - Jantung Rift di ujung Tier III: The Hollow Warden dalam tiga fase GDD, lantai yang runtuh menjadi pilar di atas kehampaan, Reality Warp sebagai kunci fase 3, dan epilog setelah boss pertama tumbang.
+- Kebangkitan Jenderal (Rift Lord) dan Kebangkitan Marsekal (boss, satu kali), masing-masing dengan skill bayangan sendiri.
 - Ledger (Tab): level, XP, 3 poin stat dan 1 poin skill per level, pohon skill dua cabang, Ruang Bayangan dengan tombol Lepas.
 - Simpanan di localStorage, layar judul, jeda dengan pengaturan, hasil Rift, layar tumbang.
 
