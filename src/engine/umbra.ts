@@ -96,6 +96,8 @@ export class Umbra {
     while (index >= 8 + ring * 4) {
       index -= 8 + ring * 4
       ring++
+    }
+    const inRing = 8 + ring * 4
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
