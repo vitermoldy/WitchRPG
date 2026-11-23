@@ -300,3 +300,4 @@ export class PropSystem {
       if (d > 3) continue
       p.hitUnits.add(u.id)
       const dmg = impactDamage(p.mass, fall, c.coefficient, c.exponent) * 0.6
+      this.host.hurtUnit(u, dmg, p.pos, 'impact')
