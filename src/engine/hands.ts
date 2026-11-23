@@ -138,3 +138,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
       }
       joints.push(j)
       parent = j
+      y = len
