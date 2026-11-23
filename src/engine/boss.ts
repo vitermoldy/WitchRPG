@@ -266,3 +266,4 @@ export class BossFight {
     }
     g.sfx.spit()
   }
+}
