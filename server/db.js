@@ -30,3 +30,4 @@ const TABLES = [
     next_shadow_id INT UNSIGNED NOT NULL,
     clears INT UNSIGNED NOT NULL,
     settings JSON NOT NULL,
+    updated_at DATETIME(3) NOT NULL,
