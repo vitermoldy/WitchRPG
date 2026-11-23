@@ -619,6 +619,7 @@ export class UnitSystem {
         u.setState('recover')
         u.cd = spec.cooldown * u.tempo
       }
+      return
     }
   }
 
