@@ -12,3 +12,4 @@ const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
 export interface RiftRecord {
   tier: number
   result: 'cleared' | 'fallen' | 'left'
+  wave: number
