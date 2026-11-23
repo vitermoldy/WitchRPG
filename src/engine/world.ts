@@ -104,3 +104,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
       x += Math.cos(a) * 9
       y += Math.sin(a) * 9
       g.lineTo(x, y)
+    }
