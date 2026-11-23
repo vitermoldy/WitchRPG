@@ -117,3 +117,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   }
 
   function setNote(text: string): void {
+    note = text
