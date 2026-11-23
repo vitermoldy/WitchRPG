@@ -642,6 +642,7 @@ export class Spells {
     wall.position.y = 3.5
     wall.renderOrder = 7
     group.add(wall)
+    g.scene.add(group)
   private burst() {
     const g = this.g
     const s = SPELL.burst
