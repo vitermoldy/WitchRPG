@@ -24,3 +24,4 @@ export class Hud {
   private bannerTimer = 0
   private hitTimer = 0
   private hurt = 0
+  private manaFlash = 0
