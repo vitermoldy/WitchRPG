@@ -210,3 +210,4 @@ export class Hud {
     let n = 0
     for (const u of g.units.units) {
       if (u.team !== 'rift' || !u.alive || u.barShown <= 0) continue
+      this.v.set(u.pos.x, u.pos.y + u.height + 0.35, u.pos.z).project(cam)
