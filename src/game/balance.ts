@@ -24,3 +24,5 @@ export const MOVE = {
   slideTime: 1,
   slideBoost: 1.45,
   interactRange: 3,
+} as const
+
