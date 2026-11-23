@@ -625,6 +625,8 @@ export class Game {
     this.hud.message(`Tekan T untuk memanggil ${this.profile.shadows.length} bayangan dari Ruang Bayangan.`, 'umbra')
   }
 
+  /** Back to the world at the gate she left through, with the camps as she left them. */
+  async backToWorld() {
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
