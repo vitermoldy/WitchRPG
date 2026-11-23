@@ -160,3 +160,4 @@ export class UnitSystem {
       u.pos.y = Math.max(u.pos.y, 0.05)
       u.setState('air')
     } else if (u.state !== 'air') {
+      u.setState('recover', 0)
