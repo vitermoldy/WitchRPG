@@ -162,3 +162,5 @@ export interface WaveSpec {
   husk: number
   hound: number
   levels: [number, number]
+}
+
