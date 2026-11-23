@@ -160,3 +160,4 @@ export class Ledger {
     $('room-count').textContent = `${p.shadows.length} dari ${d.slots} slot`
     $('room-list').innerHTML = p.shadows.length
       ? p.shadows
+          .map(
