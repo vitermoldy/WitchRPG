@@ -133,6 +133,7 @@ export class Unit implements Target {
     if (!this.built) {
       this.built = buildModel(this.kind, this.team)
       // A shadow army casts no shadows: half the draw cost per soldier, and they are shadow already.
+      if (this.team === 'shadow') for (const m of this.built.meshes) m.castShadow = false
   get alive() {
     return this.state !== 'dead'
   }
