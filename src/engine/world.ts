@@ -15,6 +15,7 @@ export interface WorldBuild {
   city: THREE.Group
   colliders: Colliders
   portals: THREE.Vector3[]
+  /** Scaffold tops where Spitters take position, high above the street. */
   playerStart: THREE.Vector3
   props: PropSpot[]
   breakables: Box[]
