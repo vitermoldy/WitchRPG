@@ -448,7 +448,7 @@ export class UnitSystem {
           u.setState('windup')
           return
         }
-        if (perched) {
+        if (perched && !u.hunt) {
           // A Spitter on a ledge holds it and turns to watch.
           this.steer(u, u.pos, 0, dt)
           this.face(u, tgt.pos, dt, 4)
