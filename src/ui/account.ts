@@ -6,3 +6,4 @@ import {
   authState,
   checkAccount,
   fetchProfile,
+  flushQueue,
