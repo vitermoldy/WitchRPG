@@ -41,3 +41,4 @@ try {
   const [[runs]] = await pool.query('SELECT COUNT(*) AS n FROM rift_runs WHERE client_id = ?', [client])
   console.log(
     w || runs.n
+      ? `${config.name}: akun ${username} dibuat dan memegang data yang sudah ada: witch Lv ${w?.level ?? 1}, ${runs.n} Rift tercatat.`
