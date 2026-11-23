@@ -340,6 +340,7 @@ export class Warnings {
     const ring = new THREE.RingGeometry(0.95, 1, 64)
     ring.rotateX(-Math.PI / 2)
     for (let i = 0; i < count; i++) {
+      const group = new THREE.Group()
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
