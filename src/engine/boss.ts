@@ -150,3 +150,5 @@ export class BossFight {
     p.hp = Math.min(p.maxHp, p.hp + heal)
     p.mana = Math.min(p.maxMana, p.mana + BOSS.phaseMana)
     this.g.hud.message(`Perjanjian menahanmu: HP pulih ${heal}, mana pulih ${BOSS.phaseMana}.`, 'umbra')
+  }
+
