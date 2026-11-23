@@ -249,3 +249,4 @@ export class Spells {
       if (input.pressed('KeyX')) this.cast('barrier')
     }
     if (this.grabbed.length) {
+      if (!canAct || input.released('Mouse2') || !input.held('Mouse2')) this.dropAll(canAct)
