@@ -104,7 +104,7 @@ export class RiftDirector {
   }
 
   get totalWaves() {
-    return RIFT_TIER_1.waves.length
+    return this.tier.waves.length
   }
 
   get remaining() {
