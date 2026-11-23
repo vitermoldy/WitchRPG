@@ -401,6 +401,7 @@ export class UnitSystem {
           if (u.team === 'rift') this.host.telegraph(u.slamAt, spec.slam, spec.windup)
         }
         if (Math.random() < 0.35 || spec.slam) this.host.growl()
+        return
       }
       return
     }
