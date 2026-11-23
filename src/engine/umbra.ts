@@ -201,3 +201,4 @@ export class Umbra {
     if (!u) return
     const why = this.blocker()
     if (why) {
+      g.hud.message(why, 'umbra')
