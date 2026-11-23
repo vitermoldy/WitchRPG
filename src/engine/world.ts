@@ -185,3 +185,4 @@ function facadeTextures(seed: number) {
         // Broken pane.
         g.fillStyle = '#1b1718'
         g.beginPath()
+        g.moveTo(x, y)
