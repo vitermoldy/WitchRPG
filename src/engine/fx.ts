@@ -445,6 +445,8 @@ export class ShadowPools {
     }
   }
 
+  /** Opens a pool that spreads out, stays for `hold` seconds, then shrinks away. */
+  open(at: { x: number; y: number; z: number }, radius: number, hold: number, delay = 0) {
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
