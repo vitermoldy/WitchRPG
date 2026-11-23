@@ -515,3 +515,4 @@ export class Spells {
           u.vel.copy(v)
           u.thrown = throwIt
           u.setState('air')
+        }
