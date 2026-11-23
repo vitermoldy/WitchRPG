@@ -389,3 +389,4 @@ export class Spells {
       const o = g.player.eyePos
       const f = g.player.viewDir()
       let bestA: number = SPELL.grip.aimCone
+      for (const u of g.units.units) {
