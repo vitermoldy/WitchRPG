@@ -7,3 +7,4 @@ import {
   impactDamage,
   newProfile,
   riteChance,
+  shadowName,
