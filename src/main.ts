@@ -17,3 +17,5 @@ const screens: Record<string, HTMLElement> = {
   paused: $('screen-pause'),
   result: $('screen-result'),
   dead: $('screen-dead'),
+}
+
