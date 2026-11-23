@@ -354,6 +354,7 @@ function hollow(team: Team): UnitModel {
       rim.position.set(0, 0.86, -0.05)
       rim.castShadow = false
       p.spine.add(rim)
+      meshes.push(rim)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
