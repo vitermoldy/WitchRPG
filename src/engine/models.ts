@@ -310,6 +310,7 @@ function riftlord(team: Team): UnitModel {
       const core = new THREE.Mesh(new THREE.IcosahedronGeometry(0.2, 0), m.accent)
       core.position.set(0, 0.62, -0.3)
       core.castShadow = false
+      p.spine.add(core)
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   return kind === 'husk' ? husk(team) : hound(team)
 }
