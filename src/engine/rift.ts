@@ -43,3 +43,4 @@ export class RiftDirector {
       mesh.renderOrder = 6
       g.scene.add(mesh)
       this.portals.push({ pos: p.clone(), mesh, mat, open: 0 })
+    })
