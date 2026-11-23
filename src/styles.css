@@ -480,3 +480,4 @@ button:disabled {
 }
 
 .rift-wave {
+  font-family: var(--font-display);
