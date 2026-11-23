@@ -148,3 +148,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
         if (r.stale && r.profile) adopt(r.profile)
         setNote(remote ? 'Progres di browser ini lebih baru dan sudah dikirim' : 'Witch di browser ini sekarang milik akunmu')
       }
+      await flushQueue()
