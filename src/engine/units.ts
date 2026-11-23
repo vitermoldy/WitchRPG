@@ -440,3 +440,4 @@ export class UnitSystem {
         b.pos.z -= (dz / d) * push
       }
       // Keep clear of the witch.
+      const p = host.player
