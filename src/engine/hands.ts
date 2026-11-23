@@ -186,3 +186,4 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
     wrist,
     fingers,
     thumb,
+    orb,
