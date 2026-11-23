@@ -12,3 +12,4 @@ interface Shot {
   vel: THREE.Vector3
   gravity: number
   radius: number
+  damage: number
