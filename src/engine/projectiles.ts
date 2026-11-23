@@ -113,3 +113,4 @@ export class Projectiles {
           }
         }
         if (!hit) hit = this.hitUnits(s, 'shadow')
+      } else {
