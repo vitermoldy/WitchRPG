@@ -246,6 +246,8 @@ export const SHADOW_SKILL = {
   pull: { every: 12, radius: 11, stun: 1.5 },
 } as const
 
+export type WaveSpec = Partial<Record<Exclude<UnitKind, 'hollow'>, number>> & { levels: [number, number] }
+
 }
 
 export const RIFT_TIER_1 = {
