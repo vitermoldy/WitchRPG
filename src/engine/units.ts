@@ -452,3 +452,4 @@ export class UnitSystem {
       }
     }
 
+    for (const u of this.units) {
