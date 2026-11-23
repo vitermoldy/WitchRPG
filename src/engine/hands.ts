@@ -215,3 +215,4 @@ export class Hands {
   overload = false
   private readonly tmp = new THREE.Vector3()
 
+  constructor() {
