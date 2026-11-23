@@ -746,6 +746,8 @@ export class UnitSystem {
       }
       return
     }
+    if (u.state === 'sinking') {
+      const k = Math.min(1, u.t / 0.8)
     m.root.scale.setScalar(1)
 
     if (BIPEDS.has(u.kind)) this.animateBiped(u, sw, amp, t)
