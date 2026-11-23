@@ -279,3 +279,4 @@ export class PropSystem {
       const dz = u.pos.z - p.pos.z
       const r = p.radius + u.radius
       if (dx * dx + dz * dz > r * r) continue
+      if (p.pos.y - p.halfH > u.pos.y + u.height || p.pos.y + p.halfH < u.pos.y) continue
