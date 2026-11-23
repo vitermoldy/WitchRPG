@@ -157,3 +157,4 @@ export class Umbra {
     if (this.wheelOpen) {
       this.wheelX += g.input.dx
       this.wheelY += g.input.dy
+      const len = Math.hypot(this.wheelX, this.wheelY)
