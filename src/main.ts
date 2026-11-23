@@ -250,6 +250,7 @@ async function boot() {
   })
   $<HTMLInputElement>('set-detail').addEventListener('input', (e) => {
     game.profile.settings.detail = Number((e.target as HTMLInputElement).value)
+    $('out-detail').textContent = String(game.profile.settings.detail)
     game.saveSoon()
   })
   $<HTMLInputElement>('set-sens').addEventListener('input', (e) => {
