@@ -92,3 +92,4 @@ export class Umbra {
       if (glowing) {
         const pulse = 0.55 + Math.sin(t * 4 + u.id) * 0.25
         const end = Math.min(1, (window - u.deadT) / 3)
+        mat.emissive.set(COLOR.umbra)
