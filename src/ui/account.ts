@@ -154,3 +154,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     }
   }
 
+  /** Every local save also goes to the server, a moment later so quick changes travel together. */
