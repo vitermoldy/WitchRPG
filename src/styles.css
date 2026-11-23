@@ -927,3 +927,4 @@ button:disabled {
 }
 
 .wheel-hint {
+  position: absolute;
