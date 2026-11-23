@@ -143,6 +143,7 @@ export class RiftDirector {
 
   private spawnNext() {
     const g = this.g
+    const next = this.queue.shift()!
   }
 
   update(dt: number) {
