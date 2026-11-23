@@ -225,3 +225,4 @@ export class Spells {
     this.barrierCd = Math.max(0, this.barrierCd - dt)
 
     // Overload, then Backlash.
+    if (this.overloadT > 0) {
