@@ -173,3 +173,5 @@ function buildHand(side: Side, color: number, tex: THREE.Texture): Hand {
   wrist.add(orb)
   const light = new THREE.PointLight(color, 0.02, 0.6, 2)
   light.position.set(0, 0.07, -0.16)
+  wrist.add(light)
+
