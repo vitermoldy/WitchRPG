@@ -349,3 +349,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   const concrete = new THREE.MeshStandardMaterial({ color: 0x4a4446, roughness: 0.95, flatShading: true })
   const darkMetal = new THREE.MeshStandardMaterial({ color: 0x242022, roughness: 0.6, metalness: 0.5, flatShading: true })
   const panelMat = new THREE.MeshStandardMaterial({ color: 0x3b3236, roughness: 0.8, metalness: 0.3, flatShading: true })
+  const stripe = new THREE.MeshStandardMaterial({ color: 0x8a7a5a, roughness: 0.8 })
