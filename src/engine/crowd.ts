@@ -72,3 +72,4 @@ export class ShadowCrowd {
       let cap = b.cap
       while (cap < need) cap *= 2
       this.group.remove(b.mesh)
+      b.mesh.dispose()
