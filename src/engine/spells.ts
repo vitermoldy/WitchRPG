@@ -538,3 +538,4 @@ export class Spells {
     } else g.hands.pose('left', 'idle')
   }
 
+  private cast(id: 'burst' | 'snare' | 'barrier') {
