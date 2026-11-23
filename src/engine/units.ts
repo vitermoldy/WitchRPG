@@ -275,3 +275,4 @@ export class UnitSystem {
     if (u.state === 'windup') {
       u.vel.x *= Math.exp(-10 * dt)
       u.vel.z *= Math.exp(-10 * dt)
+      if (tgt) this.face(u, tgt.pos, dt, 12)
