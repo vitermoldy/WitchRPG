@@ -15,3 +15,4 @@ export class Player {
   readonly vel = new THREE.Vector3()
   yaw = 0
   pitch = 0
+  onGround = true
