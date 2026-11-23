@@ -743,6 +743,7 @@ export class UnitSystem {
     const slammer = !!u.spec.slam
     let armX = 0
     let lean = baseLean
+    let shieldUp = u.kind === 'warden' && u.stun <= 0
       }
     }
   }
