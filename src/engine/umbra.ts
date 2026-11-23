@@ -108,6 +108,9 @@ export class Umbra {
       const below = this.g.colliders.groundAt(p.pos.x, p.pos.z, 0.5, p.pos.y, 0.5)
       at.set(p.pos.x + (Math.random() - 0.5) * 2, below > -50 ? below : p.pos.y, p.pos.z + (Math.random() - 0.5) * 2)
     }
+    return at
+  }
+
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
