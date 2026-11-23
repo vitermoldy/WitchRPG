@@ -14,3 +14,5 @@ interface Pose {
   palmDown: number
   tremble: number
   glow: number
+}
+
