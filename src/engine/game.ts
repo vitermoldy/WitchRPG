@@ -601,6 +601,8 @@ export class Game {
     this.smoke.clear()
     this.lights.reset()
     this.spells.reset()
+    this.umbra.reset()
+    this.hud.clearFeed()
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
