@@ -15,3 +15,4 @@ export class Hud {
   private readonly bannerEl = $('banner')
   private readonly prompt = $('prompt')
   private readonly chaosRing = $('chaos-ring') as unknown as SVGCircleElement
+  private readonly hitmark = $('hitmark') as unknown as SVGGElement
