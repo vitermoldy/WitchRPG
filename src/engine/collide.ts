@@ -102,3 +102,4 @@ export class Colliders {
     const dir = b.clone().sub(a)
     const len = dir.length()
     if (len < 1e-4) return true
+    dir.divideScalar(len)
