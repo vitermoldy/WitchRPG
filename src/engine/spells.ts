@@ -583,3 +583,4 @@ export class Spells {
         if (dir.lengthSq() < 1e-4) dir.set(Math.random() - 0.5, 0, Math.random() - 0.5)
         dir.normalize().multiplyScalar(push * k)
         dir.y = lift * k
+        g.units.knock(u, dir)
