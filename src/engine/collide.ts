@@ -39,3 +39,4 @@ export class Colliders {
    * feetY + step; lower boxes are walked onto instead. Returns true on any contact.
    */
   pushCircle(pos: THREE.Vector3, r: number, feetY: number, step: number, outNormal?: THREE.Vector3): boolean {
+    let hit = false
