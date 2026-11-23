@@ -12,6 +12,7 @@ const POOLS_PER_CALL = 90
 
 /** How far from the witch the outer rank of an army this big stands (see the formation). */
 function ringRadius(count: number) {
+  let ring = 0
 interface Call {
   at: number
   rec: ShadowRecord
