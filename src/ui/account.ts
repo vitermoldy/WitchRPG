@@ -202,3 +202,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       submit.disabled = false
       submit.textContent = label()
     }
+  })
+
