@@ -63,3 +63,5 @@ export class Game {
   debugSpeed = 1
   private readonly brokenCover: Box[] = []
   private readonly unitHost: UnitHost
+  onState: ((s: GameState) => void) | null = null
+
