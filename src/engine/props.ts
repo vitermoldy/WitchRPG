@@ -10,3 +10,4 @@ export interface Prop {
   id: number
   kind: PropKind
   mesh: THREE.Object3D
+  pos: THREE.Vector3
