@@ -445,6 +445,7 @@ function harrier(team: Team): UnitModel {
   }
   for (const side of [-1, 1]) {
     const sh = pivot(body, side * 0.14, 0.08, -0.12)
+    const inner = box(0.78, 0.04, 0.42, bodyMat, meshes)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
