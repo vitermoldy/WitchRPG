@@ -594,6 +594,7 @@ export class UnitSystem {
       u.vel.x *= Math.exp(-6 * dt)
       u.vel.z *= Math.exp(-6 * dt)
       climb(cruise + 1.2, 2)
+      if (tgt) this.face(u, tgt.pos, dt, 12)
     }
   }
 
