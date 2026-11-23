@@ -260,3 +260,4 @@ export class Hands {
   }
 
   resize(aspect: number, heightPx: number) {
+    this.camera.aspect = aspect
