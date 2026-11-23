@@ -529,3 +529,4 @@ export class UnitSystem {
         armX = -2.4 * k
         lean = 0.42 - 0.3 * k
       } else if (u.state === 'strike') {
+        armX = -2.4 + Math.min(1, u.t / 0.12) * 3.1
