@@ -66,3 +66,4 @@ export class Unit implements Target {
   barShown = 0
   // Corpse.
   deadT = 0
+  riteTried = false
