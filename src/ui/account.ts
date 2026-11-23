@@ -228,3 +228,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     const button = $<HTMLButtonElement>('btn-account')
     if (authState().status !== 'signed-in') {
       skipped = false
+      void checkAccount()
