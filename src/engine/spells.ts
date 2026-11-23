@@ -444,6 +444,7 @@ export class Spells {
           bestA = a
           first = { prop: p }
         }
+      }
     }
     if (!first) return
     this.grabbed = [first]
