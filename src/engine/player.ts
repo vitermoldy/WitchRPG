@@ -115,3 +115,4 @@ export class Player {
         this.vel.x += (dx / len) * maxStep
         this.vel.z += (dz / len) * maxStep
       } else {
+        this.vel.x = desiredX
