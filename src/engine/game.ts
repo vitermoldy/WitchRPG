@@ -171,3 +171,4 @@ export class Game {
     this.input.onLockChange = (locked) => {
       if (!locked && this.state === 'playing') this.setState('paused')
     }
+    window.addEventListener('resize', () => this.resize())
