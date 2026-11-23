@@ -16,3 +16,4 @@ export interface RiftRecord {
   waves: number
   kills: number
   xpGained: number
+  levelsGained: number
