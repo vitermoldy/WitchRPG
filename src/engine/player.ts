@@ -185,3 +185,4 @@ export class Player {
     this.bob += dt * (6 + speed * 1.1)
   }
 
+  applyCamera(cam: THREE.PerspectiveCamera, dt: number, headBob: boolean, shake: boolean) {
