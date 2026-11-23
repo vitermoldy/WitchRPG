@@ -291,3 +291,4 @@ button:disabled {
 }
 
 .warning {
+  max-width: 34rem;
