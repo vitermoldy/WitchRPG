@@ -738,6 +738,7 @@ export class UnitSystem {
     const m = u.model
     const P = m.parts
     const hip = (m.body.userData.hip as number) ?? 0.95
+    const baseLean = (P.spine.userData.lean as number) ?? 0.42
       }
     }
   }
