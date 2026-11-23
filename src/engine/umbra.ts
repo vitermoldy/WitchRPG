@@ -114,3 +114,4 @@ export class Umbra {
         this.turnToAsh(u)
       }
       if (u.ash) {
+        const k = Math.min(1, (u.deadT - (u.model.root.userData.ashAt ?? u.deadT)) / 2)
