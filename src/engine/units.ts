@@ -820,6 +820,7 @@ export class UnitSystem {
     m.body.rotation.x = crouch * 0.12 - stretch * 0.15
     for (let i = 0; i < 4; i++) {
       const hip = P[legs[i]]
+      const s = Math.sin(u.walk + phase[i])
     }
   }
 }
