@@ -51,3 +51,4 @@ export class Game {
   readonly rift: RiftDirector
   readonly hud: Hud
   readonly ledger: Ledger
+  profile: Profile
