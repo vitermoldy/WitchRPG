@@ -137,3 +137,4 @@ export class Game {
     })
     this.ledger.onClose = () => this.afterLedger()
 
+    this.composer = new EffectComposer(this.renderer)
