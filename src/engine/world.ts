@@ -311,3 +311,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   scene.add(new THREE.HemisphereLight(0x5c3a42, 0x140c12, 1.1))
   const amb = new THREE.AmbientLight(0x3a2a48, 0.75)
   scene.add(amb)
+  const key = new THREE.DirectionalLight(0xff8268, 1.7)
