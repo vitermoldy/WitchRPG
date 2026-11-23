@@ -22,3 +22,5 @@ export interface Prop {
   life: number
   hitUnits: Set<number>
   hitCooldown: number
+}
+
