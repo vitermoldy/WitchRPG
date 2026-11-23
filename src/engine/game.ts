@@ -181,3 +181,4 @@ export class Game {
   async warmUp() {
     const samples: Unit[] = []
     for (const kind of ['husk', 'hound'] as const) for (const team of ['rift', 'shadow'] as const) samples.push(this.units.spawn(kind, team, 1, new THREE.Vector3(0, -20, 0)))
+    this.camera.position.set(0, 8, 24)
