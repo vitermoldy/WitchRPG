@@ -79,3 +79,4 @@ async function boot() {
       p.skillPoints === 0 &&
       Object.keys(p.upgrades).length === 0 &&
       Object.entries(p.stats).every(([k, v]) => base.stats[k as keyof typeof base.stats] === v)
+    $('profile-line').innerHTML = fresh
