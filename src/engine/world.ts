@@ -408,3 +408,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       rock.rotation.set(R() * 3, R() * 3, R() * 3)
       solid(rock)
     }
+  }
