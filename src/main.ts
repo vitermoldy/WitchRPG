@@ -112,3 +112,5 @@ async function boot() {
     $('out-vol').textContent = `${Math.round(s.volume * 100)}%`
     $<HTMLInputElement>('set-bob').checked = s.headBob
     $<HTMLInputElement>('set-shake').checked = s.shake
+  }
+
