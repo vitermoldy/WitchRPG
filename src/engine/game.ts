@@ -530,6 +530,7 @@ export class Game {
     this.projectiles.clear()
     this.spells.reset()
     this.umbra.reset()
+    this.useCity()
     this.persist()
     this.setState('title')
   }
