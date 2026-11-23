@@ -405,3 +405,4 @@ export class UnitSystem {
       u.pos.x += u.vel.x * dt
       u.pos.z += u.vel.z * dt
       u.vel.y = 0
+      host.colliders.pushCircle(u.pos, u.radius, u.pos.y, 0.3)
