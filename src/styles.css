@@ -1717,3 +1717,6 @@ dialog::backdrop {
 
 .hud.world .compass {
   display: block;
+}
+
+.compass::after {
