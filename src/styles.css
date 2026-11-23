@@ -555,3 +555,5 @@ button:disabled {
 
 .feed-item.umbra::before {
   color: var(--umbra-ink);
+}
+
