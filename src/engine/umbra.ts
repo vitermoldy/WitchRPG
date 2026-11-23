@@ -296,3 +296,4 @@ export class Umbra {
       let target = hit.unit
       if (!target) {
         // Nearest enemy to where the crosshair lands.
+        let bd = 10
