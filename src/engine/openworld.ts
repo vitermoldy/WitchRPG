@@ -144,3 +144,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
   const R = rand(2026)
   const H = OW.half
 
+  const ground = new THREE.Mesh(new THREE.PlaneGeometry(H * 2 + 40, H * 2 + 40), groundMaterial())
+  ground.rotation.x = -Math.PI / 2
