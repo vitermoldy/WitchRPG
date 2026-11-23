@@ -501,3 +501,4 @@ export class Spells {
     }
   }
 
+  private dropAll(throwIt: boolean) {
