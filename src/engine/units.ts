@@ -30,6 +30,7 @@ export interface UnitHost {
   impactFx(at: THREE.Vector3, strength: number): void
   growl(): void
   /** A glob from a ranged unit. */
+  fire(from: THREE.Vector3, to: THREE.Vector3, u: Unit): void
 }
 
 let nextId = 1
