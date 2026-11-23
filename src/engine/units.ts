@@ -131,6 +131,7 @@ export class Unit implements Target {
   }
 
   /** Forward direction on the ground. */
+  get facing() {
   setState(s: UnitState, t = 0) {
     this.state = s
     this.t = t
