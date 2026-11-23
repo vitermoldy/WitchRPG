@@ -41,3 +41,4 @@ function carMesh(color: number) {
   const tyre = new THREE.MeshStandardMaterial({ color: 0x111012, roughness: 0.9 })
   const lamp = new THREE.MeshStandardMaterial({ color: 0x110a05, emissive: 0xffb070, emissiveIntensity: Math.random() < 0.35 ? 1.4 : 0 })
   const body = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.6, 3.2), paint)
+  body.position.y = -0.1
