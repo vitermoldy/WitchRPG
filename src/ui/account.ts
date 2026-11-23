@@ -12,3 +12,4 @@ import {
   pushProfile,
   queuedRifts,
   saveRift,
+  signIn,
