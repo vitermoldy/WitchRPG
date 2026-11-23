@@ -100,3 +100,4 @@ describe('upgrades and shadows', () => {
     expect(buyUpgrade(p, 'warp')).toBe(false)
   })
   it('fills slots, then refuses', () => {
+    const p = newProfile()
