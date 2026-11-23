@@ -321,3 +321,4 @@ export class Hands {
       if (Math.random() < rateSparks * dt) {
         h.orb.getWorldPosition(this.tmp)
         this.particles.emit({
+          pos: this.tmp,
