@@ -196,3 +196,4 @@ export async function saveRift(run: RiftRecord): Promise<boolean> {
 export async function flushQueue(): Promise<number> {
   if (auth.status !== 'signed-in') return 0
   const list = readQueue()
+  let sent = 0
