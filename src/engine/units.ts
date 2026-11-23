@@ -216,3 +216,4 @@ export class UnitSystem {
     if (d > 0.3) this.face(u, goal, dt)
   }
 
+  private face(u: Unit, at: THREE.Vector3, dt: number, rate = 8) {
