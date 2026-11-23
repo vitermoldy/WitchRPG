@@ -184,3 +184,4 @@ export class UnitSystem {
       return best
     }
     // Shadow: a focused order first, then the closest enemy inside the leash.
+    if (u.command === 'attack') {
