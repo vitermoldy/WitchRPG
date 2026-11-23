@@ -569,6 +569,7 @@ export class Game {
     this.hud.fade()
     this.hud.banner('The Hollow Warden', 'Penjaga Jantung Rift. Tiga fase: hindari hantaman, bertahan di pilar, lalu buka cangkangnya dengan Reality Warp.')
     this.sfx.roar()
+    this.player.addTrauma(0.5)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
