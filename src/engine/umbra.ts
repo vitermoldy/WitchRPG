@@ -79,6 +79,8 @@ export class Umbra {
   reforming(): { count: number; next: number } {
     let count = 0
     let next = Infinity
+    for (const [, at] of this.downUntil) {
+      if (at > this.time) {
     const g = this.g
     g.profile.shadows.forEach((rec, i) => {
       window.setTimeout(() => {
