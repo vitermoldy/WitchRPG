@@ -124,3 +124,5 @@ export class WorldDirector {
   }
 
   nearGate(): Gate | null {
+    const p = this.g.player.pos
+    return this.g.ow.gates.find((gt) => Math.hypot(gt.pos.x - p.x, gt.pos.z - p.z) < 6 + gt.tier && p.y < 6) ?? null
