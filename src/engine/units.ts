@@ -569,3 +569,4 @@ export class UnitSystem {
         m.body.position.y = 0.72 - k * 0.42
         return
       }
+      m.body.rotation.z = 0
