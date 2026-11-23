@@ -397,3 +397,4 @@ export class UnitSystem {
           u.thrown = false
           if (u.alive) u.setState('recover', 0.2)
         }
+        continue
