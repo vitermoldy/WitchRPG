@@ -131,3 +131,4 @@ export class Projectiles {
     }
   }
 
+  private hitUnits(s: Shot, team: 'rift' | 'shadow'): boolean {
