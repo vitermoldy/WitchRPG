@@ -279,6 +279,7 @@ export const TIERS: Record<TierId, TierSpec> = {
   2: {
     tier: 2,
     name: 'Rift Tier II',
+    roman: 'II',
   spawnInterval: 0.8,
   breather: 6,
   /** Share of max HP restored when a wave ends; the GDD has no other healing yet. */
