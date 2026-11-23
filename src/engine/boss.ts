@@ -68,3 +68,4 @@ export class BossFight {
   update(dt: number) {
     const g = this.g
     const u = this.u
+    this.immuneNote -= dt
