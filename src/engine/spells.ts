@@ -675,3 +675,4 @@ export class Spells {
     }
   }
 
+  private raiseBarrier() {
