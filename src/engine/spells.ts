@@ -97,3 +97,4 @@ export class Spells {
   grabbed: Grabbed[] = []
   chaos = 0
   overloadT = 0
+  backlashT = 0
