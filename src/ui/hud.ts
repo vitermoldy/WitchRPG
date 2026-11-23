@@ -114,6 +114,8 @@ export class Hud {
       { label: 'S', cls: 'cm-cardinal', x: p.pos.x, z: p.pos.z + 1000 },
       { label: 'B', cls: 'cm-cardinal', x: p.pos.x - 1000, z: p.pos.z },
     ]
+    // The altar is left off while she stands at it, where its bearing is meaningless.
+    if (!g.worldDir.nearAltar()) marks.push({ label: 'Altar', cls: 'cm-altar', x: g.ow.altar.x, z: g.ow.altar.z })
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
