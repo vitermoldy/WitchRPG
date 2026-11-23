@@ -44,6 +44,7 @@ export const PLAYER = {
   damagePerHex: 0.02,
   /** The Ledger steadies her Chaos as she grows: +5% damage and +8 HP per level. */
   damagePerLevel: 0.05,
+  hpPerLevel: 8,
   speedPerAgi: 0.01,
   hurtInvuln: 0.25,
 } as const
