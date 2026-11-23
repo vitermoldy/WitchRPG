@@ -560,6 +560,7 @@ export class Game {
     this.player.reset(this.lair.playerStart, 0)
     this.player.hp = this.player.maxHp
     this.player.mana = this.player.maxMana
+    for (const s of this.units.shadows()) this.recall(s)
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
