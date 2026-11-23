@@ -72,3 +72,4 @@ export class Colliders {
 
   /** Height of the floor under a circle: the highest box top within reach, or 0. */
   groundAt(x: number, z: number, r: number, feetY: number, step: number): number {
+    let g = 0
