@@ -75,6 +75,8 @@ export class Ledger {
       const d = e.target as HTMLDetailsElement
       if (!d.dataset?.group) return
       if (d.open) this.openGroups.add(d.dataset.group)
+      else this.openGroups.delete(d.dataset.group)
+    }, true)
     this.dlg.addEventListener('click', (e) => {
       const t = (e.target as HTMLElement).closest('button')
       if (!t) return
