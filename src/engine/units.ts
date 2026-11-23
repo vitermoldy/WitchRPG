@@ -948,7 +948,7 @@ export class UnitSystem {
       if (Math.random() < 0.5) this.host.glow.emit({ pos: u.pos, count: 1, color: COLOR.umbra, intensity: 2.4, life: 0.6, size: 0.1, speed: 0.8, vel: { x: 0, y: 1.6, z: 0 }, jitter: 0.4 })
       return
     }
-    m.root.scale.setScalar(1)
+    m.root.scale.setScalar(u.scale)
 
     if (BIPEDS.has(u.kind)) this.animateBiped(u, sw, amp, t)
     else this.animateHound(u, amp, t)
