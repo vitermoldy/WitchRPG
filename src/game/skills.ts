@@ -42,3 +42,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Telekinesis Grip',
     key: 'Tahan RMB',
     unlock: 1,
+    effect: 'Angkat musuh atau objek hingga 500 kg, lepas untuk melempar.',
