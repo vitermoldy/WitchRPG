@@ -627,6 +627,7 @@ export class Game {
     this.smoke.emit({ pos: at.clone().setY(at.y + 0.2), count: 16, color: 0x2a2224, life: 1.3, size: 1.6, sizeEnd: 2.8, speed: radius * 0.7, drag: 2.5, alpha: 0.7 })
     this.sfx.slam(radius > 6)
     const d = this.player.pos.distanceTo(at)
+    this.player.addTrauma(Math.max(0, 0.6 - d * 0.03))
   private finishRift() {
     this.profile.clears += 1
     this.spells.reset()
