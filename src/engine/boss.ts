@@ -138,3 +138,4 @@ export class BossFight {
         g.units.remove(o)
         this.feed.delete(o)
         u.hp = Math.min(u.maxHp * BOSS.phase3At, u.hp + u.maxHp * BOSS.swallowHeal)
+        g.hud.message('The Hollow Warden menelan anak buahnya dan pulih.', 'info')
