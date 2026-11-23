@@ -364,7 +364,7 @@ function hollow(team: Team): UnitModel {
       ring.position.set(0, 0.86, 0)
       p.spine.add(ring)
       meshes.push(ring)
-      const rim = new THREE.Mesh(new THREE.TorusGeometry(0.62, 0.05, 6, 24), m.accent)
+      const rim = new THREE.Mesh(shape(`Torus:${[0.62, 0.05, 6, 24].join(',')}`, () => new THREE.TorusGeometry(0.62, 0.05, 6, 24)), m.accent)
       rim.position.set(0, 0.86, -0.05)
       rim.castShadow = false
       p.spine.add(rim)
