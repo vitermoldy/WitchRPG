@@ -9,3 +9,4 @@ import { connect } from './db.js'
  * witch saved before accounts existed: the newest unowned browser's witch, plus the Rift history
  * of every other browser nobody owns yet.
  */
+const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
