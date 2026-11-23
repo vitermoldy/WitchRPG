@@ -1771,3 +1771,5 @@ dialog::backdrop {
   background: var(--rift);
 }
 
+.compass .cm-camp.hard {
+  background: var(--chaos);
