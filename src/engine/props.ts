@@ -73,3 +73,4 @@ const chunkMat = new THREE.MeshStandardMaterial({ color: 0x3b3236, roughness: 0.
 
 function crateMesh() {
   const g = new THREE.Group()
+  const b = new THREE.Mesh(new THREE.BoxGeometry(0.8, 0.8, 0.8), crateMat)
