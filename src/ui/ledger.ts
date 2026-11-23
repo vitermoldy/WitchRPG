@@ -12,3 +12,5 @@ const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
   vit: { name: 'Vitality', effect: '+10 HP maks' },
   agi: { name: 'Agility', effect: '+1% gerak, +0,1 dtk melayang' },
   umb: { name: 'Umbra', effect: '+1% peluang rite, +1 slot tiap 5' },
+}
+
