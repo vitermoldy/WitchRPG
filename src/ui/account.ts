@@ -69,3 +69,5 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
   }
 
   /** The gate only covers the title screen; a fight in progress is never interrupted by it. */
+  const onTitle = (): boolean => game.state === 'title'
+
