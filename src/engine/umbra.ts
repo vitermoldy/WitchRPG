@@ -332,3 +332,4 @@ export class Umbra {
     } else if (choice === 'swap') {
       if (!isUnlocked(g.profile, 'swap')) {
         g.hud.message('Tukar Tempat terbuka di Lv 4.', 'umbra')
+        return
