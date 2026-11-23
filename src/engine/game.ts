@@ -307,3 +307,4 @@ export class Game {
     for (const sl of r.shadowLevels) {
       const live = this.units.units.find((x) => x.record?.id === sl.id && x.alive)
       if (!live) continue
+      const ratio = live.hp / live.maxHp
