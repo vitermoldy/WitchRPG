@@ -1704,3 +1704,5 @@ dialog::backdrop {
 .compass {
   display: none;
   position: absolute;
+  top: var(--gutter);
+  left: 50%;
