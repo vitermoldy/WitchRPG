@@ -56,3 +56,4 @@ function husk(team: Team): UnitModel {
   const body = pivot(root, 0, 0.95, 0)
   const parts: Record<string, THREE.Object3D> = {}
   body.add(box(0.36, 0.2, 0.24, bodyMat, meshes))
+  const spine = pivot(body, 0, 0.08, 0)
