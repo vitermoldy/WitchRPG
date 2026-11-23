@@ -245,6 +245,7 @@ export class Game {
       waves: r.totalWaves,
       kills: r.kills,
       xpGained: r.xpGained,
+      levelsGained: r.levelsGained,
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
