@@ -430,3 +430,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     [-9, -9, 0], [9, 9, 0], [-20, 10, 1], [20, -12, 1], [0, 26, 0], [26, 22, 1], [-26, -22, 0], [14, -24, 0], [-14, 24, 0],
   ]
   for (const [x, z, rot] of barrierSpots) {
+    const w = rot ? 0.7 : 3.2
