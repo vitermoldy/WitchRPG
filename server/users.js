@@ -11,3 +11,5 @@ const [rows] = await pool.query(
      (SELECT COUNT(*) FROM rift_runs r WHERE r.client_id = u.device_id) AS rifts
    FROM users u LEFT JOIN witches w ON w.client_id = u.device_id ORDER BY u.created_at`,
 )
+await pool.end()
+
