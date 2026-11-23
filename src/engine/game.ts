@@ -537,3 +537,4 @@ export class Game {
       input.dy = lookDy
     }
 
+    // Mana regen stops during Backlash.
