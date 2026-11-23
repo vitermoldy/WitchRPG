@@ -153,6 +153,7 @@ export class RiftDirector {
       at.y = 0
     }
     const u = g.units.spawn(next.kind, 'rift', next.level, at)
+    if (next.kind === 'riftlord') {
   }
 
   update(dt: number) {
