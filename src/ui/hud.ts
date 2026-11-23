@@ -276,6 +276,7 @@ export class Hud {
     this.set('boss-phase', 'text', boss && boss.u === u ? boss.label : u.kind === 'riftlord' ? 'Memanggil husk dan menghantam tanah. Keluar dari lingkaran amber.' : '')
   }
 
+  /** A summary that stays the same size whether the army is three shadows or three hundred. */
   private updateArmy() {
     const g = this.g
     const slots = g.derived.slots
