@@ -65,3 +65,4 @@ function sigilShape(): THREE.BufferGeometry {
     new THREE.BoxGeometry(0.004, 0.03, 0.002).rotateZ(-0.7).translate(0.012, -0.02, 0),
   ]
   const geo = new THREE.BufferGeometry()
+  const pos: number[] = []
