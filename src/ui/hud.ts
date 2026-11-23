@@ -152,3 +152,4 @@ export class Hud {
       this.prompt.innerHTML = promptHtml
     }
 
+    this.updateArmy()
