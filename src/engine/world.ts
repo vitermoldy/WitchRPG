@@ -370,3 +370,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
       if (Math.abs(centre) < 8 + w / 2) continue
       const h = 16 + R() * 34
       const depth = 14
+      const inset = half + 1.5 + R() * 2.5 + depth / 2
