@@ -30,3 +30,4 @@ export class Umbra {
     this.candidate = null
     this.casting = null
     this.progress = 0
+    this.swapCd = 0
