@@ -295,6 +295,7 @@ export class UnitSystem {
       const s = u.spec.summon
       const mine = this.units.filter((o) => o.owner === u && o.alive).length
       if (mine < s.max && u.target) {
+        for (let i = 0; i < s.count; i++) {
   private brain(u: Unit, dt: number) {
     u.retarget -= dt
     if (u.retarget <= 0 || !u.target || !u.target.alive) {
