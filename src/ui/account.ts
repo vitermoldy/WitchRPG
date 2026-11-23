@@ -216,3 +216,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
     if (authState().status === 'unavailable') skip()
   })
 
+  function skip(): void {
