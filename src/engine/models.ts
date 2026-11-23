@@ -453,6 +453,7 @@ function harrier(team: Team): UnitModel {
     sh.add(bone)
     const tip = pivot(sh, side * 0.78, 0, 0)
     const outer = box(0.72, 0.03, 0.34, bodyMat, meshes)
+    outer.position.set(side * 0.36, 0, 0.04)
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
