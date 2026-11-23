@@ -493,3 +493,4 @@ export class UnitSystem {
       m.bodyMat.emissive.set(flashCol)
       m.bodyMat.emissiveIntensity = u.flash * 1.2
     } else if (u.state === 'dead') {
+      if (u.team === 'shadow') m.bodyMat.emissiveIntensity = 0
