@@ -179,3 +179,4 @@ export function queuedRifts(): number {
 }
 
 /** Sends a finished Rift now, or keeps it for later when nobody is signed in or the server does not answer. */
+export async function saveRift(run: RiftRecord): Promise<boolean> {
