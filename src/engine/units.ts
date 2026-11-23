@@ -136,6 +136,8 @@ export class Unit implements Target {
       if (this.team === 'shadow') for (const m of this.built.meshes) m.castShadow = false
     }
     return this.built
+  }
+
   get alive() {
     return this.state !== 'dead'
   }
