@@ -513,3 +513,4 @@ export class UnitSystem {
       m.root.position.y = u.pos.y - (1 - k) * (1 - k) * u.spec.height
       m.root.scale.setScalar(1)
       if (Math.random() < 0.6) {
+        this.host.smoke.emit({ pos: u.pos, count: 2, color: 0x1a0a2e, life: 1.2, size: 0.9, sizeEnd: 1.6, speed: 0.6, vel: { x: 0, y: 1.4, z: 0 }, jitter: 0.5, alpha: 0.8 })
