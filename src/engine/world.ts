@@ -87,3 +87,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   // Grain.
   for (let i = 0; i < size * size * 0.05; i++) {
     const v = R()
+    g.fillStyle = v < 0.5 ? 'rgba(0,0,0,0.18)' : 'rgba(255,240,230,0.035)'
