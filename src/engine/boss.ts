@@ -98,3 +98,4 @@ export class BossFight {
           g.glow.emit({ pos: { x: Math.cos(a) * r, y: 0, z: Math.sin(a) * r }, count: 1, color: COLOR.rift, intensity: 2.4, life: 1.6, size: 0.3, vel: { x: 0, y: -6, z: 0 }, gravity: 10 })
         }
         this.collapseT = -1
+        this.phase = 2
