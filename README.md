@@ -19,6 +19,8 @@ npm run build          # hasil di dist/; npm start menyajikannya bersama API
 
 ## Akun dan database
 
+Selama server menyala, game dibuka dengan masuk akun (username dan kata sandi). Level, stat, upgrade skill, Ruang Bayangan, pengaturan, dan riwayat Rift tersimpan di MySQL, jadi witch bisa dilanjutkan dari browser lain. Kalau server mati, game tetap jalan lewat "Main tanpa akun": witch tersimpan di browser, Rift yang selesai menunggu dan terkirim begitu kamu masuk.
+
 ## Kontrol
 
 | Tangan kiri, Chaos | |
