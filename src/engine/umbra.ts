@@ -150,3 +150,4 @@ export class Umbra {
     // Command wheel.
     if (canAct && g.input.pressed('KeyZ')) {
       this.wheelOpen = true
+      this.wheelX = this.wheelY = 0
