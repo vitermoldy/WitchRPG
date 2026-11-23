@@ -233,3 +233,4 @@ export class Hands {
     this.scene.add(this.particles.points)
   }
 
+  private hand(side: Side) {
