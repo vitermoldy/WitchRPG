@@ -191,7 +191,7 @@ export class Umbra {
     const g = this.g
     const u = g.units.spawn(rec.kind, 'shadow', rec.level, at, true)
     u.record = rec
-    u.slot = g.profile.shadows.indexOf(rec)
+    u.slot = slot
     u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
     g.sfx.riteResult(true)
     g.rings.spawn(at, COLOR.umbra, 0.3, 2.5, 0.8)
