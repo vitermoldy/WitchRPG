@@ -236,6 +236,7 @@ export class Umbra {
 
     // While the army is out, a shadow that has reformed rises again beside the witch.
     if (this.armyOut) {
+      for (const [id, at] of this.downUntil) {
     // Shadows of a call rise one after another.
     while (this.calls.length && this.calls[0].at <= this.time) {
       const c = this.calls.shift()!
