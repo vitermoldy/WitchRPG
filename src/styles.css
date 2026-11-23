@@ -596,3 +596,4 @@ button:disabled {
 .ring-chaos {
   fill: none;
   stroke: var(--chaos);
+  stroke-width: 2.5;
