@@ -35,3 +35,4 @@ export class ShadowCrowd {
   private build(kind: UnitKind): Batch {
     const model = buildModel(kind, 'shadow')
     model.root.updateMatrixWorld(true)
+    const byMat = new Map<THREE.Material, THREE.BufferGeometry[]>()
