@@ -137,3 +137,4 @@ export class PropSystem {
     mesh.castShadow = true
     const p = this.add('chunk', mesh, at, Math.max(w, d) * 0.5, h * 0.5, 40, Math.random() * 3)
     p.vel.copy(vel)
+    p.spin.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).multiplyScalar(8)
