@@ -235,3 +235,4 @@ export class Umbra {
     const roll = Math.random()
     g.hands.pose('right', 'push', 0.4)
     g.hands.kick('right', 1.4)
+    if (roll < p) {
