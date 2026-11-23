@@ -68,3 +68,4 @@ async function boot() {
   const resumeHint = $('resume-hint')
 
   const renderTitle = () => {
+    const p = game.profile
