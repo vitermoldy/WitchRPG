@@ -407,3 +407,4 @@ button:disabled {
   grid-template-columns: auto 1fr;
 }
 
+.setting input[type='range'] {
