@@ -249,3 +249,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       return
     }
     await signOut()
+    clearProfile()
