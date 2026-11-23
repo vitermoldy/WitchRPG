@@ -373,3 +373,4 @@ export class Spells {
     return u.alive && u.team === 'rift' && u.mass <= SPELL.grip.maxMass && u.state !== 'spawn'
   }
 
+  private tryGrip() {
