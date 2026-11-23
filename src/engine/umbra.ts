@@ -18,3 +18,4 @@ export class Umbra {
   wheelChoice: WheelChoice | null = null
   private wheelX = 0
   private wheelY = 0
+  private chargeTick = 0
