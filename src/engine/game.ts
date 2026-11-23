@@ -469,7 +469,7 @@ export class Game {
   }
 
   /** Starts a fresh Rift of the given tier with the current witch. */
-  async enterRift(tier: TierId = this.tier) {
+  async enterRift(tier: TierId = this.tier, fromWorld = false) {
     if (!tierUnlocked(this.profile, tier)) tier = 1
     this.tier = tier
     const spec = TIERS[tier]
