@@ -251,3 +251,5 @@ export class Spells {
     if (this.grabbed.length) {
       if (!canAct || input.released('Mouse2') || !input.held('Mouse2')) this.dropAll(canAct)
       else this.holdGrip(dt)
+    }
+
