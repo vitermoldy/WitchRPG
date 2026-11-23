@@ -129,3 +129,5 @@ export class Projectiles {
         this.shots.splice(i, 1)
       }
     }
+  }
+
