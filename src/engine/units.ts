@@ -107,6 +107,7 @@ export class Unit implements Target {
   // Elites (Tier IV and up).
   elite: EliteTrait | null = null
   /** Multiplier on windup, recovery and cooldown; below 1 is quicker. */
+  tempo = 1
 
   constructor(kind: UnitKind, team: Team, level: number) {
     this.kind = kind
