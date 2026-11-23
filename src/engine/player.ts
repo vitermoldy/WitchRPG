@@ -191,6 +191,8 @@ export class Player {
     if (!this.flightFree) {
       this.stamina = Math.max(0, this.stamina - (boost ? MOVE.flyBoostDrain : MOVE.flyDrain) * dt)
       this.staminaDelay = MOVE.staminaRegenDelay
+      if (this.stamina <= 0) {
+        this.flying = false
     // Integrate horizontal, then push out of walls, units and props.
     this.pos.x += this.vel.x * dt
     this.pos.z += this.vel.z * dt
