@@ -174,3 +174,4 @@ export class BossFight {
     return s ? s.pos : null
   }
 
+  /** Returns true when it moved the boss itself this frame; false hands over to the normal brain. */
