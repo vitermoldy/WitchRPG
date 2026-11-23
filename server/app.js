@@ -68,3 +68,4 @@ function cleanProfile(p) {
   const stats = {}
   for (const k of STATS) {
     stats[k] = int(p.stats?.[k], 1, 999)
+    if (stats[k] === null) return { error: `Stat ${k} di luar batas.` }
