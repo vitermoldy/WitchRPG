@@ -1439,6 +1439,7 @@ dialog::backdrop {
 }
 
 .tier:hover:not(:disabled) {
+  border-color: var(--ink-3);
 /* Account */
 .account-row {
   display: flex;
