@@ -251,11 +251,7 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     c.rotation.y = s % 2 ? Math.PI / 2 : 0
     group.add(c)
   }
-  const wall = H + 2
-  colliders.add(0, -wall, wall * 2 + 2, 1, 200)
-  colliders.add(0, wall, wall * 2 + 2, 1, 200)
-  colliders.add(-wall, 0, 1, wall * 2 + 2, 200)
-  colliders.add(wall, 0, 1, wall * 2 + 2, 200)
+  // 4 m thick for the same reason as the arena wall: a pushing crowd cannot squeeze anything through.
 
   // The altar at the square: where she starts, heals and wakes after a fall.
   const stone = new THREE.MeshStandardMaterial({ color: 0x3e3538, roughness: 0.85, flatShading: true })
