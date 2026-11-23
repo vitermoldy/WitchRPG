@@ -52,3 +52,4 @@ export class BossFight {
           this.immuneNote = 6
         }
         g.glow.emit({ pos: from.clone().lerp(u.center, 0.85), count: 6, color: COLOR.rift, intensity: 2, life: 0.3, size: 0.2, speed: 2 })
+        return 0
