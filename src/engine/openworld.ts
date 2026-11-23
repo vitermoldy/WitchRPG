@@ -76,3 +76,5 @@ function facadeMaterial() {
           vec2 f = vec2(fract(u / 2.9), fract((vWp.y - 1.0) / 3.3));
           float win = step(0.18, f.x) * step(f.x, 0.82) * step(0.22, f.y) * step(f.y, 0.78) * step(2.0, vWp.y);
           float h = h21(cell + floor(vWp.xz / 37.0));
+          diffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.05, 0.04, 0.045), win);
+          vec3 lit = h > 0.985 ? vec3(1.0, 0.3, 0.3) : vec3(1.0, 0.62, 0.32);
