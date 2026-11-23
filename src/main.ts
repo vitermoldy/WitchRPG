@@ -180,3 +180,4 @@ async function boot() {
     game.saveSoon()
   })
   $<HTMLInputElement>('set-shake').addEventListener('change', (e) => {
+    game.profile.settings.shake = (e.target as HTMLInputElement).checked
