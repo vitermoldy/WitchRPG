@@ -92,3 +92,4 @@ export class Game {
     const host: UnitHost = {
       colliders: this.colliders,
       player: {
+        get pos() {
