@@ -101,6 +101,7 @@ export class Ledger {
     const box = $('history-body')
     box.innerHTML = '<p class="room-empty">Memuat riwayat Rift...</p>'
     let runs: SavedRift[] | null
+    try {
   close() {
     if (this.dlg.open) this.dlg.close()
   }
