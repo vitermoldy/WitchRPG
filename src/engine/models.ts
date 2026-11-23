@@ -37,3 +37,4 @@ function box(w: number, h: number, d: number, mat: THREE.Material, meshes: THREE
   m.position.y = y
   m.castShadow = true
   meshes.push(m)
+  return m
