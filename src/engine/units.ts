@@ -562,6 +562,7 @@ export class UnitSystem {
     const sees = !tgt || host.colliders.clear(u.center, tmp.set(tgt.pos.x, tgt.pos.y + 1, tgt.pos.z))
     u.blind = sees ? 0 : u.blind + dt
     const lost = u.blind > 1.5
+    // Ride above the target, not above whatever roof is underneath; lower when it has lost sight of it.
     }
   }
 
