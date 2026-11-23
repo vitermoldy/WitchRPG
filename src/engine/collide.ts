@@ -27,3 +27,5 @@ export class Colliders {
     const b: Box = { minX: cx - w / 2, maxX: cx + w / 2, minZ: cz - d / 2, maxZ: cz + d / 2, top, alive: true, ...extra }
     this.boxes.push(b)
     return b
+  }
+
