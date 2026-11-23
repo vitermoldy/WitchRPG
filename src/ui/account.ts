@@ -247,3 +247,4 @@ export function mountAccount(game: Game, hooks: AccountHooks): { refresh: () => 
       button.disabled = false
       button.textContent = 'Keluar'
       return
+    }
