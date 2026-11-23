@@ -106,6 +106,8 @@ export class Hud {
     const g = this.g
     const box = $('compass')
     const p = g.player
+    const span = 110 * (Math.PI / 180)
+    const width = box.clientWidth || 420
   /** A short black fade, for stepping through the gate into the lair. */
   fade() {
     const el = $('fade')
