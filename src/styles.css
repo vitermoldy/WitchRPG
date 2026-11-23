@@ -493,6 +493,7 @@ button:disabled {
 .bossbar {
   position: absolute;
   top: calc(var(--gutter) + 4.6rem);
+  left: 50%;
 .banner {
   position: absolute;
   top: 24%;
