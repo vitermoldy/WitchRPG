@@ -332,3 +332,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
     map: gt.map,
     emissiveMap: gt.emissive,
     emissive: new THREE.Color(1, 1, 1),
+    emissiveIntensity: 1,
