@@ -2,7 +2,7 @@
 
 RPG aksi 3D first-person di browser. Kamu bermain sebagai Ilyra, witch terakhir dari coven yang dihancurkan Rift: tangan kirinya membengkokkan realitas dengan sihir Chaos, tangan kanannya membangkitkan musuh yang kalah menjadi pasukan bayangan.
 
-Ini versi pertama dari [Game Design Document](./Game%20Design%20Document%20RPG%203D%20First-Person%20Witch.md): Rift Tier I sampai III di kota yang dikepung retakan, lalu Jantung Rift dan bossnya, The Hollow Warden, dalam tiga fase. Keputusan desain dan penyesuaian dari GDD ada di [DESIGN.md](./DESIGN.md).
+Game ini mengikuti [Game Design Document](./Game%20Design%20Document%20RPG%203D%20First-Person%20Witch.md): Rift Tier I sampai III di kota yang dikepung retakan, lalu Jantung Rift dan bossnya, The Hollow Warden, dalam tiga fase. Setelah boss kalah, Rift Tier IV dan V terbuka dengan musuh Lv 10 ke atas dan makhluk elite. Keputusan desain dan penyesuaian dari GDD ada di [DESIGN.md](./DESIGN.md).
 
 | Rift | Terbuka | Isi |
 | --- | --- | --- |
