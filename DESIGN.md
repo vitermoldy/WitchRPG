@@ -38,3 +38,5 @@ Belum dibuat (ditandai "Belum ada di prototype ini" di Ledger): Reality Warp, Ke
 
 ## Angka tuning yang berubah setelah playtest bot
 
+Semua di `src/game/balance.ts`.
+
