@@ -508,6 +508,7 @@ button:disabled {
 
 .boss-name {
   margin: 0 0 0.3rem;
+  font-family: var(--font-display);
 .banner {
   position: absolute;
   top: 24%;
