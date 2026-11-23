@@ -240,3 +240,4 @@ export class UnitSystem {
           u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
           if (u.command === 'hold') this.steer(u, u.holdPos, speed, dt, 0.6)
           else {
+            const p = this.host.player
