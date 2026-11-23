@@ -229,6 +229,7 @@ export class UnitSystem {
   setDetailed(u: Unit, on: boolean) {
     if (u.detailed === on) return
     u.detailed = on
+    if (on) {
   }
 
   clear() {
