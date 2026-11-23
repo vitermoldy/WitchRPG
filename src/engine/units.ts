@@ -401,3 +401,4 @@ export class UnitSystem {
       }
 
       this.brain(u, dt)
+      if (!u.alive) continue
