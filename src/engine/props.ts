@@ -293,3 +293,4 @@ export class PropSystem {
 
   /** A heavy body landing hard hurts everything around it. */
   private slam(p: Prop, fall: number) {
+    const c = SPELL.impact
