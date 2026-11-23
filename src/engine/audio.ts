@@ -143,3 +143,4 @@ export class Sfx {
     if (!this.ok() || this.gripNodes) return
     const ctx = this.ctx!
     const osc = ctx.createOscillator()
+    const osc2 = ctx.createOscillator()
