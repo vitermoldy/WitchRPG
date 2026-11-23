@@ -19,3 +19,5 @@ const SLEEP = 170
 const RESPAWN = 120
 const LEASH = 45
 
+/** Runs the open world: camps that wake and clear, the altar, gates, and keeping the army close. */
+export class WorldDirector {
