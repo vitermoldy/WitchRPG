@@ -259,3 +259,4 @@ export class Game {
     if (strength > 0.25) {
       this.sfx.impact(strength)
       this.player.addTrauma(Math.max(0, strength * 0.35 - this.player.pos.distanceTo(at) * 0.01))
+    }
