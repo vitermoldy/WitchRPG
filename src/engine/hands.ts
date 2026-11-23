@@ -50,3 +50,4 @@ interface Hand {
   kick: number
   flash: number
   color: THREE.Color
+  overloadColor: THREE.Color
