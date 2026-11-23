@@ -455,3 +455,4 @@ export class Game {
     this.world.update(this.t)
     if (this.saveTimer > 0) {
       this.saveTimer -= dt
+      if (this.saveTimer <= 0) saveProfile(this.profile)
