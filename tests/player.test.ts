@@ -15,3 +15,4 @@ describe('Player.update', () => {
     p.reset(new THREE.Vector3(0, 0, 14), 0)
     p.update(-0.0014, idle, new Colliders(), 1, [], true)
     expect(finite(p)).toBe(true)
+    expect(p.pos.z).toBeCloseTo(14)
