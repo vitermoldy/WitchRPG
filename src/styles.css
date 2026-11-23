@@ -240,3 +240,4 @@ button:disabled {
 }
 
 .loading-sub {
+  color: var(--ink-3);
