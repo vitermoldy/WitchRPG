@@ -96,3 +96,5 @@ export function buildLair(scene: THREE.Scene): LairBuild {
   const floor = new THREE.Mesh(new THREE.CylinderGeometry(26, 25, 1.2, 64), floorMat)
   floor.position.y = -0.6
   floor.receiveShadow = true
+  group.add(floor)
+
