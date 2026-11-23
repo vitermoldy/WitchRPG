@@ -24,3 +24,4 @@ export class ShadowCrowd {
   private readonly batches = new Map<UnitKind, Batch>()
   private readonly m = new THREE.Matrix4()
   private readonly q = new THREE.Quaternion()
+  private readonly p = new THREE.Vector3()
