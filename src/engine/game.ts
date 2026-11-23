@@ -247,6 +247,7 @@ export class Game {
       xpGained: r.xpGained,
       levelsGained: r.levelsGained,
       levelAfter: this.profile.level,
+      shadowsRaised: r.raised.length,
   private respawnProps() {
     this.props.clear()
     for (const s of this.world.props) {
