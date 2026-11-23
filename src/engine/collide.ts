@@ -58,3 +58,4 @@ export class Colliders {
         outNormal?.set(dx, 0, dz)
       } else {
         // Centre inside the box: leave along the shortest axis.
+        const pen = [pos.x - b.minX, b.maxX - pos.x, pos.z - b.minZ, b.maxZ - pos.z]
