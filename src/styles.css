@@ -885,3 +885,4 @@ button:disabled {
 .wheel-opt {
   position: absolute;
   display: grid;
+  place-items: center;
