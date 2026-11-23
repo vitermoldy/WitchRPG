@@ -346,6 +346,7 @@ export interface TierSpec {
   /** Tier III ends in the Hollow Warden's lair. */
   boss?: { level: number; unlock: number }
   /** Opens only once The Hollow Warden has fallen. */
+  needsBoss?: boolean
 }
 
 export const TIERS: Record<TierId, TierSpec> = {
