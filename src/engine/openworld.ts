@@ -163,3 +163,5 @@ export function buildOpenWorld(scene: THREE.Scene): OpenWorldBuild {
     { band: 2, elite: true },
     { band: 2, elite: true },
   ]
+  const bands = [
+    { min: 70, max: 125, levels: [1, 3] as [number, number] },
