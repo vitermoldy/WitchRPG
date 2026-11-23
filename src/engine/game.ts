@@ -888,6 +888,8 @@ export class Game {
       this.hands.pose('left', 'fly', 0.2)
       this.hands.pose('right', 'fly', 0.2)
       if (Math.random() < 0.6) this.hands.gather('left', 0.1)
+      if (Math.random() < 0.6) this.hands.gather('right', 0.1)
+    }
     if (this.inLair) this.lairUpdate(dt)
     this.embers(dt, p.pos, 18)
 
