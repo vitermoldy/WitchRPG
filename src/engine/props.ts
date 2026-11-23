@@ -92,3 +92,4 @@ function crateMesh() {
 export class PropSystem {
   readonly props: Prop[] = []
   readonly group = new THREE.Group()
+  private readonly host: PropHost
