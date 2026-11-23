@@ -613,6 +613,8 @@ export class Game {
     this.setState('playing')
     if (!keep) {
       this.hud.banner('Dunia terbuka', 'Kamp makhluk Rift tersebar di kota. Gerbang Rift membawa ke Tier I sampai III.')
+      window.setTimeout(() => this.hud.message('Ketuk Spasi dua kali untuk terbang. Spasi naik, C turun, Shift lebih cepat.', 'info'), 1600)
+    }
   /** Through the gate at the end of Tier III: the lair, its boss, and the witch's shadows beside her. */
   enterLair() {
     this.inLair = true
