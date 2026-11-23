@@ -391,3 +391,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
         cap.position.set(sx + (R() - 0.5) * 4, h + 1, sz + (R() - 0.5) * 4)
         scene.add(cap)
       }
+    }
