@@ -83,3 +83,4 @@ function husk(team: Team): UnitModel {
     head.add(eye)
   }
   for (const side of [-1, 1]) {
+    const sh = pivot(spine, side * 0.3, 0.52, 0)
