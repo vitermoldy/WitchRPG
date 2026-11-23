@@ -324,3 +324,4 @@ export class Hands {
           pos: this.tmp,
           count: 1,
           color: col,
+          intensity: 2,
