@@ -527,3 +527,4 @@ export class Spells {
       }
     }
     this.grabbed = []
+    this.tendril.visible = false
