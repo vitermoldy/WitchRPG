@@ -166,3 +166,4 @@ function readQueue(): RiftRecord[] {
   }
 }
 
+function writeQueue(list: RiftRecord[]): void {
