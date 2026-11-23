@@ -287,3 +287,4 @@ export function buildWorld(scene: THREE.Scene): WorldBuild {
   // Sky dome.
   const sky = new THREE.Mesh(
     new THREE.SphereGeometry(320, 32, 16),
+    new THREE.ShaderMaterial({
