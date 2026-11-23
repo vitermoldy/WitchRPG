@@ -91,3 +91,5 @@ function facadeMaterial() {
 
 /** Asphalt roads, pale curbs, cracked concrete blocks; all from world position, no texture. */
 function groundMaterial() {
+  const mat = new THREE.MeshStandardMaterial({ color: 0x2c2729, roughness: 0.95 })
+  mat.onBeforeCompile = (shader) => {
