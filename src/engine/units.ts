@@ -435,3 +435,4 @@ export class UnitSystem {
         const d = Math.sqrt(d2)
         const push = (min - d) * 0.5
         a.pos.x += (dx / d) * push
+        a.pos.z += (dz / d) * push
