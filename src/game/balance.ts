@@ -210,6 +210,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 1.1,
     cooldown: 3.2,
     slam: 5,
+    summon: { every: 14, count: 3, max: 6 },
 }
 
 export const GROWTH = { hpPerLevel: 0.25, damagePerLevel: 0.15 } as const
