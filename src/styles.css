@@ -1459,6 +1459,7 @@ dialog::backdrop {
   letter-spacing: -0.02em;
 }
 
+.tier-lock {
 /* Account */
 .account-row {
   display: flex;
