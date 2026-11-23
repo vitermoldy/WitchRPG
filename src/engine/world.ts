@@ -43,3 +43,4 @@ function groundTextures(size: number, half: number, cracksAt: THREE.Vector3[]) {
   const { c, g } = canvas(size, size)
   const { c: ec, g: eg } = canvas(size, size)
   const px = (m: number) => ((m + half) / (half * 2)) * size
+  g.fillStyle = '#2a2527'
