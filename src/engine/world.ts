@@ -233,3 +233,4 @@ export const TEAR_VERT = /* glsl */ `
     gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
   }
 `
+/** A torn lens of space: black core, violet sparks, crimson rim that the bloom picks up. */
