@@ -49,3 +49,4 @@ export const SKILLS: SkillDef[] = [
   {
     id: 'burst',
     branch: 'chaos',
+    name: 'Chaos Burst',
