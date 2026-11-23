@@ -101,3 +101,4 @@ export class Player {
       this.sliding -= dt
       const damp = Math.exp(-1.6 * dt)
       this.vel.x *= damp
+      this.vel.z *= damp
