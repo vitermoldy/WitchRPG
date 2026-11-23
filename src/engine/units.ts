@@ -976,6 +976,7 @@ export class UnitSystem {
       flap = -0.1
       fold = 1.1
       pitch = Math.asin(Math.max(-1, Math.min(1, u.lungeDir.y)))
+    } else if (u.state === 'recover') flap = Math.sin(t * 17 + u.id) * 1.2
   private animateBiped(u: Unit, sw: number, amp: number, t: number) {
     const m = u.model
     const P = m.parts
