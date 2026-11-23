@@ -416,6 +416,7 @@ function harrier(team: Team): UnitModel {
   const s = shared[team]
   const root = new THREE.Group()
   const body = pivot(root, 0, 0.5, 0)
+  const parts: Record<string, THREE.Object3D> = {}
 
 export function buildModel(kind: UnitKind, team: Team): UnitModel {
   const m = BUILDERS[kind](team)
