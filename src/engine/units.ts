@@ -481,3 +481,4 @@ export class UnitSystem {
   private animate(u: Unit, dt: number, t: number) {
     const m = u.model
     const P = m.parts
+    m.root.position.copy(u.pos)
