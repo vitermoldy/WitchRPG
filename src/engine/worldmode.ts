@@ -30,3 +30,6 @@ export class WorldDirector {
 
   constructor(g: Game) {
     this.g = g
+  }
+
+  /** `keep` leaves cleared camps cleared (their clock keeps running); packs that were awake go back to sleep. */
