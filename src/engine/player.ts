@@ -179,3 +179,4 @@ export class Player {
 
     this.hurtTimer = Math.max(0, this.hurtTimer - dt)
     const eyeTarget = this.crouching || this.sliding > 0 ? MOVE.crouchEye : MOVE.eye
+    this.eye += (eyeTarget - this.eye) * Math.min(1, dt * 12)
