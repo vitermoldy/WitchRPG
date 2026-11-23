@@ -225,6 +225,7 @@ export class UnitSystem {
     if (u.hasModel) disposeModel(u.model)
   }
 
+  /** Gives a unit its own model in the scene, or takes it out so the crowd draws it. */
   }
 
   clear() {
