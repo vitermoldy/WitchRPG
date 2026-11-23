@@ -739,6 +739,7 @@ export class UnitSystem {
     const P = m.parts
     const hip = (m.body.userData.hip as number) ?? 0.95
     const baseLean = (P.spine.userData.lean as number) ?? 0.42
+    const { legL, legR, armL, armR } = P
       }
     }
   }
