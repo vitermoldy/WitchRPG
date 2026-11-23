@@ -144,3 +144,4 @@ export class BossFight {
   }
 
   /** A new phase: the Perjanjian steadies her for a moment. */
+  private breathe() {
