@@ -39,3 +39,4 @@ export class Game {
   readonly sfx = new Sfx()
   readonly player = new Player()
   readonly world: WorldBuild
+  readonly colliders: Colliders
