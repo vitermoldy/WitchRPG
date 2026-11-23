@@ -61,3 +61,4 @@ export class Game {
   private saveTimer = -1
   private readonly debug: boolean
   debugSpeed = 1
+  private readonly brokenCover: Box[] = []
