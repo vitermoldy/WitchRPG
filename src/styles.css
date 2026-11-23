@@ -583,3 +583,4 @@ button:disabled {
 }
 
 .crosshair svg {
+  display: block;
