@@ -442,6 +442,9 @@ export class ShadowPools {
       mesh.renderOrder = 6
       scene.add(mesh)
       this.pools.push({ mesh, mat, radius: 1, t: 0, hold: 0, open: 0, state: 'off' })
+    }
+  }
+
 /** A soft round texture for sprites (palm orbs, exit glow). */
 export function glowTexture(): THREE.Texture {
   const c = document.createElement('canvas')
