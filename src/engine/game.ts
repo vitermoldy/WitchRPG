@@ -174,3 +174,4 @@ export class Game {
     window.addEventListener('resize', () => this.resize())
     this.resize()
     this.applySettings()
+    this.respawnProps()
