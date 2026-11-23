@@ -74,3 +74,4 @@ export class Ledger {
           if (!this.dlg.open) this.dlg.showModal()
         })
       }
+    })
