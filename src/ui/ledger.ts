@@ -10,3 +10,4 @@ const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
   hex: { name: 'Hex', effect: '+2% damage sihir Chaos' },
   spr: { name: 'Spirit', effect: '+5 mana maks, regen lebih cepat' },
   vit: { name: 'Vitality', effect: '+10 HP maks' },
+  agi: { name: 'Agility', effect: '+1% gerak, +0,1 dtk melayang' },
