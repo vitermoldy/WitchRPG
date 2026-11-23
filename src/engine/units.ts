@@ -25,3 +25,4 @@ export interface UnitHost {
   propBlockers: { pos: THREE.Vector3; radius: number; top: number }[]
   /** Damage from a unit to the witch. */
   hurtPlayer(dmg: number, from: THREE.Vector3): void
+  /** Any damage to a unit goes through the host so XP, chaos and death stay in one place. */
