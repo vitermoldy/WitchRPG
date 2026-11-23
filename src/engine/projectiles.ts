@@ -91,3 +91,4 @@ export class Projectiles {
         s.reflected = true
         s.damage *= h.reflectDamage
         s.mesh.material = MATS.reflected
+        s.gravity = 0
