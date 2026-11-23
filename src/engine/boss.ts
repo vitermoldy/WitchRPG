@@ -233,3 +233,4 @@ export class BossFight {
             if (h) this.feed.set(h, performance.now() / 1000 + 9)
           }
           g.hud.message('Ia memanggil husk ke pilarnya. Habisi sebelum ditelan.', 'info')
+          this.summonT = BOSS.feedEvery
