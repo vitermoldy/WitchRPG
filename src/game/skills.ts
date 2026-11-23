@@ -136,3 +136,5 @@ export const SKILLS: SkillDef[] = [
     upgrade: 'Belum dirancang.',
     built: false,
   },
+]
+
