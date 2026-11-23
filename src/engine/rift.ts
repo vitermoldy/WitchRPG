@@ -43,6 +43,7 @@ export class RiftDirector {
   private timer = 0
   private spawnT = 0
   /** Seconds the last few of a wave have been left standing. */
+  private straggle = 0
   private readonly portals: Portal[] = []
   private readonly exit: THREE.Group
   private readonly exitMat: THREE.ShaderMaterial
