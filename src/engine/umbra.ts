@@ -338,3 +338,4 @@ export class Umbra {
         g.hud.message(`Tukar Tempat siap lagi dalam ${Math.ceil(this.swapCd)} detik.`, 'umbra')
         return
       }
+      if (!shadows.length) {
